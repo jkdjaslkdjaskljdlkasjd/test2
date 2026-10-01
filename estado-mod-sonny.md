@@ -1,10 +1,16 @@
 # Mod de Sonny 2: estado del proyecto
 
-Última actualización: 01/10/2026 (I35: los 10 fondos de combate en HD).
+Última actualización: 01/10/2026 (I36: combate HD en JAIL y SNOW, arreglado para AIR).
 
 ## Estado actual
 
-- **I35 (vigente, 01/10):** los 10 fondos de combate del usuario (`SONNY2_COMBATE_2K_FINAL.zip`, en `completos/`) cubren los 99 combates.
+- **I36 (vigente, 01/10):** combate HD solo en New Alcatraz (JAIL) y Oberursel (SNOW), por pedido del usuario; el resto vuelve al fondo clásico.
+  - **Bug de I35 en AIR:** todos los combates mostraban CHURCH. Causa: el `gotoAndStop` hacia adelante recorre los fotogramas del contenedor y AIR ignora la colocación en una profundidad ocupada. Ahora cada fotograma vacía las profundidades 1 y 2 antes de colocar.
+  - **Zoom:** con SFX3 apagado el juego bajaba la calidad a LOW en cada zoom (imagen pixelada); en HD se mantiene `KrinSettings.QUALITY`.
+  - **JAIL:** el borde entre capas sigue la base de los edificios (antes una línea recta los cortaba en el zoom).
+  - **Pilares (CHURCH, ROME):** cualquier corte en dos capas los parte en el zoom; resolverlo antes de reactivarlos.
+  - JPEG 95 con color completo; el SWF pesa 28,5 MB. SHA `49a3537f…2cfd`.
+- **I35 (01/10):** los 10 fondos de combate del usuario (`SONNY2_COMBATE_2K_FINAL.zip`, en `completos/`) cubren los 99 combates.
   - Cada combate elige su imagen con `__hdBattleMap` (ZoneBG|SkyBG). Todas van en dos capas (`capas.BORDES`).
   - Los 12 suelos originales se ocultan con envoltorios.
   - El zoom de los ataques en HD queda al 50 % (`__hdZoomF`), porque al usuario le daba mareo.
@@ -675,8 +681,8 @@ En `SONNY2_HD_PARTE2.zip` van `NECESITO.md`, las plantillas con guías, los orig
   1. ~~el menú de habilidades en 2K~~ (I30);
   2. revisar las habilidades: el usuario siente que pocas explotan las marcas (Scent, Wounds, Frostbite), salvo unas cuantas. Lo van a conversar antes de tocar nada.
 - **Menú principal en 2K:** el usuario va a pedirle a ChatGPT el fondo del título en 2560x1440 (con y sin el título «SONNY 2», sin textos ni botones) para integrarlo como los fondos HD.
-- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, SWF de I35, imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
-- **Stand-by (01/10):** el usuario ve solo la primera imagen de combate en su app; en Ruffle se ven las 10. Sin investigar por pedido suyo.
+- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, los 5 SWF más nuevos (regla del usuario), imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
+- **«Solo se muestra la primera imagen» (01/10):** resuelto en I36; falta la confirmación del usuario en su app.
 - **2K:** imágenes de pantalla completa para las demás zonas (las da el usuario).
 - **Mod:**
   - Frozen Maw;

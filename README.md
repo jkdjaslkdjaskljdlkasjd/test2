@@ -14,13 +14,14 @@ Repositorio del mod de Sonny 2.
 - `i32/`: combate HD en Oberursel (fondo a pantalla completa, solo las barras arriba, panel de abajo al 62 %).
 - `i33/`: la imagen HD del combate sigue la cámara.
 - `i34/`: combate HD en dos capas (cielo quieto, suelo con la cámara) y el diálogo en su cuadro.
-- `i35/`: los 10 fondos de combate en HD (los 99 combates) y el zoom al 50 % en HD. **Versión vigente.** La guía está en `i35/documentacion/COMBATE_HD.md`.
+- `i35/`: los 10 fondos de combate en HD (los 99 combates) y el zoom al 50 % en HD.
+- `i36/`: combate HD solo en New Alcatraz y Oberursel, con el arreglo de «siempre CHURCH» en AIR y sin pixelado en el zoom. **Versión vigente.** La guía está en `i36/documentacion/COMBATE_HD.md`.
 - `instalador/`: `INSTALAR.bat` y `RESTAURAR.bat` (copian `SONNY2.swf` a la carpeta del juego de Steam con respaldo).
 
-- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`).
+- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`).
   - `bases/SONNY2_29-09.swf`: el SWF de I30 del que parten I31 a I35;
   - `paso5/`: el contenido de `DECOMPILACION_PASO5.zip` (herramientas, juego base recompilado y su descompilación);
-  - `i31/` e `i35/`: la fuente de trabajo, con las imágenes ya preparadas en `build/`.
-- `i35/SONNY2.swf`: el SWF vigente, para instalar con `instalador/INSTALAR.bat`.
+  - `i31/`, `i35/` e `i36/`: la fuente de trabajo, con las imágenes ya preparadas en `build/`.
+- **SWF:** se guardan solo los 5 más nuevos (regla del usuario), cada uno en `iNN/SONNY2.swf`: hoy I32 a I36. El vigente es `i36/SONNY2.swf`, para instalar con `instalador/INSTALAR.bat`. Los anteriores se recompilan desde su fuente.
 
 La repo es privada, así que lleva también el SWF, las imágenes y las capturas.

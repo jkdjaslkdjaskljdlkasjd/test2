@@ -1,6 +1,6 @@
 # Traspaso para la siguiente sesión (LLM): mod de Sonny 2, rework del lobo
 
-Última actualización: 01/10/2026. Versión vigente: **I35** (los 10 fondos de combate en HD).
+Última actualización: 01/10/2026. Versión vigente: **I36** (combate HD solo en New Alcatraz y Oberursel, con el arreglo de «siempre CHURCH» en AIR).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -22,7 +22,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I32 | Combate HD en Oberursel: fondo a pantalla completa, solo las barras arriba y el panel de abajo al 62 % |
   | I33 | La imagen HD del combate sigue la cámara (zoom y temblor) |
   | I34 | Combate HD en dos capas (cielo quieto y suelo con la cámara) y diálogo al 62 % |
-  | **I35** | Los 10 fondos de combate en HD (99 combates) y el zoom al 50 % en HD |
+  | I35 | Los 10 fondos de combate en HD (99 combates) y el zoom al 50 % en HD |
+  | **I36** | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -36,7 +37,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
 - **Repo:**
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
-  - no se abre PR salvo que el usuario lo pida.
+  - no se abre PR salvo que el usuario lo pida;
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I32 a I36, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
 - **Commits:** terminan con el trailer de la sesión.
 - **Antes de cambiar habilidades:** conversar con el usuario. Ver la sección 6.
 
@@ -86,7 +88,18 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I35, los 10 fondos de combate (01/10)
+## 5. Lo último que se hizo: I36, arreglo del combate HD en AIR (01/10)
+
+- **El bug (video del usuario, I35):** en su app todos los combates mostraban la imagen de CHURCH. El contenedor `__hdBattleBG` tiene un fotograma por imagen y todas van en las profundidades 1 y 2. `gotoAndStop(etiqueta)` hacia adelante recorre los fotogramas intermedios y Flash/AIR **ignora una colocación en una profundidad ocupada**, así que quedaba la del primer fotograma (CHURCH). Ruffle no lo reproduce. Arreglo: cada fotograma del contenedor quita las profundidades 1 y 2 antes de colocar (`batalla.py`). Es la misma trampa que el bug de Hew (I31).
+- **Calidad en el zoom:** con la opción SFX3 apagada, `GridZoomer` (3345, fotogramas 2 y 6) baja `_quality` a `LOW` mientras dura el zoom, y la imagen HD se dibuja sin suavizado (pilares pixelados). En HD se vuelve a `KrinSettings.QUALITY` al final de esos dos scripts (`CALIDAD` en `build.py`).
+- **Pedido del usuario:** HD solo en New Alcatraz (JAIL, Zona 1) y Oberursel (SNOW, Zona 2). `capas.ACTIVOS = ('JAIL', 'SNOW')` decide qué imágenes entran al SWF, y `__hdBattleMap` tiene solo esas dos combinaciones. El resto queda clásico. Para volver a activar otra imagen, agregarla a `ACTIVOS` y a `__hdBattleMap` (la lista está comentada en `hd_batalla.as`).
+- **JAIL:** el borde entre capas ya no es la línea recta en 620 (cortaba la base de los edificios de los costados con el zoom). Ahora es `('puntos', …)`: sigue la base de los edificios, 8 px hacia el suelo.
+- **Pilares de CHURCH y ROME:** cualquier corte entre capas parte los pilares en el zoom. Antes de reactivarlos: o una sola capa que siga la cámara, o sin zoom en esos fondos.
+- **Imágenes:** JPEG 95 con color completo (4:4:4). El suelo se codifica desde el PNG original (antes se recomprimía el JPEG). El SWF pesa 28,5 MB.
+- **Fuente:** `trabajo/i36/` (en la repo) o `i36/fuente/`. `python3 build.py SONNY2_I36.swf` da `49a3537f…2cfd`.
+- **Ruffle:** `banco/s_i36.json` (JAIL con SFX3 apagado, SNOW, TRAIN y CHURCH), en menos de 10 minutos.
+
+## 5z. I35, los 10 fondos de combate (01/10)
 
 - **Fuente:** `i35/fuente/`.
   - `capas.BORDES`: el borde entre cielo y suelo de cada imagen;
@@ -247,8 +260,8 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i35/build.py SONNY2_I35.swf`. Sale `5d5a9beb…576e`, igual que I35. `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
-- **En stand-by (pedido del usuario, 01/10):** en su app «solo se muestra la primera imagen» de combate. En Ruffle se ven las 10. No investigar hasta que lo pida.
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas
 
