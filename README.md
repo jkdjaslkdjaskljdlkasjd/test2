@@ -16,7 +16,7 @@ Repositorio del mod de Sonny 2.
 - `i34/`: combate HD en dos capas (cielo quieto, suelo con la cámara) y el diálogo en su cuadro.
 - `i35/`: los 10 fondos de combate en HD (los 99 combates) y el zoom al 50 % en HD.
 - `i36/`: combate HD solo en New Alcatraz y Oberursel, con el arreglo de «siempre CHURCH» en AIR y sin pixelado en el zoom. **Versión vigente.** La guía está en `i36/documentacion/COMBATE_HD.md`.
-- `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. El fondo limpio de Oberursel está en `world_map/VILLAGE_Z2.jpg` (2560x1440).
+- `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. Los mapas limpios son `world_map/VILLAGE_Z2.jpg` (Oberursel) y `world_map/ROME_Z6.jpg` (Il Sanctus), ambos de 2560x1440.
 - `instalador/`: `INSTALAR.bat` y `RESTAURAR.bat` (copian `SONNY2.swf` a la carpeta del juego de Steam con respaldo).
 
 - `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`).
