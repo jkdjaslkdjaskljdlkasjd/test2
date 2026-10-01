@@ -8,8 +8,8 @@ Carpeta de referencia organizada por la zona real del juego.
 |---|---|---:|
 | SEA_Z0.png | SEA | 0 |
 | JAIL_Z1.png | JAIL | 1 |
-| CHURCH_Z2_2.png | CHURCH | 2 |
-| SNOW_Z2_1.png | SNOW | 2 |
+| CHURCH_Z2_1.png | CHURCH | 2 |
+| SNOW_Z2_2.png | SNOW | 2 |
 | TRAIN_Z3.png | TRAIN | 3 |
 | TUNNEL_Z4.png | TUNNEL | 4 |
 | STREETS_Z5_1.png | STREETS | 5 |
