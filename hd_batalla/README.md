@@ -1,19 +1,25 @@
 # Fondos HD de batalla
 
-Carpeta de referencia organizada por zona para los 10 fondos HD de combate.
+Carpeta de referencia organizada por la zona real del juego.
 
-| Archivo | Fondo del juego | Zona |
+> Las capturas de referencia enviadas el 01/10/2026 para aclarar las zonas **no se guardan ni se usan como recursos**.
+
+| Archivo | Fondo fuente | Zona |
 |---|---|---:|
 | SEA_Z0.png | SEA | 0 |
 | JAIL_Z1.png | JAIL | 1 |
-| SNOW_Z2.png | SNOW | 2 |
+| CHURCH_Z2_1.png | CHURCH | 2 |
+| SNOW_Z2_2.png | SNOW | 2 |
 | TRAIN_Z3.png | TRAIN | 3 |
 | TUNNEL_Z4.png | TUNNEL | 4 |
 | STREETS_Z5_1.png | STREETS | 5 |
-| STREETS2_Z5_2.png | STREETS2 | 5 |
-| CHURCH_Z6_1.png | CHURCH | 6 |
-| ROME_Z6_2.png | ROME | 6 |
-| STREETS3_Z7.png | STREETS3 | 7 |
+| STREETS3_Z5_2.png | STREETS3 | 5 |
+| STREETS2_Z5_3.png | STREETS2 | 5 |
+| ROME_Z6.png | ROME | 6 |
 
-Estos archivos apuntan a los PNG fuente canónicos que ya estaban guardados en `trabajo/i36/fuente/imagenes/`.
-Git reutiliza los mismos blobs, por lo que esta organización no duplica el contenido binario en el historial.
+Notas:
+- CHURCH corresponde a la Zona 2, no a la Zona 6.
+- STREETS, STREETS3 y STREETS2 son los tres fondos de la Zona 5.
+- ROME corresponde a la Zona 6.
+- La captura mostrada como referencia para la Zona 7 no se incorpora a esta carpeta.
+- Estos nombres reutilizan los blobs PNG canónicos que ya existen en `trabajo/i36/fuente/imagenes/`; no duplican el contenido binario.
