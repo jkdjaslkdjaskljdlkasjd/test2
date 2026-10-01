@@ -1,0 +1,7906 @@
+{
+ "clips vacios": {
+  "pasos": 18475,
+  "identicos": 18475,
+  "cortados": 0,
+  "distintos": 0,
+  "funciones": [
+   1659,
+   1659
+  ],
+  "efectos": 570304,
+  "diferencias": [],
+  "cobertura": {
+   "original": [
+    297034,
+    357319,
+    1598,
+    1692
+   ],
+   "recompilado": [
+    267354,
+    320039,
+    1598,
+    1692
+   ]
+  },
+  "cobertura_por_script": {
+   "scripts/escenario/frame_0001/DoAction.as": [
+    35924,
+    35924
+   ],
+   "scripts/escenario/frame_0002/DoAction.as": [
+    61,
+    61
+   ],
+   "scripts/escenario/frame_0004/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/escenario/frame_0004/colocacion_d27/onClipEvent(enterFrame).as": [
+    18,
+    18
+   ],
+   "scripts/escenario/frame_0005/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0006/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0021/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0041/DoAction.as": [
+    37297,
+    37301
+   ],
+   "scripts/escenario/frame_0042/DoAction.as": [
+    191,
+    212
+   ],
+   "scripts/escenario/frame_0042/DoAction_2.as": [
+    178032,
+    218989
+   ],
+   "scripts/escenario/frame_0043/DoAction.as": [
+    168,
+    189
+   ],
+   "scripts/escenario/frame_0043/colocacion_d105/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d109/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d112/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d115/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d117/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d120/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d205/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d210/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d214/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d217/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d220/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d224/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d249/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d253/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d257/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d260/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d263/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d270/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d275/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d277/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d281/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d287/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d289/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d294/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d299/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d302/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d306/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d309/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d315/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d317/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d319/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d321/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d326/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d331/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d2609/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d2660/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0045/DoAction.as": [
+    10,
+    10
+   ],
+   "scripts/escenario/frame_0046/DoAction.as": [
+    187,
+    226
+   ],
+   "scripts/escenario/frame_0056/DoAction.as": [
+    38,
+    38
+   ],
+   "scripts/escenario/frame_0064/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0074/DoAction.as": [
+    75,
+    94
+   ],
+   "scripts/escenario/frame_0074/colocacion_d43_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/escenario/frame_0084/DoAction.as": [
+    62,
+    62
+   ],
+   "scripts/escenario/frame_0093/DoAction.as": [
+    275,
+    331
+   ],
+   "scripts/escenario/frame_0104/DoAction.as": [
+    59,
+    61
+   ],
+   "scripts/escenario/frame_0116/DoAction.as": [
+    37,
+    37
+   ],
+   "scripts/escenario/frame_0124/DoAction.as": [
+    73,
+    73
+   ],
+   "scripts/escenario/frame_0134/DoAction.as": [
+    86,
+    86
+   ],
+   "scripts/escenario/frame_0165/DoAction.as": [
+    43,
+    43
+   ],
+   "scripts/escenario/frame_0180/DoAction.as": [
+    41,
+    41
+   ],
+   "scripts/escenario/frame_0181/DoAction.as": [
+    241,
+    421
+   ],
+   "scripts/escenario/frame_0181/colocacion_d59_KrinScreen/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/escenario/frame_0181/colocacion_d167_KRINMENU/onClipEvent(load).as": [
+    29,
+    45
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1604_KrinToolTipper/onClipEvent(enterFrame).as": [
+    6,
+    6
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1643_krinNavFadeSpeech/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(enterFrame).as": [
+    20,
+    39
+   ],
+   "scripts/escenario/frame_0200/DoAction.as": [
+    144,
+    144
+   ],
+   "scripts/escenario/frame_0200/colocacion_d37_krinNavFadeSpeech/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0201/DoAction.as": [
+    1348,
+    1691
+   ],
+   "scripts/escenario/frame_0216/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0217/DoAction.as": [
+    1791,
+    2258
+   ],
+   "scripts/escenario/frame_0217/colocacion_d73/onClipEvent(load).as": [
+    12,
+    12
+   ],
+   "scripts/escenario/frame_0217/colocacion_d89_BATTLESCREEN/onClipEvent(load).as": [
+    19,
+    19
+   ],
+   "scripts/escenario/frame_0217/colocacion_d330_GridShaker/onClipEvent(load).as": [
+    12,
+    12
+   ],
+   "scripts/escenario/frame_0217/colocacion_d332_GridZoomer/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/escenario/frame_0217/colocacion_d338_BATTLEFLASH/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d396_p6BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d414_p2BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d432_p4BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(load).as": [
+    97,
+    104
+   ],
+   "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(enterFrame).as": [
+    437,
+    4697
+   ],
+   "scripts/escenario/frame_0217/colocacion_d484_krinToMove/onClipEvent(load).as": [
+    36,
+    43
+   ],
+   "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(load).as": [
+    181,
+    191
+   ],
+   "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(enterFrame).as": [
+    55,
+    360
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(enterFrame).as": [
+    38,
+    80
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(keyDown).as": [
+    8,
+    37
+   ],
+   "scripts/escenario/frame_0217/colocacion_d647_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/escenario/frame_0218/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0219/DoAction.as": [
+    202,
+    297
+   ],
+   "scripts/escenario/frame_0229/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0230/DoAction.as": [
+    29,
+    29
+   ],
+   "scripts/escenario/frame_0240/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0241/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0252/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0253/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0263/DoAction.as": [
+    51,
+    51
+   ],
+   "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(enterFrame).as": [
+    80,
+    114
+   ],
+   "scripts/escenario/frame_0293/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0320/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0346/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0372/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0396/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0421/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0449/DoAction.as": [
+    605,
+    703
+   ],
+   "scripts/escenario/frame_0449/colocacion_d93_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0018/DoAction.as": [
+    11,
+    52
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0019/DoAction.as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0036/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0038/DoAction.as": [
+    23,
+    46
+   ],
+   "scripts/DefineSprite_152_LifeBarSmoother2/frame_0019/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_152_LifeBarSmoother2/frame_0039/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0068/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0130/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0182/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0234/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_204/frame_0033/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_209_BrdrShdw/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_211_BrdrFace/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_214_BrdrBlk/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_216_BrdrHilght/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_221_UIObject/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_224/on(keyPress_<Tab>_).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_225/frame_0001/DoAction.as": [
+    1,
+    1
+   ],
+   "scripts/DefineSprite_227_FocusManager/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_229_UIComponent/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_230_SimpleButton/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_231_Border/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_232_RectBorder/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_234_Button/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_234_Button/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_235_CustomBorder/frame_0001/DoAction.as": [
+    1,
+    1
+   ],
+   "scripts/DefineSprite_247_ScrollThemeColor1/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_249_ScrollThemeColor2/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_260_ThumbThemeColor1/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_262_ThumbThemeColor3/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_269_ThumbThemeColor2/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d59/onClipEvent(load).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_442/frame_0020/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_578_BOOM_SUN_BLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_579_BOOM_SUN_PURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_621/frame_0010/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_622_BOOM_STAR_PURPLE/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_636_ex_DOWNPURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_637_ex_DOWNBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_711_ex_AnasOut3/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_712_BOOM_STAR_BLUE/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_724/frame_0015/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_725_BOOM_SLASHPURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_734_ex_SPRYELLOW/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_735_ex_SPRPURPLE/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_736_ex_SPRBLUE/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_737_ex_AnasOut2/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_771_BOOM_STAR_YELLOW/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_784_POISON_SHATTER/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_786_BOOM_STAR/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_787_BOOM_ANAS/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_788_BOOM_IMMOB/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1033_BOOM_SPARKBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1045/frame_0013/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1046_BOOM_SLASH2RED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1047_BOOM_SLASH2/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1048_BOOM_SLASHBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1049_BOOM_SLASHORANGE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1050_BOOM_SLASHRED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1051_BOOM_SLASHGREEN/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1052_BOOM_SLASH/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1055_BOOM_POWERUP/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1059_BOOM_SHIELD/frame_0020/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1060_BOOM_RED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1061_BOOM_HEAL2/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1062_BOOM_DARK/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1063_BOOM_HEAL/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1125_BOOM1/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0029/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0056/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0077/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1986/frame_0401/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0402/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0403/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0404/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0405/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0406/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0407/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0408/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0409/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0410/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0411/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1989_KrinBuffShower/frame_0001/colocacion_d1_buffColor/onClipEvent(enterFrame).as": [
+    16,
+    27
+   ],
+   "scripts/DefineSprite_1990_BOOM3/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1991_BOOM2/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_4235/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4235/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4238/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4238/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4241/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4241/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4244/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4244/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4247/frame_0001/DoAction.as": [
+    48,
+    49
+   ],
+   "scripts/DefineSprite_4247/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4250/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4250/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4253/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4253/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4256/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4256/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4259/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4259/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4262/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4262/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4265/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4265/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4268/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4268/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4271/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4271/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4274/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4274/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4277/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4277/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4280/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4280/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4283/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4283/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4286/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4286/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4289/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4289/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4292/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4292/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4295/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4295/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4298/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4298/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4301/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4301/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4304/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4304/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4307/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4307/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4310/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4310/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4313/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4313/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4316/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4316/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(load).as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(enterFrame).as": [
+    44,
+    195
+   ],
+   "scripts/DefineSprite_2186/frame_0015/colocacion_d1_moveColor/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d1_moveColor/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(load).as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(enterFrame).as": [
+    51,
+    367
+   ],
+   "scripts/DefineSprite_2186/frame_0987/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0988/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0989/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0990/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0991/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0992/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0993/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0994/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0995/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0996/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0997/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0998/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0999/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1000/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1003/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1004/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1005/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1006/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1008/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1009/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1010/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1011/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1012/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1013/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1014/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2190/on(press).as": [
+    75,
+    89
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0142/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0162/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0192/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0243/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0259/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2285/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2286/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2289/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2290/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2291/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2295/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    18,
+    18
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2359/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2360/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2361/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2362/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2363/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2364/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2367/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2370/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0069/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2382/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2383/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2384/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2385/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2386/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0069/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2421/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2422/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2423/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2424/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2425/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2426/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0071/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2430/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2433/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2436/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2439/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2442/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2445/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2448/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2451/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0045/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0077/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0086/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0154/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0214/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0230/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0247/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0295/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0306/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2453_BOOM_SPARK/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2456/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2457/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2460/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2461/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0045/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0077/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0088/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0107/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0118/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0137/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0146/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0188/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0219/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0279/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0295/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0312/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0360/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0371/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DoInitAction/DefineSprite_4104___Packages.mx.skins.ColoredSkinElement.as": [
+    155,
+    155
+   ],
+   "scripts/DoInitAction/DefineSprite_4105___Packages.mx.core.UIObject.as": [
+    1377,
+    1630
+   ],
+   "scripts/DoInitAction/DefineSprite_4106___Packages.mx.skins.SkinElement.as": [
+    108,
+    120
+   ],
+   "scripts/DoInitAction/DefineSprite_4107___Packages.mx.styles.CSSTextStyles.as": [
+    326,
+    370
+   ],
+   "scripts/DoInitAction/DefineSprite_4108___Packages.mx.styles.CSSStyleDeclaration.as": [
+    132,
+    206
+   ],
+   "scripts/DoInitAction/DefineSprite_4109___Packages.mx.styles.StyleManager.as": [
+    171,
+    183
+   ],
+   "scripts/DoInitAction/DefineSprite_4110___Packages.mx.events.EventDispatcher.as": [
+    303,
+    346
+   ],
+   "scripts/DoInitAction/DefineSprite_4111___Packages.mx.events.UIEventDispatcher.as": [
+    498,
+    528
+   ],
+   "scripts/DoInitAction/DefineSprite_4112___Packages.mx.core.ext.UIObjectExtensions.as": [
+    590,
+    676
+   ],
+   "scripts/DoInitAction/DefineSprite_4113___Packages.mx.managers.DepthManager.as": [
+    955,
+    1628
+   ],
+   "scripts/DoInitAction/DefineSprite_4114___Packages.mx.core.UIComponent.as": [
+    427,
+    465
+   ],
+   "scripts/DoInitAction/DefineSprite_4115___Packages.mx.managers.FocusManager.as": [
+    1378,
+    2489
+   ],
+   "scripts/DoInitAction/DefineSprite_4116___Packages.mx.controls.SimpleButton.as": [
+    1273,
+    1474
+   ],
+   "scripts/DoInitAction/DefineSprite_4117___Packages.mx.managers.SystemManager.as": [
+    417,
+    478
+   ],
+   "scripts/DoInitAction/DefineSprite_4118___Packages.mx.skins.halo.Defaults.as": [
+    868,
+    942
+   ],
+   "scripts/DoInitAction/DefineSprite_4119___Packages.mx.skins.halo.FocusRect.as": [
+    569,
+    660
+   ],
+   "scripts/DoInitAction/DefineSprite_4120___Packages.mx.managers.OverlappedWindows.as": [
+    809,
+    944
+   ],
+   "scripts/DoInitAction/DefineSprite_4121___Packages.mx.core.ext.UIComponentExtensions.as": [
+    241,
+    265
+   ],
+   "scripts/DoInitAction/DefineSprite_4122___Packages.mx.styles.CSSSetStyle.as": [
+    319,
+    940
+   ],
+   "scripts/DoInitAction/DefineSprite_4123___Packages.mx.skins.Border.as": [
+    92,
+    104
+   ],
+   "scripts/DoInitAction/DefineSprite_4124___Packages.mx.skins.RectBorder.as": [
+    191,
+    203
+   ],
+   "scripts/DoInitAction/DefineSprite_4125___Packages.mx.skins.halo.RectBorder.as": [
+    444,
+    727
+   ],
+   "scripts/DoInitAction/DefineSprite_4126___Packages.mx.skins.halo.ButtonSkin.as": [
+    208,
+    896
+   ],
+   "scripts/DoInitAction/DefineSprite_4127___Packages.mx.controls.Button.as": [
+    747,
+    939
+   ],
+   "scripts/DoInitAction/DefineSprite_4128___Packages.mx.skins.CustomBorder.as": [
+    298,
+    385
+   ],
+   "scripts/DoInitAction/DefineSprite_4129___Packages.mx.controls.scrollClasses.ScrollBar.as": [
+    980,
+    1342
+   ],
+   "scripts/DoInitAction/DefineSprite_4130___Packages.mx.controls.scrollClasses.ScrollThumb.as": [
+    312,
+    340
+   ],
+   "scripts/DoInitAction/DefineSprite_4131___Packages.mx.controls.HScrollBar.as": [
+    140,
+    163
+   ],
+   "scripts/DoInitAction/DefineSprite_4132___Packages.mx.controls.VScrollBar.as": [
+    121,
+    156
+   ],
+   "scripts/DoInitAction/DefineSprite_4133___Packages.mx.controls.UIScrollBar.as": [
+    471,
+    754
+   ],
+   "scripts/DoInitAction/DefineSprite_4134___Packages.com.gskinner.utils.SWFBridgeAS2.as": [
+    297,
+    307
+   ],
+   "scripts/DoInitAction/DefineSprite_220_UIObjectExtensions.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_221_UIObject.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_225.as": [
+    45,
+    45
+   ],
+   "scripts/DoInitAction/DefineSprite_226_FocusRect.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_227_FocusManager.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_228_UIComponentExtensions.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_229_UIComponent.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_230_SimpleButton.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_231_Border.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_232_RectBorder.as": [
+    34,
+    34
+   ],
+   "scripts/DoInitAction/DefineSprite_233_ButtonSkin.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_234_Button.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_235_CustomBorder.as": [
+    24,
+    24
+   ],
+   "scripts/DoInitAction/DefineSprite_290_BtnDownArrow.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_291_BtnUpArrow.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_293_HScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_294_VScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_295_UIScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_219_Defaults.as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_2472/frame_0001/DoAction.as": [
+    77,
+    77
+   ],
+   "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(load).as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(enterFrame).as": [
+    18,
+    18
+   ],
+   "scripts/DefineButton2_2494/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_2496/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2502/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2503/frame_0001/colocacion_d1_inner2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2503/frame_0001/colocacion_d35_shield/onClipEvent(load).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2506/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineSprite_2636/frame_0001/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2636/frame_0105/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2643/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2644/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2645/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2650/on(release).as": [
+    8,
+    8
+   ],
+   "scripts/DefineButton2_2651/on(release).as": [
+    8,
+    8
+   ],
+   "scripts/DefineButton2_2653/on(release).as": [
+    681,
+    681
+   ],
+   "scripts/DefineButton2_2655/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2659/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2672/on(release).as": [
+    37,
+    155
+   ],
+   "scripts/DefineButton2_2672/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2672/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2673/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2673/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2673/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2674/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2674/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2674/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2675/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2675/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2675/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2680/frame_0001/DoAction.as": [
+    56,
+    56
+   ],
+   "scripts/DefineSprite_2680/frame_0001/colocacion_d18_inner2/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_2680/frame_0003/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2680/frame_0004/DoAction.as": [
+    283,
+    288
+   ],
+   "scripts/DefineSprite_2680/frame_0006/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2680/frame_0007/DoAction.as": [
+    349,
+    351
+   ],
+   "scripts/DefineSprite_2680/frame_0009/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0010/DoAction.as": [
+    176,
+    178
+   ],
+   "scripts/DefineSprite_2680/frame_0012/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0013/DoAction.as": [
+    432,
+    573
+   ],
+   "scripts/DefineSprite_2680/frame_0015/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0016/DoAction.as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2680/frame_0017/DoAction.as": [
+    460,
+    497
+   ],
+   "scripts/DefineSprite_2680/frame_0019/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2693/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2693/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2693/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2712/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2712/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2712/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2713/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2713/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2713/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2714/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2714/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2714/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2730/on(release).as": [
+    54,
+    84
+   ],
+   "scripts/DefineButton2_2731/on(release).as": [
+    76,
+    97
+   ],
+   "scripts/DefineButton2_2732/on(release).as": [
+    82,
+    97
+   ],
+   "scripts/DefineButton2_2733/on(release).as": [
+    60,
+    60
+   ],
+   "scripts/DefineButton2_2734/on(release).as": [
+    45,
+    68
+   ],
+   "scripts/DefineButton2_2735/on(release).as": [
+    15,
+    21
+   ],
+   "scripts/DefineButton2_2736/on(release).as": [
+    28,
+    47
+   ],
+   "scripts/DefineButton2_2740/on(release).as": [
+    20,
+    51
+   ],
+   "scripts/DefineButton2_2742/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2752/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2753/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2754/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2755/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2756/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineSprite_2795/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2796/on(press).as": [
+    122,
+    122
+   ],
+   "scripts/DefineSprite_2797/frame_0001/colocacion_d1_PIC/onClipEvent(enterFrame).as": [
+    16,
+    83
+   ],
+   "scripts/DefineSprite_2799/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d3_b3/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d14_b4/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d25_b1/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d36_b2/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d47_b5/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0009/DoAction.as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_2800/frame_0001/colocacion_d1_p5/onClipEvent(load).as": [
+    63,
+    63
+   ],
+   "scripts/DefineSprite_2800/frame_0001/colocacion_d49_p3/onClipEvent(load).as": [
+    63,
+    63
+   ],
+   "scripts/DefineSprite_2801/frame_0001/colocacion_d7_subAI_BAR/onClipEvent(load).as": [
+    22,
+    24
+   ],
+   "scripts/DefineButton2_2808/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2809/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2810/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2811/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2813/on(press).as": [
+    134,
+    209
+   ],
+   "scripts/DefineButton2_2813/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2813/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2814/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2814/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2814/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2815/on(press).as": [
+    146,
+    146
+   ],
+   "scripts/DefineButton2_2815/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2815/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2819/on(press).as": [
+    121,
+    172
+   ],
+   "scripts/DefineButton2_2819/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2819/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2820/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2820/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2820/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2821/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2822/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2823/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2824/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2827/on(press).as": [
+    131,
+    188
+   ],
+   "scripts/DefineButton2_2827/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2827/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2828/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2828/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2828/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2829/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2830/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2831/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2832/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2833/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2849/on(press).as": [
+    13,
+    172
+   ],
+   "scripts/DefineButton2_2849/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2849/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2850/on(release).as": [
+    13,
+    32
+   ],
+   "scripts/DefineButton2_2850/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2850/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2851/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2852/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2853/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2854/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2857/on(press).as": [
+    13,
+    174
+   ],
+   "scripts/DefineButton2_2857/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2857/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2858/on(release).as": [
+    13,
+    32
+   ],
+   "scripts/DefineButton2_2858/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2858/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2859/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2860/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2861/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2874/on(press).as": [
+    121,
+    166
+   ],
+   "scripts/DefineButton2_2874/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2874/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2875/on(press).as": [
+    140,
+    140
+   ],
+   "scripts/DefineButton2_2875/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2875/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2876/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2876/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2876/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2893/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2893/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2893/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2902/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2902/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2902/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2903/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2903/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2903/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2904/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2904/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2904/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2905/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2905/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2905/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2906/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2906/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2906/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2907/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2907/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2907/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2908/frame_0191/DoAction.as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_2910/on(release).as": [
+    21,
+    21
+   ],
+   "scripts/DefineButton2_2910/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2910/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2911/on(release).as": [
+    33,
+    58
+   ],
+   "scripts/DefineButton2_2911/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2911/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2912/on(release).as": [
+    53,
+    78
+   ],
+   "scripts/DefineButton2_2912/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2912/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2913/on(release).as": [
+    13,
+    33
+   ],
+   "scripts/DefineButton2_2914/on(press).as": [
+    13,
+    128
+   ],
+   "scripts/DefineButton2_2915/on(release).as": [
+    24,
+    58
+   ],
+   "scripts/DefineButton2_2915/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2915/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2916/on(release).as": [
+    24,
+    731
+   ],
+   "scripts/DefineButton2_2916/on(rollOver).as": [
+    89,
+    89
+   ],
+   "scripts/DefineButton2_2916/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2917/on(release).as": [
+    12,
+    14
+   ],
+   "scripts/DefineButton2_2917/on(rollOver).as": [
+    68,
+    68
+   ],
+   "scripts/DefineButton2_2917/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2918/on(release).as": [
+    23,
+    33
+   ],
+   "scripts/DefineButton2_2918/on(rollOver).as": [
+    77,
+    77
+   ],
+   "scripts/DefineButton2_2918/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_2922/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2922/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2922/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2938/on(release).as": [
+    24,
+    58
+   ],
+   "scripts/DefineButton2_2938/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2938/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_2941/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2941/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2941/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2961/on(press).as": [
+    297,
+    455
+   ],
+   "scripts/DefineButton2_2961/on(rollOver).as": [
+    93,
+    246
+   ],
+   "scripts/DefineButton2_2961/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2963/on(press).as": [
+    671,
+    1376
+   ],
+   "scripts/DefineButton2_2963/on(rollOver).as": [
+    177,
+    298
+   ],
+   "scripts/DefineButton2_2963/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3050/on(press).as": [
+    42,
+    117
+   ],
+   "scripts/DefineButton2_3050/on(rollOver).as": [
+    76,
+    94
+   ],
+   "scripts/DefineButton2_3050/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3069/frame_0001/colocacion_d1/onClipEvent(enterFrame).as": [
+    16,
+    64
+   ],
+   "scripts/DefineSprite_3078/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3085/on(press).as": [
+    43,
+    43
+   ],
+   "scripts/DefineButton2_3085/on(rollOver).as": [
+    72,
+    72
+   ],
+   "scripts/DefineButton2_3085/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3089/on(press).as": [
+    14,
+    14
+   ],
+   "scripts/DefineButton2_3091/on(press).as": [
+    161,
+    415
+   ],
+   "scripts/DefineButton2_3091/on(rollOver).as": [
+    169,
+    344
+   ],
+   "scripts/DefineButton2_3091/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3100/on(release).as": [
+    62,
+    92
+   ],
+   "scripts/DefineButton2_3125/on(press).as": [
+    13,
+    98
+   ],
+   "scripts/DefineButton2_3125/on(rollOver).as": [
+    83,
+    123
+   ],
+   "scripts/DefineButton2_3125/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3133/on(press).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3133/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3133/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(press).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_3135/frame_0001/colocacion_d3_talentPool2/onClipEvent(enterFrame).as": [
+    35,
+    45
+   ],
+   "scripts/DefineButton2_3136/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3136/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3136/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3137/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3137/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3137/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3138/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3138/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3138/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3139/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3139/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3139/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3140/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3140/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3140/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3141/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3141/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3141/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3142/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3142/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3142/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3143/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3143/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3143/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3147/on(release).as": [
+    93,
+    492
+   ],
+   "scripts/DefineSprite_3154___v9NativeNode/frame_0001/colocacion_d17_thingoShow/onClipEvent(enterFrame).as": [
+    10,
+    13
+   ],
+   "scripts/DefineSprite_3155/frame_0001/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3173/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3177/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3178/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3179/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3180/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3188/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3194/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3199/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3201/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3204/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3205/frame_0001/DoAction.as": [
+    22,
+    22
+   ],
+   "scripts/DefineSprite_3205/frame_0007/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0012/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0055/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0056/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0106/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0107/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0150/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0151/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_3206/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_3206/on(rollOver).as": [
+    60,
+    100
+   ],
+   "scripts/DefineButton2_3206/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3211/on(release).as": [
+    89,
+    115
+   ],
+   "scripts/DefineButton2_3219/on(release).as": [
+    46,
+    68
+   ],
+   "scripts/DefineButton2_3235/on(rollOver).as": [
+    74,
+    74
+   ],
+   "scripts/DefineButton2_3235/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3237/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3239/frame_0001/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0001/DoAction_2.as": [
+    2025,
+    2130
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d786_playerSlot2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d807_playerSlot5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d828_playerSlot0/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d849_playerSlot3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d870_playerSlot4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d891_playerSlot1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d943_playerSlot6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(load).as": [
+    9,
+    9
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(enterFrame).as": [
+    10,
+    26
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(enterFrame).as": [
+    42,
+    42
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(load).as": [
+    42,
+    42
+   ],
+   "scripts/DefineSprite_3239/frame_0002/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0003/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0004/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0005/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0006/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0007/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0008/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0009/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0009/DoAction_2.as": [
+    436,
+    587
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(load).as": [
+    100,
+    103
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(enterFrame).as": [
+    9,
+    141
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(load).as": [
+    20,
+    103
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(enterFrame).as": [
+    9,
+    141
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(load).as": [
+    115,
+    118
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(enterFrame).as": [
+    9,
+    208
+   ],
+   "scripts/DefineSprite_3239/frame_0010/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0011/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0012/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0013/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0014/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0015/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0016/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0016/DoAction_2.as": [
+    675,
+    703
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d25___nzShopkeeper/onClipEvent(load).as": [
+    20,
+    26
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1103_playerSlot2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1124_playerSlot5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1145_playerSlot0/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1166_playerSlot3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1187_playerSlot4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1208_playerSlot1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1260_playerSlot6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0017/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0018/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0019/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0020/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0021/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0022/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0023/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0024/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0025/DoAction.as": [
+    1119,
+    1119
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d153_talenttreefull/onClipEvent(load).as": [
+    869,
+    889
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d657_statColor/onClipEvent(enterFrame).as": [
+    18,
+    23
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d675/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3239/frame_0026/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0027/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0028/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0029/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0030/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0031/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0032/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0033/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0034/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0035/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0036/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0037/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0038/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0039/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0039/DoAction_2.as": [
+    251,
+    349
+   ],
+   "scripts/DefineSprite_3239/frame_0040/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0041/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0042/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0043/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0044/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0045/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0045/DoAction_2.as": [
+    69,
+    78
+   ],
+   "scripts/DefineSprite_3239/frame_0046/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0047/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0048/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0049/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0050/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0051/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0052/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0053/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0054/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0055/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0056/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0057/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0058/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3243/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3243/frame_0002/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3243/frame_0125/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3250/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3251/frame_0001/DoAction.as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_3262/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3262/frame_0002/DoAction.as": [
+    37,
+    37
+   ],
+   "scripts/DefineButton2_3278/on(release).as": [
+    54,
+    54
+   ],
+   "scripts/DefineButton2_3280/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3281/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_3282/on(release).as": [
+    28,
+    28
+   ],
+   "scripts/DefineButton2_3283/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_3284/on(release).as": [
+    28,
+    28
+   ],
+   "scripts/DefineButton2_3291/on(press).as": [
+    14,
+    14
+   ],
+   "scripts/DefineButton2_3296/on(press).as": [
+    33,
+    52
+   ],
+   "scripts/DefineSprite_3298/frame_0001/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3298/frame_0001/colocacion_d13/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_3298/frame_0005/DoAction.as": [
+    32,
+    32
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d6/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d8/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d10/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d12/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d14/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d5/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d7/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d9/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d11/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d13/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d4/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d6/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d8/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d10/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d12/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d5/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d7/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d9/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d11/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d13/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3344/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3344/frame_0002/DoAction.as": [
+    18,
+    18
+   ],
+   "scripts/DefineSprite_3344/frame_0004/DoAction.as": [
+    22,
+    22
+   ],
+   "scripts/DefineSprite_3344/frame_0005/DoAction.as": [
+    45,
+    48
+   ],
+   "scripts/DefineSprite_3345/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3345/frame_0002/DoAction.as": [
+    67,
+    78
+   ],
+   "scripts/DefineSprite_3345/frame_0004/DoAction.as": [
+    152,
+    176
+   ],
+   "scripts/DefineSprite_3345/frame_0006/DoAction.as": [
+    27,
+    53
+   ],
+   "scripts/DefineSprite_3347/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3347/frame_0005/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0007/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0009/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0011/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0014/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0016/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0018/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0020/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_3348/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3348/frame_0002/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0004/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0006/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0008/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0010/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0012/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0014/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0016/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3348/frame_0017/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0019/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0021/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0023/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0025/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0027/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0029/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0031/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3348/frame_0032/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0034/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0036/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0038/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0040/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0042/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0044/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0046/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d1_fB2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d3_lB2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d6_fB/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d8_fB3/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d11_lB/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d13_lB3/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3368/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3378/frame_0001/colocacion_d2/onClipEvent(enterFrame).as": [
+    27,
+    29
+   ],
+   "scripts/DefineSprite_3378/frame_0001/colocacion_d6/onClipEvent(enterFrame).as": [
+    27,
+    27
+   ],
+   "scripts/DefineButton2_3381/on(release).as": [
+    47,
+    88
+   ],
+   "scripts/DefineButton2_3382/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3383/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3384/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3385/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3386/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3387/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3388/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3389/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineSprite_3393/frame_0021/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3394/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3405/frame_0001/DoAction.as": [
+    16,
+    16
+   ],
+   "scripts/DefineButton2_3408/on(release).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_3408/on(rollOver).as": [
+    45,
+    45
+   ],
+   "scripts/DefineButton2_3408/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3409/frame_0031/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3409/frame_0085/DoAction.as": [
+    32,
+    52
+   ],
+   "scripts/DefineSprite_3415/frame_0401/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_3417/on(release).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3433/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3580/frame_2084/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3584/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3745/frame_1795/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3767/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3848/frame_0117/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3860/frame_0621/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3892/frame_0501/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3898/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3970/frame_1237/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3981/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_4083/frame_2424/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_4099/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_4101/on(release).as": [
+    6,
+    18
+   ],
+   "scripts/DefineButton2_4101/on(rollOver).as": [
+    51,
+    51
+   ],
+   "scripts/DefineButton2_4101/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_4103/frame_0001/colocacion_d85_mb6/onClipEvent(load).as": [
+    13,
+    13
+   ],
+   "scripts/DefineSprite_4103/frame_0001/colocacion_d91_mb7/onClipEvent(load).as": [
+    14,
+    26
+   ]
+  }
+ },
+ "clips que crean hijos": {
+  "pasos": 18475,
+  "identicos": 18473,
+  "cortados": 2,
+  "distintos": 0,
+  "funciones": [
+   1659,
+   1659
+  ],
+  "efectos": 626512,
+  "diferencias": [],
+  "cobertura": {
+   "original": [
+    298126,
+    357319,
+    1598,
+    1692
+   ],
+   "recompilado": [
+    268177,
+    320039,
+    1598,
+    1692
+   ]
+  },
+  "cobertura_por_script": {
+   "scripts/escenario/frame_0001/DoAction.as": [
+    35924,
+    35924
+   ],
+   "scripts/escenario/frame_0002/DoAction.as": [
+    61,
+    61
+   ],
+   "scripts/escenario/frame_0004/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/escenario/frame_0004/colocacion_d27/onClipEvent(enterFrame).as": [
+    18,
+    18
+   ],
+   "scripts/escenario/frame_0005/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0006/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0021/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0041/DoAction.as": [
+    37297,
+    37301
+   ],
+   "scripts/escenario/frame_0042/DoAction.as": [
+    204,
+    212
+   ],
+   "scripts/escenario/frame_0042/DoAction_2.as": [
+    180178,
+    218989
+   ],
+   "scripts/escenario/frame_0043/DoAction.as": [
+    168,
+    189
+   ],
+   "scripts/escenario/frame_0043/colocacion_d105/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d109/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d112/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d115/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d117/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d120/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d205/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d210/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d214/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d217/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d220/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d224/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d249/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d253/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d257/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d260/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d263/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d270/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d275/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d277/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d281/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d287/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d289/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d294/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d299/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d302/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d306/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d309/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d315/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d317/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d319/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d321/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d326/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d331/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d2609/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0043/colocacion_d2660/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0045/DoAction.as": [
+    10,
+    10
+   ],
+   "scripts/escenario/frame_0046/DoAction.as": [
+    187,
+    226
+   ],
+   "scripts/escenario/frame_0056/DoAction.as": [
+    38,
+    38
+   ],
+   "scripts/escenario/frame_0064/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0074/DoAction.as": [
+    75,
+    94
+   ],
+   "scripts/escenario/frame_0074/colocacion_d43_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/escenario/frame_0084/DoAction.as": [
+    62,
+    62
+   ],
+   "scripts/escenario/frame_0093/DoAction.as": [
+    275,
+    331
+   ],
+   "scripts/escenario/frame_0104/DoAction.as": [
+    59,
+    61
+   ],
+   "scripts/escenario/frame_0116/DoAction.as": [
+    37,
+    37
+   ],
+   "scripts/escenario/frame_0124/DoAction.as": [
+    73,
+    73
+   ],
+   "scripts/escenario/frame_0134/DoAction.as": [
+    86,
+    86
+   ],
+   "scripts/escenario/frame_0165/DoAction.as": [
+    43,
+    43
+   ],
+   "scripts/escenario/frame_0180/DoAction.as": [
+    41,
+    41
+   ],
+   "scripts/escenario/frame_0181/DoAction.as": [
+    241,
+    421
+   ],
+   "scripts/escenario/frame_0181/colocacion_d59_KrinScreen/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/escenario/frame_0181/colocacion_d167_KRINMENU/onClipEvent(load).as": [
+    29,
+    45
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1604_KrinToolTipper/onClipEvent(enterFrame).as": [
+    6,
+    6
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1643_krinNavFadeSpeech/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(enterFrame).as": [
+    20,
+    39
+   ],
+   "scripts/escenario/frame_0200/DoAction.as": [
+    144,
+    144
+   ],
+   "scripts/escenario/frame_0200/colocacion_d37_krinNavFadeSpeech/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0201/DoAction.as": [
+    1348,
+    1691
+   ],
+   "scripts/escenario/frame_0216/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0217/DoAction.as": [
+    1791,
+    2258
+   ],
+   "scripts/escenario/frame_0217/colocacion_d73/onClipEvent(load).as": [
+    12,
+    12
+   ],
+   "scripts/escenario/frame_0217/colocacion_d89_BATTLESCREEN/onClipEvent(load).as": [
+    19,
+    19
+   ],
+   "scripts/escenario/frame_0217/colocacion_d330_GridShaker/onClipEvent(load).as": [
+    12,
+    12
+   ],
+   "scripts/escenario/frame_0217/colocacion_d332_GridZoomer/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/escenario/frame_0217/colocacion_d338_BATTLEFLASH/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d396_p6BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d414_p2BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d432_p4BAR/onClipEvent(load).as": [
+    15,
+    15
+   ],
+   "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(enterFrame).as": [
+    35,
+    73
+   ],
+   "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(load).as": [
+    97,
+    104
+   ],
+   "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(enterFrame).as": [
+    437,
+    4697
+   ],
+   "scripts/escenario/frame_0217/colocacion_d484_krinToMove/onClipEvent(load).as": [
+    36,
+    43
+   ],
+   "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(load).as": [
+    181,
+    191
+   ],
+   "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(enterFrame).as": [
+    55,
+    360
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(enterFrame).as": [
+    38,
+    80
+   ],
+   "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(keyDown).as": [
+    8,
+    37
+   ],
+   "scripts/escenario/frame_0217/colocacion_d647_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/escenario/frame_0218/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0219/DoAction.as": [
+    202,
+    297
+   ],
+   "scripts/escenario/frame_0229/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0230/DoAction.as": [
+    29,
+    29
+   ],
+   "scripts/escenario/frame_0240/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0241/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/escenario/frame_0252/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/escenario/frame_0253/DoAction.as": [
+    13,
+    13
+   ],
+   "scripts/escenario/frame_0263/DoAction.as": [
+    51,
+    51
+   ],
+   "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(enterFrame).as": [
+    80,
+    114
+   ],
+   "scripts/escenario/frame_0293/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/escenario/frame_0320/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0346/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0372/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0396/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0421/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/escenario/frame_0449/DoAction.as": [
+    605,
+    703
+   ],
+   "scripts/escenario/frame_0449/colocacion_d93_KrinToolTipper/onClipEvent(enterFrame).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0018/DoAction.as": [
+    11,
+    52
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0019/DoAction.as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0036/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_151_LifeBarSmoother/frame_0038/DoAction.as": [
+    23,
+    46
+   ],
+   "scripts/DefineSprite_152_LifeBarSmoother2/frame_0019/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_152_LifeBarSmoother2/frame_0039/DoAction.as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0068/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0130/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0182/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_161_NumberFixer/frame_0234/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_204/frame_0033/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_209_BrdrShdw/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_211_BrdrFace/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_214_BrdrBlk/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_216_BrdrHilght/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_221_UIObject/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_224/on(keyPress_<Tab>_).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_225/frame_0001/DoAction.as": [
+    1,
+    1
+   ],
+   "scripts/DefineSprite_227_FocusManager/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_229_UIComponent/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_230_SimpleButton/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_231_Border/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_232_RectBorder/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_234_Button/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_234_Button/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_235_CustomBorder/frame_0001/DoAction.as": [
+    1,
+    1
+   ],
+   "scripts/DefineSprite_247_ScrollThemeColor1/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_249_ScrollThemeColor2/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_260_ThumbThemeColor1/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_262_ThumbThemeColor3/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_269_ThumbThemeColor2/frame_0001/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    27,
+    27
+   ],
+   "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d59/onClipEvent(load).as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_442/frame_0020/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_578_BOOM_SUN_BLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_579_BOOM_SUN_PURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_621/frame_0010/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_622_BOOM_STAR_PURPLE/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_636_ex_DOWNPURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_637_ex_DOWNBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_711_ex_AnasOut3/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_712_BOOM_STAR_BLUE/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_724/frame_0015/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_725_BOOM_SLASHPURPLE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_734_ex_SPRYELLOW/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_735_ex_SPRPURPLE/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_736_ex_SPRBLUE/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_737_ex_AnasOut2/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_771_BOOM_STAR_YELLOW/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_784_POISON_SHATTER/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_786_BOOM_STAR/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_787_BOOM_ANAS/frame_0015/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_788_BOOM_IMMOB/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1033_BOOM_SPARKBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1045/frame_0013/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1046_BOOM_SLASH2RED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1047_BOOM_SLASH2/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1048_BOOM_SLASHBLUE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1049_BOOM_SLASHORANGE/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1050_BOOM_SLASHRED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1051_BOOM_SLASHGREEN/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1052_BOOM_SLASH/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1055_BOOM_POWERUP/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1059_BOOM_SHIELD/frame_0020/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1060_BOOM_RED/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1061_BOOM_HEAL2/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1062_BOOM_DARK/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1063_BOOM_HEAL/frame_0016/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1125_BOOM1/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0029/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0056/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_1126_MODEL2/frame_0077/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1986/frame_0401/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0402/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0403/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0404/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0405/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0406/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0407/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0408/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0409/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0410/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1986/frame_0411/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_1989_KrinBuffShower/frame_0001/colocacion_d1_buffColor/onClipEvent(enterFrame).as": [
+    16,
+    27
+   ],
+   "scripts/DefineSprite_1990_BOOM3/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_1991_BOOM2/frame_0036/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_4235/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4235/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4238/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4238/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4241/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4241/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4244/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4244/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4247/frame_0001/DoAction.as": [
+    48,
+    49
+   ],
+   "scripts/DefineSprite_4247/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4250/frame_0001/DoAction.as": [
+    49,
+    49
+   ],
+   "scripts/DefineSprite_4250/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4253/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4253/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4256/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4256/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4259/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4259/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4262/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4262/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4265/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4265/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4268/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4268/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4271/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4271/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4274/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4274/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4277/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4277/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4280/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4280/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4283/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4283/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4286/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4286/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4289/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4289/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4292/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4292/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4295/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4295/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4298/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4298/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4301/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4301/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4304/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4304/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4307/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4307/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4310/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4310/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4313/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4313/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_4316/frame_0001/DoAction.as": [
+    39,
+    49
+   ],
+   "scripts/DefineSprite_4316/frame_0002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(load).as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(enterFrame).as": [
+    44,
+    195
+   ],
+   "scripts/DefineSprite_2186/frame_0015/colocacion_d1_moveColor/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d1_moveColor/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(load).as": [
+    14,
+    14
+   ],
+   "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(enterFrame).as": [
+    51,
+    367
+   ],
+   "scripts/DefineSprite_2186/frame_0987/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0988/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0989/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0990/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0991/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0992/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0993/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0994/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0995/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0996/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0997/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0998/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_0999/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1000/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1002/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1003/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1004/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1005/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1006/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1008/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1009/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1010/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1011/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1012/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1013/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2186/frame_1014/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2190/on(press).as": [
+    75,
+    89
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0142/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0162/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0192/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0243/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2219_MODEL9/frame_0259/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2285/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2286/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2289/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2290/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2291/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2295/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    18,
+    18
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2299_MODEL8/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2359/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2360/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2361/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2362/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2363/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2364/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2367/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2370/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0069/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2371_MODEL6/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2382/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2383/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2384/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2385/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2386/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0069/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2394_MODEL7/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2421/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2422/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2423/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2424/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2425/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2426/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0030/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0059/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0071/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0111/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0143/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0173/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0224/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2427_MODEL5/frame_0240/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2430/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2433/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2436/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2439/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2442/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2445/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2448/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2451/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0045/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0077/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0086/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0123/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0154/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0214/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0230/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0247/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0295/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2452_MODEL4/frame_0306/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2453_BOOM_SPARK/frame_0025/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2456/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2457/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2460/frame_0001/colocacion_d1/onClipEvent(load).as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_2461/frame_0012/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0045/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0077/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0088/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0107/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0118/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0137/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0146/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0188/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0219/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0279/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0295/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0312/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0360/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2462_MODEL1/frame_0371/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DoInitAction/DefineSprite_4104___Packages.mx.skins.ColoredSkinElement.as": [
+    155,
+    155
+   ],
+   "scripts/DoInitAction/DefineSprite_4105___Packages.mx.core.UIObject.as": [
+    1377,
+    1630
+   ],
+   "scripts/DoInitAction/DefineSprite_4106___Packages.mx.skins.SkinElement.as": [
+    108,
+    120
+   ],
+   "scripts/DoInitAction/DefineSprite_4107___Packages.mx.styles.CSSTextStyles.as": [
+    326,
+    370
+   ],
+   "scripts/DoInitAction/DefineSprite_4108___Packages.mx.styles.CSSStyleDeclaration.as": [
+    132,
+    206
+   ],
+   "scripts/DoInitAction/DefineSprite_4109___Packages.mx.styles.StyleManager.as": [
+    171,
+    183
+   ],
+   "scripts/DoInitAction/DefineSprite_4110___Packages.mx.events.EventDispatcher.as": [
+    303,
+    346
+   ],
+   "scripts/DoInitAction/DefineSprite_4111___Packages.mx.events.UIEventDispatcher.as": [
+    498,
+    528
+   ],
+   "scripts/DoInitAction/DefineSprite_4112___Packages.mx.core.ext.UIObjectExtensions.as": [
+    590,
+    676
+   ],
+   "scripts/DoInitAction/DefineSprite_4113___Packages.mx.managers.DepthManager.as": [
+    977,
+    1628
+   ],
+   "scripts/DoInitAction/DefineSprite_4114___Packages.mx.core.UIComponent.as": [
+    431,
+    465
+   ],
+   "scripts/DoInitAction/DefineSprite_4115___Packages.mx.managers.FocusManager.as": [
+    1490,
+    2489
+   ],
+   "scripts/DoInitAction/DefineSprite_4116___Packages.mx.controls.SimpleButton.as": [
+    1273,
+    1474
+   ],
+   "scripts/DoInitAction/DefineSprite_4117___Packages.mx.managers.SystemManager.as": [
+    417,
+    478
+   ],
+   "scripts/DoInitAction/DefineSprite_4118___Packages.mx.skins.halo.Defaults.as": [
+    868,
+    942
+   ],
+   "scripts/DoInitAction/DefineSprite_4119___Packages.mx.skins.halo.FocusRect.as": [
+    569,
+    660
+   ],
+   "scripts/DoInitAction/DefineSprite_4120___Packages.mx.managers.OverlappedWindows.as": [
+    727,
+    944
+   ],
+   "scripts/DoInitAction/DefineSprite_4121___Packages.mx.core.ext.UIComponentExtensions.as": [
+    241,
+    265
+   ],
+   "scripts/DoInitAction/DefineSprite_4122___Packages.mx.styles.CSSSetStyle.as": [
+    319,
+    940
+   ],
+   "scripts/DoInitAction/DefineSprite_4123___Packages.mx.skins.Border.as": [
+    92,
+    104
+   ],
+   "scripts/DoInitAction/DefineSprite_4124___Packages.mx.skins.RectBorder.as": [
+    191,
+    203
+   ],
+   "scripts/DoInitAction/DefineSprite_4125___Packages.mx.skins.halo.RectBorder.as": [
+    444,
+    727
+   ],
+   "scripts/DoInitAction/DefineSprite_4126___Packages.mx.skins.halo.ButtonSkin.as": [
+    208,
+    896
+   ],
+   "scripts/DoInitAction/DefineSprite_4127___Packages.mx.controls.Button.as": [
+    747,
+    939
+   ],
+   "scripts/DoInitAction/DefineSprite_4128___Packages.mx.skins.CustomBorder.as": [
+    298,
+    385
+   ],
+   "scripts/DoInitAction/DefineSprite_4129___Packages.mx.controls.scrollClasses.ScrollBar.as": [
+    980,
+    1342
+   ],
+   "scripts/DoInitAction/DefineSprite_4130___Packages.mx.controls.scrollClasses.ScrollThumb.as": [
+    312,
+    340
+   ],
+   "scripts/DoInitAction/DefineSprite_4131___Packages.mx.controls.HScrollBar.as": [
+    140,
+    163
+   ],
+   "scripts/DoInitAction/DefineSprite_4132___Packages.mx.controls.VScrollBar.as": [
+    121,
+    156
+   ],
+   "scripts/DoInitAction/DefineSprite_4133___Packages.mx.controls.UIScrollBar.as": [
+    471,
+    754
+   ],
+   "scripts/DoInitAction/DefineSprite_4134___Packages.com.gskinner.utils.SWFBridgeAS2.as": [
+    297,
+    307
+   ],
+   "scripts/DoInitAction/DefineSprite_220_UIObjectExtensions.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_221_UIObject.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_225.as": [
+    10,
+    45
+   ],
+   "scripts/DoInitAction/DefineSprite_226_FocusRect.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_227_FocusManager.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_228_UIComponentExtensions.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_229_UIComponent.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_230_SimpleButton.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_231_Border.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_232_RectBorder.as": [
+    34,
+    34
+   ],
+   "scripts/DoInitAction/DefineSprite_233_ButtonSkin.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_234_Button.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_235_CustomBorder.as": [
+    24,
+    24
+   ],
+   "scripts/DoInitAction/DefineSprite_290_BtnDownArrow.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_291_BtnUpArrow.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_293_HScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_294_VScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_295_UIScrollBar.as": [
+    8,
+    8
+   ],
+   "scripts/DoInitAction/DefineSprite_219_Defaults.as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_2472/frame_0001/DoAction.as": [
+    77,
+    77
+   ],
+   "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(load).as": [
+    8,
+    8
+   ],
+   "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(enterFrame).as": [
+    18,
+    18
+   ],
+   "scripts/DefineButton2_2494/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_2496/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2502/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2503/frame_0001/colocacion_d1_inner2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_2503/frame_0001/colocacion_d35_shield/onClipEvent(load).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2506/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineSprite_2636/frame_0001/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_2636/frame_0105/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2643/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2644/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2645/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2650/on(release).as": [
+    8,
+    8
+   ],
+   "scripts/DefineButton2_2651/on(release).as": [
+    8,
+    8
+   ],
+   "scripts/DefineButton2_2653/on(release).as": [
+    681,
+    681
+   ],
+   "scripts/DefineButton2_2655/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2659/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2672/on(release).as": [
+    37,
+    155
+   ],
+   "scripts/DefineButton2_2672/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2672/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2673/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2673/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2673/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2674/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2674/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2674/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2675/on(release).as": [
+    37,
+    227
+   ],
+   "scripts/DefineButton2_2675/on(rollOver).as": [
+    12,
+    55
+   ],
+   "scripts/DefineButton2_2675/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2680/frame_0001/DoAction.as": [
+    56,
+    56
+   ],
+   "scripts/DefineSprite_2680/frame_0001/colocacion_d18_inner2/onClipEvent(load).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_2680/frame_0003/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2680/frame_0004/DoAction.as": [
+    283,
+    288
+   ],
+   "scripts/DefineSprite_2680/frame_0006/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2680/frame_0007/DoAction.as": [
+    349,
+    351
+   ],
+   "scripts/DefineSprite_2680/frame_0009/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0010/DoAction.as": [
+    176,
+    178
+   ],
+   "scripts/DefineSprite_2680/frame_0012/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0013/DoAction.as": [
+    432,
+    573
+   ],
+   "scripts/DefineSprite_2680/frame_0015/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2680/frame_0016/DoAction.as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2680/frame_0017/DoAction.as": [
+    460,
+    497
+   ],
+   "scripts/DefineSprite_2680/frame_0019/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_2693/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2693/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2693/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2703/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2710/frame_0026/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2712/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2712/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2712/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2713/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2713/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2713/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2714/on(release).as": [
+    84,
+    84
+   ],
+   "scripts/DefineButton2_2714/on(rollOver).as": [
+    50,
+    50
+   ],
+   "scripts/DefineButton2_2714/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2730/on(release).as": [
+    54,
+    84
+   ],
+   "scripts/DefineButton2_2731/on(release).as": [
+    83,
+    97
+   ],
+   "scripts/DefineButton2_2732/on(release).as": [
+    76,
+    97
+   ],
+   "scripts/DefineButton2_2733/on(release).as": [
+    39,
+    60
+   ],
+   "scripts/DefineButton2_2734/on(release).as": [
+    68,
+    68
+   ],
+   "scripts/DefineButton2_2735/on(release).as": [
+    15,
+    21
+   ],
+   "scripts/DefineButton2_2736/on(release).as": [
+    28,
+    47
+   ],
+   "scripts/DefineButton2_2740/on(release).as": [
+    50,
+    51
+   ],
+   "scripts/DefineButton2_2742/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2752/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2753/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2754/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2755/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineButton2_2756/on(release).as": [
+    13,
+    13
+   ],
+   "scripts/DefineSprite_2795/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2796/on(press).as": [
+    122,
+    122
+   ],
+   "scripts/DefineSprite_2797/frame_0001/colocacion_d1_PIC/onClipEvent(enterFrame).as": [
+    16,
+    83
+   ],
+   "scripts/DefineSprite_2799/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d3_b3/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d14_b4/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d25_b1/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d36_b2/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0001/colocacion_d47_b5/onClipEvent(load).as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_2799/frame_0009/DoAction.as": [
+    17,
+    17
+   ],
+   "scripts/DefineSprite_2800/frame_0001/colocacion_d1_p5/onClipEvent(load).as": [
+    63,
+    63
+   ],
+   "scripts/DefineSprite_2800/frame_0001/colocacion_d49_p3/onClipEvent(load).as": [
+    63,
+    63
+   ],
+   "scripts/DefineSprite_2801/frame_0001/colocacion_d7_subAI_BAR/onClipEvent(load).as": [
+    22,
+    24
+   ],
+   "scripts/DefineButton2_2808/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2809/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2810/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2811/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2813/on(press).as": [
+    140,
+    209
+   ],
+   "scripts/DefineButton2_2813/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2813/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2814/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2814/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2814/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2815/on(press).as": [
+    90,
+    146
+   ],
+   "scripts/DefineButton2_2815/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2815/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2819/on(press).as": [
+    127,
+    172
+   ],
+   "scripts/DefineButton2_2819/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2819/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2820/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2820/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2820/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2821/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2822/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2823/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2824/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2827/on(press).as": [
+    137,
+    188
+   ],
+   "scripts/DefineButton2_2827/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2827/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2828/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2828/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2828/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2829/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2830/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2831/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2832/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2833/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2849/on(press).as": [
+    13,
+    172
+   ],
+   "scripts/DefineButton2_2849/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2849/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2850/on(release).as": [
+    13,
+    32
+   ],
+   "scripts/DefineButton2_2850/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2850/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2851/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2852/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2853/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2854/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2857/on(press).as": [
+    13,
+    174
+   ],
+   "scripts/DefineButton2_2857/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2857/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2858/on(release).as": [
+    13,
+    32
+   ],
+   "scripts/DefineButton2_2858/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2858/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2859/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2860/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2861/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_2874/on(press).as": [
+    127,
+    166
+   ],
+   "scripts/DefineButton2_2874/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2874/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2875/on(press).as": [
+    84,
+    140
+   ],
+   "scripts/DefineButton2_2875/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2875/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2876/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2876/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2876/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2893/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_2893/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2893/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2902/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2902/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2902/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2903/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2903/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2903/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2904/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2904/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2904/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2905/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2905/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2905/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2906/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2906/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2906/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2907/on(press).as": [
+    36,
+    36
+   ],
+   "scripts/DefineButton2_2907/on(rollOver).as": [
+    49,
+    49
+   ],
+   "scripts/DefineButton2_2907/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_2908/frame_0191/DoAction.as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_2910/on(release).as": [
+    21,
+    21
+   ],
+   "scripts/DefineButton2_2910/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2910/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2911/on(release).as": [
+    33,
+    58
+   ],
+   "scripts/DefineButton2_2911/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2911/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2912/on(release).as": [
+    53,
+    78
+   ],
+   "scripts/DefineButton2_2912/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2912/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2913/on(release).as": [
+    13,
+    33
+   ],
+   "scripts/DefineButton2_2914/on(press).as": [
+    13,
+    128
+   ],
+   "scripts/DefineButton2_2915/on(release).as": [
+    24,
+    58
+   ],
+   "scripts/DefineButton2_2915/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2915/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2916/on(release).as": [
+    24,
+    731
+   ],
+   "scripts/DefineButton2_2916/on(rollOver).as": [
+    89,
+    89
+   ],
+   "scripts/DefineButton2_2916/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_2917/on(release).as": [
+    12,
+    14
+   ],
+   "scripts/DefineButton2_2917/on(rollOver).as": [
+    68,
+    68
+   ],
+   "scripts/DefineButton2_2917/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2918/on(release).as": [
+    23,
+    33
+   ],
+   "scripts/DefineButton2_2918/on(rollOver).as": [
+    77,
+    77
+   ],
+   "scripts/DefineButton2_2918/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_2922/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2922/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2922/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2925/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2928/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2931/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2934/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2937/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2938/on(release).as": [
+    24,
+    58
+   ],
+   "scripts/DefineButton2_2938/on(rollOver).as": [
+    73,
+    73
+   ],
+   "scripts/DefineButton2_2938/on(rollOut).as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_2941/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2941/frame_0007/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_2941/frame_0027/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_2961/on(press).as": [
+    297,
+    455
+   ],
+   "scripts/DefineButton2_2961/on(rollOver).as": [
+    93,
+    246
+   ],
+   "scripts/DefineButton2_2961/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_2963/on(press).as": [
+    217,
+    1376
+   ],
+   "scripts/DefineButton2_2963/on(rollOver).as": [
+    109,
+    298
+   ],
+   "scripts/DefineButton2_2963/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3050/on(press).as": [
+    42,
+    117
+   ],
+   "scripts/DefineButton2_3050/on(rollOver).as": [
+    76,
+    94
+   ],
+   "scripts/DefineButton2_3050/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3069/frame_0001/colocacion_d1/onClipEvent(enterFrame).as": [
+    16,
+    64
+   ],
+   "scripts/DefineSprite_3078/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3085/on(press).as": [
+    43,
+    43
+   ],
+   "scripts/DefineButton2_3085/on(rollOver).as": [
+    72,
+    72
+   ],
+   "scripts/DefineButton2_3085/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3089/on(press).as": [
+    14,
+    14
+   ],
+   "scripts/DefineButton2_3091/on(press).as": [
+    161,
+    415
+   ],
+   "scripts/DefineButton2_3091/on(rollOver).as": [
+    121,
+    344
+   ],
+   "scripts/DefineButton2_3091/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3100/on(release).as": [
+    73,
+    92
+   ],
+   "scripts/DefineButton2_3125/on(press).as": [
+    13,
+    98
+   ],
+   "scripts/DefineButton2_3125/on(rollOver).as": [
+    83,
+    123
+   ],
+   "scripts/DefineButton2_3125/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3133/on(press).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3133/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3133/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(press).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(release).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3134/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineSprite_3135/frame_0001/colocacion_d3_talentPool2/onClipEvent(enterFrame).as": [
+    35,
+    45
+   ],
+   "scripts/DefineButton2_3136/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3136/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3136/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3137/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3137/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3137/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3138/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3138/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3138/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3139/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3139/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3139/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3140/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3140/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3140/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3141/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3141/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3141/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3142/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3142/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3142/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3143/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3143/on(rollOver).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3143/on(rollOut).as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3147/on(release).as": [
+    93,
+    492
+   ],
+   "scripts/DefineSprite_3154___v9NativeNode/frame_0001/colocacion_d17_thingoShow/onClipEvent(enterFrame).as": [
+    10,
+    13
+   ],
+   "scripts/DefineSprite_3155/frame_0001/DoAction.as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3173/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3177/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3178/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3179/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3180/on(release).as": [
+    12,
+    77
+   ],
+   "scripts/DefineButton2_3188/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3194/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3199/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3201/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_3204/on(release).as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3205/frame_0001/DoAction.as": [
+    22,
+    22
+   ],
+   "scripts/DefineSprite_3205/frame_0007/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0012/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0055/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0056/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0106/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0107/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3205/frame_0150/DoAction.as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3205/frame_0151/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_3206/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_3206/on(rollOver).as": [
+    60,
+    100
+   ],
+   "scripts/DefineButton2_3206/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineButton2_3211/on(release).as": [
+    67,
+    115
+   ],
+   "scripts/DefineButton2_3219/on(release).as": [
+    44,
+    68
+   ],
+   "scripts/DefineButton2_3235/on(rollOver).as": [
+    74,
+    74
+   ],
+   "scripts/DefineButton2_3235/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3237/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3239/frame_0001/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0001/DoAction_2.as": [
+    2034,
+    2130
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d786_playerSlot2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d807_playerSlot5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d828_playerSlot0/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d849_playerSlot3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d870_playerSlot4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d891_playerSlot1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d943_playerSlot6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(load).as": [
+    9,
+    9
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(enterFrame).as": [
+    10,
+    26
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(enterFrame).as": [
+    42,
+    42
+   ],
+   "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(load).as": [
+    42,
+    42
+   ],
+   "scripts/DefineSprite_3239/frame_0002/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0003/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0004/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0005/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0006/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0007/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0008/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0009/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0009/DoAction_2.as": [
+    436,
+    587
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(load).as": [
+    100,
+    103
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(enterFrame).as": [
+    9,
+    141
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(load).as": [
+    20,
+    103
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(enterFrame).as": [
+    9,
+    141
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(load).as": [
+    115,
+    118
+   ],
+   "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(enterFrame).as": [
+    9,
+    208
+   ],
+   "scripts/DefineSprite_3239/frame_0010/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0011/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0012/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0013/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0014/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0015/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0016/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0016/DoAction_2.as": [
+    684,
+    703
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d25___nzShopkeeper/onClipEvent(load).as": [
+    20,
+    26
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1103_playerSlot2/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1124_playerSlot5/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1145_playerSlot0/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1166_playerSlot3/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1187_playerSlot4/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1208_playerSlot1/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0016/colocacion_d1260_playerSlot6/onClipEvent(load).as": [
+    3,
+    3
+   ],
+   "scripts/DefineSprite_3239/frame_0017/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0018/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0019/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0020/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0021/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0022/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0023/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0024/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0025/DoAction.as": [
+    1097,
+    1119
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d153_talenttreefull/onClipEvent(load).as": [
+    416,
+    889
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d657_statColor/onClipEvent(enterFrame).as": [
+    17,
+    23
+   ],
+   "scripts/DefineSprite_3239/frame_0025/colocacion_d675/onClipEvent(load).as": [
+    19,
+    20
+   ],
+   "scripts/DefineSprite_3239/frame_0026/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0027/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0028/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0029/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0030/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0031/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0032/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0033/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0034/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0035/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0036/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0037/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0038/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0039/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0039/DoAction_2.as": [
+    262,
+    349
+   ],
+   "scripts/DefineSprite_3239/frame_0040/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0041/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0042/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0043/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0044/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0045/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0045/DoAction_2.as": [
+    69,
+    78
+   ],
+   "scripts/DefineSprite_3239/frame_0046/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0047/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0048/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0049/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0050/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0051/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0052/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0053/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0054/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0055/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0056/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0057/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3239/frame_0058/DoAction.as": [
+    7,
+    7
+   ],
+   "scripts/DefineSprite_3243/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3243/frame_0002/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3243/frame_0125/DoAction.as": [
+    5,
+    5
+   ],
+   "scripts/DefineButton2_3250/on(press).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3251/frame_0001/DoAction.as": [
+    16,
+    16
+   ],
+   "scripts/DefineSprite_3262/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3262/frame_0002/DoAction.as": [
+    37,
+    37
+   ],
+   "scripts/DefineButton2_3278/on(release).as": [
+    54,
+    54
+   ],
+   "scripts/DefineButton2_3280/on(release).as": [
+    3,
+    3
+   ],
+   "scripts/DefineButton2_3281/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_3282/on(release).as": [
+    28,
+    28
+   ],
+   "scripts/DefineButton2_3283/on(release).as": [
+    32,
+    32
+   ],
+   "scripts/DefineButton2_3284/on(release).as": [
+    28,
+    28
+   ],
+   "scripts/DefineButton2_3291/on(press).as": [
+    14,
+    14
+   ],
+   "scripts/DefineButton2_3296/on(press).as": [
+    33,
+    52
+   ],
+   "scripts/DefineSprite_3298/frame_0001/DoAction.as": [
+    30,
+    30
+   ],
+   "scripts/DefineSprite_3298/frame_0001/colocacion_d13/onClipEvent(load).as": [
+    21,
+    21
+   ],
+   "scripts/DefineSprite_3298/frame_0005/DoAction.as": [
+    32,
+    32
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d6/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d8/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d10/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d12/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0014/colocacion_d14/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d5/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d7/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d9/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d11/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0021/colocacion_d13/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d4/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d6/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d8/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d10/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0044/colocacion_d12/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d5/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d7/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d9/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d11/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3328/frame_0064/colocacion_d13/onClipEvent(enterFrame).as": [
+    13,
+    15
+   ],
+   "scripts/DefineSprite_3344/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3344/frame_0002/DoAction.as": [
+    18,
+    18
+   ],
+   "scripts/DefineSprite_3344/frame_0004/DoAction.as": [
+    22,
+    22
+   ],
+   "scripts/DefineSprite_3344/frame_0005/DoAction.as": [
+    45,
+    48
+   ],
+   "scripts/DefineSprite_3345/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3345/frame_0002/DoAction.as": [
+    67,
+    78
+   ],
+   "scripts/DefineSprite_3345/frame_0004/DoAction.as": [
+    152,
+    176
+   ],
+   "scripts/DefineSprite_3345/frame_0006/DoAction.as": [
+    27,
+    53
+   ],
+   "scripts/DefineSprite_3347/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3347/frame_0005/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0007/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0009/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0011/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0014/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0016/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0018/DoAction.as": [
+    11,
+    11
+   ],
+   "scripts/DefineSprite_3347/frame_0020/DoAction.as": [
+    12,
+    12
+   ],
+   "scripts/DefineSprite_3348/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3348/frame_0002/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0004/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0006/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0008/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0010/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0012/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0014/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0016/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3348/frame_0017/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0019/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0021/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0023/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0025/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0027/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0029/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0031/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3348/frame_0032/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0034/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0036/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0038/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0040/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0042/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0044/DoAction.as": [
+    20,
+    20
+   ],
+   "scripts/DefineSprite_3348/frame_0046/DoAction.as": [
+    23,
+    23
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d1_fB2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d3_lB2/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d6_fB/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d8_fB3/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d11_lB/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3355/frame_0001/colocacion_d13_lB3/onClipEvent(load).as": [
+    4,
+    4
+   ],
+   "scripts/DefineSprite_3368/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3378/frame_0001/colocacion_d2/onClipEvent(enterFrame).as": [
+    27,
+    29
+   ],
+   "scripts/DefineSprite_3378/frame_0001/colocacion_d6/onClipEvent(enterFrame).as": [
+    27,
+    27
+   ],
+   "scripts/DefineButton2_3381/on(release).as": [
+    47,
+    88
+   ],
+   "scripts/DefineButton2_3382/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3383/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3384/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3385/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3386/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3387/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3388/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineButton2_3389/on(release).as": [
+    10,
+    10
+   ],
+   "scripts/DefineSprite_3393/frame_0021/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3394/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3405/frame_0001/DoAction.as": [
+    16,
+    16
+   ],
+   "scripts/DefineButton2_3408/on(release).as": [
+    30,
+    30
+   ],
+   "scripts/DefineButton2_3408/on(rollOver).as": [
+    45,
+    45
+   ],
+   "scripts/DefineButton2_3408/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_3409/frame_0031/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3409/frame_0085/DoAction.as": [
+    32,
+    52
+   ],
+   "scripts/DefineSprite_3415/frame_0401/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineButton2_3417/on(release).as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3433/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3580/frame_2084/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3584/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3745/frame_1795/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3767/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3848/frame_0117/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineSprite_3860/frame_0621/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3892/frame_0501/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3898/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_3970/frame_1237/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_3981/frame_0001/DoAction.as": [
+    115,
+    115
+   ],
+   "scripts/DefineSprite_4083/frame_2424/DoAction.as": [
+    6,
+    6
+   ],
+   "scripts/DefineSprite_4099/frame_0001/DoAction.as": [
+    2,
+    2
+   ],
+   "scripts/DefineButton2_4101/on(release).as": [
+    6,
+    18
+   ],
+   "scripts/DefineButton2_4101/on(rollOver).as": [
+    51,
+    51
+   ],
+   "scripts/DefineButton2_4101/on(rollOut).as": [
+    25,
+    25
+   ],
+   "scripts/DefineSprite_4103/frame_0001/colocacion_d85_mb6/onClipEvent(load).as": [
+    11,
+    13
+   ],
+   "scripts/DefineSprite_4103/frame_0001/colocacion_d91_mb7/onClipEvent(load).as": [
+    14,
+    26
+   ]
+  }
+ }
+}

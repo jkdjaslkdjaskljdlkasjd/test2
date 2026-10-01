@@ -1,0 +1,5 @@
+*.bat -text
+*.swf binary
+*.jpg binary
+*.png binary
+*.zip binary

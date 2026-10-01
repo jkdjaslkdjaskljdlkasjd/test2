@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+trabajo/act1/
+trabajo/act3/
+trabajo/base1/
+trabajo/*/build/*.swf

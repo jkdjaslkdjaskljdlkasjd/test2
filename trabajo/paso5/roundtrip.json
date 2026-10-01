@@ -1,0 +1,5888 @@
+[
+ {
+  "file": "scripts/escenario/frame_0001/DoAction.as",
+  "orig": 300612,
+  "new": 278899,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0002/DoAction.as",
+  "orig": 566,
+  "new": 583,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0004/DoAction.as",
+  "orig": 79,
+  "new": 89,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0004/colocacion_d27/onClipEvent(enterFrame).as",
+  "orig": 122,
+  "new": 110,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0005/DoAction.as",
+  "orig": 78,
+  "new": 88,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0006/DoAction.as",
+  "orig": 13,
+  "new": 13,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0021/DoAction.as",
+  "orig": 17,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0041/DoAction.as",
+  "orig": 320564,
+  "new": 291627,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0042/DoAction.as",
+  "orig": 1628,
+  "new": 1657,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0042/DoAction_2.as",
+  "orig": 1383847,
+  "new": 921554,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/DoAction.as",
+  "orig": 1181,
+  "new": 1132,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d105/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d109/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d112/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d115/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d117/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d120/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d205/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d210/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d214/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d217/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d220/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d224/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d249/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d253/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d257/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d260/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d263/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d270/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d275/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d277/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d281/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d287/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d289/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d294/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d299/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d302/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d306/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d309/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d315/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d317/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d319/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d321/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d326/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d331/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d2609/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0043/colocacion_d2660/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0045/DoAction.as",
+  "orig": 82,
+  "new": 90,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0046/DoAction.as",
+  "orig": 1177,
+  "new": 1118,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0056/DoAction.as",
+  "orig": 183,
+  "new": 183,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0064/DoAction.as",
+  "orig": 81,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0074/DoAction.as",
+  "orig": 434,
+  "new": 429,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0074/colocacion_d43_KrinToolTipper/onClipEvent(enterFrame).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0084/DoAction.as",
+  "orig": 289,
+  "new": 285,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0093/DoAction.as",
+  "orig": 1231,
+  "new": 1227,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0104/DoAction.as",
+  "orig": 285,
+  "new": 280,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0116/DoAction.as",
+  "orig": 181,
+  "new": 181,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0124/DoAction.as",
+  "orig": 302,
+  "new": 298,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0134/DoAction.as",
+  "orig": 361,
+  "new": 361,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0165/DoAction.as",
+  "orig": 301,
+  "new": 293,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0180/DoAction.as",
+  "orig": 368,
+  "new": 344,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/DoAction.as",
+  "orig": 1994,
+  "new": 1962,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d59_KrinScreen/onClipEvent(load).as",
+  "orig": 108,
+  "new": 108,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d167_KRINMENU/onClipEvent(load).as",
+  "orig": 247,
+  "new": 247,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d1604_KrinToolTipper/onClipEvent(enterFrame).as",
+  "orig": 34,
+  "new": 41,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d1643_krinNavFadeSpeech/onClipEvent(load).as",
+  "orig": 14,
+  "new": 14,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(load).as",
+  "orig": 31,
+  "new": 37,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0181/colocacion_d1652/onClipEvent(enterFrame).as",
+  "orig": 196,
+  "new": 192,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0200/DoAction.as",
+  "orig": 730,
+  "new": 726,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0200/colocacion_d37_krinNavFadeSpeech/onClipEvent(load).as",
+  "orig": 14,
+  "new": 14,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0201/DoAction.as",
+  "orig": 8846,
+  "new": 8055,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0216/DoAction.as",
+  "orig": 20,
+  "new": 20,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/DoAction.as",
+  "orig": 10417,
+  "new": 9748,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d73/onClipEvent(load).as",
+  "orig": 66,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d89_BATTLESCREEN/onClipEvent(load).as",
+  "orig": 124,
+  "new": 120,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d330_GridShaker/onClipEvent(load).as",
+  "orig": 80,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d332_GridZoomer/onClipEvent(load).as",
+  "orig": 163,
+  "new": 159,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d338_BATTLEFLASH/onClipEvent(load).as",
+  "orig": 25,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d396_p6BAR/onClipEvent(load).as",
+  "orig": 100,
+  "new": 100,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d414_p2BAR/onClipEvent(load).as",
+  "orig": 100,
+  "new": 100,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d432_p4BAR/onClipEvent(load).as",
+  "orig": 100,
+  "new": 100,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d450_KrinSelector3/onClipEvent(enterFrame).as",
+  "orig": 372,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d455_KrinSelector5/onClipEvent(enterFrame).as",
+  "orig": 372,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d460_KrinSelector6/onClipEvent(enterFrame).as",
+  "orig": 372,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d465_KrinSelector4/onClipEvent(enterFrame).as",
+  "orig": 372,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d470_KrinSelector2/onClipEvent(enterFrame).as",
+  "orig": 372,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(load).as",
+  "orig": 21,
+  "new": 17,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d475_KrinSelector1/onClipEvent(enterFrame).as",
+  "orig": 380,
+  "new": 360,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(load).as",
+  "orig": 597,
+  "new": 592,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d480_battleClocker/onClipEvent(enterFrame).as",
+  "orig": 17576,
+  "new": 17242,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d484_krinToMove/onClipEvent(load).as",
+  "orig": 424,
+  "new": 423,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(load).as",
+  "orig": 919,
+  "new": 916,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d500_selector/onClipEvent(enterFrame).as",
+  "orig": 1412,
+  "new": 1376,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(load).as",
+  "orig": 41,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(enterFrame).as",
+  "orig": 418,
+  "new": 414,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d634_combatScript/onClipEvent(keyDown).as",
+  "orig": 221,
+  "new": 209,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0217/colocacion_d647_KrinToolTipper/onClipEvent(enterFrame).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0218/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0219/DoAction.as",
+  "orig": 1601,
+  "new": 1577,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0229/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0230/DoAction.as",
+  "orig": 214,
+  "new": 214,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0240/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0241/DoAction.as",
+  "orig": 16,
+  "new": 16,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0252/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0253/DoAction.as",
+  "orig": 104,
+  "new": 115,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0263/DoAction.as",
+  "orig": 232,
+  "new": 232,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(load).as",
+  "orig": 31,
+  "new": 38,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0263/colocacion_d77/onClipEvent(enterFrame).as",
+  "orig": 624,
+  "new": 592,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0293/DoAction.as",
+  "orig": 42,
+  "new": 50,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0320/DoAction.as",
+  "orig": 19,
+  "new": 25,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0346/DoAction.as",
+  "orig": 19,
+  "new": 25,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0372/DoAction.as",
+  "orig": 19,
+  "new": 25,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0396/DoAction.as",
+  "orig": 19,
+  "new": 25,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0421/DoAction.as",
+  "orig": 19,
+  "new": 25,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0449/DoAction.as",
+  "orig": 3433,
+  "new": 2780,
+  "ok": true
+ },
+ {
+  "file": "scripts/escenario/frame_0449/colocacion_d93_KrinToolTipper/onClipEvent(enterFrame).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_151_LifeBarSmoother/frame_0018/DoAction.as",
+  "orig": 243,
+  "new": 239,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_151_LifeBarSmoother/frame_0019/DoAction.as",
+  "orig": 46,
+  "new": 54,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_151_LifeBarSmoother/frame_0036/DoAction.as",
+  "orig": 70,
+  "new": 70,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_151_LifeBarSmoother/frame_0038/DoAction.as",
+  "orig": 201,
+  "new": 197,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_152_LifeBarSmoother2/frame_0019/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_152_LifeBarSmoother2/frame_0039/DoAction.as",
+  "orig": 70,
+  "new": 70,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_161_NumberFixer/frame_0068/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_161_NumberFixer/frame_0130/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_161_NumberFixer/frame_0182/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_161_NumberFixer/frame_0234/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_204/frame_0033/DoAction.as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_209_BrdrShdw/frame_0001/DoAction.as",
+  "orig": 92,
+  "new": 103,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_211_BrdrFace/frame_0001/DoAction.as",
+  "orig": 92,
+  "new": 103,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_214_BrdrBlk/frame_0001/DoAction.as",
+  "orig": 92,
+  "new": 103,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_216_BrdrHilght/frame_0001/DoAction.as",
+  "orig": 95,
+  "new": 106,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_221_UIObject/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_224/on(keyPress_<Tab>_).as",
+  "orig": 37,
+  "new": 40,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_225/frame_0001/DoAction.as",
+  "orig": 1,
+  "new": 1,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_227_FocusManager/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_229_UIComponent/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_230_SimpleButton/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_231_Border/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_232_RectBorder/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_234_Button/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_234_Button/frame_0002/colocacion_d1/onClipEvent(load).as",
+  "orig": 209,
+  "new": 220,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_235_CustomBorder/frame_0001/DoAction.as",
+  "orig": 1,
+  "new": 1,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_247_ScrollThemeColor1/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 102,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_249_ScrollThemeColor2/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 102,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_260_ThumbThemeColor1/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 102,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_262_ThumbThemeColor3/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 102,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_269_ThumbThemeColor2/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 102,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_293_HScrollBar/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as",
+  "orig": 267,
+  "new": 283,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_293_HScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as",
+  "orig": 209,
+  "new": 220,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_294_VScrollBar/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as",
+  "orig": 267,
+  "new": 283,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_294_VScrollBar/frame_0002/colocacion_d31/onClipEvent(load).as",
+  "orig": 209,
+  "new": 220,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_295_UIScrollBar/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d1/onClipEvent(load).as",
+  "orig": 179,
+  "new": 188,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_295_UIScrollBar/frame_0002/colocacion_d59/onClipEvent(load).as",
+  "orig": 179,
+  "new": 188,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_442/frame_0020/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_578_BOOM_SUN_BLUE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_579_BOOM_SUN_PURPLE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_621/frame_0010/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_622_BOOM_STAR_PURPLE/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_636_ex_DOWNPURPLE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_637_ex_DOWNBLUE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_711_ex_AnasOut3/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_712_BOOM_STAR_BLUE/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_724/frame_0015/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_725_BOOM_SLASHPURPLE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_734_ex_SPRYELLOW/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_735_ex_SPRPURPLE/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_736_ex_SPRBLUE/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_737_ex_AnasOut2/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_771_BOOM_STAR_YELLOW/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_784_POISON_SHATTER/frame_0036/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_786_BOOM_STAR/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_787_BOOM_ANAS/frame_0015/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_788_BOOM_IMMOB/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1033_BOOM_SPARKBLUE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1045/frame_0013/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1046_BOOM_SLASH2RED/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1047_BOOM_SLASH2/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1048_BOOM_SLASHBLUE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1049_BOOM_SLASHORANGE/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1050_BOOM_SLASHRED/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1051_BOOM_SLASHGREEN/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1052_BOOM_SLASH/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1055_BOOM_POWERUP/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1059_BOOM_SHIELD/frame_0020/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1060_BOOM_RED/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1061_BOOM_HEAL2/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1062_BOOM_DARK/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1063_BOOM_HEAL/frame_0016/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1125_BOOM1/frame_0036/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1126_MODEL2/frame_0029/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1126_MODEL2/frame_0056/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1126_MODEL2/frame_0077/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0401/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0402/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0403/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0404/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0405/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0406/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0407/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0408/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0409/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0410/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1986/frame_0411/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1989_KrinBuffShower/frame_0001/colocacion_d1_buffColor/onClipEvent(enterFrame).as",
+  "orig": 155,
+  "new": 142,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1990_BOOM3/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_1991_BOOM2/frame_0036/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4235/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4235/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4238/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4238/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4241/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4241/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4244/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4244/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4247/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4247/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4250/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4250/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4253/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4253/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4256/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4256/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4259/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4259/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4262/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4262/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4265/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4265/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4268/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4268/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4271/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4271/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4274/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4274/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4277/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4277/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4280/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4280/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4283/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4283/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4286/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4286/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4289/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4289/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4292/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4292/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4295/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4295/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4298/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4298/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4301/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4301/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4304/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4304/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4307/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4307/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4310/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4310/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4313/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4313/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4316/frame_0001/DoAction.as",
+  "orig": 285,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4316/frame_0002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(load).as",
+  "orig": 75,
+  "new": 79,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0001/colocacion_d11_bfilter/onClipEvent(enterFrame).as",
+  "orig": 945,
+  "new": 846,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0015/colocacion_d1_moveColor/onClipEvent(load).as",
+  "orig": 100,
+  "new": 100,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0987/colocacion_d1_moveColor/onClipEvent(load).as",
+  "orig": 100,
+  "new": 100,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(load).as",
+  "orig": 75,
+  "new": 79,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0987/colocacion_d11_bfilter/onClipEvent(enterFrame).as",
+  "orig": 1789,
+  "new": 1471,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0987/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0988/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0989/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0990/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0991/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0992/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0993/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0994/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0995/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0996/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0997/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0998/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_0999/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1000/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1002/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1003/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1004/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1005/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1006/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1008/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1009/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1010/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1011/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1012/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1013/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2186/frame_1014/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2190/on(press).as",
+  "orig": 427,
+  "new": 419,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0030/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0059/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0111/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0142/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0162/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0192/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0243/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2219_MODEL9/frame_0259/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2285/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2286/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2289/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2290/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2291/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2295/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 107,
+  "new": 107,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0030/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0059/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0111/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0123/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0143/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0173/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0224/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2299_MODEL8/frame_0240/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2359/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2360/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2361/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2362/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2363/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2364/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2367/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 113,
+  "new": 113,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2370/frame_0012/DoAction.as",
+  "orig": 3,
+  "new": 3,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0030/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0059/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0069/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0111/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0123/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0143/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0173/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0224/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2371_MODEL6/frame_0240/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2382/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2383/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2384/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2385/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2386/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0030/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0059/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0069/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0111/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0123/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0143/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0173/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0224/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2394_MODEL7/frame_0240/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2421/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2422/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2423/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2424/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2425/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2426/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0030/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0059/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0071/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0111/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0123/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0143/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0173/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0224/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2427_MODEL5/frame_0240/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2430/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2433/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2436/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2439/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2442/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2445/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2448/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2451/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0045/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0077/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0086/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0123/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0154/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0214/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0230/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0247/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0295/DoAction.as",
+  "orig": 44,
+  "new": 52,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2452_MODEL4/frame_0306/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2453_BOOM_SPARK/frame_0025/DoAction.as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2456/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 113,
+  "new": 113,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2457/frame_0012/DoAction.as",
+  "orig": 3,
+  "new": 3,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2460/frame_0001/colocacion_d1/onClipEvent(load).as",
+  "orig": 113,
+  "new": 113,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2461/frame_0012/DoAction.as",
+  "orig": 3,
+  "new": 3,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0045/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0077/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0088/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0107/DoAction.as",
+  "orig": 13,
+  "new": 13,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0118/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0137/DoAction.as",
+  "orig": 13,
+  "new": 13,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0146/DoAction.as",
+  "orig": 52,
+  "new": 61,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0188/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0219/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0279/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0295/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0312/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0360/DoAction.as",
+  "orig": 44,
+  "new": 52,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2462_MODEL1/frame_0371/DoAction.as",
+  "orig": 12,
+  "new": 18,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4104___Packages.mx.skins.ColoredSkinElement.as",
+  "orig": 789,
+  "new": 834,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4105___Packages.mx.core.UIObject.as",
+  "orig": 9154,
+  "new": 9408,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4106___Packages.mx.skins.SkinElement.as",
+  "orig": 679,
+  "new": 710,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4107___Packages.mx.styles.CSSTextStyles.as",
+  "orig": 1950,
+  "new": 1975,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4108___Packages.mx.styles.CSSStyleDeclaration.as",
+  "orig": 966,
+  "new": 986,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4109___Packages.mx.styles.StyleManager.as",
+  "orig": 1951,
+  "new": 1988,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4110___Packages.mx.events.EventDispatcher.as",
+  "orig": 1684,
+  "new": 1814,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4111___Packages.mx.events.UIEventDispatcher.as",
+  "orig": 2785,
+  "new": 2874,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4112___Packages.mx.core.ext.UIObjectExtensions.as",
+  "orig": 4035,
+  "new": 4065,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4113___Packages.mx.managers.DepthManager.as",
+  "orig": 7110,
+  "new": 7258,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4114___Packages.mx.core.UIComponent.as",
+  "orig": 2829,
+  "new": 2872,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4115___Packages.mx.managers.FocusManager.as",
+  "orig": 10914,
+  "new": 11064,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4116___Packages.mx.controls.SimpleButton.as",
+  "orig": 8783,
+  "new": 8712,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4117___Packages.mx.managers.SystemManager.as",
+  "orig": 2277,
+  "new": 2230,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4118___Packages.mx.skins.halo.Defaults.as",
+  "orig": 5628,
+  "new": 5886,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4119___Packages.mx.skins.halo.FocusRect.as",
+  "orig": 3611,
+  "new": 3787,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4120___Packages.mx.managers.OverlappedWindows.as",
+  "orig": 3784,
+  "new": 3802,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4121___Packages.mx.core.ext.UIComponentExtensions.as",
+  "orig": 1374,
+  "new": 1342,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4122___Packages.mx.styles.CSSSetStyle.as",
+  "orig": 4181,
+  "new": 4449,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4123___Packages.mx.skins.Border.as",
+  "orig": 542,
+  "new": 520,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4124___Packages.mx.skins.RectBorder.as",
+  "orig": 1437,
+  "new": 1419,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4125___Packages.mx.skins.halo.RectBorder.as",
+  "orig": 5054,
+  "new": 4809,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4126___Packages.mx.skins.halo.ButtonSkin.as",
+  "orig": 6534,
+  "new": 6495,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4127___Packages.mx.controls.Button.as",
+  "orig": 5603,
+  "new": 5602,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4128___Packages.mx.skins.CustomBorder.as",
+  "orig": 2009,
+  "new": 1959,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4129___Packages.mx.controls.scrollClasses.ScrollBar.as",
+  "orig": 8250,
+  "new": 8239,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4130___Packages.mx.controls.scrollClasses.ScrollThumb.as",
+  "orig": 2072,
+  "new": 2023,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4131___Packages.mx.controls.HScrollBar.as",
+  "orig": 1074,
+  "new": 1074,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4132___Packages.mx.controls.VScrollBar.as",
+  "orig": 902,
+  "new": 906,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4133___Packages.mx.controls.UIScrollBar.as",
+  "orig": 4285,
+  "new": 4251,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_4134___Packages.com.gskinner.utils.SWFBridgeAS2.as",
+  "orig": 1734,
+  "new": 1726,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_220_UIObjectExtensions.as",
+  "orig": 94,
+  "new": 103,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_221_UIObject.as",
+  "orig": 70,
+  "new": 79,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_225.as",
+  "orig": 225,
+  "new": 225,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_226_FocusRect.as",
+  "orig": 78,
+  "new": 87,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_227_FocusManager.as",
+  "orig": 82,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_228_UIComponentExtensions.as",
+  "orig": 100,
+  "new": 109,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_229_UIComponent.as",
+  "orig": 76,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_230_SimpleButton.as",
+  "orig": 82,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_231_Border.as",
+  "orig": 67,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_232_RectBorder.as",
+  "orig": 234,
+  "new": 220,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_233_ButtonSkin.as",
+  "orig": 80,
+  "new": 89,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_234_Button.as",
+  "orig": 70,
+  "new": 79,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_235_CustomBorder.as",
+  "orig": 175,
+  "new": 175,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_290_BtnDownArrow.as",
+  "orig": 82,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_291_BtnUpArrow.as",
+  "orig": 80,
+  "new": 89,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_293_HScrollBar.as",
+  "orig": 78,
+  "new": 87,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_294_VScrollBar.as",
+  "orig": 78,
+  "new": 87,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_295_UIScrollBar.as",
+  "orig": 80,
+  "new": 89,
+  "ok": true
+ },
+ {
+  "file": "scripts/DoInitAction/DefineSprite_219_Defaults.as",
+  "orig": 76,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2472/frame_0001/DoAction.as",
+  "orig": 438,
+  "new": 437,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(load).as",
+  "orig": 56,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2489/frame_0001/colocacion_d3_Bar/onClipEvent(enterFrame).as",
+  "orig": 135,
+  "new": 127,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2494/on(release).as",
+  "orig": 14,
+  "new": 20,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2496/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2502/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2503/frame_0001/colocacion_d1_inner2/onClipEvent(load).as",
+  "orig": 17,
+  "new": 23,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2503/frame_0001/colocacion_d35_shield/onClipEvent(load).as",
+  "orig": 38,
+  "new": 45,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2506/on(release).as",
+  "orig": 60,
+  "new": 69,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2636/frame_0001/DoAction.as",
+  "orig": 7,
+  "new": 7,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2636/frame_0105/DoAction.as",
+  "orig": 32,
+  "new": 35,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2643/on(release).as",
+  "orig": 15,
+  "new": 15,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2644/on(release).as",
+  "orig": 12,
+  "new": 12,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2645/on(release).as",
+  "orig": 15,
+  "new": 15,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2650/on(release).as",
+  "orig": 54,
+  "new": 63,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2651/on(release).as",
+  "orig": 54,
+  "new": 63,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2653/on(release).as",
+  "orig": 3729,
+  "new": 3345,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2655/on(release).as",
+  "orig": 13,
+  "new": 13,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2659/on(release).as",
+  "orig": 13,
+  "new": 13,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2672/on(release).as",
+  "orig": 740,
+  "new": 735,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2672/on(rollOver).as",
+  "orig": 282,
+  "new": 281,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2672/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2673/on(release).as",
+  "orig": 1169,
+  "new": 1128,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2673/on(rollOver).as",
+  "orig": 282,
+  "new": 281,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2673/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2674/on(release).as",
+  "orig": 1169,
+  "new": 1128,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2674/on(rollOver).as",
+  "orig": 282,
+  "new": 281,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2674/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2675/on(release).as",
+  "orig": 1169,
+  "new": 1128,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2675/on(rollOver).as",
+  "orig": 282,
+  "new": 281,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2675/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0001/DoAction.as",
+  "orig": 312,
+  "new": 279,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0001/colocacion_d18_inner2/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0003/DoAction.as",
+  "orig": 6,
+  "new": 6,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0004/DoAction.as",
+  "orig": 1463,
+  "new": 1395,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0006/DoAction.as",
+  "orig": 9,
+  "new": 9,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0007/DoAction.as",
+  "orig": 1676,
+  "new": 1608,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0009/DoAction.as",
+  "orig": 53,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0010/DoAction.as",
+  "orig": 1003,
+  "new": 951,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0012/DoAction.as",
+  "orig": 53,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0013/DoAction.as",
+  "orig": 2537,
+  "new": 2454,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0015/DoAction.as",
+  "orig": 53,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0016/DoAction.as",
+  "orig": 125,
+  "new": 117,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0017/DoAction.as",
+  "orig": 2267,
+  "new": 2175,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2680/frame_0019/DoAction.as",
+  "orig": 53,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2693/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2693/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2693/frame_0026/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2703/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2703/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2703/frame_0026/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2710/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2710/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2710/frame_0026/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2712/on(release).as",
+  "orig": 387,
+  "new": 379,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2712/on(rollOver).as",
+  "orig": 295,
+  "new": 294,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2712/on(rollOut).as",
+  "orig": 195,
+  "new": 194,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2713/on(release).as",
+  "orig": 387,
+  "new": 379,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2713/on(rollOver).as",
+  "orig": 296,
+  "new": 295,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2713/on(rollOut).as",
+  "orig": 196,
+  "new": 195,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2714/on(release).as",
+  "orig": 391,
+  "new": 379,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2714/on(rollOver).as",
+  "orig": 301,
+  "new": 292,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2714/on(rollOut).as",
+  "orig": 193,
+  "new": 192,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2730/on(release).as",
+  "orig": 338,
+  "new": 330,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2731/on(release).as",
+  "orig": 370,
+  "new": 370,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2732/on(release).as",
+  "orig": 370,
+  "new": 370,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2733/on(release).as",
+  "orig": 244,
+  "new": 244,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2734/on(release).as",
+  "orig": 288,
+  "new": 288,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2735/on(release).as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2736/on(release).as",
+  "orig": 202,
+  "new": 202,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2740/on(release).as",
+  "orig": 250,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2742/on(release).as",
+  "orig": 15,
+  "new": 15,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2752/on(release).as",
+  "orig": 75,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2753/on(release).as",
+  "orig": 75,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2754/on(release).as",
+  "orig": 75,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2755/on(release).as",
+  "orig": 75,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2756/on(release).as",
+  "orig": 79,
+  "new": 85,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2795/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2796/on(press).as",
+  "orig": 550,
+  "new": 549,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2797/frame_0001/colocacion_d1_PIC/onClipEvent(enterFrame).as",
+  "orig": 366,
+  "new": 364,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/colocacion_d3_b3/onClipEvent(load).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/colocacion_d14_b4/onClipEvent(load).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/colocacion_d25_b1/onClipEvent(load).as",
+  "orig": 95,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/colocacion_d36_b2/onClipEvent(load).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0001/colocacion_d47_b5/onClipEvent(load).as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2799/frame_0009/DoAction.as",
+  "orig": 87,
+  "new": 87,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2800/frame_0001/colocacion_d1_p5/onClipEvent(load).as",
+  "orig": 324,
+  "new": 325,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2800/frame_0001/colocacion_d49_p3/onClipEvent(load).as",
+  "orig": 324,
+  "new": 325,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2801/frame_0001/colocacion_d7_subAI_BAR/onClipEvent(load).as",
+  "orig": 166,
+  "new": 162,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2808/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2809/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2810/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2811/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2813/on(press).as",
+  "orig": 836,
+  "new": 836,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2813/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2813/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2814/on(release).as",
+  "orig": 189,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2814/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2814/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2815/on(press).as",
+  "orig": 692,
+  "new": 680,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2815/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2815/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2819/on(press).as",
+  "orig": 686,
+  "new": 686,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2819/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2819/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2820/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2820/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2820/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2821/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2822/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2823/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2824/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2827/on(press).as",
+  "orig": 749,
+  "new": 749,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2827/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2827/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2828/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2828/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2828/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2829/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2830/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2831/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2832/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2833/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2849/on(press).as",
+  "orig": 686,
+  "new": 686,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2849/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2849/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2850/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2850/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2850/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2851/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2852/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2853/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2854/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2857/on(press).as",
+  "orig": 708,
+  "new": 708,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2857/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2857/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2858/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2858/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2858/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2859/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2860/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2861/on(press).as",
+  "orig": 42,
+  "new": 49,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2874/on(press).as",
+  "orig": 653,
+  "new": 653,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2874/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2874/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2875/on(press).as",
+  "orig": 659,
+  "new": 647,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2875/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2875/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2876/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2876/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2876/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2893/on(release).as",
+  "orig": 185,
+  "new": 185,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2893/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2893/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2902/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2902/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2902/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2903/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2903/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2903/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2904/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2904/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2904/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2905/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2905/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2905/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2906/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2906/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2906/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2907/on(press).as",
+  "orig": 219,
+  "new": 219,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2907/on(rollOver).as",
+  "orig": 247,
+  "new": 246,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2907/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2908/frame_0191/DoAction.as",
+  "orig": 51,
+  "new": 56,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2910/on(release).as",
+  "orig": 135,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2910/on(rollOver).as",
+  "orig": 402,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2910/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2911/on(release).as",
+  "orig": 340,
+  "new": 332,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2911/on(rollOver).as",
+  "orig": 402,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2911/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2912/on(release).as",
+  "orig": 413,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2912/on(rollOver).as",
+  "orig": 402,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2912/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2913/on(release).as",
+  "orig": 209,
+  "new": 205,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2914/on(press).as",
+  "orig": 547,
+  "new": 547,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2915/on(release).as",
+  "orig": 341,
+  "new": 333,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2915/on(rollOver).as",
+  "orig": 402,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2915/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2916/on(release).as",
+  "orig": 4636,
+  "new": 3872,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2916/on(rollOver).as",
+  "orig": 505,
+  "new": 504,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2916/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2917/on(release).as",
+  "orig": 69,
+  "new": 77,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2917/on(rollOver).as",
+  "orig": 356,
+  "new": 355,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2917/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2918/on(release).as",
+  "orig": 155,
+  "new": 151,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2918/on(rollOver).as",
+  "orig": 414,
+  "new": 413,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2918/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2922/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2922/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2922/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2925/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2925/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2925/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2928/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2928/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2928/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2931/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2931/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2931/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2934/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2934/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2934/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2937/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2937/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2937/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2938/on(release).as",
+  "orig": 337,
+  "new": 329,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2938/on(rollOver).as",
+  "orig": 402,
+  "new": 401,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2938/on(rollOut).as",
+  "orig": 194,
+  "new": 193,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2941/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2941/frame_0007/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_2941/frame_0027/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2961/on(press).as",
+  "orig": 1749,
+  "new": 1721,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2961/on(rollOver).as",
+  "orig": 908,
+  "new": 888,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2961/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2963/on(press).as",
+  "orig": 4709,
+  "new": 4633,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2963/on(rollOver).as",
+  "orig": 1097,
+  "new": 1077,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_2963/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3050/on(press).as",
+  "orig": 612,
+  "new": 576,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3050/on(rollOver).as",
+  "orig": 454,
+  "new": 450,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3050/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3069/frame_0001/colocacion_d1/onClipEvent(enterFrame).as",
+  "orig": 353,
+  "new": 352,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3078/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3085/on(press).as",
+  "orig": 224,
+  "new": 216,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3085/on(rollOver).as",
+  "orig": 366,
+  "new": 365,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3085/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3089/on(press).as",
+  "orig": 99,
+  "new": 95,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3091/on(press).as",
+  "orig": 1561,
+  "new": 1520,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3091/on(rollOver).as",
+  "orig": 1260,
+  "new": 1208,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3091/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3100/on(release).as",
+  "orig": 487,
+  "new": 483,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3125/on(press).as",
+  "orig": 454,
+  "new": 445,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3125/on(rollOver).as",
+  "orig": 577,
+  "new": 573,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3125/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3133/on(press).as",
+  "orig": 35,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3133/on(release).as",
+  "orig": 39,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3133/on(rollOut).as",
+  "orig": 39,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3134/on(press).as",
+  "orig": 35,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3134/on(release).as",
+  "orig": 39,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3134/on(rollOut).as",
+  "orig": 39,
+  "new": 42,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3135/frame_0001/colocacion_d3_talentPool2/onClipEvent(enterFrame).as",
+  "orig": 176,
+  "new": 160,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3136/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3136/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3136/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3137/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3137/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3137/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3138/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3138/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3138/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3139/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3139/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3139/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3140/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3140/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3140/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3141/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3141/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3141/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3142/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3142/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3142/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3143/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3143/on(rollOver).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3143/on(rollOut).as",
+  "orig": 27,
+  "new": 34,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3147/on(release).as",
+  "orig": 1897,
+  "new": 1849,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3154___v9NativeNode/frame_0001/colocacion_d17_thingoShow/onClipEvent(enterFrame).as",
+  "orig": 77,
+  "new": 77,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3155/frame_0001/DoAction.as",
+  "orig": 31,
+  "new": 33,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3173/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3177/on(release).as",
+  "orig": 333,
+  "new": 325,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3178/on(release).as",
+  "orig": 330,
+  "new": 322,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3179/on(release).as",
+  "orig": 330,
+  "new": 322,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3180/on(release).as",
+  "orig": 337,
+  "new": 321,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3188/on(release).as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3194/on(release).as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3199/on(release).as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3201/on(release).as",
+  "orig": 10,
+  "new": 10,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3204/on(release).as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0001/DoAction.as",
+  "orig": 113,
+  "new": 113,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0007/DoAction.as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0012/DoAction.as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0055/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0056/DoAction.as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0106/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0107/DoAction.as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0150/DoAction.as",
+  "orig": 11,
+  "new": 11,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3205/frame_0151/DoAction.as",
+  "orig": 140,
+  "new": 140,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3206/on(press).as",
+  "orig": 43,
+  "new": 50,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3206/on(rollOver).as",
+  "orig": 453,
+  "new": 449,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3206/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3211/on(release).as",
+  "orig": 505,
+  "new": 493,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3219/on(release).as",
+  "orig": 288,
+  "new": 288,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3235/on(rollOver).as",
+  "orig": 376,
+  "new": 375,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3235/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3237/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/DoAction_2.as",
+  "orig": 8597,
+  "new": 8455,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d786_playerSlot2/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d807_playerSlot5/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d828_playerSlot0/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d849_playerSlot3/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d870_playerSlot4/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d891_playerSlot1/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d943_playerSlot6/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(load).as",
+  "orig": 71,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d995_fa0/onClipEvent(enterFrame).as",
+  "orig": 122,
+  "new": 118,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(enterFrame).as",
+  "orig": 205,
+  "new": 203,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0001/colocacion_d1419_bar/onClipEvent(load).as",
+  "orig": 205,
+  "new": 203,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0002/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0003/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0004/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0005/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0006/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0007/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0008/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/DoAction_2.as",
+  "orig": 2417,
+  "new": 2389,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(load).as",
+  "orig": 505,
+  "new": 496,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1111/onClipEvent(enterFrame).as",
+  "orig": 606,
+  "new": 597,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(load).as",
+  "orig": 501,
+  "new": 496,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1154/onClipEvent(enterFrame).as",
+  "orig": 606,
+  "new": 597,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(load).as",
+  "orig": 578,
+  "new": 568,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0009/colocacion_d1197/onClipEvent(enterFrame).as",
+  "orig": 926,
+  "new": 913,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0010/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0011/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0012/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0013/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0014/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0015/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/DoAction_2.as",
+  "orig": 2815,
+  "new": 2721,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d25___nzShopkeeper/onClipEvent(load).as",
+  "orig": 147,
+  "new": 142,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1103_playerSlot2/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1124_playerSlot5/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1145_playerSlot0/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1166_playerSlot3/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1187_playerSlot4/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1208_playerSlot1/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0016/colocacion_d1260_playerSlot6/onClipEvent(load).as",
+  "orig": 15,
+  "new": 21,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0017/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0018/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0019/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0020/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0021/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0022/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0023/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0024/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0025/DoAction.as",
+  "orig": 4366,
+  "new": 4285,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0025/colocacion_d153_talenttreefull/onClipEvent(load).as",
+  "orig": 3459,
+  "new": 3410,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0025/colocacion_d657_statColor/onClipEvent(enterFrame).as",
+  "orig": 135,
+  "new": 131,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0025/colocacion_d675/onClipEvent(load).as",
+  "orig": 105,
+  "new": 101,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0026/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0027/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0028/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0029/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0030/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0031/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0032/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0033/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0034/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0035/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0036/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0037/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0038/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0039/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0039/DoAction_2.as",
+  "orig": 1437,
+  "new": 1433,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0040/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0041/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0042/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0043/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0044/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0045/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0045/DoAction_2.as",
+  "orig": 326,
+  "new": 326,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0046/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0047/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0048/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0049/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0050/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0051/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0052/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0053/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0054/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0055/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0056/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0057/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3239/frame_0058/DoAction.as",
+  "orig": 39,
+  "new": 43,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3243/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3243/frame_0002/DoAction.as",
+  "orig": 43,
+  "new": 51,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3243/frame_0125/DoAction.as",
+  "orig": 30,
+  "new": 37,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3250/on(press).as",
+  "orig": 41,
+  "new": 44,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3251/frame_0001/DoAction.as",
+  "orig": 91,
+  "new": 91,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3262/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3262/frame_0002/DoAction.as",
+  "orig": 188,
+  "new": 184,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3278/on(release).as",
+  "orig": 310,
+  "new": 298,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3280/on(release).as",
+  "orig": 15,
+  "new": 15,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3281/on(release).as",
+  "orig": 226,
+  "new": 226,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3282/on(release).as",
+  "orig": 199,
+  "new": 199,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3283/on(release).as",
+  "orig": 226,
+  "new": 226,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3284/on(release).as",
+  "orig": 199,
+  "new": 199,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3291/on(press).as",
+  "orig": 103,
+  "new": 103,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3296/on(press).as",
+  "orig": 326,
+  "new": 322,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3298/frame_0001/DoAction.as",
+  "orig": 147,
+  "new": 147,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3298/frame_0001/colocacion_d13/onClipEvent(load).as",
+  "orig": 228,
+  "new": 240,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3298/frame_0005/DoAction.as",
+  "orig": 159,
+  "new": 158,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0014/colocacion_d6/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0014/colocacion_d8/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0014/colocacion_d10/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0014/colocacion_d12/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0014/colocacion_d14/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0021/colocacion_d5/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0021/colocacion_d7/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0021/colocacion_d9/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0021/colocacion_d11/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0021/colocacion_d13/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0044/colocacion_d4/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0044/colocacion_d6/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0044/colocacion_d8/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0044/colocacion_d10/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0044/colocacion_d12/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0064/colocacion_d5/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0064/colocacion_d7/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0064/colocacion_d9/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0064/colocacion_d11/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3328/frame_0064/colocacion_d13/onClipEvent(enterFrame).as",
+  "orig": 97,
+  "new": 81,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3344/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3344/frame_0002/DoAction.as",
+  "orig": 88,
+  "new": 88,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3344/frame_0004/DoAction.as",
+  "orig": 106,
+  "new": 106,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3344/frame_0005/DoAction.as",
+  "orig": 248,
+  "new": 244,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3345/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3345/frame_0002/DoAction.as",
+  "orig": 427,
+  "new": 427,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3345/frame_0004/DoAction.as",
+  "orig": 792,
+  "new": 780,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3345/frame_0006/DoAction.as",
+  "orig": 254,
+  "new": 254,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0005/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0007/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0009/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0011/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0014/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0016/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0018/DoAction.as",
+  "orig": 76,
+  "new": 76,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3347/frame_0020/DoAction.as",
+  "orig": 80,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0002/DoAction.as",
+  "orig": 129,
+  "new": 129,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0004/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0006/DoAction.as",
+  "orig": 129,
+  "new": 129,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0008/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0010/DoAction.as",
+  "orig": 129,
+  "new": 129,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0012/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0014/DoAction.as",
+  "orig": 129,
+  "new": 129,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0016/DoAction.as",
+  "orig": 153,
+  "new": 153,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0017/DoAction.as",
+  "orig": 130,
+  "new": 130,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0019/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0021/DoAction.as",
+  "orig": 130,
+  "new": 130,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0023/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0025/DoAction.as",
+  "orig": 130,
+  "new": 130,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0027/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0029/DoAction.as",
+  "orig": 130,
+  "new": 130,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0031/DoAction.as",
+  "orig": 153,
+  "new": 153,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0032/DoAction.as",
+  "orig": 131,
+  "new": 131,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0034/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0036/DoAction.as",
+  "orig": 131,
+  "new": 131,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0038/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0040/DoAction.as",
+  "orig": 131,
+  "new": 131,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0042/DoAction.as",
+  "orig": 119,
+  "new": 119,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0044/DoAction.as",
+  "orig": 131,
+  "new": 131,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3348/frame_0046/DoAction.as",
+  "orig": 153,
+  "new": 153,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d1_fB2/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d3_lB2/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d6_fB/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d8_fB3/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d11_lB/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3355/frame_0001/colocacion_d13_lB3/onClipEvent(load).as",
+  "orig": 21,
+  "new": 27,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3368/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3378/frame_0001/colocacion_d2/onClipEvent(enterFrame).as",
+  "orig": 165,
+  "new": 156,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3378/frame_0001/colocacion_d6/onClipEvent(enterFrame).as",
+  "orig": 166,
+  "new": 158,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3381/on(release).as",
+  "orig": 469,
+  "new": 457,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3382/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3383/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3384/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3385/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3386/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3387/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3388/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3389/on(release).as",
+  "orig": 71,
+  "new": 80,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3393/frame_0021/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3394/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3405/frame_0001/DoAction.as",
+  "orig": 86,
+  "new": 86,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3408/on(release).as",
+  "orig": 179,
+  "new": 179,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3408/on(rollOver).as",
+  "orig": 235,
+  "new": 234,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3408/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3409/frame_0031/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3409/frame_0085/DoAction.as",
+  "orig": 271,
+  "new": 267,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3415/frame_0401/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_3417/on(release).as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3433/frame_0001/DoAction.as",
+  "orig": 794,
+  "new": 762,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3580/frame_2084/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3584/frame_0001/DoAction.as",
+  "orig": 794,
+  "new": 762,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3745/frame_1795/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3767/frame_0001/DoAction.as",
+  "orig": 794,
+  "new": 762,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3848/frame_0117/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3860/frame_0621/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3892/frame_0501/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3898/frame_0001/DoAction.as",
+  "orig": 794,
+  "new": 762,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3970/frame_1237/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_3981/frame_0001/DoAction.as",
+  "orig": 794,
+  "new": 762,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4083/frame_2424/DoAction.as",
+  "orig": 32,
+  "new": 39,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4099/frame_0001/DoAction.as",
+  "orig": 2,
+  "new": 2,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_4101/on(release).as",
+  "orig": 120,
+  "new": 120,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_4101/on(rollOver).as",
+  "orig": 259,
+  "new": 258,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineButton2_4101/on(rollOut).as",
+  "orig": 149,
+  "new": 148,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4103/frame_0001/colocacion_d85_mb6/onClipEvent(load).as",
+  "orig": 70,
+  "new": 74,
+  "ok": true
+ },
+ {
+  "file": "scripts/DefineSprite_4103/frame_0001/colocacion_d91_mb7/onClipEvent(load).as",
+  "orig": 131,
+  "new": 131,
+  "ok": true
+ }
+]

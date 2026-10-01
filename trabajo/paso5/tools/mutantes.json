@@ -1,0 +1,44 @@
+[
+ {
+  "script": "scripts/DoInitAction/DefineSprite_4113___Packages.mx.managers.DepthManager.as",
+  "de": "\"depthChild\" + this._childCounter++",
+  "a": "\"depthChild\" + ++this._childCounter",
+  "que": "clase mx DepthManager: x++ cambiado por ++x (el bug que se corrigio)"
+ },
+ {
+  "script": "scripts/escenario/frame_0042/DoAction_2.as",
+  "de": "s_a = (9.25 * s_level + 45.75) / 4 * (s_ratio / 10);",
+  "a": "s_a = (9.25 * s_level + 45.75) / 4 * (s_ratio / 11);",
+  "que": "motor: formula de getStat, un 10 cambiado por 11"
+ },
+ {
+  "script": "scripts/escenario/frame_0042/DoAction_2.as",
+  "de": "      next = now - dmg;\n",
+  "a": "      next = now - dmg * 1.01;\n",
+  "que": "capa del mod __v10Life: el dano recibido sube un 1 %"
+ },
+ {
+  "script": "scripts/escenario/frame_0001/DoAction.as",
+  "de": "KrinLang.ENGLISH.ACH[10] = \"The Tape\";",
+  "a": "KrinLang.ENGLISH.ACH[10] = \"The Tape \";",
+  "que": "datos: un espacio de mas en el nombre de un logro"
+ },
+ {
+  "script": "scripts/DoInitAction/DefineSprite_4105___Packages.mx.core.UIObject.as",
+  "de": "else if(_loc3_ == \"size\" && this.fontSize != undefined)",
+  "a": "else if(_loc3_ == \"size\" && this.fontSize == undefined)",
+  "que": "clase mx UIObject: != cambiado por =="
+ },
+ {
+  "script": "scripts/escenario/frame_0042/DoAction_2.as",
+  "de": "   if(_root.Krin.skillPoints < 1)",
+  "a": "   if(_root.Krin.skillPoints < 4)",
+  "que": "arbol de habilidades: pide 4 puntos en vez de 1"
+ },
+ {
+  "script": "scripts/escenario/frame_0042/DoAction_2.as",
+  "de": "   while(i < source.length)",
+  "a": "   while(i < source.length + 1)",
+  "que": "bucle que ordena las habilidades: una vuelta de mas"
+ }
+]
