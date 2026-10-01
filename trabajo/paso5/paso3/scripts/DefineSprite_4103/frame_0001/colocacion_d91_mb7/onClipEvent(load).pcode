@@ -1,0 +1,29 @@
+// onClipEvent(load)
+// origen: DefineSprite_4103 fotograma 1, clip en profundidad 91 (08332_DefineSprite_4103.bin, byte 440)
+
+   494  ConstantPool (5)
+   529  Push "", 7, false
+   541  SetProperty
+   542  Push "_root"
+   547  GetVariable
+   548  Push "Krin"
+   553  GetMember
+   554  Push "difficulty"
+   559  GetMember
+   560  Push 2
+   568  Equals2
+   569  Not
+   570  If loc624
+   575  Push "_root"
+   580  GetVariable
+   581  Push "achGet"
+   586  GetMember
+   587  Push 4
+   595  GetMember
+   596  Push 1
+   604  Equals2
+   605  Not
+   606  If loc624
+   611  Push "", 7, true
+   623  SetProperty
+   624  End

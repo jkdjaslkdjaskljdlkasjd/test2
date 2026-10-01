@@ -1,0 +1,334 @@
+// DoAction
+// origen: escenario fotograma 93, DoAction (06167_DoAction.bin)
+
+     0  ConstantPool (27)
+   199  Stop
+   200  Push "Krin"
+   205  GetVariable
+   206  Push "autoSaver", true
+   213  SetMember
+   214  Push "Krin"
+   219  GetVariable
+   220  Push "sound", true
+   227  SetMember
+   228  Push "Krin"
+   233  GetVariable
+   234  Push "graphics", true
+   241  SetMember
+   242  Push "Krin"
+   247  GetVariable
+   248  Push "qual", "HIGH"
+   255  SetMember
+   256  Push "Krin"
+   261  GetVariable
+   262  Push "difficulty", 0
+   276  SetMember
+   277  Push "Krin"
+   282  GetVariable
+   283  Push "tutorOn", true
+   290  SetMember
+   291  Push "tit_1", "_root"
+   298  GetVariable
+   299  Push "KrinLang"
+   304  GetMember
+   305  Push "_root"
+   310  GetVariable
+   311  Push "KLangChoosen"
+   316  GetMember
+   317  GetMember
+   318  Push "MENU"
+   323  GetMember
+   324  Push 27
+   332  GetMember
+   333  SetVariable
+   334  Push "tit_2", "_root"
+   341  GetVariable
+   342  Push "KrinLang"
+   347  GetMember
+   348  Push "_root"
+   353  GetVariable
+   354  Push "KLangChoosen"
+   359  GetMember
+   360  GetMember
+   361  Push "MENU"
+   366  GetMember
+   367  Push 28
+   375  GetMember
+   376  SetVariable
+   377  Push "tit_8", "_root"
+   384  GetVariable
+   385  Push "KrinLang"
+   390  GetMember
+   391  Push "_root"
+   396  GetVariable
+   397  Push "KLangChoosen"
+   402  GetMember
+   403  GetMember
+   404  Push "MENU"
+   409  GetMember
+   410  Push 35
+   418  GetMember
+   419  SetVariable
+   420  Push "tit_9", "_root"
+   427  GetVariable
+   428  Push "KrinLang"
+   433  GetMember
+   434  Push "_root"
+   439  GetVariable
+   440  Push "KLangChoosen"
+   445  GetMember
+   446  GetMember
+   447  Push "MENU"
+   452  GetMember
+   453  Push 38
+   461  GetMember
+   462  SetVariable
+   463  Push "t_dif", "_root"
+   470  GetVariable
+   471  Push "KrinLang"
+   476  GetMember
+   477  Push "_root"
+   482  GetVariable
+   483  Push "KLangChoosen"
+   488  GetMember
+   489  GetMember
+   490  Push "MENU"
+   495  GetMember
+   496  Push 78
+   504  GetMember
+   505  SetVariable
+   506  Push "t_dif2", "_root"
+   513  GetVariable
+   514  Push "KrinLang"
+   519  GetMember
+   520  Push "_root"
+   525  GetVariable
+   526  Push "KLangChoosen"
+   531  GetMember
+   532  GetMember
+   533  Push "MENU"
+   538  GetMember
+   539  Push 79
+   547  GetMember
+   548  SetVariable
+   549  Push "_root"
+   554  GetVariable
+   555  Push "Krin"
+   560  GetMember
+   561  Push "sound"
+   566  GetMember
+   567  Not
+   568  If loc621
+   573  Push "tit_3", "_root"
+   580  GetVariable
+   581  Push "KrinLang"
+   586  GetMember
+   587  Push "_root"
+   592  GetVariable
+   593  Push "KLangChoosen"
+   598  GetMember
+   599  GetMember
+   600  Push "MENU"
+   605  GetMember
+   606  Push 29
+   614  GetMember
+   615  SetVariable
+   616  Jump loc664
+   621  Push "tit_3", "_root"
+   628  GetVariable
+   629  Push "KrinLang"
+   634  GetMember
+   635  Push "_root"
+   640  GetVariable
+   641  Push "KLangChoosen"
+   646  GetMember
+   647  GetMember
+   648  Push "MENU"
+   653  GetMember
+   654  Push 30
+   662  GetMember
+   663  SetVariable
+   664  Push "_root"
+   669  GetVariable
+   670  Push "Krin"
+   675  GetMember
+   676  Push "graphics"
+   681  GetMember
+   682  Not
+   683  If loc736
+   688  Push "tit_4", "_root"
+   695  GetVariable
+   696  Push "KrinLang"
+   701  GetMember
+   702  Push "_root"
+   707  GetVariable
+   708  Push "KLangChoosen"
+   713  GetMember
+   714  GetMember
+   715  Push "MENU"
+   720  GetMember
+   721  Push 31
+   729  GetMember
+   730  SetVariable
+   731  Jump loc779
+   736  Push "tit_4", "_root"
+   743  GetVariable
+   744  Push "KrinLang"
+   749  GetMember
+   750  Push "_root"
+   755  GetVariable
+   756  Push "KLangChoosen"
+   761  GetMember
+   762  GetMember
+   763  Push "MENU"
+   768  GetMember
+   769  Push 32
+   777  GetMember
+   778  SetVariable
+   779  Push "_root"
+   784  GetVariable
+   785  Push "Krin"
+   790  GetMember
+   791  Push "qual"
+   796  GetMember
+   797  Push "HIGH"
+   802  Equals2
+   803  Not
+   804  If loc857
+   809  Push "tit_11", "_root"
+   816  GetVariable
+   817  Push "KrinLang"
+   822  GetMember
+   823  Push "_root"
+   828  GetVariable
+   829  Push "KLangChoosen"
+   834  GetMember
+   835  GetMember
+   836  Push "MENU"
+   841  GetMember
+   842  Push 31
+   850  GetMember
+   851  SetVariable
+   852  Jump loc900
+   857  Push "tit_11", "_root"
+   864  GetVariable
+   865  Push "KrinLang"
+   870  GetMember
+   871  Push "_root"
+   876  GetVariable
+   877  Push "KLangChoosen"
+   882  GetMember
+   883  GetMember
+   884  Push "MENU"
+   889  GetMember
+   890  Push 32
+   898  GetMember
+   899  SetVariable
+   900  Push "_root"
+   905  GetVariable
+   906  Push "Krin"
+   911  GetMember
+   912  Push "autoSaver"
+   917  GetMember
+   918  Not
+   919  If loc972
+   924  Push "tit_7", "_root"
+   931  GetVariable
+   932  Push "KrinLang"
+   937  GetMember
+   938  Push "_root"
+   943  GetVariable
+   944  Push "KLangChoosen"
+   949  GetMember
+   950  GetMember
+   951  Push "MENU"
+   956  GetMember
+   957  Push 29
+   965  GetMember
+   966  SetVariable
+   967  Jump loc1015
+   972  Push "tit_7", "_root"
+   979  GetVariable
+   980  Push "KrinLang"
+   985  GetMember
+   986  Push "_root"
+   991  GetVariable
+   992  Push "KLangChoosen"
+   997  GetMember
+   998  GetMember
+   999  Push "MENU"
+  1004  GetMember
+  1005  Push 30
+  1013  GetMember
+  1014  SetVariable
+  1015  Push "TitLOL1", "_root"
+  1022  GetVariable
+  1023  Push "KrinLang"
+  1028  GetMember
+  1029  Push "_root"
+  1034  GetVariable
+  1035  Push "KLangChoosen"
+  1040  GetMember
+  1041  GetMember
+  1042  Push "MENU"
+  1047  GetMember
+  1048  Push 33
+  1056  GetMember
+  1057  SetVariable
+  1058  Push "TitLOL2", "_root"
+  1065  GetVariable
+  1066  Push "KrinLang"
+  1071  GetMember
+  1072  Push "_root"
+  1077  GetVariable
+  1078  Push "KLangChoosen"
+  1083  GetMember
+  1084  GetMember
+  1085  Push "MENU"
+  1090  GetMember
+  1091  Push 34
+  1099  GetMember
+  1100  SetVariable
+  1101  Push "whatToSayY", "_root"
+  1108  GetVariable
+  1109  Push "KrinLang"
+  1114  GetMember
+  1115  Push "_root"
+  1120  GetVariable
+  1121  Push "KLangChoosen"
+  1126  GetMember
+  1127  GetMember
+  1128  Push "MENU"
+  1133  GetMember
+  1134  Push 36
+  1142  GetMember
+  1143  SetVariable
+  1144  Push "t_tut", "_root"
+  1151  GetVariable
+  1152  Push "KrinLang"
+  1157  GetMember
+  1158  Push "_root"
+  1163  GetVariable
+  1164  Push "KLangChoosen"
+  1169  GetMember
+  1170  GetMember
+  1171  Push "MENU"
+  1176  GetMember
+  1177  Push 82
+  1185  GetMember
+  1186  SetVariable
+  1187  Push "t_tut2", "_root"
+  1194  GetVariable
+  1195  Push "KrinLang"
+  1200  GetMember
+  1201  Push "_root"
+  1206  GetVariable
+  1207  Push "KLangChoosen"
+  1212  GetMember
+  1213  GetMember
+  1214  Push "MENU"
+  1219  GetMember
+  1220  Push 84
+  1228  GetMember
+  1229  SetVariable
+  1230  End

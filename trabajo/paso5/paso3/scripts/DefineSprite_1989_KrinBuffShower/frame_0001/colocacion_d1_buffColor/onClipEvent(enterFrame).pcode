@@ -1,0 +1,30 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_1989_KrinBuffShower fotograma 1, clip en profundidad 1 (03013_DefineSprite_1989.bin, byte 20)
+
+    51  Push "_root"
+    61  GetVariable
+    62  Push "_ymouse"
+    74  GetMember
+    75  Push "_root"
+    85  GetVariable
+    86  Push "_xmouse"
+    98  GetMember
+    99  Push 2
+   107  Push "this"
+   116  GetVariable
+   117  Push "hitTest"
+   129  CallMethod
+   130  Not
+   131  If loc205
+   136  Push "this"
+   145  GetVariable
+   146  Push "_parent"
+   158  GetMember
+   159  Push 1
+   167  Push "_root"
+   177  GetVariable
+   178  Push "__a3StatusHover"
+   198  CallMethod
+   199  Pop
+   200  Jump loc205
+   205  End

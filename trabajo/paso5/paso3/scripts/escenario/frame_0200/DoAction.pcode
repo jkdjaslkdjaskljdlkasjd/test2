@@ -1,0 +1,148 @@
+// DoAction
+// origen: escenario fotograma 200, DoAction (07046_DoAction.bin)
+
+     0  ConstantPool (26)
+   246  DefineFunction2 "refreshArenaUI" () regs=2 flags=0x6a {
+      271  Push "arenaPlayer1"
+      276  GetVariable
+      277  Push "krinNameUser", "arenaPlayer1"
+      284  GetVariable
+      285  Push "nameUser"
+      290  GetMember
+      291  SetMember
+      292  Push "arenaPlayer2"
+      297  GetVariable
+      298  Push "krinNameUser", "arenaPlayer2"
+      305  GetVariable
+      306  Push "nameUser"
+      311  GetMember
+      312  SetMember
+      313  Push "title1_1", "arenaPlayer1"
+      320  GetVariable
+      321  Push "krinNameUser"
+      326  GetMember
+      327  SetVariable
+      328  Push "title2_1", "arenaPlayer2"
+      335  GetVariable
+      336  Push "krinNameUser"
+      341  GetMember
+      342  SetVariable
+      343  Push "title1_2", register1, "KrinLang"
+      352  GetMember
+      353  Push "KLangChoosen"
+      358  GetVariable
+      359  GetMember
+      360  Push "SYSTEM"
+      365  GetMember
+      366  Push 41
+      374  GetMember
+      375  Push "arenaPlayer1"
+      380  GetVariable
+      381  Push "Level"
+      386  GetMember
+      387  Add2
+      388  SetVariable
+      389  Push "title2_2", register1, "KrinLang"
+      398  GetMember
+      399  Push "KLangChoosen"
+      404  GetVariable
+      405  GetMember
+      406  Push "SYSTEM"
+      411  GetMember
+      412  Push 41
+      420  GetMember
+      421  Push "arenaPlayer2"
+      426  GetVariable
+      427  Push "Level"
+      432  GetMember
+      433  Add2
+      434  SetVariable
+      435  Push "arenaPlayer1"
+      440  GetVariable
+      441  Push "Class"
+      446  GetMember
+      447  Push 1
+      455  Add2
+      456  Push 1, "pvpIcon1"
+      466  GetVariable
+      467  Push "gotoAndStop"
+      472  CallMethod
+      473  Pop
+      474  Push "arenaPlayer2"
+      479  GetVariable
+      480  Push "Class"
+      485  GetMember
+      486  Push 1
+      494  Add2
+      495  Push 1, "pvpIcon2"
+      505  GetVariable
+      506  Push "gotoAndStop"
+      511  CallMethod
+      512  Pop
+      513  Push "PvPCodeLode", false
+      520  SetVariable
+        }
+   521  Stop
+   522  Push 0, "refreshArenaUI"
+   536  CallFunction
+   537  Pop
+   538  Push "t_export", "_root"
+   545  GetVariable
+   546  Push "KrinLang"
+   551  GetMember
+   552  Push "_root"
+   557  GetVariable
+   558  Push "KLangChoosen"
+   563  GetMember
+   564  GetMember
+   565  Push "MENU"
+   570  GetMember
+   571  Push 74
+   579  GetMember
+   580  SetVariable
+   581  Push "t_import", "_root"
+   588  GetVariable
+   589  Push "KrinLang"
+   594  GetMember
+   595  Push "_root"
+   600  GetVariable
+   601  Push "KLangChoosen"
+   606  GetMember
+   607  GetMember
+   608  Push "MENU"
+   613  GetMember
+   614  Push 75
+   622  GetMember
+   623  SetVariable
+   624  Push "t_fight", "_root"
+   631  GetVariable
+   632  Push "KrinLang"
+   637  GetMember
+   638  Push "_root"
+   643  GetVariable
+   644  Push "KLangChoosen"
+   649  GetMember
+   650  GetMember
+   651  Push "MENU"
+   656  GetMember
+   657  Push 76
+   665  GetMember
+   666  SetVariable
+   667  Push "t_exit", "_root"
+   674  GetVariable
+   675  Push "KrinLang"
+   680  GetMember
+   681  Push "_root"
+   686  GetVariable
+   687  Push "KLangChoosen"
+   692  GetMember
+   693  GetMember
+   694  Push "MENU"
+   699  GetMember
+   700  Push 77
+   708  GetMember
+   709  SetVariable
+   710  Push 1, "Music", 2, "addSound"
+   727  CallFunction
+   728  Pop
+   729  End

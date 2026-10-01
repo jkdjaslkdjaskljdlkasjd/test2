@@ -1,0 +1,35 @@
+// on(release)
+// origen: boton 2893 (06582_DefineButton2_2893.bin)
+
+    17  ConstantPool (9)
+   101  Push "_root"
+   106  GetVariable
+   107  Push "Krin"
+   112  GetMember
+   113  Push "PauseForScreen"
+   118  GetMember
+   119  Push true
+   124  Equals2
+   125  Not
+   126  Not
+   127  If loc201
+   132  Push "_root"
+   137  GetVariable
+   138  Push "Krin"
+   143  GetMember
+   144  Push "shopId", 5
+   154  SetMember
+   155  Push "shop", 1, "_root"
+   167  GetVariable
+   168  Push "KRINMENU"
+   173  GetMember
+   174  Push "gotoAndStop"
+   179  CallMethod
+   180  Pop
+   181  Push "_root"
+   186  GetVariable
+   187  Push "KrinScreen"
+   192  GetMember
+   193  Push "_visible", false
+   200  SetMember
+   201  End

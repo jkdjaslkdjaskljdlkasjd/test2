@@ -1,0 +1,6 @@
+// on(release)
+// origen: boton 3194 (06911_DefineButton2_3194.bin)
+
+    17  GoToLabel 'part2'
+    26  Play
+    27  End

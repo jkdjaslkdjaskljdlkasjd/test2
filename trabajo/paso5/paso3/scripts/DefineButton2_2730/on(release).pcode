@@ -1,0 +1,87 @@
+// on(release)
+// origen: boton 2730 (06198_DefineButton2_2730.bin)
+
+    17  ConstantPool (7)
+    78  Push "Krin"
+    83  GetVariable
+    84  Push "difficulty", "Krin"
+    91  GetVariable
+    92  Push "difficulty"
+    97  GetMember
+    98  Push 1
+   106  Add2
+   107  SetMember
+   108  Push "Krin"
+   113  GetVariable
+   114  Push "difficulty"
+   119  GetMember
+   120  Push 3
+   128  Less2
+   129  Not
+   130  Not
+   131  If loc157
+   136  Push "Krin"
+   141  GetVariable
+   142  Push "difficulty", 0
+   156  SetMember
+   157  Push "Krin"
+   162  GetVariable
+   163  Push "difficulty"
+   168  GetMember
+   169  Push 0
+   181  Equals2
+   182  Not
+   183  If loc236
+   188  Push "t_dif2", "_root"
+   195  GetVariable
+   196  Push "KrinLang"
+   201  GetMember
+   202  Push "_root"
+   207  GetVariable
+   208  Push "KLangChoosen"
+   213  GetMember
+   214  GetMember
+   215  Push "MENU"
+   220  GetMember
+   221  Push 79
+   229  GetMember
+   230  SetVariable
+   231  Jump loc354
+   236  Push "Krin"
+   241  GetVariable
+   242  Push "difficulty"
+   247  GetMember
+   248  Push 1
+   256  Equals2
+   257  Not
+   258  If loc311
+   263  Push "t_dif2", "_root"
+   270  GetVariable
+   271  Push "KrinLang"
+   276  GetMember
+   277  Push "_root"
+   282  GetVariable
+   283  Push "KLangChoosen"
+   288  GetMember
+   289  GetMember
+   290  Push "MENU"
+   295  GetMember
+   296  Push 80
+   304  GetMember
+   305  SetVariable
+   306  Jump loc354
+   311  Push "t_dif2", "_root"
+   318  GetVariable
+   319  Push "KrinLang"
+   324  GetMember
+   325  Push "_root"
+   330  GetVariable
+   331  Push "KLangChoosen"
+   336  GetMember
+   337  GetMember
+   338  Push "MENU"
+   343  GetMember
+   344  Push 81
+   352  GetMember
+   353  SetVariable
+   354  End

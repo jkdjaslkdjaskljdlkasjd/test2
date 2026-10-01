@@ -1,0 +1,969 @@
+// DefineSprite_4127___Packages.mx.controls.Button
+// origen: DoInitAction del sprite 4127 (03780_DoInitAction.bin)
+
+     2  ConstantPool (125)
+  1300  Push "_global"
+  1305  GetVariable
+  1306  Push "mx"
+  1311  GetMember
+  1312  Not
+  1313  Not
+  1314  If loc1343
+  1319  Push "_global"
+  1324  GetVariable
+  1325  Push "mx", 0, "Object"
+  1341  NewObject
+  1342  SetMember
+  1343  Pop
+  1344  Push "_global"
+  1349  GetVariable
+  1350  Push "mx"
+  1355  GetMember
+  1356  Push "controls"
+  1361  GetMember
+  1362  Not
+  1363  Not
+  1364  If loc1399
+  1369  Push "_global"
+  1374  GetVariable
+  1375  Push "mx"
+  1380  GetMember
+  1381  Push "controls", 0, "Object"
+  1397  NewObject
+  1398  SetMember
+  1399  Pop
+  1400  Push "_global"
+  1405  GetVariable
+  1406  Push "mx"
+  1411  GetMember
+  1412  Push "controls"
+  1417  GetMember
+  1418  Push "Button"
+  1423  GetMember
+  1424  Not
+  1425  Not
+  1426  If loc5603
+  1431  Push "mx"
+  1436  GetVariable
+  1437  Push "controls"
+  1442  GetMember
+  1443  Push "Button"
+  1448  DefineFunction2 "" () regs=2 flags=0x1a {
+     1459  Push 0, register1, undef
+     1474  CallMethod
+     1475  Pop
+        }
+  1476  StoreRegister 1
+  1480  SetMember
+  1481  Push "mx"
+  1486  GetVariable
+  1487  Push "controls"
+  1492  GetMember
+  1493  Push "Button"
+  1498  GetMember
+  1499  Push "mx"
+  1504  GetVariable
+  1505  Push "controls"
+  1510  GetMember
+  1511  Push "SimpleButton"
+  1516  GetMember
+  1517  Extends
+  1518  Push register1, "prototype"
+  1525  GetMember
+  1526  StoreRegister 2
+  1530  Pop
+  1531  Push register2, "init"
+  1538  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+     1555  Push 0, register1, "init"
+     1571  CallMethod
+     1572  Pop
+        }
+  1573  SetMember
+  1574  Push register2, "draw"
+  1581  DefineFunction2 "" () regs=3 flags=0x19 {
+     1592  Push register1, "initializing"
+     1599  GetMember
+     1600  Not
+     1601  If loc1622
+     1606  Push register1, "labelPath"
+     1613  GetMember
+     1614  Push "visible", true
+     1621  SetMember
+     1622  Push 0, register2, "draw"
+     1638  CallMethod
+     1639  Pop
+     1640  Push register1, "initIcon"
+     1647  GetMember
+     1648  Push undef
+     1652  Equals2
+     1653  Not
+     1654  Not
+     1655  If loc1682
+     1660  Push register1, "initIcon"
+     1667  GetMember
+     1668  Push 1, register1, "_setIcon"
+     1680  CallMethod
+     1681  Pop
+     1682  Push register1, "initIcon"
+     1689  Delete
+     1690  Pop
+        }
+  1691  SetMember
+  1692  Push register2, "onRelease"
+  1699  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+     1716  Push 0, register1, "onRelease"
+     1732  CallMethod
+     1733  Pop
+        }
+  1734  SetMember
+  1735  Push register2, "createChildren"
+  1742  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+     1759  Push 0, register1, "createChildren"
+     1775  CallMethod
+     1776  Pop
+        }
+  1777  SetMember
+  1778  Push register2, "setSkin"
+  1785  DefineFunction2 "" (r2:tag, r4:linkageName, r3:initobj) regs=5 flags=0x1a {
+     1823  Push register3, register4, register2, 3, register1, "setSkin"
+     1841  CallMethod
+     1842  Return
+        }
+  1843  SetMember
+  1844  Push register2, "viewSkin"
+  1851  DefineFunction2 "" (r6:varName) regs=7 flags=0x19 {
+     1871  Push 0, register1, "getState"
+     1887  CallMethod
+     1888  If loc1903
+     1893  Push "false"
+     1898  Jump loc1908
+     1903  Push "true"
+     1908  StoreRegister 3
+     1912  Pop
+     1913  Push register3, register1, "enabled"
+     1922  GetMember
+     1923  If loc1938
+     1928  Push "disabled"
+     1933  Jump loc1946
+     1938  Push register1, "phase"
+     1945  GetMember
+     1946  Add2
+     1947  StoreRegister 3
+     1951  Pop
+     1952  Push "styleName", register1, "borderStyle", register3, 2
+     1968  InitObject
+     1969  Push register6, 2, register2, "viewSkin"
+     1983  CallMethod
+     1984  Pop
+        }
+  1985  SetMember
+  1986  Push register2, "invalidateStyle"
+  1993  DefineFunction2 "" (r3:c) regs=4 flags=0x19 {
+     2007  Push register3, 1, register1, "labelPath"
+     2021  GetMember
+     2022  Push "invalidateStyle"
+     2027  CallMethod
+     2028  Pop
+     2029  Push register3, 1, register2, "invalidateStyle"
+     2043  CallMethod
+     2044  Pop
+        }
+  2045  SetMember
+  2046  Push register2, "setColor"
+  2053  DefineFunction2 "" (c) regs=3 flags=0x29 {
+     2067  Push 0
+     2079  StoreRegister 2
+     2083  Pop
+     2084  Push register2, 8
+     2094  Less2
+     2095  Not
+     2096  If loc2148
+     2101  Push true, 1, register1, register1, "idNames"
+     2117  GetMember
+     2118  Push register2
+     2123  GetMember
+     2124  GetMember
+     2125  Push "redraw"
+     2130  CallMethod
+     2131  Pop
+     2132  Push register2
+     2137  Increment
+     2138  StoreRegister 2
+     2142  Pop
+     2143  Jump loc2084
+        }
+  2148  SetMember
+  2149  Push register2, "setEnabled"
+  2156  DefineFunction2 "" (r3:enable) regs=4 flags=0x19 {
+     2175  Push register1, "labelPath"
+     2182  GetMember
+     2183  Push "enabled", register3
+     2190  SetMember
+     2191  Push register3, 1, register2, "setEnabled"
+     2205  CallMethod
+     2206  Pop
+        }
+  2207  SetMember
+  2208  Push register2, "calcSize"
+  2215  DefineFunction2 "" (r2:tag, r3:ref) regs=4 flags=0x29 {
+     2236  Push register1, "__width"
+     2243  GetMember
+     2244  Push undef
+     2248  Equals2
+     2249  PushDuplicate
+     2250  If loc2269
+     2255  Pop
+     2256  Push register1, "__height"
+     2263  GetMember
+     2264  Push undef
+     2268  Equals2
+     2269  Not
+     2270  If loc2280
+     2275  Push undef
+     2279  Return
+     2280  Push register2, 7
+     2290  Less2
+     2291  Not
+     2292  If loc2329
+     2297  Push true, register1, "__height"
+     2306  GetMember
+     2307  Push register1, "__width"
+     2314  GetMember
+     2315  Push 3, register3, "setSize"
+     2327  CallMethod
+     2328  Pop
+        }
+  2329  SetMember
+  2330  Push register2, "size"
+  2337  DefineFunction2 "" (Void) regs=5 flags=0x19 {
+     2354  Push 0, register1, "getState"
+     2370  CallMethod
+     2371  Push 1, register1, "setState"
+     2383  CallMethod
+     2384  Pop
+     2385  Push register1, "__height"
+     2392  GetMember
+     2393  Push register1, "__width"
+     2400  GetMember
+     2401  Push 2, register1, "setHitArea"
+     2413  CallMethod
+     2414  Pop
+     2415  Push 0
+     2427  StoreRegister 3
+     2431  Pop
+     2432  Push register3, 8
+     2442  Less2
+     2443  Not
+     2444  If loc2543
+     2449  Push register1, "idNames"
+     2456  GetMember
+     2457  Push register3
+     2462  GetMember
+     2463  StoreRegister 4
+     2467  Pop
+     2468  Push register1, register4
+     2475  GetMember
+     2476  TypeOf
+     2477  Push "movieclip"
+     2482  Equals2
+     2483  Not
+     2484  If loc2527
+     2489  Push true, register1, "__height"
+     2498  GetMember
+     2499  Push register1, "__width"
+     2506  GetMember
+     2507  Push 3, register1, register4
+     2519  GetMember
+     2520  Push "setSize"
+     2525  CallMethod
+     2526  Pop
+     2527  Push register3
+     2532  Increment
+     2533  StoreRegister 3
+     2537  Pop
+     2538  Jump loc2432
+     2543  Push 0, register2, "size"
+     2559  CallMethod
+     2560  Pop
+        }
+  2561  SetMember
+  2562  Push register2, "__set__labelPlacement"
+  2569  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     2585  Push register1, "__labelPlacement", register2
+     2594  SetMember
+     2595  Push 0, register1, "invalidate"
+     2611  CallMethod
+     2612  Pop
+     2613  Push 0, register1, "__get__labelPlacement"
+     2629  CallMethod
+     2630  Return
+     2631  Pop
+        }
+  2632  SetMember
+  2633  Push register2, "__get__labelPlacement"
+  2640  DefineFunction2 "" () regs=2 flags=0x29 {
+     2651  Push register1, "__labelPlacement"
+     2658  GetMember
+     2659  Return
+        }
+  2660  SetMember
+  2661  Push register2, "getLabelPlacement"
+  2668  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     2685  Push register1, "__labelPlacement"
+     2692  GetMember
+     2693  Return
+        }
+  2694  SetMember
+  2695  Push register2, "setLabelPlacement"
+  2702  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     2718  Push register1, "__labelPlacement", register2
+     2727  SetMember
+     2728  Push 0, register1, "invalidate"
+     2744  CallMethod
+     2745  Pop
+        }
+  2746  SetMember
+  2747  Push register2, "getBtnOffset"
+  2754  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     2771  Push 0, register1, "getState"
+     2787  CallMethod
+     2788  Not
+     2789  If loc2812
+     2794  Push register1, "btnOffset"
+     2801  GetMember
+     2802  StoreRegister 2
+     2806  Pop
+     2807  Jump loc2867
+     2812  Push register1, "phase"
+     2819  GetMember
+     2820  Push "down"
+     2825  Equals2
+     2826  Not
+     2827  If loc2850
+     2832  Push register1, "btnOffset"
+     2839  GetMember
+     2840  StoreRegister 2
+     2844  Pop
+     2845  Jump loc2867
+     2850  Push 0
+     2862  StoreRegister 2
+     2866  Pop
+     2867  Push register2
+     2872  Return
+        }
+  2873  SetMember
+  2874  Push register2, "setView"
+  2881  DefineFunction2 "" (r17:offset) regs=18 flags=0x29 {
+     2900  Push register17
+     2905  If loc2927
+     2910  Push 0
+     2922  Jump loc2935
+     2927  Push register1, "btnOffset"
+     2934  GetMember
+     2935  StoreRegister 16
+     2939  Pop
+     2940  Push 0, register1, "getLabelPlacement"
+     2956  CallMethod
+     2957  StoreRegister 12
+     2961  Pop
+     2962  Push 0
+     2974  StoreRegister 7
+     2978  Pop
+     2979  Push 0
+     2991  StoreRegister 6
+     2995  Pop
+     2996  Push 0
+     3008  StoreRegister 11
+     3012  Pop
+     3013  Push 0
+     3025  StoreRegister 8
+     3029  Pop
+     3030  Push 0
+     3042  StoreRegister 5
+     3046  Pop
+     3047  Push 0
+     3059  StoreRegister 4
+     3063  Pop
+     3064  Push register1, "labelPath"
+     3071  GetMember
+     3072  StoreRegister 3
+     3076  Pop
+     3077  Push register1, "iconName"
+     3084  GetMember
+     3085  StoreRegister 2
+     3089  Pop
+     3090  Push register3, "textWidth"
+     3097  GetMember
+     3098  StoreRegister 15
+     3102  Pop
+     3103  Push register3, "textHeight"
+     3110  GetMember
+     3111  StoreRegister 14
+     3115  Pop
+     3116  Push register1, "__width"
+     3123  GetMember
+     3124  Push register1, "borderW"
+     3131  GetMember
+     3132  Subtract
+     3133  Push register1, "borderW"
+     3140  GetMember
+     3141  Subtract
+     3142  StoreRegister 9
+     3146  Pop
+     3147  Push register1, "__height"
+     3154  GetMember
+     3155  Push register1, "borderW"
+     3162  GetMember
+     3163  Subtract
+     3164  Push register1, "borderW"
+     3171  GetMember
+     3172  Subtract
+     3173  StoreRegister 10
+     3177  Pop
+     3178  Push register2, undef
+     3184  Equals2
+     3185  Not
+     3186  Not
+     3187  If loc3218
+     3192  Push register2, "_width"
+     3199  GetMember
+     3200  StoreRegister 7
+     3204  Pop
+     3205  Push register2, "_height"
+     3212  GetMember
+     3213  StoreRegister 6
+     3217  Pop
+     3218  Push register12, "left"
+     3225  Equals2
+     3226  PushDuplicate
+     3227  If loc3241
+     3232  Pop
+     3233  Push register12, "right"
+     3240  Equals2
+     3241  Not
+     3242  If loc3650
+     3247  Push register3, undef
+     3253  Equals2
+     3254  Not
+     3255  Not
+     3256  If loc3345
+     3261  Push register3, "_width", register15, 5
+     3275  Add2
+     3276  Push register9, register7
+     3283  Subtract
+     3284  Push 2, "Math"
+     3294  GetVariable
+     3295  Push "min"
+     3300  CallMethod
+     3301  StoreRegister 11
+     3305  SetMember
+     3306  Push register3, "_height", register14, 5
+     3320  Add2
+     3321  Push register10, 2, "Math"
+     3333  GetVariable
+     3334  Push "min"
+     3339  CallMethod
+     3340  StoreRegister 8
+     3344  SetMember
+     3345  Push register12, "right"
+     3352  Equals2
+     3353  Not
+     3354  If loc3432
+     3359  Push register7
+     3364  StoreRegister 5
+     3368  Pop
+     3369  Push register1, "centerContent"
+     3376  GetMember
+     3377  Not
+     3378  If loc3414
+     3383  Push register5, register9, register11
+     3392  Subtract
+     3393  Push register7
+     3398  Subtract
+     3399  Push 2
+     3407  Divide
+     3408  Add2
+     3409  StoreRegister 5
+     3413  Pop
+     3414  Push register2, "_x", register5, register7
+     3425  Subtract
+     3426  SetMember
+     3427  Jump loc3494
+     3432  Push register9, register11
+     3439  Subtract
+     3440  Push register7
+     3445  Subtract
+     3446  StoreRegister 5
+     3450  Pop
+     3451  Push register1, "centerContent"
+     3458  GetMember
+     3459  Not
+     3460  If loc3481
+     3465  Push register5, 2
+     3475  Divide
+     3476  StoreRegister 5
+     3480  Pop
+     3481  Push register2, "_x", register5, register11
+     3492  Add2
+     3493  SetMember
+     3494  Push register2, "_y", 0
+     3510  StoreRegister 4
+     3514  SetMember
+     3515  Push register1, "centerContent"
+     3522  GetMember
+     3523  Not
+     3524  If loc3573
+     3529  Push register2, "_y", register10, register6
+     3540  Subtract
+     3541  Push 2
+     3549  Divide
+     3550  SetMember
+     3551  Push register10, register8
+     3558  Subtract
+     3559  Push 2
+     3567  Divide
+     3568  StoreRegister 4
+     3572  Pop
+     3573  Push register1, "centerContent"
+     3580  GetMember
+     3581  Not
+     3582  Not
+     3583  If loc3645
+     3588  Push register2, "_y", register2, "_y"
+     3599  GetMember
+     3600  Push register8, register6
+     3607  Subtract
+     3608  Push 2
+     3616  Divide
+     3617  Push 0, 2, "Math"
+     3636  GetVariable
+     3637  Push "max"
+     3642  CallMethod
+     3643  Add2
+     3644  SetMember
+     3645  Jump loc3941
+     3650  Push register3, undef
+     3656  Equals2
+     3657  Not
+     3658  Not
+     3659  If loc3748
+     3664  Push register3, "_width", register15, 5
+     3678  Add2
+     3679  Push register9, 2, "Math"
+     3691  GetVariable
+     3692  Push "min"
+     3697  CallMethod
+     3698  StoreRegister 11
+     3702  SetMember
+     3703  Push register3, "_height", register14, 5
+     3717  Add2
+     3718  Push register10, register6
+     3725  Subtract
+     3726  Push 2, "Math"
+     3736  GetVariable
+     3737  Push "min"
+     3742  CallMethod
+     3743  StoreRegister 8
+     3747  SetMember
+     3748  Push register9, register11
+     3755  Subtract
+     3756  Push 2
+     3764  Divide
+     3765  StoreRegister 5
+     3769  Pop
+     3770  Push register2, "_x", register9, register7
+     3781  Subtract
+     3782  Push 2
+     3790  Divide
+     3791  SetMember
+     3792  Push register12, "top"
+     3799  Equals2
+     3800  Not
+     3801  If loc3873
+     3806  Push register10, register8
+     3813  Subtract
+     3814  Push register6
+     3819  Subtract
+     3820  StoreRegister 4
+     3824  Pop
+     3825  Push register1, "centerContent"
+     3832  GetMember
+     3833  Not
+     3834  If loc3855
+     3839  Push register4, 2
+     3849  Divide
+     3850  StoreRegister 4
+     3854  Pop
+     3855  Push register2, "_y", register4, register8
+     3866  Add2
+     3867  SetMember
+     3868  Jump loc3941
+     3873  Push register6
+     3878  StoreRegister 4
+     3882  Pop
+     3883  Push register1, "centerContent"
+     3890  GetMember
+     3891  Not
+     3892  If loc3928
+     3897  Push register4, register10, register8
+     3906  Subtract
+     3907  Push register6
+     3912  Subtract
+     3913  Push 2
+     3921  Divide
+     3922  Add2
+     3923  StoreRegister 4
+     3927  Pop
+     3928  Push register2, "_y", register4, register6
+     3939  Subtract
+     3940  SetMember
+     3941  Push register1, "borderW"
+     3948  GetMember
+     3949  Push register16
+     3954  Add2
+     3955  StoreRegister 13
+     3959  Pop
+     3960  Push register3, "_x", register5, register13
+     3971  Add2
+     3972  SetMember
+     3973  Push register3, "_y", register4, register13
+     3984  Add2
+     3985  SetMember
+     3986  Push register2, "_x", register2, "_x"
+     3997  GetMember
+     3998  Push register13
+     4003  Add2
+     4004  SetMember
+     4005  Push register2, "_y", register2, "_y"
+     4016  GetMember
+     4017  Push register13
+     4022  Add2
+     4023  SetMember
+        }
+  4024  SetMember
+  4025  Push register2, "__set__label"
+  4032  DefineFunction2 "" (r2:lbl) regs=3 flags=0x29 {
+     4048  Push register2, 1, register1, "setLabel"
+     4062  CallMethod
+     4063  Pop
+     4064  Push 0, register1, "__get__label"
+     4080  CallMethod
+     4081  Return
+     4082  Pop
+        }
+  4083  SetMember
+  4084  Push register2, "setLabel"
+  4091  DefineFunction2 "" (r3:label) regs=4 flags=0x29 {
+     4109  Push register3, ""
+     4116  Equals2
+     4117  Not
+     4118  If loc4170
+     4123  Push 0, register1, "labelPath"
+     4139  GetMember
+     4140  Push "removeTextField"
+     4145  CallMethod
+     4146  Pop
+     4147  Push 0, register1, "refresh"
+     4163  CallMethod
+     4164  Pop
+     4165  Push undef
+     4169  Return
+     4170  Push register1, "labelPath"
+     4177  GetMember
+     4178  Push undef
+     4182  Equals2
+     4183  Not
+     4184  If loc4289
+     4189  Push register3, 200, "labelPath", 3, register1, "createLabel"
+     4210  CallMethod
+     4211  StoreRegister 2
+     4215  Pop
+     4216  Push register2, "_width", register2, "textWidth"
+     4227  GetMember
+     4228  Push 5
+     4236  Add2
+     4237  SetMember
+     4238  Push register2, "_height", register2, "textHeight"
+     4249  GetMember
+     4250  Push 5
+     4258  Add2
+     4259  SetMember
+     4260  Push register1, "initializing"
+     4267  GetMember
+     4268  Not
+     4269  If loc4284
+     4274  Push register2, "visible", false
+     4283  SetMember
+     4284  Jump loc4338
+     4289  Push register1, "labelPath"
+     4296  GetMember
+     4297  Push "__text"
+     4302  Delete
+     4303  Pop
+     4304  Push register1, "labelPath"
+     4311  GetMember
+     4312  Push "text", register3
+     4319  SetMember
+     4320  Push 0, register1, "refresh"
+     4336  CallMethod
+     4337  Pop
+        }
+  4338  SetMember
+  4339  Push register2, "getLabel"
+  4346  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     4363  Push register1, "labelPath"
+     4370  GetMember
+     4371  Push "__text"
+     4376  GetMember
+     4377  Push undef
+     4381  Equals2
+     4382  Not
+     4383  If loc4407
+     4388  Push register1, "labelPath"
+     4395  GetMember
+     4396  Push "text"
+     4401  GetMember
+     4402  Jump loc4421
+     4407  Push register1, "labelPath"
+     4414  GetMember
+     4415  Push "__text"
+     4420  GetMember
+     4421  Return
+        }
+  4422  SetMember
+  4423  Push register2, "__get__label"
+  4430  DefineFunction2 "" () regs=2 flags=0x29 {
+     4441  Push 0, register1, "getLabel"
+     4457  CallMethod
+     4458  Return
+        }
+  4459  SetMember
+  4460  Push register2, "_getIcon"
+  4467  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     4484  Push register1, "_iconLinkageName"
+     4491  GetMember
+     4492  Return
+        }
+  4493  SetMember
+  4494  Push register2, "__get__icon"
+  4501  DefineFunction2 "" () regs=2 flags=0x29 {
+     4512  Push register1, "initializing"
+     4519  GetMember
+     4520  Not
+     4521  If loc4535
+     4526  Push register1, "initIcon"
+     4533  GetMember
+     4534  Return
+     4535  Push register1, "_iconLinkageName"
+     4542  GetMember
+     4543  Return
+        }
+  4544  SetMember
+  4545  Push register2, "_setIcon"
+  4552  DefineFunction2 "" (r3:linkage) regs=4 flags=0x19 {
+     4572  Push register1, "initializing"
+     4579  GetMember
+     4580  Not
+     4581  If loc4620
+     4586  Push register3, ""
+     4593  Equals2
+     4594  Not
+     4595  If loc4605
+     4600  Push undef
+     4604  Return
+     4605  Push register1, "initIcon", register3
+     4614  SetMember
+     4615  Jump loc4794
+     4620  Push register3, ""
+     4627  Equals2
+     4628  Not
+     4629  If loc4657
+     4634  Push 0, register1, "removeIcons"
+     4650  CallMethod
+     4651  Pop
+     4652  Push undef
+     4656  Return
+     4657  Push register3, 0, 2, register2, "changeIcon"
+     4680  CallMethod
+     4681  Pop
+     4682  Push register3, 1, 2, register2, "changeIcon"
+     4701  CallMethod
+     4702  Pop
+     4703  Push register3, 3, 2, register2, "changeIcon"
+     4722  CallMethod
+     4723  Pop
+     4724  Push register3, 4, 2, register2, "changeIcon"
+     4743  CallMethod
+     4744  Pop
+     4745  Push register3, 5, 2, register2, "changeIcon"
+     4764  CallMethod
+     4765  Pop
+     4766  Push register1, "_iconLinkageName", register3
+     4775  SetMember
+     4776  Push 0, register1, "refresh"
+     4792  CallMethod
+     4793  Pop
+        }
+  4794  SetMember
+  4795  Push register2, "__set__icon"
+  4802  DefineFunction2 "" (r2:linkage) regs=3 flags=0x29 {
+     4822  Push register2, 1, register1, "_setIcon"
+     4836  CallMethod
+     4837  Pop
+     4838  Push 0, register1, "__get__icon"
+     4854  CallMethod
+     4855  Return
+     4856  Pop
+        }
+  4857  SetMember
+  4858  Push register2, "setHitArea"
+  4865  DefineFunction2 "" (r4:w, r3:h) regs=5 flags=0x29 {
+     4882  Push register1, "hitArea_mc"
+     4889  GetMember
+     4890  Push undef
+     4894  Equals2
+     4895  Not
+     4896  If loc4922
+     4901  Push 100, "hitArea_mc", 2, register1, "createEmptyObject"
+     4920  CallMethod
+     4921  Pop
+     4922  Push register1, "hitArea_mc"
+     4929  GetMember
+     4930  StoreRegister 2
+     4934  Pop
+     4935  Push 0, register2, "clear"
+     4951  CallMethod
+     4952  Pop
+     4953  Push 16711680, 1, register2, "beginFill"
+     4970  CallMethod
+     4971  Pop
+     4972  Push register3, register4, 0, 0, 4, register2, "drawRect"
+     5006  CallMethod
+     5007  Pop
+     5008  Push 0, register2, "endFill"
+     5024  CallMethod
+     5025  Pop
+     5026  Push false, 1, register2, "setVisible"
+     5040  CallMethod
+     5041  Pop
+        }
+  5042  SetMember
+  5043  Push register1, "symbolName", "Button"
+  5052  SetMember
+  5053  Push register1, "symbolOwner", "mx"
+  5062  GetVariable
+  5063  Push "controls"
+  5068  GetMember
+  5069  Push "Button"
+  5074  GetMember
+  5075  SetMember
+  5076  Push register2, "className", "Button"
+  5085  SetMember
+  5086  Push register1, "version", "2.0.2.127"
+  5095  SetMember
+  5096  Push register2, "btnOffset", 0
+  5112  SetMember
+  5113  Push register2, "_color", "buttonColor"
+  5122  SetMember
+  5123  Push register2, "__label", "default value"
+  5132  SetMember
+  5133  Push register2, "__labelPlacement", "right"
+  5142  SetMember
+  5143  Push register2, "falseUpSkin", "ButtonSkin"
+  5152  SetMember
+  5153  Push register2, "falseDownSkin", "ButtonSkin"
+  5162  SetMember
+  5163  Push register2, "falseOverSkin", "ButtonSkin"
+  5172  SetMember
+  5173  Push register2, "falseDisabledSkin", "ButtonSkin"
+  5182  SetMember
+  5183  Push register2, "trueUpSkin", "ButtonSkin"
+  5192  SetMember
+  5193  Push register2, "trueDownSkin", "ButtonSkin"
+  5202  SetMember
+  5203  Push register2, "trueOverSkin", "ButtonSkin"
+  5212  SetMember
+  5213  Push register2, "trueDisabledSkin", "ButtonSkin"
+  5222  SetMember
+  5223  Push register2, "falseUpIcon", ""
+  5232  SetMember
+  5233  Push register2, "falseDownIcon", ""
+  5242  SetMember
+  5243  Push register2, "falseOverIcon", ""
+  5252  SetMember
+  5253  Push register2, "falseDisabledIcon", ""
+  5262  SetMember
+  5263  Push register2, "trueUpIcon", ""
+  5272  SetMember
+  5273  Push register2, "trueDownIcon", ""
+  5282  SetMember
+  5283  Push register2, "trueOverIcon", ""
+  5292  SetMember
+  5293  Push register2, "trueDisabledIcon", ""
+  5302  SetMember
+  5303  Push register2, "clipParameters", "labelPlacement", 1, "icon", 1, "toggle", 1, "selected", 1, "label", 1, 5
+  5350  InitObject
+  5351  SetMember
+  5352  Push register1, "mergedClipParameters", "mx"
+  5361  GetVariable
+  5362  Push "controls"
+  5367  GetMember
+  5368  Push "SimpleButton"
+  5373  GetMember
+  5374  Push "prototype"
+  5379  GetMember
+  5380  Push "clipParameters"
+  5385  GetMember
+  5386  Push "mx"
+  5391  GetVariable
+  5392  Push "controls"
+  5397  GetMember
+  5398  Push "Button"
+  5403  GetMember
+  5404  Push "prototype"
+  5409  GetMember
+  5410  Push "clipParameters"
+  5415  GetMember
+  5416  Push 2, "mx"
+  5426  GetVariable
+  5427  Push "core"
+  5432  GetMember
+  5433  Push "UIObject"
+  5438  GetMember
+  5439  Push "mergeClipParameters"
+  5444  CallMethod
+  5445  SetMember
+  5446  Push register2, "centerContent", true
+  5455  SetMember
+  5456  Push register2, "borderW", 1
+  5468  SetMember
+  5469  Push register2, "__set__icon"
+  5476  GetMember
+  5477  Push register2, "__get__icon"
+  5484  GetMember
+  5485  Push "icon", 3, register2, "addProperty"
+  5499  CallMethod
+  5500  Push register2, "__set__label"
+  5507  GetMember
+  5508  Push register2, "__get__label"
+  5515  GetMember
+  5516  Push "label", 3, register2, "addProperty"
+  5530  CallMethod
+  5531  Push register2, "__set__labelPlacement"
+  5538  GetMember
+  5539  Push register2, "__get__labelPlacement"
+  5546  GetMember
+  5547  Push "labelPlacement", 3, register2, "addProperty"
+  5561  CallMethod
+  5562  Push 1, null, "mx"
+  5573  GetVariable
+  5574  Push "controls"
+  5579  GetMember
+  5580  Push "Button"
+  5585  GetMember
+  5586  Push "prototype"
+  5591  GetMember
+  5592  Push 3, "ASSetPropFlags"
+  5602  CallFunction
+  5603  Pop
+  5604  End

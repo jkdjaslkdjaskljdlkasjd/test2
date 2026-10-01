@@ -1,0 +1,32 @@
+// DoAction
+// origen: escenario fotograma 230, DoAction (07356_DoAction.bin)
+
+     0  ConstantPool (11)
+   120  Push "gameoverKrin", true
+   127  SetVariable
+   128  Push "Krin"
+   133  GetVariable
+   134  Push "bossMusic", false
+   141  SetMember
+   142  Push "_root"
+   147  GetVariable
+   148  Push "slotSaveGO", "_root"
+   155  GetVariable
+   156  Push "Krin"
+   161  GetMember
+   162  Push "slotInUse"
+   167  GetMember
+   168  SetMember
+   169  Push "someListenerKrin"
+   174  GetVariable
+   175  Push 1, "Mouse"
+   185  GetVariable
+   186  Push "removeListener"
+   191  CallMethod
+   192  Pop
+   193  Push "resetHere", 1, "_root"
+   205  GetVariable
+   206  Push "gotoAndPlay"
+   211  CallMethod
+   212  Pop
+   213  End

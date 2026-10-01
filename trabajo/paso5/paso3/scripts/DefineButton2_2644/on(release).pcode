@@ -1,0 +1,5 @@
+// on(release)
+// origen: boton 2644 (05942_DefineButton2_2644.bin)
+
+    17  GoToLabel 'subMenu'
+    28  End

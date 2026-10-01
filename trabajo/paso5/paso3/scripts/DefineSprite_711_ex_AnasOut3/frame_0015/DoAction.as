@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_711_ex_AnasOut3 fotograma 15, DoAction (01095_DefineSprite_711.bin, byte 158)
+
+loadMovie("", this);

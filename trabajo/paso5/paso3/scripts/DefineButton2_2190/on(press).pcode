@@ -1,0 +1,92 @@
+// on(press)
+// origen: boton 2190 (03324_DefineButton2_2190.bin)
+
+    31  ConstantPool (15)
+   180  Push "_root"
+   185  GetVariable
+   186  Push "UITmouseHold", "talent"
+   193  GetVariable
+   194  SetMember
+   195  Push "_root"
+   200  GetVariable
+   201  Push "KRINABILITY", "_root"
+   208  GetVariable
+   209  Push "UITmouseHold"
+   214  GetMember
+   215  Add2
+   216  GetMember
+   217  Push 0
+   229  GetMember
+   230  Push 1, "_root"
+   240  GetVariable
+   241  Push "KrinToolTipper"
+   246  GetMember
+   247  Push "inner2"
+   252  GetMember
+   253  Push "gotoAndStop"
+   258  CallMethod
+   259  Pop
+   260  Push "_root"
+   265  GetVariable
+   266  Push "KrinToolTipper"
+   271  GetMember
+   272  Push "inner2"
+   277  GetMember
+   278  Push "ACD", ""
+   285  SetMember
+   286  Push "", "_root"
+   293  GetVariable
+   294  Push "KrinToolTipper"
+   299  GetMember
+   300  Push "inner2"
+   305  GetMember
+   306  Push "bfilter"
+   311  GetMember
+   312  GetURL2 64
+   316  Push "_root"
+   321  GetVariable
+   322  Push "elementMainArray"
+   327  GetMember
+   328  Enumerate2
+   329  StoreRegister 0
+   333  Push null
+   337  Equals2
+   338  If loc457
+   343  Push "u", register0
+   350  SetVariable
+   351  Push "_root"
+   356  GetVariable
+   357  Push "elementMainArray"
+   362  GetMember
+   363  Push "u"
+   368  GetVariable
+   369  GetMember
+   370  Push "_root"
+   375  GetVariable
+   376  Push "KRINABILITYB", "_root"
+   383  GetVariable
+   384  Push "UITmouseHold"
+   389  GetMember
+   390  Add2
+   391  GetMember
+   392  Push 0
+   404  GetMember
+   405  Equals2
+   406  Not
+   407  If loc452
+   412  Push "_root"
+   417  GetVariable
+   418  Push "KrinToolTipper"
+   423  GetMember
+   424  Push "inner2"
+   429  GetMember
+   430  Push "KNcolor2", "_root"
+   437  GetVariable
+   438  Push "elementColorArray"
+   443  GetMember
+   444  Push "u"
+   449  GetVariable
+   450  GetMember
+   451  SetMember
+   452  Jump loc329
+   457  End

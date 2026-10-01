@@ -1,0 +1,576 @@
+// DoAction
+// origen: DefineSprite_2680 fotograma 13, DoAction (06064_DefineSprite_2680.bin, byte 5136)
+
+  5136  ConstantPool (49)
+  5516  Push 0, "my_txt"
+  5530  GetVariable
+  5531  Push "removeTextField"
+  5536  CallMethod
+  5537  Pop
+  5538  Push 0, "my_txt2"
+  5552  GetVariable
+  5553  Push "removeTextField"
+  5558  CallMethod
+  5559  Pop
+  5560  Push 0, "my_txt3"
+  5574  GetVariable
+  5575  Push "removeTextField"
+  5580  CallMethod
+  5581  Pop
+  5582  Push 0, "my_txt4"
+  5596  GetVariable
+  5597  Push "removeTextField"
+  5602  CallMethod
+  5603  Pop
+  5604  Push 0, "ttt"
+  5618  GetVariable
+  5619  Push "removeTextField"
+  5624  CallMethod
+  5625  Pop
+  5626  Push "colorChange"
+  5631  GetVariable
+  5632  Push 0
+  5644  Equals2
+  5645  Not
+  5646  Not
+  5647  If loc5682
+  5652  Push "colorChange"
+  5657  GetVariable
+  5658  Push "fontBacker2"
+  5663  GetVariable
+  5664  Push 2, "_root"
+  5674  GetVariable
+  5675  Push "krinChangeColor"
+  5680  CallMethod
+  5681  Pop
+  5682  Push "j", 0
+  5696  SetVariable
+  5697  Push "j"
+  5702  GetVariable
+  5703  Push 10
+  5711  Less2
+  5712  Not
+  5713  If loc5765
+  5718  Push 0, "this"
+  5732  GetVariable
+  5733  Push "MY_TX", "j"
+  5740  GetVariable
+  5741  Add2
+  5742  GetMember
+  5743  Push "removeTextField"
+  5748  CallMethod
+  5749  Pop
+  5750  Push "j", "j"
+  5757  GetVariable
+  5758  Increment
+  5759  SetVariable
+  5760  Jump loc5697
+  5765  Push "", 7, false
+  5777  SetProperty
+  5778  Push "_root"
+  5783  GetVariable
+  5784  Push "_xmouse"
+  5789  GetMember
+  5790  Push 570
+  5798  Less2
+  5799  Not
+  5800  If loc5821
+  5805  Push "scaffold", 13
+  5815  SetVariable
+  5816  Jump loc5832
+  5821  Push "scaffold", -213
+  5831  SetVariable
+  5832  Push 120, 200, 21, "scaffold"
+  5852  GetVariable
+  5853  Push 70, "my_txt3", 6, "this"
+  5870  GetVariable
+  5871  Push "createTextField"
+  5876  CallMethod
+  5877  Pop
+  5878  Push "my_txt3"
+  5883  GetVariable
+  5884  Push "color", 16777215
+  5894  SetMember
+  5895  Push "my_txt3"
+  5900  GetVariable
+  5901  Push "autoSize", "left"
+  5908  SetMember
+  5909  Push "my_txt3"
+  5914  GetVariable
+  5915  Push "border", true
+  5922  SetMember
+  5923  Push "my_txt3"
+  5928  GetVariable
+  5929  Push "multiline", true
+  5936  SetMember
+  5937  Push "my_txt3"
+  5942  GetVariable
+  5943  Push "text", "t3"
+  5950  GetVariable
+  5951  SetMember
+  5952  Push "my_txt3"
+  5957  GetVariable
+  5958  Push "wordWrap", true
+  5965  SetMember
+  5966  Push "my_fmt3", 0, "TextFormat"
+  5982  NewObject
+  5983  DefineLocal
+  5984  Push "my_fmt3"
+  5989  GetVariable
+  5990  Push "font", "_sans"
+  5997  SetMember
+  5998  Push "my_fmt3"
+  6003  GetVariable
+  6004  Push "color", 3355443
+  6014  SetMember
+  6015  Push "my_fmt3"
+  6020  GetVariable
+  6021  Push "size", 12
+  6031  SetMember
+  6032  Push "my_fmt3"
+  6037  GetVariable
+  6038  Push "indent", 2
+  6048  SetMember
+  6049  Push "my_fmt3"
+  6054  GetVariable
+  6055  Push 1, "my_txt3"
+  6065  GetVariable
+  6066  Push "setTextFormat"
+  6071  CallMethod
+  6072  Pop
+  6073  Push "fontBacker3"
+  6078  GetVariable
+  6079  Push "_height", "my_txt3"
+  6086  GetVariable
+  6087  Push "_height"
+  6092  GetMember
+  6093  SetMember
+  6094  Push "fontBacker3"
+  6099  GetVariable
+  6100  Push "_width", "my_txt3"
+  6107  GetVariable
+  6108  Push "_width"
+  6113  GetMember
+  6114  SetMember
+  6115  Push "fontBacker3"
+  6120  GetVariable
+  6121  Push "_x", "my_txt3"
+  6128  GetVariable
+  6129  Push "_x"
+  6134  GetMember
+  6135  SetMember
+  6136  Push "fontBacker3"
+  6141  GetVariable
+  6142  Push "_y", "my_txt3"
+  6149  GetVariable
+  6150  Push "_y"
+  6155  GetMember
+  6156  SetMember
+  6157  Push "sortNumber", 0
+  6171  SetVariable
+  6172  Push "previousOne", "my_txt3"
+  6179  GetVariable
+  6180  SetVariable
+  6181  Push "this"
+  6186  GetVariable
+  6187  Push "TX"
+  6192  GetMember
+  6193  Enumerate2
+  6194  StoreRegister 0
+  6198  Push null
+  6202  Equals2
+  6203  If loc6591
+  6208  Push "j", register0
+  6215  SetVariable
+  6216  Push "this"
+  6221  GetVariable
+  6222  Push "TX"
+  6227  GetMember
+  6228  Push "j"
+  6233  GetVariable
+  6234  GetMember
+  6235  Push undef
+  6239  Equals2
+  6240  Not
+  6241  Not
+  6242  If loc6586
+  6247  Push 120, 200, "previousOne"
+  6262  GetVariable
+  6263  Push "_y"
+  6268  GetMember
+  6269  Push "previousOne"
+  6274  GetVariable
+  6275  Push "_height"
+  6280  GetMember
+  6281  Add2
+  6282  Push 2
+  6290  Add2
+  6291  Push "scaffold"
+  6296  GetVariable
+  6297  Push "j"
+  6302  GetVariable
+  6303  Push "MY_TX", "j"
+  6310  GetVariable
+  6311  Add2
+  6312  Push 6, "this"
+  6322  GetVariable
+  6323  Push "createTextField"
+  6328  CallMethod
+  6329  Pop
+  6330  Push "shortCut", "this"
+  6337  GetVariable
+  6338  Push "MY_TX", "j"
+  6345  GetVariable
+  6346  Add2
+  6347  GetMember
+  6348  SetVariable
+  6349  Push "shortCut"
+  6354  GetVariable
+  6355  Push "color", 16777215
+  6365  SetMember
+  6366  Push "shortCut"
+  6371  GetVariable
+  6372  Push "autoSize", "left"
+  6379  SetMember
+  6380  Push "shortCut"
+  6385  GetVariable
+  6386  Push "border", false
+  6393  SetMember
+  6394  Push "shortCut"
+  6399  GetVariable
+  6400  Push "multiline", true
+  6407  SetMember
+  6408  Push "shortCut"
+  6413  GetVariable
+  6414  Push "text", "this"
+  6421  GetVariable
+  6422  Push "TX"
+  6427  GetMember
+  6428  Push "j"
+  6433  GetVariable
+  6434  GetMember
+  6435  SetMember
+  6436  Push "shortCut"
+  6441  GetVariable
+  6442  Push "wordWrap", true
+  6449  SetMember
+  6450  Push "shortCut2", 0, "TextFormat"
+  6466  NewObject
+  6467  DefineLocal
+  6468  Push "shortCut2"
+  6473  GetVariable
+  6474  Push "font", "_sans"
+  6481  SetMember
+  6482  Push "shortCut2"
+  6487  GetVariable
+  6488  Push "color", 16308052
+  6498  SetMember
+  6499  Push "shortCut2"
+  6504  GetVariable
+  6505  Push "size", 12
+  6515  SetMember
+  6516  Push "shortCut2"
+  6521  GetVariable
+  6522  Push "indent", 2
+  6532  SetMember
+  6533  Push "shortCut2"
+  6538  GetVariable
+  6539  Push 1, "shortCut"
+  6549  GetVariable
+  6550  Push "setTextFormat"
+  6555  CallMethod
+  6556  Pop
+  6557  Push "sortNumber", "sortNumber"
+  6564  GetVariable
+  6565  Increment
+  6566  SetVariable
+  6567  Push "previousOne", "this"
+  6574  GetVariable
+  6575  Push "MY_TX", "j"
+  6582  GetVariable
+  6583  Add2
+  6584  GetMember
+  6585  SetVariable
+  6586  Jump loc6194
+  6591  Push "ttx"
+  6596  GetVariable
+  6597  Push 0
+  6609  Equals2
+  6610  Not
+  6611  Not
+  6612  If loc7009
+  6617  Push 120, 200, "previousOne"
+  6632  GetVariable
+  6633  Push "_y"
+  6638  GetMember
+  6639  Push "previousOne"
+  6644  GetVariable
+  6645  Push "_height"
+  6650  GetMember
+  6651  Add2
+  6652  Push 2
+  6660  Add2
+  6661  Push "scaffold"
+  6666  GetVariable
+  6667  Push -1000, "ttt", 6, "this"
+  6684  GetVariable
+  6685  Push "createTextField"
+  6690  CallMethod
+  6691  Pop
+  6692  Push "ttt"
+  6697  GetVariable
+  6698  Push "color", 12123726
+  6708  SetMember
+  6709  Push "ttt"
+  6714  GetVariable
+  6715  Push "autoSize", "left"
+  6722  SetMember
+  6723  Push "ttt"
+  6728  GetVariable
+  6729  Push "border", false
+  6736  SetMember
+  6737  Push "ttt"
+  6742  GetVariable
+  6743  Push "multiline", true
+  6750  SetMember
+  6751  Push "ttt"
+  6756  GetVariable
+  6757  Push "text", "ttx"
+  6764  GetVariable
+  6765  SetMember
+  6766  Push "ttt"
+  6771  GetVariable
+  6772  Push "wordWrap", true
+  6779  SetMember
+  6780  Push "ttt2", 0, "TextFormat"
+  6796  NewObject
+  6797  DefineLocal
+  6798  Push "ttt2"
+  6803  GetVariable
+  6804  Push "font", "_sans"
+  6811  SetMember
+  6812  Push "ttt2"
+  6817  GetVariable
+  6818  Push "color", 12123726
+  6828  SetMember
+  6829  Push "ttt2"
+  6834  GetVariable
+  6835  Push "size", 12
+  6845  SetMember
+  6846  Push "ttt2"
+  6851  GetVariable
+  6852  Push "indent", 2
+  6862  SetMember
+  6863  Push "ttt2"
+  6868  GetVariable
+  6869  Push 1, "ttt"
+  6879  GetVariable
+  6880  Push "setTextFormat"
+  6885  CallMethod
+  6886  Pop
+  6887  Push 2, "ttt"
+  6897  GetVariable
+  6898  Push "_height"
+  6903  GetMember
+  6904  Add2
+  6905  Push "MY_TX0"
+  6910  GetVariable
+  6911  Push "_height"
+  6916  GetMember
+  6917  Push 2
+  6925  Add2
+  6926  Push "sortNumber"
+  6931  GetVariable
+  6932  Multiply
+  6933  Add2
+  6934  Push 200, "my_txt3"
+  6944  GetVariable
+  6945  Push "_y"
+  6950  GetMember
+  6951  Push "my_txt3"
+  6956  GetVariable
+  6957  Push "_height"
+  6962  GetMember
+  6963  Add2
+  6964  Push 2
+  6972  Add2
+  6973  Push "scaffold"
+  6978  GetVariable
+  6979  Push 80, "my_txt4", 6, "this"
+  6996  GetVariable
+  6997  Push "createTextField"
+  7002  CallMethod
+  7003  Pop
+  7004  Jump loc7107
+  7009  Push "MY_TX0"
+  7014  GetVariable
+  7015  Push "_height"
+  7020  GetMember
+  7021  Push 2
+  7029  Add2
+  7030  Push "sortNumber"
+  7035  GetVariable
+  7036  Multiply
+  7037  Push 200, "my_txt3"
+  7047  GetVariable
+  7048  Push "_y"
+  7053  GetMember
+  7054  Push "my_txt3"
+  7059  GetVariable
+  7060  Push "_height"
+  7065  GetMember
+  7066  Add2
+  7067  Push 2
+  7075  Add2
+  7076  Push "scaffold"
+  7081  GetVariable
+  7082  Push 80, "my_txt4", 6, "this"
+  7099  GetVariable
+  7100  Push "createTextField"
+  7105  CallMethod
+  7106  Pop
+  7107  Push "my_txt4"
+  7112  GetVariable
+  7113  Push "color", 0
+  7127  SetMember
+  7128  Push "my_txt4"
+  7133  GetVariable
+  7134  Push "border", true
+  7141  SetMember
+  7142  Push "my_txt4"
+  7147  GetVariable
+  7148  Push "text", ""
+  7155  SetMember
+  7156  Push "fontBacker"
+  7161  GetVariable
+  7162  Push "_height", "my_txt4"
+  7169  GetVariable
+  7170  Push "_height"
+  7175  GetMember
+  7176  SetMember
+  7177  Push "fontBacker"
+  7182  GetVariable
+  7183  Push "_width", "my_txt4"
+  7190  GetVariable
+  7191  Push "_width"
+  7196  GetMember
+  7197  SetMember
+  7198  Push "fontBacker"
+  7203  GetVariable
+  7204  Push "_x", "my_txt4"
+  7211  GetVariable
+  7212  Push "_x"
+  7217  GetMember
+  7218  SetMember
+  7219  Push "fontBacker"
+  7224  GetVariable
+  7225  Push "_y", "my_txt4"
+  7232  GetVariable
+  7233  Push "_y"
+  7238  GetMember
+  7239  SetMember
+  7240  Push 120, 200, 0, "scaffold"
+  7264  GetVariable
+  7265  Push 90, "my_txt2", 6, "this"
+  7282  GetVariable
+  7283  Push "createTextField"
+  7288  CallMethod
+  7289  Pop
+  7290  Push "my_txt2"
+  7295  GetVariable
+  7296  Push "size", 10
+  7306  SetMember
+  7307  Push "my_txt2"
+  7312  GetVariable
+  7313  Push "color", 0
+  7327  SetMember
+  7328  Push "my_txt2"
+  7333  GetVariable
+  7334  Push "autoSize", "left"
+  7341  SetMember
+  7342  Push "my_txt2"
+  7347  GetVariable
+  7348  Push "border", true
+  7355  SetMember
+  7356  Push "my_txt2"
+  7361  GetVariable
+  7362  Push "multiline", true
+  7369  SetMember
+  7370  Push "my_txt2"
+  7375  GetVariable
+  7376  Push "text", "tt"
+  7383  GetVariable
+  7384  SetMember
+  7385  Push "my_txt2"
+  7390  GetVariable
+  7391  Push "wordWrap", true
+  7398  SetMember
+  7399  Push "my_fmt2", 0, "TextFormat"
+  7415  NewObject
+  7416  DefineLocal
+  7417  Push "my_fmt2"
+  7422  GetVariable
+  7423  Push "font", "_sans"
+  7430  SetMember
+  7431  Push "my_fmt2"
+  7436  GetVariable
+  7437  Push "color", 0
+  7451  SetMember
+  7452  Push "my_fmt2"
+  7457  GetVariable
+  7458  Push "size", 12
+  7468  SetMember
+  7469  Push "my_fmt2"
+  7474  GetVariable
+  7475  Push "bold", true
+  7482  SetMember
+  7483  Push "my_fmt2"
+  7488  GetVariable
+  7489  Push "indent", 3
+  7499  SetMember
+  7500  Push "my_fmt2"
+  7505  GetVariable
+  7506  Push 1, "my_txt2"
+  7516  GetVariable
+  7517  Push "setTextFormat"
+  7522  CallMethod
+  7523  Pop
+  7524  Push "fontBacker2"
+  7529  GetVariable
+  7530  Push "_height", "my_txt2"
+  7537  GetVariable
+  7538  Push "_height"
+  7543  GetMember
+  7544  SetMember
+  7545  Push "fontBacker2"
+  7550  GetVariable
+  7551  Push "_width", "my_txt2"
+  7558  GetVariable
+  7559  Push "_width"
+  7564  GetMember
+  7565  SetMember
+  7566  Push "fontBacker2"
+  7571  GetVariable
+  7572  Push "_x", "my_txt2"
+  7579  GetVariable
+  7580  Push "_x"
+  7585  GetMember
+  7586  SetMember
+  7587  Push "fontBacker2"
+  7592  GetVariable
+  7593  Push "_y", "my_txt2"
+  7600  GetVariable
+  7601  Push "_y"
+  7606  GetMember
+  7607  SetMember
+  7608  Push "", 7, true
+  7620  SetProperty
+  7621  Push "this"
+  7630  GetVariable
+  7631  Push 1
+  7639  Push "_root"
+  7649  GetVariable
+  7650  Push "__nightTitleFit"
+  7670  CallMethod
+  7671  Pop
+  7672  End

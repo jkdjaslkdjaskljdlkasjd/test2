@@ -1,0 +1,9 @@
+// DoAction
+// origen: DefineSprite_2636 fotograma 105, DoAction (05920_DefineSprite_2636.bin, byte 35984)
+
+ 35984  Push 0, "_root"
+ 36003  GetVariable
+ 36004  Push "play"
+ 36013  CallMethod
+ 36014  Pop
+ 36015  End

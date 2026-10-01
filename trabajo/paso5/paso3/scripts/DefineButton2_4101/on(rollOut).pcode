@@ -1,0 +1,28 @@
+// on(rollOut)
+// origen: boton 4101 (08330_DefineButton2_4101.bin)
+
+   404  ConstantPool (7)
+   469  Push "_root"
+   474  GetVariable
+   475  Push "thereIsASlotSelected", false
+   482  SetMember
+   483  Push "_root"
+   488  GetVariable
+   489  Push "KrinToolTipper"
+   494  GetMember
+   495  Push "tt", ""
+   502  SetMember
+   503  Push "_root"
+   508  GetVariable
+   509  Push "KrinToolTipper"
+   514  GetMember
+   515  Push "t", ""
+   522  SetMember
+   523  Push 1, 1, "_root"
+   538  GetVariable
+   539  Push "KrinToolTipper"
+   544  GetMember
+   545  Push "gotoAndStop"
+   550  CallMethod
+   551  Pop
+   552  End

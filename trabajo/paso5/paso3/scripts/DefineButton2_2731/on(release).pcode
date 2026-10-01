@@ -1,0 +1,100 @@
+// on(release)
+// origen: boton 2731 (06200_DefineButton2_2731.bin)
+
+    17  ConstantPool (9)
+    87  Push "_root"
+    92  GetVariable
+    93  Push "Krin"
+    98  GetMember
+    99  Push "sound"
+   104  GetMember
+   105  Not
+   106  If loc136
+   111  Push "_root"
+   116  GetVariable
+   117  Push "Krin"
+   122  GetMember
+   123  Push "sound", false
+   130  SetMember
+   131  Jump loc156
+   136  Push "_root"
+   141  GetVariable
+   142  Push "Krin"
+   147  GetMember
+   148  Push "sound", true
+   155  SetMember
+   156  Push "_root"
+   161  GetVariable
+   162  Push "Krin"
+   167  GetMember
+   168  Push "sound"
+   173  GetMember
+   174  Not
+   175  If loc228
+   180  Push "tit_3", "_root"
+   187  GetVariable
+   188  Push "KrinLang"
+   193  GetMember
+   194  Push "_root"
+   199  GetVariable
+   200  Push "KLangChoosen"
+   205  GetMember
+   206  GetMember
+   207  Push "MENU"
+   212  GetMember
+   213  Push 29
+   221  GetMember
+   222  SetVariable
+   223  Jump loc271
+   228  Push "tit_3", "_root"
+   235  GetVariable
+   236  Push "KrinLang"
+   241  GetMember
+   242  Push "_root"
+   247  GetVariable
+   248  Push "KLangChoosen"
+   253  GetMember
+   254  GetMember
+   255  Push "MENU"
+   260  GetMember
+   261  Push 30
+   269  GetMember
+   270  SetVariable
+   271  Push "_root"
+   276  GetVariable
+   277  Push "Krin"
+   282  GetMember
+   283  Push "graphics"
+   288  GetMember
+   289  Not
+   290  If loc343
+   295  Push "tit_4", "_root"
+   302  GetVariable
+   303  Push "KrinLang"
+   308  GetMember
+   309  Push "_root"
+   314  GetVariable
+   315  Push "KLangChoosen"
+   320  GetMember
+   321  GetMember
+   322  Push "MENU"
+   327  GetMember
+   328  Push 31
+   336  GetMember
+   337  SetVariable
+   338  Jump loc386
+   343  Push "tit_4", "_root"
+   350  GetVariable
+   351  Push "KrinLang"
+   356  GetMember
+   357  Push "_root"
+   362  GetVariable
+   363  Push "KLangChoosen"
+   368  GetMember
+   369  GetMember
+   370  Push "MENU"
+   375  GetMember
+   376  Push 32
+   384  GetMember
+   385  SetVariable
+   386  End

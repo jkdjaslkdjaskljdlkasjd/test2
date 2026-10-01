@@ -1,0 +1,8 @@
+// onClipEvent(load)
+// origen: escenario fotograma 263, clip en profundidad 77 (07417_PlaceObject2.bin)
+
+    26  Push "_root"
+    36  GetVariable
+    37  Push "cutSceneEnd", false
+    55  SetMember
+    56  End

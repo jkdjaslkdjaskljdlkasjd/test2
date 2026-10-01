@@ -1,0 +1,323 @@
+// DefineSprite_4134___Packages.com.gskinner.utils.SWFBridgeAS2
+// origen: DoInitAction del sprite 4134 (03801_DoInitAction.bin)
+
+     2  ConstantPool (45)
+   436  Push "_global"
+   441  GetVariable
+   442  Push "com"
+   447  GetMember
+   448  Not
+   449  Not
+   450  If loc479
+   455  Push "_global"
+   460  GetVariable
+   461  Push "com", 0, "Object"
+   477  NewObject
+   478  SetMember
+   479  Pop
+   480  Push "_global"
+   485  GetVariable
+   486  Push "com"
+   491  GetMember
+   492  Push "gskinner"
+   497  GetMember
+   498  Not
+   499  Not
+   500  If loc535
+   505  Push "_global"
+   510  GetVariable
+   511  Push "com"
+   516  GetMember
+   517  Push "gskinner", 0, "Object"
+   533  NewObject
+   534  SetMember
+   535  Pop
+   536  Push "_global"
+   541  GetVariable
+   542  Push "com"
+   547  GetMember
+   548  Push "gskinner"
+   553  GetMember
+   554  Push "utils"
+   559  GetMember
+   560  Not
+   561  Not
+   562  If loc603
+   567  Push "_global"
+   572  GetVariable
+   573  Push "com"
+   578  GetMember
+   579  Push "gskinner"
+   584  GetMember
+   585  Push "utils", 0, "Object"
+   601  NewObject
+   602  SetMember
+   603  Pop
+   604  Push "_global"
+   609  GetVariable
+   610  Push "com"
+   615  GetMember
+   616  Push "gskinner"
+   621  GetMember
+   622  Push "utils"
+   627  GetMember
+   628  Push "SWFBridgeAS2"
+   633  GetMember
+   634  Not
+   635  Not
+   636  If loc1734
+   641  Push "com"
+   646  GetVariable
+   647  Push "gskinner"
+   652  GetMember
+   653  Push "utils"
+   658  GetMember
+   659  Push "SWFBridgeAS2"
+   664  DefineFunction2 "" (r4:p_id, r3:p_clientObj) regs=5 flags=0x25 {
+      694  Push register1, 1, "mx"
+      706  GetVariable
+      707  Push "events"
+      712  GetMember
+      713  Push "EventDispatcher"
+      718  GetMember
+      719  Push "initialize"
+      724  CallMethod
+      725  Pop
+      726  Push register1, "baseID", "", 1, ":", 1, register4, "split"
+      751  CallMethod
+      752  Push "join"
+      757  CallMethod
+      758  SetMember
+      759  Push register1, "lc", 0, "LocalConnection"
+      777  NewObject
+      778  SetMember
+      779  Push "_this", register1
+      786  DefineLocal
+      787  Push register1, "lc"
+      794  GetMember
+      795  Push "com_gskinner_utils_SWFBridge_init"
+      800  DefineFunction "" () regs=4 flags=0x0 {
+         808  Push 0, "_this"
+         822  GetVariable
+         823  Push "com_gskinner_utils_SWFBridge_init"
+         828  CallMethod
+         829  Pop
+           }
+      830  SetMember
+      831  Push register1, "lc"
+      838  GetMember
+      839  Push "com_gskinner_utils_SWFBridge_receive"
+      844  DefineFunction2 "" () regs=2 flags=0x26 {
+         855  Push register1, "_this"
+         862  GetVariable
+         863  Push 2, "_this"
+         873  GetVariable
+         874  Push "com_gskinner_utils_SWFBridge_receive"
+         879  GetMember
+         880  Push "apply"
+         885  CallMethod
+         886  Pop
+           }
+      887  SetMember
+      888  Push register1, "clientObj", register3
+      897  SetMember
+      898  Push register1, "host", register1, "baseID"
+      909  GetMember
+      910  Push "_host"
+      915  Add2
+      916  Push 1, register1, "lc"
+      928  GetMember
+      929  Push "connect"
+      934  CallMethod
+      935  SetMember
+      936  Push register1, "myID", register1, "baseID"
+      947  GetMember
+      948  Push register1, "host"
+      955  GetMember
+      956  If loc971
+      961  Push "_guest"
+      966  Jump loc976
+      971  Push "_host"
+      976  Add2
+      977  SetMember
+      978  Push register1, "extID", register1, "baseID"
+      989  GetMember
+      990  Push register1, "host"
+      997  GetMember
+      998  If loc1013
+     1003  Push "_host"
+     1008  Jump loc1018
+     1013  Push "_guest"
+     1018  Add2
+     1019  SetMember
+     1020  Push register1, "host"
+     1027  GetMember
+     1028  Not
+     1029  Not
+     1030  If loc1093
+     1035  Push register1, "myID"
+     1042  GetMember
+     1043  Push 1, register1, "lc"
+     1055  GetMember
+     1056  Push "connect"
+     1061  CallMethod
+     1062  Pop
+     1063  Push "com_gskinner_utils_SWFBridge_init", register1, "extID"
+     1072  GetMember
+     1073  Push 2, register1, "lc"
+     1085  GetMember
+     1086  Push "send"
+     1091  CallMethod
+     1092  Pop
+        }
+  1093  StoreRegister 1
+  1097  SetMember
+  1098  Push register1, "prototype"
+  1105  GetMember
+  1106  StoreRegister 2
+  1110  Pop
+  1111  Push register2, "close"
+  1118  DefineFunction2 "" () regs=2 flags=0x29 {
+     1129  Push 0, register1, "lc"
+     1145  GetMember
+     1146  Push "close"
+     1151  CallMethod
+     1152  Pop
+     1153  Push register1, "clientObj"
+     1160  Delete
+     1161  Pop
+     1162  Push register1, "lc"
+     1169  Delete
+     1170  Pop
+     1171  Push register1, "_connected", false
+     1180  SetMember
+        }
+  1181  SetMember
+  1182  Push register2, "send"
+  1189  DefineFunction2 "" () regs=4 flags=0x25 {
+     1200  Push register1, "_connected"
+     1207  GetMember
+     1208  Not
+     1209  Not
+     1210  If loc1220
+     1215  Push undef
+     1219  Return
+     1220  Push 0, 1, register2, "slice"
+     1241  CallMethod
+     1242  StoreRegister 3
+     1246  Pop
+     1247  Push "com_gskinner_utils_SWFBridge_receive", 1, register3, "unshift"
+     1261  CallMethod
+     1262  Pop
+     1263  Push register1, "extID"
+     1270  GetMember
+     1271  Push 1, register3, "unshift"
+     1283  CallMethod
+     1284  Pop
+     1285  Push register3, register1, "lc"
+     1294  GetMember
+     1295  Push 2, register1, "lc"
+     1307  GetMember
+     1308  Push "send"
+     1313  GetMember
+     1314  Push "apply"
+     1319  CallMethod
+     1320  Pop
+        }
+  1321  SetMember
+  1322  Push register2, "__get__id"
+  1329  DefineFunction2 "" () regs=2 flags=0x29 {
+     1340  Push register1, "baseID"
+     1347  GetMember
+     1348  Return
+        }
+  1349  SetMember
+  1350  Push register2, "__get__connected"
+  1357  DefineFunction2 "" () regs=2 flags=0x29 {
+     1368  Push register1, "_connected"
+     1375  GetMember
+     1376  Return
+        }
+  1377  SetMember
+  1378  Push register2, "com_gskinner_utils_SWFBridge_receive"
+  1385  DefineFunction2 "" () regs=5 flags=0x25 {
+     1396  Push 0, 1, register2, "slice"
+     1417  CallMethod
+     1418  StoreRegister 3
+     1422  Pop
+     1423  Push 0, register3, "shift"
+     1439  CallMethod
+     1440  ToString
+     1441  StoreRegister 4
+     1445  Pop
+     1446  Push register3, register1, "clientObj"
+     1455  GetMember
+     1456  Push 2, register1, "clientObj"
+     1468  GetMember
+     1469  Push register4
+     1474  GetMember
+     1475  Push "apply"
+     1480  CallMethod
+     1481  Pop
+        }
+  1482  SetMember
+  1483  Push register2, "com_gskinner_utils_SWFBridge_init"
+  1490  DefineFunction2 "" () regs=3 flags=0x29 {
+     1501  Push "SWFBridge (AS2) connected as ", register1, "host"
+     1510  GetMember
+     1511  If loc1526
+     1516  Push "client"
+     1521  Jump loc1531
+     1526  Push "host"
+     1531  Add2
+     1532  Trace
+     1533  Push register1, "host"
+     1540  GetMember
+     1541  Not
+     1542  If loc1577
+     1547  Push "com_gskinner_utils_SWFBridge_init", register1, "extID"
+     1556  GetMember
+     1557  Push 2, register1, "lc"
+     1569  GetMember
+     1570  Push "send"
+     1575  CallMethod
+     1576  Pop
+     1577  Push register1, "_connected", true
+     1586  SetMember
+     1587  Push "type", "connect", 1
+     1599  InitObject
+     1600  Push 1, register1, "dispatchEvent"
+     1612  CallMethod
+     1613  Pop
+        }
+  1614  SetMember
+  1615  Push register2, "_connected", false
+  1624  SetMember
+  1625  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1633  Push register2, "__get__connected"
+  1640  GetMember
+  1641  Push "connected", 3, register2, "addProperty"
+  1655  CallMethod
+  1656  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1664  Push register2, "__get__id"
+  1671  GetMember
+  1672  Push "id", 3, register2, "addProperty"
+  1686  CallMethod
+  1687  Push 1, null, "com"
+  1698  GetVariable
+  1699  Push "gskinner"
+  1704  GetMember
+  1705  Push "utils"
+  1710  GetMember
+  1711  Push "SWFBridgeAS2"
+  1716  GetMember
+  1717  Push "prototype"
+  1722  GetMember
+  1723  Push 3, "ASSetPropFlags"
+  1733  CallFunction
+  1734  Pop
+  1735  End

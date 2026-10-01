@@ -1,0 +1,425 @@
+// DoAction
+// origen: escenario fotograma 181, DoAction (06455_DoAction.bin)
+
+     0  ConstantPool (62)
+   594  Push "navTitle", ""
+   601  SetVariable
+   602  Push "navText", ""
+   609  SetVariable
+   610  Push "Krin"
+   615  GetVariable
+   616  Push "PauseForScreen", false
+   623  SetMember
+   624  Push "Krin"
+   629  GetVariable
+   630  Push "wSaver", "krinXbarPro"
+   637  GetVariable
+   638  Push "bar"
+   643  GetMember
+   644  Push "_width"
+   649  GetMember
+   650  SetMember
+   651  Push "Krin"
+   656  GetVariable
+   657  Push "levelMaxProgress", "questHub"
+   664  GetVariable
+   665  Push "Krin"
+   670  GetVariable
+   671  Push "sectionIn"
+   676  GetMember
+   677  GetMember
+   678  Push "progressMax"
+   683  GetMember
+   684  Push 1, "parseInt"
+   694  CallFunction
+   695  SetMember
+   696  Push "Krin"
+   701  GetVariable
+   702  Push "levelMinProgress", "Krin"
+   709  GetVariable
+   710  Push "questProgress"
+   715  GetMember
+   716  Push "Krin"
+   721  GetVariable
+   722  Push "sectionIn"
+   727  GetMember
+   728  GetMember
+   729  Push 1, "parseInt"
+   739  CallFunction
+   740  SetMember
+   741  Push "Krin"
+   746  GetVariable
+   747  Push "levelMinProgress"
+   752  GetMember
+   753  Push "Krin"
+   758  GetVariable
+   759  Push "levelMaxProgress"
+   764  GetMember
+   765  Greater
+   766  Not
+   767  If loc793
+   772  Push "Krin"
+   777  GetVariable
+   778  Push "levelMinProgress", "Krin"
+   785  GetVariable
+   786  Push "levelMaxProgress"
+   791  GetMember
+   792  SetMember
+   793  Push "krinXbarPro"
+   798  GetVariable
+   799  Push "bar"
+   804  GetMember
+   805  Push "_width", "Krin"
+   812  GetVariable
+   813  Push "levelMinProgress"
+   818  GetMember
+   819  Push "Krin"
+   824  GetVariable
+   825  Push "levelMaxProgress"
+   830  GetMember
+   831  Divide
+   832  Push "Krin"
+   837  GetVariable
+   838  Push "wSaver"
+   843  GetMember
+   844  Multiply
+   845  SetMember
+   846  Push "klt1", "_root"
+   853  GetVariable
+   854  Push "KrinLang"
+   859  GetMember
+   860  Push "KLangChoosen"
+   865  GetVariable
+   866  GetMember
+   867  Push "SYSTEM"
+   872  GetMember
+   873  Push 9
+   881  GetMember
+   882  Push "Krin"
+   887  GetVariable
+   888  Push "sectionIn"
+   893  GetMember
+   894  Add2
+   895  SetVariable
+   896  Push "klt2", "_root"
+   903  GetVariable
+   904  Push "KrinLang"
+   909  GetMember
+   910  Push "KLangChoosen"
+   915  GetVariable
+   916  GetMember
+   917  Push "ZONES"
+   922  GetMember
+   923  Push "Krin"
+   928  GetVariable
+   929  Push "sectionIn"
+   934  GetMember
+   935  GetMember
+   936  Push ": "
+   941  Add2
+   942  Push "_root"
+   947  GetVariable
+   948  Push "KrinLang"
+   953  GetMember
+   954  Push "KLangChoosen"
+   959  GetVariable
+   960  GetMember
+   961  Push "ZONES2"
+   966  GetMember
+   967  Push "Krin"
+   972  GetVariable
+   973  Push "sectionIn"
+   978  GetMember
+   979  GetMember
+   980  Add2
+   981  SetVariable
+   982  Push "klt3", "_root"
+   989  GetVariable
+   990  Push "KrinLang"
+   995  GetMember
+   996  Push "KLangChoosen"
+  1001  GetVariable
+  1002  GetMember
+  1003  Push "SYSTEM"
+  1008  GetMember
+  1009  Push 10
+  1017  GetMember
+  1018  Push "Krin"
+  1023  GetVariable
+  1024  Push "questProgress"
+  1029  GetMember
+  1030  Push "Krin"
+  1035  GetVariable
+  1036  Push "sectionIn"
+  1041  GetMember
+  1042  GetMember
+  1043  Push 1, "parseInt"
+  1053  CallFunction
+  1054  Push 1
+  1062  Add2
+  1063  Add2
+  1064  SetVariable
+  1065  Push 1, "Music", 2, "addSound"
+  1082  CallFunction
+  1083  Pop
+  1084  Push "_root"
+  1089  GetVariable
+  1090  Push "slotSaveGO", "Krin"
+  1097  GetVariable
+  1098  Push "slotInUse"
+  1103  GetMember
+  1104  SetMember
+  1105  Stop
+  1106  Push "menuMode", true
+  1113  SetVariable
+  1114  Push "Krin"
+  1119  GetVariable
+  1120  Push "Pause", false
+  1127  SetMember
+  1128  Push "_root"
+  1133  GetVariable
+  1134  Push "Krin"
+  1139  GetMember
+  1140  Push "mouseItem", 0
+  1154  SetMember
+  1155  Push "_root"
+  1160  GetVariable
+  1161  Push "KrinLang"
+  1166  GetMember
+  1167  Push "ENGLISH"
+  1172  GetMember
+  1173  Push "ITEMNAME"
+  1178  GetMember
+  1179  Push "_root"
+  1184  GetVariable
+  1185  Push "Krin"
+  1190  GetMember
+  1191  Push "mouseItem"
+  1196  GetMember
+  1197  GetMember
+  1198  Push 1, "KrinToolTipper"
+  1208  GetVariable
+  1209  Push "inner"
+  1214  GetMember
+  1215  Push "gotoAndStop"
+  1220  CallMethod
+  1221  Pop
+  1222  Push "_root"
+  1227  GetVariable
+  1228  Push "thereIsASlotSelected", false
+  1235  SetMember
+  1236  Push "whatToSay3", "_root"
+  1243  GetVariable
+  1244  Push "KrinLang"
+  1249  GetMember
+  1250  Push "KLangChoosen"
+  1255  GetVariable
+  1256  GetMember
+  1257  Push "MENU"
+  1262  GetMember
+  1263  Push 19
+  1271  GetMember
+  1272  SetVariable
+  1273  Push "onMouseDown"
+  1278  DefineFunction2 "" () regs=2 flags=0x6a {
+     1289  Push "UITmouseHold"
+     1294  GetVariable
+     1295  Push 0
+     1307  Greater
+     1308  Not
+     1309  If loc1376
+     1314  Push "UITdrop"
+     1319  GetVariable
+     1320  Push true
+     1325  Equals2
+     1326  Not
+     1327  Not
+     1328  If loc1376
+     1333  Push "UITmouseHold", 0
+     1347  SetVariable
+     1348  Push "Empty2", 1, register1, "KrinToolTipper"
+     1362  GetMember
+     1363  Push "inner2"
+     1368  GetMember
+     1369  Push "gotoAndStop"
+     1374  CallMethod
+     1375  Pop
+     1376  Push register1, "thereIsASlotSelected"
+     1383  GetMember
+     1384  Not
+     1385  Not
+     1386  If loc1973
+     1391  Push "itemReturned", false
+     1398  SetVariable
+     1399  Push register1, "Krin"
+     1406  GetMember
+     1407  Push "mouseItem"
+     1412  GetMember
+     1413  Push 0
+     1425  Equals2
+     1426  Not
+     1427  Not
+     1428  If loc1973
+     1433  Push register1, "Krin"
+     1440  GetMember
+     1441  Push "previousItemSlot"
+     1446  GetMember
+     1447  Push "slotType"
+     1452  GetMember
+     1453  Push "itemSlot"
+     1458  Equals2
+     1459  Not
+     1460  If loc1615
+     1465  Push "itemReturned", true
+     1472  SetVariable
+     1473  Push register1, "Krin"
+     1480  GetMember
+     1481  Push "itemArray"
+     1486  GetMember
+     1487  Push register1, "Krin"
+     1494  GetMember
+     1495  Push "previousItemSlot"
+     1500  GetMember
+     1501  Push "id"
+     1506  GetMember
+     1507  Push register1, "Krin"
+     1514  GetMember
+     1515  Push "mouseItem"
+     1520  GetMember
+     1521  SetMember
+     1522  Push register1, "KrinLang"
+     1529  GetMember
+     1530  Push "ENGLISH"
+     1535  GetMember
+     1536  Push "ITEMNAME"
+     1541  GetMember
+     1542  Push register1, "Krin"
+     1549  GetMember
+     1550  Push "itemArray"
+     1555  GetMember
+     1556  Push register1, "Krin"
+     1563  GetMember
+     1564  Push "previousItemSlot"
+     1569  GetMember
+     1570  Push "id"
+     1575  GetMember
+     1576  GetMember
+     1577  GetMember
+     1578  Push 1, register1, "Krin"
+     1590  GetMember
+     1591  Push "previousItemSlot"
+     1596  GetMember
+     1597  Push "inner"
+     1602  GetMember
+     1603  Push "gotoAndStop"
+     1608  CallMethod
+     1609  Pop
+     1610  Jump loc1859
+     1615  Push "by", 0
+     1629  SetVariable
+     1630  Push "by"
+     1635  GetVariable
+     1636  Push register1, "Krin"
+     1643  GetMember
+     1644  Push "itemArray"
+     1649  GetMember
+     1650  Push "length"
+     1655  GetMember
+     1656  Less2
+     1657  Not
+     1658  If loc1859
+     1663  Push register1, "Krin"
+     1670  GetMember
+     1671  Push "itemArray"
+     1676  GetMember
+     1677  Push "by"
+     1682  GetVariable
+     1683  GetMember
+     1684  Push 0
+     1696  Equals2
+     1697  PushDuplicate
+     1698  Not
+     1699  If loc1717
+     1704  Pop
+     1705  Push "itemReturned"
+     1710  GetVariable
+     1711  Push false
+     1716  Equals2
+     1717  Not
+     1718  If loc1844
+     1723  Push "itemReturned", true
+     1730  SetVariable
+     1731  Push register1, "Krin"
+     1738  GetMember
+     1739  Push "itemArray"
+     1744  GetMember
+     1745  Push "by"
+     1750  GetVariable
+     1751  Push register1, "Krin"
+     1758  GetMember
+     1759  Push "mouseItem"
+     1764  GetMember
+     1765  SetMember
+     1766  Push register1, "KrinLang"
+     1773  GetMember
+     1774  Push "ENGLISH"
+     1779  GetMember
+     1780  Push "ITEMNAME"
+     1785  GetMember
+     1786  Push register1, "Krin"
+     1793  GetMember
+     1794  Push "itemArray"
+     1799  GetMember
+     1800  Push "by"
+     1805  GetVariable
+     1806  GetMember
+     1807  GetMember
+     1808  Push 1, register1, "KRINMENU"
+     1820  GetMember
+     1821  Push "itemSlot", "by"
+     1828  GetVariable
+     1829  Add2
+     1830  GetMember
+     1831  Push "inner"
+     1836  GetMember
+     1837  Push "gotoAndStop"
+     1842  CallMethod
+     1843  Pop
+     1844  Push "by", "by"
+     1851  GetVariable
+     1852  Increment
+     1853  SetVariable
+     1854  Jump loc1630
+     1859  Push "itemReturned"
+     1864  GetVariable
+     1865  Push true
+     1870  Equals2
+     1871  Not
+     1872  If loc1933
+     1877  Push register1, "Krin"
+     1884  GetMember
+     1885  Push "mouseItem", 0
+     1899  SetMember
+     1900  Push "None", 1, register1, "KrinToolTipper"
+     1914  GetMember
+     1915  Push "inner"
+     1920  GetMember
+     1921  Push "gotoAndStop"
+     1926  CallMethod
+     1927  Pop
+     1928  Jump loc1973
+     1933  Push 0, register1, "KrinCombatText"
+     1949  GetMember
+     1950  Push "play"
+     1955  CallMethod
+     1956  Pop
+     1957  Push register1, "KrinCombatText"
+     1964  GetMember
+     1965  Push "combatTexter", "No more empty slots to return item to."
+     1972  SetMember
+        }
+  1973  SetVariable
+  1974  Push "BATNUMO", 600, 1, "Number"
+  1991  NewObject
+  1992  DefineLocal
+  1993  End

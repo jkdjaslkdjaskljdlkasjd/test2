@@ -1,0 +1,11 @@
+// DoAction
+// origen: DefineSprite_151_LifeBarSmoother fotograma 19, DoAction (00301_DefineSprite_151.bin, byte 705)
+
+   705  Push "stopper"
+   717  GetVariable
+   718  Push 1, "LCC"
+   731  GetVariable
+   732  Push "gotoAndStop"
+   748  CallMethod
+   749  Pop
+   750  End

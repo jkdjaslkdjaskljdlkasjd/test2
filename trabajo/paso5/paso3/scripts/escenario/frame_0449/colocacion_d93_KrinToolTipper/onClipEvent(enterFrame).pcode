@@ -1,0 +1,20 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 449, clip en profundidad 93 (08334_PlaceObject2.bin)
+
+    41  ConstantPool (5)
+    75  Push true, 1, "this"
+    87  GetVariable
+    88  Push "startDrag"
+    93  CallMethod
+    94  Pop
+    95  Push "", "this"
+   102  GetVariable
+   103  Push "inner"
+   108  GetMember
+   109  GetURL2 64
+   113  Push "", "this"
+   120  GetVariable
+   121  Push "inner2"
+   126  GetMember
+   127  GetURL2 64
+   131  End

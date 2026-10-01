@@ -1,0 +1,181 @@
+// DoAction
+// origen: DefineSprite_2680 fotograma 10, DoAction (06064_DefineSprite_2680.bin, byte 3928)
+
+  3928  ConstantPool (38)
+  4217  Push 0, "my_txt"
+  4231  GetVariable
+  4232  Push "removeTextField"
+  4237  CallMethod
+  4238  Pop
+  4239  Push 0, "my_txt2"
+  4253  GetVariable
+  4254  Push "removeTextField"
+  4259  CallMethod
+  4260  Pop
+  4261  Push 0, "my_txt"
+  4275  GetVariable
+  4276  Push "removeTextField"
+  4281  CallMethod
+  4282  Pop
+  4283  Push 0, "my_txt2"
+  4297  GetVariable
+  4298  Push "removeTextField"
+  4303  CallMethod
+  4304  Pop
+  4305  Push 0, "my_txt3"
+  4319  GetVariable
+  4320  Push "removeTextField"
+  4325  CallMethod
+  4326  Pop
+  4327  Push 0, "my_txt4"
+  4341  GetVariable
+  4342  Push "removeTextField"
+  4347  CallMethod
+  4348  Pop
+  4349  Push 0, "ttt"
+  4363  GetVariable
+  4364  Push "removeTextField"
+  4369  CallMethod
+  4370  Pop
+  4371  Push "j", 0
+  4385  SetVariable
+  4386  Push "j"
+  4391  GetVariable
+  4392  Push 10
+  4400  Less2
+  4401  Not
+  4402  If loc4454
+  4407  Push 0, "this"
+  4421  GetVariable
+  4422  Push "MY_TX", "j"
+  4429  GetVariable
+  4430  Add2
+  4431  GetMember
+  4432  Push "removeTextField"
+  4437  CallMethod
+  4438  Pop
+  4439  Push "j", "j"
+  4446  GetVariable
+  4447  Increment
+  4448  SetVariable
+  4449  Jump loc4386
+  4454  Push "", 7, false
+  4466  SetProperty
+  4467  Push "_root"
+  4472  GetVariable
+  4473  Push "_xmouse"
+  4478  GetMember
+  4479  Push 570
+  4487  Less2
+  4488  Not
+  4489  If loc4510
+  4494  Push "scaffold", 13
+  4504  SetVariable
+  4505  Jump loc4521
+  4510  Push "scaffold", -163
+  4520  SetVariable
+  4521  Push 120, 150, 0, "scaffold"
+  4545  GetVariable
+  4546  Push 1, "my_txt2", 6, "this"
+  4563  GetVariable
+  4564  Push "createTextField"
+  4569  CallMethod
+  4570  Pop
+  4571  Push "my_txt2"
+  4576  GetVariable
+  4577  Push "size", 10
+  4587  SetMember
+  4588  Push "my_txt2"
+  4593  GetVariable
+  4594  Push "color", 0
+  4608  SetMember
+  4609  Push "my_txt2"
+  4614  GetVariable
+  4615  Push "autoSize", "left"
+  4622  SetMember
+  4623  Push "my_txt2"
+  4628  GetVariable
+  4629  Push "border", true
+  4636  SetMember
+  4637  Push "my_txt2"
+  4642  GetVariable
+  4643  Push "multiline", true
+  4650  SetMember
+  4651  Push "my_txt2"
+  4656  GetVariable
+  4657  Push "text", "tt"
+  4664  GetVariable
+  4665  SetMember
+  4666  Push "my_txt2"
+  4671  GetVariable
+  4672  Push "wordWrap", true
+  4679  SetMember
+  4680  Push "my_fmt2", 0, "TextFormat"
+  4696  NewObject
+  4697  DefineLocal
+  4698  Push "my_fmt2"
+  4703  GetVariable
+  4704  Push "font", "_sans"
+  4711  SetMember
+  4712  Push "my_fmt2"
+  4717  GetVariable
+  4718  Push "color", 0
+  4732  SetMember
+  4733  Push "my_fmt2"
+  4738  GetVariable
+  4739  Push "size", 12
+  4749  SetMember
+  4750  Push "my_fmt2"
+  4755  GetVariable
+  4756  Push "bold", true
+  4763  SetMember
+  4764  Push "my_fmt2"
+  4769  GetVariable
+  4770  Push "indent", 3
+  4780  SetMember
+  4781  Push "my_fmt2"
+  4786  GetVariable
+  4787  Push 1, "my_txt2"
+  4797  GetVariable
+  4798  Push "setTextFormat"
+  4803  CallMethod
+  4804  Pop
+  4805  Push "fontBacker2"
+  4810  GetVariable
+  4811  Push "_height", "my_txt2"
+  4818  GetVariable
+  4819  Push "_height"
+  4824  GetMember
+  4825  SetMember
+  4826  Push "fontBacker2"
+  4831  GetVariable
+  4832  Push "_width", "my_txt2"
+  4839  GetVariable
+  4840  Push "_width"
+  4845  GetMember
+  4846  SetMember
+  4847  Push "fontBacker2"
+  4852  GetVariable
+  4853  Push "_x", "my_txt2"
+  4860  GetVariable
+  4861  Push "_x"
+  4866  GetMember
+  4867  SetMember
+  4868  Push "fontBacker2"
+  4873  GetVariable
+  4874  Push "_y", "my_txt2"
+  4881  GetVariable
+  4882  Push "_y"
+  4887  GetMember
+  4888  SetMember
+  4889  Push "fontBacker"
+  4894  GetVariable
+  4895  Push "_visible", false
+  4902  SetMember
+  4903  Push "fontBacker3"
+  4908  GetVariable
+  4909  Push "_visible", false
+  4916  SetMember
+  4917  Push "", 7, true
+  4929  SetProperty
+  4930  End

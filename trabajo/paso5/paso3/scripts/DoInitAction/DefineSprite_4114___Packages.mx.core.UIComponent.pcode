@@ -1,0 +1,492 @@
+// DefineSprite_4114___Packages.mx.core.UIComponent
+// origen: DoInitAction del sprite 4114 (03741_DoInitAction.bin)
+
+     2  ConstantPool (70)
+   779  Push "_global"
+   784  GetVariable
+   785  Push "mx"
+   790  GetMember
+   791  Not
+   792  Not
+   793  If loc822
+   798  Push "_global"
+   803  GetVariable
+   804  Push "mx", 0, "Object"
+   820  NewObject
+   821  SetMember
+   822  Pop
+   823  Push "_global"
+   828  GetVariable
+   829  Push "mx"
+   834  GetMember
+   835  Push "core"
+   840  GetMember
+   841  Not
+   842  Not
+   843  If loc878
+   848  Push "_global"
+   853  GetVariable
+   854  Push "mx"
+   859  GetMember
+   860  Push "core", 0, "Object"
+   876  NewObject
+   877  SetMember
+   878  Pop
+   879  Push "_global"
+   884  GetVariable
+   885  Push "mx"
+   890  GetMember
+   891  Push "core"
+   896  GetMember
+   897  Push "UIComponent"
+   902  GetMember
+   903  Not
+   904  Not
+   905  If loc2829
+   910  Push "mx"
+   915  GetVariable
+   916  Push "core"
+   921  GetMember
+   922  Push "UIComponent"
+   927  DefineFunction2 "" () regs=2 flags=0x1a {
+      938  Push 0, register1, undef
+      953  CallMethod
+      954  Pop
+        }
+   955  StoreRegister 1
+   959  SetMember
+   960  Push "mx"
+   965  GetVariable
+   966  Push "core"
+   971  GetMember
+   972  Push "UIComponent"
+   977  GetMember
+   978  Push "mx"
+   983  GetVariable
+   984  Push "core"
+   989  GetMember
+   990  Push "UIObject"
+   995  GetMember
+   996  Extends
+   997  Push register1, "prototype"
+  1004  GetMember
+  1005  StoreRegister 2
+  1009  Pop
+  1010  Push register2, "__get__width"
+  1017  DefineFunction2 "" () regs=2 flags=0x29 {
+     1028  Push register1, "__width"
+     1035  GetMember
+     1036  Return
+        }
+  1037  SetMember
+  1038  Push register2, "__get__height"
+  1045  DefineFunction2 "" () regs=2 flags=0x29 {
+     1056  Push register1, "__height"
+     1063  GetMember
+     1064  Return
+        }
+  1065  SetMember
+  1066  Push register2, "setVisible"
+  1073  DefineFunction2 "" (r3:x, r2:noEvent) regs=4 flags=0x1a {
+     1096  Push register2, register3, 2, register1, "setVisible"
+     1112  CallMethod
+     1113  Pop
+        }
+  1114  SetMember
+  1115  Push register2, "enabledChanged"
+  1122  DefineFunction2 "" (id, oldValue, r2:newValue) regs=3 flags=0x29 {
+     1157  Push register2, 1, register1, "setEnabled"
+     1171  CallMethod
+     1172  Pop
+     1173  Push 0, register1, "invalidate"
+     1189  CallMethod
+     1190  Pop
+     1191  Push register1, "stylecache"
+     1198  GetMember
+     1199  Push "tf"
+     1204  Delete
+     1205  Pop
+     1206  Push register2
+     1211  Return
+        }
+  1212  SetMember
+  1213  Push register2, "setEnabled"
+  1220  DefineFunction2 "" (enabled) regs=2 flags=0x29 {
+     1240  Push 0, register1, "invalidate"
+     1256  CallMethod
+     1257  Pop
+        }
+  1258  SetMember
+  1259  Push register2, "getFocus"
+  1266  DefineFunction "" () regs=4 flags=0x0 {
+     1274  Push "selFocus", 0, "Selection"
+     1290  GetVariable
+     1291  Push "getFocus"
+     1296  CallMethod
+     1297  DefineLocal
+     1298  Push "selFocus"
+     1303  GetVariable
+     1304  Push null
+     1308  StrictEquals
+     1309  If loc1326
+     1314  Push "selFocus"
+     1319  GetVariable
+     1320  GetVariable
+     1321  Jump loc1330
+     1326  Push null
+     1330  Return
+        }
+  1331  SetMember
+  1332  Push register2, "setFocus"
+  1339  DefineFunction2 "" () regs=2 flags=0x29 {
+     1350  Push register1, 1, "Selection"
+     1362  GetVariable
+     1363  Push "setFocus"
+     1368  CallMethod
+     1369  Pop
+        }
+  1370  SetMember
+  1371  Push register2, "getFocusManager"
+  1378  DefineFunction2 "" () regs=3 flags=0x29 {
+     1389  Push register1
+     1394  StoreRegister 2
+     1398  Pop
+     1399  Push register2, undef
+     1405  Equals2
+     1406  Not
+     1407  Not
+     1408  If loc1460
+     1413  Push register2, "focusManager"
+     1420  GetMember
+     1421  Push undef
+     1425  Equals2
+     1426  Not
+     1427  Not
+     1428  If loc1442
+     1433  Push register2, "focusManager"
+     1440  GetMember
+     1441  Return
+     1442  Push register2, "_parent"
+     1449  GetMember
+     1450  StoreRegister 2
+     1454  Pop
+     1455  Jump loc1399
+     1460  Push undef
+     1464  Return
+        }
+  1465  SetMember
+  1466  Push register2, "onKillFocus"
+  1473  DefineFunction2 "" (newFocus) regs=3 flags=0x29 {
+     1494  Push register1, "keyDown", 2, register1, "removeEventListener"
+     1510  CallMethod
+     1511  Pop
+     1512  Push register1, "keyUp", 2, register1, "removeEventListener"
+     1528  CallMethod
+     1529  Pop
+     1530  Push "type", "focusOut", 1
+     1542  InitObject
+     1543  Push 1, register1, "dispatchEvent"
+     1555  CallMethod
+     1556  Pop
+     1557  Push false, 1, register1, "drawFocus"
+     1571  CallMethod
+     1572  Pop
+        }
+  1573  SetMember
+  1574  Push register2, "onSetFocus"
+  1581  DefineFunction2 "" (oldFocus) regs=3 flags=0x29 {
+     1602  Push register1, "keyDown", 2, register1, "addEventListener"
+     1618  CallMethod
+     1619  Pop
+     1620  Push register1, "keyUp", 2, register1, "addEventListener"
+     1636  CallMethod
+     1637  Pop
+     1638  Push "type", "focusIn", 1
+     1650  InitObject
+     1651  Push 1, register1, "dispatchEvent"
+     1663  CallMethod
+     1664  Pop
+     1665  Push 0, register1, "getFocusManager"
+     1681  CallMethod
+     1682  Push "bDrawFocus"
+     1687  GetMember
+     1688  Push false
+     1693  Equals2
+     1694  Not
+     1695  Not
+     1696  If loc1717
+     1701  Push true, 1, register1, "drawFocus"
+     1715  CallMethod
+     1716  Pop
+        }
+  1717  SetMember
+  1718  Push register2, "findFocusInChildren"
+  1725  DefineFunction2 "" (r1:o) regs=2 flags=0x2a {
+     1739  Push register1, "focusTextField"
+     1746  GetMember
+     1747  Push undef
+     1751  Equals2
+     1752  Not
+     1753  Not
+     1754  If loc1768
+     1759  Push register1, "focusTextField"
+     1766  GetMember
+     1767  Return
+     1768  Push register1, "tabEnabled"
+     1775  GetMember
+     1776  Push true
+     1781  Equals2
+     1782  Not
+     1783  If loc1794
+     1788  Push register1
+     1793  Return
+     1794  Push undef
+     1798  Return
+        }
+  1799  SetMember
+  1800  Push register2, "findFocusFromObject"
+  1807  DefineFunction2 "" (r2:o) regs=3 flags=0x29 {
+     1821  Push register2, "tabEnabled"
+     1828  GetMember
+     1829  Push true
+     1834  Equals2
+     1835  Not
+     1836  Not
+     1837  If loc1987
+     1842  Push register2, "_parent"
+     1849  GetMember
+     1850  Push undef
+     1854  Equals2
+     1855  Not
+     1856  If loc1866
+     1861  Push undef
+     1865  Return
+     1866  Push register2, "_parent"
+     1873  GetMember
+     1874  Push "tabEnabled"
+     1879  GetMember
+     1880  Push true
+     1885  Equals2
+     1886  Not
+     1887  If loc1910
+     1892  Push register2, "_parent"
+     1899  GetMember
+     1900  StoreRegister 2
+     1904  Pop
+     1905  Jump loc1987
+     1910  Push register2, "_parent"
+     1917  GetMember
+     1918  Push "tabChildren"
+     1923  GetMember
+     1924  Not
+     1925  If loc1961
+     1930  Push register2, "_parent"
+     1937  GetMember
+     1938  Push 1, register1, "findFocusInChildren"
+     1950  CallMethod
+     1951  StoreRegister 2
+     1955  Pop
+     1956  Jump loc1987
+     1961  Push register2, "_parent"
+     1968  GetMember
+     1969  Push 1, register1, "findFocusFromObject"
+     1981  CallMethod
+     1982  StoreRegister 2
+     1986  Pop
+     1987  Push register2
+     1992  Return
+        }
+  1993  SetMember
+  1994  Push register2, "pressFocus"
+  2001  DefineFunction2 "" () regs=4 flags=0x29 {
+     2012  Push register1, 1, register1, "findFocusFromObject"
+     2026  CallMethod
+     2027  StoreRegister 3
+     2031  Pop
+     2032  Push 0, register1, "getFocus"
+     2048  CallMethod
+     2049  StoreRegister 2
+     2053  Pop
+     2054  Push register3, register2
+     2061  Equals2
+     2062  Not
+     2063  Not
+     2064  If loc2137
+     2069  Push false, 1, register2, "drawFocus"
+     2083  CallMethod
+     2084  Pop
+     2085  Push 0, register1, "getFocusManager"
+     2101  CallMethod
+     2102  Push "bDrawFocus"
+     2107  GetMember
+     2108  Push false
+     2113  Equals2
+     2114  Not
+     2115  Not
+     2116  If loc2137
+     2121  Push true, 1, register3, "drawFocus"
+     2135  CallMethod
+     2136  Pop
+        }
+  2137  SetMember
+  2138  Push register2, "releaseFocus"
+  2145  DefineFunction2 "" () regs=3 flags=0x29 {
+     2156  Push register1, 1, register1, "findFocusFromObject"
+     2170  CallMethod
+     2171  StoreRegister 2
+     2175  Pop
+     2176  Push register2, 0, register1, "getFocus"
+     2194  CallMethod
+     2195  Equals2
+     2196  Not
+     2197  Not
+     2198  If loc2221
+     2203  Push 0, register2, "setFocus"
+     2219  CallMethod
+     2220  Pop
+        }
+  2221  SetMember
+  2222  Push register2, "isParent"
+  2229  DefineFunction2 "" (r2:o) regs=3 flags=0x29 {
+     2243  Push register2, undef
+     2249  Equals2
+     2250  Not
+     2251  Not
+     2252  If loc2295
+     2257  Push register2, register1
+     2264  Equals2
+     2265  Not
+     2266  If loc2277
+     2271  Push true
+     2276  Return
+     2277  Push register2, "_parent"
+     2284  GetMember
+     2285  StoreRegister 2
+     2289  Pop
+     2290  Jump loc2243
+     2295  Push false
+     2300  Return
+        }
+  2301  SetMember
+  2302  Push register2, "size"
+  2309  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  2317  SetMember
+  2318  Push register2, "init"
+  2325  DefineFunction2 "" () regs=4 flags=0x119 {
+     2336  Push 0, register2, "init"
+     2352  CallMethod
+     2353  Pop
+     2354  Push register1, "_xscale", 100
+     2366  SetMember
+     2367  Push register1, "_yscale", 100
+     2379  SetMember
+     2380  Push register1, "_focusrect", register3, "useFocusRect"
+     2391  GetMember
+     2392  Push false
+     2397  Equals2
+     2398  SetMember
+     2399  Push register1, "enabledChanged"
+     2406  GetMember
+     2407  Push "enabled", 2, register1, "watch"
+     2421  CallMethod
+     2422  Pop
+     2423  Push register1, "enabled"
+     2430  GetMember
+     2431  Push false
+     2436  Equals2
+     2437  Not
+     2438  If loc2459
+     2443  Push false, 1, register1, "setEnabled"
+     2457  CallMethod
+     2458  Pop
+        }
+  2459  SetMember
+  2460  Push register2, "dispatchValueChangedEvent"
+  2467  DefineFunction2 "" (r2:value) regs=4 flags=0x29 {
+     2485  Push "type", "valueChanged", "value", register2, 2
+     2501  InitObject
+     2502  Push 1, register1, "dispatchEvent"
+     2514  CallMethod
+     2515  Pop
+        }
+  2516  SetMember
+  2517  Push register1, "symbolName", "UIComponent"
+  2526  SetMember
+  2527  Push register1, "symbolOwner", "mx"
+  2536  GetVariable
+  2537  Push "core"
+  2542  GetMember
+  2543  Push "UIComponent"
+  2548  GetMember
+  2549  SetMember
+  2550  Push register1, "version", "2.0.2.127"
+  2559  SetMember
+  2560  Push register1, "kStretch", 5000
+  2572  SetMember
+  2573  Push register2, "focusEnabled", true
+  2582  SetMember
+  2583  Push register2, "tabEnabled", true
+  2592  SetMember
+  2593  Push register2, "origBorderStyles", "themeColor", 16711680, 1
+  2612  InitObject
+  2613  SetMember
+  2614  Push register2, "clipParameters", 0
+  2630  InitObject
+  2631  SetMember
+  2632  Push register1, "mergedClipParameters", "mx"
+  2641  GetVariable
+  2642  Push "core"
+  2647  GetMember
+  2648  Push "UIObject"
+  2653  GetMember
+  2654  Push "prototype"
+  2659  GetMember
+  2660  Push "clipParameters"
+  2665  GetMember
+  2666  Push "mx"
+  2671  GetVariable
+  2672  Push "core"
+  2677  GetMember
+  2678  Push "UIComponent"
+  2683  GetMember
+  2684  Push "prototype"
+  2689  GetMember
+  2690  Push "clipParameters"
+  2695  GetMember
+  2696  Push 2, "mx"
+  2706  GetVariable
+  2707  Push "core"
+  2712  GetMember
+  2713  Push "UIObject"
+  2718  GetMember
+  2719  Push "mergeClipParameters"
+  2724  CallMethod
+  2725  SetMember
+  2726  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  2734  Push register2, "__get__height"
+  2741  GetMember
+  2742  Push "height", 3, register2, "addProperty"
+  2756  CallMethod
+  2757  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  2765  Push register2, "__get__width"
+  2772  GetMember
+  2773  Push "width", 3, register2, "addProperty"
+  2787  CallMethod
+  2788  Push 1, null, "mx"
+  2799  GetVariable
+  2800  Push "core"
+  2805  GetMember
+  2806  Push "UIComponent"
+  2811  GetMember
+  2812  Push "prototype"
+  2817  GetMember
+  2818  Push 3, "ASSetPropFlags"
+  2828  CallFunction
+  2829  Pop
+  2830  End

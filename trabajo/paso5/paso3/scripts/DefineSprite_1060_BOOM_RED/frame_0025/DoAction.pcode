@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1060_BOOM_RED fotograma 25, DoAction (01606_DefineSprite_1060.bin, byte 215)
+
+   215  Push "", "this"
+   226  GetVariable
+   227  GetURL2 64
+   231  End

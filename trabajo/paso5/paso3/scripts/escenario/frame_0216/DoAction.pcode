@@ -1,0 +1,5 @@
+// DoAction
+// origen: escenario fotograma 216, DoAction (07144_DoAction.bin)
+
+     0  GoToLabel 'KRINBATTLESCENE'
+    19  End

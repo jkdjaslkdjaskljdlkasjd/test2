@@ -1,0 +1,174 @@
+// DefineSprite_4131___Packages.mx.controls.HScrollBar
+// origen: DoInitAction del sprite 4131 (03792_DoInitAction.bin)
+
+     2  ConstantPool (38)
+   376  Push "_global"
+   381  GetVariable
+   382  Push "mx"
+   387  GetMember
+   388  Not
+   389  Not
+   390  If loc419
+   395  Push "_global"
+   400  GetVariable
+   401  Push "mx", 0, "Object"
+   417  NewObject
+   418  SetMember
+   419  Pop
+   420  Push "_global"
+   425  GetVariable
+   426  Push "mx"
+   431  GetMember
+   432  Push "controls"
+   437  GetMember
+   438  Not
+   439  Not
+   440  If loc475
+   445  Push "_global"
+   450  GetVariable
+   451  Push "mx"
+   456  GetMember
+   457  Push "controls", 0, "Object"
+   473  NewObject
+   474  SetMember
+   475  Pop
+   476  Push "_global"
+   481  GetVariable
+   482  Push "mx"
+   487  GetMember
+   488  Push "controls"
+   493  GetMember
+   494  Push "HScrollBar"
+   499  GetMember
+   500  Not
+   501  Not
+   502  If loc1074
+   507  Push "mx"
+   512  GetVariable
+   513  Push "controls"
+   518  GetMember
+   519  Push "HScrollBar"
+   524  DefineFunction2 "" () regs=2 flags=0x1a {
+      535  Push 0, register1, undef
+      550  CallMethod
+      551  Pop
+        }
+   552  StoreRegister 1
+   556  SetMember
+   557  Push "mx"
+   562  GetVariable
+   563  Push "controls"
+   568  GetMember
+   569  Push "HScrollBar"
+   574  GetMember
+   575  Push "mx"
+   580  GetVariable
+   581  Push "controls"
+   586  GetMember
+   587  Push "scrollClasses"
+   592  GetMember
+   593  Push "ScrollBar"
+   598  GetMember
+   599  Extends
+   600  Push register1, "prototype"
+   607  GetMember
+   608  StoreRegister 2
+   612  Pop
+   613  Push register2, "getMinWidth"
+   620  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+      637  Push register1, "_minHeight"
+      644  GetMember
+      645  Return
+        }
+   646  SetMember
+   647  Push register2, "getMinHeight"
+   654  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+      671  Push register1, "_minWidth"
+      678  GetMember
+      679  Return
+        }
+   680  SetMember
+   681  Push register2, "init"
+   688  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+      705  Push 0, register2, "init"
+      721  CallMethod
+      722  Pop
+      723  Push register1, "_xscale", -100
+      735  SetMember
+      736  Push register1, "_rotation", -90
+      748  SetMember
+        }
+   749  SetMember
+   750  Push register2, "__get__virtualHeight"
+   757  DefineFunction2 "" () regs=2 flags=0x29 {
+      768  Push register1, "__width"
+      775  GetMember
+      776  Return
+        }
+   777  SetMember
+   778  Push register2, "isScrollBarKey"
+   785  DefineFunction2 "" (r3:k) regs=4 flags=0x19 {
+      799  Push register3, 37
+      809  Equals2
+      810  Not
+      811  If loc848
+      816  Push -1, "Line", 2, register1, "scrollIt"
+      835  CallMethod
+      836  Pop
+      837  Push true
+      842  Return
+      843  Jump loc892
+      848  Push register3, 39
+      858  Equals2
+      859  Not
+      860  If loc892
+      865  Push 1, "Line", 2, register1, "scrollIt"
+      884  CallMethod
+      885  Pop
+      886  Push true
+      891  Return
+      892  Push register3, 1, register2, "isScrollBarKey"
+      906  CallMethod
+      907  Return
+        }
+   908  SetMember
+   909  Push register1, "symbolName", "HScrollBar"
+   918  SetMember
+   919  Push register1, "symbolOwner", "mx"
+   928  GetVariable
+   929  Push "core"
+   934  GetMember
+   935  Push "UIComponent"
+   940  GetMember
+   941  SetMember
+   942  Push register1, "version", "2.0.2.127"
+   951  SetMember
+   952  Push register2, "className", "HScrollBar"
+   961  SetMember
+   962  Push register2, "minusMode", "Left"
+   971  SetMember
+   972  Push register2, "plusMode", "Right"
+   981  SetMember
+   982  Push register2, "minMode", "AtLeft"
+   991  SetMember
+   992  Push register2, "maxMode", "AtRight"
+  1001  SetMember
+  1002  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1010  Push register2, "__get__virtualHeight"
+  1017  GetMember
+  1018  Push "virtualHeight", 3, register2, "addProperty"
+  1032  CallMethod
+  1033  Push 1, null, "mx"
+  1044  GetVariable
+  1045  Push "controls"
+  1050  GetMember
+  1051  Push "HScrollBar"
+  1056  GetMember
+  1057  Push "prototype"
+  1062  GetMember
+  1063  Push 3, "ASSetPropFlags"
+  1073  CallFunction
+  1074  Pop
+  1075  End

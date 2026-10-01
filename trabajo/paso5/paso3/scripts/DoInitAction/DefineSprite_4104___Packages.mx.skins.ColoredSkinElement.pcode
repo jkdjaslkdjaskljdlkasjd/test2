@@ -1,0 +1,164 @@
+// DefineSprite_4104___Packages.mx.skins.ColoredSkinElement
+// origen: DoInitAction del sprite 4104 (03711_DoInitAction.bin)
+
+     2  ConstantPool (17)
+   168  Push "_global"
+   173  GetVariable
+   174  Push "mx"
+   179  GetMember
+   180  Not
+   181  Not
+   182  If loc211
+   187  Push "_global"
+   192  GetVariable
+   193  Push "mx", 0, "Object"
+   209  NewObject
+   210  SetMember
+   211  Pop
+   212  Push "_global"
+   217  GetVariable
+   218  Push "mx"
+   223  GetMember
+   224  Push "skins"
+   229  GetMember
+   230  Not
+   231  Not
+   232  If loc267
+   237  Push "_global"
+   242  GetVariable
+   243  Push "mx"
+   248  GetMember
+   249  Push "skins", 0, "Object"
+   265  NewObject
+   266  SetMember
+   267  Pop
+   268  Push "_global"
+   273  GetVariable
+   274  Push "mx"
+   279  GetMember
+   280  Push "skins"
+   285  GetMember
+   286  Push "ColoredSkinElement"
+   291  GetMember
+   292  Not
+   293  Not
+   294  If loc789
+   299  Push "mx"
+   304  GetVariable
+   305  Push "skins"
+   310  GetMember
+   311  Push "ColoredSkinElement"
+   316  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   324  StoreRegister 1
+   328  SetMember
+   329  Push register1, "prototype"
+   336  GetMember
+   337  StoreRegister 2
+   341  Pop
+   342  Push register2, "setColor"
+   349  DefineFunction2 "" (r3:c) regs=4 flags=0x29 {
+      363  Push register3, undef
+      369  Equals2
+      370  Not
+      371  Not
+      372  If loc411
+      377  Push register1, 1, "Color"
+      389  NewObject
+      390  StoreRegister 2
+      394  Pop
+      395  Push register3, 1, register2, "setRGB"
+      409  CallMethod
+      410  Pop
+        }
+   411  SetMember
+   412  Push register2, "draw"
+   419  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+      436  Push register1, "_color"
+      443  GetMember
+      444  Push 1, register1, "getStyle"
+      456  CallMethod
+      457  Push 1, register1, "setColor"
+      469  CallMethod
+      470  Pop
+      471  Push register1, "onEnterFrame", undef
+      479  SetMember
+        }
+   480  SetMember
+   481  Push register2, "invalidateStyle"
+   488  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+      505  Push register1, "onEnterFrame", register1, "draw"
+      516  GetMember
+      517  SetMember
+        }
+   518  SetMember
+   519  Push register1, "setColorStyle"
+   526  DefineFunction2 "" (r1:p, r2:colorStyle) regs=3 flags=0x2a {
+      552  Push register1, "_color"
+      559  GetMember
+      560  Push undef
+      564  Equals2
+      565  Not
+      566  If loc581
+      571  Push register1, "_color", register2
+      580  SetMember
+      581  Push register1, "setColor", "mx"
+      590  GetVariable
+      591  Push "skins"
+      596  GetMember
+      597  Push "ColoredSkinElement"
+      602  GetMember
+      603  Push "mixins"
+      608  GetMember
+      609  Push "setColor"
+      614  GetMember
+      615  SetMember
+      616  Push register1, "invalidateStyle", "mx"
+      625  GetVariable
+      626  Push "skins"
+      631  GetMember
+      632  Push "ColoredSkinElement"
+      637  GetMember
+      638  Push "mixins"
+      643  GetMember
+      644  Push "invalidateStyle"
+      649  GetMember
+      650  SetMember
+      651  Push register1, "draw", "mx"
+      660  GetVariable
+      661  Push "skins"
+      666  GetMember
+      667  Push "ColoredSkinElement"
+      672  GetMember
+      673  Push "mixins"
+      678  GetMember
+      679  Push "draw"
+      684  GetMember
+      685  SetMember
+      686  Push register2, 1, register1, "getStyle"
+      700  CallMethod
+      701  Push 1, register1, "setColor"
+      713  CallMethod
+      714  Pop
+        }
+   715  SetMember
+   716  Push register1, "mixins", 0, "mx"
+   734  GetVariable
+   735  Push "skins"
+   740  GetMember
+   741  Push "ColoredSkinElement"
+   746  NewMethod
+   747  SetMember
+   748  Push 1, null, "mx"
+   759  GetVariable
+   760  Push "skins"
+   765  GetMember
+   766  Push "ColoredSkinElement"
+   771  GetMember
+   772  Push "prototype"
+   777  GetMember
+   778  Push 3, "ASSetPropFlags"
+   788  CallFunction
+   789  Pop
+   790  End

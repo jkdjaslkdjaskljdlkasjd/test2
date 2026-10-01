@@ -1,0 +1,9 @@
+// onClipEvent(load)
+// origen: DefineSprite_2503 fotograma 1, clip en profundidad 35 (04102_DefineSprite_2503.bin, byte 78)
+
+   105  Push 1000, 1, "this"
+   124  GetVariable
+   125  Push "swapDepths"
+   140  CallMethod
+   141  Pop
+   142  End

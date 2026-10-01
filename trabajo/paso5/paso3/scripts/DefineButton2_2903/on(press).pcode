@@ -1,0 +1,39 @@
+// on(press)
+// origen: boton 2903 (06592_DefineButton2_2903.bin)
+
+    17  ConstantPool (9)
+   121  Push "_root"
+   126  GetVariable
+   127  Push "Krin"
+   132  GetMember
+   133  Push "PauseForScreen"
+   138  GetMember
+   139  Push true
+   144  Equals2
+   145  Not
+   146  Not
+   147  If loc235
+   152  Push "_root"
+   157  GetVariable
+   158  Push "Krin"
+   163  GetMember
+   164  Push "BattlePick", 51
+   174  SetMember
+   175  Push "_root"
+   180  GetVariable
+   181  Push "Krin"
+   186  GetMember
+   187  Push "progressFight", false
+   194  SetMember
+   195  Push "LOADBATTLESCENE", 1, "_root"
+   207  GetVariable
+   208  Push "gotoAndPlay"
+   213  CallMethod
+   214  Pop
+   215  Push "_root"
+   220  GetVariable
+   221  Push "KrinScreen"
+   226  GetMember
+   227  Push "_visible", false
+   234  SetMember
+   235  End

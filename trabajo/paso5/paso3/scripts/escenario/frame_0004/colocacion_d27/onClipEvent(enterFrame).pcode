@@ -1,0 +1,21 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 4, clip en profundidad 27 (03867_PlaceObject2.bin)
+
+    25  ConstantPool (4)
+    75  Push 0, "_root"
+    89  GetVariable
+    90  Push "getBytesLoaded"
+    95  CallMethod
+    96  Push 0, "_root"
+   110  GetVariable
+   111  Push "getBytesTotal"
+   116  CallMethod
+   117  Equals2
+   118  Not
+   119  If loc146
+   124  Push 0, "_root"
+   138  GetVariable
+   139  Push "nextFrame"
+   144  CallMethod
+   145  Pop
+   146  End

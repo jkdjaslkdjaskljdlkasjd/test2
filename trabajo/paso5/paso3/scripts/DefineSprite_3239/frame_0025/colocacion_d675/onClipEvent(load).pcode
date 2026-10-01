@@ -1,0 +1,23 @@
+// onClipEvent(load)
+// origen: DefineSprite_3239 fotograma 25, clip en profundidad 675 (06960_DefineSprite_3239.bin, byte 37583)
+
+ 37607  ConstantPool (4)
+ 37646  Push "_root"
+ 37651  GetVariable
+ 37652  Push "Krin"
+ 37657  GetMember
+ 37658  Push "skillPoints"
+ 37663  GetMember
+ 37664  Push "_root"
+ 37669  GetVariable
+ 37670  Push "Krin"
+ 37675  GetMember
+ 37676  Push "statPoints"
+ 37681  GetMember
+ 37682  Add2
+ 37683  Push 0
+ 37695  Greater
+ 37696  Not
+ 37697  If loc37711
+ 37702  GoToLabel 'level'
+ 37711  End

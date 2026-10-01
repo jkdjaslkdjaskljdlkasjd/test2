@@ -1,0 +1,24 @@
+// on(release)
+// origen: boton 2910 (06604_DefineButton2_2910.bin)
+
+    38  Push "_root"
+    48  GetVariable
+    49  Push "Krin"
+    58  GetMember
+    59  Push "PauseForScreen"
+    78  GetMember
+    79  Push true
+    84  Equals2
+    85  Not
+    86  Not
+    87  If loc172
+    92  Push "inventory", 1, "KRINMENU"
+   121  GetVariable
+   122  Push "gotoAndStop"
+   138  CallMethod
+   139  Pop
+   140  Push "KrinScreen"
+   155  GetVariable
+   156  Push "_visible", false
+   171  SetMember
+   172  End

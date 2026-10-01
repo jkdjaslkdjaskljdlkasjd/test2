@@ -1,0 +1,6 @@
+// DoAction
+// origen: DefineSprite_1126_MODEL2 fotograma 56, DoAction (01693_DefineSprite_1126.bin, byte 963)
+
+   963  GoToLabel 'stand'
+   972  Play
+   973  End

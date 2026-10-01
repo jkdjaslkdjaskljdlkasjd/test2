@@ -1,0 +1,5 @@
+// on(release)
+// origen: boton 3201 (06918_DefineButton2_3201.bin)
+
+    17  GoToLabel 'part4'
+    26  End

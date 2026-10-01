@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_230_SimpleButton fotograma 1, DoAction (00400_DefineSprite_230.bin, byte 20)
+
+stop();

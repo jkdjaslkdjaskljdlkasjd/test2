@@ -1,0 +1,36 @@
+// on(release)
+// origen: boton 2918 (06620_DefineButton2_2918.bin)
+
+    38  ConstantPool (5)
+    88  Push "_root"
+    93  GetVariable
+    94  Push "Krin"
+    99  GetMember
+   100  Push "mouseItem"
+   105  GetMember
+   106  Push 0
+   118  Equals2
+   119  Not
+   120  If loc192
+   125  Push "_root"
+   130  GetVariable
+   131  Push "Krin"
+   136  GetMember
+   137  Push "PauseForScreen"
+   142  GetMember
+   143  Push true
+   148  Equals2
+   149  Not
+   150  Not
+   151  If loc192
+   156  Push "Krin"
+   161  GetVariable
+   162  Push "betaMode"
+   167  GetMember
+   168  Push true
+   173  Equals2
+   174  Not
+   175  Not
+   176  If loc192
+   181  GoToLabel 'overMap'
+   192  End

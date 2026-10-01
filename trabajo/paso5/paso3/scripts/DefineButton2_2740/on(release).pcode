@@ -1,0 +1,54 @@
+// on(release)
+// origen: boton 2740 (06253_DefineButton2_2740.bin)
+
+    17  ConstantPool (9)
+    94  Push "_root"
+    99  GetVariable
+   100  Push "slot", "_root"
+   107  GetVariable
+   108  Push "slotSaveGO"
+   113  GetMember
+   114  Add2
+   115  GetMember
+   116  Push "data"
+   121  GetMember
+   122  Push "nameUser"
+   127  GetMember
+   128  Push undef
+   132  Equals2
+   133  Not
+   134  Not
+   135  If loc254
+   140  Push "_root"
+   145  GetVariable
+   146  Push "slotSaveGO"
+   151  GetMember
+   152  Push 1, "_root"
+   162  GetVariable
+   163  Push "krinHandleData"
+   168  CallMethod
+   169  Pop
+   170  Push "_root"
+   175  GetVariable
+   176  Push "Krin"
+   181  GetMember
+   182  Push "slotInUse", "_root"
+   189  GetVariable
+   190  Push "slotSaveGO"
+   195  GetMember
+   196  SetMember
+   197  Push 0, "_root"
+   211  GetVariable
+   212  Push "slot", "_root"
+   219  GetVariable
+   220  Push "slotSaveGO"
+   225  GetMember
+   226  Add2
+   227  GetMember
+   228  Push "flush"
+   233  CallMethod
+   234  Pop
+   235  GoToLabel 'Navigation'
+   249  Jump loc266
+   254  GoToLabel 'mainMenu'
+   266  End

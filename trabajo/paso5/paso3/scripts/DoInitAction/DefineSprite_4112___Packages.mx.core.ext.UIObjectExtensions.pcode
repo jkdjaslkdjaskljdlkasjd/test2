@@ -1,0 +1,698 @@
+// DefineSprite_4112___Packages.mx.core.ext.UIObjectExtensions
+// origen: DoInitAction del sprite 4112 (03735_DoInitAction.bin)
+
+     2  ConstantPool (101)
+  1139  Push "_global"
+  1144  GetVariable
+  1145  Push "mx"
+  1150  GetMember
+  1151  Not
+  1152  Not
+  1153  If loc1182
+  1158  Push "_global"
+  1163  GetVariable
+  1164  Push "mx", 0, "Object"
+  1180  NewObject
+  1181  SetMember
+  1182  Pop
+  1183  Push "_global"
+  1188  GetVariable
+  1189  Push "mx"
+  1194  GetMember
+  1195  Push "core"
+  1200  GetMember
+  1201  Not
+  1202  Not
+  1203  If loc1238
+  1208  Push "_global"
+  1213  GetVariable
+  1214  Push "mx"
+  1219  GetMember
+  1220  Push "core", 0, "Object"
+  1236  NewObject
+  1237  SetMember
+  1238  Pop
+  1239  Push "_global"
+  1244  GetVariable
+  1245  Push "mx"
+  1250  GetMember
+  1251  Push "core"
+  1256  GetMember
+  1257  Push "ext"
+  1262  GetMember
+  1263  Not
+  1264  Not
+  1265  If loc1306
+  1270  Push "_global"
+  1275  GetVariable
+  1276  Push "mx"
+  1281  GetMember
+  1282  Push "core"
+  1287  GetMember
+  1288  Push "ext", 0, "Object"
+  1304  NewObject
+  1305  SetMember
+  1306  Pop
+  1307  Push "_global"
+  1312  GetVariable
+  1313  Push "mx"
+  1318  GetMember
+  1319  Push "core"
+  1324  GetMember
+  1325  Push "ext"
+  1330  GetMember
+  1331  Push "UIObjectExtensions"
+  1336  GetMember
+  1337  Not
+  1338  Not
+  1339  If loc4035
+  1344  Push "mx"
+  1349  GetVariable
+  1350  Push "core"
+  1355  GetMember
+  1356  Push "ext"
+  1361  GetMember
+  1362  Push "UIObjectExtensions"
+  1367  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1375  StoreRegister 1
+  1379  SetMember
+  1380  Push register1, "prototype"
+  1387  GetMember
+  1388  StoreRegister 2
+  1392  Pop
+  1393  Push register1, "addGeometry"
+  1400  DefineFunction2 "" (r2:tf, r1:ui) regs=3 flags=0x2a {
+     1419  Push null, register1, "__get__width"
+     1427  GetMember
+     1428  Push "width", 3, register2, "addProperty"
+     1442  CallMethod
+     1443  Pop
+     1444  Push null, register1, "__get__height"
+     1452  GetMember
+     1453  Push "height", 3, register2, "addProperty"
+     1467  CallMethod
+     1468  Pop
+     1469  Push null, register1, "__get__left"
+     1477  GetMember
+     1478  Push "left", 3, register2, "addProperty"
+     1492  CallMethod
+     1493  Pop
+     1494  Push null, register1, "__get__x"
+     1502  GetMember
+     1503  Push "x", 3, register2, "addProperty"
+     1517  CallMethod
+     1518  Pop
+     1519  Push null, register1, "__get__top"
+     1527  GetMember
+     1528  Push "top", 3, register2, "addProperty"
+     1542  CallMethod
+     1543  Pop
+     1544  Push null, register1, "__get__y"
+     1552  GetMember
+     1553  Push "y", 3, register2, "addProperty"
+     1567  CallMethod
+     1568  Pop
+     1569  Push null, register1, "__get__right"
+     1577  GetMember
+     1578  Push "right", 3, register2, "addProperty"
+     1592  CallMethod
+     1593  Pop
+     1594  Push null, register1, "__get__bottom"
+     1602  GetMember
+     1603  Push "bottom", 3, register2, "addProperty"
+     1617  CallMethod
+     1618  Pop
+     1619  Push register1, "__set__visible"
+     1626  GetMember
+     1627  Push register1, "__get__visible"
+     1634  GetMember
+     1635  Push "visible", 3, register2, "addProperty"
+     1649  CallMethod
+     1650  Pop
+        }
+  1651  SetMember
+  1652  Push register1, "Extensions"
+  1659  DefineFunction2 "" () regs=16 flags=0x169 {
+     1670  Push "mx"
+     1675  GetVariable
+     1676  Push "core"
+     1681  GetMember
+     1682  Push "ext"
+     1687  GetMember
+     1688  Push "UIObjectExtensions"
+     1693  GetMember
+     1694  Push "bExtended"
+     1699  GetMember
+     1700  Push true
+     1705  Equals2
+     1706  Not
+     1707  If loc1718
+     1712  Push true
+     1717  Return
+     1718  Push "mx"
+     1723  GetVariable
+     1724  Push "core"
+     1729  GetMember
+     1730  Push "ext"
+     1735  GetMember
+     1736  Push "UIObjectExtensions"
+     1741  GetMember
+     1742  Push "bExtended", true
+     1749  SetMember
+     1750  Push "mx"
+     1755  GetVariable
+     1756  Push "core"
+     1761  GetMember
+     1762  Push "UIObject"
+     1767  GetMember
+     1768  Push "prototype"
+     1773  GetMember
+     1774  StoreRegister 6
+     1778  Pop
+     1779  Push "mx"
+     1784  GetVariable
+     1785  Push "skins"
+     1790  GetMember
+     1791  Push "SkinElement"
+     1796  GetMember
+     1797  Push "prototype"
+     1802  GetMember
+     1803  StoreRegister 9
+     1807  Pop
+     1808  Push register6, register9, 2, "mx"
+     1822  GetVariable
+     1823  Push "core"
+     1828  GetMember
+     1829  Push "ext"
+     1834  GetMember
+     1835  Push "UIObjectExtensions"
+     1840  GetMember
+     1841  Push "addGeometry"
+     1846  CallMethod
+     1847  Pop
+     1848  Push register6, 1, "mx"
+     1860  GetVariable
+     1861  Push "events"
+     1866  GetMember
+     1867  Push "UIEventDispatcher"
+     1872  GetMember
+     1873  Push "initialize"
+     1878  CallMethod
+     1879  Pop
+     1880  Push "mx"
+     1885  GetVariable
+     1886  Push "skins"
+     1891  GetMember
+     1892  Push "ColoredSkinElement"
+     1897  GetMember
+     1898  StoreRegister 13
+     1902  Pop
+     1903  Push register6, 1, "mx"
+     1915  GetVariable
+     1916  Push "styles"
+     1921  GetMember
+     1922  Push "CSSTextStyles"
+     1927  GetMember
+     1928  Push "addTextStyles"
+     1933  CallMethod
+     1934  Pop
+     1935  Push "MovieClip"
+     1940  GetVariable
+     1941  Push "prototype"
+     1946  GetMember
+     1947  StoreRegister 5
+     1951  Pop
+     1952  Push register5, "getTopLevel", register6, "getTopLevel"
+     1963  GetMember
+     1964  SetMember
+     1965  Push register5, "createLabel", register6, "createLabel"
+     1976  GetMember
+     1977  SetMember
+     1978  Push register5, "createObject", register6, "createObject"
+     1989  GetMember
+     1990  SetMember
+     1991  Push register5, "createClassObject", register6, "createClassObject"
+     2002  GetMember
+     2003  SetMember
+     2004  Push register5, "createEmptyObject", register6, "createEmptyObject"
+     2015  GetMember
+     2016  SetMember
+     2017  Push register5, "destroyObject", register6, "destroyObject"
+     2028  GetMember
+     2029  SetMember
+     2030  Push 1, "getTopLevel", register5, 3, register3, "ASSetPropFlags"
+     2051  CallMethod
+     2052  Pop
+     2053  Push 1, "createLabel", register5, 3, register3, "ASSetPropFlags"
+     2074  CallMethod
+     2075  Pop
+     2076  Push 1, "createObject", register5, 3, register3, "ASSetPropFlags"
+     2097  CallMethod
+     2098  Pop
+     2099  Push 1, "createClassObject", register5, 3, register3, "ASSetPropFlags"
+     2120  CallMethod
+     2121  Pop
+     2122  Push 1, "createEmptyObject", register5, 3, register3, "ASSetPropFlags"
+     2143  CallMethod
+     2144  Pop
+     2145  Push 1, "destroyObject", register5, 3, register3, "ASSetPropFlags"
+     2166  CallMethod
+     2167  Pop
+     2168  Push register5, "__getTextFormat", register6, "__getTextFormat"
+     2179  GetMember
+     2180  SetMember
+     2181  Push register5, "_getTextFormat", register6, "_getTextFormat"
+     2192  GetMember
+     2193  SetMember
+     2194  Push register5, "getStyleName", register6, "getStyleName"
+     2205  GetMember
+     2206  SetMember
+     2207  Push register5, "getStyle", register6, "getStyle"
+     2218  GetMember
+     2219  SetMember
+     2220  Push 1, "__getTextFormat", register5, 3, register3, "ASSetPropFlags"
+     2241  CallMethod
+     2242  Pop
+     2243  Push 1, "_getTextFormat", register5, 3, register3, "ASSetPropFlags"
+     2264  CallMethod
+     2265  Pop
+     2266  Push 1, "getStyleName", register5, 3, register3, "ASSetPropFlags"
+     2287  CallMethod
+     2288  Pop
+     2289  Push 1, "getStyle", register5, 3, register3, "ASSetPropFlags"
+     2310  CallMethod
+     2311  Pop
+     2312  Push "TextField"
+     2317  GetVariable
+     2318  Push "prototype"
+     2323  GetMember
+     2324  StoreRegister 7
+     2328  Pop
+     2329  Push register6, register7, 2, "mx"
+     2343  GetVariable
+     2344  Push "core"
+     2349  GetMember
+     2350  Push "ext"
+     2355  GetMember
+     2356  Push "UIObjectExtensions"
+     2361  GetMember
+     2362  Push "addGeometry"
+     2367  CallMethod
+     2368  Pop
+     2369  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        2383  Push register1, "__enabled", register2
+        2392  SetMember
+        2393  Push 0, register1, "invalidateStyle"
+        2409  CallMethod
+        2410  Pop
+           }
+     2411  DefineFunction2 "" () regs=2 flags=0x29 {
+        2422  Push register1, "__enabled"
+        2429  GetMember
+        2430  Return
+           }
+     2431  Push "enabled", 3, register7, "addProperty"
+     2445  CallMethod
+     2446  Pop
+     2447  Push register7, "move", register9, "move"
+     2458  GetMember
+     2459  SetMember
+     2460  Push register7, "setSize", register9, "setSize"
+     2471  GetMember
+     2472  SetMember
+     2473  Push register7, "invalidateStyle"
+     2480  DefineFunction2 "" () regs=2 flags=0x29 {
+        2491  Push register1, "invalidateFlag", true
+        2500  SetMember
+           }
+     2501  SetMember
+     2502  Push register7, "draw"
+     2509  DefineFunction2 "" () regs=3 flags=0x29 {
+        2520  Push register1, "invalidateFlag"
+        2527  GetMember
+        2528  Not
+        2529  If loc2689
+        2534  Push register1, "invalidateFlag", false
+        2543  SetMember
+        2544  Push 0, register1, "_getTextFormat"
+        2560  CallMethod
+        2561  StoreRegister 2
+        2565  Pop
+        2566  Push register2, 1, register1, "setTextFormat"
+        2580  CallMethod
+        2581  Pop
+        2582  Push register2, 1, register1, "setNewTextFormat"
+        2596  CallMethod
+        2597  Pop
+        2598  Push register1, "embedFonts", register2, "embedFonts"
+        2609  GetMember
+        2610  Push true
+        2615  Equals2
+        2616  SetMember
+        2617  Push register1, "__text"
+        2624  GetMember
+        2625  Push undef
+        2629  Equals2
+        2630  Not
+        2631  Not
+        2632  If loc2679
+        2637  Push register1, "text"
+        2644  GetMember
+        2645  Push ""
+        2650  Equals2
+        2651  Not
+        2652  If loc2670
+        2657  Push register1, "text", register1, "__text"
+        2668  GetMember
+        2669  SetMember
+        2670  Push register1, "__text"
+        2677  Delete
+        2678  Pop
+        2679  Push register1, "_visible", true
+        2688  SetMember
+           }
+     2689  SetMember
+     2690  Push register7, "setColor"
+     2697  DefineFunction2 "" (r2:color) regs=3 flags=0x29 {
+        2715  Push register1, "textColor", register2
+        2724  SetMember
+           }
+     2725  SetMember
+     2726  Push register7, "getStyle", register5, "getStyle"
+     2737  GetMember
+     2738  SetMember
+     2739  Push register7, "__getTextFormat", register6, "__getTextFormat"
+     2750  GetMember
+     2751  SetMember
+     2752  Push register7, "setValue"
+     2759  DefineFunction2 "" (r2:v) regs=3 flags=0x29 {
+        2773  Push register1, "text", register2
+        2782  SetMember
+           }
+     2783  SetMember
+     2784  Push register7, "getValue"
+     2791  DefineFunction2 "" () regs=2 flags=0x29 {
+        2802  Push register1, "text"
+        2809  GetMember
+        2810  Return
+           }
+     2811  SetMember
+     2812  DefineFunction2 "" (r2:v) regs=3 flags=0x29 {
+        2826  Push register2, 1, register1, "setValue"
+        2840  CallMethod
+        2841  Pop
+           }
+     2842  DefineFunction2 "" () regs=2 flags=0x29 {
+        2853  Push 0, register1, "getValue"
+        2869  CallMethod
+        2870  Return
+           }
+     2871  Push "value", 3, register7, "addProperty"
+     2885  CallMethod
+     2886  Pop
+     2887  Push register7, "_getTextFormat"
+     2894  DefineFunction2 "" () regs=5 flags=0x29 {
+        2905  Push register1, "stylecache"
+        2912  GetMember
+        2913  Push "tf"
+        2918  GetMember
+        2919  StoreRegister 2
+        2923  Pop
+        2924  Push register2, undef
+        2930  Equals2
+        2931  Not
+        2932  Not
+        2933  If loc2944
+        2938  Push register2
+        2943  Return
+        2944  Push 0, "TextFormat"
+        2958  NewObject
+        2959  StoreRegister 2
+        2963  Pop
+        2964  Push register2, 1, register1, "__getTextFormat"
+        2978  CallMethod
+        2979  Pop
+        2980  Push register1, "stylecache"
+        2987  GetMember
+        2988  Push "tf", register2
+        2995  SetMember
+        2996  Push register1, "__enabled"
+        3003  GetMember
+        3004  Push false
+        3009  Equals2
+        3010  Not
+        3011  If loc3105
+        3016  Push register1, "enabledColor"
+        3023  GetMember
+        3024  Push undef
+        3028  Equals2
+        3029  Not
+        3030  If loc3070
+        3035  Push 0, register1, "getTextFormat"
+        3051  CallMethod
+        3052  StoreRegister 4
+        3056  Pop
+        3057  Push register1, "enabledColor", register4, "color"
+        3068  GetMember
+        3069  SetMember
+        3070  Push "disabledColor", 1, register1, "getStyle"
+        3084  CallMethod
+        3085  StoreRegister 3
+        3089  Pop
+        3090  Push register2, "color", register3
+        3099  SetMember
+        3100  Jump loc3157
+        3105  Push register1, "enabledColor"
+        3112  GetMember
+        3113  Push undef
+        3117  Equals2
+        3118  Not
+        3119  Not
+        3120  If loc3157
+        3125  Push register2, "color"
+        3132  GetMember
+        3133  Push undef
+        3137  Equals2
+        3138  Not
+        3139  If loc3157
+        3144  Push register2, "color", register1, "enabledColor"
+        3155  GetMember
+        3156  SetMember
+        3157  Push register2
+        3162  Return
+           }
+     3163  SetMember
+     3164  Push register7, "getPreferredWidth"
+     3171  DefineFunction2 "" () regs=2 flags=0x29 {
+        3182  Push 0, register1, "draw"
+        3198  CallMethod
+        3199  Pop
+        3200  Push register1, "textWidth"
+        3207  GetMember
+        3208  Push 4
+        3216  Add2
+        3217  Return
+           }
+     3218  SetMember
+     3219  Push register7, "getPreferredHeight"
+     3226  DefineFunction2 "" () regs=2 flags=0x29 {
+        3237  Push 0, register1, "draw"
+        3253  CallMethod
+        3254  Pop
+        3255  Push register1, "textHeight"
+        3262  GetMember
+        3263  Push 4
+        3271  Add2
+        3272  Return
+           }
+     3273  SetMember
+     3274  Push "TextFormat"
+     3279  GetVariable
+     3280  Push "prototype"
+     3285  GetMember
+     3286  Push "getTextExtent2"
+     3291  DefineFunction2 "" (r7:s) regs=8 flags=0x69 {
+        3305  Push register2, "_getTextExtent"
+        3312  GetMember
+        3313  StoreRegister 3
+        3317  Pop
+        3318  Push register3, undef
+        3324  Equals2
+        3325  Not
+        3326  If loc3403
+        3331  Push 100, 1000, 0, 0, -2, "_getTextExtent", 6, register2, "createTextField"
+        3378  CallMethod
+        3379  Pop
+        3380  Push register2, "_getTextExtent"
+        3387  GetMember
+        3388  StoreRegister 3
+        3392  Pop
+        3393  Push register3, "_visible", false
+        3402  SetMember
+        3403  Push register2, "_getTextExtent"
+        3410  GetMember
+        3411  Push "text", register7
+        3418  SetMember
+        3419  Push register1, "align"
+        3426  GetMember
+        3427  StoreRegister 4
+        3431  Pop
+        3432  Push register1, "align", "left"
+        3441  SetMember
+        3442  Push register1, 1, register2, "_getTextExtent"
+        3456  GetMember
+        3457  Push "setTextFormat"
+        3462  CallMethod
+        3463  Pop
+        3464  Push register1, "align", register4
+        3473  SetMember
+        3474  Push "width", register3, "textWidth"
+        3483  GetMember
+        3484  Push "height", register3, "textHeight"
+        3493  GetMember
+        3494  Push 2
+        3502  InitObject
+        3503  Return
+           }
+     3504  SetMember
+     3505  Push register3, "style"
+     3512  GetMember
+     3513  Push undef
+     3517  Equals2
+     3518  Not
+     3519  If loc3659
+     3524  Push register3, "style", 0, "mx"
+     3542  GetVariable
+     3543  Push "styles"
+     3548  GetMember
+     3549  Push "CSSStyleDeclaration"
+     3554  NewMethod
+     3555  SetMember
+     3556  Push register3, "cascadingStyles", true
+     3565  SetMember
+     3566  Push register3, "styles", 0, "Object"
+     3584  NewObject
+     3585  SetMember
+     3586  Push register3, "skinRegistry", 0, "Object"
+     3604  NewObject
+     3605  SetMember
+     3606  Push register3, "_origWidth"
+     3613  GetMember
+     3614  Push undef
+     3618  Equals2
+     3619  Not
+     3620  If loc3659
+     3625  Push register3, "origWidth", "Stage"
+     3634  GetVariable
+     3635  Push "width"
+     3640  GetMember
+     3641  SetMember
+     3642  Push register3, "origHeight", "Stage"
+     3651  GetVariable
+     3652  Push "height"
+     3657  GetMember
+     3658  SetMember
+     3659  Push register2
+     3664  StoreRegister 4
+     3668  Pop
+     3669  Push register4, "_parent"
+     3676  GetMember
+     3677  Push undef
+     3681  Equals2
+     3682  Not
+     3683  Not
+     3684  If loc3707
+     3689  Push register4, "_parent"
+     3696  GetMember
+     3697  StoreRegister 4
+     3701  Pop
+     3702  Jump loc3669
+     3707  Push null
+     3711  DefineFunction "" () regs=4 flags=0x0 {
+        3719  Push "Stage"
+        3724  GetVariable
+        3725  Push "width"
+        3730  GetMember
+        3731  Return
+           }
+     3732  Push "width", 3, register4, "addProperty"
+     3746  CallMethod
+     3747  Pop
+     3748  Push null
+     3752  DefineFunction "" () regs=4 flags=0x0 {
+        3760  Push "Stage"
+        3765  GetVariable
+        3766  Push "height"
+        3771  GetMember
+        3772  Return
+           }
+     3773  Push "height", 3, register4, "addProperty"
+     3787  CallMethod
+     3788  Pop
+     3789  Push 1, "width", register4, 3, register3, "ASSetPropFlags"
+     3810  CallMethod
+     3811  Pop
+     3812  Push 1, "height", register4, 3, register3, "ASSetPropFlags"
+     3833  CallMethod
+     3834  Pop
+     3835  Push true
+     3840  Return
+        }
+  3841  SetMember
+  3842  Push register1, "bExtended", false
+  3851  SetMember
+  3852  Push register1, "UIObjectExtended", 0, "mx"
+  3870  GetVariable
+  3871  Push "core"
+  3876  GetMember
+  3877  Push "ext"
+  3882  GetMember
+  3883  Push "UIObjectExtensions"
+  3888  GetMember
+  3889  Push "Extensions"
+  3894  CallMethod
+  3895  SetMember
+  3896  Push register1, "UIObjectDependency", "mx"
+  3905  GetVariable
+  3906  Push "core"
+  3911  GetMember
+  3912  Push "UIObject"
+  3917  GetMember
+  3918  SetMember
+  3919  Push register1, "SkinElementDependency", "mx"
+  3928  GetVariable
+  3929  Push "skins"
+  3934  GetMember
+  3935  Push "SkinElement"
+  3940  GetMember
+  3941  SetMember
+  3942  Push register1, "CSSTextStylesDependency", "mx"
+  3951  GetVariable
+  3952  Push "styles"
+  3957  GetMember
+  3958  Push "CSSTextStyles"
+  3963  GetMember
+  3964  SetMember
+  3965  Push register1, "UIEventDispatcherDependency", "mx"
+  3974  GetVariable
+  3975  Push "events"
+  3980  GetMember
+  3981  Push "UIEventDispatcher"
+  3986  GetMember
+  3987  SetMember
+  3988  Push 1, null, "mx"
+  3999  GetVariable
+  4000  Push "core"
+  4005  GetMember
+  4006  Push "ext"
+  4011  GetMember
+  4012  Push "UIObjectExtensions"
+  4017  GetMember
+  4018  Push "prototype"
+  4023  GetMember
+  4024  Push 3, "ASSetPropFlags"
+  4034  CallFunction
+  4035  Pop
+  4036  End

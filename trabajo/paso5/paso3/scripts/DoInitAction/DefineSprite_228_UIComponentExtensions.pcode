@@ -1,0 +1,11 @@
+// DefineSprite_228_UIComponentExtensions
+// origen: DoInitAction del sprite 228 (03807_DoInitAction.bin)
+
+     2  Push "mx.core.ext.UIComponentExtensions"
+    40  GetVariable
+    41  Push "UIComponentExtensions", 2, "Object"
+    80  GetVariable
+    81  Push "registerClass"
+    99  CallMethod
+   100  Pop
+   101  End

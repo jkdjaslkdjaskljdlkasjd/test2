@@ -1,0 +1,33 @@
+// on(rollOut)
+// origen: boton 2713 (06141_DefineButton2_2713.bin)
+
+   708  ConstantPool (10)
+   800  Push "STOP", 1, "psychoDis"
+   812  GetVariable
+   813  Push "gotoAndPlay"
+   818  CallMethod
+   819  Pop
+   820  Push "_root"
+   825  GetVariable
+   826  Push "thereIsASlotSelected", false
+   833  SetMember
+   834  Push "_root"
+   839  GetVariable
+   840  Push "KrinToolTipper"
+   845  GetMember
+   846  Push "tt", ""
+   853  SetMember
+   854  Push "_root"
+   859  GetVariable
+   860  Push "KrinToolTipper"
+   865  GetMember
+   866  Push "t", ""
+   873  SetMember
+   874  Push 1, 1, "_root"
+   889  GetVariable
+   890  Push "KrinToolTipper"
+   895  GetMember
+   896  Push "gotoAndStop"
+   901  CallMethod
+   902  Pop
+   903  End

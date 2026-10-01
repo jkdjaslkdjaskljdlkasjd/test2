@@ -1,0 +1,48 @@
+// DefineSprite_225
+// origen: DoInitAction del sprite 225 (03804_DoInitAction.bin)
+
+     2  ConstantPool (8)
+    95  Push "_root"
+   100  GetVariable
+   101  Push "focusManager"
+   106  GetMember
+   107  Push undef
+   111  Equals2
+   112  Not
+   113  If loc226
+   118  Push "mx"
+   123  GetVariable
+   124  Push "managers"
+   129  GetMember
+   130  Push "DepthManager"
+   135  GetMember
+   136  Push "highestDepth"
+   141  GetMember
+   142  Push "mx"
+   147  GetVariable
+   148  Push "managers"
+   153  GetMember
+   154  Push "DepthManager"
+   159  GetMember
+   160  Push "highestDepth", "mx"
+   167  GetVariable
+   168  Push "managers"
+   173  GetMember
+   174  Push "DepthManager"
+   179  GetMember
+   180  Push "highestDepth"
+   185  GetMember
+   186  Decrement
+   187  SetMember
+   188  Push "focusManager", "mx"
+   195  GetVariable
+   196  Push "managers"
+   201  GetMember
+   202  Push "FocusManager"
+   207  GetMember
+   208  Push 3, "_root"
+   218  GetVariable
+   219  Push "createClassObject"
+   224  CallMethod
+   225  Pop
+   226  End

@@ -1,0 +1,274 @@
+// DefineSprite_4121___Packages.mx.core.ext.UIComponentExtensions
+// origen: DoInitAction del sprite 4121 (03762_DoInitAction.bin)
+
+     2  ConstantPool (32)
+   429  Push "_global"
+   434  GetVariable
+   435  Push "mx"
+   440  GetMember
+   441  Not
+   442  Not
+   443  If loc472
+   448  Push "_global"
+   453  GetVariable
+   454  Push "mx", 0, "Object"
+   470  NewObject
+   471  SetMember
+   472  Pop
+   473  Push "_global"
+   478  GetVariable
+   479  Push "mx"
+   484  GetMember
+   485  Push "core"
+   490  GetMember
+   491  Not
+   492  Not
+   493  If loc528
+   498  Push "_global"
+   503  GetVariable
+   504  Push "mx"
+   509  GetMember
+   510  Push "core", 0, "Object"
+   526  NewObject
+   527  SetMember
+   528  Pop
+   529  Push "_global"
+   534  GetVariable
+   535  Push "mx"
+   540  GetMember
+   541  Push "core"
+   546  GetMember
+   547  Push "ext"
+   552  GetMember
+   553  Not
+   554  Not
+   555  If loc596
+   560  Push "_global"
+   565  GetVariable
+   566  Push "mx"
+   571  GetMember
+   572  Push "core"
+   577  GetMember
+   578  Push "ext", 0, "Object"
+   594  NewObject
+   595  SetMember
+   596  Pop
+   597  Push "_global"
+   602  GetVariable
+   603  Push "mx"
+   608  GetMember
+   609  Push "core"
+   614  GetMember
+   615  Push "ext"
+   620  GetMember
+   621  Push "UIComponentExtensions"
+   626  GetMember
+   627  Not
+   628  Not
+   629  If loc1374
+   634  Push "mx"
+   639  GetVariable
+   640  Push "core"
+   645  GetMember
+   646  Push "ext"
+   651  GetMember
+   652  Push "UIComponentExtensions"
+   657  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   665  StoreRegister 1
+   669  SetMember
+   670  Push register1, "prototype"
+   677  GetMember
+   678  StoreRegister 2
+   682  Pop
+   683  Push register1, "Extensions"
+   690  DefineFunction2 "" () regs=2 flags=0x29 {
+      701  Push "mx"
+      706  GetVariable
+      707  Push "core"
+      712  GetMember
+      713  Push "ext"
+      718  GetMember
+      719  Push "UIComponentExtensions"
+      724  GetMember
+      725  Push "bExtended"
+      730  GetMember
+      731  Push true
+      736  Equals2
+      737  Not
+      738  If loc749
+      743  Push true
+      748  Return
+      749  Push "mx"
+      754  GetVariable
+      755  Push "core"
+      760  GetMember
+      761  Push "ext"
+      766  GetMember
+      767  Push "UIComponentExtensions"
+      772  GetMember
+      773  Push "bExtended", true
+      780  SetMember
+      781  Push "TextField"
+      786  GetVariable
+      787  Push "prototype"
+      792  GetMember
+      793  Push "setFocus"
+      798  DefineFunction2 "" () regs=2 flags=0x29 {
+         809  Push register1, 1, "Selection"
+         821  GetVariable
+         822  Push "setFocus"
+         827  CallMethod
+         828  Pop
+           }
+      829  SetMember
+      830  Push "TextField"
+      835  GetVariable
+      836  Push "prototype"
+      841  GetMember
+      842  Push "onSetFocus"
+      847  DefineFunction2 "" (oldFocus) regs=2 flags=0x29 {
+         868  Push register1, "tabEnabled"
+         875  GetMember
+         876  Push false
+         881  Equals2
+         882  Not
+         883  Not
+         884  If loc934
+         889  Push 0, register1, "getFocusManager"
+         905  CallMethod
+         906  Push "bDrawFocus"
+         911  GetMember
+         912  Not
+         913  If loc934
+         918  Push true, 1, register1, "drawFocus"
+         932  CallMethod
+         933  Pop
+           }
+      934  SetMember
+      935  Push "TextField"
+      940  GetVariable
+      941  Push "prototype"
+      946  GetMember
+      947  Push "onKillFocus"
+      952  DefineFunction2 "" (oldFocus) regs=2 flags=0x29 {
+         973  Push register1, "tabEnabled"
+         980  GetMember
+         981  Push false
+         986  Equals2
+         987  Not
+         988  Not
+         989  If loc1010
+         994  Push false, 1, register1, "drawFocus"
+        1008  CallMethod
+        1009  Pop
+           }
+     1010  SetMember
+     1011  Push "TextField"
+     1016  GetVariable
+     1017  Push "prototype"
+     1022  GetMember
+     1023  Push "drawFocus", "mx"
+     1030  GetVariable
+     1031  Push "core"
+     1036  GetMember
+     1037  Push "UIComponent"
+     1042  GetMember
+     1043  Push "prototype"
+     1048  GetMember
+     1049  Push "drawFocus"
+     1054  GetMember
+     1055  SetMember
+     1056  Push "TextField"
+     1061  GetVariable
+     1062  Push "prototype"
+     1067  GetMember
+     1068  Push "getFocusManager", "mx"
+     1075  GetVariable
+     1076  Push "core"
+     1081  GetMember
+     1082  Push "UIComponent"
+     1087  GetMember
+     1088  Push "prototype"
+     1093  GetMember
+     1094  Push "getFocusManager"
+     1099  GetMember
+     1100  SetMember
+     1101  Push 0, "mx"
+     1115  GetVariable
+     1116  Push "managers"
+     1121  GetMember
+     1122  Push "OverlappedWindows"
+     1127  GetMember
+     1128  Push "enableOverlappedWindows"
+     1133  CallMethod
+     1134  Pop
+     1135  Push 0, "mx"
+     1149  GetVariable
+     1150  Push "styles"
+     1155  GetMember
+     1156  Push "CSSSetStyle"
+     1161  GetMember
+     1162  Push "enableRunTimeCSS"
+     1167  CallMethod
+     1168  Pop
+     1169  Push 0, "mx"
+     1183  GetVariable
+     1184  Push "managers"
+     1189  GetMember
+     1190  Push "FocusManager"
+     1195  GetMember
+     1196  Push "enableFocusManagement"
+     1201  CallMethod
+     1202  Pop
+        }
+  1203  SetMember
+  1204  Push register1, "bExtended", false
+  1213  SetMember
+  1214  Push register1, "UIComponentExtended", 0, "mx"
+  1232  GetVariable
+  1233  Push "core"
+  1238  GetMember
+  1239  Push "ext"
+  1244  GetMember
+  1245  Push "UIComponentExtensions"
+  1250  GetMember
+  1251  Push "Extensions"
+  1256  CallMethod
+  1257  SetMember
+  1258  Push register1, "UIComponentDependency", "mx"
+  1267  GetVariable
+  1268  Push "core"
+  1273  GetMember
+  1274  Push "UIComponent"
+  1279  GetMember
+  1280  SetMember
+  1281  Push register1, "FocusManagerDependency", "mx"
+  1290  GetVariable
+  1291  Push "managers"
+  1296  GetMember
+  1297  Push "FocusManager"
+  1302  GetMember
+  1303  SetMember
+  1304  Push register1, "OverlappedWindowsDependency", "mx"
+  1313  GetVariable
+  1314  Push "managers"
+  1319  GetMember
+  1320  Push "OverlappedWindows"
+  1325  GetMember
+  1326  SetMember
+  1327  Push 1, null, "mx"
+  1338  GetVariable
+  1339  Push "core"
+  1344  GetMember
+  1345  Push "ext"
+  1350  GetMember
+  1351  Push "UIComponentExtensions"
+  1356  GetMember
+  1357  Push "prototype"
+  1362  GetMember
+  1363  Push 3, "ASSetPropFlags"
+  1373  CallFunction
+  1374  Pop
+  1375  End

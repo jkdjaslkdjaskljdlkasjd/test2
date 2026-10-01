@@ -1,0 +1,13 @@
+// DoAction
+// origen: escenario fotograma 165, DoAction (06433_DoAction.bin)
+
+Krin.ClassStats[0] = Krin.Class + 1;
+Krin.BattlePick = 2;
+Krin.progressFight = false;
+soundPlayCounter = 1;
+bangStart = true;
+Krin.moveMatrix[0] = 21;
+Krin.moveMatrix[1] = 22;
+Krin.cutsceneSequence = "CS_INTRO2";
+gotoAndStop("LOADBATTLESCENE");
+play();

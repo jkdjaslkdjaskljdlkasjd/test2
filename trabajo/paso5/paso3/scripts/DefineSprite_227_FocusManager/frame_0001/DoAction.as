@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_227_FocusManager fotograma 1, DoAction (00394_DefineSprite_227.bin, byte 20)
+
+stop();

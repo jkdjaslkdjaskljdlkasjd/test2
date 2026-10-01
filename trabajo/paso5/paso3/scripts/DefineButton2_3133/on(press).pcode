@@ -1,0 +1,8 @@
+// on(press)
+// origen: boton 3133 (06849_DefineButton2_3133.bin)
+
+   115  Push "talentPool2"
+   131  GetVariable
+   132  Push "_xmove", 5
+   148  SetMember
+   149  End

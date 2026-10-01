@@ -1,0 +1,8 @@
+// on(release)
+// origen: boton 2494 (03877_DefineButton2_2494.bin)
+
+    17  Push "adBox"
+    27  GetVariable
+    28  RemoveSprite
+    29  Play
+    30  End

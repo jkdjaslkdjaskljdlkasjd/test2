@@ -1,0 +1,107 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 480 (07256_PlaceObject2.bin)
+
+    40  ConstantPool (25)
+   279  Push "moveStart", false
+   286  SetVariable
+   287  Push "theGuy", "Krin"
+   294  SetVariable
+   295  Push "_root"
+   300  GetVariable
+   301  Push "BAMBAMBAM", false
+   308  SetMember
+   309  Push "turnTime", 0
+   323  SetVariable
+   324  Push "timerWait", 30
+   334  SetVariable
+   335  Push "AttackEndCounterLimit", 25
+   345  SetVariable
+   346  Push "AttackEndCounter", "AttackEndCounterLimit"
+   353  GetVariable
+   354  Push 1
+   362  Add2
+   363  SetVariable
+   364  Push "_root"
+   369  GetVariable
+   370  Push "playerKrin", "_root"
+   377  GetVariable
+   378  Push "Krin"
+   383  GetMember
+   384  Push "playerNumber"
+   389  GetMember
+   390  Add2
+   391  GetMember
+   392  Push "teamSide"
+   397  GetMember
+   398  Push "_root"
+   403  GetVariable
+   404  Push "TeamMoveNow"
+   409  GetMember
+   410  Equals2
+   411  Not
+   412  If loc448
+   417  Push "friend", 1, "this"
+   429  GetVariable
+   430  Push "thingerClock"
+   435  GetMember
+   436  Push "gotoAndStop"
+   441  CallMethod
+   442  Pop
+   443  Jump loc474
+   448  Push "enemy", 1, "this"
+   460  GetVariable
+   461  Push "thingerClock"
+   466  GetMember
+   467  Push "gotoAndStop"
+   472  CallMethod
+   473  Pop
+   474  Push "_root"
+   479  GetVariable
+   480  Push "firstUpdate", true
+   487  SetMember
+   488  Push "i", 1
+   498  SetVariable
+   499  Push "i"
+   504  GetVariable
+   505  Push 7
+   513  Less2
+   514  Not
+   515  If loc622
+   520  Push "_root"
+   525  GetVariable
+   526  Push "playerKrin", "i"
+   533  GetVariable
+   534  Add2
+   535  GetMember
+   536  Push "active"
+   541  GetMember
+   542  Not
+   543  If loc577
+   548  Push "i"
+   553  GetVariable
+   554  Push 1, "_root"
+   564  GetVariable
+   565  Push "lifeBarUpdate"
+   570  CallMethod
+   571  Pop
+   572  Jump loc607
+   577  Push "_root"
+   582  GetVariable
+   583  Push "p", "i"
+   590  GetVariable
+   591  Add2
+   592  Push "BAR"
+   597  Add2
+   598  GetMember
+   599  Push "_visible", false
+   606  SetMember
+   607  Push "i", "i"
+   614  GetVariable
+   615  Increment
+   616  SetVariable
+   617  Jump loc499
+   622  Push "_root"
+   627  GetVariable
+   628  Push "firstUpdate", false
+   635  SetMember
+   636  End

@@ -1,0 +1,26 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3239 fotograma 25, clip en profundidad 657 (06960_DefineSprite_3239.bin, byte 37235)
+
+ 37271  ConstantPool (6)
+ 37320  Push "_root"
+ 37325  GetVariable
+ 37326  Push "Krin"
+ 37331  GetMember
+ 37332  Push "statPoints"
+ 37337  GetMember
+ 37338  Push 0
+ 37350  Equals2
+ 37351  Not
+ 37352  If loc37382
+ 37357  Push "dead", 1, "this"
+ 37369  GetVariable
+ 37370  Push "gotoAndStop"
+ 37375  CallMethod
+ 37376  Pop
+ 37377  Jump loc37405
+ 37382  Push 1, 1, "this"
+ 37397  GetVariable
+ 37398  Push "gotoAndStop"
+ 37403  CallMethod
+ 37404  Pop
+ 37405  End

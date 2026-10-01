@@ -1,0 +1,29 @@
+// onClipEvent(load)
+// origen: DefineSprite_3239 fotograma 16, clip en profundidad 25 (06960_DefineSprite_3239.bin, byte 25325)
+
+ 25366  Push "_root"
+ 25376  GetVariable
+ 25377  Push "Krin"
+ 25386  GetMember
+ 25387  Push "shopId"
+ 25398  GetMember
+ 25399  Push 1
+ 25407  Add2
+ 25408  Push 1, "this"
+ 25422  GetVariable
+ 25423  Push "gotoAndStop"
+ 25439  CallMethod
+ 25440  Pop
+ 25441  Push "_root"
+ 25451  GetVariable
+ 25452  Push "__nzShopActive"
+ 25471  GetMember
+ 25472  Not
+ 25473  If loc25512
+ 25478  Push "this"
+ 25487  GetVariable
+ 25488  Push "_visible"
+ 25501  Push false
+ 25506  SetMember
+ 25507  Jump loc25512
+ 25512  End

@@ -1,0 +1,9 @@
+// DoAction
+// origen: DefineSprite_3892 fotograma 501, DoAction (08019_DefineSprite_3892.bin, byte 154681)
+
+154681  Push "_root"
+154691  GetVariable
+154692  Push "cutSceneEnd", true
+154710  SetMember
+154711  Stop
+154712  End

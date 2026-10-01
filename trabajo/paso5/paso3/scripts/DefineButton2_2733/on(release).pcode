@@ -1,0 +1,63 @@
+// on(release)
+// origen: boton 2733 (06204_DefineButton2_2733.bin)
+
+    17  ConstantPool (7)
+    76  Push "_root"
+    81  GetVariable
+    82  Push "Krin"
+    87  GetMember
+    88  Push "autoSaver"
+    93  GetMember
+    94  Not
+    95  If loc125
+   100  Push "_root"
+   105  GetVariable
+   106  Push "Krin"
+   111  GetMember
+   112  Push "autoSaver", false
+   119  SetMember
+   120  Jump loc145
+   125  Push "_root"
+   130  GetVariable
+   131  Push "Krin"
+   136  GetMember
+   137  Push "autoSaver", true
+   144  SetMember
+   145  Push "_root"
+   150  GetVariable
+   151  Push "Krin"
+   156  GetMember
+   157  Push "autoSaver"
+   162  GetMember
+   163  Not
+   164  If loc217
+   169  Push "tit_7", "_root"
+   176  GetVariable
+   177  Push "KrinLang"
+   182  GetMember
+   183  Push "_root"
+   188  GetVariable
+   189  Push "KLangChoosen"
+   194  GetMember
+   195  GetMember
+   196  Push "MENU"
+   201  GetMember
+   202  Push 29
+   210  GetMember
+   211  SetVariable
+   212  Jump loc260
+   217  Push "tit_7", "_root"
+   224  GetVariable
+   225  Push "KrinLang"
+   230  GetMember
+   231  Push "_root"
+   236  GetVariable
+   237  Push "KLangChoosen"
+   242  GetMember
+   243  GetMember
+   244  Push "MENU"
+   249  GetMember
+   250  Push 30
+   258  GetMember
+   259  SetVariable
+   260  End

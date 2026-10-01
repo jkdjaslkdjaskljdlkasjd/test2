@@ -1,0 +1,7 @@
+// onClipEvent(load)
+// origen: DefineSprite_2439 fotograma 1, clip en profundidad 1 (03666_DefineSprite_2439.bin, byte 20)
+
+    40  Push "", "this"
+    51  GetVariable
+    52  GetURL2 64
+    56  End

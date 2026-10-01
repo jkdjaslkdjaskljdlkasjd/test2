@@ -1,0 +1,249 @@
+// on(rollOver)
+// origen: boton 2961 (06677_DefineButton2_2961.bin)
+
+  1777  ConstantPool (21)
+  1936  Push "_root"
+  1941  GetVariable
+  1942  Push "thereIsASlotSelected", true
+  1949  SetMember
+  1950  Push "_root"
+  1955  GetVariable
+  1956  Push "KrinToolTipper"
+  1961  GetMember
+  1962  Push "colorChange", "_root"
+  1969  GetVariable
+  1970  Push "KRINITEM", "_root"
+  1977  GetVariable
+  1978  Push "Krin"
+  1983  GetMember
+  1984  Push "itemArray"
+  1989  GetMember
+  1990  Push "id"
+  1995  GetVariable
+  1996  GetMember
+  1997  Add2
+  1998  GetMember
+  1999  Push 2
+  2007  GetMember
+  2008  SetMember
+  2009  Push "_root"
+  2014  GetVariable
+  2015  Push "KRINITEM", "_root"
+  2022  GetVariable
+  2023  Push "Krin"
+  2028  GetMember
+  2029  Push "itemArray"
+  2034  GetMember
+  2035  Push "id"
+  2040  GetVariable
+  2041  GetMember
+  2042  Add2
+  2043  GetMember
+  2044  Push 1
+  2052  GetMember
+  2053  Push 2
+  2061  Less2
+  2062  Not
+  2063  If loc2218
+  2068  Push "_root"
+  2073  GetVariable
+  2074  Push "KrinToolTipper"
+  2079  GetMember
+  2080  Push "tt", "_root"
+  2087  GetVariable
+  2088  Push "KRINITEM", "_root"
+  2095  GetVariable
+  2096  Push "Krin"
+  2101  GetMember
+  2102  Push "itemArray"
+  2107  GetMember
+  2108  Push "id"
+  2113  GetVariable
+  2114  GetMember
+  2115  Add2
+  2116  GetMember
+  2117  Push 0
+  2129  GetMember
+  2130  SetMember
+  2131  Push "_root"
+  2136  GetVariable
+  2137  Push "KrinToolTipper"
+  2142  GetMember
+  2143  Push "t", "_root"
+  2150  GetVariable
+  2151  Push "KRINITEM", "_root"
+  2158  GetVariable
+  2159  Push "Krin"
+  2164  GetMember
+  2165  Push "itemArray"
+  2170  GetMember
+  2171  Push "id"
+  2176  GetVariable
+  2177  GetMember
+  2178  Add2
+  2179  GetMember
+  2180  Push "toolTip"
+  2185  GetMember
+  2186  SetMember
+  2187  Push "GO", 1, "_root"
+  2199  GetVariable
+  2200  Push "KrinToolTipper"
+  2205  GetMember
+  2206  Push "gotoAndStop"
+  2211  CallMethod
+  2212  Pop
+  2213  Jump loc2684
+  2218  Push "_root"
+  2223  GetVariable
+  2224  Push "KrinToolTipper"
+  2229  GetMember
+  2230  Push "tt", "_root"
+  2237  GetVariable
+  2238  Push "KRINITEM", "_root"
+  2245  GetVariable
+  2246  Push "Krin"
+  2251  GetMember
+  2252  Push "itemArray"
+  2257  GetMember
+  2258  Push "id"
+  2263  GetVariable
+  2264  GetMember
+  2265  Add2
+  2266  GetMember
+  2267  Push 0
+  2279  GetMember
+  2280  SetMember
+  2281  Push "rubyCount", 0
+  2295  SetVariable
+  2296  Push "_root"
+  2301  GetVariable
+  2302  Push "KrinToolTipper"
+  2307  GetMember
+  2308  Push "t3", "_root"
+  2315  GetVariable
+  2316  Push "KRINITEM", "_root"
+  2323  GetVariable
+  2324  Push "Krin"
+  2329  GetMember
+  2330  Push "itemArray"
+  2335  GetMember
+  2336  Push "id"
+  2341  GetVariable
+  2342  GetMember
+  2343  Add2
+  2344  GetMember
+  2345  Push "req"
+  2350  GetMember
+  2351  SetMember
+  2352  Push "_root"
+  2357  GetVariable
+  2358  Push "KrinToolTipper"
+  2363  GetMember
+  2364  Push "TX", 0, "Array"
+  2380  NewObject
+  2381  SetMember
+  2382  Push "_root"
+  2387  GetVariable
+  2388  Push "KRINITEM", "_root"
+  2395  GetVariable
+  2396  Push "Krin"
+  2401  GetMember
+  2402  Push "itemArray"
+  2407  GetMember
+  2408  Push "id"
+  2413  GetVariable
+  2414  GetMember
+  2415  Add2
+  2416  GetMember
+  2417  Push "toolTipAlt"
+  2422  GetMember
+  2423  Enumerate2
+  2424  StoreRegister 0
+  2428  Push null
+  2432  Equals2
+  2433  If loc2602
+  2438  Push "t", register0
+  2445  SetVariable
+  2446  Push "_root"
+  2451  GetVariable
+  2452  Push "KRINITEM", "_root"
+  2459  GetVariable
+  2460  Push "Krin"
+  2465  GetMember
+  2466  Push "itemArray"
+  2471  GetMember
+  2472  Push "id"
+  2477  GetVariable
+  2478  GetMember
+  2479  Add2
+  2480  GetMember
+  2481  Push "toolTipAlt"
+  2486  GetMember
+  2487  Push "t"
+  2492  GetVariable
+  2493  GetMember
+  2494  Push 0
+  2506  Equals2
+  2507  Not
+  2508  Not
+  2509  If loc2597
+  2514  Push "_root"
+  2519  GetVariable
+  2520  Push "KrinToolTipper"
+  2525  GetMember
+  2526  Push "TX"
+  2531  GetMember
+  2532  Push "rubyCount"
+  2537  GetVariable
+  2538  Push "_root"
+  2543  GetVariable
+  2544  Push "KRINITEM", "_root"
+  2551  GetVariable
+  2552  Push "Krin"
+  2557  GetMember
+  2558  Push "itemArray"
+  2563  GetMember
+  2564  Push "id"
+  2569  GetVariable
+  2570  GetMember
+  2571  Add2
+  2572  GetMember
+  2573  Push "toolTipAlt"
+  2578  GetMember
+  2579  Push "t"
+  2584  GetVariable
+  2585  GetMember
+  2586  SetMember
+  2587  Push "rubyCount", "rubyCount"
+  2594  GetVariable
+  2595  Increment
+  2596  SetVariable
+  2597  Jump loc2424
+  2602  Push "_root"
+  2607  GetVariable
+  2608  Push "KrinToolTipper"
+  2613  GetMember
+  2614  Push "ttx", "_root"
+  2621  GetVariable
+  2622  Push "KRINITEM", "_root"
+  2629  GetVariable
+  2630  Push "Krin"
+  2635  GetMember
+  2636  Push "itemArray"
+  2641  GetMember
+  2642  Push "id"
+  2647  GetVariable
+  2648  GetMember
+  2649  Add2
+  2650  GetMember
+  2651  Push "toolTip"
+  2656  GetMember
+  2657  SetMember
+  2658  Push "GO4", 1, "_root"
+  2670  GetVariable
+  2671  Push "KrinToolTipper"
+  2676  GetMember
+  2677  Push "gotoAndStop"
+  2682  CallMethod
+  2683  Pop
+  2684  End

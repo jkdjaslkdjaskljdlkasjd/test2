@@ -1,0 +1,19 @@
+// onClipEvent(load)
+// origen: DefineSprite_2799 fotograma 1, clip en profundidad 36 (06487_DefineSprite_2799.bin, byte 532)
+
+   584  ConstantPool (5)
+   626  Push "pN", 1
+   636  SetVariable
+   637  Push "_root"
+   642  GetVariable
+   643  Push "agModeNames"
+   648  GetMember
+   649  Push "pN"
+   654  GetVariable
+   655  GetMember
+   656  Push 1, "PIC"
+   666  GetVariable
+   667  Push "gotoAndStop"
+   672  CallMethod
+   673  Pop
+   674  End

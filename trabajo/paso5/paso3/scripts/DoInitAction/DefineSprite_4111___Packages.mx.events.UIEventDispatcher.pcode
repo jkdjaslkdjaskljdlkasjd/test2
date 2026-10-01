@@ -1,0 +1,544 @@
+// DefineSprite_4111___Packages.mx.events.UIEventDispatcher
+// origen: DoInitAction del sprite 4111 (03732_DoInitAction.bin)
+
+     2  ConstantPool (53)
+   589  Push "_global"
+   594  GetVariable
+   595  Push "mx"
+   600  GetMember
+   601  Not
+   602  Not
+   603  If loc632
+   608  Push "_global"
+   613  GetVariable
+   614  Push "mx", 0, "Object"
+   630  NewObject
+   631  SetMember
+   632  Pop
+   633  Push "_global"
+   638  GetVariable
+   639  Push "mx"
+   644  GetMember
+   645  Push "events"
+   650  GetMember
+   651  Not
+   652  Not
+   653  If loc688
+   658  Push "_global"
+   663  GetVariable
+   664  Push "mx"
+   669  GetMember
+   670  Push "events", 0, "Object"
+   686  NewObject
+   687  SetMember
+   688  Pop
+   689  Push "_global"
+   694  GetVariable
+   695  Push "mx"
+   700  GetMember
+   701  Push "events"
+   706  GetMember
+   707  Push "UIEventDispatcher"
+   712  GetMember
+   713  Not
+   714  Not
+   715  If loc2785
+   720  Push "mx"
+   725  GetVariable
+   726  Push "events"
+   731  GetMember
+   732  Push "UIEventDispatcher"
+   737  DefineFunction2 "" () regs=2 flags=0x1a {
+      748  Push 0, register1, undef
+      763  CallMethod
+      764  Pop
+        }
+   765  StoreRegister 1
+   769  SetMember
+   770  Push "mx"
+   775  GetVariable
+   776  Push "events"
+   781  GetMember
+   782  Push "UIEventDispatcher"
+   787  GetMember
+   788  Push "mx"
+   793  GetVariable
+   794  Push "events"
+   799  GetMember
+   800  Push "EventDispatcher"
+   805  GetMember
+   806  Extends
+   807  Push register1, "prototype"
+   814  GetMember
+   815  StoreRegister 2
+   819  Pop
+   820  Push register1, "addKeyEvents"
+   827  DefineFunction2 "" (r2:obj) regs=3 flags=0x2a {
+      843  Push register2, "keyHandler"
+      850  GetMember
+      851  Push undef
+      855  Equals2
+      856  Not
+      857  If loc976
+      862  Push register2, "keyHandler", 0, "Object"
+      880  NewObject
+      881  StoreRegister 0
+      885  SetMember
+      886  Push register0
+      891  StoreRegister 1
+      895  Pop
+      896  Push register1, "owner", register2
+      905  SetMember
+      906  Push register1, "onKeyDown", "mx"
+      915  GetVariable
+      916  Push "events"
+      921  GetMember
+      922  Push "UIEventDispatcher"
+      927  GetMember
+      928  Push "_fEventDispatcher"
+      933  GetMember
+      934  Push "onKeyDown"
+      939  GetMember
+      940  SetMember
+      941  Push register1, "onKeyUp", "mx"
+      950  GetVariable
+      951  Push "events"
+      956  GetMember
+      957  Push "UIEventDispatcher"
+      962  GetMember
+      963  Push "_fEventDispatcher"
+      968  GetMember
+      969  Push "onKeyUp"
+      974  GetMember
+      975  SetMember
+      976  Push register2, "keyHandler"
+      983  GetMember
+      984  Push 1, "Key"
+      994  GetVariable
+      995  Push "addListener"
+     1000  CallMethod
+     1001  Pop
+        }
+  1002  SetMember
+  1003  Push register1, "removeKeyEvents"
+  1010  DefineFunction2 "" (r1:obj) regs=2 flags=0x2a {
+     1026  Push register1, "keyHandler"
+     1033  GetMember
+     1034  Push 1, "Key"
+     1044  GetVariable
+     1045  Push "removeListener"
+     1050  CallMethod
+     1051  Pop
+        }
+  1052  SetMember
+  1053  Push register1, "addLoadEvents"
+  1060  DefineFunction2 "" (r1:obj) regs=2 flags=0x2a {
+     1076  Push register1, "onLoad"
+     1083  GetMember
+     1084  Push undef
+     1088  Equals2
+     1089  Not
+     1090  If loc1224
+     1095  Push register1, "onLoad", "mx"
+     1104  GetVariable
+     1105  Push "events"
+     1110  GetMember
+     1111  Push "UIEventDispatcher"
+     1116  GetMember
+     1117  Push "_fEventDispatcher"
+     1122  GetMember
+     1123  Push "onLoad"
+     1128  GetMember
+     1129  SetMember
+     1130  Push register1, "onUnload", "mx"
+     1139  GetVariable
+     1140  Push "events"
+     1145  GetMember
+     1146  Push "UIEventDispatcher"
+     1151  GetMember
+     1152  Push "_fEventDispatcher"
+     1157  GetMember
+     1158  Push "onUnload"
+     1163  GetMember
+     1164  SetMember
+     1165  Push 0, register1, "getBytesTotal"
+     1181  CallMethod
+     1182  Push 0, register1, "getBytesLoaded"
+     1198  CallMethod
+     1199  Equals2
+     1200  Not
+     1201  If loc1224
+     1206  Push "onLoad", register1, 2, register1, "doLater"
+     1222  CallMethod
+     1223  Pop
+        }
+  1224  SetMember
+  1225  Push register1, "removeLoadEvents"
+  1232  DefineFunction2 "" (r1:obj) regs=2 flags=0x2a {
+     1248  Push register1, "onLoad"
+     1255  Delete
+     1256  Pop
+     1257  Push register1, "onUnload"
+     1264  Delete
+     1265  Pop
+        }
+  1266  SetMember
+  1267  Push register1, "initialize"
+  1274  DefineFunction2 "" (r1:obj) regs=2 flags=0x2a {
+     1290  Push "mx"
+     1295  GetVariable
+     1296  Push "events"
+     1301  GetMember
+     1302  Push "UIEventDispatcher"
+     1307  GetMember
+     1308  Push "_fEventDispatcher"
+     1313  GetMember
+     1314  Push undef
+     1318  Equals2
+     1319  Not
+     1320  If loc1373
+     1325  Push "mx"
+     1330  GetVariable
+     1331  Push "events"
+     1336  GetMember
+     1337  Push "UIEventDispatcher"
+     1342  GetMember
+     1343  Push "_fEventDispatcher", 0, "mx"
+     1359  GetVariable
+     1360  Push "events"
+     1365  GetMember
+     1366  Push "UIEventDispatcher"
+     1371  NewMethod
+     1372  SetMember
+     1373  Push register1, "addEventListener", "mx"
+     1382  GetVariable
+     1383  Push "events"
+     1388  GetMember
+     1389  Push "UIEventDispatcher"
+     1394  GetMember
+     1395  Push "_fEventDispatcher"
+     1400  GetMember
+     1401  Push "__addEventListener"
+     1406  GetMember
+     1407  SetMember
+     1408  Push register1, "__origAddEventListener", "mx"
+     1417  GetVariable
+     1418  Push "events"
+     1423  GetMember
+     1424  Push "UIEventDispatcher"
+     1429  GetMember
+     1430  Push "_fEventDispatcher"
+     1435  GetMember
+     1436  Push "addEventListener"
+     1441  GetMember
+     1442  SetMember
+     1443  Push register1, "removeEventListener", "mx"
+     1452  GetVariable
+     1453  Push "events"
+     1458  GetMember
+     1459  Push "UIEventDispatcher"
+     1464  GetMember
+     1465  Push "_fEventDispatcher"
+     1470  GetMember
+     1471  Push "removeEventListener"
+     1476  GetMember
+     1477  SetMember
+     1478  Push register1, "dispatchEvent", "mx"
+     1487  GetVariable
+     1488  Push "events"
+     1493  GetMember
+     1494  Push "UIEventDispatcher"
+     1499  GetMember
+     1500  Push "_fEventDispatcher"
+     1505  GetMember
+     1506  Push "dispatchEvent"
+     1511  GetMember
+     1512  SetMember
+     1513  Push register1, "dispatchQueue", "mx"
+     1522  GetVariable
+     1523  Push "events"
+     1528  GetMember
+     1529  Push "UIEventDispatcher"
+     1534  GetMember
+     1535  Push "_fEventDispatcher"
+     1540  GetMember
+     1541  Push "dispatchQueue"
+     1546  GetMember
+     1547  SetMember
+        }
+  1548  SetMember
+  1549  Push register2, "dispatchEvent"
+  1556  DefineFunction2 "" (r2:eventObj) regs=3 flags=0x29 {
+     1577  Push register2, "target"
+     1584  GetMember
+     1585  Push undef
+     1589  Equals2
+     1590  Not
+     1591  If loc1606
+     1596  Push register2, "target", register1
+     1605  SetMember
+     1606  Push register2, 1, register1, register2, "type"
+     1622  GetMember
+     1623  Push "Handler"
+     1628  Add2
+     1629  CallMethod
+     1630  Pop
+     1631  Push register2, "mx"
+     1638  GetVariable
+     1639  Push "events"
+     1644  GetMember
+     1645  Push "EventDispatcher"
+     1650  GetMember
+     1651  Push 2, register1, "dispatchQueue"
+     1663  CallMethod
+     1664  Pop
+     1665  Push register2, register1, 2, register1, "dispatchQueue"
+     1681  CallMethod
+     1682  Pop
+        }
+  1683  SetMember
+  1684  Push register2, "onKeyDown"
+  1691  DefineFunction2 "" (Void) regs=7 flags=0x29 {
+     1708  Push "type", "keyDown", "code", 0, "Key"
+     1728  GetVariable
+     1729  Push "getCode"
+     1734  CallMethod
+     1735  Push "ascii", 0, "Key"
+     1751  GetVariable
+     1752  Push "getAscii"
+     1757  CallMethod
+     1758  Push "shiftKey", 16, 1, "Key"
+     1775  GetVariable
+     1776  Push "isDown"
+     1781  CallMethod
+     1782  Push "ctrlKey", 17, 1, "Key"
+     1799  GetVariable
+     1800  Push "isDown"
+     1805  CallMethod
+     1806  Push 5
+     1814  InitObject
+     1815  Push 1, register1, "owner"
+     1827  GetMember
+     1828  Push "dispatchEvent"
+     1833  CallMethod
+     1834  Pop
+        }
+  1835  SetMember
+  1836  Push register2, "onKeyUp"
+  1843  DefineFunction2 "" (Void) regs=7 flags=0x29 {
+     1860  Push "type", "keyUp", "code", 0, "Key"
+     1880  GetVariable
+     1881  Push "getCode"
+     1886  CallMethod
+     1887  Push "ascii", 0, "Key"
+     1903  GetVariable
+     1904  Push "getAscii"
+     1909  CallMethod
+     1910  Push "shiftKey", 16, 1, "Key"
+     1927  GetVariable
+     1928  Push "isDown"
+     1933  CallMethod
+     1934  Push "ctrlKey", 17, 1, "Key"
+     1951  GetVariable
+     1952  Push "isDown"
+     1957  CallMethod
+     1958  Push 5
+     1966  InitObject
+     1967  Push 1, register1, "owner"
+     1979  GetMember
+     1980  Push "dispatchEvent"
+     1985  CallMethod
+     1986  Pop
+        }
+  1987  SetMember
+  1988  Push register2, "onLoad"
+  1995  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     2012  Push register1, "__sentLoadEvent"
+     2019  GetMember
+     2020  Push true
+     2025  Equals2
+     2026  Not
+     2027  Not
+     2028  If loc2060
+     2033  Push "type", "load", 1
+     2045  InitObject
+     2046  Push 1, register1, "dispatchEvent"
+     2058  CallMethod
+     2059  Pop
+     2060  Push register1, "__sentLoadEvent", true
+     2069  SetMember
+        }
+  2070  SetMember
+  2071  Push register2, "onUnload"
+  2078  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     2095  Push "type", "unload", 1
+     2107  InitObject
+     2108  Push 1, register1, "dispatchEvent"
+     2120  CallMethod
+     2121  Pop
+        }
+  2122  SetMember
+  2123  Push register2, "__addEventListener"
+  2130  DefineFunction2 "" (r4:event, r6:handler) regs=7 flags=0x29 {
+     2157  Push register6, register4, 2, register1, "__origAddEventListener"
+     2173  CallMethod
+     2174  Pop
+     2175  Push "mx"
+     2180  GetVariable
+     2181  Push "events"
+     2186  GetMember
+     2187  Push "UIEventDispatcher"
+     2192  GetMember
+     2193  Push "lowLevelEvents"
+     2198  GetMember
+     2199  StoreRegister 3
+     2203  Pop
+     2204  Push register3
+     2209  Enumerate2
+     2210  StoreRegister 0
+     2214  Push null
+     2218  Equals2
+     2219  If loc2339
+     2224  Push register0
+     2229  StoreRegister 5
+     2233  Pop
+     2234  Push "mx"
+     2239  GetVariable
+     2240  Push "events"
+     2245  GetMember
+     2246  Push "UIEventDispatcher"
+     2251  GetMember
+     2252  Push register5
+     2257  GetMember
+     2258  Push register4
+     2263  GetMember
+     2264  Push undef
+     2268  Equals2
+     2269  Not
+     2270  Not
+     2271  If loc2334
+     2276  Push register3, register5
+     2283  GetMember
+     2284  Push 0
+     2296  GetMember
+     2297  StoreRegister 2
+     2301  Pop
+     2302  Push register1, 1, "mx"
+     2314  GetVariable
+     2315  Push "events"
+     2320  GetMember
+     2321  Push "UIEventDispatcher"
+     2326  GetMember
+     2327  Push register2
+     2332  CallMethod
+     2333  Pop
+     2334  Jump loc2210
+        }
+  2339  SetMember
+  2340  Push register2, "removeEventListener"
+  2347  DefineFunction2 "" (r4:event, r7:handler) regs=8 flags=0x29 {
+     2374  Push "__q_", register4
+     2381  Add2
+     2382  StoreRegister 6
+     2386  Pop
+     2387  Push register7, register4, register1, register6
+     2398  GetMember
+     2399  Push 3, "mx"
+     2409  GetVariable
+     2410  Push "events"
+     2415  GetMember
+     2416  Push "EventDispatcher"
+     2421  GetMember
+     2422  Push "_removeEventListener"
+     2427  CallMethod
+     2428  Pop
+     2429  Push register1, register6
+     2436  GetMember
+     2437  Push "length"
+     2442  GetMember
+     2443  Push 0
+     2455  Equals2
+     2456  Not
+     2457  If loc2634
+     2462  Push "mx"
+     2467  GetVariable
+     2468  Push "events"
+     2473  GetMember
+     2474  Push "UIEventDispatcher"
+     2479  GetMember
+     2480  Push "lowLevelEvents"
+     2485  GetMember
+     2486  StoreRegister 2
+     2490  Pop
+     2491  Push register2
+     2496  Enumerate2
+     2497  StoreRegister 0
+     2501  Push null
+     2505  Equals2
+     2506  If loc2634
+     2511  Push register0
+     2516  StoreRegister 5
+     2520  Pop
+     2521  Push "mx"
+     2526  GetVariable
+     2527  Push "events"
+     2532  GetMember
+     2533  Push "UIEventDispatcher"
+     2538  GetMember
+     2539  Push register5
+     2544  GetMember
+     2545  Push register4
+     2550  GetMember
+     2551  Push undef
+     2555  Equals2
+     2556  Not
+     2557  Not
+     2558  If loc2629
+     2563  Push register2, register5
+     2570  GetMember
+     2571  Push 1
+     2579  GetMember
+     2580  StoreRegister 3
+     2584  Pop
+     2585  Push register1, 1, "mx"
+     2597  GetVariable
+     2598  Push "events"
+     2603  GetMember
+     2604  Push "UIEventDispatcher"
+     2609  GetMember
+     2610  Push register2, register5
+     2617  GetMember
+     2618  Push 1
+     2626  GetMember
+     2627  CallMethod
+     2628  Pop
+     2629  Jump loc2497
+        }
+  2634  SetMember
+  2635  Push register1, "keyEvents", "keyDown", 1, "keyUp", 1, 2
+  2661  InitObject
+  2662  SetMember
+  2663  Push register1, "loadEvents", "load", 1, "unload", 1, 2
+  2689  InitObject
+  2690  SetMember
+  2691  Push register1, "lowLevelEvents", "keyEvents", "removeKeyEvents", "addKeyEvents", 2
+  2709  InitArray
+  2710  Push "loadEvents", "removeLoadEvents", "addLoadEvents", 2
+  2724  InitArray
+  2725  Push 2
+  2733  InitObject
+  2734  SetMember
+  2735  Push register1, "_fEventDispatcher", undef
+  2743  SetMember
+  2744  Push 1, null, "mx"
+  2755  GetVariable
+  2756  Push "events"
+  2761  GetMember
+  2762  Push "UIEventDispatcher"
+  2767  GetMember
+  2768  Push "prototype"
+  2773  GetMember
+  2774  Push 3, "ASSetPropFlags"
+  2784  CallFunction
+  2785  Pop
+  2786  End

@@ -1,0 +1,195 @@
+// DefineSprite_4109___Packages.mx.styles.StyleManager
+// origen: DoInitAction del sprite 4109 (03726_DoInitAction.bin)
+
+     2  ConstantPool (75)
+   905  Push "_global"
+   910  GetVariable
+   911  Push "mx"
+   916  GetMember
+   917  Not
+   918  Not
+   919  If loc948
+   924  Push "_global"
+   929  GetVariable
+   930  Push "mx", 0, "Object"
+   946  NewObject
+   947  SetMember
+   948  Pop
+   949  Push "_global"
+   954  GetVariable
+   955  Push "mx"
+   960  GetMember
+   961  Push "styles"
+   966  GetMember
+   967  Not
+   968  Not
+   969  If loc1004
+   974  Push "_global"
+   979  GetVariable
+   980  Push "mx"
+   985  GetMember
+   986  Push "styles", 0, "Object"
+  1002  NewObject
+  1003  SetMember
+  1004  Pop
+  1005  Push "_global"
+  1010  GetVariable
+  1011  Push "mx"
+  1016  GetMember
+  1017  Push "styles"
+  1022  GetMember
+  1023  Push "StyleManager"
+  1028  GetMember
+  1029  Not
+  1030  Not
+  1031  If loc1951
+  1036  Push "mx"
+  1041  GetVariable
+  1042  Push "styles"
+  1047  GetMember
+  1048  Push "StyleManager"
+  1053  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1061  StoreRegister 1
+  1065  SetMember
+  1066  Push register1, "prototype"
+  1073  GetMember
+  1074  StoreRegister 2
+  1078  Pop
+  1079  Push register1, "registerInheritingStyle"
+  1086  DefineFunction2 "" (r1:styleName) regs=2 flags=0x2a {
+     1108  Push "mx"
+     1113  GetVariable
+     1114  Push "styles"
+     1119  GetMember
+     1120  Push "StyleManager"
+     1125  GetMember
+     1126  Push "inheritingStyles"
+     1131  GetMember
+     1132  Push register1, true
+     1139  SetMember
+        }
+  1140  SetMember
+  1141  Push register1, "isInheritingStyle"
+  1148  DefineFunction2 "" (r1:styleName) regs=2 flags=0x2a {
+     1170  Push "mx"
+     1175  GetVariable
+     1176  Push "styles"
+     1181  GetMember
+     1182  Push "StyleManager"
+     1187  GetMember
+     1188  Push "inheritingStyles"
+     1193  GetMember
+     1194  Push register1
+     1199  GetMember
+     1200  Push true
+     1205  Equals2
+     1206  Return
+        }
+  1207  SetMember
+  1208  Push register1, "registerColorStyle"
+  1215  DefineFunction2 "" (r1:styleName) regs=2 flags=0x2a {
+     1237  Push "mx"
+     1242  GetVariable
+     1243  Push "styles"
+     1248  GetMember
+     1249  Push "StyleManager"
+     1254  GetMember
+     1255  Push "colorStyles"
+     1260  GetMember
+     1261  Push register1, true
+     1268  SetMember
+        }
+  1269  SetMember
+  1270  Push register1, "isColorStyle"
+  1277  DefineFunction2 "" (r1:styleName) regs=2 flags=0x2a {
+     1299  Push "mx"
+     1304  GetVariable
+     1305  Push "styles"
+     1310  GetMember
+     1311  Push "StyleManager"
+     1316  GetMember
+     1317  Push "colorStyles"
+     1322  GetMember
+     1323  Push register1
+     1328  GetMember
+     1329  Push true
+     1334  Equals2
+     1335  Return
+        }
+  1336  SetMember
+  1337  Push register1, "registerColorName"
+  1344  DefineFunction2 "" (r2:colorName, r1:colorValue) regs=3 flags=0x2a {
+     1378  Push "mx"
+     1383  GetVariable
+     1384  Push "styles"
+     1389  GetMember
+     1390  Push "StyleManager"
+     1395  GetMember
+     1396  Push "colorNames"
+     1401  GetMember
+     1402  Push register2, register1
+     1409  SetMember
+        }
+  1410  SetMember
+  1411  Push register1, "isColorName"
+  1418  DefineFunction2 "" (r1:colorName) regs=2 flags=0x2a {
+     1440  Push "mx"
+     1445  GetVariable
+     1446  Push "styles"
+     1451  GetMember
+     1452  Push "StyleManager"
+     1457  GetMember
+     1458  Push "colorNames"
+     1463  GetMember
+     1464  Push register1
+     1469  GetMember
+     1470  Push undef
+     1474  Equals2
+     1475  Not
+     1476  Return
+        }
+  1477  SetMember
+  1478  Push register1, "getColorName"
+  1485  DefineFunction2 "" (r1:colorName) regs=2 flags=0x2a {
+     1507  Push "mx"
+     1512  GetVariable
+     1513  Push "styles"
+     1518  GetMember
+     1519  Push "StyleManager"
+     1524  GetMember
+     1525  Push "colorNames"
+     1530  GetMember
+     1531  Push register1
+     1536  GetMember
+     1537  Return
+        }
+  1538  SetMember
+  1539  Push register1, "inheritingStyles", "color", true, "direction", true, "fontFamily", true, "fontSize", true, "fontStyle", true, "fontWeight", true, "textAlign", true, "textIndent", true, 8
+  1583  InitObject
+  1584  SetMember
+  1585  Push register1, "colorStyles", "barColor", true, "trackColor", true, "borderColor", true, "buttonColor", true, "color", true, "dateHeaderColor", true, "dateRollOverColor", true, "disabledColor", true, "fillColor", true, "highlightColor", true, "scrollTrackColor", true, "selectedDateColor", true, "shadowColor", true, "strokeColor", true, "symbolBackgroundColor", true, "symbolBackgroundDisabledColor", true, "symbolBackgroundPressedColor", true, "symbolColor", true, "symbolDisabledColor", true, "themeColor", true, "todayIndicatorColor", true, "shadowCapColor", true, "borderCapColor", true, "focusColor", true, 24
+  1693  InitObject
+  1694  SetMember
+  1695  Push register1, "colorNames", "black", 0, "white", 16777215, "red", 16711680, "green", 65280, "blue", 255, "magenta", 16711935, "yellow", 16776960, "cyan", 65535, "haloGreen", 8453965, "haloBlue", 2881013, "haloOrange", 16761344, 11
+  1788  InitObject
+  1789  SetMember
+  1790  Push register1, "TextFormatStyleProps", "font", true, "size", true, "color", true, "leftMargin", false, "rightMargin", false, "italic", true, "bold", true, "align", true, "indent", true, "underline", false, "embedFonts", false, 11
+  1846  InitObject
+  1847  SetMember
+  1848  Push register1, "TextStyleMap", "textAlign", true, "fontWeight", true, "color", true, "fontFamily", true, "textIndent", true, "fontStyle", true, "lineHeight", true, "marginLeft", true, "marginRight", true, "fontSize", true, "textDecoration", true, "embedFonts", true, 12
+  1908  InitObject
+  1909  SetMember
+  1910  Push 1, null, "mx"
+  1921  GetVariable
+  1922  Push "styles"
+  1927  GetMember
+  1928  Push "StyleManager"
+  1933  GetMember
+  1934  Push "prototype"
+  1939  GetMember
+  1940  Push 3, "ASSetPropFlags"
+  1950  CallFunction
+  1951  Pop
+  1952  End

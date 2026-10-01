@@ -1,0 +1,590 @@
+// DoAction_2
+// origen: DefineSprite_3239 fotograma 9, DoAction (06960_DefineSprite_3239.bin, byte 14609)
+
+ 14609  ConstantPool (58)
+ 15086  Push "_root"
+ 15091  GetVariable
+ 15092  Push "Krin"
+ 15097  GetMember
+ 15098  Push "PauseForScreen", true
+ 15105  SetMember
+ 15106  Push "_root"
+ 15111  GetVariable
+ 15112  Push "Krin"
+ 15117  GetMember
+ 15118  Push "PauseForScreen2", true
+ 15125  SetMember
+ 15126  Push "_root"
+ 15131  GetVariable
+ 15132  Push "Krin"
+ 15137  GetMember
+ 15138  Push "dataMode", "save"
+ 15145  SetMember
+ 15146  Push "itemsthatdropped", 0
+ 15160  SetVariable
+ 15161  Push "_root"
+ 15166  GetVariable
+ 15167  Push "KrinScreen"
+ 15172  GetMember
+ 15173  Push "_visible", false
+ 15180  SetMember
+ 15181  Push "_root"
+ 15186  GetVariable
+ 15187  Push "Krin"
+ 15192  GetMember
+ 15193  Push "EnemyXPFinal", "_root"
+ 15200  GetVariable
+ 15201  Push "Krin"
+ 15206  GetMember
+ 15207  Push "EnemyXP"
+ 15212  GetMember
+ 15213  Push "_root"
+ 15218  GetVariable
+ 15219  Push "Krin"
+ 15224  GetMember
+ 15225  Push "EnemyXP3"
+ 15230  GetMember
+ 15231  Divide
+ 15232  SetMember
+ 15233  Push "_root"
+ 15238  GetVariable
+ 15239  Push "Krin"
+ 15244  GetMember
+ 15245  Push "itemArray"
+ 15250  GetMember
+ 15251  Enumerate2
+ 15252  StoreRegister 0
+ 15256  Push null
+ 15260  Equals2
+ 15261  If loc15419
+ 15266  Push "w", register0
+ 15273  SetVariable
+ 15274  Push "_root"
+ 15279  GetVariable
+ 15280  Push "KrinLang"
+ 15285  GetMember
+ 15286  Push "_root"
+ 15291  GetVariable
+ 15292  Push "KLangChoosen"
+ 15297  GetMember
+ 15298  GetMember
+ 15299  Push "ITEMNAME"
+ 15304  GetMember
+ 15305  Push "_root"
+ 15310  GetVariable
+ 15311  Push "Krin"
+ 15316  GetMember
+ 15317  Push "itemArray"
+ 15322  GetMember
+ 15323  Push "w"
+ 15328  GetVariable
+ 15329  GetMember
+ 15330  GetMember
+ 15331  Push 1, "this"
+ 15341  GetVariable
+ 15342  Push "itemSlot", "w"
+ 15349  GetVariable
+ 15350  Add2
+ 15351  GetMember
+ 15352  Push "inner"
+ 15357  GetMember
+ 15358  Push "gotoAndStop"
+ 15363  CallMethod
+ 15364  Pop
+ 15365  Push "this"
+ 15370  GetVariable
+ 15371  Push "itemSlot", "w"
+ 15378  GetVariable
+ 15379  Add2
+ 15380  GetMember
+ 15381  Push "id", "w"
+ 15388  GetVariable
+ 15389  SetMember
+ 15390  Push "this"
+ 15395  GetVariable
+ 15396  Push "itemSlot", "w"
+ 15403  GetVariable
+ 15404  Add2
+ 15405  GetMember
+ 15406  Push "slotType", "itemSlot"
+ 15413  SetMember
+ 15414  Jump loc15252
+ 15419  Push "w", 0
+ 15433  SetVariable
+ 15434  Push "w"
+ 15439  GetVariable
+ 15440  Push 15
+ 15448  Less2
+ 15449  Not
+ 15450  If loc15694
+ 15455  Push "_root"
+ 15460  GetVariable
+ 15461  Push "KrinLang"
+ 15466  GetMember
+ 15467  Push "_root"
+ 15472  GetVariable
+ 15473  Push "KLangChoosen"
+ 15478  GetMember
+ 15479  GetMember
+ 15480  Push "ITEMNAME"
+ 15485  GetMember
+ 15486  Push "_root"
+ 15491  GetVariable
+ 15492  Push "Krin"
+ 15497  GetMember
+ 15498  Push "dropArray"
+ 15503  GetMember
+ 15504  Push "w"
+ 15509  GetVariable
+ 15510  GetMember
+ 15511  GetMember
+ 15512  Push 1, "this"
+ 15522  GetVariable
+ 15523  Push "dropSlot", "w"
+ 15530  GetVariable
+ 15531  Add2
+ 15532  GetMember
+ 15533  Push "inner"
+ 15538  GetMember
+ 15539  Push "gotoAndStop"
+ 15544  CallMethod
+ 15545  Pop
+ 15546  Push "this"
+ 15551  GetVariable
+ 15552  Push "dropSlot", "w"
+ 15559  GetVariable
+ 15560  Add2
+ 15561  GetMember
+ 15562  Push "id", "w"
+ 15569  GetVariable
+ 15570  SetMember
+ 15571  Push "this"
+ 15576  GetVariable
+ 15577  Push "dropSlot", "w"
+ 15584  GetVariable
+ 15585  Add2
+ 15586  GetMember
+ 15587  Push "slotType", "drop"
+ 15594  SetMember
+ 15595  Push "_root"
+ 15600  GetVariable
+ 15601  Push "Krin"
+ 15606  GetMember
+ 15607  Push "dropArray"
+ 15612  GetMember
+ 15613  Push "w"
+ 15618  GetVariable
+ 15619  GetMember
+ 15620  Push 0
+ 15632  Equals2
+ 15633  Not
+ 15634  If loc15668
+ 15639  Push "this"
+ 15644  GetVariable
+ 15645  Push "dropSlot", "w"
+ 15652  GetVariable
+ 15653  Add2
+ 15654  GetMember
+ 15655  Push "_visible", false
+ 15662  SetMember
+ 15663  Jump loc15679
+ 15668  Push "itemsthatdropped", 1
+ 15678  SetVariable
+ 15679  Push "w", "w"
+ 15686  GetVariable
+ 15687  Increment
+ 15688  SetVariable
+ 15689  Jump loc15434
+ 15694  Push "itemsthatdropped"
+ 15699  GetVariable
+ 15700  Push 0
+ 15712  Equals2
+ 15713  Not
+ 15714  If loc15775
+ 15719  Push "vb99", "_root"
+ 15726  GetVariable
+ 15727  Push "KrinLang"
+ 15732  GetMember
+ 15733  Push "_root"
+ 15738  GetVariable
+ 15739  Push "KLangChoosen"
+ 15744  GetMember
+ 15745  GetMember
+ 15746  Push "MENU"
+ 15751  GetMember
+ 15752  Push 12
+ 15760  GetMember
+ 15761  SetVariable
+ 15762  Push "vb2", ""
+ 15769  SetVariable
+ 15770  Jump loc15826
+ 15775  Push "vb99", ""
+ 15782  SetVariable
+ 15783  Push "vb2", "_root"
+ 15790  GetVariable
+ 15791  Push "KrinLang"
+ 15796  GetMember
+ 15797  Push "_root"
+ 15802  GetVariable
+ 15803  Push "KLangChoosen"
+ 15808  GetMember
+ 15809  GetMember
+ 15810  Push "VICTORY"
+ 15815  GetMember
+ 15816  Push 1
+ 15824  GetMember
+ 15825  SetVariable
+ 15826  Push "tempGain", "_root"
+ 15833  GetVariable
+ 15834  Push "moneyConstGain"
+ 15839  GetMember
+ 15840  Push "_root"
+ 15845  GetVariable
+ 15846  Push "totalEnemyGain"
+ 15851  GetMember
+ 15852  Divide
+ 15853  SetVariable
+ 15854  Push "TEMPGAIN ", "tempGain"
+ 15861  GetVariable
+ 15862  Add2
+ 15863  Trace
+ 15864  Push "TEMPGAIN ", "tempGain"
+ 15871  GetVariable
+ 15872  Push 1, "_root"
+ 15882  GetVariable
+ 15883  Push "respecValue"
+ 15888  CallMethod
+ 15889  Add2
+ 15890  Trace
+ 15891  Push "moneyGain", 0.7000000000000001, "tempGain"
+ 15907  GetVariable
+ 15908  Push 1, "_root"
+ 15918  GetVariable
+ 15919  Push "respecValue"
+ 15924  CallMethod
+ 15925  Multiply
+ 15926  Push 1, "Math"
+ 15936  GetVariable
+ 15937  Push "round"
+ 15942  CallMethod
+ 15943  SetVariable
+ 15944  Push "_root"
+ 15949  GetVariable
+ 15950  Push "Krin"
+ 15955  GetMember
+ 15956  Push "Euro", "_root"
+ 15963  GetVariable
+ 15964  Push "Krin"
+ 15969  GetMember
+ 15970  Push "Euro"
+ 15975  GetMember
+ 15976  Push "moneyGain"
+ 15981  GetVariable
+ 15982  Add2
+ 15983  SetMember
+ 15984  Push "dumbEuro", "_root"
+ 15991  GetVariable
+ 15992  Push "Krin"
+ 15997  GetMember
+ 15998  Push "Euro"
+ 16003  GetMember
+ 16004  SetVariable
+ 16005  Push "vb1", "_root"
+ 16012  GetVariable
+ 16013  Push "KrinLang"
+ 16018  GetMember
+ 16019  Push "_root"
+ 16024  GetVariable
+ 16025  Push "KLangChoosen"
+ 16030  GetMember
+ 16031  GetMember
+ 16032  Push "VICTORY"
+ 16037  GetMember
+ 16038  Push 0
+ 16050  GetMember
+ 16051  SetVariable
+ 16052  Push "vb3", "_root"
+ 16059  GetVariable
+ 16060  Push "KrinLang"
+ 16065  GetMember
+ 16066  Push "_root"
+ 16071  GetVariable
+ 16072  Push "KLangChoosen"
+ 16077  GetMember
+ 16078  GetMember
+ 16079  Push "VICTORY"
+ 16084  GetMember
+ 16085  Push 2
+ 16093  GetMember
+ 16094  SetVariable
+ 16095  Push "vb4", "_root"
+ 16102  GetVariable
+ 16103  Push "KrinLang"
+ 16108  GetMember
+ 16109  Push "_root"
+ 16114  GetVariable
+ 16115  Push "KLangChoosen"
+ 16120  GetMember
+ 16121  GetMember
+ 16122  Push "VICTORY"
+ 16127  GetMember
+ 16128  Push 3
+ 16136  GetMember
+ 16137  SetVariable
+ 16138  Push "vb5", "€", "moneyGain"
+ 16147  GetVariable
+ 16148  Add2
+ 16149  SetVariable
+ 16150  Push "vbbc1", "_root"
+ 16157  GetVariable
+ 16158  Push "KrinLang"
+ 16163  GetMember
+ 16164  Push "_root"
+ 16169  GetVariable
+ 16170  Push "KLangChoosen"
+ 16175  GetMember
+ 16176  GetMember
+ 16177  Push "MENU"
+ 16182  GetMember
+ 16183  Push 15
+ 16191  GetMember
+ 16192  SetVariable
+ 16193  Push "vb7", "_root"
+ 16200  GetVariable
+ 16201  Push "KrinLang"
+ 16206  GetMember
+ 16207  Push "_root"
+ 16212  GetVariable
+ 16213  Push "KLangChoosen"
+ 16218  GetMember
+ 16219  GetMember
+ 16220  Push "VICTORY"
+ 16225  GetMember
+ 16226  Push 4
+ 16234  GetMember
+ 16235  SetVariable
+ 16236  Push "vb8", "_root"
+ 16243  GetVariable
+ 16244  Push "KrinLang"
+ 16249  GetMember
+ 16250  Push "_root"
+ 16255  GetVariable
+ 16256  Push "KLangChoosen"
+ 16261  GetMember
+ 16262  GetMember
+ 16263  Push "MENU"
+ 16268  GetMember
+ 16269  Push 13
+ 16277  GetMember
+ 16278  SetVariable
+ 16279  Push "_root"
+ 16284  GetVariable
+ 16285  Push "achProgF"
+ 16290  GetMember
+ 16291  Not
+ 16292  If loc16727
+ 16297  Push "_root"
+ 16302  GetVariable
+ 16303  Push "Krin"
+ 16308  GetMember
+ 16309  Push "BattlePick"
+ 16314  GetMember
+ 16315  Push 109
+ 16323  Equals2
+ 16324  Not
+ 16325  If loc16357
+ 16330  Push 0, 1, "_root"
+ 16349  GetVariable
+ 16350  Push "awardAch"
+ 16355  CallMethod
+ 16356  Pop
+ 16357  Push "_root"
+ 16362  GetVariable
+ 16363  Push "Krin"
+ 16368  GetMember
+ 16369  Push "difficulty"
+ 16374  GetMember
+ 16375  Push 0
+ 16387  Greater
+ 16388  Not
+ 16389  If loc16552
+ 16394  Push "_root"
+ 16399  GetVariable
+ 16400  Push "Krin"
+ 16405  GetMember
+ 16406  Push "BattlePick"
+ 16411  GetMember
+ 16412  Push 308
+ 16420  Equals2
+ 16421  Not
+ 16422  If loc16469
+ 16427  Push "_root"
+ 16432  GetVariable
+ 16433  Push "AchVal2"
+ 16438  GetMember
+ 16439  Not
+ 16440  Not
+ 16441  If loc16469
+ 16446  Push 1, 1, "_root"
+ 16461  GetVariable
+ 16462  Push "awardAch"
+ 16467  CallMethod
+ 16468  Pop
+ 16469  Push "_root"
+ 16474  GetVariable
+ 16475  Push "Krin"
+ 16480  GetMember
+ 16481  Push "BattlePick"
+ 16486  GetMember
+ 16487  Push 408
+ 16495  Equals2
+ 16496  Not
+ 16497  If loc16552
+ 16502  Push "_root"
+ 16507  GetVariable
+ 16508  Push "AchVal1"
+ 16513  GetMember
+ 16514  Push 2000
+ 16522  Less2
+ 16523  Not
+ 16524  If loc16552
+ 16529  Push 2, 1, "_root"
+ 16544  GetVariable
+ 16545  Push "awardAch"
+ 16550  CallMethod
+ 16551  Pop
+ 16552  Push "_root"
+ 16557  GetVariable
+ 16558  Push "Krin"
+ 16563  GetMember
+ 16564  Push "difficulty"
+ 16569  GetMember
+ 16570  Push 2
+ 16578  Equals2
+ 16579  Not
+ 16580  If loc16727
+ 16585  Push "_root"
+ 16590  GetVariable
+ 16591  Push "Krin"
+ 16596  GetMember
+ 16597  Push "usedTraining"
+ 16602  GetMember
+ 16603  Push false
+ 16608  Equals2
+ 16609  Not
+ 16610  If loc16727
+ 16615  Push "_root"
+ 16620  GetVariable
+ 16621  Push "Krin"
+ 16626  GetMember
+ 16627  Push "BattlePick"
+ 16632  GetMember
+ 16633  Push 212
+ 16641  Equals2
+ 16642  Not
+ 16643  If loc16671
+ 16648  Push 3, 1, "_root"
+ 16663  GetVariable
+ 16664  Push "awardAch"
+ 16669  CallMethod
+ 16670  Pop
+ 16671  Push "_root"
+ 16676  GetVariable
+ 16677  Push "Krin"
+ 16682  GetMember
+ 16683  Push "BattlePick"
+ 16688  GetMember
+ 16689  Push 513
+ 16697  Equals2
+ 16698  Not
+ 16699  If loc16727
+ 16704  Push 4, 1, "_root"
+ 16719  GetVariable
+ 16720  Push "awardAch"
+ 16725  CallMethod
+ 16726  Pop
+ 16727  Push "_root"
+ 16732  GetVariable
+ 16733  Push "Krin"
+ 16738  GetMember
+ 16739  Push "BattlePick"
+ 16744  GetMember
+ 16745  Push 600
+ 16753  Equals2
+ 16754  Not
+ 16755  If loc16810
+ 16760  Push "_root"
+ 16765  GetVariable
+ 16766  Push "AchVal3"
+ 16771  GetMember
+ 16772  Push 1
+ 16780  Equals2
+ 16781  Not
+ 16782  If loc16810
+ 16787  Push 6, 1, "_root"
+ 16802  GetVariable
+ 16803  Push "awardAch"
+ 16808  CallMethod
+ 16809  Pop
+ 16810  Push "_root"
+ 16815  GetVariable
+ 16816  Push "Krin"
+ 16821  GetMember
+ 16822  Push "BattlePick"
+ 16827  GetMember
+ 16828  Push 601
+ 16836  Equals2
+ 16837  Not
+ 16838  If loc16894
+ 16843  Push "_root"
+ 16848  GetVariable
+ 16849  Push "AchVal4"
+ 16854  GetMember
+ 16855  Push 40
+ 16863  Greater
+ 16864  Not
+ 16865  Not
+ 16866  If loc16894
+ 16871  Push 7, 1, "_root"
+ 16886  GetVariable
+ 16887  Push "awardAch"
+ 16892  CallMethod
+ 16893  Pop
+ 16894  Push "_root"
+ 16899  GetVariable
+ 16900  Push "Krin"
+ 16905  GetMember
+ 16906  Push "BattlePick"
+ 16911  GetMember
+ 16912  Push 602
+ 16920  Equals2
+ 16921  Not
+ 16922  If loc16969
+ 16927  Push "_root"
+ 16932  GetVariable
+ 16933  Push "AchVal2"
+ 16938  GetMember
+ 16939  Not
+ 16940  Not
+ 16941  If loc16969
+ 16946  Push 8, 1, "_root"
+ 16961  GetVariable
+ 16962  Push "awardAch"
+ 16967  CallMethod
+ 16968  Pop
+ 16969  Push "_root"
+ 16974  GetVariable
+ 16975  Push "Krin"
+ 16980  GetMember
+ 16981  Push "BattlePick"
+ 16986  GetMember
+ 16987  Push 703
+ 16995  Equals2
+ 16996  Not
+ 16997  If loc17025
+ 17002  Push 9, 1, "_root"
+ 17017  GetVariable
+ 17018  Push "awardAch"
+ 17023  CallMethod
+ 17024  Pop
+ 17025  End

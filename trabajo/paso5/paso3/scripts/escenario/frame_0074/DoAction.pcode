@@ -1,0 +1,97 @@
+// DoAction
+// origen: escenario fotograma 74, DoAction (06026_DoAction.bin)
+
+     0  ConstantPool (16)
+   142  Push "i", 1
+   152  SetVariable
+   153  Push "i"
+   158  GetVariable
+   159  Push 5
+   167  Less2
+   168  Not
+   169  If loc313
+   174  Push "_root"
+   179  GetVariable
+   180  Push "nameSlot", "i"
+   187  GetVariable
+   188  Add2
+   189  Push "_root"
+   194  GetVariable
+   195  Push "slot", "i"
+   202  GetVariable
+   203  Add2
+   204  GetMember
+   205  Push "data"
+   210  GetMember
+   211  Push "nameUser"
+   216  GetMember
+   217  SetMember
+   218  Push 0, "_root"
+   232  GetVariable
+   233  Push "slot", "i"
+   240  GetVariable
+   241  Add2
+   242  GetMember
+   243  Push "flush"
+   248  CallMethod
+   249  Pop
+   250  Push "_root"
+   255  GetVariable
+   256  Push "nameSlot", "i"
+   263  GetVariable
+   264  Add2
+   265  GetMember
+   266  Push undef
+   270  Equals2
+   271  Not
+   272  If loc298
+   277  Push "_root"
+   282  GetVariable
+   283  Push "nameSlot", "i"
+   290  GetVariable
+   291  Add2
+   292  Push "< Empty Slot >"
+   297  SetMember
+   298  Push "i", "i"
+   305  GetVariable
+   306  Increment
+   307  SetVariable
+   308  Jump loc153
+   313  Push "slotNamerText", "_root"
+   320  GetVariable
+   321  Push "KrinLang"
+   326  GetMember
+   327  Push "KLangChoosen"
+   332  GetVariable
+   333  GetMember
+   334  Push "MENU"
+   339  GetMember
+   340  Push 23
+   348  GetMember
+   349  SetVariable
+   350  Push "arenaMode"
+   355  GetVariable
+   356  Not
+   357  If loc425
+   362  Push "currentArenaPlayer"
+   367  GetVariable
+   368  Push 1
+   376  Equals2
+   377  Not
+   378  If loc420
+   383  Push "pickText", "_root"
+   390  GetVariable
+   391  Push "KrinLang"
+   396  GetMember
+   397  Push "KLangChoosen"
+   402  GetVariable
+   403  GetMember
+   404  Push "MENU"
+   409  GetMember
+   410  Push 72
+   418  GetMember
+   419  SetVariable
+   420  Jump loc433
+   425  Push "pickText", ""
+   432  SetVariable
+   433  End

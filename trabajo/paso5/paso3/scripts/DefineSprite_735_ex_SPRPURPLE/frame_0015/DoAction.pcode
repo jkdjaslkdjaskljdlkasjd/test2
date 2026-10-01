@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_735_ex_SPRPURPLE fotograma 15, DoAction (01124_DefineSprite_735.bin, byte 158)
+
+   158  Push "", "this"
+   169  GetVariable
+   170  GetURL2 64
+   174  End

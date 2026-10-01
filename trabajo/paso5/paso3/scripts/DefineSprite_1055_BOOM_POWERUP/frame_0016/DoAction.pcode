@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1055_BOOM_POWERUP fotograma 16, DoAction (01599_DefineSprite_1055.bin, byte 759)
+
+   759  Push "", "this"
+   770  GetVariable
+   771  GetURL2 64
+   775  End

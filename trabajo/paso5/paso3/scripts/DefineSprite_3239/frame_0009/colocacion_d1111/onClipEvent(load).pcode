@@ -1,0 +1,106 @@
+// onClipEvent(load)
+// origen: DefineSprite_3239 fotograma 9, clip en profundidad 1111 (06960_DefineSprite_3239.bin, byte 17982)
+
+ 18034  ConstantPool (22)
+ 18214  Push "prx", "_root"
+ 18221  GetVariable
+ 18222  Push "Krin"
+ 18227  GetMember
+ 18228  Push "friendlySlotsFFTT"
+ 18233  GetMember
+ 18234  Push 0
+ 18246  GetMember
+ 18247  SetVariable
+ 18248  Push "prx"
+ 18253  GetVariable
+ 18254  Push undef
+ 18258  Equals2
+ 18259  Not
+ 18260  If loc18283
+ 18265  Push "", 7, false
+ 18277  SetProperty
+ 18278  Jump loc18538
+ 18283  Push "exp", "_root"
+ 18290  GetVariable
+ 18291  Push "Krin"
+ 18296  GetMember
+ 18297  Push "ExpSets"
+ 18302  GetMember
+ 18303  Push "prx"
+ 18308  GetVariable
+ 18309  GetMember
+ 18310  SetVariable
+ 18311  Push "exp2", "exp"
+ 18318  GetVariable
+ 18319  Push 1, "Math"
+ 18329  GetVariable
+ 18330  Push "round"
+ 18335  CallMethod
+ 18336  SetVariable
+ 18337  Push "_root"
+ 18342  GetVariable
+ 18343  Push "Krin"
+ 18348  GetMember
+ 18349  Push "LevelStats"
+ 18354  GetMember
+ 18355  Push "prx"
+ 18360  GetVariable
+ 18361  GetMember
+ 18362  Push "_root"
+ 18367  GetVariable
+ 18368  Push "Krin"
+ 18373  GetMember
+ 18374  Push "EnemyXPFinal"
+ 18379  GetMember
+ 18380  Push 2, "_root"
+ 18390  GetVariable
+ 18391  Push "expWorkOut"
+ 18396  CallMethod
+ 18397  Pop
+ 18398  Push "setLimiter", 30
+ 18408  SetVariable
+ 18409  Push "adderPer", "_root"
+ 18416  GetVariable
+ 18417  Push "Krin"
+ 18422  GetMember
+ 18423  Push "totalXP"
+ 18428  GetMember
+ 18429  Push "setLimiter"
+ 18434  GetVariable
+ 18435  Divide
+ 18436  SetVariable
+ 18437  Push "namerI", "_root"
+ 18444  GetVariable
+ 18445  Push "Krin"
+ 18450  GetMember
+ 18451  Push "NameSets"
+ 18456  GetMember
+ 18457  Push "prx"
+ 18462  GetVariable
+ 18463  GetMember
+ 18464  SetVariable
+ 18465  Push "levelI", "_root"
+ 18472  GetVariable
+ 18473  Push "KrinLang"
+ 18478  GetMember
+ 18479  Push "_root"
+ 18484  GetVariable
+ 18485  Push "KLangChoosen"
+ 18490  GetMember
+ 18491  GetMember
+ 18492  Push "MENU"
+ 18497  GetMember
+ 18498  Push 0
+ 18510  GetMember
+ 18511  Push "_root"
+ 18516  GetVariable
+ 18517  Push "Krin"
+ 18522  GetMember
+ 18523  Push "LevelStats"
+ 18528  GetMember
+ 18529  Push "prx"
+ 18534  GetVariable
+ 18535  GetMember
+ 18536  Add2
+ 18537  SetVariable
+ 18538  End

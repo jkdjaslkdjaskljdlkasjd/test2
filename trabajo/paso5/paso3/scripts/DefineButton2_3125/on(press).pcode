@@ -1,0 +1,101 @@
+// on(press)
+// origen: boton 3125 (06841_DefineButton2_3125.bin)
+
+    24  ConstantPool (17)
+   162  Push "_root"
+   167  GetVariable
+   168  Push "Krin"
+   173  GetMember
+   174  Push "mouseItem"
+   179  GetMember
+   180  Push 0
+   192  Equals2
+   193  Not
+   194  Not
+   195  If loc477
+   200  Push "_root"
+   205  GetVariable
+   206  Push "Krin"
+   211  GetMember
+   212  Push "Euro", "_root"
+   219  GetVariable
+   220  Push "Krin"
+   225  GetMember
+   226  Push "Euro"
+   231  GetMember
+   232  Push "_root"
+   237  GetVariable
+   238  Push "KRINITEM", "_root"
+   245  GetVariable
+   246  Push "Krin"
+   251  GetMember
+   252  Push "mouseItem"
+   257  GetMember
+   258  Add2
+   259  GetMember
+   260  Push 5
+   268  GetMember
+   269  Push 0.15
+   281  Multiply
+   282  Push 1, "Math"
+   292  GetVariable
+   293  Push "ceil"
+   298  CallMethod
+   299  Add2
+   300  SetMember
+   301  Push "dumbEuro", "_root"
+   308  GetVariable
+   309  Push "Krin"
+   314  GetMember
+   315  Push "Euro"
+   320  GetMember
+   321  SetVariable
+   322  Push "_root"
+   327  GetVariable
+   328  Push "Krin"
+   333  GetMember
+   334  Push "mouseItem", 0
+   348  SetMember
+   349  Push "_root"
+   354  GetVariable
+   355  Push "KrinLang"
+   360  GetMember
+   361  Push "ENGLISH"
+   366  GetMember
+   367  Push "ITEMNAME"
+   372  GetMember
+   373  Push "_root"
+   378  GetVariable
+   379  Push "Krin"
+   384  GetMember
+   385  Push "mouseItem"
+   390  GetMember
+   391  GetMember
+   392  Push 1, "_root"
+   402  GetVariable
+   403  Push "KrinToolTipper"
+   408  GetMember
+   409  Push "inner"
+   414  GetMember
+   415  Push "gotoAndStop"
+   420  CallMethod
+   421  Pop
+   422  Push "_root"
+   427  GetVariable
+   428  Push "KrinToolTipper"
+   433  GetMember
+   434  Push "t", "_root"
+   441  GetVariable
+   442  Push "KrinLang"
+   447  GetMember
+   448  Push "_root"
+   453  GetVariable
+   454  Push "KLangChoosen"
+   459  GetMember
+   460  GetMember
+   461  Push "MENU"
+   466  GetMember
+   467  Push 5
+   475  GetMember
+   476  SetMember
+   477  End

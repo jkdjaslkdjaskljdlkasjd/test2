@@ -1,0 +1,36 @@
+// on(release)
+// origen: boton 2913 (06610_DefineButton2_2913.bin)
+
+    38  ConstantPool (10)
+   131  Push "_root"
+   136  GetVariable
+   137  Push "Krin"
+   142  GetMember
+   143  Push "PauseForScreen"
+   148  GetMember
+   149  Push true
+   154  Equals2
+   155  Not
+   156  Not
+   157  If loc246
+   162  Push "_root"
+   167  GetVariable
+   168  Push "Krin"
+   173  GetMember
+   174  Push "shopId", 0
+   188  SetMember
+   189  Push "data", 1, "KRINMENU"
+   201  GetVariable
+   202  Push "gotoAndStop"
+   207  CallMethod
+   208  Pop
+   209  Push "Krin"
+   214  GetVariable
+   215  Push "dataMode", "save"
+   222  SetMember
+   223  Push 1, 1, "_root"
+   238  GetVariable
+   239  Push "krinHandleData"
+   244  CallMethod
+   245  Pop
+   246  End

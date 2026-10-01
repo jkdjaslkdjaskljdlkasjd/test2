@@ -1,0 +1,109 @@
+// DefineSprite_4123___Packages.mx.skins.Border
+// origen: DoInitAction del sprite 4123 (03768_DoInitAction.bin)
+
+     2  ConstantPool (17)
+   149  Push "_global"
+   154  GetVariable
+   155  Push "mx"
+   160  GetMember
+   161  Not
+   162  Not
+   163  If loc192
+   168  Push "_global"
+   173  GetVariable
+   174  Push "mx", 0, "Object"
+   190  NewObject
+   191  SetMember
+   192  Pop
+   193  Push "_global"
+   198  GetVariable
+   199  Push "mx"
+   204  GetMember
+   205  Push "skins"
+   210  GetMember
+   211  Not
+   212  Not
+   213  If loc248
+   218  Push "_global"
+   223  GetVariable
+   224  Push "mx"
+   229  GetMember
+   230  Push "skins", 0, "Object"
+   246  NewObject
+   247  SetMember
+   248  Pop
+   249  Push "_global"
+   254  GetVariable
+   255  Push "mx"
+   260  GetMember
+   261  Push "skins"
+   266  GetMember
+   267  Push "Border"
+   272  GetMember
+   273  Not
+   274  Not
+   275  If loc542
+   280  Push "mx"
+   285  GetVariable
+   286  Push "skins"
+   291  GetMember
+   292  Push "Border"
+   297  DefineFunction2 "" () regs=2 flags=0x1a {
+      308  Push 0, register1, undef
+      323  CallMethod
+      324  Pop
+        }
+   325  StoreRegister 1
+   329  SetMember
+   330  Push "mx"
+   335  GetVariable
+   336  Push "skins"
+   341  GetMember
+   342  Push "Border"
+   347  GetMember
+   348  Push "mx"
+   353  GetVariable
+   354  Push "core"
+   359  GetMember
+   360  Push "UIObject"
+   365  GetMember
+   366  Extends
+   367  Push register1, "prototype"
+   374  GetMember
+   375  StoreRegister 2
+   379  Pop
+   380  Push register2, "init"
+   387  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+      404  Push 0, register1, "init"
+      420  CallMethod
+      421  Pop
+        }
+   422  SetMember
+   423  Push register1, "symbolName", "Border"
+   432  SetMember
+   433  Push register1, "symbolOwner", "mx"
+   442  GetVariable
+   443  Push "skins"
+   448  GetMember
+   449  Push "Border"
+   454  GetMember
+   455  SetMember
+   456  Push register2, "className", "Border"
+   465  SetMember
+   466  Push register2, "tagBorder", 0
+   482  SetMember
+   483  Push register2, "idNames", "border_mc", 1, "Array"
+   499  NewObject
+   500  SetMember
+   501  Push 1, null, "mx"
+   512  GetVariable
+   513  Push "skins"
+   518  GetMember
+   519  Push "Border"
+   524  GetMember
+   525  Push "prototype"
+   530  GetMember
+   531  Push 3, "ASSetPropFlags"
+   541  CallFunction
+   542  Pop
+   543  End

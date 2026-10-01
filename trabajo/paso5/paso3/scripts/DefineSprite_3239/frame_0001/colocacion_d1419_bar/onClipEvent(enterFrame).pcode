@@ -1,0 +1,45 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3239 fotograma 1, clip en profundidad 1419 (06960_DefineSprite_3239.bin, byte 12894)
+
+ 12922  ConstantPool (10)
+ 12990  Push "", 8, "_root"
+ 13002  GetVariable
+ 13003  Push "Krin"
+ 13008  GetMember
+ 13009  Push "ExpSets"
+ 13014  GetMember
+ 13015  Push "_root"
+ 13020  GetVariable
+ 13021  Push "Krin"
+ 13026  GetMember
+ 13027  Push "MenuPlayerSelect"
+ 13032  GetMember
+ 13033  GetMember
+ 13034  Push 100
+ 13042  Divide
+ 13043  Push 95.10000000000001
+ 13055  Multiply
+ 13056  SetProperty
+ 13057  Push "_parent"
+ 13062  GetVariable
+ 13063  Push "exp2", "_root"
+ 13070  GetVariable
+ 13071  Push "Krin"
+ 13076  GetMember
+ 13077  Push "ExpSets"
+ 13082  GetMember
+ 13083  Push "_root"
+ 13088  GetVariable
+ 13089  Push "Krin"
+ 13094  GetMember
+ 13095  Push "MenuPlayerSelect"
+ 13100  GetMember
+ 13101  GetMember
+ 13102  Push 1, "Math"
+ 13112  GetVariable
+ 13113  Push "round"
+ 13118  CallMethod
+ 13119  Push "%"
+ 13124  Add2
+ 13125  SetMember
+ 13126  End

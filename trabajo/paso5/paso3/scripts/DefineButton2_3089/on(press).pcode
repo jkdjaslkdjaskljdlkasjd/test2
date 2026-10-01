@@ -1,0 +1,17 @@
+// on(press)
+// origen: boton 3089 (06805_DefineButton2_3089.bin)
+
+    17  ConstantPool (4)
+    65  GoToLabel 'hide'
+    73  Push "_root"
+    78  GetVariable
+    79  Push "KrinScreen"
+    84  GetMember
+    85  Push "_visible", true
+    92  SetMember
+    93  Push 0, "_root"
+   107  GetVariable
+   108  Push "krinNavTutSpeech"
+   113  CallMethod
+   114  Pop
+   115  End

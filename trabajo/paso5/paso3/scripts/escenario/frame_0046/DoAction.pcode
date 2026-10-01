@@ -1,0 +1,230 @@
+// DoAction
+// origen: escenario fotograma 46, DoAction (05925_DoAction.bin)
+
+     0  ConstantPool (27)
+   257  DefineFunction2 "awardAch" (r1:achNum) regs=2 flags=0x2a {
+      284  Push register1, 1, "updateSonny2AchByIndex"
+      296  CallFunction
+      297  Pop
+      298  Push "achGet"
+      303  GetVariable
+      304  Push register1
+      309  GetMember
+      310  Push 1
+      318  Equals2
+      319  Not
+      320  Not
+      321  If loc424
+      326  Push "achGet"
+      331  GetVariable
+      332  Push register1, 1
+      342  SetMember
+      343  Push "achSlot"
+      348  GetVariable
+      349  Push "data"
+      354  GetMember
+      355  Push "achGet"
+      360  GetMember
+      361  Push register1, 1
+      371  SetMember
+      372  Push 0, "achSlot"
+      386  GetVariable
+      387  Push "flush"
+      392  CallMethod
+      393  Pop
+      394  Push 0, "ach_Display"
+      408  GetVariable
+      409  Push "play"
+      414  CallMethod
+      415  Pop
+      416  Push "achGlobal", register1
+      423  SetVariable
+        }
+   424  Push "whatToSayX", "_root"
+   431  GetVariable
+   432  Push "KrinLang"
+   437  GetMember
+   438  Push "KLangChoosen"
+   443  GetVariable
+   444  GetMember
+   445  Push "MENU"
+   450  GetMember
+   451  Push 26
+   459  GetMember
+   460  SetVariable
+   461  Push "arenaMode", false
+   468  SetVariable
+   469  Push "_root"
+   474  GetVariable
+   475  Push "winCondition", -1
+   485  SetMember
+   486  Push "_root"
+   491  GetVariable
+   492  Push "Krin"
+   497  GetMember
+   498  Push "bossMusic", false
+   505  SetMember
+   506  Push "achGet", 0, "Array"
+   522  NewObject
+   523  SetVariable
+   524  Push "achGet", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15
+   669  InitArray
+   670  SetVariable
+   671  Push "achSlot", "achSlot", 1, "SharedObject"
+   685  GetVariable
+   686  Push "getLocal"
+   691  CallMethod
+   692  DefineLocal
+   693  Push "achSlot"
+   698  GetVariable
+   699  Push "data"
+   704  GetMember
+   705  Push "achState"
+   710  GetMember
+   711  Push true
+   716  Equals2
+   717  Not
+   718  If loc846
+   723  Push "achGet"
+   728  GetVariable
+   729  Enumerate2
+   730  StoreRegister 0
+   734  Push null
+   738  Equals2
+   739  If loc841
+   744  Push "i", register0
+   751  SetVariable
+   752  Push "achGet"
+   757  GetVariable
+   758  Push "i"
+   763  GetVariable
+   764  Push "achSlot"
+   769  GetVariable
+   770  Push "data"
+   775  GetMember
+   776  Push "achGet"
+   781  GetMember
+   782  Push "i"
+   787  GetVariable
+   788  GetMember
+   789  SetMember
+   790  Push "achGet"
+   795  GetVariable
+   796  Push "i"
+   801  GetVariable
+   802  GetMember
+   803  Push 1
+   811  Equals2
+   812  Not
+   813  If loc836
+   818  Push "i"
+   823  GetVariable
+   824  Push 1, "updateSonny2AchByIndex"
+   834  CallFunction
+   835  Pop
+   836  Jump loc730
+   841  Jump loc968
+   846  Push "achSlot"
+   851  GetVariable
+   852  Push "data"
+   857  GetMember
+   858  Push "achState", true
+   865  SetMember
+   866  Push "achSlot"
+   871  GetVariable
+   872  Push "data"
+   877  GetMember
+   878  Push "achGet", 0, "Array"
+   894  NewObject
+   895  SetMember
+   896  Push "achGet"
+   901  GetVariable
+   902  Enumerate2
+   903  StoreRegister 0
+   907  Push null
+   911  Equals2
+   912  If loc968
+   917  Push "i", register0
+   924  SetVariable
+   925  Push "achSlot"
+   930  GetVariable
+   931  Push "data"
+   936  GetMember
+   937  Push "achGet"
+   942  GetMember
+   943  Push "i"
+   948  GetVariable
+   949  Push "achGet"
+   954  GetVariable
+   955  Push "i"
+   960  GetVariable
+   961  GetMember
+   962  SetMember
+   963  Jump loc903
+   968  Push 0, "achSlot"
+   982  GetVariable
+   983  Push "flush"
+   988  CallMethod
+   989  Pop
+   990  Stop
+   991  Push "whatToSay1", "_root"
+   998  GetVariable
+   999  Push "KrinLang"
+  1004  GetMember
+  1005  Push "KLangChoosen"
+  1010  GetVariable
+  1011  GetMember
+  1012  Push "MENU"
+  1017  GetMember
+  1018  Push 18
+  1026  GetMember
+  1027  SetVariable
+  1028  Push "whatToSay2", "_root"
+  1035  GetVariable
+  1036  Push "KrinLang"
+  1041  GetMember
+  1042  Push "KLangChoosen"
+  1047  GetVariable
+  1048  GetMember
+  1049  Push "MENU"
+  1054  GetMember
+  1055  Push 20
+  1063  GetMember
+  1064  SetVariable
+  1065  Push "whatToSay3", "_root"
+  1072  GetVariable
+  1073  Push "KrinLang"
+  1078  GetMember
+  1079  Push "KLangChoosen"
+  1084  GetVariable
+  1085  GetMember
+  1086  Push "MENU"
+  1091  GetMember
+  1092  Push 19
+  1100  GetMember
+  1101  SetVariable
+  1102  Push "whatToSay4", "_root"
+  1109  GetVariable
+  1110  Push "KrinLang"
+  1115  GetMember
+  1116  Push "KLangChoosen"
+  1121  GetVariable
+  1122  GetMember
+  1123  Push "MENU"
+  1128  GetMember
+  1129  Push 90
+  1137  GetMember
+  1138  SetVariable
+  1139  Push "whatToSay5", "_root"
+  1146  GetVariable
+  1147  Push "KrinLang"
+  1152  GetMember
+  1153  Push "KLangChoosen"
+  1158  GetVariable
+  1159  GetMember
+  1160  Push "MENU"
+  1165  GetMember
+  1166  Push 91
+  1174  GetMember
+  1175  SetVariable
+  1176  End

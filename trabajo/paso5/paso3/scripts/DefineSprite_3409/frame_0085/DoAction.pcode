@@ -1,0 +1,55 @@
+// DoAction
+// origen: DefineSprite_3409 fotograma 85, DoAction (07297_DefineSprite_3409.bin, byte 1675)
+
+  1675  ConstantPool (8)
+  1762  Push "_root"
+  1767  GetVariable
+  1768  Push "arenaMode"
+  1773  GetMember
+  1774  Not
+  1775  If loc1800
+  1780  Push "arenaEnd", 1, "_root"
+  1792  GetVariable
+  1793  Push "gotoAndStop"
+  1798  CallMethod
+  1799  Pop
+  1800  Push "_root"
+  1805  GetVariable
+  1806  Push "winCondition"
+  1811  GetMember
+  1812  Push 0
+  1824  Equals2
+  1825  Not
+  1826  If loc1851
+  1831  Push "loseCombat", 1, "_root"
+  1843  GetVariable
+  1844  Push "gotoAndStop"
+  1849  CallMethod
+  1850  Pop
+  1851  Push "_root"
+  1856  GetVariable
+  1857  Push "winCondition"
+  1862  GetMember
+  1863  Push 1
+  1871  Equals2
+  1872  Not
+  1873  If loc1898
+  1878  Push "winCombat", 1, "_root"
+  1890  GetVariable
+  1891  Push "gotoAndStop"
+  1896  CallMethod
+  1897  Pop
+  1898  Push "_root"
+  1903  GetVariable
+  1904  Push "winCondition"
+  1909  GetMember
+  1910  Push 2
+  1918  Equals2
+  1919  Not
+  1920  If loc1945
+  1925  Push "drawCombat", 1, "_root"
+  1937  GetVariable
+  1938  Push "gotoAndStop"
+  1943  CallMethod
+  1944  Pop
+  1945  End

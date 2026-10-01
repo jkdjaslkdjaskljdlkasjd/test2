@@ -1,0 +1,9 @@
+// on(release)
+// origen: boton 3417 (07412_DefineButton2_3417.bin)
+
+    17  StopSounds
+    18  Push "_root"
+    28  GetVariable
+    29  Push "cutSceneEnd", true
+    47  SetMember
+    48  End

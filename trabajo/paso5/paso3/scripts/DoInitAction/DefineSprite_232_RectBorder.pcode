@@ -1,0 +1,37 @@
+// DefineSprite_232_RectBorder
+// origen: DoInitAction del sprite 232 (03811_DoInitAction.bin)
+
+     2  ConstantPool (7)
+    73  Push "mx"
+    78  GetVariable
+    79  Push "skins"
+    84  GetMember
+    85  Push "RectBorder"
+    90  GetMember
+    91  Push 1, "Object"
+   101  CallFunction
+   102  Push "mx"
+   107  GetVariable
+   108  Push "skins"
+   113  GetMember
+   114  Push "RectBorder"
+   119  GetMember
+   120  Push "symbolName"
+   125  GetMember
+   126  Push 2, "mx"
+   136  GetVariable
+   137  Push "skins"
+   142  GetMember
+   143  Push "SkinElement"
+   148  GetMember
+   149  Push "registerElement"
+   154  CallMethod
+   155  Pop
+   156  Push "mx.skins.halo.RectBorder"
+   185  GetVariable
+   186  Push "RectBorder", 2, "Object"
+   214  GetVariable
+   215  Push "registerClass"
+   233  CallMethod
+   234  Pop
+   235  End

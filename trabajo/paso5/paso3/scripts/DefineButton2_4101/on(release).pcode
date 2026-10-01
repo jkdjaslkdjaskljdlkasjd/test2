@@ -1,0 +1,21 @@
+// on(release)
+// origen: boton 4101 (08330_DefineButton2_4101.bin)
+
+    17  ConstantPool (7)
+    83  Push "canUse"
+    88  GetVariable
+    89  Not
+    90  If loc136
+    95  Push "_root"
+   100  GetVariable
+   101  Push "Krin"
+   106  GetMember
+   107  Push "sectionIn", "sectionID"
+   114  GetVariable
+   115  SetMember
+   116  Push "Navigation", 1, "_root"
+   128  GetVariable
+   129  Push "gotoAndStop"
+   134  CallMethod
+   135  Pop
+   136  End

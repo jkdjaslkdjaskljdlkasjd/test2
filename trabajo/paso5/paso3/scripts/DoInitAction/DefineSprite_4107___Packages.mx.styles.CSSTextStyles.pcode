@@ -1,0 +1,398 @@
+// DefineSprite_4107___Packages.mx.styles.CSSTextStyles
+// origen: DoInitAction del sprite 4107 (03720_DoInitAction.bin)
+
+     2  ConstantPool (32)
+   302  Push "_global"
+   307  GetVariable
+   308  Push "mx"
+   313  GetMember
+   314  Not
+   315  Not
+   316  If loc345
+   321  Push "_global"
+   326  GetVariable
+   327  Push "mx", 0, "Object"
+   343  NewObject
+   344  SetMember
+   345  Pop
+   346  Push "_global"
+   351  GetVariable
+   352  Push "mx"
+   357  GetMember
+   358  Push "styles"
+   363  GetMember
+   364  Not
+   365  Not
+   366  If loc401
+   371  Push "_global"
+   376  GetVariable
+   377  Push "mx"
+   382  GetMember
+   383  Push "styles", 0, "Object"
+   399  NewObject
+   400  SetMember
+   401  Pop
+   402  Push "_global"
+   407  GetVariable
+   408  Push "mx"
+   413  GetMember
+   414  Push "styles"
+   419  GetMember
+   420  Push "CSSTextStyles"
+   425  GetMember
+   426  Not
+   427  Not
+   428  If loc1950
+   433  Push "mx"
+   438  GetVariable
+   439  Push "styles"
+   444  GetMember
+   445  Push "CSSTextStyles"
+   450  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   458  StoreRegister 1
+   462  SetMember
+   463  Push register1, "prototype"
+   470  GetMember
+   471  StoreRegister 2
+   475  Pop
+   476  Push register1, "addTextStyles"
+   483  DefineFunction2 "" (r2:o, r3:bColor) regs=4 flags=0x29 {
+      505  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+         519  Push register1, "_tf"
+         526  GetMember
+         527  Push undef
+         531  Equals2
+         532  Not
+         533  If loc558
+         538  Push register1, "_tf", 0, "TextFormat"
+         556  NewObject
+         557  SetMember
+         558  Push register1, "_tf"
+         565  GetMember
+         566  Push "align", register2
+         573  SetMember
+           }
+      574  DefineFunction2 "" () regs=2 flags=0x29 {
+         585  Push register1, "_tf"
+         592  GetMember
+         593  Push "align"
+         598  GetMember
+         599  Return
+           }
+      600  Push "textAlign", 3, register2, "addProperty"
+      614  CallMethod
+      615  Pop
+      616  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+         630  Push register1, "_tf"
+         637  GetMember
+         638  Push undef
+         642  Equals2
+         643  Not
+         644  If loc669
+         649  Push register1, "_tf", 0, "TextFormat"
+         667  NewObject
+         668  SetMember
+         669  Push register1, "_tf"
+         676  GetMember
+         677  Push "bold", register2, "bold"
+         686  Equals2
+         687  SetMember
+           }
+      688  DefineFunction2 "" () regs=2 flags=0x29 {
+         699  Push register1, "_tf"
+         706  GetMember
+         707  Push "bold"
+         712  GetMember
+         713  Push undef
+         717  Equals2
+         718  Not
+         719  If loc733
+         724  Push undef
+         728  Jump loc767
+         733  Push register1, "_tf"
+         740  GetMember
+         741  Push "bold"
+         746  GetMember
+         747  If loc762
+         752  Push "none"
+         757  Jump loc767
+         762  Push "bold"
+         767  Return
+           }
+      768  Push "fontWeight", 3, register2, "addProperty"
+      782  CallMethod
+      783  Pop
+      784  Push register3
+      789  Not
+      790  If loc906
+      795  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+         809  Push register1, "_tf"
+         816  GetMember
+         817  Push undef
+         821  Equals2
+         822  Not
+         823  If loc848
+         828  Push register1, "_tf", 0, "TextFormat"
+         846  NewObject
+         847  SetMember
+         848  Push register1, "_tf"
+         855  GetMember
+         856  Push "color", register2
+         863  SetMember
+           }
+      864  DefineFunction2 "" () regs=2 flags=0x29 {
+         875  Push register1, "_tf"
+         882  GetMember
+         883  Push "color"
+         888  GetMember
+         889  Return
+           }
+      890  Push "color", 3, register2, "addProperty"
+      904  CallMethod
+      905  Pop
+      906  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+         920  Push register1, "_tf"
+         927  GetMember
+         928  Push undef
+         932  Equals2
+         933  Not
+         934  If loc959
+         939  Push register1, "_tf", 0, "TextFormat"
+         957  NewObject
+         958  SetMember
+         959  Push register1, "_tf"
+         966  GetMember
+         967  Push "font", register2
+         974  SetMember
+           }
+      975  DefineFunction2 "" () regs=2 flags=0x29 {
+         986  Push register1, "_tf"
+         993  GetMember
+         994  Push "font"
+         999  GetMember
+        1000  Return
+           }
+     1001  Push "fontFamily", 3, register2, "addProperty"
+     1015  CallMethod
+     1016  Pop
+     1017  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1031  Push register1, "_tf"
+        1038  GetMember
+        1039  Push undef
+        1043  Equals2
+        1044  Not
+        1045  If loc1070
+        1050  Push register1, "_tf", 0, "TextFormat"
+        1068  NewObject
+        1069  SetMember
+        1070  Push register1, "_tf"
+        1077  GetMember
+        1078  Push "indent", register2
+        1085  SetMember
+           }
+     1086  DefineFunction2 "" () regs=2 flags=0x29 {
+        1097  Push register1, "_tf"
+        1104  GetMember
+        1105  Push "indent"
+        1110  GetMember
+        1111  Return
+           }
+     1112  Push "textIndent", 3, register2, "addProperty"
+     1126  CallMethod
+     1127  Pop
+     1128  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1142  Push register1, "_tf"
+        1149  GetMember
+        1150  Push undef
+        1154  Equals2
+        1155  Not
+        1156  If loc1181
+        1161  Push register1, "_tf", 0, "TextFormat"
+        1179  NewObject
+        1180  SetMember
+        1181  Push register1, "_tf"
+        1188  GetMember
+        1189  Push "italic", register2, "italic"
+        1198  Equals2
+        1199  SetMember
+           }
+     1200  DefineFunction2 "" () regs=2 flags=0x29 {
+        1211  Push register1, "_tf"
+        1218  GetMember
+        1219  Push "italic"
+        1224  GetMember
+        1225  Push undef
+        1229  Equals2
+        1230  Not
+        1231  If loc1245
+        1236  Push undef
+        1240  Jump loc1279
+        1245  Push register1, "_tf"
+        1252  GetMember
+        1253  Push "italic"
+        1258  GetMember
+        1259  If loc1274
+        1264  Push "none"
+        1269  Jump loc1279
+        1274  Push "italic"
+        1279  Return
+           }
+     1280  Push "fontStyle", 3, register2, "addProperty"
+     1294  CallMethod
+     1295  Pop
+     1296  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1310  Push register1, "_tf"
+        1317  GetMember
+        1318  Push undef
+        1322  Equals2
+        1323  Not
+        1324  If loc1349
+        1329  Push register1, "_tf", 0, "TextFormat"
+        1347  NewObject
+        1348  SetMember
+        1349  Push register1, "_tf"
+        1356  GetMember
+        1357  Push "leftMargin", register2
+        1364  SetMember
+           }
+     1365  DefineFunction2 "" () regs=2 flags=0x29 {
+        1376  Push register1, "_tf"
+        1383  GetMember
+        1384  Push "leftMargin"
+        1389  GetMember
+        1390  Return
+           }
+     1391  Push "marginLeft", 3, register2, "addProperty"
+     1405  CallMethod
+     1406  Pop
+     1407  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1421  Push register1, "_tf"
+        1428  GetMember
+        1429  Push undef
+        1433  Equals2
+        1434  Not
+        1435  If loc1460
+        1440  Push register1, "_tf", 0, "TextFormat"
+        1458  NewObject
+        1459  SetMember
+        1460  Push register1, "_tf"
+        1467  GetMember
+        1468  Push "rightMargin", register2
+        1475  SetMember
+           }
+     1476  DefineFunction2 "" () regs=2 flags=0x29 {
+        1487  Push register1, "_tf"
+        1494  GetMember
+        1495  Push "rightMargin"
+        1500  GetMember
+        1501  Return
+           }
+     1502  Push "marginRight", 3, register2, "addProperty"
+     1516  CallMethod
+     1517  Pop
+     1518  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1532  Push register1, "_tf"
+        1539  GetMember
+        1540  Push undef
+        1544  Equals2
+        1545  Not
+        1546  If loc1571
+        1551  Push register1, "_tf", 0, "TextFormat"
+        1569  NewObject
+        1570  SetMember
+        1571  Push register1, "_tf"
+        1578  GetMember
+        1579  Push "size", register2
+        1586  SetMember
+           }
+     1587  DefineFunction2 "" () regs=2 flags=0x29 {
+        1598  Push register1, "_tf"
+        1605  GetMember
+        1606  Push "size"
+        1611  GetMember
+        1612  Return
+           }
+     1613  Push "fontSize", 3, register2, "addProperty"
+     1627  CallMethod
+     1628  Pop
+     1629  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1643  Push register1, "_tf"
+        1650  GetMember
+        1651  Push undef
+        1655  Equals2
+        1656  Not
+        1657  If loc1682
+        1662  Push register1, "_tf", 0, "TextFormat"
+        1680  NewObject
+        1681  SetMember
+        1682  Push register1, "_tf"
+        1689  GetMember
+        1690  Push "underline", register2, "underline"
+        1699  Equals2
+        1700  SetMember
+           }
+     1701  DefineFunction2 "" () regs=2 flags=0x29 {
+        1712  Push register1, "_tf"
+        1719  GetMember
+        1720  Push "underline"
+        1725  GetMember
+        1726  Push undef
+        1730  Equals2
+        1731  Not
+        1732  If loc1746
+        1737  Push undef
+        1741  Jump loc1780
+        1746  Push register1, "_tf"
+        1753  GetMember
+        1754  Push "underline"
+        1759  GetMember
+        1760  If loc1775
+        1765  Push "none"
+        1770  Jump loc1780
+        1775  Push "underline"
+        1780  Return
+           }
+     1781  Push "textDecoration", 3, register2, "addProperty"
+     1795  CallMethod
+     1796  Pop
+     1797  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+        1811  Push register1, "_tf"
+        1818  GetMember
+        1819  Push undef
+        1823  Equals2
+        1824  Not
+        1825  If loc1850
+        1830  Push register1, "_tf", 0, "TextFormat"
+        1848  NewObject
+        1849  SetMember
+        1850  Push register1, "_tf"
+        1857  GetMember
+        1858  Push "embedFonts", register2
+        1865  SetMember
+           }
+     1866  DefineFunction2 "" () regs=2 flags=0x29 {
+        1877  Push register1, "_tf"
+        1884  GetMember
+        1885  Push "embedFonts"
+        1890  GetMember
+        1891  Return
+           }
+     1892  Push "embedFonts", 3, register2, "addProperty"
+     1906  CallMethod
+     1907  Pop
+        }
+  1908  SetMember
+  1909  Push 1, null, "mx"
+  1920  GetVariable
+  1921  Push "styles"
+  1926  GetMember
+  1927  Push "CSSTextStyles"
+  1932  GetMember
+  1933  Push "prototype"
+  1938  GetMember
+  1939  Push 3, "ASSetPropFlags"
+  1949  CallFunction
+  1950  Pop
+  1951  End

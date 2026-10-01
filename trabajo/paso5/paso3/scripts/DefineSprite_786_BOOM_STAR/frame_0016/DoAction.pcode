@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_786_BOOM_STAR fotograma 16, DoAction (01198_DefineSprite_786.bin, byte 164)
+
+   164  Push "", "this"
+   175  GetVariable
+   176  GetURL2 64
+   180  End

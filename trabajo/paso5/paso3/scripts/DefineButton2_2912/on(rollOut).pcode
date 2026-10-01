@@ -1,0 +1,33 @@
+// on(rollOut)
+// origen: boton 2912 (06608_DefineButton2_2912.bin)
+
+   861  ConstantPool (10)
+   951  Push "STOP", 1, "ui_but3"
+   963  GetVariable
+   964  Push "gotoAndPlay"
+   969  CallMethod
+   970  Pop
+   971  Push "_root"
+   976  GetVariable
+   977  Push "thereIsASlotSelected", false
+   984  SetMember
+   985  Push "_root"
+   990  GetVariable
+   991  Push "KrinToolTipper"
+   996  GetMember
+   997  Push "tt", ""
+  1004  SetMember
+  1005  Push "_root"
+  1010  GetVariable
+  1011  Push "KrinToolTipper"
+  1016  GetMember
+  1017  Push "t", ""
+  1024  SetMember
+  1025  Push 1, 1, "_root"
+  1040  GetVariable
+  1041  Push "KrinToolTipper"
+  1046  GetMember
+  1047  Push "gotoAndStop"
+  1052  CallMethod
+  1053  Pop
+  1054  End

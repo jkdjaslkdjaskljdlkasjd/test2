@@ -1,0 +1,55 @@
+// on(press)
+// origen: boton 3296 (07100_DefineButton2_3296.bin)
+
+    17  ConstantPool (14)
+   163  Push "_root"
+   168  GetVariable
+   169  Push "playerToLoadforPvP"
+   174  GetMember
+   175  Push "navText2"
+   180  GetVariable
+   181  Push 2, "_root"
+   191  GetVariable
+   192  Push "loadPvPCode"
+   197  CallMethod
+   198  Pop
+   199  Push "_root"
+   204  GetVariable
+   205  Push "PvP_LOAD_SUCCESS"
+   210  GetMember
+   211  Not
+   212  If loc299
+   217  Push "START", 1, "this"
+   229  GetVariable
+   230  Push "gotoAndStop"
+   235  CallMethod
+   236  Pop
+   237  Push "", 7, false
+   249  SetProperty
+   250  Push "_root"
+   255  GetVariable
+   256  Push "PvPCodeLode", false
+   263  SetMember
+   264  Push 0, "_root"
+   278  GetVariable
+   279  Push "refreshArenaUI"
+   284  CallMethod
+   285  Pop
+   286  Push "navText2", ""
+   293  SetVariable
+   294  Jump loc342
+   299  Push "navText2", "_root"
+   306  GetVariable
+   307  Push "KrinLang"
+   312  GetMember
+   313  Push "_root"
+   318  GetVariable
+   319  Push "KLangChoosen"
+   324  GetMember
+   325  GetMember
+   326  Push "MENU"
+   331  GetMember
+   332  Push 71
+   340  GetMember
+   341  SetVariable
+   342  End

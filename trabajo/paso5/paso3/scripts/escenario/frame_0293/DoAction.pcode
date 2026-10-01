@@ -1,0 +1,8 @@
+// DoAction
+// origen: escenario fotograma 293, DoAction (07454_DoAction.bin)
+
+     0  Push "_root"
+    10  GetVariable
+    11  Push "gotoSceneKrin", "IntroSeq2"
+    40  SetMember
+    41  End

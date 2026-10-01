@@ -1,0 +1,13 @@
+// DoAction
+// origen: escenario fotograma 45, DoAction (05912_DoAction.bin)
+
+     0  Push "isDebugMode"
+    16  GetVariable
+    17  Not
+    18  Not
+    19  If loc25
+    24  Stop
+    25  Push "Sonny 2 Client Connected", 1, "sendWrapperMessage"
+    79  CallFunction
+    80  Pop
+    81  End

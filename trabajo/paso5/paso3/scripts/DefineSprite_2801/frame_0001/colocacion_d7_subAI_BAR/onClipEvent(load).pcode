@@ -1,0 +1,27 @@
+// onClipEvent(load)
+// origen: DefineSprite_2801 fotograma 1, clip en profundidad 7 (06489_DefineSprite_2801.bin, byte 119)
+
+   153  ConstantPool (9)
+   219  Push "HIDE", 1, "this"
+   231  GetVariable
+   232  Push "gotoAndStop"
+   237  CallMethod
+   238  Pop
+   239  Push "save_x1", "", 0
+   255  GetProperty
+   256  SetVariable
+   257  Push "save_x2", 83.60000000000001
+   271  SetVariable
+   272  Push "_root"
+   277  GetVariable
+   278  Push "Krin"
+   283  GetMember
+   284  Push "BattlePick"
+   289  GetMember
+   290  Push 2
+   298  Equals2
+   299  Not
+   300  If loc318
+   305  Push "", 7, false
+   317  SetProperty
+   318  End

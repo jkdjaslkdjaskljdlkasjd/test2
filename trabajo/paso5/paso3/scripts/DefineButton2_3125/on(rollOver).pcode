@@ -1,0 +1,126 @@
+// on(rollOver)
+// origen: boton 3125 (06841_DefineButton2_3125.bin)
+
+   482  ConstantPool (20)
+   662  Push "_root"
+   667  GetVariable
+   668  Push "thereIsASlotSelected", true
+   675  SetMember
+   676  Push "_root"
+   681  GetVariable
+   682  Push "KrinToolTipper"
+   687  GetMember
+   688  Push "colorChange", "Common"
+   695  SetMember
+   696  Push "_root"
+   701  GetVariable
+   702  Push "KrinToolTipper"
+   707  GetMember
+   708  Push "colorChange"
+   713  GetMember
+   714  Push "_root"
+   719  GetVariable
+   720  Push "KrinToolTipper"
+   725  GetMember
+   726  Push "fontBacker2"
+   731  GetMember
+   732  Push 2, "_root"
+   742  GetVariable
+   743  Push "krinChangeColor"
+   748  CallMethod
+   749  Pop
+   750  Push "_root"
+   755  GetVariable
+   756  Push "KrinToolTipper"
+   761  GetMember
+   762  Push "tt", "_root"
+   769  GetVariable
+   770  Push "KrinLang"
+   775  GetMember
+   776  Push "_root"
+   781  GetVariable
+   782  Push "KLangChoosen"
+   787  GetMember
+   788  GetMember
+   789  Push "MENU"
+   794  GetMember
+   795  Push 3
+   803  GetMember
+   804  SetMember
+   805  Push "_root"
+   810  GetVariable
+   811  Push "Krin"
+   816  GetMember
+   817  Push "mouseItem"
+   822  GetMember
+   823  Push 0
+   835  Equals2
+   836  Not
+   837  Not
+   838  If loc977
+   843  Push "_root"
+   848  GetVariable
+   849  Push "KrinToolTipper"
+   854  GetMember
+   855  Push "t", "_root"
+   862  GetVariable
+   863  Push "KrinLang"
+   868  GetMember
+   869  Push "_root"
+   874  GetVariable
+   875  Push "KLangChoosen"
+   880  GetMember
+   881  GetMember
+   882  Push "MENU"
+   887  GetMember
+   888  Push 4
+   896  GetMember
+   897  Push " €"
+   902  Add2
+   903  Push "_root"
+   908  GetVariable
+   909  Push "KRINITEM", "_root"
+   916  GetVariable
+   917  Push "Krin"
+   922  GetMember
+   923  Push "mouseItem"
+   928  GetMember
+   929  Add2
+   930  GetMember
+   931  Push 5
+   939  GetMember
+   940  Push 0.15
+   952  Multiply
+   953  Push 1, "Math"
+   963  GetVariable
+   964  Push "ceil"
+   969  CallMethod
+   970  Add2
+   971  SetMember
+   972  Jump loc1032
+   977  Push "_root"
+   982  GetVariable
+   983  Push "KrinToolTipper"
+   988  GetMember
+   989  Push "t", "_root"
+   996  GetVariable
+   997  Push "KrinLang"
+  1002  GetMember
+  1003  Push "_root"
+  1008  GetVariable
+  1009  Push "KLangChoosen"
+  1014  GetMember
+  1015  GetMember
+  1016  Push "MENU"
+  1021  GetMember
+  1022  Push 5
+  1030  GetMember
+  1031  SetMember
+  1032  Push "GO", 1, "_root"
+  1044  GetVariable
+  1045  Push "KrinToolTipper"
+  1050  GetMember
+  1051  Push "gotoAndStop"
+  1056  CallMethod
+  1057  Pop
+  1058  End

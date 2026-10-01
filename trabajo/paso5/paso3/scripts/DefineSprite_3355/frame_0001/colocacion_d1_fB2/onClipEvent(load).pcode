@@ -1,0 +1,7 @@
+// onClipEvent(load)
+// origen: DefineSprite_3355 fotograma 1, clip en profundidad 1 (07218_DefineSprite_3355.bin, byte 20)
+
+    52  Push "wsaver", "", 8
+    70  GetProperty
+    71  SetVariable
+    72  End

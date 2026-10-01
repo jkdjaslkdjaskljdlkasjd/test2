@@ -1,0 +1,81 @@
+// DoAction_2
+// origen: DefineSprite_3239 fotograma 45, DoAction (06960_DefineSprite_3239.bin, byte 42167)
+
+ 42167  ConstantPool (12)
+ 42260  Push "achTit", "_root"
+ 42267  GetVariable
+ 42268  Push "KrinLang"
+ 42273  GetMember
+ 42274  Push "_root"
+ 42279  GetVariable
+ 42280  Push "KLangChoosen"
+ 42285  GetMember
+ 42286  GetMember
+ 42287  Push "ACHSAY"
+ 42292  GetMember
+ 42293  Push 1
+ 42301  GetMember
+ 42302  SetVariable
+ 42303  Push "_root"
+ 42308  GetVariable
+ 42309  Push "achGet"
+ 42314  GetMember
+ 42315  Enumerate2
+ 42316  StoreRegister 0
+ 42320  Push null
+ 42324  Equals2
+ 42325  If loc42492
+ 42330  Push "i", register0
+ 42337  SetVariable
+ 42338  Push "this"
+ 42343  GetVariable
+ 42344  Push "achPlate", "i"
+ 42351  GetVariable
+ 42352  Add2
+ 42353  GetMember
+ 42354  Push "achNum", "i"
+ 42361  GetVariable
+ 42362  SetMember
+ 42363  Push "this"
+ 42368  GetVariable
+ 42369  Push "achPlate", "i"
+ 42376  GetVariable
+ 42377  Add2
+ 42378  GetMember
+ 42379  Push "achTit", "_root"
+ 42386  GetVariable
+ 42387  Push "KrinLang"
+ 42392  GetMember
+ 42393  Push "_root"
+ 42398  GetVariable
+ 42399  Push "KLangChoosen"
+ 42404  GetMember
+ 42405  GetMember
+ 42406  Push "ACH"
+ 42411  GetMember
+ 42412  Push "i"
+ 42417  GetVariable
+ 42418  GetMember
+ 42419  SetMember
+ 42420  Push "_root"
+ 42425  GetVariable
+ 42426  Push "achGet"
+ 42431  GetMember
+ 42432  Push "i"
+ 42437  GetVariable
+ 42438  GetMember
+ 42439  Push 1
+ 42447  Equals2
+ 42448  Not
+ 42449  If loc42487
+ 42454  Push 2, 1, "this"
+ 42469  GetVariable
+ 42470  Push "achPlate", "i"
+ 42477  GetVariable
+ 42478  Add2
+ 42479  GetMember
+ 42480  Push "gotoAndStop"
+ 42485  CallMethod
+ 42486  Pop
+ 42487  Jump loc42316
+ 42492  End

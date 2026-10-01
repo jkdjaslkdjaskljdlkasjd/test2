@@ -1,0 +1,1695 @@
+// DoAction
+// origen: escenario fotograma 201, DoAction (07127_DoAction.bin)
+
+     0  Push 0
+     8  Push "_root"
+    18  GetVariable
+    19  Push "__v8Sync"
+    32  CallMethod
+    33  Pop
+    34  ConstantPool (182)
+  1746  DefineFunction2 "updateStat_Player" (r2:theGuy) regs=3 flags=0x6a {
+     1782  Push register1, register2
+     1789  GetMember
+     1790  Push "abilityCoolDown", 0, 0, 0, 0, 0, 0, 0, 0, 8
+     1872  InitArray
+     1873  SetMember
+     1874  Push "shtName"
+     1879  GetVariable
+     1880  Push "active", true
+     1887  SetMember
+     1888  Push register1, register2
+     1895  GetMember
+     1896  Push "buffAdderMatrix"
+     1901  GetMember
+     1902  Enumerate2
+     1903  StoreRegister 0
+     1907  Push null
+     1911  Equals2
+     1912  If loc2016
+     1917  Push "krinyt", register0
+     1924  SetVariable
+     1925  Push register1, register2
+     1932  GetMember
+     1933  Push "buffAdderMatrix"
+     1938  GetMember
+     1939  Push "krinyt"
+     1944  GetVariable
+     1945  GetMember
+     1946  Push 0
+     1958  Equals2
+     1959  Not
+     1960  Not
+     1961  If loc2011
+     1966  Push register1, register2
+     1973  GetMember
+     1974  Push "buffAdderMatrix"
+     1979  GetMember
+     1980  Push "krinyt"
+     1985  GetVariable
+     1986  GetMember
+     1987  Push 1, "shtName"
+     1997  GetVariable
+     1998  Push "passiveBuffs"
+     2003  GetMember
+     2004  Push "push"
+     2009  CallMethod
+     2010  Pop
+     2011  Jump loc1903
+     2016  Push "shtName"
+     2021  GetVariable
+     2022  Push "STRENGTHU", "shtName"
+     2029  GetVariable
+     2030  Push "STRENGTH", register1, register2
+     2039  GetMember
+     2040  Push "STRENGTH"
+     2045  GetMember
+     2046  StoreRegister 0
+     2050  SetMember
+     2051  Push register0
+     2056  SetMember
+     2057  Push "shtName"
+     2062  GetVariable
+     2063  Push "SPEEDU", "shtName"
+     2070  GetVariable
+     2071  Push "SPEED", register1, register2
+     2080  GetMember
+     2081  Push "SPEED"
+     2086  GetMember
+     2087  StoreRegister 0
+     2091  SetMember
+     2092  Push register0
+     2097  SetMember
+     2098  Push "shtName"
+     2103  GetVariable
+     2104  Push "LIFEU", "shtName"
+     2111  GetVariable
+     2112  Push "LIFE", register1, register2
+     2121  GetMember
+     2122  Push "LIFE"
+     2127  GetMember
+     2128  Push "vitLifeFactor"
+     2133  GetVariable
+     2134  Multiply
+     2135  StoreRegister 0
+     2139  SetMember
+     2140  Push register0, 1, "Math"
+     2152  GetVariable
+     2153  Push "round"
+     2158  CallMethod
+     2159  SetMember
+     2160  Push "shtName"
+     2165  GetVariable
+     2166  Push "MAGICU", "shtName"
+     2173  GetVariable
+     2174  Push "MAGIC", register1, register2
+     2183  GetMember
+     2184  Push "MAGIC"
+     2189  GetMember
+     2190  StoreRegister 0
+     2194  SetMember
+     2195  Push register0
+     2200  SetMember
+     2201  Push "shtName"
+     2206  GetVariable
+     2207  Push "FOCUSU", "shtName"
+     2214  GetVariable
+     2215  Push "FOCUS", register1, register2
+     2224  GetMember
+     2225  Push "FOCUS"
+     2230  GetMember
+     2231  StoreRegister 0
+     2235  SetMember
+     2236  Push register0
+     2241  SetMember
+     2242  Push "shtName"
+     2247  GetVariable
+     2248  Push "FOCUSN", "shtName"
+     2255  GetVariable
+     2256  Push "FOCUSU"
+     2261  GetMember
+     2262  SetMember
+     2263  Push "shtName"
+     2268  GetVariable
+     2269  Push "LIFEN", "shtName"
+     2276  GetVariable
+     2277  Push "LIFEU"
+     2282  GetMember
+     2283  SetMember
+     2284  Push "shtName"
+     2289  GetVariable
+     2290  Push "plevel", register1, register2
+     2299  GetMember
+     2300  Push "LevelStats"
+     2305  GetMember
+     2306  Push 0
+     2318  GetMember
+     2319  SetMember
+     2320  Push "shtName"
+     2325  GetVariable
+     2326  Push "voiceHit", 0, "Array"
+     2342  NewObject
+     2343  SetMember
+     2344  Push "shtName"
+     2349  GetVariable
+     2350  Push "voiceHit"
+     2355  GetMember
+     2356  Push 0, "hit_monster1"
+     2370  SetMember
+     2371  Push "shtName"
+     2376  GetVariable
+     2377  Push "voiceHit"
+     2382  GetMember
+     2383  Push 1, "hit_monster2"
+     2393  SetMember
+     2394  Push "shtName"
+     2399  GetVariable
+     2400  Push "voiceHit"
+     2405  GetMember
+     2406  Push 2, "hit_monster3"
+     2416  SetMember
+     2417  Push "shtName"
+     2422  GetVariable
+     2423  Push "voiceDie", "dead_monster"
+     2430  SetMember
+     2431  Push "shtName"
+     2436  GetVariable
+     2437  Push "model", "Krin"
+     2444  GetVariable
+     2445  Push "gArray"
+     2450  GetMember
+     2451  Push "Krin"
+     2456  GetVariable
+     2457  Push "GSet"
+     2462  GetMember
+     2463  Push 0
+     2475  GetMember
+     2476  GetMember
+     2477  Push "Krin"
+     2482  GetVariable
+     2483  Push "hairArray"
+     2488  GetMember
+     2489  Push "Krin"
+     2494  GetVariable
+     2495  Push "HairSet"
+     2500  GetMember
+     2501  Push 0
+     2513  GetMember
+     2514  GetMember
+     2515  Push "Krin"
+     2520  GetVariable
+     2521  Push "skinArray"
+     2526  GetMember
+     2527  Push "Krin"
+     2532  GetVariable
+     2533  Push "SkinSet"
+     2538  GetMember
+     2539  Push 0
+     2551  GetMember
+     2552  GetMember
+     2553  Push "MODEL1", 4
+     2563  InitArray
+     2564  SetMember
+     2565  Push "thte", 0
+     2579  SetVariable
+     2580  Push "thte"
+     2585  GetVariable
+     2586  Push 7
+     2594  Less2
+     2595  Not
+     2596  If loc2745
+     2601  Push register1, register2
+     2608  GetMember
+     2609  Push "equipArray0"
+     2614  GetMember
+     2615  Push "thte"
+     2620  GetVariable
+     2621  GetMember
+     2622  Push 0
+     2634  Equals2
+     2635  Not
+     2636  Not
+     2637  If loc2699
+     2642  Push "shtName"
+     2647  GetVariable
+     2648  Push "equip"
+     2653  GetMember
+     2654  Push "thte"
+     2659  GetVariable
+     2660  Push register1, "KRINITEM", register1, register2
+     2671  GetMember
+     2672  Push "equipArray0"
+     2677  GetMember
+     2678  Push "thte"
+     2683  GetVariable
+     2684  GetMember
+     2685  Add2
+     2686  GetMember
+     2687  Push "looks"
+     2692  GetMember
+     2693  SetMember
+     2694  Jump loc2730
+     2699  Push "shtName"
+     2704  GetVariable
+     2705  Push "equip"
+     2710  GetMember
+     2711  Push "thte"
+     2716  GetVariable
+     2717  Push 0
+     2729  SetMember
+     2730  Push "thte", "thte"
+     2737  GetVariable
+     2738  Increment
+     2739  SetVariable
+     2740  Jump loc2580
+     2745  Push register1, "arenaMode"
+     2752  GetMember
+     2753  Not
+     2754  If loc2962
+     2759  Push "u_i_o", 0
+     2773  SetVariable
+     2774  Push "u_i_o"
+     2779  GetVariable
+     2780  Push 8
+     2788  Less2
+     2789  Not
+     2790  If loc2962
+     2795  Push register1, register2
+     2802  GetMember
+     2803  Push "PER"
+     2808  GetMember
+     2809  Push register1, "elementMainArray"
+     2816  GetMember
+     2817  Push "u_i_o"
+     2822  GetVariable
+     2823  GetMember
+     2824  Push 100, 15, "shtName"
+     2839  GetVariable
+     2840  Push "plevel"
+     2845  GetMember
+     2846  Multiply
+     2847  Add2
+     2848  Push register1, register2
+     2855  GetMember
+     2856  Push "PerSets0"
+     2861  GetMember
+     2862  Push "u_i_o"
+     2867  GetVariable
+     2868  GetMember
+     2869  Add2
+     2870  SetMember
+     2871  Push register1, register2
+     2878  GetMember
+     2879  Push "DEF"
+     2884  GetMember
+     2885  Push register1, "elementMainArray"
+     2892  GetMember
+     2893  Push "u_i_o"
+     2898  GetVariable
+     2899  GetMember
+     2900  Push 100, 15, "shtName"
+     2915  GetVariable
+     2916  Push "plevel"
+     2921  GetMember
+     2922  Multiply
+     2923  Add2
+     2924  Push register1, register2
+     2931  GetMember
+     2932  Push "DefSets0"
+     2937  GetMember
+     2938  Push "u_i_o"
+     2943  GetVariable
+     2944  GetMember
+     2945  Add2
+     2946  SetMember
+     2947  Push "u_i_o", "u_i_o"
+     2954  GetVariable
+     2955  Increment
+     2956  SetVariable
+     2957  Jump loc2774
+     2962  Push "wefjnew", 0
+     2976  SetVariable
+     2977  Push "wefjnew"
+     2982  GetVariable
+     2983  Push 8
+     2991  Less2
+     2992  Not
+     2993  If loc3203
+     2998  Push "shtName"
+     3003  GetVariable
+     3004  Push "PER"
+     3009  GetMember
+     3010  Push register1, "elementMainArray"
+     3017  GetMember
+     3018  Push "wefjnew"
+     3023  GetVariable
+     3024  GetMember
+     3025  Push "shtName"
+     3030  GetVariable
+     3031  Push "PERU"
+     3036  GetMember
+     3037  Push register1, "elementMainArray"
+     3044  GetMember
+     3045  Push "wefjnew"
+     3050  GetVariable
+     3051  GetMember
+     3052  Push register1, register2
+     3059  GetMember
+     3060  Push "PER"
+     3065  GetMember
+     3066  Push register1, "elementMainArray"
+     3073  GetMember
+     3074  Push "wefjnew"
+     3079  GetVariable
+     3080  GetMember
+     3081  GetMember
+     3082  StoreRegister 0
+     3086  SetMember
+     3087  Push register0
+     3092  SetMember
+     3093  Push "shtName"
+     3098  GetVariable
+     3099  Push "DEF"
+     3104  GetMember
+     3105  Push register1, "elementMainArray"
+     3112  GetMember
+     3113  Push "wefjnew"
+     3118  GetVariable
+     3119  GetMember
+     3120  Push "shtName"
+     3125  GetVariable
+     3126  Push "DEFU"
+     3131  GetMember
+     3132  Push register1, "elementMainArray"
+     3139  GetMember
+     3140  Push "wefjnew"
+     3145  GetVariable
+     3146  GetMember
+     3147  Push register1, register2
+     3154  GetMember
+     3155  Push "DEF"
+     3160  GetMember
+     3161  Push register1, "elementMainArray"
+     3168  GetMember
+     3169  Push "wefjnew"
+     3174  GetVariable
+     3175  GetMember
+     3176  GetMember
+     3177  StoreRegister 0
+     3181  SetMember
+     3182  Push register0
+     3187  SetMember
+     3188  Push "wefjnew", "wefjnew"
+     3195  GetVariable
+     3196  Increment
+     3197  SetVariable
+     3198  Jump loc2977
+        }
+  3203  Push "Krin"
+  3208  GetVariable
+  3209  Push "progressFight"
+  3214  GetMember
+  3215  Not
+  3216  PushDuplicate
+  3217  Not
+  3218  If loc3245
+  3223  Pop
+  3224  Push "Krin"
+  3229  GetVariable
+  3230  Push "BattlePick"
+  3235  GetMember
+  3236  Push 2
+  3244  Greater
+  3245  Not
+  3246  If loc3273
+  3251  Push "Krin"
+  3256  GetVariable
+  3257  Push "numberOfTrainingUsed", "Krin"
+  3264  GetVariable
+  3265  Push "numberOfTrainingUsed"
+  3270  GetMember
+  3271  Increment
+  3272  SetMember
+  3273  Push "KRS", 0, "Array"
+  3289  NewObject
+  3290  SetVariable
+  3291  Push "r", 0
+  3305  SetVariable
+  3306  Push "r"
+  3311  GetVariable
+  3312  Push 100
+  3320  Less2
+  3321  Not
+  3322  If loc3364
+  3327  Push "KRS"
+  3332  GetVariable
+  3333  Push "r"
+  3338  GetVariable
+  3339  Push 100
+  3347  RandomNumber
+  3348  SetMember
+  3349  Push "r", "r"
+  3356  GetVariable
+  3357  Increment
+  3358  SetVariable
+  3359  Jump loc3306
+  3364  Push "KRSC", 0
+  3378  SetVariable
+  3379  Push "arenaMode"
+  3384  GetVariable
+  3385  Not
+  3386  Not
+  3387  If loc3484
+  3392  Push "Krin"
+  3397  GetVariable
+  3398  Push "difficulty"
+  3403  GetMember
+  3404  Push 0
+  3416  Equals2
+  3417  Not
+  3418  If loc3436
+  3423  Push "turnBasedKrin", true
+  3430  SetVariable
+  3431  Jump loc3484
+  3436  Push "Krin"
+  3441  GetVariable
+  3442  Push "difficulty"
+  3447  GetMember
+  3448  Push 1
+  3456  Equals2
+  3457  Not
+  3458  If loc3476
+  3463  Push "turnBasedKrin", true
+  3470  SetVariable
+  3471  Jump loc3484
+  3476  Push "turnBasedKrin", false
+  3483  SetVariable
+  3484  Push "AchVal1", 0
+  3498  DefineLocal
+  3499  Push "AchVal2", false
+  3506  DefineLocal
+  3507  Push "AchVal3", 0
+  3521  DefineLocal
+  3522  Push "AchVal4", 0
+  3536  DefineLocal
+  3537  Push "_root"
+  3542  GetVariable
+  3543  Push "moneyConstGain", 0
+  3557  SetMember
+  3558  Push "_root"
+  3563  GetVariable
+  3564  Push "totalEnemyGain", 0
+  3578  SetMember
+  3579  Push 2, "Music", 2, "addSound"
+  3596  CallFunction
+  3597  Pop
+  3598  Push "Krin"
+  3603  GetVariable
+  3604  Push "graphics"
+  3609  GetMember
+  3610  Not
+  3611  If loc3677
+  3616  Push "KrinSettings"
+  3621  GetVariable
+  3622  Push "SFX", true
+  3629  SetMember
+  3630  Push "KrinSettings"
+  3635  GetVariable
+  3636  Push "SFX2", false
+  3643  SetMember
+  3644  Push "KrinSettings"
+  3649  GetVariable
+  3650  Push "SFX3", true
+  3657  SetMember
+  3658  Push "KrinSettings"
+  3663  GetVariable
+  3664  Push "QUALITY", "HIGH"
+  3671  SetMember
+  3672  Jump loc3733
+  3677  Push "KrinSettings"
+  3682  GetVariable
+  3683  Push "SFX", false
+  3690  SetMember
+  3691  Push "KrinSettings"
+  3696  GetVariable
+  3697  Push "SFX2", false
+  3704  SetMember
+  3705  Push "KrinSettings"
+  3710  GetVariable
+  3711  Push "SFX3", true
+  3718  SetMember
+  3719  Push "KrinSettings"
+  3724  GetVariable
+  3725  Push "QUALITY", "HIGH"
+  3732  SetMember
+  3733  Push "i", 1
+  3743  SetVariable
+  3744  Push "i"
+  3749  GetVariable
+  3750  Push 7
+  3758  Less2
+  3759  Not
+  3760  If loc3939
+  3765  Push "_root"
+  3770  GetVariable
+  3771  Push "playerKrin", "i"
+  3778  GetVariable
+  3779  Add2
+  3780  Push 0, "Object"
+  3794  NewObject
+  3795  SetMember
+  3796  Push "_root"
+  3801  GetVariable
+  3802  Push "playerKrin", "i"
+  3809  GetVariable
+  3810  Add2
+  3811  GetMember
+  3812  Push "active", false
+  3819  SetMember
+  3820  Push "_root"
+  3825  GetVariable
+  3826  Push "playerKrin", "i"
+  3833  GetVariable
+  3834  Add2
+  3835  GetMember
+  3836  Push "AION", false
+  3843  SetMember
+  3844  Push "_root"
+  3849  GetVariable
+  3850  Push "playerKrin", "i"
+  3857  GetVariable
+  3858  Add2
+  3859  GetMember
+  3860  Push "playerID", "i"
+  3867  GetVariable
+  3868  SetMember
+  3869  Push "_root"
+  3874  GetVariable
+  3875  Push "playerKrin", "i"
+  3882  GetVariable
+  3883  Add2
+  3884  GetMember
+  3885  Push "playerName", "John Dead"
+  3892  SetMember
+  3893  Push "_root"
+  3898  GetVariable
+  3899  Push "playerKrin", "i"
+  3906  GetVariable
+  3907  Add2
+  3908  GetMember
+  3909  Push "SPEEDU", 0
+  3923  SetMember
+  3924  Push "i", "i"
+  3931  GetVariable
+  3932  Increment
+  3933  SetVariable
+  3934  Jump loc3744
+  3939  Push "phase", 1
+  3949  SetVariable
+  3950  Push "playerKrin0", 0, "Object"
+  3966  NewObject
+  3967  SetVariable
+  3968  Push "playerKrin0"
+  3973  GetVariable
+  3974  Push "active", true
+  3981  SetMember
+  3982  Push "playerKrin0"
+  3987  GetVariable
+  3988  Push "playerName", "Information"
+  3995  SetMember
+  3996  Push "Krin"
+  4001  GetVariable
+  4002  Push "friendlySlotsFFTT", 0, "Array"
+  4018  NewObject
+  4019  SetMember
+  4020  Push "_root"
+  4025  GetVariable
+  4026  Push "Krin"
+  4031  GetMember
+  4032  Push "MenuPlayerSelect", 0
+  4046  SetMember
+  4047  Push 0, "updateStatus"
+  4061  CallFunction
+  4062  Pop
+  4063  Push "Krin"
+  4068  GetVariable
+  4069  Push "LIFE", "_root"
+  4076  GetVariable
+  4077  Push "Krin"
+  4082  GetMember
+  4083  Push "StatSets", "_root"
+  4090  GetVariable
+  4091  Push "Krin"
+  4096  GetMember
+  4097  Push "MenuPlayerSelect"
+  4102  GetMember
+  4103  Add2
+  4104  GetMember
+  4105  Push 0
+  4117  GetMember
+  4118  Push true, "_root"
+  4125  GetVariable
+  4126  Push "Krin"
+  4131  GetMember
+  4132  Push "LevelStats"
+  4137  GetMember
+  4138  Push "_root"
+  4143  GetVariable
+  4144  Push "Krin"
+  4149  GetMember
+  4150  Push "MenuPlayerSelect"
+  4155  GetMember
+  4156  GetMember
+  4157  Push "_root"
+  4162  GetVariable
+  4163  Push "KNU", "_root"
+  4170  GetVariable
+  4171  Push "Krin"
+  4176  GetMember
+  4177  Push "ClassStats"
+  4182  GetMember
+  4183  Push "_root"
+  4188  GetVariable
+  4189  Push "Krin"
+  4194  GetMember
+  4195  Push "MenuPlayerSelect"
+  4200  GetMember
+  4201  GetMember
+  4202  Add2
+  4203  GetMember
+  4204  Push 1
+  4212  GetMember
+  4213  Push 3, "_root"
+  4223  GetVariable
+  4224  Push "getStat"
+  4229  CallMethod
+  4230  Push 1, "Math"
+  4240  GetVariable
+  4241  Push "ceil"
+  4246  CallMethod
+  4247  Add2
+  4248  SetMember
+  4249  Push "Krin"
+  4254  GetVariable
+  4255  Push "STRENGTH", "_root"
+  4262  GetVariable
+  4263  Push "Krin"
+  4268  GetMember
+  4269  Push "StatSets", "_root"
+  4276  GetVariable
+  4277  Push "Krin"
+  4282  GetMember
+  4283  Push "MenuPlayerSelect"
+  4288  GetMember
+  4289  Add2
+  4290  GetMember
+  4291  Push 1
+  4299  GetMember
+  4300  Push true, "_root"
+  4307  GetVariable
+  4308  Push "Krin"
+  4313  GetMember
+  4314  Push "LevelStats"
+  4319  GetMember
+  4320  Push "_root"
+  4325  GetVariable
+  4326  Push "Krin"
+  4331  GetMember
+  4332  Push "MenuPlayerSelect"
+  4337  GetMember
+  4338  GetMember
+  4339  Push "_root"
+  4344  GetVariable
+  4345  Push "KNU", "_root"
+  4352  GetVariable
+  4353  Push "Krin"
+  4358  GetMember
+  4359  Push "ClassStats"
+  4364  GetMember
+  4365  Push "_root"
+  4370  GetVariable
+  4371  Push "Krin"
+  4376  GetMember
+  4377  Push "MenuPlayerSelect"
+  4382  GetMember
+  4383  GetMember
+  4384  Add2
+  4385  GetMember
+  4386  Push 2
+  4394  GetMember
+  4395  Push 3, "_root"
+  4405  GetVariable
+  4406  Push "getStat"
+  4411  CallMethod
+  4412  Push 1, "Math"
+  4422  GetVariable
+  4423  Push "ceil"
+  4428  CallMethod
+  4429  Add2
+  4430  SetMember
+  4431  Push "Krin"
+  4436  GetVariable
+  4437  Push "MAGIC", "_root"
+  4444  GetVariable
+  4445  Push "Krin"
+  4450  GetMember
+  4451  Push "StatSets", "_root"
+  4458  GetVariable
+  4459  Push "Krin"
+  4464  GetMember
+  4465  Push "MenuPlayerSelect"
+  4470  GetMember
+  4471  Add2
+  4472  GetMember
+  4473  Push 2
+  4481  GetMember
+  4482  Push true, "_root"
+  4489  GetVariable
+  4490  Push "Krin"
+  4495  GetMember
+  4496  Push "LevelStats"
+  4501  GetMember
+  4502  Push "_root"
+  4507  GetVariable
+  4508  Push "Krin"
+  4513  GetMember
+  4514  Push "MenuPlayerSelect"
+  4519  GetMember
+  4520  GetMember
+  4521  Push "_root"
+  4526  GetVariable
+  4527  Push "KNU", "_root"
+  4534  GetVariable
+  4535  Push "Krin"
+  4540  GetMember
+  4541  Push "ClassStats"
+  4546  GetMember
+  4547  Push "_root"
+  4552  GetVariable
+  4553  Push "Krin"
+  4558  GetMember
+  4559  Push "MenuPlayerSelect"
+  4564  GetMember
+  4565  GetMember
+  4566  Add2
+  4567  GetMember
+  4568  Push 3
+  4576  GetMember
+  4577  Push 3, "_root"
+  4587  GetVariable
+  4588  Push "getStat"
+  4593  CallMethod
+  4594  Push 1, "Math"
+  4604  GetVariable
+  4605  Push "ceil"
+  4610  CallMethod
+  4611  Add2
+  4612  SetMember
+  4613  Push "Krin"
+  4618  GetVariable
+  4619  Push "SPEED", "_root"
+  4626  GetVariable
+  4627  Push "Krin"
+  4632  GetMember
+  4633  Push "StatSets", "_root"
+  4640  GetVariable
+  4641  Push "Krin"
+  4646  GetMember
+  4647  Push "MenuPlayerSelect"
+  4652  GetMember
+  4653  Add2
+  4654  GetMember
+  4655  Push 3
+  4663  GetMember
+  4664  Push true, "_root"
+  4671  GetVariable
+  4672  Push "Krin"
+  4677  GetMember
+  4678  Push "LevelStats"
+  4683  GetMember
+  4684  Push "_root"
+  4689  GetVariable
+  4690  Push "Krin"
+  4695  GetMember
+  4696  Push "MenuPlayerSelect"
+  4701  GetMember
+  4702  GetMember
+  4703  Push "_root"
+  4708  GetVariable
+  4709  Push "KNU", "_root"
+  4716  GetVariable
+  4717  Push "Krin"
+  4722  GetMember
+  4723  Push "ClassStats"
+  4728  GetMember
+  4729  Push "_root"
+  4734  GetVariable
+  4735  Push "Krin"
+  4740  GetMember
+  4741  Push "MenuPlayerSelect"
+  4746  GetMember
+  4747  GetMember
+  4748  Add2
+  4749  GetMember
+  4750  Push 4
+  4758  GetMember
+  4759  Push 3, "_root"
+  4769  GetVariable
+  4770  Push "getStat"
+  4775  CallMethod
+  4776  Push 1, "Math"
+  4786  GetVariable
+  4787  Push "ceil"
+  4792  CallMethod
+  4793  Add2
+  4794  SetMember
+  4795  Push "Krin"
+  4800  GetVariable
+  4801  Push "FOCUS", "_root"
+  4808  GetVariable
+  4809  Push "Krin"
+  4814  GetMember
+  4815  Push "StatSets", "_root"
+  4822  GetVariable
+  4823  Push "Krin"
+  4828  GetMember
+  4829  Push "MenuPlayerSelect"
+  4834  GetMember
+  4835  Add2
+  4836  GetMember
+  4837  Push 4
+  4845  GetMember
+  4846  Push true, "_root"
+  4853  GetVariable
+  4854  Push "KNU", "_root"
+  4861  GetVariable
+  4862  Push "Krin"
+  4867  GetMember
+  4868  Push "ClassStats"
+  4873  GetMember
+  4874  Push "_root"
+  4879  GetVariable
+  4880  Push "Krin"
+  4885  GetMember
+  4886  Push "MenuPlayerSelect"
+  4891  GetMember
+  4892  GetMember
+  4893  Add2
+  4894  GetMember
+  4895  Push 5
+  4903  GetMember
+  4904  Push 2, "Math"
+  4914  GetVariable
+  4915  Push "ceil"
+  4920  CallMethod
+  4921  Add2
+  4922  SetMember
+  4923  Push "i", 1
+  4933  SetVariable
+  4934  Push "i"
+  4939  GetVariable
+  4940  Push 7
+  4948  Less2
+  4949  Not
+  4950  If loc7547
+  4955  Push "_root"
+  4960  GetVariable
+  4961  Push "playerKrin", "i"
+  4968  GetVariable
+  4969  Add2
+  4970  Push 0, "Object"
+  4984  NewObject
+  4985  SetMember
+  4986  Push "shtName", "_root"
+  4993  GetVariable
+  4994  Push "playerKrin", "i"
+  5001  GetVariable
+  5002  Add2
+  5003  GetMember
+  5004  SetVariable
+  5005  Push "shtName"
+  5010  GetVariable
+  5011  Push "active", false
+  5018  SetMember
+  5019  Push "shtName"
+  5024  GetVariable
+  5025  Push "playerID", "i"
+  5032  GetVariable
+  5033  SetMember
+  5034  Push "shtName"
+  5039  GetVariable
+  5040  Push "plevel", 1
+  5050  SetMember
+  5051  Push "shtName"
+  5056  GetVariable
+  5057  Push "model", 0, "Array"
+  5073  NewObject
+  5074  SetMember
+  5075  Push "shtName"
+  5080  GetVariable
+  5081  Push "equip", 0, "Array"
+  5097  NewObject
+  5098  SetMember
+  5099  Push "shtName"
+  5104  GetVariable
+  5105  Push "model", "M", "ONE", "ONE", "MODEL1", 4
+  5123  InitArray
+  5124  SetMember
+  5125  Push "shtName"
+  5130  GetVariable
+  5131  Push "equip", "SWORD1", "SWORD1", "NINJA", "NINJA", "NINJA", "NINJA", "NINJA", 7
+  5155  InitArray
+  5156  SetMember
+  5157  Push "shtName"
+  5162  GetVariable
+  5163  Push "characterColorState", "Normal"
+  5170  SetMember
+  5171  Push "shtName"
+  5176  GetVariable
+  5177  Push "characterFilterState", "KrinFilterNone"
+  5184  GetVariable
+  5185  SetMember
+  5186  Push "shtName"
+  5191  GetVariable
+  5192  Push "changeArray", 0, "Array"
+  5208  NewObject
+  5209  SetMember
+  5210  Push "shtName"
+  5215  GetVariable
+  5216  Push "changeArrayEP", 0, "Array"
+  5232  NewObject
+  5233  SetMember
+  5234  Push "shtName"
+  5239  GetVariable
+  5240  Push "changeArrayEP2", 0, "Array"
+  5256  NewObject
+  5257  SetMember
+  5258  Push "shtName"
+  5263  GetVariable
+  5264  Push "changeArrayED", 0, "Array"
+  5280  NewObject
+  5281  SetMember
+  5282  Push "shtName"
+  5287  GetVariable
+  5288  Push "changeArrayED2", 0, "Array"
+  5304  NewObject
+  5305  SetMember
+  5306  Push "shtName"
+  5311  GetVariable
+  5312  Push "BUFFARRAYK", 0, "Array"
+  5328  NewObject
+  5329  SetMember
+  5330  Push "e", 0
+  5344  SetVariable
+  5345  Push "e"
+  5350  GetVariable
+  5351  Push "_root"
+  5356  GetVariable
+  5357  Push "maxBuffLimit"
+  5362  GetMember
+  5363  Less2
+  5364  Not
+  5365  If loc5455
+  5370  Push "buffId", "None", "CD", 0, "buffValue", 0, "shieldBuffValue", 0, 4
+  5415  InitObject
+  5416  Push 1, "shtName"
+  5426  GetVariable
+  5427  Push "BUFFARRAYK"
+  5432  GetMember
+  5433  Push "push"
+  5438  CallMethod
+  5439  Pop
+  5440  Push "e", "e"
+  5447  GetVariable
+  5448  Increment
+  5449  SetVariable
+  5450  Jump loc5345
+  5455  Push "shtName"
+  5460  GetVariable
+  5461  Push "FILTERSBUFFARRAY", 0, "Array"
+  5477  NewObject
+  5478  SetMember
+  5479  Push "shtName"
+  5484  GetVariable
+  5485  Push "FILTERSBUFFARRAY", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21
+  5684  InitArray
+  5685  SetMember
+  5686  Push "shtName"
+  5691  GetVariable
+  5692  Push "DOTTICKERARRAY", 0, "Array"
+  5708  NewObject
+  5709  SetMember
+  5710  Push "shtName"
+  5715  GetVariable
+  5716  Push "DOTTICKERARRAY", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10
+  5816  InitArray
+  5817  SetMember
+  5818  Push "shtName"
+  5823  GetVariable
+  5824  Push "changeArray", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16
+  5978  InitArray
+  5979  SetMember
+  5980  Push "shtName"
+  5985  GetVariable
+  5986  Push "changeArrayEP", 0, 0, 0, 0, 0, 0, 0, 0, 8
+  6068  InitArray
+  6069  SetMember
+  6070  Push "shtName"
+  6075  GetVariable
+  6076  Push "changeArrayEP2", 0, 0, 0, 0, 0, 0, 0, 0, 8
+  6158  InitArray
+  6159  SetMember
+  6160  Push "shtName"
+  6165  GetVariable
+  6166  Push "changeArrayED", 0, 0, 0, 0, 0, 0, 0, 0, 8
+  6248  InitArray
+  6249  SetMember
+  6250  Push "shtName"
+  6255  GetVariable
+  6256  Push "changeArrayED2", 0, 0, 0, 0, 0, 0, 0, 0, 8
+  6338  InitArray
+  6339  SetMember
+  6340  Push "shtName"
+  6345  GetVariable
+  6346  Push "playerName", "John Doe"
+  6353  SetMember
+  6354  Push "shtName"
+  6359  GetVariable
+  6360  Push "changeArray", 0, "Array"
+  6376  NewObject
+  6377  SetMember
+  6378  Push "shtName"
+  6383  GetVariable
+  6384  Push "changeArray", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21
+  6583  InitArray
+  6584  SetMember
+  6585  Push "shtName"
+  6590  GetVariable
+  6591  Push "passiveBuffs", 0, "Array"
+  6607  NewObject
+  6608  SetMember
+  6609  Push "shtName"
+  6614  GetVariable
+  6615  Push "SPEEDU", 0
+  6629  SetMember
+  6630  Push "shtName"
+  6635  GetVariable
+  6636  Push "SILENCED", 0
+  6650  SetMember
+  6651  Push "shtName"
+  6656  GetVariable
+  6657  Push "DMG", 0
+  6671  SetMember
+  6672  Push "shtName"
+  6677  GetVariable
+  6678  Push "DMG2", 0
+  6692  SetMember
+  6693  Push "shtName"
+  6698  GetVariable
+  6699  Push "IDMG", 0
+  6713  SetMember
+  6714  Push "shtName"
+  6719  GetVariable
+  6720  Push "IDMG2", 0
+  6734  SetMember
+  6735  Push "shtName"
+  6740  GetVariable
+  6741  Push "IDMGP", 0
+  6755  SetMember
+  6756  Push "shtName"
+  6761  GetVariable
+  6762  Push "IDMGP2", 1
+  6772  SetMember
+  6773  Push "shtName"
+  6778  GetVariable
+  6779  Push "IDOT", 1
+  6789  SetMember
+  6790  Push "shtName"
+  6795  GetVariable
+  6796  Push "IHOT", 1
+  6806  SetMember
+  6807  Push "shtName"
+  6812  GetVariable
+  6813  Push "ODOT", 1
+  6823  SetMember
+  6824  Push "shtName"
+  6829  GetVariable
+  6830  Push "FOCUSCHANGE", 0
+  6844  SetMember
+  6845  Push "shtName"
+  6850  GetVariable
+  6851  Push "SSWITCH", 0
+  6865  SetMember
+  6866  Push "shtName"
+  6871  GetVariable
+  6872  Push "HEALMOD_PLUS", 1
+  6882  SetMember
+  6883  Push "shtName"
+  6888  GetVariable
+  6889  Push "HEALMOD_MINUS", 1
+  6899  SetMember
+  6900  Push "shtName"
+  6905  GetVariable
+  6906  Push "HEALMOD", 1
+  6916  SetMember
+  6917  Push "shtName"
+  6922  GetVariable
+  6923  Push "STUN", 0
+  6937  SetMember
+  6938  Push "shtName"
+  6943  GetVariable
+  6944  Push "STUNP", 0
+  6958  SetMember
+  6959  Push "shtName"
+  6964  GetVariable
+  6965  Push "REFLECTDMG", 0
+  6979  SetMember
+  6980  Push "shtName"
+  6985  GetVariable
+  6986  Push "SHIELD", 0
+  7000  SetMember
+  7001  Push "shtName"
+  7006  GetVariable
+  7007  Push "SHIELDCOUNTER", 0
+  7021  SetMember
+  7022  Push "i"
+  7027  GetVariable
+  7028  Push -1, 2, "Math"
+  7043  GetVariable
+  7044  Push "pow"
+  7049  CallMethod
+  7050  Push 0
+  7062  Less2
+  7063  Not
+  7064  If loc7091
+  7069  Push "shtName"
+  7074  GetVariable
+  7075  Push "teamSide", 1
+  7085  SetMember
+  7086  Jump loc7108
+  7091  Push "shtName"
+  7096  GetVariable
+  7097  Push "teamSide", 2
+  7107  SetMember
+  7108  Push "shtName"
+  7113  GetVariable
+  7114  Push "PER", 0, "Object"
+  7130  NewObject
+  7131  SetMember
+  7132  Push "shtName"
+  7137  GetVariable
+  7138  Push "DEF", 0, "Object"
+  7154  NewObject
+  7155  SetMember
+  7156  Push "shtName"
+  7161  GetVariable
+  7162  Push "PERU", 0, "Object"
+  7178  NewObject
+  7179  SetMember
+  7180  Push "shtName"
+  7185  GetVariable
+  7186  Push "DEFU", 0, "Object"
+  7202  NewObject
+  7203  SetMember
+  7204  Push "randomGo", 1
+  7214  SetVariable
+  7215  Push "Krin"
+  7220  GetVariable
+  7221  Push "singlePlayer"
+  7226  GetMember
+  7227  Push true
+  7232  Equals2
+  7233  Not
+  7234  If loc7322
+  7239  Push "Krin"
+  7244  GetVariable
+  7245  Push "playerNumber"
+  7250  GetMember
+  7251  Push "i"
+  7256  GetVariable
+  7257  Equals2
+  7258  Not
+  7259  If loc7297
+  7264  Push "shtName"
+  7269  GetVariable
+  7270  Push "playerName", "Sonny"
+  7277  SetMember
+  7278  Push "Krin", 1, "updateStat_Player"
+  7290  CallFunction
+  7291  Pop
+  7292  Jump loc7317
+  7297  Push "Krin", "i"
+  7304  GetVariable
+  7305  Push 2, "krinAddNewUnit"
+  7315  CallFunction
+  7316  Pop
+  7317  Jump loc7532
+  7322  Push "i"
+  7327  GetVariable
+  7328  Push 1
+  7336  Equals2
+  7337  Not
+  7338  If loc7383
+  7343  Push "shtName"
+  7348  GetVariable
+  7349  Push "playerName", "arenaPlayer1"
+  7356  GetVariable
+  7357  Push "krinNameUser"
+  7362  GetMember
+  7363  SetMember
+  7364  Push "arenaPlayer1", 1, "updateStat_Player"
+  7376  CallFunction
+  7377  Pop
+  7378  Jump loc7532
+  7383  Push "i"
+  7388  GetVariable
+  7389  Push 2
+  7397  Equals2
+  7398  Not
+  7399  If loc7444
+  7404  Push "shtName"
+  7409  GetVariable
+  7410  Push "playerName", "arenaPlayer2"
+  7417  GetVariable
+  7418  Push "krinNameUser"
+  7423  GetMember
+  7424  SetMember
+  7425  Push "arenaPlayer2", 1, "updateStat_Player"
+  7437  CallFunction
+  7438  Pop
+  7439  Jump loc7532
+  7444  Push "i"
+  7449  GetVariable
+  7450  Push 3
+  7458  Equals2
+  7459  PushDuplicate
+  7460  If loc7481
+  7465  Pop
+  7466  Push "i"
+  7471  GetVariable
+  7472  Push 5
+  7480  Equals2
+  7481  Not
+  7482  If loc7512
+  7487  Push "arenaPlayer1", "i"
+  7494  GetVariable
+  7495  Push 2, "krinAddNewUnit"
+  7505  CallFunction
+  7506  Pop
+  7507  Jump loc7532
+  7512  Push "arenaPlayer2", "i"
+  7519  GetVariable
+  7520  Push 2, "krinAddNewUnit"
+  7530  CallFunction
+  7531  Pop
+  7532  Push "i", "i"
+  7539  GetVariable
+  7540  Increment
+  7541  SetVariable
+  7542  Jump loc4934
+  7547  Push "winCondition", -1
+  7557  SetVariable
+  7558  Push "winDate", "_root"
+  7565  GetVariable
+  7566  Push "KBR", "Krin"
+  7573  GetVariable
+  7574  Push "BattlePick"
+  7579  GetMember
+  7580  Add2
+  7581  GetMember
+  7582  Push "winDate"
+  7587  GetMember
+  7588  SetVariable
+  7589  Push "winDateCondition", "_root"
+  7596  GetVariable
+  7597  Push "KBR", "Krin"
+  7604  GetVariable
+  7605  Push "BattlePick"
+  7610  GetMember
+  7611  Add2
+  7612  GetMember
+  7613  Push "winDateCondition"
+  7618  GetMember
+  7619  SetVariable
+  7620  Push "GOTIPPER", "Krin"
+  7627  GetVariable
+  7628  Push "BattlePick"
+  7633  GetMember
+  7634  SetVariable
+  7635  Push "Krin"
+  7640  GetVariable
+  7641  Push "dropArray", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15
+  7786  InitArray
+  7787  SetMember
+  7788  Push "pewPewItemDrop", 0
+  7802  SetVariable
+  7803  Push "Krin"
+  7808  GetVariable
+  7809  Push "ZoneBG", "_root"
+  7816  GetVariable
+  7817  Push "KBR", "Krin"
+  7824  GetVariable
+  7825  Push "BattlePick"
+  7830  GetMember
+  7831  Add2
+  7832  GetMember
+  7833  Push "ZoneBG"
+  7838  GetMember
+  7839  SetMember
+  7840  Push "Krin"
+  7845  GetVariable
+  7846  Push "SkyBG", "_root"
+  7853  GetVariable
+  7854  Push "KBR", "Krin"
+  7861  GetVariable
+  7862  Push "BattlePick"
+  7867  GetMember
+  7868  Add2
+  7869  GetMember
+  7870  Push "SkyBG"
+  7875  GetMember
+  7876  SetMember
+  7877  Push "absoluteStart", "_root"
+  7884  GetVariable
+  7885  Push "KBR", "Krin"
+  7892  GetVariable
+  7893  Push "BattlePick"
+  7898  GetMember
+  7899  Add2
+  7900  GetMember
+  7901  Push "absoluteStart"
+  7906  GetMember
+  7907  SetVariable
+  7908  Push "_root"
+  7913  GetVariable
+  7914  Push "KBR", "Krin"
+  7921  GetVariable
+  7922  Push "BattlePick"
+  7927  GetMember
+  7928  Add2
+  7929  GetMember
+  7930  Push "itemDrops"
+  7935  GetMember
+  7936  Enumerate2
+  7937  StoreRegister 0
+  7941  Push null
+  7945  Equals2
+  7946  If loc8112
+  7951  Push "krinj", register0
+  7958  SetVariable
+  7959  Push "Krin"
+  7964  GetVariable
+  7965  Push "randomerItemDrop", 100
+  7975  RandomNumber
+  7976  SetMember
+  7977  Push "_root"
+  7982  GetVariable
+  7983  Push "KBR", "Krin"
+  7990  GetVariable
+  7991  Push "BattlePick"
+  7996  GetMember
+  7997  Add2
+  7998  GetMember
+  7999  Push "itemDrops"
+  8004  GetMember
+  8005  Push "krinj"
+  8010  GetVariable
+  8011  GetMember
+  8012  Push "CHANCE"
+  8017  GetMember
+  8018  Push "Krin"
+  8023  GetVariable
+  8024  Push "randomerItemDrop"
+  8029  GetMember
+  8030  Greater
+  8031  Not
+  8032  If loc8107
+  8037  Push "Krin"
+  8042  GetVariable
+  8043  Push "dropArray"
+  8048  GetMember
+  8049  Push "pewPewItemDrop"
+  8054  GetVariable
+  8055  Push "_root"
+  8060  GetVariable
+  8061  Push "KBR", "Krin"
+  8068  GetVariable
+  8069  Push "BattlePick"
+  8074  GetMember
+  8075  Add2
+  8076  GetMember
+  8077  Push "itemDrops"
+  8082  GetMember
+  8083  Push "krinj"
+  8088  GetVariable
+  8089  GetMember
+  8090  Push "ID"
+  8095  GetMember
+  8096  SetMember
+  8097  Push "pewPewItemDrop", "pewPewItemDrop"
+  8104  GetVariable
+  8105  Increment
+  8106  SetVariable
+  8107  Jump loc7937
+  8112  Push "Krin"
+  8117  GetVariable
+  8118  Push "itemRareDropCheck", "_root"
+  8125  GetVariable
+  8126  Push "KBR", "Krin"
+  8133  GetVariable
+  8134  Push "BattlePick"
+  8139  GetMember
+  8140  Add2
+  8141  GetMember
+  8142  Push "itemRareDropper"
+  8147  GetMember
+  8148  SetMember
+  8149  Push "Krin"
+  8154  GetVariable
+  8155  Push "itemRareDropCheck"
+  8160  GetMember
+  8161  Push 0
+  8173  Greater
+  8174  Not
+  8175  If loc8344
+  8180  Push "doppelGangerRandom", "_root"
+  8187  GetVariable
+  8188  Push "KBR", "Krin"
+  8195  GetVariable
+  8196  Push "BattlePick"
+  8201  GetMember
+  8202  Add2
+  8203  GetMember
+  8204  Push "itemRare"
+  8209  GetMember
+  8210  Push "length"
+  8215  GetMember
+  8216  Push 100
+  8224  Multiply
+  8225  RandomNumber
+  8226  Push 100
+  8234  Divide
+  8235  Push 1, "Math"
+  8245  GetVariable
+  8246  Push "floor"
+  8251  CallMethod
+  8252  SetVariable
+  8253  Push "Krin"
+  8258  GetVariable
+  8259  Push "dropArray"
+  8264  GetMember
+  8265  Push "pewPewItemDrop"
+  8270  GetVariable
+  8271  Push "_root"
+  8276  GetVariable
+  8277  Push "KBR", "Krin"
+  8284  GetVariable
+  8285  Push "BattlePick"
+  8290  GetMember
+  8291  Add2
+  8292  GetMember
+  8293  Push "itemRare"
+  8298  GetMember
+  8299  Push "doppelGangerRandom"
+  8304  GetVariable
+  8305  GetMember
+  8306  SetMember
+  8307  Push "Krin"
+  8312  GetVariable
+  8313  Push "itemRareDropCheck", "Krin"
+  8320  GetVariable
+  8321  Push "itemRareDropCheck"
+  8326  GetMember
+  8327  Decrement
+  8328  SetMember
+  8329  Push "pewPewItemDrop", "pewPewItemDrop"
+  8336  GetVariable
+  8337  Increment
+  8338  SetVariable
+  8339  Jump loc8149
+  8344  Push "Krin"
+  8349  GetVariable
+  8350  Push "itemRareDropCheck", "_root"
+  8357  GetVariable
+  8358  Push "KBR", "Krin"
+  8365  GetVariable
+  8366  Push "BattlePick"
+  8371  GetMember
+  8372  Add2
+  8373  GetMember
+  8374  Push "itemRareDropper2"
+  8379  GetMember
+  8380  SetMember
+  8381  Push "Krin"
+  8386  GetVariable
+  8387  Push "itemRareDropCheck"
+  8392  GetMember
+  8393  Push 0
+  8405  Greater
+  8406  Not
+  8407  If loc8576
+  8412  Push "doppelGangerRandom", "_root"
+  8419  GetVariable
+  8420  Push "KBR", "Krin"
+  8427  GetVariable
+  8428  Push "BattlePick"
+  8433  GetMember
+  8434  Add2
+  8435  GetMember
+  8436  Push "itemRare2"
+  8441  GetMember
+  8442  Push "length"
+  8447  GetMember
+  8448  Push 100
+  8456  Multiply
+  8457  RandomNumber
+  8458  Push 100
+  8466  Divide
+  8467  Push 1, "Math"
+  8477  GetVariable
+  8478  Push "floor"
+  8483  CallMethod
+  8484  SetVariable
+  8485  Push "Krin"
+  8490  GetVariable
+  8491  Push "dropArray"
+  8496  GetMember
+  8497  Push "pewPewItemDrop"
+  8502  GetVariable
+  8503  Push "_root"
+  8508  GetVariable
+  8509  Push "KBR", "Krin"
+  8516  GetVariable
+  8517  Push "BattlePick"
+  8522  GetMember
+  8523  Add2
+  8524  GetMember
+  8525  Push "itemRare2"
+  8530  GetMember
+  8531  Push "doppelGangerRandom"
+  8536  GetVariable
+  8537  GetMember
+  8538  SetMember
+  8539  Push "Krin"
+  8544  GetVariable
+  8545  Push "itemRareDropCheck", "Krin"
+  8552  GetVariable
+  8553  Push "itemRareDropCheck"
+  8558  GetMember
+  8559  Decrement
+  8560  SetMember
+  8561  Push "pewPewItemDrop", "pewPewItemDrop"
+  8568  GetVariable
+  8569  Increment
+  8570  SetVariable
+  8571  Jump loc8381
+  8576  Push "Krin"
+  8581  GetVariable
+  8582  Push "itemRareDropCheck", "_root"
+  8589  GetVariable
+  8590  Push "KBR", "Krin"
+  8597  GetVariable
+  8598  Push "BattlePick"
+  8603  GetMember
+  8604  Add2
+  8605  GetMember
+  8606  Push "itemRareDropper3"
+  8611  GetMember
+  8612  SetMember
+  8613  Push "Krin"
+  8618  GetVariable
+  8619  Push "itemRareDropCheck"
+  8624  GetMember
+  8625  Push 0
+  8637  Greater
+  8638  Not
+  8639  If loc8808
+  8644  Push "doppelGangerRandom", "_root"
+  8651  GetVariable
+  8652  Push "KBR", "Krin"
+  8659  GetVariable
+  8660  Push "BattlePick"
+  8665  GetMember
+  8666  Add2
+  8667  GetMember
+  8668  Push "itemRare3"
+  8673  GetMember
+  8674  Push "length"
+  8679  GetMember
+  8680  Push 100
+  8688  Multiply
+  8689  RandomNumber
+  8690  Push 100
+  8698  Divide
+  8699  Push 1, "Math"
+  8709  GetVariable
+  8710  Push "floor"
+  8715  CallMethod
+  8716  SetVariable
+  8717  Push "Krin"
+  8722  GetVariable
+  8723  Push "dropArray"
+  8728  GetMember
+  8729  Push "pewPewItemDrop"
+  8734  GetVariable
+  8735  Push "_root"
+  8740  GetVariable
+  8741  Push "KBR", "Krin"
+  8748  GetVariable
+  8749  Push "BattlePick"
+  8754  GetMember
+  8755  Add2
+  8756  GetMember
+  8757  Push "itemRare3"
+  8762  GetMember
+  8763  Push "doppelGangerRandom"
+  8768  GetVariable
+  8769  GetMember
+  8770  SetMember
+  8771  Push "Krin"
+  8776  GetVariable
+  8777  Push "itemRareDropCheck", "Krin"
+  8784  GetVariable
+  8785  Push "itemRareDropCheck"
+  8790  GetMember
+  8791  Decrement
+  8792  SetMember
+  8793  Push "pewPewItemDrop", "pewPewItemDrop"
+  8800  GetVariable
+  8801  Increment
+  8802  SetVariable
+  8803  Jump loc8613
+  8808  Push "Krin"
+  8813  GetVariable
+  8814  Push "timeLock", "_root"
+  8821  GetVariable
+  8822  Push "KBR", "Krin"
+  8829  GetVariable
+  8830  Push "BattlePick"
+  8835  GetMember
+  8836  Add2
+  8837  GetMember
+  8838  Push "timeLock"
+  8843  GetMember
+  8844  SetMember
+  8845  End

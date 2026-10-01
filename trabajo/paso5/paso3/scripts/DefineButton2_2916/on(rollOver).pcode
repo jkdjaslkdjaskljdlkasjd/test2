@@ -1,0 +1,92 @@
+// on(rollOver)
+// origen: boton 2916 (06616_DefineButton2_2916.bin)
+
+  4678  ConstantPool (23)
+  4887  Push "START", 1, "ui_but5"
+  4899  GetVariable
+  4900  Push "gotoAndPlay"
+  4905  CallMethod
+  4906  Pop
+  4907  Push "_root"
+  4912  GetVariable
+  4913  Push "thereIsASlotSelected", true
+  4920  SetMember
+  4921  Push "_root"
+  4926  GetVariable
+  4927  Push "KrinToolTipper"
+  4932  GetMember
+  4933  Push "colorChange", "Common"
+  4940  SetMember
+  4941  Push "_root"
+  4946  GetVariable
+  4947  Push "KrinToolTipper"
+  4952  GetMember
+  4953  Push "colorChange"
+  4958  GetMember
+  4959  Push "_root"
+  4964  GetVariable
+  4965  Push "KrinToolTipper"
+  4970  GetMember
+  4971  Push "fontBacker2"
+  4976  GetMember
+  4977  Push 2, "_root"
+  4987  GetVariable
+  4988  Push "krinChangeColor"
+  4993  CallMethod
+  4994  Pop
+  4995  Push "_root"
+  5000  GetVariable
+  5001  Push "KrinToolTipper"
+  5006  GetMember
+  5007  Push "tt", "_root"
+  5014  GetVariable
+  5015  Push "KrinLang"
+  5020  GetMember
+  5021  Push "KLangChoosen"
+  5026  GetVariable
+  5027  GetMember
+  5028  Push "SYSTEM"
+  5033  GetMember
+  5034  Push 32
+  5042  GetMember
+  5043  Push ": €"
+  5048  Add2
+  5049  Push 0.7000000000000001, "Krin"
+  5063  GetVariable
+  5064  Push "Level"
+  5069  GetMember
+  5070  Push 1, "_root"
+  5080  GetVariable
+  5081  Push "respecValue"
+  5086  CallMethod
+  5087  Multiply
+  5088  Push 1, "Math"
+  5098  GetVariable
+  5099  Push "round"
+  5104  CallMethod
+  5105  Add2
+  5106  SetMember
+  5107  Push "_root"
+  5112  GetVariable
+  5113  Push "KrinToolTipper"
+  5118  GetMember
+  5119  Push "t", "_root"
+  5126  GetVariable
+  5127  Push "KrinLang"
+  5132  GetMember
+  5133  Push "KLangChoosen"
+  5138  GetVariable
+  5139  GetMember
+  5140  Push "SYSTEM"
+  5145  GetMember
+  5146  Push 33
+  5154  GetMember
+  5155  SetMember
+  5156  Push "GO", 1, "_root"
+  5168  GetVariable
+  5169  Push "KrinToolTipper"
+  5174  GetMember
+  5175  Push "gotoAndStop"
+  5180  CallMethod
+  5181  Pop
+  5182  End

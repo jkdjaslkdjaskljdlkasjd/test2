@@ -1,0 +1,6 @@
+// on(release)
+// origen: boton 3280 (07079_DefineButton2_3280.bin)
+
+    17  GoToLabel 'resetHere'
+    30  Play
+    31  End

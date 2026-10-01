@@ -1,0 +1,71 @@
+// on(release)
+// origen: boton 3219 (06938_DefineButton2_3219.bin)
+
+    17  ConstantPool (10)
+    82  Push "_root"
+    87  GetVariable
+    88  Push "Krin"
+    93  GetMember
+    94  Push "qual"
+    99  GetMember
+   100  Push "LOW"
+   105  Equals2
+   106  Not
+   107  If loc150
+   112  Push "_root"
+   117  GetVariable
+   118  Push "Krin"
+   123  GetMember
+   124  Push "qual", "HIGH"
+   131  SetMember
+   132  Push "", 19, "HIGH"
+   144  SetProperty
+   145  Jump loc183
+   150  Push "_root"
+   155  GetVariable
+   156  Push "Krin"
+   161  GetMember
+   162  Push "qual", "LOW"
+   169  SetMember
+   170  Push "", 19, "LOW"
+   182  SetProperty
+   183  Push "_root"
+   188  GetVariable
+   189  Push "Krin"
+   194  GetMember
+   195  Push "qual"
+   200  GetMember
+   201  Push "HIGH"
+   206  Equals2
+   207  Not
+   208  If loc261
+   213  Push "tit_11", "_root"
+   220  GetVariable
+   221  Push "KrinLang"
+   226  GetMember
+   227  Push "_root"
+   232  GetVariable
+   233  Push "KLangChoosen"
+   238  GetMember
+   239  GetMember
+   240  Push "MENU"
+   245  GetMember
+   246  Push 31
+   254  GetMember
+   255  SetVariable
+   256  Jump loc304
+   261  Push "tit_11", "_root"
+   268  GetVariable
+   269  Push "KrinLang"
+   274  GetMember
+   275  Push "_root"
+   280  GetVariable
+   281  Push "KLangChoosen"
+   286  GetMember
+   287  GetMember
+   288  Push "MENU"
+   293  GetMember
+   294  Push 32
+   302  GetMember
+   303  SetVariable
+   304  End

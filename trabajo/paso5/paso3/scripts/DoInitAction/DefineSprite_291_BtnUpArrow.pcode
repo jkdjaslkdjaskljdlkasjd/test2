@@ -1,0 +1,11 @@
+// DefineSprite_291_BtnUpArrow
+// origen: DoInitAction del sprite 291 (03816_DoInitAction.bin)
+
+     2  Push "mx.controls.SimpleButton"
+    31  GetVariable
+    32  Push "BtnUpArrow", 2, "Object"
+    60  GetVariable
+    61  Push "registerClass"
+    79  CallMethod
+    80  Pop
+    81  End

@@ -1,0 +1,32 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3378 fotograma 1, clip en profundidad 2 (07253_DefineSprite_3378.bin, byte 42)
+
+    68  ConstantPool (6)
+   125  Push "this"
+   130  GetVariable
+   131  Push "_rotation", -180, 180, "_root"
+   148  GetVariable
+   149  Push "BattleTimeNow"
+   154  GetMember
+   155  Push "_root"
+   160  GetVariable
+   161  Push "BattleTimeLimit"
+   166  GetMember
+   167  Push 2
+   175  Divide
+   176  Divide
+   177  Multiply
+   178  Add2
+   179  SetMember
+   180  Push "this"
+   185  GetVariable
+   186  Push "_rotation"
+   191  GetMember
+   192  Push 0
+   204  Less2
+   205  Not
+   206  Not
+   207  If loc232
+   212  Push "", 10, 0
+   231  SetProperty
+   232  End

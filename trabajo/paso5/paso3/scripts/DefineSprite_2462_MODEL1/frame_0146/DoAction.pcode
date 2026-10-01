@@ -1,0 +1,9 @@
+// DoAction
+// origen: DefineSprite_2462_MODEL1 fotograma 146, DoAction (03695_DefineSprite_2462.bin, byte 63824)
+
+ 63824  Push "sfx_swing", "Effects", 2, "_root"
+ 63859  GetVariable
+ 63860  Push "addSound"
+ 63873  CallMethod
+ 63874  Pop
+ 63875  End

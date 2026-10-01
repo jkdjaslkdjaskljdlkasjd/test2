@@ -1,0 +1,56 @@
+// DoAction
+// origen: DefineSprite_3345 fotograma 6, DoAction (07203_DefineSprite_3345.bin, byte 1364)
+
+  1364  ConstantPool (8)
+  1441  Push "zoomPauseCounter", "zoomPauseCounter"
+  1448  GetVariable
+  1449  Increment
+  1450  SetVariable
+  1451  Push "_root"
+  1456  GetVariable
+  1457  Push "KrinSettings"
+  1462  GetMember
+  1463  Push "SFX3"
+  1468  GetMember
+  1469  Push false
+  1474  Equals2
+  1475  Not
+  1476  If loc1508
+  1481  Push "_root"
+  1486  GetVariable
+  1487  Push "_quality", "_root"
+  1494  GetVariable
+  1495  Push "KrinSettings"
+  1500  GetMember
+  1501  Push "QUALITY"
+  1506  GetMember
+  1507  SetMember
+  1508  Push "zoomPauseCounter"
+  1513  GetVariable
+  1514  Push "_root"
+  1519  GetVariable
+  1520  Push "zoomPause"
+  1525  GetMember
+  1526  Equals2
+  1527  Not
+  1528  If loc1599
+  1533  GoToLabel 'KrinZoomPlay'
+  1549  Play
+  1550  Push "_root"
+  1555  GetVariable
+  1556  Push "KrinSettings"
+  1561  GetMember
+  1562  Push "SFX3"
+  1567  GetMember
+  1568  Push false
+  1573  Equals2
+  1574  Not
+  1575  If loc1594
+  1580  Push "_root"
+  1585  GetVariable
+  1586  Push "_quality", "LOW"
+  1593  SetMember
+  1594  Jump loc1617
+  1599  GoToLabel 'KrinZoomPause'
+  1616  Play
+  1617  End

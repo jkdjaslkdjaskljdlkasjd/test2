@@ -1,0 +1,25 @@
+// onClipEvent(load)
+// origen: DefineSprite_3298 fotograma 1, clip en profundidad 13 (07102_DefineSprite_3298.bin, byte 363)
+
+   392  DefineFunction "__f_construct" (eventObj) regs=4 flags=0x0 {
+      422  Push "_targetInstanceName", "naxTevt"
+      455  SetVariable
+      456  Push "horizontal", false
+      473  SetVariable
+      474  Push "enabled", true
+      488  SetVariable
+      489  Push "visible", true
+      503  SetVariable
+      504  Push "minHeight", 0
+      527  SetVariable
+      528  Push "minWidth", 0
+      550  SetVariable
+        }
+   551  Push "__f_construct"
+   569  GetVariable
+   570  Push "construct", 2, "this"
+   595  GetVariable
+   596  Push "addEventListener"
+   617  CallMethod
+   618  Pop
+   619  End

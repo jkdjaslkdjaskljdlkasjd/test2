@@ -1,0 +1,8 @@
+// on(rollOver)
+// origen: boton 3140 (06856_DefineButton2_3140.bin)
+
+   106  Push "_root"
+   116  GetVariable
+   117  Push "UITdrop", true
+   131  SetMember
+   132  End

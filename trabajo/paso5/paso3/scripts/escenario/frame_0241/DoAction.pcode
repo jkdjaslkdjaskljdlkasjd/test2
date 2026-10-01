@@ -1,0 +1,6 @@
+// DoAction
+// origen: escenario fotograma 241, DoAction (07370_DoAction.bin)
+
+     0  GoToLabel 'loseCombat'
+    14  Play
+    15  End

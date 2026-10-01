@@ -1,0 +1,15 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 330 (07202_PlaceObject2.bin)
+
+    33  ConstantPool (3)
+    74  Push "shakeOriginal", 8
+    84  SetVariable
+    85  Push "shakeValue", "shakeOriginal"
+    92  GetVariable
+    93  SetVariable
+    94  Push "shakeMinus", "shakeValue"
+   101  GetVariable
+   102  Push 10
+   110  Divide
+   111  SetVariable
+   112  End

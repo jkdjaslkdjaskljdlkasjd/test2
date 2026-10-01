@@ -1,0 +1,15 @@
+// DoAction
+// origen: DefineSprite_3347 fotograma 20, DoAction (07207_DefineSprite_3347.bin, byte 716)
+
+   716  ConstantPool (4)
+   763  Push "_root"
+   768  GetVariable
+   769  Push "BATTLESCREEN"
+   774  GetMember
+   775  Push "filters", "_root"
+   782  GetVariable
+   783  Push "KrinFilterNone"
+   788  GetMember
+   789  SetMember
+   790  GotoFrame 0
+   795  End

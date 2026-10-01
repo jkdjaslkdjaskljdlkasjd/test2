@@ -1,0 +1,33 @@
+// on(release)
+// origen: boton 3408 (07293_DefineButton2_3408.bin)
+
+    38  ConstantPool (7)
+   120  Push "_root"
+   125  GetVariable
+   126  Push "winCondition"
+   131  GetMember
+   132  Push -1
+   140  Equals2
+   141  Not
+   142  If loc216
+   147  Push "_root"
+   152  GetVariable
+   153  Push "Krin"
+   158  GetMember
+   159  Push "PauseForScreen"
+   164  GetMember
+   165  Push true
+   170  Equals2
+   171  Not
+   172  Not
+   173  If loc216
+   178  Push "someListenerKrin"
+   183  GetVariable
+   184  Push 1, "Mouse"
+   194  GetVariable
+   195  Push "removeListener"
+   200  CallMethod
+   201  Pop
+   202  GoToLabel 'resetHere'
+   215  Play
+   216  End

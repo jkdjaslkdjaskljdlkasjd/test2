@@ -1,0 +1,91 @@
+// on(release)
+// origen: boton 3381 (07258_DefineButton2_3381.bin)
+
+    31  ConstantPool (17)
+   219  Push "_root"
+   224  GetVariable
+   225  Push "InBattle"
+   230  GetMember
+   231  Push false
+   236  Equals2
+   237  Not
+   238  If loc499
+   243  Push 0, "Krin"
+   257  GetVariable
+   258  Push "playerNumber"
+   263  GetMember
+   264  Push "Krin"
+   269  GetVariable
+   270  Push "playerNumber"
+   275  GetMember
+   276  Push 3, "_root"
+   286  GetVariable
+   287  Push "krinAddMove"
+   292  CallMethod
+   293  Pop
+   294  Push "_root"
+   299  GetVariable
+   300  Push "InBattle"
+   305  GetMember
+   306  Push false
+   311  Equals2
+   312  PushDuplicate
+   313  Not
+   314  If loc345
+   319  Pop
+   320  Push "battleClocker"
+   325  GetVariable
+   326  Push "timerWait"
+   331  GetMember
+   332  Push 0
+   344  Equals2
+   345  PushDuplicate
+   346  Not
+   347  If loc378
+   352  Pop
+   353  Push "_root"
+   358  GetVariable
+   359  Push "winCondition"
+   364  GetMember
+   365  Push 0
+   377  Less2
+   378  PushDuplicate
+   379  Not
+   380  If loc404
+   385  Pop
+   386  Push "_root"
+   391  GetVariable
+   392  Push "speechDone"
+   397  GetMember
+   398  Push true
+   403  Equals2
+   404  Not
+   405  If loc499
+   410  Push "_root"
+   415  GetVariable
+   416  Push "moveChoosen", true
+   423  SetMember
+   424  Push "HIDE", 1, "_root"
+   436  GetVariable
+   437  Push "UI_BAR"
+   442  GetMember
+   443  Push "subAI_BAR"
+   448  GetMember
+   449  Push "gotoAndStop"
+   454  CallMethod
+   455  Pop
+   456  Push "turnBasedKrin"
+   461  GetVariable
+   462  Not
+   463  Not
+   464  If loc499
+   469  Push "_root"
+   474  GetVariable
+   475  Push "BattleTimeNow", "_root"
+   482  GetVariable
+   483  Push "BattleTimeLimit"
+   488  GetMember
+   489  Push 5
+   497  Subtract
+   498  SetMember
+   499  End

@@ -1,0 +1,191 @@
+// on(press)
+// origen: boton 2827 (06516_DefineButton2_2827.bin)
+
+    17  ConstantPool (16)
+   199  Push "_root"
+   204  GetVariable
+   205  Push "Krin"
+   210  GetMember
+   211  Push "PauseForScreen"
+   216  GetMember
+   217  Push true
+   222  Equals2
+   223  Not
+   224  Not
+   225  If loc765
+   230  Push "_root"
+   235  GetVariable
+   236  Push "Krin"
+   241  GetMember
+   242  Push "bossFight", false
+   249  SetMember
+   250  Push "_root"
+   255  GetVariable
+   256  Push "Krin"
+   261  GetMember
+   262  Push "BattlePick", "_root"
+   269  GetVariable
+   270  Push "Krin"
+   275  GetMember
+   276  Push "sectionIn"
+   281  GetMember
+   282  Push 100
+   290  Multiply
+   291  Push "_root"
+   296  GetVariable
+   297  Push "Krin"
+   302  GetMember
+   303  Push "questProgress"
+   308  GetMember
+   309  Push "_root"
+   314  GetVariable
+   315  Push "Krin"
+   320  GetMember
+   321  Push "sectionIn"
+   326  GetMember
+   327  GetMember
+   328  Add2
+   329  SetMember
+   330  Push "_root"
+   335  GetVariable
+   336  Push "Krin"
+   341  GetMember
+   342  Push "progressFight", true
+   349  SetMember
+   350  Push "_root"
+   355  GetVariable
+   356  Push "Krin"
+   361  GetMember
+   362  Push "questProgress"
+   367  GetMember
+   368  Push "_root"
+   373  GetVariable
+   374  Push "Krin"
+   379  GetMember
+   380  Push "sectionIn"
+   385  GetMember
+   386  GetMember
+   387  Push "_root"
+   392  GetVariable
+   393  Push "questHub"
+   398  GetMember
+   399  Push "_root"
+   404  GetVariable
+   405  Push "Krin"
+   410  GetMember
+   411  Push "sectionIn"
+   416  GetMember
+   417  GetMember
+   418  Push "progressMax"
+   423  GetMember
+   424  Greater
+   425  Not
+   426  If loc571
+   431  Push "_root"
+   436  GetVariable
+   437  Push "Krin"
+   442  GetMember
+   443  Push "BattlePick", "_root"
+   450  GetVariable
+   451  Push "Krin"
+   456  GetMember
+   457  Push "sectionIn"
+   462  GetMember
+   463  Push 100
+   471  Multiply
+   472  Push "_root"
+   477  GetVariable
+   478  Push "questHub"
+   483  GetMember
+   484  Push "_root"
+   489  GetVariable
+   490  Push "Krin"
+   495  GetMember
+   496  Push "sectionIn"
+   501  GetMember
+   502  GetMember
+   503  Push "progressMax"
+   508  GetMember
+   509  Add2
+   510  SetMember
+   511  Push "_root"
+   516  GetVariable
+   517  Push "Krin"
+   522  GetMember
+   523  Push "progressFight", false
+   530  SetMember
+   531  Push "_root"
+   536  GetVariable
+   537  Push "Krin"
+   542  GetMember
+   543  Push "bossFight", true
+   550  SetMember
+   551  Push "_root"
+   556  GetVariable
+   557  Push "Krin"
+   562  GetMember
+   563  Push "usedTraining", true
+   570  SetMember
+   571  Push "_root"
+   576  GetVariable
+   577  Push "Krin"
+   582  GetMember
+   583  Push "BattlePick"
+   588  GetMember
+   589  Push 31
+   597  Equals2
+   598  Not
+   599  If loc624
+   604  Push "_root"
+   609  GetVariable
+   610  Push "Krin"
+   615  GetMember
+   616  Push "bossMusic", true
+   623  SetMember
+   624  Push "_root"
+   629  GetVariable
+   630  Push "Krin"
+   635  GetMember
+   636  Push "questProgress"
+   641  GetMember
+   642  Push "_root"
+   647  GetVariable
+   648  Push "Krin"
+   653  GetMember
+   654  Push "sectionIn"
+   659  GetMember
+   660  GetMember
+   661  Push "_root"
+   666  GetVariable
+   667  Push "questHub"
+   672  GetMember
+   673  Push "_root"
+   678  GetVariable
+   679  Push "Krin"
+   684  GetMember
+   685  Push "sectionIn"
+   690  GetMember
+   691  GetMember
+   692  Push "progressMax"
+   697  GetMember
+   698  Equals2
+   699  Not
+   700  If loc725
+   705  Push "_root"
+   710  GetVariable
+   711  Push "Krin"
+   716  GetMember
+   717  Push "bossFight", true
+   724  SetMember
+   725  Push "LOADBATTLESCENE", 1, "_root"
+   737  GetVariable
+   738  Push "gotoAndPlay"
+   743  CallMethod
+   744  Pop
+   745  Push "_root"
+   750  GetVariable
+   751  Push "KrinScreen"
+   756  GetMember
+   757  Push "_visible", false
+   764  SetMember
+   765  End

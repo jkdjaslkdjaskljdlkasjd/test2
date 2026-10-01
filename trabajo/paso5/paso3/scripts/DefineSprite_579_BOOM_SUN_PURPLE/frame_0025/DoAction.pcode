@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_579_BOOM_SUN_PURPLE fotograma 25, DoAction (00916_DefineSprite_579.bin, byte 220)
+
+   220  Push "", "this"
+   231  GetVariable
+   232  GetURL2 64
+   236  End

@@ -1,0 +1,54 @@
+// DoAction
+// origen: escenario fotograma 263, DoAction (07397_DoAction.bin)
+
+     0  ConstantPool (8)
+    82  Stop
+    83  Push "introText1", "_root"
+    90  GetVariable
+    91  Push "KrinLang"
+    96  GetMember
+    97  Push "KLangChoosen"
+   102  GetVariable
+   103  GetMember
+   104  Push "MENU"
+   109  GetMember
+   110  Push 86
+   118  GetMember
+   119  SetVariable
+   120  Push "introText2", "_root"
+   127  GetVariable
+   128  Push "KrinLang"
+   133  GetMember
+   134  Push "KLangChoosen"
+   139  GetVariable
+   140  GetMember
+   141  Push "MENU"
+   146  GetMember
+   147  Push 87
+   155  GetMember
+   156  SetVariable
+   157  Push "introText3", "_root"
+   164  GetVariable
+   165  Push "KrinLang"
+   170  GetMember
+   171  Push "KLangChoosen"
+   176  GetVariable
+   177  GetMember
+   178  Push "MENU"
+   183  GetMember
+   184  Push 88
+   192  GetMember
+   193  SetVariable
+   194  Push "introText4", "_root"
+   201  GetVariable
+   202  Push "KrinLang"
+   207  GetMember
+   208  Push "KLangChoosen"
+   213  GetVariable
+   214  GetMember
+   215  Push "MENU"
+   220  GetMember
+   221  Push 89
+   229  GetMember
+   230  SetVariable
+   231  End

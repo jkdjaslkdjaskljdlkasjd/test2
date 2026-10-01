@@ -1,0 +1,120 @@
+// DoAction
+// origen: DefineSprite_3584 fotograma 1, DoAction (07650_DefineSprite_3584.bin, byte 20)
+
+    20  ConstantPool (34)
+   250  DefineFunction2 "camControl" () regs=5 flags=0xa9 {
+      271  Push 0, "camColor"
+      285  GetVariable
+      286  Push "getTransform"
+      291  CallMethod
+      292  Push 1, "parentColor"
+      302  GetVariable
+      303  Push "setTransform"
+      308  CallMethod
+      309  Pop
+      310  Push "sX"
+      315  GetVariable
+      316  Push register1, "_width"
+      323  GetMember
+      324  Divide
+      325  StoreRegister 3
+      329  Pop
+      330  Push "sY"
+      335  GetVariable
+      336  Push register1, "_height"
+      343  GetMember
+      344  Divide
+      345  StoreRegister 4
+      349  Pop
+      350  Push register2, "_x", "cX"
+      359  GetVariable
+      360  Push register1, "_x"
+      367  GetMember
+      368  Push register3
+      373  Multiply
+      374  Subtract
+      375  SetMember
+      376  Push register2, "_y", "cY"
+      385  GetVariable
+      386  Push register1, "_y"
+      393  GetMember
+      394  Push register4
+      399  Multiply
+      400  Subtract
+      401  SetMember
+      402  Push register2, "_xscale", 100, register3
+      416  Multiply
+      417  SetMember
+      418  Push register2, "_yscale", 100, register4
+      432  Multiply
+      433  SetMember
+        }
+   434  DefineFunction2 "resetStage" () regs=11 flags=0xaa {
+      455  Push "ra", 100, "rb", 0, "ga", 100, "gb", 0, "ba", 100, "bb", 0, "aa", 100, "ab", 0, 8
+      535  InitObject
+      536  StoreRegister 2
+      540  Pop
+      541  Push register2, 1, "parentColor"
+      553  GetVariable
+      554  Push "setTransform"
+      559  CallMethod
+      560  Pop
+      561  Push register1, "_xscale", 100
+      573  SetMember
+      574  Push register1, "_yscale", 100
+      586  SetMember
+      587  Push register1, "_x", 0
+      603  SetMember
+      604  Push register1, "_y", 0
+      620  SetMember
+        }
+   621  Push "this"
+   626  GetVariable
+   627  Push "_visible", false
+   634  SetMember
+   635  Push "oldMode", "Stage"
+   642  GetVariable
+   643  Push "scaleMode"
+   648  GetMember
+   649  DefineLocal
+   650  Push "Stage"
+   655  GetVariable
+   656  Push "scaleMode", "exactFit"
+   663  SetMember
+   664  Push "cX", 266.5
+   678  DefineLocal
+   679  Push "cY", 150
+   689  DefineLocal
+   690  Push "sX", 533
+   700  DefineLocal
+   701  Push "sY", 300
+   711  DefineLocal
+   712  Push "Stage"
+   717  GetVariable
+   718  Push "scaleMode", "oldMode"
+   725  GetVariable
+   726  SetMember
+   727  Push "camColor", "this"
+   734  GetVariable
+   735  Push 1, "Color"
+   745  NewObject
+   746  DefineLocal
+   747  Push "parentColor", "_parent"
+   754  GetVariable
+   755  Push 1, "Color"
+   765  NewObject
+   766  DefineLocal
+   767  Push "this"
+   772  GetVariable
+   773  Push "onEnterFrame", "camControl"
+   780  GetVariable
+   781  SetMember
+   782  Push 0, "camControl"
+   796  CallFunction
+   797  Pop
+   798  Push "this"
+   803  GetVariable
+   804  Push "onUnload", "resetStage"
+   811  GetVariable
+   812  SetMember
+   813  End

@@ -1,0 +1,67 @@
+// onClipEvent(load)
+// origen: DefineSprite_2800 fotograma 1, clip en profundidad 1 (06488_DefineSprite_2800.bin, byte 31)
+
+    84  ConstantPool (12)
+   170  DefineFunction2 "setAG" (r3:num) regs=4 flags=0x69 {
+      191  Push "pN", register3
+      198  SetVariable
+      199  Push "nameText", register2, "playerKrin", "pN"
+      210  GetVariable
+      211  Add2
+      212  GetMember
+      213  Push "playerName"
+      218  GetMember
+      219  SetVariable
+      220  Push "i", 1
+      230  SetVariable
+      231  Push "i"
+      236  GetVariable
+      237  Push 6
+      245  Less2
+      246  Not
+      247  If loc299
+      252  Push "BLACK", 1, register1, "b", "i"
+      268  GetVariable
+      269  Add2
+      270  GetMember
+      271  Push "COVER"
+      276  GetMember
+      277  Push "gotoAndStop"
+      282  CallMethod
+      283  Pop
+      284  Push "i", "i"
+      291  GetVariable
+      292  Increment
+      293  SetVariable
+      294  Jump loc231
+      299  Push register2, "playerKrin", "pN"
+      308  GetVariable
+      309  Add2
+      310  GetMember
+      311  Push "agMode"
+      316  GetMember
+      317  Push 0
+      329  Less2
+      330  Not
+      331  Not
+      332  If loc390
+      337  Push "WHITE", 1, register1, "b", register2, "playerKrin", "pN"
+      357  GetVariable
+      358  Add2
+      359  GetMember
+      360  Push "agMode"
+      365  GetMember
+      366  Push 1
+      374  Add2
+      375  Add2
+      376  GetMember
+      377  Push "COVER"
+      382  GetMember
+      383  Push "gotoAndStop"
+      388  CallMethod
+      389  Pop
+        }
+   390  Push 5, 1, "setAG"
+   405  CallFunction
+   406  Pop
+   407  End

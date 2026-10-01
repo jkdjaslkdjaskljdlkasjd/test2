@@ -1,0 +1,76 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 217, clip en profundidad 475 (07249_PlaceObject3.bin)
+
+    92  ConstantPool (11)
+   167  Push "_root"
+   172  GetVariable
+   173  Push "_ymouse"
+   178  GetMember
+   179  Push "_root"
+   184  GetVariable
+   185  Push "_xmouse"
+   190  GetMember
+   191  Push 2, "this"
+   201  GetVariable
+   202  Push "hitter"
+   207  GetMember
+   208  Push "hitTest"
+   213  CallMethod
+   214  Not
+   215  If loc379
+   220  Push "", 6
+   230  GetProperty
+   231  Push 100
+   239  Less2
+   240  PushDuplicate
+   241  Not
+   242  If loc266
+   247  Pop
+   248  Push "_root"
+   253  GetVariable
+   254  Push "InBattle"
+   259  GetMember
+   260  Push false
+   265  Equals2
+   266  Not
+   267  If loc300
+   272  Push "", 6, "", 6
+   289  GetProperty
+   290  Push 20
+   298  Add2
+   299  SetProperty
+   300  Push "_root"
+   305  GetVariable
+   306  Push "hitTarget"
+   311  GetMember
+   312  Push 0, 1
+   329  SetMember
+   330  Push "_root"
+   335  GetVariable
+   336  Push "HTX", "", 0
+   352  GetProperty
+   353  SetMember
+   354  Push "_root"
+   359  GetVariable
+   360  Push "HTY", "", 1
+   372  GetProperty
+   373  SetMember
+   374  Jump loc471
+   379  Push "", 6
+   389  GetProperty
+   390  Push 0
+   402  Greater
+   403  Not
+   404  If loc437
+   409  Push "", 6, "", 6
+   426  GetProperty
+   427  Push 5
+   435  Subtract
+   436  SetProperty
+   437  Push "_root"
+   442  GetVariable
+   443  Push "hitTarget"
+   448  GetMember
+   449  Push 0, 0
+   470  SetMember
+   471  End

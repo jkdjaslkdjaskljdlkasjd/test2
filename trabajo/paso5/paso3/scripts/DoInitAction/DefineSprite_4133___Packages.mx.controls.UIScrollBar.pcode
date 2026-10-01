@@ -1,0 +1,781 @@
+// DefineSprite_4133___Packages.mx.controls.UIScrollBar
+// origen: DoInitAction del sprite 4133 (03798_DoInitAction.bin)
+
+     2  ConstantPool (83)
+   942  Push "_global"
+   947  GetVariable
+   948  Push "mx"
+   953  GetMember
+   954  Not
+   955  Not
+   956  If loc985
+   961  Push "_global"
+   966  GetVariable
+   967  Push "mx", 0, "Object"
+   983  NewObject
+   984  SetMember
+   985  Pop
+   986  Push "_global"
+   991  GetVariable
+   992  Push "mx"
+   997  GetMember
+   998  Push "controls"
+  1003  GetMember
+  1004  Not
+  1005  Not
+  1006  If loc1041
+  1011  Push "_global"
+  1016  GetVariable
+  1017  Push "mx"
+  1022  GetMember
+  1023  Push "controls", 0, "Object"
+  1039  NewObject
+  1040  SetMember
+  1041  Pop
+  1042  Push "_global"
+  1047  GetVariable
+  1048  Push "mx"
+  1053  GetMember
+  1054  Push "controls"
+  1059  GetMember
+  1060  Push "UIScrollBar"
+  1065  GetMember
+  1066  Not
+  1067  Not
+  1068  If loc4285
+  1073  Push "mx"
+  1078  GetVariable
+  1079  Push "controls"
+  1084  GetMember
+  1085  Push "UIScrollBar"
+  1090  DefineFunction2 "" () regs=2 flags=0x1a {
+     1101  Push 0, register1, undef
+     1116  CallMethod
+     1117  Pop
+        }
+  1118  StoreRegister 1
+  1122  SetMember
+  1123  Push "mx"
+  1128  GetVariable
+  1129  Push "controls"
+  1134  GetMember
+  1135  Push "UIScrollBar"
+  1140  GetMember
+  1141  Push "mx"
+  1146  GetVariable
+  1147  Push "controls"
+  1152  GetMember
+  1153  Push "scrollClasses"
+  1158  GetMember
+  1159  Push "ScrollBar"
+  1164  GetMember
+  1165  Extends
+  1166  Push register1, "prototype"
+  1173  GetMember
+  1174  StoreRegister 2
+  1178  Pop
+  1179  Push register2, "init"
+  1186  DefineFunction2 "" (Void) regs=4 flags=0x19 {
+     1203  Push 0, register2, "init"
+     1219  CallMethod
+     1220  Pop
+     1221  Push register1, "textField"
+     1228  GetMember
+     1229  Push "owner", register1
+     1236  SetMember
+     1237  Push register1, "wasHorizontal"
+     1244  GetMember
+     1245  Push 1, register1, "__set__horizontal"
+     1257  CallMethod
+     1258  Pop
+     1259  Push 0, register1, "__get__horizontal"
+     1275  CallMethod
+     1276  Not
+     1277  If loc1373
+     1282  Push register1, "textField"
+     1289  GetMember
+     1290  Push undef
+     1294  Equals2
+     1295  Not
+     1296  If loc1335
+     1301  Push register1, "__height"
+     1308  GetMember
+     1309  Push register1, "__width"
+     1316  GetMember
+     1317  Push 2, register2, "setSize"
+     1329  CallMethod
+     1330  Jump loc1367
+     1335  Push 16, register1, "textField"
+     1347  GetMember
+     1348  Push "_width"
+     1353  GetMember
+     1354  Push 2, register2, "setSize"
+     1366  CallMethod
+     1367  Pop
+     1368  Jump loc1459
+     1373  Push register1, "textField"
+     1380  GetMember
+     1381  Push undef
+     1385  Equals2
+     1386  Not
+     1387  If loc1426
+     1392  Push register1, "__height"
+     1399  GetMember
+     1400  Push register1, "__width"
+     1407  GetMember
+     1408  Push 2, register2, "setSize"
+     1420  CallMethod
+     1421  Jump loc1458
+     1426  Push register1, "textField"
+     1433  GetMember
+     1434  Push "_height"
+     1439  GetMember
+     1440  Push 16, 2, register2, "setSize"
+     1457  CallMethod
+     1458  Pop
+     1459  Push 0, register1, "__get__horizontal"
+     1475  CallMethod
+     1476  Not
+     1477  If loc1531
+     1482  Push register1, "__width"
+     1489  GetMember
+     1490  StoreRegister 3
+     1494  Pop
+     1495  Push register1, "__height", register1, "__width"
+     1506  GetMember
+     1507  SetMember
+     1508  Push register1, "width", register3
+     1517  SetMember
+     1518  Push register1, "__width", 16
+     1530  SetMember
+     1531  Push register1, "textField"
+     1538  GetMember
+     1539  Push "onScroller"
+     1544  DefineFunction2 "" () regs=2 flags=0x29 {
+        1555  Push register1, "hPosition", register1, "hscroll"
+        1566  GetMember
+        1567  SetMember
+        1568  Push register1, "vPosition", register1, "scroll"
+        1579  GetMember
+        1580  Push 1
+        1588  Subtract
+        1589  SetMember
+           }
+     1590  SetMember
+     1591  Push 0, register1, "__get___targetInstanceName"
+     1607  CallMethod
+     1608  Push undef
+     1612  Equals2
+     1613  Not
+     1614  Not
+     1615  If loc1682
+     1620  Push 0, register1, "__get___targetInstanceName"
+     1636  CallMethod
+     1637  Push 1, register1, "setScrollTarget"
+     1649  CallMethod
+     1650  Pop
+     1651  Push register1, 1, 0, register1, "__get___targetInstanceName"
+     1674  CallMethod
+     1675  Push "addListener"
+     1680  CallMethod
+     1681  Pop
+        }
+  1682  SetMember
+  1683  Push register2, "__get___targetInstanceName"
+  1690  DefineFunction2 "" () regs=2 flags=0x29 {
+     1701  Push register1, "textField"
+     1708  GetMember
+     1709  Return
+        }
+  1710  SetMember
+  1711  Push register2, "__get__height"
+  1718  DefineFunction2 "" () regs=2 flags=0x29 {
+     1729  Push register1, "wasHorizontal"
+     1736  GetMember
+     1737  Not
+     1738  If loc1757
+     1743  Push register1, "__width"
+     1750  GetMember
+     1751  Return
+     1752  Jump loc1766
+     1757  Push register1, "__height"
+     1764  GetMember
+     1765  Return
+        }
+  1766  SetMember
+  1767  Push register2, "__get__width"
+  1774  DefineFunction2 "" () regs=2 flags=0x29 {
+     1785  Push register1, "wasHorizontal"
+     1792  GetMember
+     1793  Not
+     1794  If loc1813
+     1799  Push register1, "__height"
+     1806  GetMember
+     1807  Return
+     1808  Jump loc1822
+     1813  Push register1, "__width"
+     1820  GetMember
+     1821  Return
+        }
+  1822  SetMember
+  1823  Push register2, "size"
+  1830  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     1847  Push 0, register2, "size"
+     1863  CallMethod
+     1864  Pop
+     1865  Push 0, register1, "onTextChanged"
+     1881  CallMethod
+     1882  Pop
+        }
+  1883  SetMember
+  1884  Push register2, "draw"
+  1891  DefineFunction2 "" () regs=2 flags=0x1a {
+     1902  Push 0, register1, "draw"
+     1918  CallMethod
+     1919  Pop
+        }
+  1920  SetMember
+  1921  Push register2, "__set___targetInstanceName"
+  1928  DefineFunction2 "" (r2:t) regs=4 flags=0x29 {
+     1942  Push register2, undef
+     1948  Equals2
+     1949  Not
+     1950  If loc2122
+     1955  Push register1, 1, register1, "textField"
+     1969  GetMember
+     1970  Push "removeListener"
+     1975  CallMethod
+     1976  Pop
+     1977  Push register1, "textField"
+     1984  GetMember
+     1985  Push 0, register1, "__get__horizontal"
+     2001  CallMethod
+     2002  If loc2017
+     2007  Push "vScroller"
+     2012  Jump loc2022
+     2017  Push "hScroller"
+     2022  Delete
+     2023  Pop
+     2024  Push register1, "textField"
+     2031  GetMember
+     2032  Push "hScroller"
+     2037  GetMember
+     2038  Push undef
+     2042  Equals2
+     2043  Not
+     2044  PushDuplicate
+     2045  Not
+     2046  If loc2072
+     2051  Pop
+     2052  Push register1, "textField"
+     2059  GetMember
+     2060  Push "vScroller"
+     2065  GetMember
+     2066  Push undef
+     2070  Equals2
+     2071  Not
+     2072  Not
+     2073  If loc2122
+     2078  Push "text", 1, register1, "textField"
+     2092  GetMember
+     2093  Push "unwatch"
+     2098  CallMethod
+     2099  Pop
+     2100  Push "htmltext", 1, register1, "textField"
+     2114  GetMember
+     2115  Push "unwatch"
+     2120  CallMethod
+     2121  Pop
+     2122  Push register1, "_parent"
+     2129  GetMember
+     2130  Push register2
+     2135  GetMember
+     2136  StoreRegister 3
+     2140  Pop
+     2141  Push register1, "textField", register1, "_parent"
+     2152  GetMember
+     2153  Push register2
+     2158  GetMember
+     2159  SetMember
+     2160  Push 0, register1, "onTextChanged"
+     2176  CallMethod
+     2177  Pop
+     2178  Push 0, register1, "__get___targetInstanceName"
+     2194  CallMethod
+     2195  Return
+     2196  Pop
+        }
+  2197  SetMember
+  2198  Push register2, "setSize"
+  2205  DefineFunction2 "" (r4:w, r3:h) regs=5 flags=0x19 {
+     2222  Push 0, register1, "__get__horizontal"
+     2238  CallMethod
+     2239  Not
+     2240  If loc2268
+     2245  Push register4, register3, 2, register2, "setSize"
+     2261  CallMethod
+     2262  Pop
+     2263  Jump loc2286
+     2268  Push register3, register4, 2, register2, "setSize"
+     2284  CallMethod
+     2285  Pop
+        }
+  2286  SetMember
+  2287  Push register2, "onTextChanged"
+  2294  DefineFunction2 "" (Void) regs=4 flags=0x29 {
+     2311  Push register1, "textField"
+     2318  GetMember
+     2319  Push undef
+     2323  Equals2
+     2324  Not
+     2325  If loc2335
+     2330  Push undef
+     2334  Return
+     2335  Push register1, "synchScroll"
+     2342  GetMember
+     2343  Push 1, "clearInterval"
+     2353  CallFunction
+     2354  Pop
+     2355  Push 0, register1, "__get__horizontal"
+     2371  CallMethod
+     2372  Not
+     2373  If loc2500
+     2378  Push register1, "textField"
+     2385  GetMember
+     2386  Push "hscroll"
+     2391  GetMember
+     2392  StoreRegister 3
+     2396  Pop
+     2397  Push register1, "textField"
+     2404  GetMember
+     2405  Push "maxhscroll"
+     2410  GetMember
+     2411  Push 0, register1, "textField"
+     2427  GetMember
+     2428  Push "_width"
+     2433  GetMember
+     2434  Push 3, register1, "setScrollProperties"
+     2446  CallMethod
+     2447  Pop
+     2448  Push register1, "textField"
+     2455  GetMember
+     2456  Push "maxhscroll"
+     2461  GetMember
+     2462  Push register3, 2, "Math"
+     2474  GetVariable
+     2475  Push "min"
+     2480  CallMethod
+     2481  Push 1, register1, "__set__scrollPosition"
+     2493  CallMethod
+     2494  Pop
+     2495  Jump loc2635
+     2500  Push register1, "textField"
+     2507  GetMember
+     2508  Push "scroll"
+     2513  GetMember
+     2514  StoreRegister 3
+     2518  Pop
+     2519  Push register1, "textField"
+     2526  GetMember
+     2527  Push "bottomScroll"
+     2532  GetMember
+     2533  Push register1, "textField"
+     2540  GetMember
+     2541  Push "scroll"
+     2546  GetMember
+     2547  Subtract
+     2548  StoreRegister 2
+     2552  Pop
+     2553  Push register1, "textField"
+     2560  GetMember
+     2561  Push "maxscroll"
+     2566  GetMember
+     2567  Push 1, register2, 3, register1, "setScrollProperties"
+     2586  CallMethod
+     2587  Pop
+     2588  Push register1, "textField"
+     2595  GetMember
+     2596  Push "maxscroll"
+     2601  GetMember
+     2602  Push register3, 2, "Math"
+     2614  GetVariable
+     2615  Push "min"
+     2620  CallMethod
+     2621  Push 1, register1, "__set__scrollPosition"
+     2633  CallMethod
+     2634  Pop
+        }
+  2635  SetMember
+  2636  Push register2, "__get__horizontal"
+  2643  DefineFunction2 "" () regs=2 flags=0x29 {
+     2654  Push register1, "wasHorizontal"
+     2661  GetMember
+     2662  Return
+        }
+  2663  SetMember
+  2664  Push register2, "__set__horizontal"
+  2671  DefineFunction2 "" (r2:v) regs=3 flags=0x29 {
+     2685  Push register1, "wasHorizontal", register2
+     2694  SetMember
+     2695  Push register2, register1, "initializing"
+     2704  GetMember
+     2705  And
+     2706  Not
+     2707  If loc2766
+     2712  Push register1, "_rotation"
+     2719  GetMember
+     2720  Push 90
+     2728  Equals2
+     2729  Not
+     2730  If loc2740
+     2735  Push undef
+     2739  Return
+     2740  Push register1, "_xscale", -100
+     2752  SetMember
+     2753  Push register1, "_rotation", -90
+     2765  SetMember
+     2766  Push register1, "initializing"
+     2773  GetMember
+     2774  Not
+     2775  Not
+     2776  If loc2903
+     2781  Push register2
+     2786  Not
+     2787  If loc2850
+     2792  Push register1, "_rotation"
+     2799  GetMember
+     2800  Push 0
+     2812  Equals2
+     2813  Not
+     2814  If loc2845
+     2819  Push register1, "_rotation", -90
+     2831  SetMember
+     2832  Push register1, "_xscale", -100
+     2844  SetMember
+     2845  Jump loc2903
+     2850  Push register1, "_rotation"
+     2857  GetMember
+     2858  Push -90
+     2866  Equals2
+     2867  Not
+     2868  If loc2903
+     2873  Push register1, "_rotation", 0
+     2889  SetMember
+     2890  Push register1, "_xscale", 100
+     2902  SetMember
+     2903  Push 0, register1, "__get__horizontal"
+     2919  CallMethod
+     2920  Return
+     2921  Pop
+        }
+  2922  SetMember
+  2923  Push register2, "callback"
+  2930  DefineFunction2 "" (prop, oldval, r2:newval) regs=3 flags=0x29 {
+     2963  Push register1, "hScroller"
+     2970  GetMember
+     2971  Push "synchScroll"
+     2976  GetMember
+     2977  Push 1, "clearInterval"
+     2987  CallFunction
+     2988  Pop
+     2989  Push register1, "vScroller"
+     2996  GetMember
+     2997  Push "synchScroll"
+     3002  GetMember
+     3003  Push 1, "clearInterval"
+     3013  CallFunction
+     3014  Pop
+     3015  Push register1, "hScroller"
+     3022  GetMember
+     3023  Push "synchScroll", 50, "onTextChanged", register1, "hScroller"
+     3039  GetMember
+     3040  Push 3, "setInterval"
+     3050  CallFunction
+     3051  SetMember
+     3052  Push register1, "vScroller"
+     3059  GetMember
+     3060  Push "synchScroll", 50, "onTextChanged", register1, "vScroller"
+     3076  GetMember
+     3077  Push 3, "setInterval"
+     3087  CallFunction
+     3088  SetMember
+     3089  Push register2
+     3094  Return
+        }
+  3095  SetMember
+  3096  Push register2, "setScrollTarget"
+  3103  DefineFunction2 "" (r2:tF) regs=3 flags=0x29 {
+     3118  Push register2, undef
+     3124  Equals2
+     3125  Not
+     3126  If loc3298
+     3131  Push register1, 1, register1, "textField"
+     3145  GetMember
+     3146  Push "removeListener"
+     3151  CallMethod
+     3152  Pop
+     3153  Push register1, "textField"
+     3160  GetMember
+     3161  Push 0, register1, "__get__horizontal"
+     3177  CallMethod
+     3178  If loc3193
+     3183  Push "vScroller"
+     3188  Jump loc3198
+     3193  Push "hScroller"
+     3198  Delete
+     3199  Pop
+     3200  Push register1, "textField"
+     3207  GetMember
+     3208  Push "hScroller"
+     3213  GetMember
+     3214  Push undef
+     3218  Equals2
+     3219  Not
+     3220  PushDuplicate
+     3221  Not
+     3222  If loc3248
+     3227  Pop
+     3228  Push register1, "textField"
+     3235  GetMember
+     3236  Push "vScroller"
+     3241  GetMember
+     3242  Push undef
+     3246  Equals2
+     3247  Not
+     3248  Not
+     3249  If loc3298
+     3254  Push "text", 1, register1, "textField"
+     3268  GetMember
+     3269  Push "unwatch"
+     3274  CallMethod
+     3275  Pop
+     3276  Push "htmltext", 1, register1, "textField"
+     3290  GetMember
+     3291  Push "unwatch"
+     3296  CallMethod
+     3297  Pop
+     3298  Push register1, "textField", undef
+     3306  SetMember
+     3307  Push register2, "TextField"
+     3314  GetVariable
+     3315  InstanceOf
+     3316  Not
+     3317  Not
+     3318  If loc3328
+     3323  Push undef
+     3327  Return
+     3328  Push register1, "textField", register2
+     3337  SetMember
+     3338  Push 0, register1, "__get__horizontal"
+     3354  CallMethod
+     3355  Not
+     3356  If loc3407
+     3361  Push register1, "textField"
+     3368  GetMember
+     3369  Push "hScroller", register1
+     3376  SetMember
+     3377  Push register1, "textField"
+     3384  GetMember
+     3385  Push "hScroller"
+     3390  GetMember
+     3391  Push "lineScrollSize", 5
+     3401  SetMember
+     3402  Jump loc3448
+     3407  Push register1, "textField"
+     3414  GetMember
+     3415  Push "vScroller", register1
+     3422  SetMember
+     3423  Push register1, "textField"
+     3430  GetMember
+     3431  Push "vScroller"
+     3436  GetMember
+     3437  Push "lineScrollSize", 1
+     3447  SetMember
+     3448  Push 0, register1, "onTextChanged"
+     3464  CallMethod
+     3465  Pop
+     3466  Push register1, "onChanged"
+     3473  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+        3490  Push 0, register1, "onTextChanged"
+        3506  CallMethod
+        3507  Pop
+           }
+     3508  SetMember
+     3509  Push register1, "onScroller"
+     3516  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+        3533  Push register1, "isScrolling"
+        3540  GetMember
+        3541  Not
+        3542  Not
+        3543  If loc3606
+        3548  Push register1, "horizontal"
+        3555  GetMember
+        3556  Not
+        3557  Not
+        3558  If loc3587
+        3563  Push register1, "scrollPosition", register1, "textField"
+        3574  GetMember
+        3575  Push "scroll"
+        3580  GetMember
+        3581  SetMember
+        3582  Jump loc3606
+        3587  Push register1, "scrollPosition", register1, "textField"
+        3598  GetMember
+        3599  Push "hscroll"
+        3604  GetMember
+        3605  SetMember
+           }
+     3606  SetMember
+     3607  Push register1, 1, register1, "textField"
+     3621  GetMember
+     3622  Push "addListener"
+     3627  CallMethod
+     3628  Pop
+     3629  Push register1, "callback"
+     3636  GetMember
+     3637  Push "text", 2, register1, "textField"
+     3651  GetMember
+     3652  Push "watch"
+     3657  CallMethod
+     3658  Pop
+     3659  Push register1, "callback"
+     3666  GetMember
+     3667  Push "htmlText", 2, register1, "textField"
+     3681  GetMember
+     3682  Push "watch"
+     3687  CallMethod
+     3688  Pop
+        }
+  3689  SetMember
+  3690  Push register2, "scrollHandler"
+  3697  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     3714  Push 0, register1, "__get__horizontal"
+     3730  CallMethod
+     3731  Not
+     3732  If loc3796
+     3737  Push register1, "textField"
+     3744  GetMember
+     3745  Push "background"
+     3750  GetMember
+     3751  StoreRegister 2
+     3755  Pop
+     3756  Push register1, "textField"
+     3763  GetMember
+     3764  Push "hscroll", register1, "scrollPosition"
+     3773  GetMember
+     3774  SetMember
+     3775  Push register1, "textField"
+     3782  GetMember
+     3783  Push "background", register2
+     3790  SetMember
+     3791  Jump loc3815
+     3796  Push register1, "textField"
+     3803  GetMember
+     3804  Push "scroll", register1, "scrollPosition"
+     3813  GetMember
+     3814  SetMember
+        }
+  3815  SetMember
+  3816  Push register2, "setEnabled"
+  3823  DefineFunction2 "" (r3:enable) regs=4 flags=0x19 {
+     3842  Push register3, 1, register2, "setEnabled"
+     3856  CallMethod
+     3857  Pop
+     3858  Push register3
+     3863  Not
+     3864  If loc3896
+     3869  Push register1, 1, register1, "textField"
+     3883  GetMember
+     3884  Push "addListener"
+     3889  CallMethod
+     3890  Pop
+     3891  Jump loc3920
+     3896  Push 0, register1, "textField"
+     3912  GetMember
+     3913  Push "removeListener"
+     3918  CallMethod
+     3919  Pop
+        }
+  3920  SetMember
+  3921  Push register2, "dispatchScrollEvent"
+  3928  DefineFunction2 "" (detail) regs=3 flags=0x29 {
+     3947  Push "type", "scroll", 1
+     3959  InitObject
+     3960  Push 1, register1, "dispatchEvent"
+     3972  CallMethod
+     3973  Pop
+        }
+  3974  SetMember
+  3975  Push register1, "symbolName", "UIScrollBar"
+  3984  SetMember
+  3985  Push register1, "symbolOwner", "mx"
+  3994  GetVariable
+  3995  Push "controls"
+  4000  GetMember
+  4001  Push "UIScrollBar"
+  4006  GetMember
+  4007  SetMember
+  4008  Push register2, "className", "UIScrollBar"
+  4017  SetMember
+  4018  Push register2, "clipParameters", "_targetInstanceName", 1, "horizontal", 1, 2
+  4044  InitObject
+  4045  SetMember
+  4046  Push register1, "mergedClipParameters", "mx"
+  4055  GetVariable
+  4056  Push "controls"
+  4061  GetMember
+  4062  Push "UIScrollBar"
+  4067  GetMember
+  4068  Push "prototype"
+  4073  GetMember
+  4074  Push "clipParameters"
+  4079  GetMember
+  4080  Push 1, "mx"
+  4090  GetVariable
+  4091  Push "core"
+  4096  GetMember
+  4097  Push "UIObject"
+  4102  GetMember
+  4103  Push "mergeClipParameters"
+  4108  CallMethod
+  4109  SetMember
+  4110  Push register1, "version", "2.0.2.127"
+  4119  SetMember
+  4120  Push register2, "__set___targetInstanceName"
+  4127  GetMember
+  4128  Push register2, "__get___targetInstanceName"
+  4135  GetMember
+  4136  Push "_targetInstanceName", 3, register2, "addProperty"
+  4150  CallMethod
+  4151  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  4159  Push register2, "__get__height"
+  4166  GetMember
+  4167  Push "height", 3, register2, "addProperty"
+  4181  CallMethod
+  4182  Push register2, "__set__horizontal"
+  4189  GetMember
+  4190  Push register2, "__get__horizontal"
+  4197  GetMember
+  4198  Push "horizontal", 3, register2, "addProperty"
+  4212  CallMethod
+  4213  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  4221  Push register2, "__get__width"
+  4228  GetMember
+  4229  Push "width", 3, register2, "addProperty"
+  4243  CallMethod
+  4244  Push 1, null, "mx"
+  4255  GetVariable
+  4256  Push "controls"
+  4261  GetMember
+  4262  Push "UIScrollBar"
+  4267  GetMember
+  4268  Push "prototype"
+  4273  GetMember
+  4274  Push 3, "ASSetPropFlags"
+  4284  CallFunction
+  4285  Pop
+  4286  End

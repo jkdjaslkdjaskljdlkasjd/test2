@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_2394_MODEL7 fotograma 173, DoAction (03603_DefineSprite_2394.bin, byte 38151)
+
+ 38151  Push "this"
+ 38160  GetVariable
+ 38161  RemoveSprite
+ 38162  End

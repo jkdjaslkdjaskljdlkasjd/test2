@@ -1,0 +1,128 @@
+// DefineSprite_4106___Packages.mx.skins.SkinElement
+// origen: DoInitAction del sprite 4106 (03717_DoInitAction.bin)
+
+     2  ConstantPool (19)
+   179  Push "_global"
+   184  GetVariable
+   185  Push "mx"
+   190  GetMember
+   191  Not
+   192  Not
+   193  If loc222
+   198  Push "_global"
+   203  GetVariable
+   204  Push "mx", 0, "Object"
+   220  NewObject
+   221  SetMember
+   222  Pop
+   223  Push "_global"
+   228  GetVariable
+   229  Push "mx"
+   234  GetMember
+   235  Push "skins"
+   240  GetMember
+   241  Not
+   242  Not
+   243  If loc278
+   248  Push "_global"
+   253  GetVariable
+   254  Push "mx"
+   259  GetMember
+   260  Push "skins", 0, "Object"
+   276  NewObject
+   277  SetMember
+   278  Pop
+   279  Push "_global"
+   284  GetVariable
+   285  Push "mx"
+   290  GetMember
+   291  Push "skins"
+   296  GetMember
+   297  Push "SkinElement"
+   302  GetMember
+   303  Not
+   304  Not
+   305  If loc679
+   310  Push "mx"
+   315  GetVariable
+   316  Push "skins"
+   321  GetMember
+   322  Push "SkinElement"
+   327  DefineFunction2 "" () regs=2 flags=0x1a {
+      338  Push 0, register1, undef
+      353  CallMethod
+      354  Pop
+        }
+   355  StoreRegister 1
+   359  SetMember
+   360  Push "mx"
+   365  GetVariable
+   366  Push "skins"
+   371  GetMember
+   372  Push "SkinElement"
+   377  GetMember
+   378  Push "MovieClip"
+   383  GetVariable
+   384  Extends
+   385  Push register1, "prototype"
+   392  GetMember
+   393  StoreRegister 2
+   397  Pop
+   398  Push register1, "registerElement"
+   405  DefineFunction2 "" (r2:name, r3:className) regs=4 flags=0x12a {
+      433  Push register3, undef
+      439  Equals2
+      440  If loc455
+      445  Push register3
+      450  Jump loc473
+      455  Push "mx"
+      460  GetVariable
+      461  Push "skins"
+      466  GetMember
+      467  Push "SkinElement"
+      472  GetMember
+      473  Push register2, 2, "Object"
+      485  GetVariable
+      486  Push "registerClass"
+      491  CallMethod
+      492  Pop
+      493  Push register1, "skinRegistry"
+      500  GetMember
+      501  Push register2, true
+      508  SetMember
+        }
+   509  SetMember
+   510  Push register2, "__set__visible"
+   517  DefineFunction2 "" (r2:visible) regs=3 flags=0x29 {
+      537  Push register1, "_visible", register2
+      546  SetMember
+        }
+   547  SetMember
+   548  Push register2, "move"
+   555  DefineFunction2 "" (r3:x, r2:y) regs=4 flags=0x29 {
+      572  Push register1, "_x", register3
+      581  SetMember
+      582  Push register1, "_y", register2
+      591  SetMember
+        }
+   592  SetMember
+   593  Push register2, "setSize"
+   600  DefineFunction2 "" (r3:w, r2:h) regs=4 flags=0x29 {
+      617  Push register1, "_width", register3
+      626  SetMember
+      627  Push register1, "_height", register2
+      636  SetMember
+        }
+   637  SetMember
+   638  Push 1, null, "mx"
+   649  GetVariable
+   650  Push "skins"
+   655  GetMember
+   656  Push "SkinElement"
+   661  GetMember
+   662  Push "prototype"
+   667  GetMember
+   668  Push 3, "ASSetPropFlags"
+   678  CallFunction
+   679  Pop
+   680  End

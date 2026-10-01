@@ -1,0 +1,50 @@
+// on(release)
+// origen: boton 2736 (06210_DefineButton2_2736.bin)
+
+    17  ConstantPool (7)
+    75  Push "Krin"
+    80  GetVariable
+    81  Push "tutorOn"
+    86  GetMember
+    87  Push false
+    92  Equals2
+    93  Not
+    94  If loc161
+    99  Push "t_tut2", "_root"
+   106  GetVariable
+   107  Push "KrinLang"
+   112  GetMember
+   113  Push "_root"
+   118  GetVariable
+   119  Push "KLangChoosen"
+   124  GetMember
+   125  GetMember
+   126  Push "MENU"
+   131  GetMember
+   132  Push 84
+   140  GetMember
+   141  SetVariable
+   142  Push "Krin"
+   147  GetVariable
+   148  Push "tutorOn", true
+   155  SetMember
+   156  Jump loc218
+   161  Push "t_tut2", "_root"
+   168  GetVariable
+   169  Push "KrinLang"
+   174  GetMember
+   175  Push "_root"
+   180  GetVariable
+   181  Push "KLangChoosen"
+   186  GetMember
+   187  GetMember
+   188  Push "MENU"
+   193  GetMember
+   194  Push 83
+   202  GetMember
+   203  SetVariable
+   204  Push "Krin"
+   209  GetVariable
+   210  Push "tutorOn", false
+   217  SetMember
+   218  End

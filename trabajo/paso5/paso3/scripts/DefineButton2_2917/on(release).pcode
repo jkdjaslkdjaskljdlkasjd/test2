@@ -1,0 +1,17 @@
+// on(release)
+// origen: boton 2917 (06618_DefineButton2_2917.bin)
+
+    38  Push "_root"
+    48  GetVariable
+    49  Push "Krin"
+    58  GetMember
+    59  Push "PauseForScreen"
+    78  GetMember
+    79  Push true
+    84  Equals2
+    85  Not
+    86  Not
+    87  If loc106
+    92  GoToLabel 'resetHere'
+   105  Play
+   106  End

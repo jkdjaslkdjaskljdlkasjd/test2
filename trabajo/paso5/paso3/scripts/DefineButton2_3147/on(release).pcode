@@ -1,0 +1,495 @@
+// on(release)
+// origen: boton 3147 (06863_DefineButton2_3147.bin)
+
+    31  ConstantPool (36)
+   406  Push "checker", true
+   413  SetVariable
+   414  Push "_root"
+   419  GetVariable
+   420  Push "Krin"
+   425  GetMember
+   426  Push "skillPoints"
+   431  GetMember
+   432  Push 0
+   444  Equals2
+   445  Not
+   446  If loc533
+   451  Push "checker", false
+   458  SetVariable
+   459  Push "_root"
+   464  GetVariable
+   465  Push "KrinCombatText"
+   470  GetMember
+   471  Push "combatTexter", "_root"
+   478  GetVariable
+   479  Push "KrinLang"
+   484  GetMember
+   485  Push "_root"
+   490  GetVariable
+   491  Push "KLangChoosen"
+   496  GetMember
+   497  GetMember
+   498  Push "TALENTERROR1"
+   503  GetMember
+   504  SetMember
+   505  Push 0, "_root"
+   519  GetVariable
+   520  Push "KrinCombatText"
+   525  GetMember
+   526  Push "play"
+   531  CallMethod
+   532  Pop
+   533  Push "_root"
+   538  GetVariable
+   539  Push "Krin"
+   544  GetMember
+   545  Push "talentMainArray"
+   550  GetMember
+   551  Push "id"
+   556  GetVariable
+   557  GetMember
+   558  Push "_root"
+   563  GetVariable
+   564  Push "Krin"
+   569  GetMember
+   570  Push "abilityXer"
+   575  GetMember
+   576  Push "id"
+   581  GetVariable
+   582  GetMember
+   583  Push "TIER"
+   588  GetMember
+   589  Equals2
+   590  Not
+   591  If loc678
+   596  Push "checker", false
+   603  SetVariable
+   604  Push "_root"
+   609  GetVariable
+   610  Push "KrinCombatText"
+   615  GetMember
+   616  Push "combatTexter", "_root"
+   623  GetVariable
+   624  Push "KrinLang"
+   629  GetMember
+   630  Push "_root"
+   635  GetVariable
+   636  Push "KLangChoosen"
+   641  GetMember
+   642  GetMember
+   643  Push "TALENTERROR2"
+   648  GetMember
+   649  SetMember
+   650  Push 0, "_root"
+   664  GetVariable
+   665  Push "KrinCombatText"
+   670  GetMember
+   671  Push "play"
+   676  CallMethod
+   677  Pop
+   678  Push "_root"
+   683  GetVariable
+   684  Push "Krin"
+   689  GetMember
+   690  Push "Level"
+   695  GetMember
+   696  Push "guessLevel"
+   701  GetVariable
+   702  Less2
+   703  Not
+   704  If loc791
+   709  Push "checker", false
+   716  SetVariable
+   717  Push "_root"
+   722  GetVariable
+   723  Push "KrinCombatText"
+   728  GetMember
+   729  Push "combatTexter", "_root"
+   736  GetVariable
+   737  Push "KrinLang"
+   742  GetMember
+   743  Push "_root"
+   748  GetVariable
+   749  Push "KLangChoosen"
+   754  GetMember
+   755  GetMember
+   756  Push "TALENTERROR3"
+   761  GetMember
+   762  SetMember
+   763  Push 0, "_root"
+   777  GetVariable
+   778  Push "KrinCombatText"
+   783  GetMember
+   784  Push "play"
+   789  CallMethod
+   790  Pop
+   791  Push "_root"
+   796  GetVariable
+   797  Push "Krin"
+   802  GetMember
+   803  Push "abilityXer"
+   808  GetMember
+   809  Push "id"
+   814  GetVariable
+   815  GetMember
+   816  Push "PRESKILL"
+   821  GetMember
+   822  Enumerate2
+   823  StoreRegister 0
+   827  Push null
+   831  Equals2
+   832  If loc1008
+   837  Push "krinu", register0
+   844  SetVariable
+   845  Push "_root"
+   850  GetVariable
+   851  Push "Krin"
+   856  GetMember
+   857  Push "talentMainArray"
+   862  GetMember
+   863  Push "_root"
+   868  GetVariable
+   869  Push "Krin"
+   874  GetMember
+   875  Push "abilityXer"
+   880  GetMember
+   881  Push "id"
+   886  GetVariable
+   887  GetMember
+   888  Push "PRESKILL"
+   893  GetMember
+   894  Push "krinu"
+   899  GetVariable
+   900  GetMember
+   901  GetMember
+   902  Push 0
+   914  Equals2
+   915  Not
+   916  If loc1003
+   921  Push "checker", false
+   928  SetVariable
+   929  Push "_root"
+   934  GetVariable
+   935  Push "KrinCombatText"
+   940  GetMember
+   941  Push "combatTexter", "_root"
+   948  GetVariable
+   949  Push "KrinLang"
+   954  GetMember
+   955  Push "_root"
+   960  GetVariable
+   961  Push "KLangChoosen"
+   966  GetMember
+   967  GetMember
+   968  Push "TALENTERROR4"
+   973  GetMember
+   974  SetMember
+   975  Push 0, "_root"
+   989  GetVariable
+   990  Push "KrinCombatText"
+   995  GetMember
+   996  Push "play"
+  1001  CallMethod
+  1002  Pop
+  1003  Jump loc823
+  1008  Push "checker"
+  1013  GetVariable
+  1014  Not
+  1015  If loc1927
+  1020  Push "_root"
+  1025  GetVariable
+  1026  Push "Krin"
+  1031  GetMember
+  1032  Push "skillPoints", "_root"
+  1039  GetVariable
+  1040  Push "Krin"
+  1045  GetMember
+  1046  Push "skillPoints"
+  1051  GetMember
+  1052  Decrement
+  1053  SetMember
+  1054  Push "_parent"
+  1059  GetVariable
+  1060  Push "_parent"
+  1065  GetMember
+  1066  Push "skillPoints", "_parent"
+  1073  GetVariable
+  1074  Push "_parent"
+  1079  GetMember
+  1080  Push "skillPoints"
+  1085  GetMember
+  1086  Decrement
+  1087  SetMember
+  1088  Push "_root"
+  1093  GetVariable
+  1094  Push "Krin"
+  1099  GetMember
+  1100  Push "talentMainArray"
+  1105  GetMember
+  1106  Push "id"
+  1111  GetVariable
+  1112  Push "_root"
+  1117  GetVariable
+  1118  Push "Krin"
+  1123  GetMember
+  1124  Push "talentMainArray"
+  1129  GetMember
+  1130  Push "id"
+  1135  GetVariable
+  1136  GetMember
+  1137  Increment
+  1138  SetMember
+  1139  Push "_root"
+  1144  GetVariable
+  1145  Push "Krin"
+  1150  GetMember
+  1151  Push "abilityXer"
+  1156  GetMember
+  1157  Push "id"
+  1162  GetVariable
+  1163  GetMember
+  1164  Push "CLASSIFY"
+  1169  GetMember
+  1170  Push 0
+  1182  Equals2
+  1183  Not
+  1184  If loc1823
+  1189  Push "_root"
+  1194  GetVariable
+  1195  Push "Krin"
+  1200  GetMember
+  1201  Push "moveMatrix"
+  1206  GetMember
+  1207  Enumerate2
+  1208  StoreRegister 0
+  1212  Push null
+  1216  Equals2
+  1217  If loc1428
+  1222  Push "krinp", register0
+  1229  SetVariable
+  1230  Push "_root"
+  1235  GetVariable
+  1236  Push "Krin"
+  1241  GetMember
+  1242  Push "moveMatrix"
+  1247  GetMember
+  1248  Push "krinp"
+  1253  GetVariable
+  1254  GetMember
+  1255  Push "_root"
+  1260  GetVariable
+  1261  Push "Krin"
+  1266  GetMember
+  1267  Push "skillAdderMatrix"
+  1272  GetMember
+  1273  Push "id"
+  1278  GetVariable
+  1279  GetMember
+  1280  Equals2
+  1281  Not
+  1282  If loc1423
+  1287  Push "_root"
+  1292  GetVariable
+  1293  Push "Krin"
+  1298  GetMember
+  1299  Push "moveMatrix"
+  1304  GetMember
+  1305  Push "krinp"
+  1310  GetVariable
+  1311  GetMember
+  1312  Push 0
+  1324  Equals2
+  1325  Not
+  1326  Not
+  1327  If loc1423
+  1332  Push "_root"
+  1337  GetVariable
+  1338  Push "Krin"
+  1343  GetMember
+  1344  Push "moveMatrix"
+  1349  GetMember
+  1350  Push "krinp"
+  1355  GetVariable
+  1356  Push "_root"
+  1361  GetVariable
+  1362  Push "Krin"
+  1367  GetMember
+  1368  Push "abilityXer"
+  1373  GetMember
+  1374  Push "id"
+  1379  GetVariable
+  1380  GetMember
+  1381  Push "ID"
+  1386  GetMember
+  1387  Push "_root"
+  1392  GetVariable
+  1393  Push "Krin"
+  1398  GetMember
+  1399  Push "talentMainArray"
+  1404  GetMember
+  1405  Push "id"
+  1410  GetVariable
+  1411  GetMember
+  1412  Push 1
+  1420  Subtract
+  1421  Add2
+  1422  SetMember
+  1423  Jump loc1208
+  1428  Push "_root"
+  1433  GetVariable
+  1434  Push "Krin"
+  1439  GetMember
+  1440  Push "skillAdderMatrix"
+  1445  GetMember
+  1446  Push "id"
+  1451  GetVariable
+  1452  Push "_root"
+  1457  GetVariable
+  1458  Push "Krin"
+  1463  GetMember
+  1464  Push "abilityXer"
+  1469  GetMember
+  1470  Push "id"
+  1475  GetVariable
+  1476  GetMember
+  1477  Push "ID"
+  1482  GetMember
+  1483  Push "_root"
+  1488  GetVariable
+  1489  Push "Krin"
+  1494  GetMember
+  1495  Push "talentMainArray"
+  1500  GetMember
+  1501  Push "id"
+  1506  GetVariable
+  1507  GetMember
+  1508  Push 1
+  1516  Subtract
+  1517  Add2
+  1518  SetMember
+  1519  Push "_root"
+  1524  GetVariable
+  1525  Push "Krin"
+  1530  GetMember
+  1531  Push "moveMatrix2", 0, "Array"
+  1547  NewObject
+  1548  SetMember
+  1549  Push "_root"
+  1554  GetVariable
+  1555  Push "Krin"
+  1560  GetMember
+  1561  Push "startSkill1"
+  1566  GetMember
+  1567  Push 1, "_root"
+  1577  GetVariable
+  1578  Push "Krin"
+  1583  GetMember
+  1584  Push "moveMatrix2"
+  1589  GetMember
+  1590  Push "push"
+  1595  CallMethod
+  1596  Pop
+  1597  Push "_root"
+  1602  GetVariable
+  1603  Push "Krin"
+  1608  GetMember
+  1609  Push "startSkill2"
+  1614  GetMember
+  1615  Push 1, "_root"
+  1625  GetVariable
+  1626  Push "Krin"
+  1631  GetMember
+  1632  Push "moveMatrix2"
+  1637  GetMember
+  1638  Push "push"
+  1643  CallMethod
+  1644  Pop
+  1645  Push "_root"
+  1650  GetVariable
+  1651  Push "Krin"
+  1656  GetMember
+  1657  Push "skillAdderMatrix"
+  1662  GetMember
+  1663  Enumerate2
+  1664  StoreRegister 0
+  1668  Push null
+  1672  Equals2
+  1673  If loc1818
+  1678  Push "krinu", register0
+  1685  SetVariable
+  1686  Push "_root"
+  1691  GetVariable
+  1692  Push "Krin"
+  1697  GetMember
+  1698  Push "skillAdderMatrix"
+  1703  GetMember
+  1704  Push "krinu"
+  1709  GetVariable
+  1710  GetMember
+  1711  Push 0
+  1723  Greater
+  1724  Not
+  1725  If loc1813
+  1730  Push "_root"
+  1735  GetVariable
+  1736  Push "Krin"
+  1741  GetMember
+  1742  Push "skillAdderMatrix"
+  1747  GetMember
+  1748  Push "krinu"
+  1753  GetVariable
+  1754  GetMember
+  1755  Push 1, "_root"
+  1765  GetVariable
+  1766  Push "Krin"
+  1771  GetMember
+  1772  Push "moveMatrix2"
+  1777  GetMember
+  1778  Push "push"
+  1783  CallMethod
+  1784  Pop
+  1785  Push 0, "_parent"
+  1799  GetVariable
+  1800  Push "_parent"
+  1805  GetMember
+  1806  Push "KrinCreateAbilityMatrix"
+  1811  CallMethod
+  1812  Pop
+  1813  Jump loc1664
+  1818  Jump loc1905
+  1823  Push "_root"
+  1828  GetVariable
+  1829  Push "Krin"
+  1834  GetMember
+  1835  Push "buffAdderMatrix"
+  1840  GetMember
+  1841  Push "id"
+  1846  GetVariable
+  1847  Push "_root"
+  1852  GetVariable
+  1853  Push "Krin"
+  1858  GetMember
+  1859  Push "abilityXer"
+  1864  GetMember
+  1865  Push "id"
+  1870  GetVariable
+  1871  GetMember
+  1872  Push "BUFFNAME"
+  1877  GetMember
+  1878  Push "_root"
+  1883  GetVariable
+  1884  Push "Krin"
+  1889  GetMember
+  1890  Push "talentMainArray"
+  1895  GetMember
+  1896  Push "id"
+  1901  GetVariable
+  1902  GetMember
+  1903  Add2
+  1904  SetMember
+  1905  Push 0, "_parent"
+  1919  GetVariable
+  1920  Push "krinRemakeTree"
+  1925  CallMethod
+  1926  Pop
+  1927  End

@@ -1,0 +1,30 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 332 (07204_PlaceObject2.bin)
+
+    36  ConstantPool (6)
+   102  Push "zoomTime", 9
+   112  SetVariable
+   113  Push "zoomRatio", 14
+   123  SetVariable
+   124  Push "scaleChange", 30
+   134  SetVariable
+   135  Push "zoomStep", "zoomRatio"
+   142  GetVariable
+   143  Push "zoomTime"
+   148  GetVariable
+   149  Divide
+   150  SetVariable
+   151  Push "zoomFactor", "zoomTime"
+   158  GetVariable
+   159  Push "zoomStep"
+   164  GetVariable
+   165  Push "zoomRatio"
+   170  GetVariable
+   171  Add2
+   172  Multiply
+   173  Push 2
+   181  Divide
+   182  SetVariable
+   183  Push "zoomPoint", 0
+   197  SetVariable
+   198  End

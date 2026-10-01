@@ -1,0 +1,1123 @@
+// DoAction
+// origen: DefineSprite_3239 fotograma 25, DoAction (06960_DefineSprite_3239.bin, byte 28195)
+
+ 28195  ConstantPool (92)
+ 28981  Push "_root"
+ 28986  GetVariable
+ 28987  Push "UITmouseHold", 0
+ 29001  SetMember
+ 29002  Push "yut_lif", "_root"
+ 29009  GetVariable
+ 29010  Push "KrinLang"
+ 29015  GetMember
+ 29016  Push "_root"
+ 29021  GetVariable
+ 29022  Push "KLangChoosen"
+ 29027  GetMember
+ 29028  GetMember
+ 29029  Push "SYSTEM"
+ 29034  GetMember
+ 29035  Push 0
+ 29047  GetMember
+ 29048  Push ":"
+ 29053  Add2
+ 29054  SetVariable
+ 29055  Push "yut_str", "_root"
+ 29062  GetVariable
+ 29063  Push "KrinLang"
+ 29068  GetMember
+ 29069  Push "_root"
+ 29074  GetVariable
+ 29075  Push "KLangChoosen"
+ 29080  GetMember
+ 29081  GetMember
+ 29082  Push "SYSTEM"
+ 29087  GetMember
+ 29088  Push 1
+ 29096  GetMember
+ 29097  Push ":"
+ 29102  Add2
+ 29103  SetVariable
+ 29104  Push "yut_mag", "_root"
+ 29111  GetVariable
+ 29112  Push "KrinLang"
+ 29117  GetMember
+ 29118  Push "_root"
+ 29123  GetVariable
+ 29124  Push "KLangChoosen"
+ 29129  GetMember
+ 29130  GetMember
+ 29131  Push "SYSTEM"
+ 29136  GetMember
+ 29137  Push 2
+ 29145  GetMember
+ 29146  Push ":"
+ 29151  Add2
+ 29152  SetVariable
+ 29153  Push "yut_spd", "_root"
+ 29160  GetVariable
+ 29161  Push "KrinLang"
+ 29166  GetMember
+ 29167  Push "_root"
+ 29172  GetVariable
+ 29173  Push "KLangChoosen"
+ 29178  GetMember
+ 29179  GetMember
+ 29180  Push "SYSTEM"
+ 29185  GetMember
+ 29186  Push 3
+ 29194  GetMember
+ 29195  Push ":"
+ 29200  Add2
+ 29201  SetVariable
+ 29202  Push "yut_foc", "_root"
+ 29209  GetVariable
+ 29210  Push "KrinLang"
+ 29215  GetMember
+ 29216  Push "_root"
+ 29221  GetVariable
+ 29222  Push "KLangChoosen"
+ 29227  GetMember
+ 29228  GetMember
+ 29229  Push "SYSTEM"
+ 29234  GetMember
+ 29235  Push 4
+ 29243  GetMember
+ 29244  Push ":"
+ 29249  Add2
+ 29250  SetVariable
+ 29251  Push "_root"
+ 29256  GetVariable
+ 29257  Push "Krin"
+ 29262  GetMember
+ 29263  Push "MenuPlayerSelect", 0
+ 29277  SetMember
+ 29278  Push "skillPoints", "_root"
+ 29285  GetVariable
+ 29286  Push "Krin"
+ 29291  GetMember
+ 29292  Push "skillPoints"
+ 29297  GetMember
+ 29298  SetVariable
+ 29299  Push "statPoints", "_root"
+ 29306  GetVariable
+ 29307  Push "Krin"
+ 29312  GetMember
+ 29313  Push "statPoints"
+ 29318  GetMember
+ 29319  SetVariable
+ 29320  Push "k_title1", "_root"
+ 29327  GetVariable
+ 29328  Push "KrinLang"
+ 29333  GetMember
+ 29334  Push "_root"
+ 29339  GetVariable
+ 29340  Push "KLangChoosen"
+ 29345  GetMember
+ 29346  GetMember
+ 29347  Push "K_TITLE1"
+ 29352  GetMember
+ 29353  SetVariable
+ 29354  Push "k_title2", "_root"
+ 29361  GetVariable
+ 29362  Push "KrinLang"
+ 29367  GetMember
+ 29368  Push "_root"
+ 29373  GetVariable
+ 29374  Push "KLangChoosen"
+ 29379  GetMember
+ 29380  GetMember
+ 29381  Push "K_TITLE2"
+ 29386  GetMember
+ 29387  SetVariable
+ 29388  Push "k_title3", "_root"
+ 29395  GetVariable
+ 29396  Push "KrinLang"
+ 29401  GetMember
+ 29402  Push "_root"
+ 29407  GetVariable
+ 29408  Push "KLangChoosen"
+ 29413  GetMember
+ 29414  GetMember
+ 29415  Push "K_TITLE3"
+ 29420  GetMember
+ 29421  SetVariable
+ 29422  Push "k_title4", "_root"
+ 29429  GetVariable
+ 29430  Push "KrinLang"
+ 29435  GetMember
+ 29436  Push "_root"
+ 29441  GetVariable
+ 29442  Push "KLangChoosen"
+ 29447  GetMember
+ 29448  GetMember
+ 29449  Push "MENU"
+ 29454  GetMember
+ 29455  Push 16
+ 29463  GetMember
+ 29464  SetVariable
+ 29465  Push "skLoadKrin", "_root"
+ 29472  GetVariable
+ 29473  Push "KrinLang"
+ 29478  GetMember
+ 29479  Push "_root"
+ 29484  GetVariable
+ 29485  Push "KLangChoosen"
+ 29490  GetMember
+ 29491  GetMember
+ 29492  Push "SKLOAD"
+ 29497  GetMember
+ 29498  Push ":"
+ 29503  Add2
+ 29504  SetVariable
+ 29505  Push "spLoadKrin", "_root"
+ 29512  GetVariable
+ 29513  Push "KrinLang"
+ 29518  GetMember
+ 29519  Push "_root"
+ 29524  GetVariable
+ 29525  Push "KLangChoosen"
+ 29530  GetMember
+ 29531  GetMember
+ 29532  Push "SPLOAD"
+ 29537  GetMember
+ 29538  Push ":"
+ 29543  Add2
+ 29544  SetVariable
+ 29545  Push "yut_name", "_root"
+ 29552  GetVariable
+ 29553  Push "Krin"
+ 29558  GetMember
+ 29559  Push "NameSets"
+ 29564  GetMember
+ 29565  Push "_root"
+ 29570  GetVariable
+ 29571  Push "Krin"
+ 29576  GetMember
+ 29577  Push "MenuPlayerSelect"
+ 29582  GetMember
+ 29583  GetMember
+ 29584  SetVariable
+ 29585  Push "yut_info", "_root"
+ 29592  GetVariable
+ 29593  Push "KrinLang"
+ 29598  GetMember
+ 29599  Push "_root"
+ 29604  GetVariable
+ 29605  Push "KLangChoosen"
+ 29610  GetMember
+ 29611  GetMember
+ 29612  Push "MENU"
+ 29617  GetMember
+ 29618  Push 0
+ 29630  GetMember
+ 29631  Push "_root"
+ 29636  GetVariable
+ 29637  Push "Krin"
+ 29642  GetMember
+ 29643  Push "LevelStats"
+ 29648  GetMember
+ 29649  Push "_root"
+ 29654  GetVariable
+ 29655  Push "Krin"
+ 29660  GetMember
+ 29661  Push "MenuPlayerSelect"
+ 29666  GetMember
+ 29667  GetMember
+ 29668  Add2
+ 29669  Push " "
+ 29674  Add2
+ 29675  Push "_root"
+ 29680  GetVariable
+ 29681  Push "KrinLang"
+ 29686  GetMember
+ 29687  Push "_root"
+ 29692  GetVariable
+ 29693  Push "KLangChoosen"
+ 29698  GetMember
+ 29699  GetMember
+ 29700  Push "CLASS"
+ 29705  GetMember
+ 29706  Push "_root"
+ 29711  GetVariable
+ 29712  Push "Krin"
+ 29717  GetMember
+ 29718  Push "ClassStats"
+ 29723  GetMember
+ 29724  Push "_root"
+ 29729  GetVariable
+ 29730  Push "Krin"
+ 29735  GetMember
+ 29736  Push "MenuPlayerSelect"
+ 29741  GetMember
+ 29742  GetMember
+ 29743  Push 1
+ 29751  Subtract
+ 29752  GetMember
+ 29753  Add2
+ 29754  SetVariable
+ 29755  Push "yut_lif2", "_root"
+ 29762  GetVariable
+ 29763  Push "Krin"
+ 29768  GetMember
+ 29769  Push "StatSets", "_root"
+ 29776  GetVariable
+ 29777  Push "Krin"
+ 29782  GetMember
+ 29783  Push "MenuPlayerSelect"
+ 29788  GetMember
+ 29789  Add2
+ 29790  GetMember
+ 29791  Push 0
+ 29803  GetMember
+ 29804  Push true, "_root"
+ 29811  GetVariable
+ 29812  Push "Krin"
+ 29817  GetMember
+ 29818  Push "LevelStats"
+ 29823  GetMember
+ 29824  Push "_root"
+ 29829  GetVariable
+ 29830  Push "Krin"
+ 29835  GetMember
+ 29836  Push "MenuPlayerSelect"
+ 29841  GetMember
+ 29842  GetMember
+ 29843  Push "_root"
+ 29848  GetVariable
+ 29849  Push "KNU", "_root"
+ 29856  GetVariable
+ 29857  Push "Krin"
+ 29862  GetMember
+ 29863  Push "ClassStats"
+ 29868  GetMember
+ 29869  Push "_root"
+ 29874  GetVariable
+ 29875  Push "Krin"
+ 29880  GetMember
+ 29881  Push "MenuPlayerSelect"
+ 29886  GetMember
+ 29887  GetMember
+ 29888  Add2
+ 29889  GetMember
+ 29890  Push 1
+ 29898  GetMember
+ 29899  Push 3, "_root"
+ 29909  GetVariable
+ 29910  Push "getStat"
+ 29915  CallMethod
+ 29916  Push 1, "Math"
+ 29926  GetVariable
+ 29927  Push "ceil"
+ 29932  CallMethod
+ 29933  Add2
+ 29934  SetVariable
+ 29935  Push "yut_str2", "_root"
+ 29942  GetVariable
+ 29943  Push "Krin"
+ 29948  GetMember
+ 29949  Push "StatSets", "_root"
+ 29956  GetVariable
+ 29957  Push "Krin"
+ 29962  GetMember
+ 29963  Push "MenuPlayerSelect"
+ 29968  GetMember
+ 29969  Add2
+ 29970  GetMember
+ 29971  Push 1
+ 29979  GetMember
+ 29980  Push true, "_root"
+ 29987  GetVariable
+ 29988  Push "Krin"
+ 29993  GetMember
+ 29994  Push "LevelStats"
+ 29999  GetMember
+ 30000  Push "_root"
+ 30005  GetVariable
+ 30006  Push "Krin"
+ 30011  GetMember
+ 30012  Push "MenuPlayerSelect"
+ 30017  GetMember
+ 30018  GetMember
+ 30019  Push "_root"
+ 30024  GetVariable
+ 30025  Push "KNU", "_root"
+ 30032  GetVariable
+ 30033  Push "Krin"
+ 30038  GetMember
+ 30039  Push "ClassStats"
+ 30044  GetMember
+ 30045  Push "_root"
+ 30050  GetVariable
+ 30051  Push "Krin"
+ 30056  GetMember
+ 30057  Push "MenuPlayerSelect"
+ 30062  GetMember
+ 30063  GetMember
+ 30064  Add2
+ 30065  GetMember
+ 30066  Push 2
+ 30074  GetMember
+ 30075  Push 3, "_root"
+ 30085  GetVariable
+ 30086  Push "getStat"
+ 30091  CallMethod
+ 30092  Push 1, "Math"
+ 30102  GetVariable
+ 30103  Push "ceil"
+ 30108  CallMethod
+ 30109  Add2
+ 30110  SetVariable
+ 30111  Push "yut_mag2", "_root"
+ 30118  GetVariable
+ 30119  Push "Krin"
+ 30124  GetMember
+ 30125  Push "StatSets", "_root"
+ 30132  GetVariable
+ 30133  Push "Krin"
+ 30138  GetMember
+ 30139  Push "MenuPlayerSelect"
+ 30144  GetMember
+ 30145  Add2
+ 30146  GetMember
+ 30147  Push 2
+ 30155  GetMember
+ 30156  Push true, "_root"
+ 30163  GetVariable
+ 30164  Push "Krin"
+ 30169  GetMember
+ 30170  Push "LevelStats"
+ 30175  GetMember
+ 30176  Push "_root"
+ 30181  GetVariable
+ 30182  Push "Krin"
+ 30187  GetMember
+ 30188  Push "MenuPlayerSelect"
+ 30193  GetMember
+ 30194  GetMember
+ 30195  Push "_root"
+ 30200  GetVariable
+ 30201  Push "KNU", "_root"
+ 30208  GetVariable
+ 30209  Push "Krin"
+ 30214  GetMember
+ 30215  Push "ClassStats"
+ 30220  GetMember
+ 30221  Push "_root"
+ 30226  GetVariable
+ 30227  Push "Krin"
+ 30232  GetMember
+ 30233  Push "MenuPlayerSelect"
+ 30238  GetMember
+ 30239  GetMember
+ 30240  Add2
+ 30241  GetMember
+ 30242  Push 3
+ 30250  GetMember
+ 30251  Push 3, "_root"
+ 30261  GetVariable
+ 30262  Push "getStat"
+ 30267  CallMethod
+ 30268  Push 1, "Math"
+ 30278  GetVariable
+ 30279  Push "ceil"
+ 30284  CallMethod
+ 30285  Add2
+ 30286  SetVariable
+ 30287  Push "yut_spd2", "_root"
+ 30294  GetVariable
+ 30295  Push "Krin"
+ 30300  GetMember
+ 30301  Push "StatSets", "_root"
+ 30308  GetVariable
+ 30309  Push "Krin"
+ 30314  GetMember
+ 30315  Push "MenuPlayerSelect"
+ 30320  GetMember
+ 30321  Add2
+ 30322  GetMember
+ 30323  Push 3
+ 30331  GetMember
+ 30332  Push true, "_root"
+ 30339  GetVariable
+ 30340  Push "Krin"
+ 30345  GetMember
+ 30346  Push "LevelStats"
+ 30351  GetMember
+ 30352  Push "_root"
+ 30357  GetVariable
+ 30358  Push "Krin"
+ 30363  GetMember
+ 30364  Push "MenuPlayerSelect"
+ 30369  GetMember
+ 30370  GetMember
+ 30371  Push "_root"
+ 30376  GetVariable
+ 30377  Push "KNU", "_root"
+ 30384  GetVariable
+ 30385  Push "Krin"
+ 30390  GetMember
+ 30391  Push "ClassStats"
+ 30396  GetMember
+ 30397  Push "_root"
+ 30402  GetVariable
+ 30403  Push "Krin"
+ 30408  GetMember
+ 30409  Push "MenuPlayerSelect"
+ 30414  GetMember
+ 30415  GetMember
+ 30416  Add2
+ 30417  GetMember
+ 30418  Push 4
+ 30426  GetMember
+ 30427  Push 3, "_root"
+ 30437  GetVariable
+ 30438  Push "getStat"
+ 30443  CallMethod
+ 30444  Push 1, "Math"
+ 30454  GetVariable
+ 30455  Push "ceil"
+ 30460  CallMethod
+ 30461  Add2
+ 30462  SetVariable
+ 30463  Push "yut_foc2", "_root"
+ 30470  GetVariable
+ 30471  Push "Krin"
+ 30476  GetMember
+ 30477  Push "StatSets", "_root"
+ 30484  GetVariable
+ 30485  Push "Krin"
+ 30490  GetMember
+ 30491  Push "MenuPlayerSelect"
+ 30496  GetMember
+ 30497  Add2
+ 30498  GetMember
+ 30499  Push 4
+ 30507  GetMember
+ 30508  Push true, "_root"
+ 30515  GetVariable
+ 30516  Push "KNU", "_root"
+ 30523  GetVariable
+ 30524  Push "Krin"
+ 30529  GetMember
+ 30530  Push "ClassStats"
+ 30535  GetMember
+ 30536  Push "_root"
+ 30541  GetVariable
+ 30542  Push "Krin"
+ 30547  GetMember
+ 30548  Push "MenuPlayerSelect"
+ 30553  GetMember
+ 30554  GetMember
+ 30555  Add2
+ 30556  GetMember
+ 30557  Push 5
+ 30565  GetMember
+ 30566  Push 2, "Math"
+ 30576  GetVariable
+ 30577  Push "ceil"
+ 30582  CallMethod
+ 30583  Add2
+ 30584  SetVariable
+ 30585  Push "talentPool"
+ 30590  GetVariable
+ 30591  Push "talentPool2"
+ 30596  GetMember
+ 30597  Push "_y", 0
+ 30611  SetMember
+ 30612  Push "KrinCreateAbilityMatrix"
+ 30617  DefineFunction2 "" () regs=2 flags=0x6a {
+    30628  Push 0
+    30636  Push "_root"
+    30646  GetVariable
+    30647  Push "__v8Sync"
+    30660  CallMethod
+    30661  Pop
+    30662  Push "now", 0
+    30676  SetVariable
+    30677  Push "now2", 0
+    30691  SetVariable
+    30692  Push "spacey", 35
+    30702  SetVariable
+    30703  Push "starty", 25
+    30713  SetVariable
+    30714  Push "talentPool"
+    30719  GetVariable
+    30720  Push "talentPool2"
+    30725  GetMember
+    30726  Push "maxH", "starty"
+    30733  GetVariable
+    30734  Push 140
+    30742  Subtract
+    30743  SetMember
+    30744  Push "krinv", 0
+    30758  SetVariable
+    30759  Push "krinv"
+    30764  GetVariable
+    30765  Push 70
+    30773  Less2
+    30774  Not
+    30775  If loc30818
+    30780  Push "talentPool"
+    30785  GetVariable
+    30786  Push "talentPool2"
+    30791  GetMember
+    30792  Push "t", "krinv"
+    30799  GetVariable
+    30800  Add2
+    30801  GetMember
+    30802  RemoveSprite
+    30803  Push "krinv", "krinv"
+    30810  GetVariable
+    30811  Increment
+    30812  SetVariable
+    30813  Jump loc30759
+    30818  Push register1, "Krin"
+    30825  GetMember
+    30826  Push "moveMatrix2"
+    30831  GetMember
+    30832  Enumerate2
+    30833  StoreRegister 0
+    30837  Push null
+    30841  Equals2
+    30842  If loc31870
+    30847  Push "krini", register0
+    30854  SetVariable
+    30855  Push "now"
+    30860  GetVariable
+    30861  Push "t", "now"
+    30868  GetVariable
+    30869  Add2
+    30870  Push "talenter", 3, "talentPool"
+    30882  GetVariable
+    30883  Push "talentPool2"
+    30888  GetMember
+    30889  Push "attachMovie"
+    30894  CallMethod
+    30895  Pop
+    30896  Push "talentPool"
+    30901  GetVariable
+    30902  Push "talentPool2"
+    30907  GetMember
+    30908  Push "t", "now"
+    30915  GetVariable
+    30916  Add2
+    30917  GetMember
+    30918  Push "_y", "now2"
+    30925  GetVariable
+    30926  Push "spacey"
+    30931  GetVariable
+    30932  Multiply
+    30933  Push "starty"
+    30938  GetVariable
+    30939  Add2
+    30940  SetMember
+    30941  Push "talentPool"
+    30946  GetVariable
+    30947  Push "talentPool2"
+    30952  GetMember
+    30953  Push "t", "now"
+    30960  GetVariable
+    30961  Add2
+    30962  GetMember
+    30963  Push "_x", "now"
+    30970  GetVariable
+    30971  Push -1, 2, "Math"
+    30986  GetVariable
+    30987  Push "pow"
+    30992  CallMethod
+    30993  Push -40
+    31001  Multiply
+    31002  Push 45
+    31010  Add2
+    31011  SetMember
+    31012  Push "talentPool"
+    31017  GetVariable
+    31018  Push "talentPool2"
+    31023  GetMember
+    31024  Push "t", "now"
+    31031  GetVariable
+    31032  Add2
+    31033  GetMember
+    31034  Push "talent", register1, "Krin"
+    31043  GetMember
+    31044  Push "moveMatrix2"
+    31049  GetMember
+    31050  Push "krini"
+    31055  GetVariable
+    31056  GetMember
+    31057  SetMember
+    31058  Push register1, "KRINABILITY", register1, "Krin"
+    31069  GetMember
+    31070  Push "moveMatrix2"
+    31075  GetMember
+    31076  Push "krini"
+    31081  GetVariable
+    31082  GetMember
+    31083  Add2
+    31084  GetMember
+    31085  Push 0
+    31097  GetMember
+    31098  Push 1, "talentPool"
+    31108  GetVariable
+    31109  Push "talentPool2"
+    31114  GetMember
+    31115  Push "t", "now"
+    31122  GetVariable
+    31123  Add2
+    31124  GetMember
+    31125  Push "inner"
+    31130  GetMember
+    31131  Push "gotoAndStop"
+    31136  CallMethod
+    31137  Pop
+    31138  Push register1, "Krin"
+    31145  GetMember
+    31146  Push "abilityXer"
+    31151  GetMember
+    31152  Push register1, "Krin"
+    31159  GetMember
+    31160  Push "moveMatrix2"
+    31165  GetMember
+    31166  Push "krini"
+    31171  GetVariable
+    31172  GetMember
+    31173  GetMember
+    31174  Push "CLASSIFY"
+    31179  GetMember
+    31180  Push 1
+    31188  Equals2
+    31189  Not
+    31190  If loc31262
+    31195  Push register1, "Krin"
+    31202  GetMember
+    31203  Push "abilityXer"
+    31208  GetMember
+    31209  Push "krink"
+    31214  GetVariable
+    31215  GetMember
+    31216  Push "BUFFNAME"
+    31221  GetMember
+    31222  Push 1, "talentPool"
+    31232  GetVariable
+    31233  Push "talentPool2"
+    31238  GetMember
+    31239  Push "t", "now"
+    31246  GetVariable
+    31247  Add2
+    31248  GetMember
+    31249  Push "inner"
+    31254  GetMember
+    31255  Push "gotoAndStop"
+    31260  CallMethod
+    31261  Pop
+    31262  Push "talentPool"
+    31267  GetVariable
+    31268  Push "talentPool2"
+    31273  GetMember
+    31274  Push "t", "now"
+    31281  GetVariable
+    31282  Add2
+    31283  GetMember
+    31284  Push "inner"
+    31289  GetMember
+    31290  Push "toolTipTitle", register1, "KRINABILITY", register1, "Krin"
+    31303  GetMember
+    31304  Push "moveMatrix2"
+    31309  GetMember
+    31310  Push "krini"
+    31315  GetVariable
+    31316  GetMember
+    31317  Add2
+    31318  GetMember
+    31319  Push 17
+    31327  GetMember
+    31328  SetMember
+    31329  Push "talentPool"
+    31334  GetVariable
+    31335  Push "talentPool2"
+    31340  GetMember
+    31341  Push "t", "now"
+    31348  GetVariable
+    31349  Add2
+    31350  GetMember
+    31351  Push "inner"
+    31356  GetMember
+    31357  Push "toolTip", register1, "KRINABILITYB", register1, "Krin"
+    31370  GetMember
+    31371  Push "moveMatrix2"
+    31376  GetMember
+    31377  Push "krini"
+    31382  GetVariable
+    31383  GetMember
+    31384  Add2
+    31385  GetMember
+    31386  Push 17
+    31394  GetMember
+    31395  Push register1, "KrinLang"
+    31402  GetMember
+    31403  Push register1, "KLangChoosen"
+    31410  GetMember
+    31411  GetMember
+    31412  Push "SKILLTHRS1"
+    31417  GetMember
+    31418  Add2
+    31419  Push register1, "KRINABILITY", register1, "Krin"
+    31430  GetMember
+    31431  Push "moveMatrix2"
+    31436  GetMember
+    31437  Push "krini"
+    31442  GetVariable
+    31443  GetMember
+    31444  Add2
+    31445  GetMember
+    31446  Push 8
+    31454  GetMember
+    31455  Add2
+    31456  Push register1, "KrinLang"
+    31463  GetMember
+    31464  Push register1, "KLangChoosen"
+    31471  GetMember
+    31472  GetMember
+    31473  Push "SKILLTHRS2"
+    31478  GetMember
+    31479  Add2
+    31480  SetMember
+    31481  Push "talentPool"
+    31486  GetVariable
+    31487  Push "talentPool2"
+    31492  GetMember
+    31493  Push "t", "now"
+    31500  GetVariable
+    31501  Add2
+    31502  GetMember
+    31503  Push "inner"
+    31508  GetMember
+    31509  Push "toolTip3", register1, "KRINABILITYB", register1, "Krin"
+    31522  GetMember
+    31523  Push "moveMatrix2"
+    31528  GetMember
+    31529  Push "krini"
+    31534  GetVariable
+    31535  GetMember
+    31536  Add2
+    31537  GetMember
+    31538  Push 18
+    31546  GetMember
+    31547  SetMember
+    31548  Push "talentPool"
+    31553  GetVariable
+    31554  Push "talentPool2"
+    31559  GetMember
+    31560  Push "t", "now"
+    31567  GetVariable
+    31568  Add2
+    31569  GetMember
+    31570  Push "useNum", register1, "KRINABILITY", register1, "Krin"
+    31583  GetMember
+    31584  Push "moveMatrix2"
+    31589  GetMember
+    31590  Push "krini"
+    31595  GetVariable
+    31596  GetMember
+    31597  Add2
+    31598  GetMember
+    31599  Push 8
+    31607  GetMember
+    31608  SetMember
+    31609  Push register1, "elementMainArray"
+    31616  GetMember
+    31617  Enumerate2
+    31618  StoreRegister 0
+    31622  Push null
+    31626  Equals2
+    31627  If loc31753
+    31632  Push "u", register0
+    31639  SetVariable
+    31640  Push register1, "elementMainArray"
+    31647  GetMember
+    31648  Push "u"
+    31653  GetVariable
+    31654  GetMember
+    31655  Push register1, "KRINABILITYB", register1, "Krin"
+    31666  GetMember
+    31667  Push "moveMatrix2"
+    31672  GetMember
+    31673  Push "krini"
+    31678  GetVariable
+    31679  GetMember
+    31680  Add2
+    31681  GetMember
+    31682  Push 0
+    31694  GetMember
+    31695  Equals2
+    31696  Not
+    31697  If loc31748
+    31702  Push "talentPool"
+    31707  GetVariable
+    31708  Push "talentPool2"
+    31713  GetMember
+    31714  Push "t", "now"
+    31721  GetVariable
+    31722  Add2
+    31723  GetMember
+    31724  Push "inner"
+    31729  GetMember
+    31730  Push "KNcolor2", register1, "elementColorArray"
+    31739  GetMember
+    31740  Push "u"
+    31745  GetVariable
+    31746  GetMember
+    31747  SetMember
+    31748  Jump loc31618
+    31753  Push "now", "now"
+    31760  GetVariable
+    31761  Increment
+    31762  SetVariable
+    31763  Push "now"
+    31768  GetVariable
+    31769  Push -1, 2, "Math"
+    31784  GetVariable
+    31785  Push "pow"
+    31790  CallMethod
+    31791  Push 0
+    31803  Greater
+    31804  Not
+    31805  If loc31825
+    31810  Push "now2", "now2"
+    31817  GetVariable
+    31818  Increment
+    31819  SetVariable
+    31820  Jump loc31865
+    31825  Push "talentPool"
+    31830  GetVariable
+    31831  Push "talentPool2"
+    31836  GetMember
+    31837  Push "maxH", "talentPool"
+    31844  GetVariable
+    31845  Push "talentPool2"
+    31850  GetMember
+    31851  Push "maxH"
+    31856  GetMember
+    31857  Push "spacey"
+    31862  GetVariable
+    31863  Add2
+    31864  SetMember
+    31865  Jump loc30833
+    31870  Push "i", 0
+    31884  SetVariable
+    31885  Push "i"
+    31890  GetVariable
+    31891  Push 8
+    31899  Less2
+    31900  Not
+    31901  If loc32543
+    31906  Push register1, "KRINABILITY", register1, "Krin"
+    31917  GetMember
+    31918  Push "moveMatrix"
+    31923  GetMember
+    31924  Push "i"
+    31929  GetVariable
+    31930  GetMember
+    31931  Add2
+    31932  GetMember
+    31933  Push 0
+    31945  GetMember
+    31946  Push 1, "selector"
+    31956  GetVariable
+    31957  Push "thing", "i"
+    31964  GetVariable
+    31965  Add2
+    31966  GetMember
+    31967  Push "gotoAndStop"
+    31972  CallMethod
+    31973  Pop
+    31974  Push "selector"
+    31979  GetVariable
+    31980  Push "thing", "i"
+    31987  GetVariable
+    31988  Add2
+    31989  GetMember
+    31990  Push "toolTipTitle", register1, "KRINABILITY", register1, "Krin"
+    32003  GetMember
+    32004  Push "moveMatrix"
+    32009  GetMember
+    32010  Push "i"
+    32015  GetVariable
+    32016  GetMember
+    32017  Add2
+    32018  GetMember
+    32019  Push 17
+    32027  GetMember
+    32028  SetMember
+    32029  Push "selector"
+    32034  GetVariable
+    32035  Push "thing", "i"
+    32042  GetVariable
+    32043  Add2
+    32044  GetMember
+    32045  Push "toolTip", register1, "KRINABILITYB", register1, "Krin"
+    32058  GetMember
+    32059  Push "moveMatrix"
+    32064  GetMember
+    32065  Push "i"
+    32070  GetVariable
+    32071  GetMember
+    32072  Add2
+    32073  GetMember
+    32074  Push 17
+    32082  GetMember
+    32083  SetMember
+    32084  Push "selector"
+    32089  GetVariable
+    32090  Push "thing", "i"
+    32097  GetVariable
+    32098  Add2
+    32099  GetMember
+    32100  Push "toolTip3", register1, "KRINABILITYB", register1, "Krin"
+    32113  GetMember
+    32114  Push "moveMatrix"
+    32119  GetMember
+    32120  Push "i"
+    32125  GetVariable
+    32126  GetMember
+    32127  Add2
+    32128  GetMember
+    32129  Push 18
+    32137  GetMember
+    32138  SetMember
+    32139  Push register1, "elementMainArray"
+    32146  GetMember
+    32147  Enumerate2
+    32148  StoreRegister 0
+    32152  Push null
+    32156  Equals2
+    32157  If loc32271
+    32162  Push "u", register0
+    32169  SetVariable
+    32170  Push register1, "elementMainArray"
+    32177  GetMember
+    32178  Push "u"
+    32183  GetVariable
+    32184  GetMember
+    32185  Push register1, "KRINABILITYB", register1, "Krin"
+    32196  GetMember
+    32197  Push "moveMatrix"
+    32202  GetMember
+    32203  Push "i"
+    32208  GetVariable
+    32209  GetMember
+    32210  Add2
+    32211  GetMember
+    32212  Push 0
+    32224  GetMember
+    32225  Equals2
+    32226  Not
+    32227  If loc32266
+    32232  Push "selector"
+    32237  GetVariable
+    32238  Push "thing", "i"
+    32245  GetVariable
+    32246  Add2
+    32247  GetMember
+    32248  Push "KNcolor2", register1, "elementColorArray"
+    32257  GetMember
+    32258  Push "u"
+    32263  GetVariable
+    32264  GetMember
+    32265  SetMember
+    32266  Jump loc32148
+    32271  Push register1, "KRINABILITY", register1, "Krin"
+    32282  GetMember
+    32283  Push "moveMatrix"
+    32288  GetMember
+    32289  Push "i"
+    32294  GetVariable
+    32295  GetMember
+    32296  Add2
+    32297  GetMember
+    32298  Push 0
+    32310  GetMember
+    32311  Push "None"
+    32316  Equals2
+    32317  Not
+    32318  If loc32479
+    32323  Push "Empty", 1, "selector"
+    32335  GetVariable
+    32336  Push "thing", "i"
+    32343  GetVariable
+    32344  Add2
+    32345  GetMember
+    32346  Push "gotoAndStop"
+    32351  CallMethod
+    32352  Pop
+    32353  Push "selector"
+    32358  GetVariable
+    32359  Push "thing", "i"
+    32366  GetVariable
+    32367  Add2
+    32368  GetMember
+    32369  Push "toolTipTitle", register1, "KrinLang"
+    32378  GetMember
+    32379  Push register1, "KLangChoosen"
+    32386  GetMember
+    32387  GetMember
+    32388  Push "SKILLNONE"
+    32393  GetMember
+    32394  SetMember
+    32395  Push "selector"
+    32400  GetVariable
+    32401  Push "thing", "i"
+    32408  GetVariable
+    32409  Add2
+    32410  GetMember
+    32411  Push "toolTip", register1, "KrinLang"
+    32420  GetMember
+    32421  Push register1, "KLangChoosen"
+    32428  GetMember
+    32429  GetMember
+    32430  Push "SKILLTUT"
+    32435  GetMember
+    32436  SetMember
+    32437  Push "selector"
+    32442  GetVariable
+    32443  Push "thing", "i"
+    32450  GetVariable
+    32451  Add2
+    32452  GetMember
+    32453  Push "toolTip3", register1, "KrinLang"
+    32462  GetMember
+    32463  Push register1, "KLangChoosen"
+    32470  GetMember
+    32471  GetMember
+    32472  Push "SKILLTUT2"
+    32477  GetMember
+    32478  SetMember
+    32479  Push "selector"
+    32484  GetVariable
+    32485  Push "thing", "i"
+    32492  GetVariable
+    32493  Add2
+    32494  GetMember
+    32495  Push "assignedThing", "i"
+    32502  GetVariable
+    32503  SetMember
+    32504  Push "selector"
+    32509  GetVariable
+    32510  Push "thing", "i"
+    32517  GetVariable
+    32518  Add2
+    32519  GetMember
+    32520  Push "ACD", ""
+    32527  SetMember
+    32528  Push "i", "i"
+    32535  GetVariable
+    32536  Increment
+    32537  SetVariable
+    32538  Jump loc31885
+        }
+ 32543  SetVariable
+ 32544  Push 0, "KrinCreateAbilityMatrix"
+ 32558  CallFunction
+ 32559  Pop
+ 32560  End

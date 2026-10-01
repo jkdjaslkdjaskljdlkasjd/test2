@@ -1,0 +1,61 @@
+// on(release)
+// origen: boton 2911 (06606_DefineButton2_2911.bin)
+
+    38  ConstantPool (15)
+   187  Push "_root"
+   192  GetVariable
+   193  Push "Krin"
+   198  GetMember
+   199  Push "mouseItem"
+   204  GetMember
+   205  Push 0
+   217  Equals2
+   218  Not
+   219  If loc294
+   224  Push "_root"
+   229  GetVariable
+   230  Push "Krin"
+   235  GetMember
+   236  Push "PauseForScreen"
+   241  GetMember
+   242  Push true
+   247  Equals2
+   248  Not
+   249  Not
+   250  If loc289
+   255  Push "skills", 1, "KRINMENU"
+   267  GetVariable
+   268  Push "gotoAndStop"
+   273  CallMethod
+   274  Pop
+   275  Push "KrinScreen"
+   280  GetVariable
+   281  Push "_visible", false
+   288  SetMember
+   289  Jump loc377
+   294  Push 0, "_root"
+   308  GetVariable
+   309  Push "KrinCombatText"
+   314  GetMember
+   315  Push "play"
+   320  CallMethod
+   321  Pop
+   322  Push "_root"
+   327  GetVariable
+   328  Push "KrinCombatText"
+   333  GetMember
+   334  Push "combatTexter", "_root"
+   341  GetVariable
+   342  Push "KrinLang"
+   347  GetMember
+   348  Push "_root"
+   353  GetVariable
+   354  Push "KLangChoosen"
+   359  GetMember
+   360  GetMember
+   361  Push "MENU"
+   366  GetMember
+   367  Push 66
+   375  GetMember
+   376  SetMember
+   377  End

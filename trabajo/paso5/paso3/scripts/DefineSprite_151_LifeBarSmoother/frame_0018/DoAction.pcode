@@ -1,0 +1,55 @@
+// DoAction
+// origen: DefineSprite_151_LifeBarSmoother fotograma 18, DoAction (00301_DefineSprite_151.bin, byte 433)
+
+   433  ConstantPool (10)
+   507  Push "deadNow"
+   512  GetVariable
+   513  Push true
+   518  Equals2
+   519  Not
+   520  If loc668
+   525  Push "dead", 1, "this"
+   537  GetVariable
+   538  Push "gotoAndPlay"
+   543  CallMethod
+   544  Pop
+   545  Push "third", 1, "_parent"
+   557  GetVariable
+   558  Push "_parent"
+   563  GetMember
+   564  Push "_parent"
+   569  GetMember
+   570  Push "inner"
+   575  GetMember
+   576  Push "gotoAndStop"
+   581  CallMethod
+   582  Pop
+   583  Push "h", 0
+   597  SetVariable
+   598  Push "h"
+   603  GetVariable
+   604  Push 10
+   612  Less2
+   613  Not
+   614  If loc663
+   619  Push "_parent"
+   624  GetVariable
+   625  Push "_parent"
+   630  GetMember
+   631  Push "_parent"
+   636  GetMember
+   637  Push "bshr", "h"
+   644  GetVariable
+   645  Add2
+   646  GetMember
+   647  RemoveSprite
+   648  Push "h", "h"
+   655  GetVariable
+   656  Increment
+   657  SetVariable
+   658  Jump loc598
+   663  Jump loc675
+   668  Push "this"
+   673  GetVariable
+   674  RemoveSprite
+   675  End

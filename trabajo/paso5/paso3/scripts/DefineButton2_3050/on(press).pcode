@@ -1,0 +1,120 @@
+// on(press)
+// origen: boton 3050 (06766_DefineButton2_3050.bin)
+
+    17  ConstantPool (18)
+   201  Push 16, 1, "Key"
+   216  GetVariable
+   217  Push "isDown"
+   222  CallMethod
+   223  Not
+   224  If loc493
+   229  Push "_parent"
+   234  GetVariable
+   235  Push "teamChangeCD"
+   240  GetMember
+   241  Push true
+   246  Equals2
+   247  Not
+   248  If loc466
+   253  Push "dontDoMe"
+   258  GetVariable
+   259  Push true
+   264  Equals2
+   265  Not
+   266  Not
+   267  If loc466
+   272  Push "_parent"
+   277  GetVariable
+   278  Push "teamChangeCD", false
+   285  SetMember
+   286  Push "inTheTeam"
+   291  GetVariable
+   292  Not
+   293  If loc355
+   298  Push "_root"
+   303  GetVariable
+   304  Push "Krin"
+   309  GetMember
+   310  Push "friendArrayX"
+   315  GetMember
+   316  Push "inTheTeam2"
+   321  GetVariable
+   322  Push 0
+   334  SetMember
+   335  Push "_parent"
+   340  GetVariable
+   341  Push "bickerPicker", "inTheTeam2"
+   348  GetVariable
+   349  SetMember
+   350  Jump loc466
+   355  Push "_root"
+   360  GetVariable
+   361  Push "Krin"
+   366  GetMember
+   367  Push "friendArrayX"
+   372  GetMember
+   373  Push "_parent"
+   378  GetVariable
+   379  Push "bickerPicker"
+   384  GetMember
+   385  Push "id"
+   390  GetVariable
+   391  SetMember
+   392  Push "_parent"
+   397  GetVariable
+   398  Push "bickerPicker"
+   403  GetMember
+   404  Push 0
+   416  Equals2
+   417  Not
+   418  If loc445
+   423  Push "_parent"
+   428  GetVariable
+   429  Push "bickerPicker", 1
+   439  SetMember
+   440  Jump loc466
+   445  Push "_parent"
+   450  GetVariable
+   451  Push "bickerPicker", 0
+   465  SetMember
+   466  Push 0, "_parent"
+   480  GetVariable
+   481  Push "updateFriends"
+   486  CallMethod
+   487  Pop
+   488  Jump loc628
+   493  Push "id"
+   498  GetVariable
+   499  Push 0
+   511  Less2
+   512  Not
+   513  Not
+   514  If loc628
+   519  Push "_root"
+   524  GetVariable
+   525  Push "Krin"
+   530  GetMember
+   531  Push "MenuPlayerSelect", "id"
+   538  GetVariable
+   539  SetMember
+   540  Push 0, "_parent"
+   554  GetVariable
+   555  Push "updateEquip"
+   560  CallMethod
+   561  Pop
+   562  Push 0, "_parent"
+   576  GetVariable
+   577  Push "updateDoll"
+   582  CallMethod
+   583  Pop
+   584  Push 0, "_parent"
+   598  GetVariable
+   599  Push "updateAvs"
+   604  CallMethod
+   605  Pop
+   606  Push 0, "_parent"
+   620  GetVariable
+   621  Push "updateStatus"
+   626  CallMethod
+   627  Pop
+   628  End

@@ -1,0 +1,370 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_2186 fotograma 987, clip en profundidad 11 (03320_DefineSprite_2186.bin, byte 14203)
+
+ 14314  Push "n"
+ 14320  Push "this"
+ 14329  GetVariable
+ 14330  Push "_parent"
+ 14342  GetMember
+ 14343  DefineLocal
+ 14344  Push "_root"
+ 14354  GetVariable
+ 14355  Push "__v9Tree"
+ 14368  GetMember
+ 14369  PushDuplicate
+ 14370  Not
+ 14371  If loc14397
+ 14376  Pop
+ 14377  Push "n"
+ 14383  GetVariable
+ 14384  Push "_parent"
+ 14396  GetMember
+ 14397  PushDuplicate
+ 14398  Not
+ 14399  If loc14464
+ 14404  Pop
+ 14405  Push "n"
+ 14411  GetVariable
+ 14412  Push "_parent"
+ 14424  GetMember
+ 14425  Push "_parent"
+ 14437  GetMember
+ 14438  Push "_root"
+ 14448  GetVariable
+ 14449  Push "__v9Tree"
+ 14462  GetMember
+ 14463  Equals2
+ 14464  Not
+ 14465  If loc14613
+ 14470  Push "_root"
+ 14480  GetVariable
+ 14481  Push "_ymouse"
+ 14493  GetMember
+ 14494  Push "_root"
+ 14504  GetVariable
+ 14505  Push "_xmouse"
+ 14517  GetMember
+ 14518  Push 2
+ 14526  Push "this"
+ 14535  GetVariable
+ 14536  Push "hitTest"
+ 14548  CallMethod
+ 14549  Not
+ 14550  If loc14608
+ 14555  Push 0
+ 14563  Push "_root"
+ 14573  GetVariable
+ 14574  Push "__handoffReleaseCustom"
+ 14601  CallMethod
+ 14602  Pop
+ 14603  Jump loc14608
+ 14608  Jump loc15454
+ 14613  Push "_root"
+ 14623  GetVariable
+ 14624  Push "_ymouse"
+ 14636  GetMember
+ 14637  Push "_root"
+ 14647  GetVariable
+ 14648  Push "_xmouse"
+ 14660  GetMember
+ 14661  Push 2
+ 14669  Push "this"
+ 14678  GetVariable
+ 14679  Push "hitTest"
+ 14691  CallMethod
+ 14692  Not
+ 14693  If loc15454
+ 14698  Push "id"
+ 14705  Push "_root"
+ 14715  GetVariable
+ 14716  Push "__uiFrameIds"
+ 14733  GetMember
+ 14734  Push "n"
+ 14740  GetVariable
+ 14741  Push "_currentframe"
+ 14759  GetMember
+ 14760  GetMember
+ 14761  DefineLocal
+ 14762  Push "d"
+ 14768  Push "_root"
+ 14778  GetVariable
+ 14779  Push "__v10ById"
+ 14793  GetMember
+ 14794  Push "id"
+ 14801  GetVariable
+ 14802  GetMember
+ 14803  DefineLocal
+ 14804  Push "d"
+ 14810  GetVariable
+ 14811  Not
+ 14812  If loc15449
+ 14817  Push 0
+ 14825  Push "_root"
+ 14835  GetVariable
+ 14836  Push "__handoffReleaseCustom"
+ 14863  CallMethod
+ 14864  Pop
+ 14865  Push "r"
+ 14871  Push "id"
+ 14878  GetVariable
+ 14879  Push 1
+ 14887  Push "_root"
+ 14897  GetVariable
+ 14898  Push "__v55Rank"
+ 14912  CallMethod
+ 14913  Push 1
+ 14921  Push 2
+ 14929  Push "Math"
+ 14938  GetVariable
+ 14939  Push "max"
+ 14947  CallMethod
+ 14948  DefineLocal
+ 14949  Push "a"
+ 14955  Push "_root"
+ 14965  GetVariable
+ 14966  Push "KRINABILITY"
+ 14982  Push "id"
+ 14989  GetVariable
+ 14990  Add2
+ 14991  GetMember
+ 14992  DefineLocal
+ 14993  Push "b"
+ 14999  Push "_root"
+ 15009  GetVariable
+ 15010  Push "KRINABILITYB"
+ 15027  Push "id"
+ 15034  GetVariable
+ 15035  Add2
+ 15036  GetMember
+ 15037  DefineLocal
+ 15038  Push "n"
+ 15044  GetVariable
+ 15045  Push "toolTipTitle"
+ 15062  Push "d"
+ 15068  GetVariable
+ 15069  Push "name"
+ 15078  GetMember
+ 15079  SetMember
+ 15080  Push "n"
+ 15086  GetVariable
+ 15087  Push "toolTip"
+ 15099  Push "r"
+ 15105  GetVariable
+ 15106  Push "id"
+ 15113  GetVariable
+ 15114  Push 2
+ 15122  Push "_root"
+ 15132  GetVariable
+ 15133  Push "__v55Desc"
+ 15147  CallMethod
+ 15148  SetMember
+ 15149  Push "b"
+ 15155  GetVariable
+ 15156  PushDuplicate
+ 15157  Not
+ 15158  If loc15193
+ 15163  Pop
+ 15164  Push "b"
+ 15170  GetVariable
+ 15171  Push 18
+ 15179  GetMember
+ 15180  TypeOf
+ 15181  Push "string"
+ 15192  Equals2
+ 15193  Not
+ 15194  If loc15241
+ 15199  Push "n"
+ 15205  GetVariable
+ 15206  Push "toolTip3"
+ 15219  Push "b"
+ 15225  GetVariable
+ 15226  Push 18
+ 15234  GetMember
+ 15235  SetMember
+ 15236  Jump loc15419
+ 15241  Push "a"
+ 15247  GetVariable
+ 15248  Not
+ 15249  If loc15419
+ 15254  Push "n"
+ 15260  GetVariable
+ 15261  Push "toolTip3"
+ 15274  Push "d"
+ 15280  GetVariable
+ 15281  Push "passive"
+ 15293  GetMember
+ 15294  Not
+ 15295  If loc15331
+ 15300  Push "Passive Combat Effect"
+ 15326  Jump loc15413
+ 15331  Push "Costs "
+ 15342  Push "a"
+ 15348  GetVariable
+ 15349  Push 5
+ 15357  GetMember
+ 15358  Add2
+ 15359  Push " Focus. Cooldown: "
+ 15382  Add2
+ 15383  Push "a"
+ 15389  GetVariable
+ 15390  Push 7
+ 15398  GetMember
+ 15399  Add2
+ 15400  Push " turns."
+ 15412  Add2
+ 15413  SetMember
+ 15414  Jump loc15419
+ 15419  Push "n"
+ 15425  GetVariable
+ 15426  Push "chimney"
+ 15438  Push false
+ 15443  SetMember
+ 15444  Jump loc15449
+ 15449  Jump loc15454
+ 15454  ConstantPool (25)
+ 15630  Push "_root"
+ 15635  GetVariable
+ 15636  Push "_ymouse"
+ 15641  GetMember
+ 15642  Push "_root"
+ 15647  GetVariable
+ 15648  Push "_xmouse"
+ 15653  GetMember
+ 15654  Push 2, "this"
+ 15664  GetVariable
+ 15665  Push "hitTest"
+ 15670  CallMethod
+ 15671  Not
+ 15672  If loc16087
+ 15677  Push "_parent"
+ 15682  GetVariable
+ 15683  Push "_parent"
+ 15688  GetMember
+ 15689  Push "_visible"
+ 15694  GetMember
+ 15695  PushDuplicate
+ 15696  Not
+ 15697  If loc15716
+ 15702  Pop
+ 15703  Push "_parent"
+ 15708  GetVariable
+ 15709  Push "zero"
+ 15714  GetMember
+ 15715  Not
+ 15716  Not
+ 15717  If loc16082
+ 15722  Push "_parent"
+ 15727  GetVariable
+ 15728  Push "chimney"
+ 15733  GetMember
+ 15734  Not
+ 15735  If loc15825
+ 15740  Push "_root"
+ 15745  GetVariable
+ 15746  Push "KrinToolTipper"
+ 15751  GetMember
+ 15752  Push "tt", "_parent"
+ 15759  GetVariable
+ 15760  Push "toolTipTitle"
+ 15765  GetMember
+ 15766  SetMember
+ 15767  Push "_root"
+ 15772  GetVariable
+ 15773  Push "KrinToolTipper"
+ 15778  GetMember
+ 15779  Push "t", "_parent"
+ 15786  GetVariable
+ 15787  Push "toolTip"
+ 15792  GetMember
+ 15793  SetMember
+ 15794  Push "GO", 1, "_root"
+ 15806  GetVariable
+ 15807  Push "KrinToolTipper"
+ 15812  GetMember
+ 15813  Push "gotoAndPlay"
+ 15818  CallMethod
+ 15819  Pop
+ 15820  Jump loc16082
+ 15825  Push "_root"
+ 15830  GetVariable
+ 15831  Push "KrinToolTipper"
+ 15836  GetMember
+ 15837  Push "tt", "_parent"
+ 15844  GetVariable
+ 15845  Push "toolTipTitle"
+ 15850  GetMember
+ 15851  SetMember
+ 15852  Push "_root"
+ 15857  GetVariable
+ 15858  Push "KrinToolTipper"
+ 15863  GetMember
+ 15864  Push "t", "_parent"
+ 15871  GetVariable
+ 15872  Push "toolTip"
+ 15877  GetMember
+ 15878  SetMember
+ 15879  Push "_root"
+ 15884  GetVariable
+ 15885  Push "KrinToolTipper"
+ 15890  GetMember
+ 15891  Push "t3", "_parent"
+ 15898  GetVariable
+ 15899  Push "toolTip3"
+ 15904  GetMember
+ 15905  SetMember
+ 15906  Push "hitter"
+ 15911  GetVariable
+ 15912  Push 5
+ 15920  Equals2
+ 15921  Not
+ 15922  If loc16046
+ 15927  Push "_parent"
+ 15932  GetVariable
+ 15933  Push "_parent"
+ 15938  GetMember
+ 15939  Push "OKAY"
+ 15944  GetMember
+ 15945  Push true
+ 15950  Equals2
+ 15951  Not
+ 15952  If loc16015
+ 15957  Push "_root"
+ 15962  GetVariable
+ 15963  Push "KrinToolTipper"
+ 15968  GetMember
+ 15969  Push "tyut", "_parent"
+ 15976  GetVariable
+ 15977  Push "toolTip4"
+ 15982  GetMember
+ 15983  SetMember
+ 15984  Push "GO7", 1, "_root"
+ 15996  GetVariable
+ 15997  Push "KrinToolTipper"
+ 16002  GetMember
+ 16003  Push "gotoAndPlay"
+ 16008  CallMethod
+ 16009  Pop
+ 16010  Jump loc16041
+ 16015  Push "GO2", 1, "_root"
+ 16027  GetVariable
+ 16028  Push "KrinToolTipper"
+ 16033  GetMember
+ 16034  Push "gotoAndPlay"
+ 16039  CallMethod
+ 16040  Pop
+ 16041  Jump loc16082
+ 16046  Push "hitter", "hitter"
+ 16053  GetVariable
+ 16054  Increment
+ 16055  SetVariable
+ 16056  Push "GO3", 1, "_root"
+ 16068  GetVariable
+ 16069  Push "KrinToolTipper"
+ 16074  GetMember
+ 16075  Push "gotoAndPlay"
+ 16080  CallMethod
+ 16081  Pop
+ 16082  Jump loc16102
+ 16087  Push "hitter", 0
+ 16101  SetVariable
+ 16102  End

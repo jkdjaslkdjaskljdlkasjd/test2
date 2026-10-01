@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_711_ex_AnasOut3 fotograma 15, DoAction (01095_DefineSprite_711.bin, byte 158)
+
+   158  Push "", "this"
+   169  GetVariable
+   170  GetURL2 64
+   174  End

@@ -1,0 +1,21 @@
+// onClipEvent(load)
+// origen: DefineSprite_2295 fotograma 1, clip en profundidad 1 (03474_DefineSprite_2295.bin, byte 20)
+
+    51  ConstantPool (6)
+   101  Push "my_color", "this"
+   108  GetVariable
+   109  Push 1, "Color"
+   119  NewObject
+   120  DefineLocal
+   121  Push "_parent"
+   126  GetVariable
+   127  Push "_parent"
+   132  GetMember
+   133  Push "colortobe"
+   138  GetMember
+   139  Push 1, "my_color"
+   149  GetVariable
+   150  Push "setRGB"
+   155  CallMethod
+   156  Pop
+   157  End

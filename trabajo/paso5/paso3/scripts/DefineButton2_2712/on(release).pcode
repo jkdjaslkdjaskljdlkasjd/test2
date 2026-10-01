@@ -1,0 +1,87 @@
+// on(release)
+// origen: boton 2712 (06139_DefineButton2_2712.bin)
+
+    17  ConstantPool (9)
+   116  Push "_root"
+   121  GetVariable
+   122  Push "Krin"
+   127  GetMember
+   128  Push "Class", 1
+   138  SetMember
+   139  Push "_root"
+   144  GetVariable
+   145  Push "Krin"
+   150  GetMember
+   151  Push "Class"
+   156  GetMember
+   157  Push 1, "_root"
+   167  GetVariable
+   168  Push "loadTalents"
+   173  CallMethod
+   174  Pop
+   175  Push "_root"
+   180  GetVariable
+   181  Push "Krin"
+   186  GetMember
+   187  Push "Class"
+   192  GetMember
+   193  Push 1, "_root"
+   203  GetVariable
+   204  Push "assignPointsStart"
+   209  CallMethod
+   210  Pop
+   211  Push "_root"
+   216  GetVariable
+   217  Push "Krin"
+   222  GetMember
+   223  Push "moveMatrix"
+   228  GetMember
+   229  Push 0, "_root"
+   243  GetVariable
+   244  Push "Krin"
+   249  GetMember
+   250  Push "startSkill1"
+   255  GetMember
+   256  SetMember
+   257  Push "_root"
+   262  GetVariable
+   263  Push "Krin"
+   268  GetMember
+   269  Push "moveMatrix"
+   274  GetMember
+   275  Push 1, "_root"
+   285  GetVariable
+   286  Push "Krin"
+   291  GetMember
+   292  Push "startSkill2"
+   297  GetMember
+   298  SetMember
+   299  Push "_root"
+   304  GetVariable
+   305  Push "Krin"
+   310  GetMember
+   311  Push "moveMatrix2"
+   316  GetMember
+   317  Push 0, "_root"
+   331  GetVariable
+   332  Push "Krin"
+   337  GetMember
+   338  Push "startSkill1"
+   343  GetMember
+   344  SetMember
+   345  Push "_root"
+   350  GetVariable
+   351  Push "Krin"
+   356  GetMember
+   357  Push "moveMatrix2"
+   362  GetMember
+   363  Push 1, "_root"
+   373  GetVariable
+   374  Push "Krin"
+   379  GetMember
+   380  Push "startSkill2"
+   385  GetMember
+   386  SetMember
+   387  GoToLabel 'optionsMenu'
+   402  Play
+   403  End

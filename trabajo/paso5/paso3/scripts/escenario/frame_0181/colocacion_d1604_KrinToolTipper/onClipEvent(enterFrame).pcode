@@ -1,0 +1,9 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 181, clip en profundidad 1604 (06967_PlaceObject2.bin)
+
+    41  Push true, 1, "this"
+    57  GetVariable
+    58  Push "startDrag"
+    72  CallMethod
+    73  Pop
+    74  End

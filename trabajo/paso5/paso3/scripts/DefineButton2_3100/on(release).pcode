@@ -1,0 +1,95 @@
+// on(release)
+// origen: boton 3100 (06816_DefineButton2_3100.bin)
+
+    17  ConstantPool (16)
+   199  Push "_root"
+   204  GetVariable
+   205  Push "Krin"
+   210  GetMember
+   211  Push "PauseForScreen2"
+   216  GetMember
+   217  Push true
+   222  Equals2
+   223  Not
+   224  Not
+   225  If loc503
+   230  Push "_root"
+   235  GetVariable
+   236  Push "Krin"
+   241  GetMember
+   242  Push "autoSaver"
+   247  GetMember
+   248  Not
+   249  If loc290
+   254  Push "_root"
+   259  GetVariable
+   260  Push "Krin"
+   265  GetMember
+   266  Push "slotInUse"
+   271  GetMember
+   272  Push 1, "_root"
+   282  GetVariable
+   283  Push "krinHandleData"
+   288  CallMethod
+   289  Pop
+   290  Push "_root"
+   295  GetVariable
+   296  Push "afterCut"
+   301  GetMember
+   302  Push "None"
+   307  Equals2
+   308  Not
+   309  Not
+   310  If loc351
+   315  StopSounds
+   316  Push "_root"
+   321  GetVariable
+   322  Push "afterCut"
+   327  GetMember
+   328  Push 1, "_root"
+   338  GetVariable
+   339  Push "gotoAndStop"
+   344  CallMethod
+   345  Pop
+   346  Jump loc503
+   351  Push "_root"
+   356  GetVariable
+   357  Push "Krin"
+   362  GetMember
+   363  Push "bossJustPwned2"
+   368  GetMember
+   369  Not
+   370  If loc400
+   375  Push "overMap", 1, "_root"
+   387  GetVariable
+   388  Push "gotoAndStop"
+   393  CallMethod
+   394  Pop
+   395  Jump loc503
+   400  Push "_root"
+   405  GetVariable
+   406  Push "Krin"
+   411  GetMember
+   412  Push "PauseForScreen", false
+   419  SetMember
+   420  Push "playerLeveled"
+   425  GetVariable
+   426  Push true
+   431  Equals2
+   432  Not
+   433  If loc453
+   438  GoToLabel 'skills'
+   448  Jump loc503
+   453  GoToLabel 'hide'
+   461  Push 0, "_root"
+   475  GetVariable
+   476  Push "krinNavTutSpeech"
+   481  CallMethod
+   482  Pop
+   483  Push "_root"
+   488  GetVariable
+   489  Push "KrinScreen"
+   494  GetMember
+   495  Push "_visible", true
+   502  SetMember
+   503  End

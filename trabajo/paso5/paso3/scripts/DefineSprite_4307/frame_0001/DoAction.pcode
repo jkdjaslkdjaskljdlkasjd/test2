@@ -1,0 +1,53 @@
+// DoAction
+// origen: DefineSprite_4307 fotograma 1, DoAction (03310_DefineSprite_4307.bin, byte 22)
+
+    22  Push "this"
+    31  GetVariable
+    32  Push "onEnterFrame"
+    49  DefineFunction "" () regs=4 flags=0x0 {
+       57  Push "target"
+       68  Push 827
+       76  Push 1
+       84  Push "_root"
+       94  GetVariable
+       95  Push "__i18Mastered"
+      113  CallMethod
+      114  Not
+      115  If loc133
+      120  Push 2
+      128  Jump loc141
+      133  Push 1
+      141  DefineLocal
+      142  Push "this"
+      151  GetVariable
+      152  Push "_currentframe"
+      170  GetMember
+      171  Push "target"
+      182  GetVariable
+      183  Equals2
+      184  Not
+      185  Not
+      186  If loc239
+      191  Push "target"
+      202  GetVariable
+      203  Push 1
+      211  Push "this"
+      220  GetVariable
+      221  Push "gotoAndStop"
+      237  CallMethod
+      238  Pop
+        }
+   239  SetMember
+   240  Push 0
+   248  Push "this"
+   257  GetVariable
+   258  Push "stop"
+   267  CallMethod
+   268  Pop
+   269  Push 0
+   277  Push "this"
+   286  GetVariable
+   287  Push "onEnterFrame"
+   304  CallMethod
+   305  Pop
+   306  End

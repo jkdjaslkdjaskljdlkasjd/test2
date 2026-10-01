@@ -1,0 +1,46 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 484 (07257_PlaceObject2.bin)
+
+    42  ConstantPool (18)
+   321  Push "None", 1, "this"
+   333  GetVariable
+   334  Push "gotoAndStop"
+   339  CallMethod
+   340  Pop
+   341  Push "this"
+   346  GetVariable
+   347  Push "ACD", ""
+   354  SetMember
+   355  Push "_root"
+   360  GetVariable
+   361  Push "turnBasedKrin"
+   366  GetMember
+   367  Not
+   368  Not
+   369  If loc403
+   374  Push "thinger1", "No ability selected!"
+   381  SetVariable
+   382  Push "thinger2", "First select your target then choose an ability to use."
+   389  SetVariable
+   390  Push "thinger3", "Cannot cancel during action."
+   397  SetVariable
+   398  Jump loc427
+   403  Push "thinger1", "No ability selected!"
+   410  SetVariable
+   411  Push "thinger2", "You may click here to skip your turn."
+   418  SetVariable
+   419  Push "thinger3", "Cannot skip during action."
+   426  SetVariable
+   427  Push "this"
+   432  GetVariable
+   433  Push "toolTipTitle", "thinger1"
+   440  GetVariable
+   441  SetMember
+   442  Push "this"
+   447  GetVariable
+   448  Push "toolTip", "thinger2"
+   455  GetVariable
+   456  SetMember
+   457  Push "chimney", true
+   464  SetVariable
+   465  End

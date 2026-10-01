@@ -1,0 +1,953 @@
+// DefineSprite_4122___Packages.mx.styles.CSSSetStyle
+// origen: DoInitAction del sprite 4122 (03765_DoInitAction.bin)
+
+     2  ConstantPool (48)
+   601  Push "_global"
+   606  GetVariable
+   607  Push "mx"
+   612  GetMember
+   613  Not
+   614  Not
+   615  If loc644
+   620  Push "_global"
+   625  GetVariable
+   626  Push "mx", 0, "Object"
+   642  NewObject
+   643  SetMember
+   644  Pop
+   645  Push "_global"
+   650  GetVariable
+   651  Push "mx"
+   656  GetMember
+   657  Push "styles"
+   662  GetMember
+   663  Not
+   664  Not
+   665  If loc700
+   670  Push "_global"
+   675  GetVariable
+   676  Push "mx"
+   681  GetMember
+   682  Push "styles", 0, "Object"
+   698  NewObject
+   699  SetMember
+   700  Pop
+   701  Push "_global"
+   706  GetVariable
+   707  Push "mx"
+   712  GetMember
+   713  Push "styles"
+   718  GetMember
+   719  Push "CSSSetStyle"
+   724  GetMember
+   725  Not
+   726  Not
+   727  If loc4181
+   732  Push "mx"
+   737  GetVariable
+   738  Push "styles"
+   743  GetMember
+   744  Push "CSSSetStyle"
+   749  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   757  StoreRegister 1
+   761  SetMember
+   762  Push register1, "prototype"
+   769  GetMember
+   770  StoreRegister 2
+   774  Pop
+   775  Push register2, "_setStyle"
+   782  DefineFunction2 "" (r3:styleProp, r2:newValue) regs=11 flags=0x29 {
+      814  Push register1, register3, register2
+      823  SetMember
+      824  Push "mx"
+      829  GetVariable
+      830  Push "styles"
+      835  GetMember
+      836  Push "StyleManager"
+      841  GetMember
+      842  Push "TextStyleMap"
+      847  GetMember
+      848  Push register3
+      853  GetMember
+      854  Push undef
+      858  Equals2
+      859  Not
+      860  Not
+      861  If loc988
+      866  Push register3, "color"
+      873  Equals2
+      874  Not
+      875  If loc963
+      880  Push register2, 1, "isNaN"
+      892  CallFunction
+      893  Not
+      894  If loc963
+      899  Push register2, 1, "mx"
+      911  GetVariable
+      912  Push "styles"
+      917  GetMember
+      918  Push "StyleManager"
+      923  GetMember
+      924  Push "getColorName"
+      929  CallMethod
+      930  StoreRegister 2
+      934  Pop
+      935  Push register1, register3, register2
+      944  SetMember
+      945  Push register2, undef
+      951  Equals2
+      952  Not
+      953  If loc963
+      958  Push undef
+      962  Return
+      963  Push register3, 1, "_level0"
+      975  GetVariable
+      976  Push "changeTextStyleInChildren"
+      981  CallMethod
+      982  Pop
+      983  Push undef
+      987  Return
+      988  Push register3, 1, "mx"
+     1000  GetVariable
+     1001  Push "styles"
+     1006  GetMember
+     1007  Push "StyleManager"
+     1012  GetMember
+     1013  Push "isColorStyle"
+     1018  CallMethod
+     1019  Not
+     1020  If loc1484
+     1025  Push register2, 1, "isNaN"
+     1037  CallFunction
+     1038  Not
+     1039  If loc1108
+     1044  Push register2, 1, "mx"
+     1056  GetVariable
+     1057  Push "styles"
+     1062  GetMember
+     1063  Push "StyleManager"
+     1068  GetMember
+     1069  Push "getColorName"
+     1074  CallMethod
+     1075  StoreRegister 2
+     1079  Pop
+     1080  Push register1, register3, register2
+     1089  SetMember
+     1090  Push register2, undef
+     1096  Equals2
+     1097  Not
+     1098  If loc1108
+     1103  Push undef
+     1107  Return
+     1108  Push register3, "themeColor"
+     1115  Equals2
+     1116  Not
+     1117  If loc1449
+     1122  Push "mx"
+     1127  GetVariable
+     1128  Push "styles"
+     1133  GetMember
+     1134  Push "StyleManager"
+     1139  GetMember
+     1140  Push "colorNames"
+     1145  GetMember
+     1146  Push "haloBlue"
+     1151  GetMember
+     1152  StoreRegister 7
+     1156  Pop
+     1157  Push "mx"
+     1162  GetVariable
+     1163  Push "styles"
+     1168  GetMember
+     1169  Push "StyleManager"
+     1174  GetMember
+     1175  Push "colorNames"
+     1180  GetMember
+     1181  Push "haloGreen"
+     1186  GetMember
+     1187  StoreRegister 6
+     1191  Pop
+     1192  Push "mx"
+     1197  GetVariable
+     1198  Push "styles"
+     1203  GetMember
+     1204  Push "StyleManager"
+     1209  GetMember
+     1210  Push "colorNames"
+     1215  GetMember
+     1216  Push "haloOrange"
+     1221  GetMember
+     1222  StoreRegister 8
+     1226  Pop
+     1227  Push 0
+     1239  InitObject
+     1240  StoreRegister 4
+     1244  Pop
+     1245  Push register4, register7, 12188666
+     1257  SetMember
+     1258  Push register4, register6, 13500353
+     1270  SetMember
+     1271  Push register4, register8, 16766319
+     1283  SetMember
+     1284  Push 0
+     1296  InitObject
+     1297  StoreRegister 5
+     1301  Pop
+     1302  Push register5, register7, 13958653
+     1314  SetMember
+     1315  Push register5, register6, 14942166
+     1327  SetMember
+     1328  Push register5, register8, 16772787
+     1340  SetMember
+     1341  Push register4, register2
+     1348  GetMember
+     1349  StoreRegister 9
+     1353  Pop
+     1354  Push register5, register2
+     1361  GetMember
+     1362  StoreRegister 10
+     1366  Pop
+     1367  Push register9, undef
+     1373  Equals2
+     1374  Not
+     1375  If loc1390
+     1380  Push register2
+     1385  StoreRegister 9
+     1389  Pop
+     1390  Push register10, undef
+     1396  Equals2
+     1397  Not
+     1398  If loc1413
+     1403  Push register2
+     1408  StoreRegister 10
+     1412  Pop
+     1413  Push register9, "selectionColor", 2, register1, "setStyle"
+     1429  CallMethod
+     1430  Pop
+     1431  Push register10, "rollOverColor", 2, register1, "setStyle"
+     1447  CallMethod
+     1448  Pop
+     1449  Push register2, register3, register1, "styleName"
+     1460  GetMember
+     1461  Push 3, "_level0"
+     1471  GetVariable
+     1472  Push "changeColorStyleInChildren"
+     1477  CallMethod
+     1478  Pop
+     1479  Jump loc1613
+     1484  Push register3, "backgroundColor"
+     1491  Equals2
+     1492  PushDuplicate
+     1493  Not
+     1494  If loc1513
+     1499  Pop
+     1500  Push register2, 1, "isNaN"
+     1512  CallFunction
+     1513  Not
+     1514  If loc1583
+     1519  Push register2, 1, "mx"
+     1531  GetVariable
+     1532  Push "styles"
+     1537  GetMember
+     1538  Push "StyleManager"
+     1543  GetMember
+     1544  Push "getColorName"
+     1549  CallMethod
+     1550  StoreRegister 2
+     1554  Pop
+     1555  Push register1, register3, register2
+     1564  SetMember
+     1565  Push register2, undef
+     1571  Equals2
+     1572  Not
+     1573  If loc1583
+     1578  Push undef
+     1582  Return
+     1583  Push register2, register3, register1, "styleName"
+     1594  GetMember
+     1595  Push 3, "_level0"
+     1605  GetVariable
+     1606  Push "notifyStyleChangeInChildren"
+     1611  CallMethod
+     1612  Pop
+        }
+  1613  SetMember
+  1614  Push register2, "changeTextStyleInChildren"
+  1621  DefineFunction2 "" (r3:styleProp) regs=6 flags=0x29 {
+     1643  GetTime
+     1644  StoreRegister 4
+     1648  Pop
+     1649  Push undef
+     1653  StoreRegister 5
+     1657  Pop
+     1658  Push register1
+     1663  Enumerate2
+     1664  StoreRegister 0
+     1668  Push null
+     1672  Equals2
+     1673  If loc1839
+     1678  Push register0
+     1683  StoreRegister 5
+     1687  Pop
+     1688  Push register1, register5
+     1695  GetMember
+     1696  StoreRegister 2
+     1700  Pop
+     1701  Push register2, "_parent"
+     1708  GetMember
+     1709  Push register1
+     1714  Equals2
+     1715  Not
+     1716  If loc1834
+     1721  Push register2, "searchKey"
+     1728  GetMember
+     1729  Push register4
+     1734  Equals2
+     1735  Not
+     1736  Not
+     1737  If loc1834
+     1742  Push register2, "stylecache"
+     1749  GetMember
+     1750  Push undef
+     1754  Equals2
+     1755  Not
+     1756  Not
+     1757  If loc1792
+     1762  Push register2, "stylecache"
+     1769  GetMember
+     1770  Push "tf"
+     1775  Delete
+     1776  Pop
+     1777  Push register2, "stylecache"
+     1784  GetMember
+     1785  Push register3
+     1790  Delete
+     1791  Pop
+     1792  Push register3, 1, register2, "invalidateStyle"
+     1806  CallMethod
+     1807  Pop
+     1808  Push register3, 1, register2, "changeTextStyleInChildren"
+     1822  CallMethod
+     1823  Pop
+     1824  Push register2, "searchKey", register4
+     1833  SetMember
+     1834  Jump loc1664
+        }
+  1839  SetMember
+  1840  Push register2, "changeColorStyleInChildren"
+  1847  DefineFunction2 "" (r5:sheetName, r3:colorStyle, r8:newValue) regs=9 flags=0x29 {
+     1891  GetTime
+     1892  StoreRegister 6
+     1896  Pop
+     1897  Push undef
+     1901  StoreRegister 7
+     1905  Pop
+     1906  Push register1
+     1911  Enumerate2
+     1912  StoreRegister 0
+     1916  Push null
+     1920  Equals2
+     1921  If loc2358
+     1926  Push register0
+     1931  StoreRegister 7
+     1935  Pop
+     1936  Push register1, register7
+     1943  GetMember
+     1944  StoreRegister 2
+     1948  Pop
+     1949  Push register2, "_parent"
+     1956  GetMember
+     1957  Push register1
+     1962  Equals2
+     1963  Not
+     1964  If loc2353
+     1969  Push register2, "searchKey"
+     1976  GetMember
+     1977  Push register6
+     1982  Equals2
+     1983  Not
+     1984  Not
+     1985  If loc2353
+     1990  Push 0, register2, "getStyleName"
+     2006  CallMethod
+     2007  Push register5
+     2012  Equals2
+     2013  PushDuplicate
+     2014  If loc2027
+     2019  Pop
+     2020  Push register5, undef
+     2026  Equals2
+     2027  PushDuplicate
+     2028  If loc2042
+     2033  Pop
+     2034  Push register5, "_global"
+     2041  Equals2
+     2042  Not
+     2043  If loc2323
+     2048  Push register2, "stylecache"
+     2055  GetMember
+     2056  Push undef
+     2060  Equals2
+     2061  Not
+     2062  Not
+     2063  If loc2083
+     2068  Push register2, "stylecache"
+     2075  GetMember
+     2076  Push register3
+     2081  Delete
+     2082  Pop
+     2083  Push register2, "_color"
+     2090  GetMember
+     2091  TypeOf
+     2092  Push "string"
+     2097  Equals2
+     2098  Not
+     2099  If loc2233
+     2104  Push register2, "_color"
+     2111  GetMember
+     2112  Push register3
+     2117  Equals2
+     2118  Not
+     2119  If loc2228
+     2124  Push register3, 1, register2, "getStyle"
+     2138  CallMethod
+     2139  StoreRegister 4
+     2143  Pop
+     2144  Push register3, "color"
+     2151  Equals2
+     2152  Not
+     2153  If loc2212
+     2158  Push register1, "stylecache"
+     2165  GetMember
+     2166  Push "tf"
+     2171  GetMember
+     2172  Push "color"
+     2177  GetMember
+     2178  Push undef
+     2182  Equals2
+     2183  Not
+     2184  Not
+     2185  If loc2212
+     2190  Push register1, "stylecache"
+     2197  GetMember
+     2198  Push "tf"
+     2203  GetMember
+     2204  Push "color", register4
+     2211  SetMember
+     2212  Push register4, 1, register2, "setColor"
+     2226  CallMethod
+     2227  Pop
+     2228  Jump loc2323
+     2233  Push register2, "_color"
+     2240  GetMember
+     2241  Push register3
+     2246  GetMember
+     2247  Push undef
+     2251  Equals2
+     2252  Not
+     2253  Not
+     2254  If loc2323
+     2259  Push register2
+     2264  TypeOf
+     2265  Push "movieclip"
+     2270  Equals2
+     2271  Not
+     2272  Not
+     2273  If loc2307
+     2278  Push 0, register2, "_parent"
+     2294  GetMember
+     2295  Push "invalidateStyle"
+     2300  CallMethod
+     2301  Pop
+     2302  Jump loc2323
+     2307  Push register3, 1, register2, "invalidateStyle"
+     2321  CallMethod
+     2322  Pop
+     2323  Push register8, register3, register5, 3, register2, "changeColorStyleInChildren"
+     2341  CallMethod
+     2342  Pop
+     2343  Push register2, "searchKey", register6
+     2352  SetMember
+     2353  Jump loc1912
+        }
+  2358  SetMember
+  2359  Push register2, "notifyStyleChangeInChildren"
+  2366  DefineFunction2 "" (r3:sheetName, r4:styleProp, r7:newValue) regs=8 flags=0x29 {
+     2409  GetTime
+     2410  StoreRegister 5
+     2414  Pop
+     2415  Push undef
+     2419  StoreRegister 6
+     2423  Pop
+     2424  Push register1
+     2429  Enumerate2
+     2430  StoreRegister 0
+     2434  Push null
+     2438  Equals2
+     2439  If loc2696
+     2444  Push register0
+     2449  StoreRegister 6
+     2453  Pop
+     2454  Push register1, register6
+     2461  GetMember
+     2462  StoreRegister 2
+     2466  Pop
+     2467  Push register2, "_parent"
+     2474  GetMember
+     2475  Push register1
+     2480  Equals2
+     2481  Not
+     2482  If loc2691
+     2487  Push register2, "searchKey"
+     2494  GetMember
+     2495  Push register5
+     2500  Equals2
+     2501  Not
+     2502  Not
+     2503  If loc2691
+     2508  Push register2, "styleName"
+     2515  GetMember
+     2516  Push register3
+     2521  Equals2
+     2522  PushDuplicate
+     2523  If loc2566
+     2528  Pop
+     2529  Push register2, "styleName"
+     2536  GetMember
+     2537  Push undef
+     2541  Equals2
+     2542  Not
+     2543  PushDuplicate
+     2544  Not
+     2545  If loc2566
+     2550  Pop
+     2551  Push register2, "styleName"
+     2558  GetMember
+     2559  TypeOf
+     2560  Push "movieclip"
+     2565  Equals2
+     2566  PushDuplicate
+     2567  If loc2580
+     2572  Pop
+     2573  Push register3, undef
+     2579  Equals2
+     2580  Not
+     2581  If loc2661
+     2586  Push register2, "stylecache"
+     2593  GetMember
+     2594  Push undef
+     2598  Equals2
+     2599  Not
+     2600  Not
+     2601  If loc2636
+     2606  Push register2, "stylecache"
+     2613  GetMember
+     2614  Push register4
+     2619  Delete
+     2620  Pop
+     2621  Push register2, "stylecache"
+     2628  GetMember
+     2629  Push "tf"
+     2634  Delete
+     2635  Pop
+     2636  Push register2, "enabledColor"
+     2643  Delete
+     2644  Pop
+     2645  Push register4, 1, register2, "invalidateStyle"
+     2659  CallMethod
+     2660  Pop
+     2661  Push register7, register4, register3, 3, register2, "notifyStyleChangeInChildren"
+     2679  CallMethod
+     2680  Pop
+     2681  Push register2, "searchKey", register5
+     2690  SetMember
+     2691  Jump loc2430
+        }
+  2696  SetMember
+  2697  Push register2, "setStyle"
+  2704  DefineFunction2 "" (r4:styleProp, r3:newValue) regs=14 flags=0x129 {
+     2736  Push register1, "stylecache"
+     2743  GetMember
+     2744  Push undef
+     2748  Equals2
+     2749  Not
+     2750  Not
+     2751  If loc2786
+     2756  Push register1, "stylecache"
+     2763  GetMember
+     2764  Push register4
+     2769  Delete
+     2770  Pop
+     2771  Push register1, "stylecache"
+     2778  GetMember
+     2779  Push "tf"
+     2784  Delete
+     2785  Pop
+     2786  Push register1, register4, register3
+     2795  SetMember
+     2796  Push register4, 1, "mx"
+     2808  GetVariable
+     2809  Push "styles"
+     2814  GetMember
+     2815  Push "StyleManager"
+     2820  GetMember
+     2821  Push "isColorStyle"
+     2826  CallMethod
+     2827  Not
+     2828  If loc3453
+     2833  Push register3, 1, "isNaN"
+     2845  CallFunction
+     2846  Not
+     2847  If loc2916
+     2852  Push register3, 1, "mx"
+     2864  GetVariable
+     2865  Push "styles"
+     2870  GetMember
+     2871  Push "StyleManager"
+     2876  GetMember
+     2877  Push "getColorName"
+     2882  CallMethod
+     2883  StoreRegister 3
+     2887  Pop
+     2888  Push register1, register4, register3
+     2897  SetMember
+     2898  Push register3, undef
+     2904  Equals2
+     2905  Not
+     2906  If loc2916
+     2911  Push undef
+     2915  Return
+     2916  Push register4, "themeColor"
+     2923  Equals2
+     2924  Not
+     2925  If loc3257
+     2930  Push "mx"
+     2935  GetVariable
+     2936  Push "styles"
+     2941  GetMember
+     2942  Push "StyleManager"
+     2947  GetMember
+     2948  Push "colorNames"
+     2953  GetMember
+     2954  Push "haloBlue"
+     2959  GetMember
+     2960  StoreRegister 10
+     2964  Pop
+     2965  Push "mx"
+     2970  GetVariable
+     2971  Push "styles"
+     2976  GetMember
+     2977  Push "StyleManager"
+     2982  GetMember
+     2983  Push "colorNames"
+     2988  GetMember
+     2989  Push "haloGreen"
+     2994  GetMember
+     2995  StoreRegister 9
+     2999  Pop
+     3000  Push "mx"
+     3005  GetVariable
+     3006  Push "styles"
+     3011  GetMember
+     3012  Push "StyleManager"
+     3017  GetMember
+     3018  Push "colorNames"
+     3023  GetMember
+     3024  Push "haloOrange"
+     3029  GetMember
+     3030  StoreRegister 11
+     3034  Pop
+     3035  Push 0
+     3047  InitObject
+     3048  StoreRegister 6
+     3052  Pop
+     3053  Push register6, register10, 12188666
+     3065  SetMember
+     3066  Push register6, register9, 13500353
+     3078  SetMember
+     3079  Push register6, register11, 16766319
+     3091  SetMember
+     3092  Push 0
+     3104  InitObject
+     3105  StoreRegister 7
+     3109  Pop
+     3110  Push register7, register10, 13958653
+     3122  SetMember
+     3123  Push register7, register9, 14942166
+     3135  SetMember
+     3136  Push register7, register11, 16772787
+     3148  SetMember
+     3149  Push register6, register3
+     3156  GetMember
+     3157  StoreRegister 12
+     3161  Pop
+     3162  Push register7, register3
+     3169  GetMember
+     3170  StoreRegister 13
+     3174  Pop
+     3175  Push register12, undef
+     3181  Equals2
+     3182  Not
+     3183  If loc3198
+     3188  Push register3
+     3193  StoreRegister 12
+     3197  Pop
+     3198  Push register13, undef
+     3204  Equals2
+     3205  Not
+     3206  If loc3221
+     3211  Push register3
+     3216  StoreRegister 13
+     3220  Pop
+     3221  Push register12, "selectionColor", 2, register1, "setStyle"
+     3237  CallMethod
+     3238  Pop
+     3239  Push register13, "rollOverColor", 2, register1, "setStyle"
+     3255  CallMethod
+     3256  Pop
+     3257  Push register1, "_color"
+     3264  GetMember
+     3265  TypeOf
+     3266  Push "string"
+     3271  Equals2
+     3272  Not
+     3273  If loc3387
+     3278  Push register1, "_color"
+     3285  GetMember
+     3286  Push register4
+     3291  Equals2
+     3292  Not
+     3293  If loc3382
+     3298  Push register4, "color"
+     3305  Equals2
+     3306  Not
+     3307  If loc3366
+     3312  Push register1, "stylecache"
+     3319  GetMember
+     3320  Push "tf"
+     3325  GetMember
+     3326  Push "color"
+     3331  GetMember
+     3332  Push undef
+     3336  Equals2
+     3337  Not
+     3338  Not
+     3339  If loc3366
+     3344  Push register1, "stylecache"
+     3351  GetMember
+     3352  Push "tf"
+     3357  GetMember
+     3358  Push "color", register3
+     3365  SetMember
+     3366  Push register3, 1, register1, "setColor"
+     3380  CallMethod
+     3381  Pop
+     3382  Jump loc3429
+     3387  Push register1, "_color"
+     3394  GetMember
+     3395  Push register4
+     3400  GetMember
+     3401  Push undef
+     3405  Equals2
+     3406  Not
+     3407  Not
+     3408  If loc3429
+     3413  Push register4, 1, register1, "invalidateStyle"
+     3427  CallMethod
+     3428  Pop
+     3429  Push register3, register4, undef, 3, register1, "changeColorStyleInChildren"
+     3446  CallMethod
+     3447  Pop
+     3448  Jump loc3568
+     3453  Push register4, "backgroundColor"
+     3460  Equals2
+     3461  PushDuplicate
+     3462  Not
+     3463  If loc3482
+     3468  Pop
+     3469  Push register3, 1, "isNaN"
+     3481  CallFunction
+     3482  Not
+     3483  If loc3552
+     3488  Push register3, 1, "mx"
+     3500  GetVariable
+     3501  Push "styles"
+     3506  GetMember
+     3507  Push "StyleManager"
+     3512  GetMember
+     3513  Push "getColorName"
+     3518  CallMethod
+     3519  StoreRegister 3
+     3523  Pop
+     3524  Push register1, register4, register3
+     3533  SetMember
+     3534  Push register3, undef
+     3540  Equals2
+     3541  Not
+     3542  If loc3552
+     3547  Push undef
+     3551  Return
+     3552  Push register4, 1, register1, "invalidateStyle"
+     3566  CallMethod
+     3567  Pop
+     3568  Push register4, 1, "mx"
+     3580  GetVariable
+     3581  Push "styles"
+     3586  GetMember
+     3587  Push "StyleManager"
+     3592  GetMember
+     3593  Push "isInheritingStyle"
+     3598  CallMethod
+     3599  PushDuplicate
+     3600  If loc3614
+     3605  Pop
+     3606  Push register4, "styleName"
+     3613  Equals2
+     3614  Not
+     3615  If loc3769
+     3620  Push undef
+     3624  StoreRegister 8
+     3628  Pop
+     3629  Push register3
+     3634  StoreRegister 5
+     3638  Pop
+     3639  Push register4, "styleName"
+     3646  Equals2
+     3647  Not
+     3648  If loc3750
+     3653  Push register3
+     3658  TypeOf
+     3659  Push "string"
+     3664  Equals2
+     3665  If loc3680
+     3670  Push register5
+     3675  Jump loc3694
+     3680  Push register2, "styles"
+     3687  GetMember
+     3688  Push register3
+     3693  GetMember
+     3694  StoreRegister 8
+     3698  Pop
+     3699  Push register8, "themeColor"
+     3706  GetMember
+     3707  StoreRegister 5
+     3711  Pop
+     3712  Push register5, undef
+     3718  Equals2
+     3719  Not
+     3720  Not
+     3721  If loc3750
+     3726  Push register8, "rollOverColor", register8, "selectionColor", register5
+     3739  StoreRegister 0
+     3743  SetMember
+     3744  Push register0
+     3749  SetMember
+     3750  Push register3, register4, undef, 3, register1, "notifyStyleChangeInChildren"
+     3767  CallMethod
+     3768  Pop
+        }
+  3769  SetMember
+  3770  Push register1, "enableRunTimeCSS"
+  3777  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  3785  SetMember
+  3786  Push register1, "classConstruct"
+  3793  DefineFunction2 "" () regs=5 flags=0x12a {
+     3804  Push "MovieClip"
+     3809  GetVariable
+     3810  Push "prototype"
+     3815  GetMember
+     3816  StoreRegister 2
+     3820  Pop
+     3821  Push "mx"
+     3826  GetVariable
+     3827  Push "styles"
+     3832  GetMember
+     3833  Push "CSSSetStyle"
+     3838  GetMember
+     3839  Push "prototype"
+     3844  GetMember
+     3845  StoreRegister 3
+     3849  Pop
+     3850  Push "mx"
+     3855  GetVariable
+     3856  Push "styles"
+     3861  GetMember
+     3862  Push "CSSStyleDeclaration"
+     3867  GetMember
+     3868  Push "prototype"
+     3873  GetMember
+     3874  Push "setStyle", register3, "_setStyle"
+     3883  GetMember
+     3884  SetMember
+     3885  Push register2, "changeTextStyleInChildren", register3, "changeTextStyleInChildren"
+     3896  GetMember
+     3897  SetMember
+     3898  Push register2, "changeColorStyleInChildren", register3, "changeColorStyleInChildren"
+     3909  GetMember
+     3910  SetMember
+     3911  Push register2, "notifyStyleChangeInChildren", register3, "notifyStyleChangeInChildren"
+     3922  GetMember
+     3923  SetMember
+     3924  Push register2, "setStyle", register3, "setStyle"
+     3935  GetMember
+     3936  SetMember
+     3937  Push 1, "changeTextStyleInChildren", register2, 3, register1, "ASSetPropFlags"
+     3958  CallMethod
+     3959  Pop
+     3960  Push 1, "changeColorStyleInChildren", register2, 3, register1, "ASSetPropFlags"
+     3981  CallMethod
+     3982  Pop
+     3983  Push 1, "notifyStyleChangeInChildren", register2, 3, register1, "ASSetPropFlags"
+     4004  CallMethod
+     4005  Pop
+     4006  Push 1, "setStyle", register2, 3, register1, "ASSetPropFlags"
+     4027  CallMethod
+     4028  Pop
+     4029  Push "TextField"
+     4034  GetVariable
+     4035  Push "prototype"
+     4040  GetMember
+     4041  StoreRegister 4
+     4045  Pop
+     4046  Push register4, "setStyle", register2, "setStyle"
+     4057  GetMember
+     4058  SetMember
+     4059  Push register4, "changeTextStyleInChildren", register3, "changeTextStyleInChildren"
+     4070  GetMember
+     4071  SetMember
+     4072  Push true
+     4077  Return
+        }
+  4078  SetMember
+  4079  Push register1, "classConstructed", 0, "mx"
+  4097  GetVariable
+  4098  Push "styles"
+  4103  GetMember
+  4104  Push "CSSSetStyle"
+  4109  GetMember
+  4110  Push "classConstruct"
+  4115  CallMethod
+  4116  SetMember
+  4117  Push register1, "CSSStyleDeclarationDependency", "mx"
+  4126  GetVariable
+  4127  Push "styles"
+  4132  GetMember
+  4133  Push "CSSStyleDeclaration"
+  4138  GetMember
+  4139  SetMember
+  4140  Push 1, null, "mx"
+  4151  GetVariable
+  4152  Push "styles"
+  4157  GetMember
+  4158  Push "CSSSetStyle"
+  4163  GetMember
+  4164  Push "prototype"
+  4169  GetMember
+  4170  Push 3, "ASSetPropFlags"
+  4180  CallFunction
+  4181  Pop
+  4182  End

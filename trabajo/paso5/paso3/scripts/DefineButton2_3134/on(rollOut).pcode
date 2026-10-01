@@ -1,0 +1,8 @@
+// on(rollOut)
+// origen: boton 3134 (06850_DefineButton2_3134.bin)
+
+   197  Push "talentPool2"
+   213  GetVariable
+   214  Push "_xmove", 0
+   234  SetMember
+   235  End

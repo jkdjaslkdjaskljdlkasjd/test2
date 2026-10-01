@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1059_BOOM_SHIELD fotograma 20, DoAction (01604_DefineSprite_1059.bin, byte 1057)
+
+  1057  Push "", "this"
+  1068  GetVariable
+  1069  GetURL2 64
+  1073  End

@@ -1,0 +1,67 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3069 fotograma 1, clip en profundidad 1 (06785_DefineSprite_3069.bin, byte 20)
+
+    40  ConstantPool (17)
+   191  Push "_root"
+   196  GetVariable
+   197  Push "_ymouse"
+   202  GetMember
+   203  Push "_root"
+   208  GetVariable
+   209  Push "_xmouse"
+   214  GetMember
+   215  Push 2, "this"
+   225  GetVariable
+   226  Push "hitTest"
+   231  CallMethod
+   232  Not
+   233  If loc392
+   238  Push "_root"
+   243  GetVariable
+   244  Push "KrinToolTipper"
+   249  GetMember
+   250  Push "colorChange", "Common"
+   257  SetMember
+   258  Push "_root"
+   263  GetVariable
+   264  Push "KrinToolTipper"
+   269  GetMember
+   270  Push "colorChange"
+   275  GetMember
+   276  Push "_root"
+   281  GetVariable
+   282  Push "KrinToolTipper"
+   287  GetMember
+   288  Push "fontBacker2"
+   293  GetMember
+   294  Push 2, "_root"
+   304  GetVariable
+   305  Push "krinChangeColor"
+   310  CallMethod
+   311  Pop
+   312  Push "GO", 1, "_root"
+   324  GetVariable
+   325  Push "KrinToolTipper"
+   330  GetMember
+   331  Push "gotoAndPlay"
+   336  CallMethod
+   337  Pop
+   338  Push "_root"
+   343  GetVariable
+   344  Push "KrinToolTipper"
+   349  GetMember
+   350  Push "tt", "_parent"
+   357  GetVariable
+   358  Push "toolTipTitle"
+   363  GetMember
+   364  SetMember
+   365  Push "_root"
+   370  GetVariable
+   371  Push "KrinToolTipper"
+   376  GetMember
+   377  Push "t", "_parent"
+   384  GetVariable
+   385  Push "toolTip"
+   390  GetMember
+   391  SetMember
+   392  End

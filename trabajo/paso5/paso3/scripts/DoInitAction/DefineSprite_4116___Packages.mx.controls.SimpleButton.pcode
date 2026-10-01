@@ -1,0 +1,1523 @@
+// DefineSprite_4116___Packages.mx.controls.SimpleButton
+// origen: DoInitAction del sprite 4116 (03747_DoInitAction.bin)
+
+     2  ConstantPool (182)
+  1839  Push "_global"
+  1844  GetVariable
+  1845  Push "mx"
+  1850  GetMember
+  1851  Not
+  1852  Not
+  1853  If loc1882
+  1858  Push "_global"
+  1863  GetVariable
+  1864  Push "mx", 0, "Object"
+  1880  NewObject
+  1881  SetMember
+  1882  Pop
+  1883  Push "_global"
+  1888  GetVariable
+  1889  Push "mx"
+  1894  GetMember
+  1895  Push "controls"
+  1900  GetMember
+  1901  Not
+  1902  Not
+  1903  If loc1938
+  1908  Push "_global"
+  1913  GetVariable
+  1914  Push "mx"
+  1919  GetMember
+  1920  Push "controls", 0, "Object"
+  1936  NewObject
+  1937  SetMember
+  1938  Pop
+  1939  Push "_global"
+  1944  GetVariable
+  1945  Push "mx"
+  1950  GetMember
+  1951  Push "controls"
+  1956  GetMember
+  1957  Push "SimpleButton"
+  1962  GetMember
+  1963  Not
+  1964  Not
+  1965  If loc8783
+  1970  Push "mx"
+  1975  GetVariable
+  1976  Push "controls"
+  1981  GetMember
+  1982  Push "SimpleButton"
+  1987  DefineFunction2 "" () regs=2 flags=0x1a {
+     1998  Push 0, register1, undef
+     2013  CallMethod
+     2014  Pop
+        }
+  2015  StoreRegister 1
+  2019  SetMember
+  2020  Push "mx"
+  2025  GetVariable
+  2026  Push "controls"
+  2031  GetMember
+  2032  Push "SimpleButton"
+  2037  GetMember
+  2038  Push "mx"
+  2043  GetVariable
+  2044  Push "core"
+  2049  GetMember
+  2050  Push "UIComponent"
+  2055  GetMember
+  2056  Extends
+  2057  Push register1, "prototype"
+  2064  GetMember
+  2065  StoreRegister 2
+  2069  Pop
+  2070  Push register2, "init"
+  2077  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     2094  Push 0, register2, "init"
+     2110  CallMethod
+     2111  Pop
+     2112  Push register1, "preset"
+     2119  GetMember
+     2120  Push undef
+     2124  Equals2
+     2125  Not
+     2126  If loc2190
+     2131  Push register1, "boundingBox_mc"
+     2138  GetMember
+     2139  Push "_visible", false
+     2146  SetMember
+     2147  Push register1, "boundingBox_mc"
+     2154  GetMember
+     2155  Push "_width", register1, "boundingBox_mc"
+     2164  GetMember
+     2165  Push "_height", 0
+     2179  StoreRegister 0
+     2183  SetMember
+     2184  Push register0
+     2189  SetMember
+     2190  Push register1, "useHandCursor", false
+     2199  SetMember
+        }
+  2200  SetMember
+  2201  Push register2, "createChildren"
+  2208  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     2225  Push register1, "preset"
+     2232  GetMember
+     2233  Push undef
+     2237  Equals2
+     2238  Not
+     2239  Not
+     2240  If loc2412
+     2245  Push register1, register1, "idNames"
+     2254  GetMember
+     2255  Push register1, "preset"
+     2262  GetMember
+     2263  GetMember
+     2264  GetMember
+     2265  StoreRegister 2
+     2269  Pop
+     2270  Push register1, register1, "refNames"
+     2279  GetMember
+     2280  Push register1, "preset"
+     2287  GetMember
+     2288  GetMember
+     2289  Push register2
+     2294  SetMember
+     2295  Push register1, "skinName", register2
+     2304  SetMember
+     2305  Push register1, "falseOverSkin"
+     2312  GetMember
+     2313  Push "length"
+     2318  GetMember
+     2319  Push 0
+     2331  Equals2
+     2332  Not
+     2333  If loc2351
+     2338  Push register1, "rolloverSkin", register1, "fus"
+     2349  GetMember
+     2350  SetMember
+     2351  Push register1, "falseOverIcon"
+     2358  GetMember
+     2359  Push "length"
+     2364  GetMember
+     2365  Push 0
+     2377  Equals2
+     2378  Not
+     2379  If loc2397
+     2384  Push register1, "rolloverIcon", register1, "fui"
+     2395  GetMember
+     2396  SetMember
+     2397  Push register1, "initializing", false
+     2406  SetMember
+     2407  Jump loc2545
+     2412  Push register1, "__state"
+     2419  GetMember
+     2420  Push true
+     2425  Equals2
+     2426  Not
+     2427  If loc2453
+     2432  Push true, 1, register1, "setStateVar"
+     2446  CallMethod
+     2447  Pop
+     2448  Jump loc2545
+     2453  Push register1, "falseOverSkin"
+     2460  GetMember
+     2461  Push "length"
+     2466  GetMember
+     2467  Push 0
+     2479  Equals2
+     2480  Not
+     2481  If loc2499
+     2486  Push register1, "rolloverSkin", register1, "fus"
+     2497  GetMember
+     2498  SetMember
+     2499  Push register1, "falseOverIcon"
+     2506  GetMember
+     2507  Push "length"
+     2512  GetMember
+     2513  Push 0
+     2525  Equals2
+     2526  Not
+     2527  If loc2545
+     2532  Push register1, "rolloverIcon", register1, "fui"
+     2543  GetMember
+     2544  SetMember
+        }
+  2545  SetMember
+  2546  Push register2, "setIcon"
+  2553  DefineFunction2 "" (r2:tag, r3:linkageName) regs=4 flags=0x29 {
+     2582  Push register3, register2, 8
+     2594  Add2
+     2595  Push 2, register1, "setSkin"
+     2607  CallMethod
+     2608  Return
+        }
+  2609  SetMember
+  2610  Push register2, "changeIcon"
+  2617  DefineFunction2 "" (r3:tag, r4:linkageName) regs=5 flags=0x29 {
+     2646  Push register1, "linkLength", register4, "length"
+     2657  GetMember
+     2658  SetMember
+     2659  Push register1, "stateNames"
+     2666  GetMember
+     2667  Push register3
+     2672  GetMember
+     2673  Push "Icon"
+     2678  Add2
+     2679  StoreRegister 2
+     2683  Pop
+     2684  Push register1, register2, register4
+     2693  SetMember
+     2694  Push register1, register1, "idNames"
+     2703  GetMember
+     2704  Push register3, 8
+     2714  Add2
+     2715  GetMember
+     2716  Push register2
+     2721  SetMember
+     2722  Push 0, register1, "getState"
+     2738  CallMethod
+     2739  Push 1, register1, "setStateVar"
+     2751  CallMethod
+     2752  Pop
+        }
+  2753  SetMember
+  2754  Push register2, "changeSkin"
+  2761  DefineFunction2 "" (r3:tag, r4:linkageName) regs=5 flags=0x29 {
+     2790  Push register1, "stateNames"
+     2797  GetMember
+     2798  Push register3
+     2803  GetMember
+     2804  Push "Skin"
+     2809  Add2
+     2810  StoreRegister 2
+     2814  Pop
+     2815  Push register1, register2, register4
+     2824  SetMember
+     2825  Push register1, register1, "idNames"
+     2834  GetMember
+     2835  Push register3
+     2840  GetMember
+     2841  Push register2
+     2846  SetMember
+     2847  Push 0, register1, "getState"
+     2863  CallMethod
+     2864  Push 1, register1, "setStateVar"
+     2876  CallMethod
+     2877  Pop
+        }
+  2878  SetMember
+  2879  Push register2, "viewIcon"
+  2886  DefineFunction2 "" (r6:varName) regs=7 flags=0x129 {
+     2906  Push register6, "Icon"
+     2913  Add2
+     2914  StoreRegister 4
+     2918  Pop
+     2919  Push register1, register4
+     2926  GetMember
+     2927  StoreRegister 3
+     2931  Pop
+     2932  Push register3
+     2937  TypeOf
+     2938  Push "string"
+     2943  Equals2
+     2944  Not
+     2945  If loc3169
+     2950  Push register3
+     2955  StoreRegister 5
+     2959  Pop
+     2960  Push register1, "__emphasized"
+     2967  GetMember
+     2968  Not
+     2969  If loc3023
+     2974  Push register1, register3, "Emphasized"
+     2983  Add2
+     2984  GetMember
+     2985  Push "length"
+     2990  GetMember
+     2991  Push 0
+     3003  Greater
+     3004  Not
+     3005  If loc3023
+     3010  Push register3, "Emphasized"
+     3017  Add2
+     3018  StoreRegister 3
+     3022  Pop
+     3023  Push register1, register3
+     3030  GetMember
+     3031  Push "length"
+     3036  GetMember
+     3037  Push 0
+     3049  Equals2
+     3050  Not
+     3051  If loc3061
+     3056  Push undef
+     3060  Return
+     3061  Push register1, register3
+     3068  GetMember
+     3069  Push register1, "tagMap"
+     3076  GetMember
+     3077  Push register5
+     3082  GetMember
+     3083  Push 2, register1, "setIcon"
+     3095  CallMethod
+     3096  StoreRegister 3
+     3100  Pop
+     3101  Push register3, undef
+     3107  Equals2
+     3108  PushDuplicate
+     3109  Not
+     3110  If loc3124
+     3115  Pop
+     3116  Push register2, "isLivePreview"
+     3123  GetMember
+     3124  Not
+     3125  If loc3159
+     3130  Push "ButtonIcon", 0, 2, register1, "setIcon"
+     3153  CallMethod
+     3154  StoreRegister 3
+     3158  Pop
+     3159  Push register1, register4, register3
+     3168  SetMember
+     3169  Push register1, "iconName"
+     3176  GetMember
+     3177  Push "_visible", false
+     3184  SetMember
+     3185  Push register1, "iconName", register3
+     3194  SetMember
+     3195  Push register1, "iconName"
+     3202  GetMember
+     3203  Push "_visible", true
+     3210  SetMember
+        }
+  3211  SetMember
+  3212  Push register2, "removeIcons"
+  3219  DefineFunction2 "" () regs=4 flags=0x29 {
+     3230  Push 0
+     3242  StoreRegister 3
+     3246  Pop
+     3247  Push register3, 2
+     3257  Less2
+     3258  Not
+     3259  If loc3388
+     3264  Push 8
+     3272  StoreRegister 2
+     3276  Pop
+     3277  Push register2, 16
+     3287  Less2
+     3288  Not
+     3289  If loc3372
+     3294  Push register1, "idNames"
+     3301  GetMember
+     3302  Push register2
+     3307  GetMember
+     3308  Push 1, register1, "destroyObject"
+     3320  CallMethod
+     3321  Pop
+     3322  Push register1, register1, "stateNames"
+     3331  GetMember
+     3332  Push register2, 8
+     3342  Subtract
+     3343  GetMember
+     3344  Push "Icon"
+     3349  Add2
+     3350  Push ""
+     3355  SetMember
+     3356  Push register2
+     3361  Increment
+     3362  StoreRegister 2
+     3366  Pop
+     3367  Jump loc3277
+     3372  Push register3
+     3377  Increment
+     3378  StoreRegister 3
+     3382  Pop
+     3383  Jump loc3247
+     3388  Push 0, register1, "refresh"
+     3404  CallMethod
+     3405  Pop
+        }
+  3406  SetMember
+  3407  Push register2, "setSkin"
+  3414  DefineFunction2 "" (r4:tag, r7:linkageName, r5:initobj) regs=8 flags=0x19 {
+     3452  Push register5, undef
+     3458  Equals2
+     3459  Not
+     3460  If loc3483
+     3465  Push "styleName", register1, 1
+     3477  InitObject
+     3478  Jump loc3488
+     3483  Push register5
+     3488  Push register7, register4, 3, register2, "setSkin"
+     3504  CallMethod
+     3505  StoreRegister 3
+     3509  Pop
+     3510  Push register3, register4, 2, register1, "calcSize"
+     3526  CallMethod
+     3527  Pop
+     3528  Push register3
+     3533  Return
+        }
+  3534  SetMember
+  3535  Push register2, "calcSize"
+  3542  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     3559  Push register1, "__width", register1, "_width"
+     3570  GetMember
+     3571  SetMember
+     3572  Push register1, "__height", register1, "_height"
+     3583  GetMember
+     3584  SetMember
+        }
+  3585  SetMember
+  3586  Push register2, "viewSkin"
+  3593  DefineFunction2 "" (r7:varName, r5:initObj) regs=8 flags=0x29 {
+     3622  Push register7, "Skin"
+     3629  Add2
+     3630  StoreRegister 3
+     3634  Pop
+     3635  Push register1, register3
+     3642  GetMember
+     3643  StoreRegister 2
+     3647  Pop
+     3648  Push register2
+     3653  TypeOf
+     3654  Push "string"
+     3659  Equals2
+     3660  Not
+     3661  If loc3863
+     3666  Push register2
+     3671  StoreRegister 4
+     3675  Pop
+     3676  Push register1, "__emphasized"
+     3683  GetMember
+     3684  Not
+     3685  If loc3739
+     3690  Push register1, register2, "Emphasized"
+     3699  Add2
+     3700  GetMember
+     3701  Push "length"
+     3706  GetMember
+     3707  Push 0
+     3719  Greater
+     3720  Not
+     3721  If loc3739
+     3726  Push register2, "Emphasized"
+     3733  Add2
+     3734  StoreRegister 2
+     3738  Pop
+     3739  Push register1, register2
+     3746  GetMember
+     3747  Push "length"
+     3752  GetMember
+     3753  Push 0
+     3765  Equals2
+     3766  Not
+     3767  If loc3777
+     3772  Push undef
+     3776  Return
+     3777  Push register5, undef
+     3783  Equals2
+     3784  Not
+     3785  If loc3808
+     3790  Push "styleName", register1, 1
+     3802  InitObject
+     3803  Jump loc3813
+     3808  Push register5
+     3813  Push register1, register2
+     3820  GetMember
+     3821  Push register1, "tagMap"
+     3828  GetMember
+     3829  Push register4
+     3834  GetMember
+     3835  Push 3, register1, "setSkin"
+     3847  CallMethod
+     3848  StoreRegister 2
+     3852  Pop
+     3853  Push register1, register3, register2
+     3862  SetMember
+     3863  Push register1, "skinName"
+     3870  GetMember
+     3871  Push "_visible", false
+     3878  SetMember
+     3879  Push register1, "skinName", register2
+     3888  SetMember
+     3889  Push register1, "skinName"
+     3896  GetMember
+     3897  Push "_visible", true
+     3904  SetMember
+        }
+  3905  SetMember
+  3906  Push register2, "showEmphasized"
+  3913  DefineFunction2 "" (r2:e) regs=3 flags=0x29 {
+     3927  Push register2
+     3932  PushDuplicate
+     3933  Not
+     3934  If loc3949
+     3939  Pop
+     3940  Push register1, "__emphatic"
+     3947  GetMember
+     3948  Not
+     3949  Not
+     3950  If loc4048
+     3955  Push "mx"
+     3960  GetVariable
+     3961  Push "controls"
+     3966  GetMember
+     3967  Push "SimpleButton"
+     3972  GetMember
+     3973  Push "emphasizedStyleDeclaration"
+     3978  GetMember
+     3979  Push undef
+     3983  Equals2
+     3984  Not
+     3985  Not
+     3986  If loc4033
+     3991  Push register1, "__emphaticStyleName", register1, "styleName"
+     4002  GetMember
+     4003  SetMember
+     4004  Push register1, "styleName", "mx"
+     4013  GetVariable
+     4014  Push "controls"
+     4019  GetMember
+     4020  Push "SimpleButton"
+     4025  GetMember
+     4026  Push "emphasizedStyleDeclaration"
+     4031  GetMember
+     4032  SetMember
+     4033  Push register1, "__emphatic", true
+     4042  SetMember
+     4043  Jump loc4085
+     4048  Push register1, "__emphatic"
+     4055  GetMember
+     4056  Not
+     4057  If loc4075
+     4062  Push register1, "styleName", register1, "__emphaticStyleName"
+     4073  GetMember
+     4074  SetMember
+     4075  Push register1, "__emphatic", false
+     4084  SetMember
+        }
+  4085  SetMember
+  4086  Push register2, "refresh"
+  4093  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     4110  Push 0, register1, "getState"
+     4126  CallMethod
+     4127  StoreRegister 2
+     4131  Pop
+     4132  Push register1, "enabled"
+     4139  GetMember
+     4140  Push false
+     4145  Equals2
+     4146  Not
+     4147  If loc4189
+     4152  Push "disabled", 1, register1, "viewIcon"
+     4166  CallMethod
+     4167  Pop
+     4168  Push "disabled", 1, register1, "viewSkin"
+     4182  CallMethod
+     4183  Pop
+     4184  Jump loc4233
+     4189  Push register1, "phase"
+     4196  GetMember
+     4197  Push 1, register1, "viewSkin"
+     4209  CallMethod
+     4210  Pop
+     4211  Push register1, "phase"
+     4218  GetMember
+     4219  Push 1, register1, "viewIcon"
+     4231  CallMethod
+     4232  Pop
+     4233  Push register1, "phase"
+     4240  GetMember
+     4241  Push "down"
+     4246  Equals2
+     4247  Push 1, register1, "setView"
+     4259  CallMethod
+     4260  Pop
+     4261  Push register1, "iconName"
+     4268  GetMember
+     4269  Push "enabled", register1, "enabled"
+     4278  GetMember
+     4279  SetMember
+        }
+  4280  SetMember
+  4281  Push register2, "setView"
+  4288  DefineFunction2 "" (r3:offset) regs=4 flags=0x29 {
+     4307  Push register1, "iconName"
+     4314  GetMember
+     4315  Push undef
+     4319  Equals2
+     4320  Not
+     4321  If loc4331
+     4326  Push undef
+     4330  Return
+     4331  Push register3
+     4336  If loc4358
+     4341  Push 0
+     4353  Jump loc4366
+     4358  Push register1, "btnOffset"
+     4365  GetMember
+     4366  StoreRegister 2
+     4370  Pop
+     4371  Push register1, "iconName"
+     4378  GetMember
+     4379  Push "_x", register1, "__width"
+     4388  GetMember
+     4389  Push register1, "iconName"
+     4396  GetMember
+     4397  Push "_width"
+     4402  GetMember
+     4403  Subtract
+     4404  Push 2
+     4412  Divide
+     4413  Push register2
+     4418  Add2
+     4419  SetMember
+     4420  Push register1, "iconName"
+     4427  GetMember
+     4428  Push "_y", register1, "__height"
+     4437  GetMember
+     4438  Push register1, "iconName"
+     4445  GetMember
+     4446  Push "_height"
+     4451  GetMember
+     4452  Subtract
+     4453  Push 2
+     4461  Divide
+     4462  Push register2
+     4467  Add2
+     4468  SetMember
+        }
+  4469  SetMember
+  4470  Push register2, "setStateVar"
+  4477  DefineFunction2 "" (r2:state) regs=3 flags=0x29 {
+     4495  Push register2
+     4500  Not
+     4501  If loc4717
+     4506  Push register1, "trueOverSkin"
+     4513  GetMember
+     4514  Push "length"
+     4519  GetMember
+     4520  Push 0
+     4532  Equals2
+     4533  Not
+     4534  If loc4557
+     4539  Push register1, "rolloverSkin", register1, "tus"
+     4550  GetMember
+     4551  SetMember
+     4552  Jump loc4570
+     4557  Push register1, "rolloverSkin", register1, "trs"
+     4568  GetMember
+     4569  SetMember
+     4570  Push register1, "trueOverIcon"
+     4577  GetMember
+     4578  Push "length"
+     4583  GetMember
+     4584  Push 0
+     4596  Equals2
+     4597  Not
+     4598  If loc4621
+     4603  Push register1, "rolloverIcon", register1, "tui"
+     4614  GetMember
+     4615  SetMember
+     4616  Jump loc4634
+     4621  Push register1, "rolloverIcon", register1, "tri"
+     4632  GetMember
+     4633  SetMember
+     4634  Push register1, "upSkin", register1, "tus"
+     4645  GetMember
+     4646  SetMember
+     4647  Push register1, "downSkin", register1, "tds"
+     4658  GetMember
+     4659  SetMember
+     4660  Push register1, "disabledSkin", register1, "dts"
+     4671  GetMember
+     4672  SetMember
+     4673  Push register1, "upIcon", register1, "tui"
+     4684  GetMember
+     4685  SetMember
+     4686  Push register1, "downIcon", register1, "tdi"
+     4697  GetMember
+     4698  SetMember
+     4699  Push register1, "disabledIcon", register1, "dti"
+     4710  GetMember
+     4711  SetMember
+     4712  Jump loc4923
+     4717  Push register1, "falseOverSkin"
+     4724  GetMember
+     4725  Push "length"
+     4730  GetMember
+     4731  Push 0
+     4743  Equals2
+     4744  Not
+     4745  If loc4768
+     4750  Push register1, "rolloverSkin", register1, "fus"
+     4761  GetMember
+     4762  SetMember
+     4763  Jump loc4781
+     4768  Push register1, "rolloverSkin", register1, "frs"
+     4779  GetMember
+     4780  SetMember
+     4781  Push register1, "falseOverIcon"
+     4788  GetMember
+     4789  Push "length"
+     4794  GetMember
+     4795  Push 0
+     4807  Equals2
+     4808  Not
+     4809  If loc4832
+     4814  Push register1, "rolloverIcon", register1, "fui"
+     4825  GetMember
+     4826  SetMember
+     4827  Jump loc4845
+     4832  Push register1, "rolloverIcon", register1, "fri"
+     4843  GetMember
+     4844  SetMember
+     4845  Push register1, "upSkin", register1, "fus"
+     4856  GetMember
+     4857  SetMember
+     4858  Push register1, "downSkin", register1, "fds"
+     4869  GetMember
+     4870  SetMember
+     4871  Push register1, "disabledSkin", register1, "dfs"
+     4882  GetMember
+     4883  SetMember
+     4884  Push register1, "upIcon", register1, "fui"
+     4895  GetMember
+     4896  SetMember
+     4897  Push register1, "downIcon", register1, "fdi"
+     4908  GetMember
+     4909  SetMember
+     4910  Push register1, "disabledIcon", register1, "dfi"
+     4921  GetMember
+     4922  SetMember
+     4923  Push register1, "__state", register2
+     4932  SetMember
+        }
+  4933  SetMember
+  4934  Push register2, "setState"
+  4941  DefineFunction2 "" (r2:state) regs=3 flags=0x29 {
+     4959  Push register2, register1, "__state"
+     4968  GetMember
+     4969  Equals2
+     4970  Not
+     4971  Not
+     4972  If loc5011
+     4977  Push register2, 1, register1, "setStateVar"
+     4991  CallMethod
+     4992  Pop
+     4993  Push 0, register1, "invalidate"
+     5009  CallMethod
+     5010  Pop
+        }
+  5011  SetMember
+  5012  Push register2, "size"
+  5019  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     5036  Push 0, register1, "refresh"
+     5052  CallMethod
+     5053  Pop
+        }
+  5054  SetMember
+  5055  Push register2, "draw"
+  5062  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     5079  Push register1, "initializing"
+     5086  GetMember
+     5087  Not
+     5088  If loc5135
+     5093  Push register1, "initializing", false
+     5102  SetMember
+     5103  Push register1, "skinName"
+     5110  GetMember
+     5111  Push "visible", true
+     5118  SetMember
+     5119  Push register1, "iconName"
+     5126  GetMember
+     5127  Push "visible", true
+     5134  SetMember
+     5135  Push 0, register1, "size"
+     5151  CallMethod
+     5152  Pop
+        }
+  5153  SetMember
+  5154  Push register2, "getState"
+  5161  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     5178  Push register1, "__state"
+     5185  GetMember
+     5186  Return
+        }
+  5187  SetMember
+  5188  Push register2, "setToggle"
+  5195  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     5211  Push register1, "__toggle", register2
+     5220  SetMember
+     5221  Push register1, "__toggle"
+     5228  GetMember
+     5229  Push false
+     5234  Equals2
+     5235  Not
+     5236  If loc5257
+     5241  Push false, 1, register1, "setState"
+     5255  CallMethod
+     5256  Pop
+        }
+  5257  SetMember
+  5258  Push register2, "getToggle"
+  5265  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     5282  Push register1, "__toggle"
+     5289  GetMember
+     5290  Return
+        }
+  5291  SetMember
+  5292  Push register2, "__set__toggle"
+  5299  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     5315  Push register2, 1, register1, "setToggle"
+     5329  CallMethod
+     5330  Pop
+     5331  Push 0, register1, "__get__toggle"
+     5347  CallMethod
+     5348  Return
+     5349  Pop
+        }
+  5350  SetMember
+  5351  Push register2, "__get__toggle"
+  5358  DefineFunction2 "" () regs=2 flags=0x29 {
+     5369  Push 0, register1, "getToggle"
+     5385  CallMethod
+     5386  Return
+        }
+  5387  SetMember
+  5388  Push register2, "__set__value"
+  5395  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     5411  Push register2, 1, register1, "setSelected"
+     5425  CallMethod
+     5426  Pop
+     5427  Push 0, register1, "__get__value"
+     5443  CallMethod
+     5444  Return
+     5445  Pop
+        }
+  5446  SetMember
+  5447  Push register2, "__get__value"
+  5454  DefineFunction2 "" () regs=2 flags=0x29 {
+     5465  Push 0, register1, "getSelected"
+     5481  CallMethod
+     5482  Return
+        }
+  5483  SetMember
+  5484  Push register2, "__set__selected"
+  5491  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     5507  Push register2, 1, register1, "setSelected"
+     5521  CallMethod
+     5522  Pop
+     5523  Push 0, register1, "__get__selected"
+     5539  CallMethod
+     5540  Return
+     5541  Pop
+        }
+  5542  SetMember
+  5543  Push register2, "__get__selected"
+  5550  DefineFunction2 "" () regs=2 flags=0x29 {
+     5561  Push 0, register1, "getSelected"
+     5577  CallMethod
+     5578  Return
+        }
+  5579  SetMember
+  5580  Push register2, "setSelected"
+  5587  DefineFunction2 "" (r2:val) regs=3 flags=0x29 {
+     5603  Push register1, "__toggle"
+     5610  GetMember
+     5611  Not
+     5612  If loc5638
+     5617  Push register2, 1, register1, "setState"
+     5631  CallMethod
+     5632  Pop
+     5633  Jump loc5683
+     5638  Push register1, "initializing"
+     5645  GetMember
+     5646  If loc5664
+     5651  Push register1, "__state"
+     5658  GetMember
+     5659  Jump loc5669
+     5664  Push register2
+     5669  Push 1, register1, "setState"
+     5681  CallMethod
+     5682  Pop
+        }
+  5683  SetMember
+  5684  Push register2, "getSelected"
+  5691  DefineFunction2 "" () regs=2 flags=0x29 {
+     5702  Push register1, "__state"
+     5709  GetMember
+     5710  Return
+        }
+  5711  SetMember
+  5712  Push register2, "setEnabled"
+  5719  DefineFunction2 "" (r3:val) regs=4 flags=0x19 {
+     5735  Push register1, "enabled"
+     5742  GetMember
+     5743  Push register3
+     5748  Equals2
+     5749  Not
+     5750  Not
+     5751  If loc5790
+     5756  Push register3, 1, register2, "setEnabled"
+     5770  CallMethod
+     5771  Pop
+     5772  Push 0, register1, "invalidate"
+     5788  CallMethod
+     5789  Pop
+        }
+  5790  SetMember
+  5791  Push register2, "onPress"
+  5798  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     5815  Push 0, register1, "pressFocus"
+     5831  CallMethod
+     5832  Pop
+     5833  Push register1, "phase", "down"
+     5842  SetMember
+     5843  Push 0, register1, "refresh"
+     5859  CallMethod
+     5860  Pop
+     5861  Push "type", "buttonDown", 1
+     5873  InitObject
+     5874  Push 1, register1, "dispatchEvent"
+     5886  CallMethod
+     5887  Pop
+     5888  Push register1, "autoRepeat"
+     5895  GetMember
+     5896  Not
+     5897  If loc5937
+     5902  Push register1, "interval", "repeatDelay", 1, register1, "getStyle"
+     5920  CallMethod
+     5921  Push "onPressDelay", register1, 3, "setInterval"
+     5935  CallFunction
+     5936  SetMember
+        }
+  5937  SetMember
+  5938  Push register2, "onPressDelay"
+  5945  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     5962  Push "type", "buttonDown", 1
+     5974  InitObject
+     5975  Push 1, register1, "dispatchEvent"
+     5987  CallMethod
+     5988  Pop
+     5989  Push register1, "autoRepeat"
+     5996  GetMember
+     5997  Not
+     5998  If loc6058
+     6003  Push register1, "interval"
+     6010  GetMember
+     6011  Push 1, "clearInterval"
+     6021  CallFunction
+     6022  Pop
+     6023  Push register1, "interval", "repeatInterval", 1, register1, "getStyle"
+     6041  CallMethod
+     6042  Push "onPressRepeat", register1, 3, "setInterval"
+     6056  CallFunction
+     6057  SetMember
+        }
+  6058  SetMember
+  6059  Push register2, "onPressRepeat"
+  6066  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     6083  Push "type", "buttonDown", 1
+     6095  InitObject
+     6096  Push 1, register1, "dispatchEvent"
+     6108  CallMethod
+     6109  Pop
+     6110  Push 0, "updateAfterEvent"
+     6124  CallFunction
+     6125  Pop
+        }
+  6126  SetMember
+  6127  Push register2, "onRelease"
+  6134  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     6151  Push 0, register1, "releaseFocus"
+     6167  CallMethod
+     6168  Pop
+     6169  Push register1, "phase", "rollover"
+     6178  SetMember
+     6179  Push register1, "interval"
+     6186  GetMember
+     6187  Push undef
+     6191  Equals2
+     6192  Not
+     6193  Not
+     6194  If loc6228
+     6199  Push register1, "interval"
+     6206  GetMember
+     6207  Push 1, "clearInterval"
+     6217  CallFunction
+     6218  Pop
+     6219  Push register1, "interval"
+     6226  Delete
+     6227  Pop
+     6228  Push 0, register1, "getToggle"
+     6244  CallMethod
+     6245  Not
+     6246  If loc6288
+     6251  Push 0, register1, "getState"
+     6267  CallMethod
+     6268  Not
+     6269  Push 1, register1, "setState"
+     6281  CallMethod
+     6282  Pop
+     6283  Jump loc6306
+     6288  Push 0, register1, "refresh"
+     6304  CallMethod
+     6305  Pop
+     6306  Push "type", "click", 1
+     6318  InitObject
+     6319  Push 1, register1, "dispatchEvent"
+     6331  CallMethod
+     6332  Pop
+        }
+  6333  SetMember
+  6334  Push register2, "onDragOut"
+  6341  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     6358  Push register1, "phase", "up"
+     6367  SetMember
+     6368  Push 0, register1, "refresh"
+     6384  CallMethod
+     6385  Pop
+     6386  Push "type", "buttonDragOut", 1
+     6398  InitObject
+     6399  Push 1, register1, "dispatchEvent"
+     6411  CallMethod
+     6412  Pop
+        }
+  6413  SetMember
+  6414  Push register2, "onDragOver"
+  6421  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     6438  Push register1, "phase"
+     6445  GetMember
+     6446  Push "up"
+     6451  Equals2
+     6452  Not
+     6453  Not
+     6454  If loc6487
+     6459  Push 0, register1, "onPress"
+     6475  CallMethod
+     6476  Pop
+     6477  Push undef
+     6481  Return
+     6482  Jump loc6515
+     6487  Push register1, "phase", "down"
+     6496  SetMember
+     6497  Push 0, register1, "refresh"
+     6513  CallMethod
+     6514  Pop
+        }
+  6515  SetMember
+  6516  Push register2, "onReleaseOutside"
+  6523  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     6540  Push 0, register1, "releaseFocus"
+     6556  CallMethod
+     6557  Pop
+     6558  Push register1, "phase", "up"
+     6567  SetMember
+     6568  Push register1, "interval"
+     6575  GetMember
+     6576  Push undef
+     6580  Equals2
+     6581  Not
+     6582  Not
+     6583  If loc6617
+     6588  Push register1, "interval"
+     6595  GetMember
+     6596  Push 1, "clearInterval"
+     6606  CallFunction
+     6607  Pop
+     6608  Push register1, "interval"
+     6615  Delete
+     6616  Pop
+        }
+  6617  SetMember
+  6618  Push register2, "onRollOver"
+  6625  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     6642  Push register1, "phase", "rollover"
+     6651  SetMember
+     6652  Push 0, register1, "refresh"
+     6668  CallMethod
+     6669  Pop
+        }
+  6670  SetMember
+  6671  Push register2, "onRollOut"
+  6678  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     6695  Push register1, "phase", "up"
+     6704  SetMember
+     6705  Push 0, register1, "refresh"
+     6721  CallMethod
+     6722  Pop
+        }
+  6723  SetMember
+  6724  Push register2, "getLabel"
+  6731  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     6748  Push register1, "fui"
+     6755  GetMember
+     6756  Push "text"
+     6761  GetMember
+     6762  Return
+        }
+  6763  SetMember
+  6764  Push register2, "setLabel"
+  6771  DefineFunction2 "" (r3:val) regs=5 flags=0x29 {
+     6787  Push register1, "fui"
+     6794  GetMember
+     6795  TypeOf
+     6796  Push "string"
+     6801  Equals2
+     6802  Not
+     6803  If loc6852
+     6808  Push register3, 8, "fui", 3, register1, "createLabel"
+     6829  CallMethod
+     6830  Pop
+     6831  Push register1, "fui"
+     6838  GetMember
+     6839  Push "styleName", register1
+     6846  SetMember
+     6847  Jump loc6868
+     6852  Push register1, "fui"
+     6859  GetMember
+     6860  Push "text", register3
+     6867  SetMember
+     6868  Push 0, register1, "fui"
+     6884  GetMember
+     6885  Push "_getTextFormat"
+     6890  CallMethod
+     6891  StoreRegister 4
+     6895  Pop
+     6896  Push register3, 1, register4, "getTextExtent2"
+     6910  CallMethod
+     6911  StoreRegister 2
+     6915  Pop
+     6916  Push register1, "fui"
+     6923  GetMember
+     6924  Push "_width", register2, "width"
+     6933  GetMember
+     6934  Push 5
+     6942  Add2
+     6943  SetMember
+     6944  Push register1, "fui"
+     6951  GetMember
+     6952  Push "_height", register2, "height"
+     6961  GetMember
+     6962  Push 5
+     6970  Add2
+     6971  SetMember
+     6972  Push register1, "iconName", register1, "fui"
+     6983  GetMember
+     6984  SetMember
+     6985  Push register1, "__state"
+     6992  GetMember
+     6993  Push 1, register1, "setView"
+     7005  CallMethod
+     7006  Pop
+        }
+  7007  SetMember
+  7008  Push register2, "__get__emphasized"
+  7015  DefineFunction2 "" () regs=2 flags=0x29 {
+     7026  Push register1, "__emphasized"
+     7033  GetMember
+     7034  Return
+        }
+  7035  SetMember
+  7036  Push register2, "__set__emphasized"
+  7043  DefineFunction2 "" (r3:val) regs=4 flags=0x29 {
+     7059  Push register1, "__emphasized", register3
+     7068  SetMember
+     7069  Push 0
+     7081  StoreRegister 2
+     7085  Pop
+     7086  Push register2, 8
+     7096  Less2
+     7097  Not
+     7098  If loc7235
+     7103  Push register1, register1, "idNames"
+     7112  GetMember
+     7113  Push register2
+     7118  GetMember
+     7119  Push register1, "stateNames"
+     7126  GetMember
+     7127  Push register2
+     7132  GetMember
+     7133  Push "Skin"
+     7138  Add2
+     7139  SetMember
+     7140  Push register1, register1, "idNames"
+     7149  GetMember
+     7150  Push register2, 8
+     7160  Add2
+     7161  GetMember
+     7162  GetMember
+     7163  TypeOf
+     7164  Push "movieclip"
+     7169  Equals2
+     7170  Not
+     7171  If loc7219
+     7176  Push register1, register1, "idNames"
+     7185  GetMember
+     7186  Push register2, 8
+     7196  Add2
+     7197  GetMember
+     7198  Push register1, "stateNames"
+     7205  GetMember
+     7206  Push register2
+     7211  GetMember
+     7212  Push "Icon"
+     7217  Add2
+     7218  SetMember
+     7219  Push register2
+     7224  Increment
+     7225  StoreRegister 2
+     7229  Pop
+     7230  Jump loc7086
+     7235  Push register1, "__emphasized"
+     7242  GetMember
+     7243  Push 1, register1, "showEmphasized"
+     7255  CallMethod
+     7256  Pop
+     7257  Push register1, "__state"
+     7264  GetMember
+     7265  Push 1, register1, "setStateVar"
+     7277  CallMethod
+     7278  Pop
+     7279  Push 0, register1, "invalidateStyle"
+     7295  CallMethod
+     7296  Pop
+     7297  Push 0, register1, "__get__emphasized"
+     7313  CallMethod
+     7314  Return
+     7315  Pop
+        }
+  7316  SetMember
+  7317  Push register2, "keyDown"
+  7324  DefineFunction2 "" (r2:e) regs=3 flags=0x29 {
+     7338  Push register2, "code"
+     7345  GetMember
+     7346  Push 32
+     7354  Equals2
+     7355  Not
+     7356  If loc7379
+     7361  Push 0, register1, "onPress"
+     7377  CallMethod
+     7378  Pop
+        }
+  7379  SetMember
+  7380  Push register2, "keyUp"
+  7387  DefineFunction2 "" (r2:e) regs=3 flags=0x29 {
+     7401  Push register2, "code"
+     7408  GetMember
+     7409  Push 32
+     7417  Equals2
+     7418  Not
+     7419  If loc7442
+     7424  Push 0, register1, "onRelease"
+     7440  CallMethod
+     7441  Pop
+        }
+  7442  SetMember
+  7443  Push register2, "onKillFocus"
+  7450  DefineFunction2 "" (newFocus) regs=3 flags=0x19 {
+     7471  Push 0, register2, "onKillFocus"
+     7487  CallMethod
+     7488  Pop
+     7489  Push register1, "phase"
+     7496  GetMember
+     7497  Push "up"
+     7502  Equals2
+     7503  Not
+     7504  Not
+     7505  If loc7538
+     7510  Push register1, "phase", "up"
+     7519  SetMember
+     7520  Push 0, register1, "refresh"
+     7536  CallMethod
+     7537  Pop
+        }
+  7538  SetMember
+  7539  Push register1, "symbolName", "SimpleButton"
+  7548  SetMember
+  7549  Push register1, "symbolOwner", "mx"
+  7558  GetVariable
+  7559  Push "controls"
+  7564  GetMember
+  7565  Push "SimpleButton"
+  7570  GetMember
+  7571  SetMember
+  7572  Push register1, "version", "2.0.2.127"
+  7581  SetMember
+  7582  Push register2, "className", "SimpleButton"
+  7591  SetMember
+  7592  Push register2, "style3dInset", 4
+  7604  SetMember
+  7605  Push register2, "btnOffset", 1
+  7617  SetMember
+  7618  Push register2, "__toggle", false
+  7627  SetMember
+  7628  Push register2, "__state", false
+  7637  SetMember
+  7638  Push register2, "__emphasized", false
+  7647  SetMember
+  7648  Push register2, "__emphatic", false
+  7657  SetMember
+  7658  Push register1, "falseUp", 0
+  7674  SetMember
+  7675  Push register1, "falseDown", 1
+  7687  SetMember
+  7688  Push register1, "falseOver", 2
+  7700  SetMember
+  7701  Push register1, "falseDisabled", 3
+  7713  SetMember
+  7714  Push register1, "trueUp", 4
+  7726  SetMember
+  7727  Push register1, "trueDown", 5
+  7739  SetMember
+  7740  Push register1, "trueOver", 6
+  7752  SetMember
+  7753  Push register1, "trueDisabled", 7
+  7765  SetMember
+  7766  Push register2, "falseUpSkin", "SimpleButtonUp"
+  7775  SetMember
+  7776  Push register2, "falseDownSkin", "SimpleButtonIn"
+  7785  SetMember
+  7786  Push register2, "falseOverSkin", ""
+  7795  SetMember
+  7796  Push register2, "falseDisabledSkin", "SimpleButtonUp"
+  7805  SetMember
+  7806  Push register2, "trueUpSkin", "SimpleButtonIn"
+  7815  SetMember
+  7816  Push register2, "trueDownSkin", ""
+  7825  SetMember
+  7826  Push register2, "trueOverSkin", ""
+  7835  SetMember
+  7836  Push register2, "trueDisabledSkin", "SimpleButtonIn"
+  7845  SetMember
+  7846  Push register2, "falseUpIcon", ""
+  7855  SetMember
+  7856  Push register2, "falseDownIcon", ""
+  7865  SetMember
+  7866  Push register2, "falseOverIcon", ""
+  7875  SetMember
+  7876  Push register2, "falseDisabledIcon", ""
+  7885  SetMember
+  7886  Push register2, "trueUpIcon", ""
+  7895  SetMember
+  7896  Push register2, "trueDownIcon", ""
+  7905  SetMember
+  7906  Push register2, "trueOverIcon", ""
+  7915  SetMember
+  7916  Push register2, "trueDisabledIcon", ""
+  7925  SetMember
+  7926  Push register2, "phase", "up"
+  7935  SetMember
+  7936  Push register2, "fui", "falseUpIcon"
+  7945  SetMember
+  7946  Push register2, "fus", "falseUpSkin"
+  7955  SetMember
+  7956  Push register2, "fdi", "falseDownIcon"
+  7965  SetMember
+  7966  Push register2, "fds", "falseDownSkin"
+  7975  SetMember
+  7976  Push register2, "frs", "falseOverSkin"
+  7985  SetMember
+  7986  Push register2, "fri", "falseOverIcon"
+  7995  SetMember
+  7996  Push register2, "dfi", "falseDisabledIcon"
+  8005  SetMember
+  8006  Push register2, "dfs", "falseDisabledSkin"
+  8015  SetMember
+  8016  Push register2, "tui", "trueUpIcon"
+  8025  SetMember
+  8026  Push register2, "tus", "trueUpSkin"
+  8035  SetMember
+  8036  Push register2, "tdi", "trueDownIcon"
+  8045  SetMember
+  8046  Push register2, "tds", "trueDownSkin"
+  8055  SetMember
+  8056  Push register2, "trs", "trueOverSkin"
+  8065  SetMember
+  8066  Push register2, "tri", "trueOverIcon"
+  8075  SetMember
+  8076  Push register2, "dts", "trueDisabledSkin"
+  8085  SetMember
+  8086  Push register2, "dti", "trueDisabledIcon"
+  8095  SetMember
+  8096  Push register2, "rolloverSkin", "mx"
+  8105  GetVariable
+  8106  Push "controls"
+  8111  GetMember
+  8112  Push "SimpleButton"
+  8117  GetMember
+  8118  Push "prototype"
+  8123  GetMember
+  8124  Push "frs"
+  8129  GetMember
+  8130  SetMember
+  8131  Push register2, "rolloverIcon", "mx"
+  8140  GetVariable
+  8141  Push "controls"
+  8146  GetMember
+  8147  Push "SimpleButton"
+  8152  GetMember
+  8153  Push "prototype"
+  8158  GetMember
+  8159  Push "fri"
+  8164  GetMember
+  8165  SetMember
+  8166  Push register2, "upSkin", "mx"
+  8175  GetVariable
+  8176  Push "controls"
+  8181  GetMember
+  8182  Push "SimpleButton"
+  8187  GetMember
+  8188  Push "prototype"
+  8193  GetMember
+  8194  Push "fus"
+  8199  GetMember
+  8200  SetMember
+  8201  Push register2, "downSkin", "mx"
+  8210  GetVariable
+  8211  Push "controls"
+  8216  GetMember
+  8217  Push "SimpleButton"
+  8222  GetMember
+  8223  Push "prototype"
+  8228  GetMember
+  8229  Push "fds"
+  8234  GetMember
+  8235  SetMember
+  8236  Push register2, "disabledSkin", "mx"
+  8245  GetVariable
+  8246  Push "controls"
+  8251  GetMember
+  8252  Push "SimpleButton"
+  8257  GetMember
+  8258  Push "prototype"
+  8263  GetMember
+  8264  Push "dfs"
+  8269  GetMember
+  8270  SetMember
+  8271  Push register2, "upIcon", "mx"
+  8280  GetVariable
+  8281  Push "controls"
+  8286  GetMember
+  8287  Push "SimpleButton"
+  8292  GetMember
+  8293  Push "prototype"
+  8298  GetMember
+  8299  Push "fui"
+  8304  GetMember
+  8305  SetMember
+  8306  Push register2, "downIcon", "mx"
+  8315  GetVariable
+  8316  Push "controls"
+  8321  GetMember
+  8322  Push "SimpleButton"
+  8327  GetMember
+  8328  Push "prototype"
+  8333  GetMember
+  8334  Push "fdi"
+  8339  GetMember
+  8340  SetMember
+  8341  Push register2, "disabledIcon", "mx"
+  8350  GetVariable
+  8351  Push "controls"
+  8356  GetMember
+  8357  Push "SimpleButton"
+  8362  GetMember
+  8363  Push "prototype"
+  8368  GetMember
+  8369  Push "dfi"
+  8374  GetMember
+  8375  SetMember
+  8376  Push register2, "initializing", true
+  8385  SetMember
+  8386  Push register2, "idNames", "dti", "tri", "tdi", "tui", "dfi", "fri", "fdi", "fui", "dts", "trs", "tds", "tus", "dfs", "frs", "fds", "fus", 16
+  8430  InitArray
+  8431  SetMember
+  8432  Push register2, "stateNames", "trueDisabled", "trueOver", "trueDown", "trueUp", "falseDisabled", "falseOver", "falseDown", "falseUp", 8
+  8460  InitArray
+  8461  SetMember
+  8462  Push register2, "refNames", "disabledSkin", "rolloverSkin", "downSkin", "upSkin", 4
+  8482  InitArray
+  8483  SetMember
+  8484  Push register2, "tagMap", "falseUpSkin", 0, "falseDownSkin", 1, "falseOverSkin", 2, "falseDisabledSkin", 3, "trueUpSkin", 4, "trueDownSkin", 5, "trueOverSkin", 6, "trueDisabledSkin", 7, "falseUpIcon", 0, "falseDownIcon", 1, "falseOverIcon", 2, "falseDisabledIcon", 3, "trueUpIcon", 4, "trueDownIcon", 5, "trueOverIcon", 6, "trueDisabledIcon", 7, 16
+  8616  InitObject
+  8617  SetMember
+  8618  Push register2, "__set__emphasized"
+  8625  GetMember
+  8626  Push register2, "__get__emphasized"
+  8633  GetMember
+  8634  Push "emphasized", 3, register2, "addProperty"
+  8648  CallMethod
+  8649  Push register2, "__set__selected"
+  8656  GetMember
+  8657  Push register2, "__get__selected"
+  8664  GetMember
+  8665  Push "selected", 3, register2, "addProperty"
+  8679  CallMethod
+  8680  Push register2, "__set__toggle"
+  8687  GetMember
+  8688  Push register2, "__get__toggle"
+  8695  GetMember
+  8696  Push "toggle", 3, register2, "addProperty"
+  8710  CallMethod
+  8711  Push register2, "__set__value"
+  8718  GetMember
+  8719  Push register2, "__get__value"
+  8726  GetMember
+  8727  Push "value", 3, register2, "addProperty"
+  8741  CallMethod
+  8742  Push 1, null, "mx"
+  8753  GetVariable
+  8754  Push "controls"
+  8759  GetMember
+  8760  Push "SimpleButton"
+  8765  GetMember
+  8766  Push "prototype"
+  8771  GetMember
+  8772  Push 3, "ASSetPropFlags"
+  8782  CallFunction
+  8783  Pop
+  8784  End

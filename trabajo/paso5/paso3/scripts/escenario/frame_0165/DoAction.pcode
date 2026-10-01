@@ -1,0 +1,46 @@
+// DoAction
+// origen: escenario fotograma 165, DoAction (06433_DoAction.bin)
+
+     0  ConstantPool (10)
+   117  Push "Krin"
+   122  GetVariable
+   123  Push "ClassStats"
+   128  GetMember
+   129  Push 0, "Krin"
+   143  GetVariable
+   144  Push "Class"
+   149  GetMember
+   150  Push 1
+   158  Add2
+   159  SetMember
+   160  Push "Krin"
+   165  GetVariable
+   166  Push "BattlePick", 2
+   176  SetMember
+   177  Push "Krin"
+   182  GetVariable
+   183  Push "progressFight", false
+   190  SetMember
+   191  Push "soundPlayCounter", 1
+   201  SetVariable
+   202  Push "bangStart", true
+   209  SetVariable
+   210  Push "Krin"
+   215  GetVariable
+   216  Push "moveMatrix"
+   221  GetMember
+   222  Push 0, 21
+   239  SetMember
+   240  Push "Krin"
+   245  GetVariable
+   246  Push "moveMatrix"
+   251  GetMember
+   252  Push 1, 22
+   265  SetMember
+   266  Push "Krin"
+   271  GetVariable
+   272  Push "cutsceneSequence", "CS_INTRO2"
+   279  SetMember
+   280  GoToLabel 'LOADBATTLESCENE'
+   299  Play
+   300  End

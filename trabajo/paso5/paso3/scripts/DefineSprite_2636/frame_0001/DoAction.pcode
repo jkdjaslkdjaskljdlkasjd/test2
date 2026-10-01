@@ -1,0 +1,6 @@
+// DoAction
+// origen: DefineSprite_2636 fotograma 1, DoAction (05920_DefineSprite_2636.bin, byte 22)
+
+    22  GotoFrame 1
+    27  Play
+    28  End

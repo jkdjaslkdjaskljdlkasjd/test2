@@ -1,0 +1,214 @@
+// DefineSprite_4108___Packages.mx.styles.CSSStyleDeclaration
+// origen: DoInitAction del sprite 4108 (03723_DoInitAction.bin)
+
+     2  ConstantPool (18)
+   237  Push "_global"
+   242  GetVariable
+   243  Push "mx"
+   248  GetMember
+   249  Not
+   250  Not
+   251  If loc280
+   256  Push "_global"
+   261  GetVariable
+   262  Push "mx", 0, "Object"
+   278  NewObject
+   279  SetMember
+   280  Pop
+   281  Push "_global"
+   286  GetVariable
+   287  Push "mx"
+   292  GetMember
+   293  Push "styles"
+   298  GetMember
+   299  Not
+   300  Not
+   301  If loc336
+   306  Push "_global"
+   311  GetVariable
+   312  Push "mx"
+   317  GetMember
+   318  Push "styles", 0, "Object"
+   334  NewObject
+   335  SetMember
+   336  Pop
+   337  Push "_global"
+   342  GetVariable
+   343  Push "mx"
+   348  GetMember
+   349  Push "styles"
+   354  GetMember
+   355  Push "CSSStyleDeclaration"
+   360  GetMember
+   361  Not
+   362  Not
+   363  If loc966
+   368  Push "mx"
+   373  GetVariable
+   374  Push "styles"
+   379  GetMember
+   380  Push "CSSStyleDeclaration"
+   385  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   393  StoreRegister 1
+   397  SetMember
+   398  Push register1, "prototype"
+   405  GetMember
+   406  StoreRegister 2
+   410  Pop
+   411  Push register2, "__getTextFormat"
+   418  DefineFunction2 "" (r4:tf, r6:bAll) regs=7 flags=0x29 {
+      439  Push false
+      444  StoreRegister 5
+      448  Pop
+      449  Push register1, "_tf"
+      456  GetMember
+      457  Push undef
+      461  Equals2
+      462  Not
+      463  Not
+      464  If loc662
+      469  Push undef
+      473  StoreRegister 2
+      477  Pop
+      478  Push "mx"
+      483  GetVariable
+      484  Push "styles"
+      489  GetMember
+      490  Push "StyleManager"
+      495  GetMember
+      496  Push "TextFormatStyleProps"
+      501  GetMember
+      502  Enumerate2
+      503  StoreRegister 0
+      507  Push null
+      511  Equals2
+      512  If loc657
+      517  Push register0
+      522  StoreRegister 2
+      526  Pop
+      527  Push register6
+      532  PushDuplicate
+      533  If loc569
+      538  Pop
+      539  Push "mx"
+      544  GetVariable
+      545  Push "styles"
+      550  GetMember
+      551  Push "StyleManager"
+      556  GetMember
+      557  Push "TextFormatStyleProps"
+      562  GetMember
+      563  Push register2
+      568  GetMember
+      569  Not
+      570  If loc652
+      575  Push register4, register2
+      582  GetMember
+      583  Push undef
+      587  Equals2
+      588  Not
+      589  If loc652
+      594  Push register1, "_tf"
+      601  GetMember
+      602  Push register2
+      607  GetMember
+      608  StoreRegister 3
+      612  Pop
+      613  Push register3, undef
+      619  Equals2
+      620  Not
+      621  Not
+      622  If loc642
+      627  Push register4, register2, register3
+      636  SetMember
+      637  Jump loc652
+      642  Push true
+      647  StoreRegister 5
+      651  Pop
+      652  Jump loc503
+      657  Jump loc672
+      662  Push true
+      667  StoreRegister 5
+      671  Pop
+      672  Push register5
+      677  Return
+        }
+   678  SetMember
+   679  Push register2, "getStyle"
+   686  DefineFunction2 "" (r4:styleProp) regs=5 flags=0x29 {
+      708  Push register1, register4
+      715  GetMember
+      716  StoreRegister 2
+      720  Pop
+      721  Push register2, 1, "mx"
+      733  GetVariable
+      734  Push "styles"
+      739  GetMember
+      740  Push "StyleManager"
+      745  GetMember
+      746  Push "getColorName"
+      751  CallMethod
+      752  StoreRegister 3
+      756  Pop
+      757  Push register3, undef
+      763  Equals2
+      764  If loc779
+      769  Push register3
+      774  Jump loc784
+      779  Push register2
+      784  Return
+        }
+   785  SetMember
+   786  Push register1, "classConstruct"
+   793  DefineFunction "" () regs=4 flags=0x0 {
+      801  Push true, "mx"
+      808  GetVariable
+      809  Push "styles"
+      814  GetMember
+      815  Push "CSSStyleDeclaration"
+      820  GetMember
+      821  Push "prototype"
+      826  GetMember
+      827  Push 2, "mx"
+      837  GetVariable
+      838  Push "styles"
+      843  GetMember
+      844  Push "CSSTextStyles"
+      849  GetMember
+      850  Push "addTextStyles"
+      855  CallMethod
+      856  Pop
+      857  Push true
+      862  Return
+        }
+   863  SetMember
+   864  Push register1, "classConstructed", 0, "mx"
+   882  GetVariable
+   883  Push "styles"
+   888  GetMember
+   889  Push "CSSStyleDeclaration"
+   894  GetMember
+   895  Push "classConstruct"
+   900  CallMethod
+   901  SetMember
+   902  Push register1, "CSSTextStylesDependency", "mx"
+   911  GetVariable
+   912  Push "styles"
+   917  GetMember
+   918  Push "CSSTextStyles"
+   923  GetMember
+   924  SetMember
+   925  Push 1, null, "mx"
+   936  GetVariable
+   937  Push "styles"
+   942  GetMember
+   943  Push "CSSStyleDeclaration"
+   948  GetMember
+   949  Push "prototype"
+   954  GetMember
+   955  Push 3, "ASSetPropFlags"
+   965  CallFunction
+   966  Pop
+   967  End

@@ -1,0 +1,143 @@
+// on(press)
+// origen: boton 2875 (06564_DefineButton2_2875.bin)
+
+    17  ConstantPool (22)
+   234  Push "_root"
+   239  GetVariable
+   240  Push "Krin"
+   245  GetMember
+   246  Push "PauseForScreen"
+   251  GetMember
+   252  Push true
+   257  Equals2
+   258  Not
+   259  Not
+   260  If loc675
+   265  Push "trainFight2", 0, "Array"
+   281  NewObject
+   282  SetVariable
+   283  Push "_root"
+   288  GetVariable
+   289  Push "trainFight"
+   294  GetMember
+   295  Push "_root"
+   300  GetVariable
+   301  Push "Krin"
+   306  GetMember
+   307  Push "sectionIn"
+   312  GetMember
+   313  GetMember
+   314  Enumerate2
+   315  StoreRegister 0
+   319  Push null
+   323  Equals2
+   324  If loc502
+   329  Push "i", register0
+   336  SetVariable
+   337  Push "_root"
+   342  GetVariable
+   343  Push "Krin"
+   348  GetMember
+   349  Push "questProgress"
+   354  GetMember
+   355  Push "_root"
+   360  GetVariable
+   361  Push "Krin"
+   366  GetMember
+   367  Push "sectionIn"
+   372  GetMember
+   373  GetMember
+   374  Push "_root"
+   379  GetVariable
+   380  Push "trainFight"
+   385  GetMember
+   386  Push "_root"
+   391  GetVariable
+   392  Push "Krin"
+   397  GetMember
+   398  Push "sectionIn"
+   403  GetMember
+   404  GetMember
+   405  Push "i"
+   410  GetVariable
+   411  GetMember
+   412  Push 1
+   420  GetMember
+   421  Greater
+   422  Not
+   423  If loc497
+   428  Push "_root"
+   433  GetVariable
+   434  Push "trainFight"
+   439  GetMember
+   440  Push "_root"
+   445  GetVariable
+   446  Push "Krin"
+   451  GetMember
+   452  Push "sectionIn"
+   457  GetMember
+   458  GetMember
+   459  Push "i"
+   464  GetVariable
+   465  GetMember
+   466  Push 0
+   478  GetMember
+   479  Push 1, "trainFight2"
+   489  GetVariable
+   490  Push "push"
+   495  CallMethod
+   496  Pop
+   497  Jump loc315
+   502  Push "_root"
+   507  GetVariable
+   508  Push "Krin"
+   513  GetMember
+   514  Push "BattlePick", "trainFight2"
+   521  GetVariable
+   522  Push 0, "Math"
+   536  GetVariable
+   537  Push "random"
+   542  CallMethod
+   543  Push "trainFight2"
+   548  GetVariable
+   549  Push "length"
+   554  GetMember
+   555  Multiply
+   556  Push 1, "Math"
+   566  GetVariable
+   567  Push "floor"
+   572  CallMethod
+   573  GetMember
+   574  SetMember
+   575  Push "_root"
+   580  GetVariable
+   581  Push "Krin"
+   586  GetMember
+   587  Push "progressFight", false
+   594  SetMember
+   595  Push "_root"
+   600  GetVariable
+   601  Push "finalTrainCap", "_root"
+   608  GetVariable
+   609  Push "trainFightCap"
+   614  GetMember
+   615  Push "_root"
+   620  GetVariable
+   621  Push "Krin"
+   626  GetMember
+   627  Push "sectionIn"
+   632  GetMember
+   633  GetMember
+   634  SetMember
+   635  Push "LOADBATTLESCENE", 1, "_root"
+   647  GetVariable
+   648  Push "gotoAndPlay"
+   653  CallMethod
+   654  Pop
+   655  Push "_root"
+   660  GetVariable
+   661  Push "KrinScreen"
+   666  GetMember
+   667  Push "_visible", false
+   674  SetMember
+   675  End

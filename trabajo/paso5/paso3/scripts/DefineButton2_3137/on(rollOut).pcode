@@ -1,0 +1,8 @@
+// on(rollOut)
+// origen: boton 3137 (06853_DefineButton2_3137.bin)
+
+   137  Push "_root"
+   147  GetVariable
+   148  Push "UITdrop", false
+   162  SetMember
+   163  End

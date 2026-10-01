@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_734_ex_SPRYELLOW fotograma 15, DoAction (01122_DefineSprite_734.bin, byte 158)
+
+   158  Push "", "this"
+   169  GetVariable
+   170  GetURL2 64
+   174  End

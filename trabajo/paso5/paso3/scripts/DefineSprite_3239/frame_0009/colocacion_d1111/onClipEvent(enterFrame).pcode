@@ -1,0 +1,144 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3239 fotograma 9, clip en profundidad 1111 (06960_DefineSprite_3239.bin, byte 17982)
+
+ 18547  ConstantPool (22)
+ 18701  Push "prx"
+ 18706  GetVariable
+ 18707  Push undef
+ 18711  Equals2
+ 18712  Not
+ 18713  Not
+ 18714  If loc19152
+ 18719  Push "prx"
+ 18724  GetVariable
+ 18725  Push 1, "avIn"
+ 18735  GetVariable
+ 18736  Push "gotoAndStop"
+ 18741  CallMethod
+ 18742  Pop
+ 18743  Push "setLimiter"
+ 18748  GetVariable
+ 18749  Push 0
+ 18761  Greater
+ 18762  Not
+ 18763  If loc19121
+ 18768  Push "_root"
+ 18773  GetVariable
+ 18774  Push "Krin"
+ 18779  GetMember
+ 18780  Push "LevelStats"
+ 18785  GetMember
+ 18786  Push "prx"
+ 18791  GetVariable
+ 18792  GetMember
+ 18793  Push 30
+ 18801  Less2
+ 18802  Not
+ 18803  If loc19116
+ 18808  Push "setLimiter", "setLimiter"
+ 18815  GetVariable
+ 18816  Decrement
+ 18817  SetVariable
+ 18818  Push "exp", "exp"
+ 18825  GetVariable
+ 18826  Push "adderPer"
+ 18831  GetVariable
+ 18832  Add2
+ 18833  SetVariable
+ 18834  Push "exp2", "exp"
+ 18841  GetVariable
+ 18842  Push 1, "Math"
+ 18852  GetVariable
+ 18853  Push "round"
+ 18858  CallMethod
+ 18859  Push "%"
+ 18864  Add2
+ 18865  SetVariable
+ 18866  Push "bar"
+ 18871  GetVariable
+ 18872  Push "_width", "exp"
+ 18879  GetVariable
+ 18880  Push 100
+ 18888  Divide
+ 18889  Push 95.10000000000001
+ 18901  Multiply
+ 18902  SetMember
+ 18903  Push "exp"
+ 18908  GetVariable
+ 18909  Push 100
+ 18917  Less2
+ 18918  Not
+ 18919  Not
+ 18920  If loc19116
+ 18925  Push "exp", "exp"
+ 18932  GetVariable
+ 18933  Push 100
+ 18941  Subtract
+ 18942  SetVariable
+ 18943  Push "exp2", "100%"
+ 18950  SetVariable
+ 18951  Push "_root"
+ 18956  GetVariable
+ 18957  Push "Krin"
+ 18962  GetMember
+ 18963  Push "LevelStats"
+ 18968  GetMember
+ 18969  Push "prx"
+ 18974  GetVariable
+ 18975  Push "_root"
+ 18980  GetVariable
+ 18981  Push "Krin"
+ 18986  GetMember
+ 18987  Push "LevelStats"
+ 18992  GetMember
+ 18993  Push "prx"
+ 18998  GetVariable
+ 18999  GetMember
+ 19000  Increment
+ 19001  SetMember
+ 19002  Push "level", 1, "bar"
+ 19014  GetVariable
+ 19015  Push "gotoAndStop"
+ 19020  CallMethod
+ 19021  Pop
+ 19022  Push "bar"
+ 19027  GetVariable
+ 19028  Push "_width", 95.10000000000001
+ 19042  SetMember
+ 19043  Push "levelI", "_root"
+ 19050  GetVariable
+ 19051  Push "KrinLang"
+ 19056  GetMember
+ 19057  Push "_root"
+ 19062  GetVariable
+ 19063  Push "KLangChoosen"
+ 19068  GetMember
+ 19069  GetMember
+ 19070  Push "MENU"
+ 19075  GetMember
+ 19076  Push 0
+ 19088  GetMember
+ 19089  Push "_root"
+ 19094  GetVariable
+ 19095  Push "Krin"
+ 19100  GetMember
+ 19101  Push "LevelStats"
+ 19106  GetMember
+ 19107  Push "prx"
+ 19112  GetVariable
+ 19113  GetMember
+ 19114  Add2
+ 19115  SetVariable
+ 19116  Jump loc19152
+ 19121  Push "_root"
+ 19126  GetVariable
+ 19127  Push "Krin"
+ 19132  GetMember
+ 19133  Push "ExpSets"
+ 19138  GetMember
+ 19139  Push "prx"
+ 19144  GetVariable
+ 19145  Push "exp"
+ 19150  GetVariable
+ 19151  SetMember
+ 19152  End

@@ -1,0 +1,11 @@
+// DefineSprite_226_FocusRect
+// origen: DoInitAction del sprite 226 (03805_DoInitAction.bin)
+
+     2  Push "mx.skins.halo.FocusRect"
+    30  GetVariable
+    31  Push "FocusRect", 2, "Object"
+    58  GetVariable
+    59  Push "registerClass"
+    77  CallMethod
+    78  Pop
+    79  End

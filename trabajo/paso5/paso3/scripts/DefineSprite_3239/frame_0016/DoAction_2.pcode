@@ -1,0 +1,706 @@
+// DoAction_2
+// origen: DefineSprite_3239 fotograma 16, DoAction (06960_DefineSprite_3239.bin, byte 22412)
+
+ 22412  ConstantPool (58)
+ 22900  Stop
+ 22901  Push "i", 0
+ 22915  SetVariable
+ 22916  Push "i"
+ 22921  GetVariable
+ 22922  Push 6
+ 22930  Less2
+ 22931  Not
+ 22932  If loc23186
+ 22937  Push "this"
+ 22942  GetVariable
+ 22943  Push "fa", "i"
+ 22950  GetVariable
+ 22951  Add2
+ 22952  GetMember
+ 22953  Push "id", "_root"
+ 22960  GetVariable
+ 22961  Push "Krin"
+ 22966  GetMember
+ 22967  Push "friendArray"
+ 22972  GetMember
+ 22973  Push "i"
+ 22978  GetVariable
+ 22979  GetMember
+ 22980  SetMember
+ 22981  Push "this"
+ 22986  GetVariable
+ 22987  Push "fa", "i"
+ 22994  GetVariable
+ 22995  Add2
+ 22996  GetMember
+ 22997  Push "id"
+ 23002  GetMember
+ 23003  Push 0
+ 23015  Less2
+ 23016  Not
+ 23017  If loc23051
+ 23022  Push "this"
+ 23027  GetVariable
+ 23028  Push "fa", "i"
+ 23035  GetVariable
+ 23036  Add2
+ 23037  GetMember
+ 23038  Push "_visible", false
+ 23045  SetMember
+ 23046  Jump loc23171
+ 23051  Push "i"
+ 23056  GetVariable
+ 23057  Push 0
+ 23069  Equals2
+ 23070  Not
+ 23071  If loc23112
+ 23076  Push "mainPlayer", 1, "this"
+ 23088  GetVariable
+ 23089  Push "fa", "i"
+ 23096  GetVariable
+ 23097  Add2
+ 23098  GetMember
+ 23099  Push "avIn"
+ 23104  GetMember
+ 23105  Push "gotoAndStop"
+ 23110  CallMethod
+ 23111  Pop
+ 23112  Push "_root"
+ 23117  GetVariable
+ 23118  Push "Krin"
+ 23123  GetMember
+ 23124  Push "friendArray"
+ 23129  GetMember
+ 23130  Push "i"
+ 23135  GetVariable
+ 23136  GetMember
+ 23137  Push 1, "this"
+ 23147  GetVariable
+ 23148  Push "fa", "i"
+ 23155  GetVariable
+ 23156  Add2
+ 23157  GetMember
+ 23158  Push "avIn"
+ 23163  GetMember
+ 23164  Push "gotoAndStop"
+ 23169  CallMethod
+ 23170  Pop
+ 23171  Push "i", "i"
+ 23178  GetVariable
+ 23179  Increment
+ 23180  SetVariable
+ 23181  Jump loc22916
+ 23186  Push "teamChangeCD", true
+ 23193  SetVariable
+ 23194  Push "bickerPicker", 0
+ 23208  SetVariable
+ 23209  Push "_root"
+ 23214  GetVariable
+ 23215  Push "Krin"
+ 23220  GetMember
+ 23221  Push "friendArrayX"
+ 23226  GetMember
+ 23227  Push 0
+ 23239  GetMember
+ 23240  Push 0
+ 23252  Equals2
+ 23253  Not
+ 23254  If loc23274
+ 23259  Push "bickerPicker", 0
+ 23273  SetVariable
+ 23274  Push "_root"
+ 23279  GetVariable
+ 23280  Push "Krin"
+ 23285  GetMember
+ 23286  Push "friendArrayX"
+ 23291  GetMember
+ 23292  Push 1
+ 23300  GetMember
+ 23301  Push 0
+ 23313  Equals2
+ 23314  Not
+ 23315  If loc23331
+ 23320  Push "bickerPicker", 1
+ 23330  SetVariable
+ 23331  Push 0, "updateFriends"
+ 23345  CallFunction
+ 23346  Pop
+ 23347  Push "wefjnew", 0
+ 23361  SetVariable
+ 23362  Push "wefjnew"
+ 23367  GetVariable
+ 23368  Push 8
+ 23376  Less2
+ 23377  Not
+ 23378  If loc23702
+ 23383  Push "perBarShow"
+ 23388  GetVariable
+ 23389  Push "bar", "wefjnew"
+ 23396  GetVariable
+ 23397  Add2
+ 23398  GetMember
+ 23399  Push "saveH", "perBarShow"
+ 23406  GetVariable
+ 23407  Push "bar", "wefjnew"
+ 23414  GetVariable
+ 23415  Add2
+ 23416  GetMember
+ 23417  Push "_height"
+ 23422  GetMember
+ 23423  SetMember
+ 23424  Push "my_colorKKCCXX", "perBarShow"
+ 23431  GetVariable
+ 23432  Push "bar", "wefjnew"
+ 23439  GetVariable
+ 23440  Add2
+ 23441  GetMember
+ 23442  Push "inner"
+ 23447  GetMember
+ 23448  Push 1, "Color"
+ 23458  NewObject
+ 23459  DefineLocal
+ 23460  Push "_root"
+ 23465  GetVariable
+ 23466  Push "elementColorArray"
+ 23471  GetMember
+ 23472  Push "wefjnew"
+ 23477  GetVariable
+ 23478  GetMember
+ 23479  Push 1, "my_colorKKCCXX"
+ 23489  GetVariable
+ 23490  Push "setRGB"
+ 23495  CallMethod
+ 23496  Pop
+ 23497  Push "my_colorKKCCXX", "perBarShow"
+ 23504  GetVariable
+ 23505  Push "gbar", "wefjnew"
+ 23512  GetVariable
+ 23513  Add2
+ 23514  GetMember
+ 23515  Push 1, "Color"
+ 23525  NewObject
+ 23526  DefineLocal
+ 23527  Push "_root"
+ 23532  GetVariable
+ 23533  Push "elementColorArray"
+ 23538  GetMember
+ 23539  Push "wefjnew"
+ 23544  GetVariable
+ 23545  GetMember
+ 23546  Push 1, "my_colorKKCCXX"
+ 23556  GetVariable
+ 23557  Push "setRGB"
+ 23562  CallMethod
+ 23563  Pop
+ 23564  Push "my_colorKKCCXX", "perBarShow"
+ 23571  GetVariable
+ 23572  Push "ybar", "wefjnew"
+ 23579  GetVariable
+ 23580  Add2
+ 23581  GetMember
+ 23582  Push "inner"
+ 23587  GetMember
+ 23588  Push 1, "Color"
+ 23598  NewObject
+ 23599  DefineLocal
+ 23600  Push "_root"
+ 23605  GetVariable
+ 23606  Push "elementColorArray"
+ 23611  GetMember
+ 23612  Push "wefjnew"
+ 23617  GetVariable
+ 23618  GetMember
+ 23619  Push 1, "my_colorKKCCXX"
+ 23629  GetVariable
+ 23630  Push "setRGB"
+ 23635  CallMethod
+ 23636  Pop
+ 23637  Push "perBarShow"
+ 23642  GetVariable
+ 23643  Push "gbar", "wefjnew"
+ 23650  GetVariable
+ 23651  Add2
+ 23652  GetMember
+ 23653  Push "saveH", "perBarShow"
+ 23660  GetVariable
+ 23661  Push "bar", "wefjnew"
+ 23668  GetVariable
+ 23669  Add2
+ 23670  GetMember
+ 23671  Push "_height"
+ 23676  GetMember
+ 23677  Push 100
+ 23685  Divide
+ 23686  SetMember
+ 23687  Push "wefjnew", "wefjnew"
+ 23694  GetVariable
+ 23695  Increment
+ 23696  SetVariable
+ 23697  Jump loc23362
+ 23702  Push "wefjnew", 0
+ 23716  SetVariable
+ 23717  Push "wefjnew"
+ 23722  GetVariable
+ 23723  Push 8
+ 23731  Less2
+ 23732  Not
+ 23733  If loc23966
+ 23738  Push "my_colorKKCCXX", "defBarShow"
+ 23745  GetVariable
+ 23746  Push "bar", "wefjnew"
+ 23753  GetVariable
+ 23754  Add2
+ 23755  GetMember
+ 23756  Push "inner"
+ 23761  GetMember
+ 23762  Push 1, "Color"
+ 23772  NewObject
+ 23773  DefineLocal
+ 23774  Push "_root"
+ 23779  GetVariable
+ 23780  Push "elementColorArray"
+ 23785  GetMember
+ 23786  Push "wefjnew"
+ 23791  GetVariable
+ 23792  GetMember
+ 23793  Push 1, "my_colorKKCCXX"
+ 23803  GetVariable
+ 23804  Push "setRGB"
+ 23809  CallMethod
+ 23810  Pop
+ 23811  Push "my_colorKKCCXX", "defBarShow"
+ 23818  GetVariable
+ 23819  Push "gbar", "wefjnew"
+ 23826  GetVariable
+ 23827  Add2
+ 23828  GetMember
+ 23829  Push 1, "Color"
+ 23839  NewObject
+ 23840  DefineLocal
+ 23841  Push "_root"
+ 23846  GetVariable
+ 23847  Push "elementColorArray"
+ 23852  GetMember
+ 23853  Push "wefjnew"
+ 23858  GetVariable
+ 23859  GetMember
+ 23860  Push 1, "my_colorKKCCXX"
+ 23870  GetVariable
+ 23871  Push "setRGB"
+ 23876  CallMethod
+ 23877  Pop
+ 23878  Push "my_colorKKCCXX", "defBarShow"
+ 23885  GetVariable
+ 23886  Push "ybar", "wefjnew"
+ 23893  GetVariable
+ 23894  Add2
+ 23895  GetMember
+ 23896  Push "inner"
+ 23901  GetMember
+ 23902  Push 1, "Color"
+ 23912  NewObject
+ 23913  DefineLocal
+ 23914  Push "_root"
+ 23919  GetVariable
+ 23920  Push "elementColorArray"
+ 23925  GetMember
+ 23926  Push "wefjnew"
+ 23931  GetVariable
+ 23932  GetMember
+ 23933  Push 1, "my_colorKKCCXX"
+ 23943  GetVariable
+ 23944  Push "setRGB"
+ 23949  CallMethod
+ 23950  Pop
+ 23951  Push "wefjnew", "wefjnew"
+ 23958  GetVariable
+ 23959  Increment
+ 23960  SetVariable
+ 23961  Jump loc23717
+ 23966  Push "yut_lif", "_root"
+ 23973  GetVariable
+ 23974  Push "KrinLang"
+ 23979  GetMember
+ 23980  Push "_root"
+ 23985  GetVariable
+ 23986  Push "KLangChoosen"
+ 23991  GetMember
+ 23992  GetMember
+ 23993  Push "SYSTEM"
+ 23998  GetMember
+ 23999  Push 0
+ 24011  GetMember
+ 24012  Push ":"
+ 24017  Add2
+ 24018  SetVariable
+ 24019  Push "yut_str", "_root"
+ 24026  GetVariable
+ 24027  Push "KrinLang"
+ 24032  GetMember
+ 24033  Push "_root"
+ 24038  GetVariable
+ 24039  Push "KLangChoosen"
+ 24044  GetMember
+ 24045  GetMember
+ 24046  Push "SYSTEM"
+ 24051  GetMember
+ 24052  Push 1
+ 24060  GetMember
+ 24061  Push ":"
+ 24066  Add2
+ 24067  SetVariable
+ 24068  Push "yut_mag", "_root"
+ 24075  GetVariable
+ 24076  Push "KrinLang"
+ 24081  GetMember
+ 24082  Push "_root"
+ 24087  GetVariable
+ 24088  Push "KLangChoosen"
+ 24093  GetMember
+ 24094  GetMember
+ 24095  Push "SYSTEM"
+ 24100  GetMember
+ 24101  Push 2
+ 24109  GetMember
+ 24110  Push ":"
+ 24115  Add2
+ 24116  SetVariable
+ 24117  Push "yut_spd", "_root"
+ 24124  GetVariable
+ 24125  Push "KrinLang"
+ 24130  GetMember
+ 24131  Push "_root"
+ 24136  GetVariable
+ 24137  Push "KLangChoosen"
+ 24142  GetMember
+ 24143  GetMember
+ 24144  Push "SYSTEM"
+ 24149  GetMember
+ 24150  Push 3
+ 24158  GetMember
+ 24159  Push ":"
+ 24164  Add2
+ 24165  SetVariable
+ 24166  Push "yut_foc", "_root"
+ 24173  GetVariable
+ 24174  Push "KrinLang"
+ 24179  GetMember
+ 24180  Push "_root"
+ 24185  GetVariable
+ 24186  Push "KLangChoosen"
+ 24191  GetMember
+ 24192  GetMember
+ 24193  Push "SYSTEM"
+ 24198  GetMember
+ 24199  Push 4
+ 24207  GetMember
+ 24208  Push ":"
+ 24213  Add2
+ 24214  SetVariable
+ 24215  Push "_root"
+ 24220  GetVariable
+ 24221  Push "Krin"
+ 24226  GetMember
+ 24227  Push "MenuPlayerSelect", 0
+ 24241  SetMember
+ 24242  Push "_root"
+ 24247  GetVariable
+ 24248  Push "Krin"
+ 24253  GetMember
+ 24254  Push "itemArray"
+ 24259  GetMember
+ 24260  Enumerate2
+ 24261  StoreRegister 0
+ 24265  Push null
+ 24269  Equals2
+ 24270  If loc24428
+ 24275  Push "w", register0
+ 24282  SetVariable
+ 24283  Push "_root"
+ 24288  GetVariable
+ 24289  Push "KrinLang"
+ 24294  GetMember
+ 24295  Push "_root"
+ 24300  GetVariable
+ 24301  Push "KLangChoosen"
+ 24306  GetMember
+ 24307  GetMember
+ 24308  Push "ITEMNAME"
+ 24313  GetMember
+ 24314  Push "_root"
+ 24319  GetVariable
+ 24320  Push "Krin"
+ 24325  GetMember
+ 24326  Push "itemArray"
+ 24331  GetMember
+ 24332  Push "w"
+ 24337  GetVariable
+ 24338  GetMember
+ 24339  GetMember
+ 24340  Push 1, "this"
+ 24350  GetVariable
+ 24351  Push "itemSlot", "w"
+ 24358  GetVariable
+ 24359  Add2
+ 24360  GetMember
+ 24361  Push "inner"
+ 24366  GetMember
+ 24367  Push "gotoAndStop"
+ 24372  CallMethod
+ 24373  Pop
+ 24374  Push "this"
+ 24379  GetVariable
+ 24380  Push "itemSlot", "w"
+ 24387  GetVariable
+ 24388  Add2
+ 24389  GetMember
+ 24390  Push "id", "w"
+ 24397  GetVariable
+ 24398  SetMember
+ 24399  Push "this"
+ 24404  GetVariable
+ 24405  Push "itemSlot", "w"
+ 24412  GetVariable
+ 24413  Add2
+ 24414  GetMember
+ 24415  Push "slotType", "itemSlot"
+ 24422  SetMember
+ 24423  Jump loc24261
+ 24428  Push 0, "updateEquip"
+ 24442  CallFunction
+ 24443  Pop
+ 24444  Push 0, "updateDoll"
+ 24458  CallFunction
+ 24459  Pop
+ 24460  Push 0, "updateAvs"
+ 24474  CallFunction
+ 24475  Pop
+ 24476  Push 0, "updateStatus"
+ 24490  CallFunction
+ 24491  Pop
+ 24492  Push "dumbEuro", "_root"
+ 24499  GetVariable
+ 24500  Push "Krin"
+ 24505  GetMember
+ 24506  Push "Euro"
+ 24511  GetMember
+ 24512  SetVariable
+ 24513  Push "dumbEuro", "_root"
+ 24520  GetVariable
+ 24521  Push "Krin"
+ 24526  GetMember
+ 24527  Push "Euro"
+ 24532  GetMember
+ 24533  SetVariable
+ 24534  Push "_root"
+ 24539  GetVariable
+ 24540  Push "Krin"
+ 24545  GetMember
+ 24546  Push "shopId"
+ 24551  GetMember
+ 24552  Push 1, "_root"
+ 24562  GetVariable
+ 24563  Push "krinSetShop"
+ 24568  CallMethod
+ 24569  Pop
+ 24570  Push "_root"
+ 24575  GetVariable
+ 24576  Push "Krin"
+ 24581  GetMember
+ 24582  Push "itemArray"
+ 24587  GetMember
+ 24588  Enumerate2
+ 24589  StoreRegister 0
+ 24593  Push null
+ 24597  Equals2
+ 24598  If loc24756
+ 24603  Push "w", register0
+ 24610  SetVariable
+ 24611  Push "_root"
+ 24616  GetVariable
+ 24617  Push "KrinLang"
+ 24622  GetMember
+ 24623  Push "_root"
+ 24628  GetVariable
+ 24629  Push "KLangChoosen"
+ 24634  GetMember
+ 24635  GetMember
+ 24636  Push "ITEMNAME"
+ 24641  GetMember
+ 24642  Push "_root"
+ 24647  GetVariable
+ 24648  Push "Krin"
+ 24653  GetMember
+ 24654  Push "itemArray"
+ 24659  GetMember
+ 24660  Push "w"
+ 24665  GetVariable
+ 24666  GetMember
+ 24667  GetMember
+ 24668  Push 1, "this"
+ 24678  GetVariable
+ 24679  Push "itemSlot", "w"
+ 24686  GetVariable
+ 24687  Add2
+ 24688  GetMember
+ 24689  Push "inner"
+ 24694  GetMember
+ 24695  Push "gotoAndStop"
+ 24700  CallMethod
+ 24701  Pop
+ 24702  Push "this"
+ 24707  GetVariable
+ 24708  Push "itemSlot", "w"
+ 24715  GetVariable
+ 24716  Add2
+ 24717  GetMember
+ 24718  Push "id", "w"
+ 24725  GetVariable
+ 24726  SetMember
+ 24727  Push "this"
+ 24732  GetVariable
+ 24733  Push "itemSlot", "w"
+ 24740  GetVariable
+ 24741  Add2
+ 24742  GetMember
+ 24743  Push "slotType", "itemSlot"
+ 24750  SetMember
+ 24751  Jump loc24589
+ 24756  Push "w", 0
+ 24770  SetVariable
+ 24771  Push "w"
+ 24776  GetVariable
+ 24777  Push 15
+ 24785  Less2
+ 24786  Not
+ 24787  If loc25044
+ 24792  Push "_root"
+ 24797  GetVariable
+ 24798  Push "KrinLang"
+ 24803  GetMember
+ 24804  Push "_root"
+ 24809  GetVariable
+ 24810  Push "KLangChoosen"
+ 24815  GetMember
+ 24816  GetMember
+ 24817  Push "ITEMNAME"
+ 24822  GetMember
+ 24823  Push "_root"
+ 24828  GetVariable
+ 24829  Push "Krin"
+ 24834  GetMember
+ 24835  Push "dropArray"
+ 24840  GetMember
+ 24841  Push "w"
+ 24846  GetVariable
+ 24847  GetMember
+ 24848  GetMember
+ 24849  Push 1, "this"
+ 24859  GetVariable
+ 24860  Push "dropSlot", "w"
+ 24867  GetVariable
+ 24868  Add2
+ 24869  GetMember
+ 24870  Push "inner"
+ 24875  GetMember
+ 24876  Push "gotoAndStop"
+ 24881  CallMethod
+ 24882  Pop
+ 24883  Push "this"
+ 24888  GetVariable
+ 24889  Push "dropSlot", "w"
+ 24896  GetVariable
+ 24897  Add2
+ 24898  GetMember
+ 24899  Push "id", "w"
+ 24906  GetVariable
+ 24907  SetMember
+ 24908  Push "this"
+ 24913  GetVariable
+ 24914  Push "dropSlot", "w"
+ 24921  GetVariable
+ 24922  Add2
+ 24923  GetMember
+ 24924  Push "slotType", "buy"
+ 24931  SetMember
+ 24932  Push "_root"
+ 24937  GetVariable
+ 24938  Push "Krin"
+ 24943  GetMember
+ 24944  Push "dropArray"
+ 24949  GetMember
+ 24950  Push "w"
+ 24955  GetVariable
+ 24956  GetMember
+ 24957  Push 0
+ 24969  Equals2
+ 24970  Not
+ 24971  If loc25005
+ 24976  Push "this"
+ 24981  GetVariable
+ 24982  Push "dropSlot", "w"
+ 24989  GetVariable
+ 24990  Add2
+ 24991  GetMember
+ 24992  Push "_visible", false
+ 24999  SetMember
+ 25000  Jump loc25029
+ 25005  Push "this"
+ 25010  GetVariable
+ 25011  Push "dropSlot", "w"
+ 25018  GetVariable
+ 25019  Add2
+ 25020  GetMember
+ 25021  Push "_visible", true
+ 25028  SetMember
+ 25029  Push "w", "w"
+ 25036  GetVariable
+ 25037  Increment
+ 25038  SetVariable
+ 25039  Jump loc24771
+ 25044  Push "vb1", "_root"
+ 25051  GetVariable
+ 25052  Push "KrinLang"
+ 25057  GetMember
+ 25058  Push "_root"
+ 25063  GetVariable
+ 25064  Push "KLangChoosen"
+ 25069  GetMember
+ 25070  GetMember
+ 25071  Push "MENU"
+ 25076  GetMember
+ 25077  Push 6
+ 25085  GetMember
+ 25086  SetVariable
+ 25087  Push "vb2", "_root"
+ 25094  GetVariable
+ 25095  Push "KrinLang"
+ 25100  GetMember
+ 25101  Push "_root"
+ 25106  GetVariable
+ 25107  Push "KLangChoosen"
+ 25112  GetMember
+ 25113  GetMember
+ 25114  Push "SHOP"
+ 25119  GetMember
+ 25120  Push "_root"
+ 25125  GetVariable
+ 25126  Push "Krin"
+ 25131  GetMember
+ 25132  Push "shopId"
+ 25137  GetMember
+ 25138  GetMember
+ 25139  SetVariable
+ 25140  Push "_root"
+ 25150  GetVariable
+ 25151  Push "__nzShopActive"
+ 25170  GetMember
+ 25171  Not
+ 25172  If loc25226
+ 25177  Push "this"
+ 25186  GetVariable
+ 25187  Push "vb2"
+ 25195  Push "NULL ZONE - 1 MONEDA"
+ 25220  SetMember
+ 25221  Jump loc25226
+ 25226  End

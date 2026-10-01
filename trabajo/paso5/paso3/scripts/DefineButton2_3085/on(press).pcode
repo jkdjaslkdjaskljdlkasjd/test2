@@ -1,0 +1,46 @@
+// on(press)
+// origen: boton 3085 (06801_DefineButton2_3085.bin)
+
+    24  ConstantPool (9)
+   109  Push "_root"
+   114  GetVariable
+   115  Push "Krin"
+   120  GetMember
+   121  Push "mouseItem"
+   126  GetMember
+   127  Push 0
+   139  Equals2
+   140  Not
+   141  Not
+   142  If loc247
+   147  Push "_root"
+   152  GetVariable
+   153  Push "Krin"
+   158  GetMember
+   159  Push "mouseItem", 0
+   173  SetMember
+   174  Push "_root"
+   179  GetVariable
+   180  Push "KrinLang"
+   185  GetMember
+   186  Push "ENGLISH"
+   191  GetMember
+   192  Push "ITEMNAME"
+   197  GetMember
+   198  Push "_root"
+   203  GetVariable
+   204  Push "Krin"
+   209  GetMember
+   210  Push "mouseItem"
+   215  GetMember
+   216  GetMember
+   217  Push 1, "_root"
+   227  GetVariable
+   228  Push "KrinToolTipper"
+   233  GetMember
+   234  Push "inner"
+   239  GetMember
+   240  Push "gotoAndStop"
+   245  CallMethod
+   246  Pop
+   247  End

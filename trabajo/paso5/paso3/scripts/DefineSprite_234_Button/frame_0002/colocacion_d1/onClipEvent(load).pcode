@@ -1,0 +1,25 @@
+// onClipEvent(load)
+// origen: DefineSprite_234_Button fotograma 2, clip en profundidad 1 (00408_DefineSprite_234.bin, byte 74)
+
+    98  DefineFunction "__f_initialize" (eventObj) regs=4 flags=0x0 {
+      129  Push "selected", false
+      144  SetVariable
+      145  Push "toggle", false
+      158  SetVariable
+      159  Push "enabled", true
+      173  SetVariable
+      174  Push "visible", true
+      188  SetVariable
+      189  Push "minHeight", 0
+      212  SetVariable
+      213  Push "minWidth", 0
+      235  SetVariable
+        }
+   236  Push "__f_initialize"
+   255  GetVariable
+   256  Push "initialize", 2, "this"
+   282  GetVariable
+   283  Push "addEventListener"
+   304  CallMethod
+   305  Pop
+   306  End

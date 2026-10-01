@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_1050_BOOM_SLASHRED fotograma 25, DoAction (01591_DefineSprite_1050.bin, byte 205)
+
+loadMovie("", this);

@@ -1,0 +1,10 @@
+// DoAction
+// origen: DefineSprite_2452_MODEL4 fotograma 295, DoAction (03683_DefineSprite_2452.bin, byte 130747)
+
+130747  Push "_parent"
+130759  GetVariable
+130760  Push "shadower"
+130773  GetMember
+130774  Push "_visible", false
+130789  SetMember
+130790  End

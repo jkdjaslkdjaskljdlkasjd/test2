@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_231_Border fotograma 1, DoAction (00402_DefineSprite_231.bin, byte 20)
+
+stop();

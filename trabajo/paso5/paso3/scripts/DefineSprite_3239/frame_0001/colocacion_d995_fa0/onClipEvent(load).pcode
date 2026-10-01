@@ -1,0 +1,12 @@
+// onClipEvent(load)
+// origen: DefineSprite_3239 fotograma 1, clip en profundidad 995 (06960_DefineSprite_3239.bin, byte 11712)
+
+ 11740  Push "dontDoMe", true
+ 11755  SetVariable
+ 11756  Push "bobbybobby", 0
+ 11780  SetVariable
+ 11781  Push "blacker"
+ 11793  GetVariable
+ 11794  Push "_visible", false
+ 11809  SetMember
+ 11810  End

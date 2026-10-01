@@ -1,0 +1,52 @@
+// on(rollOver)
+// origen: boton 2874 (06563_DefineButton2_2874.bin)
+
+   674  ConstantPool (10)
+   770  Push "_root"
+   775  GetVariable
+   776  Push "thereIsASlotSelected", true
+   783  SetMember
+   784  Push "_root"
+   789  GetVariable
+   790  Push "KrinToolTipper"
+   795  GetMember
+   796  Push "tt", "_root"
+   803  GetVariable
+   804  Push "KrinLang"
+   809  GetMember
+   810  Push "_root"
+   815  GetVariable
+   816  Push "KLangChoosen"
+   821  GetMember
+   822  GetMember
+   823  Push "SYSTEM"
+   828  GetMember
+   829  Push 13
+   837  GetMember
+   838  SetMember
+   839  Push "_root"
+   844  GetVariable
+   845  Push "KrinToolTipper"
+   850  GetMember
+   851  Push "t", "_root"
+   858  GetVariable
+   859  Push "KrinLang"
+   864  GetMember
+   865  Push "_root"
+   870  GetVariable
+   871  Push "KLangChoosen"
+   876  GetMember
+   877  GetMember
+   878  Push "SYSTEM"
+   883  GetMember
+   884  Push 14
+   892  GetMember
+   893  SetMember
+   894  Push "GO", 1, "_root"
+   906  GetVariable
+   907  Push "KrinToolTipper"
+   912  GetMember
+   913  Push "gotoAndStop"
+   918  CallMethod
+   919  Pop
+   920  End

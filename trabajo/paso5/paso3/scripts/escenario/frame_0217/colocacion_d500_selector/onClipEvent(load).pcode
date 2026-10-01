@@ -1,0 +1,195 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 500 (07269_PlaceObject3.bin)
+
+    66  ConstantPool (27)
+   314  DefineFunction2 "refreshOrbs" (r3:theGuy) regs=4 flags=0x69 {
+      344  Push "i", 0
+      358  SetVariable
+      359  Push "i"
+      364  GetVariable
+      365  Push 8
+      373  Less2
+      374  Not
+      375  If loc898
+      380  Push register2, "KRINABILITY", register2, register3
+      391  GetMember
+      392  Push "moveMatrix"
+      397  GetMember
+      398  Push "i"
+      403  GetVariable
+      404  GetMember
+      405  Add2
+      406  GetMember
+      407  Push 0
+      419  GetMember
+      420  Push 1, register1, "thing", "i"
+      434  GetVariable
+      435  Add2
+      436  GetMember
+      437  Push "gotoAndStop"
+      442  CallMethod
+      443  Pop
+      444  Push register1, "thing", "i"
+      453  GetVariable
+      454  Add2
+      455  GetMember
+      456  Push "toolTipTitle", register2, "KRINABILITY", register2, register3
+      469  GetMember
+      470  Push "moveMatrix"
+      475  GetMember
+      476  Push "i"
+      481  GetVariable
+      482  GetMember
+      483  Add2
+      484  GetMember
+      485  Push 17
+      493  GetMember
+      494  SetMember
+      495  Push register1, "thing", "i"
+      504  GetVariable
+      505  Add2
+      506  GetMember
+      507  Push "toolTip", register2, "KRINABILITYB", register2, register3
+      520  GetMember
+      521  Push "moveMatrix"
+      526  GetMember
+      527  Push "i"
+      532  GetVariable
+      533  GetMember
+      534  Add2
+      535  GetMember
+      536  Push 17
+      544  GetMember
+      545  SetMember
+      546  Push register1, "thing", "i"
+      555  GetVariable
+      556  Add2
+      557  GetMember
+      558  Push "toolTip3", register2, "KRINABILITYB", register2, register3
+      571  GetMember
+      572  Push "moveMatrix"
+      577  GetMember
+      578  Push "i"
+      583  GetVariable
+      584  GetMember
+      585  Add2
+      586  GetMember
+      587  Push 18
+      595  GetMember
+      596  SetMember
+      597  Push register2, "elementMainArray"
+      604  GetMember
+      605  Enumerate2
+      606  StoreRegister 0
+      610  Push null
+      614  Equals2
+      615  If loc725
+      620  Push "u", register0
+      627  SetVariable
+      628  Push register2, "elementMainArray"
+      635  GetMember
+      636  Push "u"
+      641  GetVariable
+      642  GetMember
+      643  Push register2, "KRINABILITYB", register2, register3
+      654  GetMember
+      655  Push "moveMatrix"
+      660  GetMember
+      661  Push "i"
+      666  GetVariable
+      667  GetMember
+      668  Add2
+      669  GetMember
+      670  Push 0
+      682  GetMember
+      683  Equals2
+      684  Not
+      685  If loc720
+      690  Push register1, "thing", "i"
+      699  GetVariable
+      700  Add2
+      701  GetMember
+      702  Push "KNcolor2", register2, "elementColorArray"
+      711  GetMember
+      712  Push "u"
+      717  GetVariable
+      718  GetMember
+      719  SetMember
+      720  Jump loc606
+      725  Push register2, "KRINABILITY", register2, register3
+      736  GetMember
+      737  Push "moveMatrix"
+      742  GetMember
+      743  Push "i"
+      748  GetVariable
+      749  GetMember
+      750  Add2
+      751  GetMember
+      752  Push 0
+      764  GetMember
+      765  Push "None"
+      770  Equals2
+      771  Not
+      772  If loc822
+      777  Push register1, "thingo", "i"
+      786  GetVariable
+      787  Add2
+      788  GetMember
+      789  Push "_visible", false
+      796  SetMember
+      797  Push register1, "thing", "i"
+      806  GetVariable
+      807  Add2
+      808  GetMember
+      809  Push "zero", true
+      816  SetMember
+      817  Jump loc842
+      822  Push register1, "thingo", "i"
+      831  GetVariable
+      832  Add2
+      833  GetMember
+      834  Push "_visible", true
+      841  SetMember
+      842  Push register1, "thing", "i"
+      851  GetVariable
+      852  Add2
+      853  GetMember
+      854  Push "assignedThing", "i"
+      861  GetVariable
+      862  SetMember
+      863  Push register1, "thing", "i"
+      872  GetVariable
+      873  Add2
+      874  GetMember
+      875  Push "ACD", ""
+      882  SetMember
+      883  Push "i", "i"
+      890  GetVariable
+      891  Increment
+      892  SetVariable
+      893  Jump loc359
+        }
+   898  Push "clicker", false
+   905  SetVariable
+   906  Push "", 7, false
+   918  SetProperty
+   919  Push "Krin", 1, "refreshOrbs"
+   931  CallFunction
+   932  Pop
+   933  Push "_root"
+   938  GetVariable
+   939  Push "arenaMode"
+   944  GetMember
+   945  Not
+   946  If loc984
+   951  Push "arenaPlayer", "_root"
+   958  GetVariable
+   959  Push "Krin"
+   964  GetMember
+   965  Push "playerNumber"
+   970  GetMember
+   971  Add2
+   972  Push 1, "refreshOrbs"
+   982  CallFunction
+   983  Pop
+   984  End

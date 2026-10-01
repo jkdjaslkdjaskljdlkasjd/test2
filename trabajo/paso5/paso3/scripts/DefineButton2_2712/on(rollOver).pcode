@@ -1,0 +1,53 @@
+// on(rollOver)
+// origen: boton 2712 (06139_DefineButton2_2712.bin)
+
+   408  ConstantPool (14)
+   544  Push "START", 1, "hydroDis"
+   556  GetVariable
+   557  Push "gotoAndPlay"
+   562  CallMethod
+   563  Pop
+   564  Push "_root"
+   569  GetVariable
+   570  Push "thereIsASlotSelected", true
+   577  SetMember
+   578  Push "_root"
+   583  GetVariable
+   584  Push "KrinToolTipper"
+   589  GetMember
+   590  Push "tt", "_root"
+   597  GetVariable
+   598  Push "KrinLang"
+   603  GetMember
+   604  Push "KLangChoosen"
+   609  GetVariable
+   610  GetMember
+   611  Push "CLASS"
+   616  GetMember
+   617  Push 1
+   625  GetMember
+   626  SetMember
+   627  Push "_root"
+   632  GetVariable
+   633  Push "KrinToolTipper"
+   638  GetMember
+   639  Push "t", "_root"
+   646  GetVariable
+   647  Push "KrinLang"
+   652  GetMember
+   653  Push "KLangChoosen"
+   658  GetVariable
+   659  GetMember
+   660  Push "CLASSDESCRIPT"
+   665  GetMember
+   666  Push 1
+   674  GetMember
+   675  SetMember
+   676  Push "GO", 1, "_root"
+   688  GetVariable
+   689  Push "KrinToolTipper"
+   694  GetMember
+   695  Push "gotoAndStop"
+   700  CallMethod
+   701  Pop
+   702  End

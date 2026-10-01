@@ -1,0 +1,24 @@
+// on(release)
+// origen: boton 2735 (06208_DefineButton2_2735.bin)
+
+    17  ConstantPool (6)
+    74  Push "Krin"
+    79  GetVariable
+    80  Push "tutorOn"
+    85  GetMember
+    86  Push true
+    91  Equals2
+    92  Not
+    93  If loc129
+    98  Push "_root"
+   103  GetVariable
+   104  Push "gotoSceneKrin", "IntroSeq"
+   111  SetMember
+   112  GoToLabel 'CS_INTRO'
+   124  Jump loc156
+   129  Push "_root"
+   134  GetVariable
+   135  Push "gotoSceneKrin", "IntroSeq2"
+   142  SetMember
+   143  GoToLabel 'CS_INTRO2'
+   156  End

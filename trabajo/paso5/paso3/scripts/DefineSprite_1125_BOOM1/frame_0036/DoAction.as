@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_1125_BOOM1 fotograma 36, DoAction (01691_DefineSprite_1125.bin, byte 2642)
+
+loadMovie("", this);

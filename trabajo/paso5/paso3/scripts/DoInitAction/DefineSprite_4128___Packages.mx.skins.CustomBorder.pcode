@@ -1,0 +1,400 @@
+// DefineSprite_4128___Packages.mx.skins.CustomBorder
+// origen: DoInitAction del sprite 4128 (03783_DoInitAction.bin)
+
+     2  ConstantPool (48)
+   409  Push "_global"
+   414  GetVariable
+   415  Push "mx"
+   420  GetMember
+   421  Not
+   422  Not
+   423  If loc452
+   428  Push "_global"
+   433  GetVariable
+   434  Push "mx", 0, "Object"
+   450  NewObject
+   451  SetMember
+   452  Pop
+   453  Push "_global"
+   458  GetVariable
+   459  Push "mx"
+   464  GetMember
+   465  Push "skins"
+   470  GetMember
+   471  Not
+   472  Not
+   473  If loc508
+   478  Push "_global"
+   483  GetVariable
+   484  Push "mx"
+   489  GetMember
+   490  Push "skins", 0, "Object"
+   506  NewObject
+   507  SetMember
+   508  Pop
+   509  Push "_global"
+   514  GetVariable
+   515  Push "mx"
+   520  GetMember
+   521  Push "skins"
+   526  GetMember
+   527  Push "CustomBorder"
+   532  GetMember
+   533  Not
+   534  Not
+   535  If loc2009
+   540  Push "mx"
+   545  GetVariable
+   546  Push "skins"
+   551  GetMember
+   552  Push "CustomBorder"
+   557  DefineFunction2 "" () regs=2 flags=0x1a {
+      568  Push 0, register1, undef
+      583  CallMethod
+      584  Pop
+        }
+   585  StoreRegister 1
+   589  SetMember
+   590  Push "mx"
+   595  GetVariable
+   596  Push "skins"
+   601  GetMember
+   602  Push "CustomBorder"
+   607  GetMember
+   608  Push "mx"
+   613  GetVariable
+   614  Push "skins"
+   619  GetMember
+   620  Push "Border"
+   625  GetMember
+   626  Extends
+   627  Push register1, "prototype"
+   634  GetMember
+   635  StoreRegister 2
+   639  Pop
+   640  Push register2, "__get__width"
+   647  DefineFunction2 "" () regs=2 flags=0x29 {
+      658  Push register1, "__width"
+      665  GetMember
+      666  Return
+        }
+   667  SetMember
+   668  Push register2, "__get__height"
+   675  DefineFunction2 "" () regs=2 flags=0x29 {
+      686  Push register1, "__height"
+      693  GetMember
+      694  Return
+        }
+   695  SetMember
+   696  Push register2, "init"
+   703  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+      720  Push 0, register1, "init"
+      736  CallMethod
+      737  Pop
+        }
+   738  SetMember
+   739  Push register2, "createChildren"
+   746  DefineFunction "" (Void) regs=4 flags=0x0 {
+
+        }
+   759  SetMember
+   760  Push register2, "draw"
+   767  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+      784  Push register1, "l_mc"
+      791  GetMember
+      792  Push undef
+      796  Equals2
+      797  Not
+      798  If loc948
+      803  Push register1, "leftSkin"
+      810  GetMember
+      811  Push "mx"
+      816  GetVariable
+      817  Push "skins"
+      822  GetMember
+      823  Push "CustomBorder"
+      828  GetMember
+      829  Push "tagL"
+      834  GetMember
+      835  Push 2, register1, "setSkin"
+      847  CallMethod
+      848  StoreRegister 2
+      852  Pop
+      853  Push register1, "horizontal"
+      860  GetMember
+      861  Not
+      862  If loc910
+      867  Push register1, "minHeight", register1, "l_mc"
+      878  GetMember
+      879  Push "_height"
+      884  GetMember
+      885  SetMember
+      886  Push register1, "minWidth", register1, "l_mc"
+      897  GetMember
+      898  Push "_width"
+      903  GetMember
+      904  SetMember
+      905  Jump loc948
+      910  Push register1, "minHeight", register1, "l_mc"
+      921  GetMember
+      922  Push "_height"
+      927  GetMember
+      928  SetMember
+      929  Push register1, "minWidth", register1, "l_mc"
+      940  GetMember
+      941  Push "_width"
+      946  GetMember
+      947  SetMember
+      948  Push register1, "m_mc"
+      955  GetMember
+      956  Push undef
+      960  Equals2
+      961  Not
+      962  If loc1126
+      967  Push register1, "middleSkin"
+      974  GetMember
+      975  Push "mx"
+      980  GetVariable
+      981  Push "skins"
+      986  GetMember
+      987  Push "CustomBorder"
+      992  GetMember
+      993  Push "tagM"
+      998  GetMember
+      999  Push 2, register1, "setSkin"
+     1011  CallMethod
+     1012  Pop
+     1013  Push register1, "horizontal"
+     1020  GetMember
+     1021  Not
+     1022  If loc1079
+     1027  Push register1, "minHeight", register1, "m_mc"
+     1038  GetMember
+     1039  Push "_height"
+     1044  GetMember
+     1045  SetMember
+     1046  Push register1, "minWidth", register1, "minWidth"
+     1057  GetMember
+     1058  Push register1, "m_mc"
+     1065  GetMember
+     1066  Push "_width"
+     1071  GetMember
+     1072  Add2
+     1073  SetMember
+     1074  Jump loc1126
+     1079  Push register1, "minHeight", register1, "minHeight"
+     1090  GetMember
+     1091  Push register1, "m_mc"
+     1098  GetMember
+     1099  Push "_height"
+     1104  GetMember
+     1105  Add2
+     1106  SetMember
+     1107  Push register1, "minWidth", register1, "m_mc"
+     1118  GetMember
+     1119  Push "_width"
+     1124  GetMember
+     1125  SetMember
+     1126  Push register1, "r_mc"
+     1133  GetMember
+     1134  Push undef
+     1138  Equals2
+     1139  Not
+     1140  If loc1304
+     1145  Push register1, "rightSkin"
+     1152  GetMember
+     1153  Push "mx"
+     1158  GetVariable
+     1159  Push "skins"
+     1164  GetMember
+     1165  Push "CustomBorder"
+     1170  GetMember
+     1171  Push "tagR"
+     1176  GetMember
+     1177  Push 2, register1, "setSkin"
+     1189  CallMethod
+     1190  Pop
+     1191  Push register1, "horizontal"
+     1198  GetMember
+     1199  Not
+     1200  If loc1257
+     1205  Push register1, "minHeight", register1, "r_mc"
+     1216  GetMember
+     1217  Push "_height"
+     1222  GetMember
+     1223  SetMember
+     1224  Push register1, "minWidth", register1, "minWidth"
+     1235  GetMember
+     1236  Push register1, "r_mc"
+     1243  GetMember
+     1244  Push "_width"
+     1249  GetMember
+     1250  Add2
+     1251  SetMember
+     1252  Jump loc1304
+     1257  Push register1, "minHeight", register1, "minHeight"
+     1268  GetMember
+     1269  Push register1, "r_mc"
+     1276  GetMember
+     1277  Push "_height"
+     1282  GetMember
+     1283  Add2
+     1284  SetMember
+     1285  Push register1, "minWidth", register1, "r_mc"
+     1296  GetMember
+     1297  Push "_width"
+     1302  GetMember
+     1303  SetMember
+     1304  Push 0, register1, "size"
+     1320  CallMethod
+     1321  Pop
+        }
+  1322  SetMember
+  1323  Push register2, "size"
+  1330  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     1347  Push 0, 0, 2, register1, "l_mc"
+     1377  GetMember
+     1378  Push "move"
+     1383  CallMethod
+     1384  Pop
+     1385  Push register1, "horizontal"
+     1392  GetMember
+     1393  Not
+     1394  If loc1571
+     1399  Push 0, 0, register1, "__get__width"
+     1424  CallMethod
+     1425  Push register1, "r_mc"
+     1432  GetMember
+     1433  Push "width"
+     1438  GetMember
+     1439  Subtract
+     1440  Push 2, register1, "r_mc"
+     1452  GetMember
+     1453  Push "move"
+     1458  CallMethod
+     1459  Pop
+     1460  Push 0, register1, "l_mc"
+     1476  GetMember
+     1477  Push "width"
+     1482  GetMember
+     1483  Push 2, register1, "m_mc"
+     1495  GetMember
+     1496  Push "move"
+     1501  CallMethod
+     1502  Pop
+     1503  Push register1, "m_mc"
+     1510  GetMember
+     1511  Push "height"
+     1516  GetMember
+     1517  Push register1, "r_mc"
+     1524  GetMember
+     1525  Push "x"
+     1530  GetMember
+     1531  Push register1, "m_mc"
+     1538  GetMember
+     1539  Push "x"
+     1544  GetMember
+     1545  Subtract
+     1546  Push 2, register1, "m_mc"
+     1558  GetMember
+     1559  Push "setSize"
+     1564  CallMethod
+     1565  Pop
+     1566  Jump loc1747
+     1571  Push 0, 0, register1, "__get__height"
+     1596  CallMethod
+     1597  Push register1, "r_mc"
+     1604  GetMember
+     1605  Push "height"
+     1610  GetMember
+     1611  Subtract
+     1612  Push 0, 3, register1, "r_mc"
+     1633  GetMember
+     1634  Push "move"
+     1639  CallMethod
+     1640  Pop
+     1641  Push register1, "l_mc"
+     1648  GetMember
+     1649  Push "height"
+     1654  GetMember
+     1655  Push 0, 2, register1, "m_mc"
+     1676  GetMember
+     1677  Push "move"
+     1682  CallMethod
+     1683  Pop
+     1684  Push register1, "r_mc"
+     1691  GetMember
+     1692  Push "y"
+     1697  GetMember
+     1698  Push register1, "m_mc"
+     1705  GetMember
+     1706  Push "y"
+     1711  GetMember
+     1712  Subtract
+     1713  Push register1, "m_mc"
+     1720  GetMember
+     1721  Push "width"
+     1726  GetMember
+     1727  Push 2, register1, "m_mc"
+     1739  GetMember
+     1740  Push "setSize"
+     1745  CallMethod
+     1746  Pop
+        }
+  1747  SetMember
+  1748  Push register1, "symbolName", "CustomBorder"
+  1757  SetMember
+  1758  Push register1, "symbolOwner", "mx"
+  1767  GetVariable
+  1768  Push "skins"
+  1773  GetMember
+  1774  Push "CustomBorder"
+  1779  GetMember
+  1780  SetMember
+  1781  Push register1, "version", "2.0.2.127"
+  1790  SetMember
+  1791  Push register2, "className", "CustomBorder"
+  1800  SetMember
+  1801  Push register1, "tagL", 0
+  1817  SetMember
+  1818  Push register1, "tagM", 1
+  1830  SetMember
+  1831  Push register1, "tagR", 2
+  1843  SetMember
+  1844  Push register2, "idNames", "r_mc", "m_mc", "l_mc", 3, "Array"
+  1864  NewObject
+  1865  SetMember
+  1866  Push register2, "leftSkin", "F3PieceLeft"
+  1875  SetMember
+  1876  Push register2, "middleSkin", "F3PieceMiddle"
+  1885  SetMember
+  1886  Push register2, "rightSkin", "F3PieceRight"
+  1895  SetMember
+  1896  Push register2, "horizontal", true
+  1905  SetMember
+  1906  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1914  Push register2, "__get__height"
+  1921  GetMember
+  1922  Push "height", 3, register2, "addProperty"
+  1936  CallMethod
+  1937  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1945  Push register2, "__get__width"
+  1952  GetMember
+  1953  Push "width", 3, register2, "addProperty"
+  1967  CallMethod
+  1968  Push 1, null, "mx"
+  1979  GetVariable
+  1980  Push "skins"
+  1985  GetMember
+  1986  Push "CustomBorder"
+  1991  GetMember
+  1992  Push "prototype"
+  1997  GetMember
+  1998  Push 3, "ASSetPropFlags"
+  2008  CallFunction
+  2009  Pop
+  2010  End

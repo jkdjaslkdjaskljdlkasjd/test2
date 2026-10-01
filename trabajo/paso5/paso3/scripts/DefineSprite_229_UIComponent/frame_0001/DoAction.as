@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_229_UIComponent fotograma 1, DoAction (00398_DefineSprite_229.bin, byte 20)
+
+stop();

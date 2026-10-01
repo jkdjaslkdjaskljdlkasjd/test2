@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1033_BOOM_SPARKBLUE fotograma 25, DoAction (01569_DefineSprite_1033.bin, byte 220)
+
+   220  Push "", "this"
+   231  GetVariable
+   232  GetURL2 64
+   236  End

@@ -1,0 +1,58 @@
+// on(rollOver)
+// origen: boton 2673 (06053_DefineButton2_2673.bin)
+
+  1190  ConstantPool (13)
+  1303  Push "_root"
+  1308  GetVariable
+  1309  Push "Krin"
+  1314  GetMember
+  1315  Push "dataMode"
+  1320  GetMember
+  1321  Push "save"
+  1326  Equals2
+  1327  Not
+  1328  If loc1471
+  1333  Push "_root"
+  1338  GetVariable
+  1339  Push "thereIsASlotSelected", true
+  1346  SetMember
+  1347  Push "_root"
+  1352  GetVariable
+  1353  Push "KrinToolTipper"
+  1358  GetMember
+  1359  Push "tt", "_root"
+  1366  GetVariable
+  1367  Push "KrinLang"
+  1372  GetMember
+  1373  Push "KLangChoosen"
+  1378  GetVariable
+  1379  GetMember
+  1380  Push "MENU"
+  1385  GetMember
+  1386  Push 21
+  1394  GetMember
+  1395  SetMember
+  1396  Push "_root"
+  1401  GetVariable
+  1402  Push "KrinToolTipper"
+  1407  GetMember
+  1408  Push "t", "_root"
+  1415  GetVariable
+  1416  Push "KrinLang"
+  1421  GetMember
+  1422  Push "KLangChoosen"
+  1427  GetVariable
+  1428  GetMember
+  1429  Push "MENU"
+  1434  GetMember
+  1435  Push 25
+  1443  GetMember
+  1444  SetMember
+  1445  Push "GO", 1, "_root"
+  1457  GetVariable
+  1458  Push "KrinToolTipper"
+  1463  GetMember
+  1464  Push "gotoAndStop"
+  1469  CallMethod
+  1470  Pop
+  1471  End

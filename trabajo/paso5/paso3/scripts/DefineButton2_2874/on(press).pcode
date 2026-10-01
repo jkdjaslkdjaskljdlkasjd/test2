@@ -1,0 +1,169 @@
+// on(press)
+// origen: boton 2874 (06563_DefineButton2_2874.bin)
+
+    17  ConstantPool (14)
+   176  Push "_root"
+   181  GetVariable
+   182  Push "Krin"
+   187  GetMember
+   188  Push "PauseForScreen"
+   193  GetMember
+   194  Push true
+   199  Equals2
+   200  Not
+   201  Not
+   202  If loc669
+   207  Push "_root"
+   212  GetVariable
+   213  Push "Krin"
+   218  GetMember
+   219  Push "bossFight", false
+   226  SetMember
+   227  Push "_root"
+   232  GetVariable
+   233  Push "Krin"
+   238  GetMember
+   239  Push "BattlePick", "_root"
+   246  GetVariable
+   247  Push "Krin"
+   252  GetMember
+   253  Push "sectionIn"
+   258  GetMember
+   259  Push 100
+   267  Multiply
+   268  Push "_root"
+   273  GetVariable
+   274  Push "Krin"
+   279  GetMember
+   280  Push "questProgress"
+   285  GetMember
+   286  Push "_root"
+   291  GetVariable
+   292  Push "Krin"
+   297  GetMember
+   298  Push "sectionIn"
+   303  GetMember
+   304  GetMember
+   305  Add2
+   306  SetMember
+   307  Push "_root"
+   312  GetVariable
+   313  Push "Krin"
+   318  GetMember
+   319  Push "progressFight", true
+   326  SetMember
+   327  Push "_root"
+   332  GetVariable
+   333  Push "Krin"
+   338  GetMember
+   339  Push "questProgress"
+   344  GetMember
+   345  Push "_root"
+   350  GetVariable
+   351  Push "Krin"
+   356  GetMember
+   357  Push "sectionIn"
+   362  GetMember
+   363  GetMember
+   364  Push "_root"
+   369  GetVariable
+   370  Push "questHub"
+   375  GetMember
+   376  Push "_root"
+   381  GetVariable
+   382  Push "Krin"
+   387  GetMember
+   388  Push "sectionIn"
+   393  GetMember
+   394  GetMember
+   395  Push "progressMax"
+   400  GetMember
+   401  Greater
+   402  Not
+   403  If loc528
+   408  Push "_root"
+   413  GetVariable
+   414  Push "Krin"
+   419  GetMember
+   420  Push "BattlePick", "_root"
+   427  GetVariable
+   428  Push "Krin"
+   433  GetMember
+   434  Push "sectionIn"
+   439  GetMember
+   440  Push 100
+   448  Multiply
+   449  Push "_root"
+   454  GetVariable
+   455  Push "questHub"
+   460  GetMember
+   461  Push "_root"
+   466  GetVariable
+   467  Push "Krin"
+   472  GetMember
+   473  Push "sectionIn"
+   478  GetMember
+   479  GetMember
+   480  Push "progressMax"
+   485  GetMember
+   486  Add2
+   487  SetMember
+   488  Push "_root"
+   493  GetVariable
+   494  Push "Krin"
+   499  GetMember
+   500  Push "progressFight", false
+   507  SetMember
+   508  Push "_root"
+   513  GetVariable
+   514  Push "Krin"
+   519  GetMember
+   520  Push "bossFight", true
+   527  SetMember
+   528  Push "_root"
+   533  GetVariable
+   534  Push "Krin"
+   539  GetMember
+   540  Push "questProgress"
+   545  GetMember
+   546  Push "_root"
+   551  GetVariable
+   552  Push "Krin"
+   557  GetMember
+   558  Push "sectionIn"
+   563  GetMember
+   564  GetMember
+   565  Push "_root"
+   570  GetVariable
+   571  Push "questHub"
+   576  GetMember
+   577  Push "_root"
+   582  GetVariable
+   583  Push "Krin"
+   588  GetMember
+   589  Push "sectionIn"
+   594  GetMember
+   595  GetMember
+   596  Push "progressMax"
+   601  GetMember
+   602  Equals2
+   603  Not
+   604  If loc629
+   609  Push "_root"
+   614  GetVariable
+   615  Push "Krin"
+   620  GetMember
+   621  Push "bossFight", true
+   628  SetMember
+   629  Push "LOADBATTLESCENE", 1, "_root"
+   641  GetVariable
+   642  Push "gotoAndPlay"
+   647  CallMethod
+   648  Pop
+   649  Push "_root"
+   654  GetVariable
+   655  Push "KrinScreen"
+   660  GetMember
+   661  Push "_visible", false
+   668  SetMember
+   669  End

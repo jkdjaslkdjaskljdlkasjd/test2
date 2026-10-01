@@ -1,0 +1,353 @@
+// DefineSprite_4130___Packages.mx.controls.scrollClasses.ScrollThumb
+// origen: DoInitAction del sprite 4130 (03789_DoInitAction.bin)
+
+     2  ConstantPool (58)
+   578  Push "_global"
+   583  GetVariable
+   584  Push "mx"
+   589  GetMember
+   590  Not
+   591  Not
+   592  If loc621
+   597  Push "_global"
+   602  GetVariable
+   603  Push "mx", 0, "Object"
+   619  NewObject
+   620  SetMember
+   621  Pop
+   622  Push "_global"
+   627  GetVariable
+   628  Push "mx"
+   633  GetMember
+   634  Push "controls"
+   639  GetMember
+   640  Not
+   641  Not
+   642  If loc677
+   647  Push "_global"
+   652  GetVariable
+   653  Push "mx"
+   658  GetMember
+   659  Push "controls", 0, "Object"
+   675  NewObject
+   676  SetMember
+   677  Pop
+   678  Push "_global"
+   683  GetVariable
+   684  Push "mx"
+   689  GetMember
+   690  Push "controls"
+   695  GetMember
+   696  Push "scrollClasses"
+   701  GetMember
+   702  Not
+   703  Not
+   704  If loc745
+   709  Push "_global"
+   714  GetVariable
+   715  Push "mx"
+   720  GetMember
+   721  Push "controls"
+   726  GetMember
+   727  Push "scrollClasses", 0, "Object"
+   743  NewObject
+   744  SetMember
+   745  Pop
+   746  Push "_global"
+   751  GetVariable
+   752  Push "mx"
+   757  GetMember
+   758  Push "controls"
+   763  GetMember
+   764  Push "scrollClasses"
+   769  GetMember
+   770  Push "ScrollThumb"
+   775  GetMember
+   776  Not
+   777  Not
+   778  If loc2072
+   783  Push "mx"
+   788  GetVariable
+   789  Push "controls"
+   794  GetMember
+   795  Push "scrollClasses"
+   800  GetMember
+   801  Push "ScrollThumb"
+   806  DefineFunction2 "" () regs=2 flags=0x1a {
+      817  Push 0, register1, undef
+      832  CallMethod
+      833  Pop
+        }
+   834  StoreRegister 1
+   838  SetMember
+   839  Push "mx"
+   844  GetVariable
+   845  Push "controls"
+   850  GetMember
+   851  Push "scrollClasses"
+   856  GetMember
+   857  Push "ScrollThumb"
+   862  GetMember
+   863  Push "mx"
+   868  GetVariable
+   869  Push "skins"
+   874  GetMember
+   875  Push "CustomBorder"
+   880  GetMember
+   881  Extends
+   882  Push register1, "prototype"
+   889  GetMember
+   890  StoreRegister 2
+   894  Pop
+   895  Push register2, "createChildren"
+   902  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+      919  Push 0, register2, "createChildren"
+      935  CallMethod
+      936  Pop
+      937  Push register1, "useHandCursor", false
+      946  SetMember
+        }
+   947  SetMember
+   948  Push register2, "setRange"
+   955  DefineFunction2 "" (r2:_ymin, r4:_ymax, r3:_datamin, r5:_datamax) regs=6 flags=0x29 {
+     1000  Push register1, "ymin", register2
+     1009  SetMember
+     1010  Push register1, "ymax", register4
+     1019  SetMember
+     1020  Push register1, "datamin", register3
+     1029  SetMember
+     1030  Push register1, "datamax", register5
+     1039  SetMember
+        }
+  1040  SetMember
+  1041  Push register2, "dragThumb"
+  1048  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     1065  Push register1, "scrollMove", register1, "_ymouse"
+     1076  GetMember
+     1077  Push register1, "lastY"
+     1084  GetMember
+     1085  Subtract
+     1086  SetMember
+     1087  Push register1, "scrollMove", register1, "scrollMove"
+     1098  GetMember
+     1099  Push register1, "_y"
+     1106  GetMember
+     1107  Add2
+     1108  SetMember
+     1109  Push register1, "scrollMove"
+     1116  GetMember
+     1117  Push register1, "ymin"
+     1124  GetMember
+     1125  Less2
+     1126  Not
+     1127  If loc1150
+     1132  Push register1, "scrollMove", register1, "ymin"
+     1143  GetMember
+     1144  SetMember
+     1145  Jump loc1186
+     1150  Push register1, "scrollMove"
+     1157  GetMember
+     1158  Push register1, "ymax"
+     1165  GetMember
+     1166  Greater
+     1167  Not
+     1168  If loc1186
+     1173  Push register1, "scrollMove", register1, "ymax"
+     1184  GetMember
+     1185  SetMember
+     1186  Push register1, "_parent"
+     1193  GetMember
+     1194  Push "isScrolling", true
+     1201  SetMember
+     1202  Push register1, "_y", register1, "scrollMove"
+     1213  GetMember
+     1214  SetMember
+     1215  Push register1, "datamax"
+     1222  GetMember
+     1223  Push register1, "datamin"
+     1230  GetMember
+     1231  Subtract
+     1232  Push register1, "_y"
+     1239  GetMember
+     1240  Push register1, "ymin"
+     1247  GetMember
+     1248  Subtract
+     1249  Multiply
+     1250  Push register1, "ymax"
+     1257  GetMember
+     1258  Push register1, "ymin"
+     1265  GetMember
+     1266  Subtract
+     1267  Divide
+     1268  Push 1, "Math"
+     1278  GetVariable
+     1279  Push "round"
+     1284  CallMethod
+     1285  Push register1, "datamin"
+     1292  GetMember
+     1293  Add2
+     1294  StoreRegister 2
+     1298  Pop
+     1299  Push register1, "_parent"
+     1306  GetMember
+     1307  Push "scrollPosition", register2
+     1314  SetMember
+     1315  Push "ThumbTrack", 1, register1, "_parent"
+     1329  GetMember
+     1330  Push "dispatchScrollEvent"
+     1335  CallMethod
+     1336  Pop
+     1337  Push 0, "updateAfterEvent"
+     1351  CallFunction
+     1352  Pop
+        }
+  1353  SetMember
+  1354  Push register2, "stopDragThumb"
+  1361  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     1378  Push register1, "_parent"
+     1385  GetMember
+     1386  Push "isScrolling", false
+     1393  SetMember
+     1394  Push "ThumbPosition", 1, register1, "_parent"
+     1408  GetMember
+     1409  Push "dispatchScrollEvent"
+     1414  CallMethod
+     1415  Pop
+     1416  Push 0, register1, "_parent"
+     1432  GetMember
+     1433  Push "dispatchScrollChangedEvent"
+     1438  CallMethod
+     1439  Pop
+     1440  Push register1, "onMouseMove"
+     1447  Delete
+     1448  Pop
+        }
+  1449  SetMember
+  1450  Push register2, "onPress"
+  1457  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     1474  Push 0, register1, "_parent"
+     1490  GetMember
+     1491  Push "pressFocus"
+     1496  CallMethod
+     1497  Pop
+     1498  Push register1, "lastY", register1, "_ymouse"
+     1509  GetMember
+     1510  SetMember
+     1511  Push register1, "onMouseMove", register1, "dragThumb"
+     1522  GetMember
+     1523  SetMember
+     1524  Push 0, register2, "onPress"
+     1540  CallMethod
+     1541  Pop
+        }
+  1542  SetMember
+  1543  Push register2, "onRelease"
+  1550  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     1567  Push 0, register1, "_parent"
+     1583  GetMember
+     1584  Push "releaseFocus"
+     1589  CallMethod
+     1590  Pop
+     1591  Push 0, register1, "stopDragThumb"
+     1607  CallMethod
+     1608  Pop
+     1609  Push 0, register2, "onRelease"
+     1625  CallMethod
+     1626  Pop
+        }
+  1627  SetMember
+  1628  Push register2, "onReleaseOutside"
+  1635  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     1652  Push 0, register1, "_parent"
+     1668  GetMember
+     1669  Push "releaseFocus"
+     1674  CallMethod
+     1675  Pop
+     1676  Push 0, register1, "stopDragThumb"
+     1692  CallMethod
+     1693  Pop
+     1694  Push 0, register2, "onReleaseOutside"
+     1710  CallMethod
+     1711  Pop
+        }
+  1712  SetMember
+  1713  Push register2, "draw"
+  1720  DefineFunction2 "" () regs=3 flags=0x19 {
+     1731  Push 0, register2, "draw"
+     1747  CallMethod
+     1748  Pop
+     1749  Push register1, "grip_mc"
+     1756  GetMember
+     1757  Push undef
+     1761  Equals2
+     1762  Not
+     1763  If loc1795
+     1768  Push register1, "gripSkin"
+     1775  GetMember
+     1776  Push 3, 2, register1, "setSkin"
+     1793  CallMethod
+     1794  Pop
+        }
+  1795  SetMember
+  1796  Push register2, "size"
+  1803  DefineFunction2 "" () regs=3 flags=0x19 {
+     1814  Push 0, register2, "size"
+     1830  CallMethod
+     1831  Pop
+     1832  Push 0, register1, "__get__height"
+     1848  CallMethod
+     1849  Push register1, "grip_mc"
+     1856  GetMember
+     1857  Push "height"
+     1862  GetMember
+     1863  Subtract
+     1864  Push 2
+     1872  Divide
+     1873  Push 0, register1, "__get__width"
+     1889  CallMethod
+     1890  Push register1, "grip_mc"
+     1897  GetMember
+     1898  Push "width"
+     1903  GetMember
+     1904  Subtract
+     1905  Push 2
+     1913  Divide
+     1914  Push 2, register1, "grip_mc"
+     1926  GetMember
+     1927  Push "move"
+     1932  CallMethod
+     1933  Pop
+        }
+  1934  SetMember
+  1935  Push register1, "symbolOwner", "mx"
+  1944  GetVariable
+  1945  Push "skins"
+  1950  GetMember
+  1951  Push "CustomBorder"
+  1956  GetMember
+  1957  Push "symbolOwner"
+  1962  GetMember
+  1963  SetMember
+  1964  Push register2, "className", "ScrollThumb"
+  1973  SetMember
+  1974  Push register2, "btnOffset", 0
+  1990  SetMember
+  1991  Push register2, "horizontal", false
+  2000  SetMember
+  2001  Push register2, "idNames", "grip_mc", "r_mc", "m_mc", "l_mc", 4, "Array"
+  2023  NewObject
+  2024  SetMember
+  2025  Push 1, null, "mx"
+  2036  GetVariable
+  2037  Push "controls"
+  2042  GetMember
+  2043  Push "scrollClasses"
+  2048  GetMember
+  2049  Push "ScrollThumb"
+  2054  GetMember
+  2055  Push "prototype"
+  2060  GetMember
+  2061  Push 3, "ASSetPropFlags"
+  2071  CallFunction
+  2072  Pop
+  2073  End

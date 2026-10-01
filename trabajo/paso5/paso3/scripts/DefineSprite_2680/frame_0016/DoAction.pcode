@@ -1,0 +1,28 @@
+// DoAction
+// origen: DefineSprite_2680 fotograma 16, DoAction (06064_DefineSprite_2680.bin, byte 7873)
+
+  7873  ConstantPool (4)
+  7907  Push "j", 0
+  7921  SetVariable
+  7922  Push "j"
+  7927  GetVariable
+  7928  Push 10
+  7936  Less2
+  7937  Not
+  7938  If loc7990
+  7943  Push 0, "this"
+  7957  GetVariable
+  7958  Push "MY_TX", "j"
+  7965  GetVariable
+  7966  Add2
+  7967  GetMember
+  7968  Push "removeTextField"
+  7973  CallMethod
+  7974  Pop
+  7975  Push "j", "j"
+  7982  GetVariable
+  7983  Increment
+  7984  SetVariable
+  7985  Jump loc7922
+  7990  GoToLabel 'GO4'
+  7997  End

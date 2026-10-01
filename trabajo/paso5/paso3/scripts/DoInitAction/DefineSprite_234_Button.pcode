@@ -1,0 +1,11 @@
+// DefineSprite_234_Button
+// origen: DoInitAction del sprite 234 (03813_DoInitAction.bin)
+
+     2  Push "mx.controls.Button"
+    25  GetVariable
+    26  Push "Button", 2, "Object"
+    50  GetVariable
+    51  Push "registerClass"
+    69  CallMethod
+    70  Pop
+    71  End

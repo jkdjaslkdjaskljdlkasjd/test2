@@ -1,0 +1,300 @@
+// DoAction
+// origen: escenario fotograma 219, DoAction (07342_DoAction.bin)
+
+     0  ConstantPool (44)
+   532  Push "Krin"
+   537  GetVariable
+   538  Push "bossFight"
+   543  GetMember
+   544  Push true
+   549  Equals2
+   550  PushDuplicate
+   551  Not
+   552  If loc576
+   557  Pop
+   558  Push "Krin"
+   563  GetVariable
+   564  Push "progressFight"
+   569  GetMember
+   570  Push true
+   575  Equals2
+   576  Not
+   577  If loc631
+   582  Push "Krin"
+   587  GetVariable
+   588  Push "bossJustPwned", true
+   595  SetMember
+   596  Push "Krin"
+   601  GetVariable
+   602  Push "sectionIn"
+   607  GetMember
+   608  Push 1, "_root"
+   618  GetVariable
+   619  Push "updateZoneDefeated"
+   624  CallMethod
+   625  Pop
+   626  Jump loc645
+   631  Push "Krin"
+   636  GetVariable
+   637  Push "bossJustPwned", false
+   644  SetMember
+   645  Push "Krin"
+   650  GetVariable
+   651  Push "bossFight"
+   656  GetMember
+   657  Push true
+   662  Equals2
+   663  Not
+   664  If loc688
+   669  Push "Krin"
+   674  GetVariable
+   675  Push "bossJustPwned2", true
+   682  SetMember
+   683  Jump loc702
+   688  Push "Krin"
+   693  GetVariable
+   694  Push "bossJustPwned2", false
+   701  SetMember
+   702  Push "Krin"
+   707  GetVariable
+   708  Push "progressFight"
+   713  GetMember
+   714  Push true
+   719  Equals2
+   720  Not
+   721  If loc739
+   726  Push "achProgF", true
+   733  SetVariable
+   734  Jump loc747
+   739  Push "achProgF", false
+   746  SetVariable
+   747  Push "Sonny attacked = ", "AchVal1"
+   754  GetVariable
+   755  Add2
+   756  Trace
+   757  Push "Sonny has team = ", "AchVal2"
+   764  GetVariable
+   765  Add2
+   766  Trace
+   767  Push "team member count = ", "AchVal3"
+   774  GetVariable
+   775  Add2
+   776  Trace
+   777  Push "turns to win = ", "AchVal4"
+   784  GetVariable
+   785  Add2
+   786  Trace
+   787  Push "Krin"
+   792  GetVariable
+   793  Push "bossMusic", false
+   800  SetMember
+   801  Push "Krin"
+   806  GetVariable
+   807  Push "bossFight", false
+   814  SetMember
+   815  Push "afterCut", "None"
+   822  SetVariable
+   823  Push "Krin"
+   828  GetVariable
+   829  Push "progressFight"
+   834  GetMember
+   835  Not
+   836  If loc1108
+   841  Push "Krin"
+   846  GetVariable
+   847  Push "questProgress"
+   852  GetMember
+   853  Push "Krin"
+   858  GetVariable
+   859  Push "sectionIn"
+   864  GetMember
+   865  Push "Krin"
+   870  GetVariable
+   871  Push "questProgress"
+   876  GetMember
+   877  Push "Krin"
+   882  GetVariable
+   883  Push "sectionIn"
+   888  GetMember
+   889  GetMember
+   890  Increment
+   891  SetMember
+   892  Push "Krin"
+   897  GetVariable
+   898  Push "progressFight", false
+   905  SetMember
+   906  Push "Krin"
+   911  GetVariable
+   912  Push "BattlePick"
+   917  GetMember
+   918  Push 109
+   926  Equals2
+   927  Not
+   928  If loc949
+   933  Push "afterCut", "CS_CUT2"
+   940  SetVariable
+   941  Push "gotoSceneKrin", "overMap"
+   948  SetVariable
+   949  Push "Krin"
+   954  GetVariable
+   955  Push "BattlePick"
+   960  GetMember
+   961  Push 210
+   969  Equals2
+   970  Not
+   971  If loc992
+   976  Push "afterCut", "CS_CUT3"
+   983  SetVariable
+   984  Push "gotoSceneKrin", "Navigation"
+   991  SetVariable
+   992  Push "Krin"
+   997  GetVariable
+   998  Push "BattlePick"
+  1003  GetMember
+  1004  Push 409
+  1012  Equals2
+  1013  Not
+  1014  If loc1065
+  1019  Push "afterCut", "CS_CUT4"
+  1026  SetVariable
+  1027  Push "gotoSceneKrin", "overMap"
+  1034  SetVariable
+  1035  Push "Krin"
+  1040  GetVariable
+  1041  Push "sectionIn"
+  1046  GetMember
+  1047  Push 1, "_root"
+  1057  GetVariable
+  1058  Push "updateZoneDefeated"
+  1063  CallMethod
+  1064  Pop
+  1065  Push "Krin"
+  1070  GetVariable
+  1071  Push "BattlePick"
+  1076  GetMember
+  1077  Push 513
+  1085  Equals2
+  1086  Not
+  1087  If loc1108
+  1092  Push "afterCut", "CS_CUT5"
+  1099  SetVariable
+  1100  Push "gotoSceneKrin", "endMenu"
+  1107  SetVariable
+  1108  Push 0, "checkAndUpdateZoneAchievements"
+  1122  CallFunction
+  1123  Pop
+  1124  Push 0, "_root"
+  1138  GetVariable
+  1139  Push "checkIfAllStar"
+  1144  CallMethod
+  1145  Not
+  1146  If loc1174
+  1151  Push 5, 1, "_root"
+  1166  GetVariable
+  1167  Push "awardAch"
+  1172  CallMethod
+  1173  Pop
+  1174  Push "Krin"
+  1179  GetVariable
+  1180  Push "questProgress"
+  1185  GetMember
+  1186  Push 2
+  1194  GetMember
+  1195  Push 1
+  1203  Greater
+  1204  Not
+  1205  If loc1268
+  1210  Push "_root"
+  1215  GetVariable
+  1216  Push "Krin"
+  1221  GetMember
+  1222  Push "friendArray", -1, -1, -1, 2, 1, 0, 6
+  1266  InitArray
+  1267  SetMember
+  1268  Push "Krin"
+  1273  GetVariable
+  1274  Push "questProgress"
+  1279  GetMember
+  1280  Push 5
+  1288  GetMember
+  1289  Push 4
+  1297  Greater
+  1298  Not
+  1299  If loc1362
+  1304  Push "_root"
+  1309  GetVariable
+  1310  Push "Krin"
+  1315  GetMember
+  1316  Push "friendArray", -1, -1, 3, 2, 1, 0, 6
+  1360  InitArray
+  1361  SetMember
+  1362  Push "Krin"
+  1367  GetVariable
+  1368  Push "BattlePick"
+  1373  GetMember
+  1374  Push 2
+  1382  Equals2
+  1383  Not
+  1384  If loc1453
+  1389  Push "Krin"
+  1394  GetVariable
+  1395  Push "moveMatrix"
+  1400  GetMember
+  1401  Push 0, "Krin"
+  1415  GetVariable
+  1416  Push "startSkill1"
+  1421  GetMember
+  1422  SetMember
+  1423  Push "Krin"
+  1428  GetVariable
+  1429  Push "moveMatrix"
+  1434  GetMember
+  1435  Push 1, "Krin"
+  1445  GetVariable
+  1446  Push "startSkill2"
+  1451  GetMember
+  1452  SetMember
+  1453  Push "Krin"
+  1458  GetVariable
+  1459  Push "tutSpeecher", false
+  1466  SetMember
+  1467  Push "Krin"
+  1472  GetVariable
+  1473  Push "previousBattleSp", "Krin"
+  1480  GetVariable
+  1481  Push "BattlePick"
+  1486  GetMember
+  1487  SetMember
+  1488  Push "someListenerKrin"
+  1493  GetVariable
+  1494  Push 1, "Mouse"
+  1504  GetVariable
+  1505  Push "removeListener"
+  1510  CallMethod
+  1511  Pop
+  1512  Push "Krin"
+  1517  GetVariable
+  1518  Push "cutsceneSequence"
+  1523  GetMember
+  1524  Push 0
+  1536  Equals2
+  1537  Not
+  1538  Not
+  1539  If loc1580
+  1544  StopSounds
+  1545  Push "Krin"
+  1550  GetVariable
+  1551  Push "cutsceneSequence"
+  1556  GetMember
+  1557  Push 1, "_root"
+  1567  GetVariable
+  1568  Push "gotoAndStop"
+  1573  CallMethod
+  1574  Pop
+  1575  Jump loc1600
+  1580  Push "Navigation", 1, "_root"
+  1592  GetVariable
+  1593  Push "gotoAndStop"
+  1598  CallMethod
+  1599  Pop
+  1600  End

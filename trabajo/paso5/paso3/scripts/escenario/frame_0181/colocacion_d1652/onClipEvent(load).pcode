@@ -1,0 +1,8 @@
+// onClipEvent(load)
+// origen: escenario fotograma 181, clip en profundidad 1652 (06982_PlaceObject2.bin)
+
+    26  Push "", 6, 99
+    41  SetProperty
+    42  Push "frameGo", undef
+    55  SetVariable
+    56  End

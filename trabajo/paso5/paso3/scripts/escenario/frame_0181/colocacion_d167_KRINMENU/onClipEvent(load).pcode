@@ -1,0 +1,48 @@
+// onClipEvent(load)
+// origen: escenario fotograma 181, clip en profundidad 167 (06961_PlaceObject3.bin)
+
+   105  ConstantPool (12)
+   199  Push "vbbc0", "_root"
+   206  GetVariable
+   207  Push "KrinLang"
+   212  GetMember
+   213  Push "_root"
+   218  GetVariable
+   219  Push "KLangChoosen"
+   224  GetMember
+   225  GetMember
+   226  Push "MENU"
+   231  GetMember
+   232  Push 14
+   240  GetMember
+   241  SetVariable
+   242  Push "_root"
+   247  GetVariable
+   248  Push "winCondition"
+   253  GetMember
+   254  Push 1
+   262  Equals2
+   263  Not
+   264  If loc331
+   269  Push "_root"
+   274  GetVariable
+   275  Push "winCondition", -1
+   285  SetMember
+   286  Push "win", 1, "this"
+   298  GetVariable
+   299  Push "gotoAndStop"
+   304  CallMethod
+   305  Pop
+   306  Push "_root"
+   311  GetVariable
+   312  Push "Krin"
+   317  GetMember
+   318  Push "Pause", true
+   325  SetMember
+   326  Jump loc351
+   331  Push "hide", 1, "this"
+   343  GetVariable
+   344  Push "gotoAndStop"
+   349  CallMethod
+   350  Pop
+   351  End

@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_161_NumberFixer fotograma 68, DoAction (00313_DefineSprite_161.bin, byte 1322)
+
+  1322  Push "this"
+  1331  GetVariable
+  1332  RemoveSprite
+  1333  End

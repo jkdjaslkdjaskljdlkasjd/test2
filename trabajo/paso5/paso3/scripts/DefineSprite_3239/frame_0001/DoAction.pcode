@@ -1,0 +1,10 @@
+// DoAction
+// origen: DefineSprite_3239 fotograma 1, DoAction (06960_DefineSprite_3239.bin, byte 10)
+
+    10  Push 0
+    18  Push "_root"
+    28  GetVariable
+    29  Push "__v92Cleanup"
+    46  CallMethod
+    47  Pop
+    48  End

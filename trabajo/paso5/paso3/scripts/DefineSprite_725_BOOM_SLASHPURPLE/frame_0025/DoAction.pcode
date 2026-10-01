@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_725_BOOM_SLASHPURPLE fotograma 25, DoAction (01112_DefineSprite_725.bin, byte 205)
+
+   205  Push "", "this"
+   216  GetVariable
+   217  GetURL2 64
+   221  End

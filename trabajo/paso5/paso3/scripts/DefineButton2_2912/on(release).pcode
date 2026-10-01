@@ -1,0 +1,81 @@
+// on(release)
+// origen: boton 2912 (06608_DefineButton2_2912.bin)
+
+    38  ConstantPool (15)
+   192  Push "_root"
+   197  GetVariable
+   198  Push "Krin"
+   203  GetMember
+   204  Push "mouseItem"
+   209  GetMember
+   210  Push 0
+   222  Equals2
+   223  Not
+   224  If loc367
+   229  Push "_root"
+   234  GetVariable
+   235  Push "Krin"
+   240  GetMember
+   241  Push "PauseForScreen"
+   246  GetMember
+   247  Push true
+   252  Equals2
+   253  Not
+   254  Not
+   255  If loc362
+   260  Push "_root"
+   265  GetVariable
+   266  Push "Krin"
+   271  GetMember
+   272  Push "dataMode", "save"
+   279  SetMember
+   280  Push "_root"
+   285  GetVariable
+   286  Push "Krin"
+   291  GetMember
+   292  Push "slotInUse"
+   297  GetMember
+   298  Push 1, "_root"
+   308  GetVariable
+   309  Push "krinHandleData"
+   314  CallMethod
+   315  Pop
+   316  Push "_root"
+   321  GetVariable
+   322  Push "Krin"
+   327  GetMember
+   328  Push "slotInUse"
+   333  GetMember
+   334  Trace
+   335  Push 0, 1, "_root"
+   354  GetVariable
+   355  Push "krinNavHideUI"
+   360  CallMethod
+   361  Pop
+   362  Jump loc450
+   367  Push 0, "_root"
+   381  GetVariable
+   382  Push "KrinCombatText"
+   387  GetMember
+   388  Push "play"
+   393  CallMethod
+   394  Pop
+   395  Push "_root"
+   400  GetVariable
+   401  Push "KrinCombatText"
+   406  GetMember
+   407  Push "combatTexter", "_root"
+   414  GetVariable
+   415  Push "KrinLang"
+   420  GetMember
+   421  Push "_root"
+   426  GetVariable
+   427  Push "KLangChoosen"
+   432  GetMember
+   433  GetMember
+   434  Push "MENU"
+   439  GetMember
+   440  Push 66
+   448  GetMember
+   449  SetMember
+   450  End

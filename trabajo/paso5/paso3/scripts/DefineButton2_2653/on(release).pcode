@@ -1,0 +1,684 @@
+// on(release)
+// origen: boton 2653 (05980_DefineButton2_2653.bin)
+
+    17  ConstantPool (65)
+   666  Push "arenaMode", true
+   673  SetVariable
+   674  Push "currentArenaPlayer", 1
+   684  SetVariable
+   685  Push "_root"
+   690  GetVariable
+   691  Push "Krin"
+   696  GetMember
+   697  Push "dataMode", "load"
+   704  SetMember
+   705  Push "arenaPlayer1", 0, "Object"
+   721  NewObject
+   722  SetVariable
+   723  Push "arenaPlayer1"
+   728  GetVariable
+   729  Push "questProgress", 0, "Array"
+   745  NewObject
+   746  SetMember
+   747  Push "arenaPlayer1"
+   752  GetVariable
+   753  Push "PER", 0, "Object"
+   769  NewObject
+   770  SetMember
+   771  Push "arenaPlayer1"
+   776  GetVariable
+   777  Push "PER"
+   782  GetMember
+   783  Push "Physical", 100
+   793  SetMember
+   794  Push "arenaPlayer1"
+   799  GetVariable
+   800  Push "PER"
+   805  GetMember
+   806  Push "Magic", 100
+   816  SetMember
+   817  Push "arenaPlayer1"
+   822  GetVariable
+   823  Push "PER"
+   828  GetMember
+   829  Push "Ice", 100
+   839  SetMember
+   840  Push "arenaPlayer1"
+   845  GetVariable
+   846  Push "PER"
+   851  GetMember
+   852  Push "Fire", 100
+   862  SetMember
+   863  Push "arenaPlayer1"
+   868  GetVariable
+   869  Push "PER"
+   874  GetMember
+   875  Push "Lightning", 100
+   885  SetMember
+   886  Push "arenaPlayer1"
+   891  GetVariable
+   892  Push "PER"
+   897  GetMember
+   898  Push "Earth", 100
+   908  SetMember
+   909  Push "arenaPlayer1"
+   914  GetVariable
+   915  Push "PER"
+   920  GetMember
+   921  Push "Shadow", 100
+   931  SetMember
+   932  Push "arenaPlayer1"
+   937  GetVariable
+   938  Push "PER"
+   943  GetMember
+   944  Push "Poison", 100
+   954  SetMember
+   955  Push "arenaPlayer1"
+   960  GetVariable
+   961  Push "DEF", 0, "Object"
+   977  NewObject
+   978  SetMember
+   979  Push "arenaPlayer1"
+   984  GetVariable
+   985  Push "DEF"
+   990  GetMember
+   991  Push "Physical", 100
+  1001  SetMember
+  1002  Push "arenaPlayer1"
+  1007  GetVariable
+  1008  Push "DEF"
+  1013  GetMember
+  1014  Push "Magic", 100
+  1024  SetMember
+  1025  Push "arenaPlayer1"
+  1030  GetVariable
+  1031  Push "DEF"
+  1036  GetMember
+  1037  Push "Ice", 100
+  1047  SetMember
+  1048  Push "arenaPlayer1"
+  1053  GetVariable
+  1054  Push "DEF"
+  1059  GetMember
+  1060  Push "Fire", 100
+  1070  SetMember
+  1071  Push "arenaPlayer1"
+  1076  GetVariable
+  1077  Push "DEF"
+  1082  GetMember
+  1083  Push "Lightning", 100
+  1093  SetMember
+  1094  Push "arenaPlayer1"
+  1099  GetVariable
+  1100  Push "DEF"
+  1105  GetMember
+  1106  Push "Earth", 100
+  1116  SetMember
+  1117  Push "arenaPlayer1"
+  1122  GetVariable
+  1123  Push "DEF"
+  1128  GetMember
+  1129  Push "Shadow", 100
+  1139  SetMember
+  1140  Push "arenaPlayer1"
+  1145  GetVariable
+  1146  Push "DEF"
+  1151  GetMember
+  1152  Push "Poison", 100
+  1162  SetMember
+  1163  Push "arenaPlayer1"
+  1168  GetVariable
+  1169  Push "agArray0", 0, "Array"
+  1185  NewObject
+  1186  SetMember
+  1187  Push "arenaPlayer1"
+  1192  GetVariable
+  1193  Push "agArray1", 0, "Array"
+  1209  NewObject
+  1210  SetMember
+  1211  Push "arenaPlayer1"
+  1216  GetVariable
+  1217  Push "agArray2", 0, "Array"
+  1233  NewObject
+  1234  SetMember
+  1235  Push "arenaPlayer1"
+  1240  GetVariable
+  1241  Push "agArray3", 0, "Array"
+  1257  NewObject
+  1258  SetMember
+  1259  Push "arenaPlayer1"
+  1264  GetVariable
+  1265  Push "agArray4", 0, "Array"
+  1281  NewObject
+  1282  SetMember
+  1283  Push "arenaPlayer1"
+  1288  GetVariable
+  1289  Push "agArray5", 0, "Array"
+  1305  NewObject
+  1306  SetMember
+  1307  Push "arenaPlayer1"
+  1312  GetVariable
+  1313  Push "agMode", 0, "Array"
+  1329  NewObject
+  1330  SetMember
+  1331  Push "arenaPlayer1"
+  1336  GetVariable
+  1337  Push "moveMatrix", 0, "Array"
+  1353  NewObject
+  1354  SetMember
+  1355  Push "arenaPlayer1"
+  1360  GetVariable
+  1361  Push "moveMatrix2", 0, "Array"
+  1377  NewObject
+  1378  SetMember
+  1379  Push "arenaPlayer1"
+  1384  GetVariable
+  1385  Push "moveMatrix2Limit", 0, "Array"
+  1401  NewObject
+  1402  SetMember
+  1403  Push "arenaPlayer1"
+  1408  GetVariable
+  1409  Push "talentMainArray", 0, "Array"
+  1425  NewObject
+  1426  SetMember
+  1427  Push "arenaPlayer1"
+  1432  GetVariable
+  1433  Push "skillAdderMatrix", 0, "Array"
+  1449  NewObject
+  1450  SetMember
+  1451  Push "arenaPlayer1"
+  1456  GetVariable
+  1457  Push "skillAdderMatrixOld", 0, "Array"
+  1473  NewObject
+  1474  SetMember
+  1475  Push "arenaPlayer1"
+  1480  GetVariable
+  1481  Push "buffAdderMatrix", 0, "Array"
+  1497  NewObject
+  1498  SetMember
+  1499  Push "arenaPlayer1"
+  1504  GetVariable
+  1505  Push "itemArray", 0, "Array"
+  1521  NewObject
+  1522  SetMember
+  1523  Push "arenaPlayer1"
+  1528  GetVariable
+  1529  Push "friendArray", 0, "Array"
+  1545  NewObject
+  1546  SetMember
+  1547  Push "arenaPlayer1"
+  1552  GetVariable
+  1553  Push "LevelStats", 0, "Array"
+  1569  NewObject
+  1570  SetMember
+  1571  Push "arenaPlayer1"
+  1576  GetVariable
+  1577  Push "equipArray0", 0, "Array"
+  1593  NewObject
+  1594  SetMember
+  1595  Push "arenaPlayer1"
+  1600  GetVariable
+  1601  Push "equipArray1", 0, "Array"
+  1617  NewObject
+  1618  SetMember
+  1619  Push "arenaPlayer1"
+  1624  GetVariable
+  1625  Push "equipArray2", 0, "Array"
+  1641  NewObject
+  1642  SetMember
+  1643  Push "arenaPlayer1"
+  1648  GetVariable
+  1649  Push "equipArray3", 0, "Array"
+  1665  NewObject
+  1666  SetMember
+  1667  Push "arenaPlayer1"
+  1672  GetVariable
+  1673  Push "equipArray4", 0, "Array"
+  1689  NewObject
+  1690  SetMember
+  1691  Push "arenaPlayer1"
+  1696  GetVariable
+  1697  Push "equipArray5", 0, "Array"
+  1713  NewObject
+  1714  SetMember
+  1715  Push "arenaPlayer1"
+  1720  GetVariable
+  1721  Push "PerSets0", 0, "Array"
+  1737  NewObject
+  1738  SetMember
+  1739  Push "arenaPlayer1"
+  1744  GetVariable
+  1745  Push "PerSets1", 0, "Array"
+  1761  NewObject
+  1762  SetMember
+  1763  Push "arenaPlayer1"
+  1768  GetVariable
+  1769  Push "PerSets2", 0, "Array"
+  1785  NewObject
+  1786  SetMember
+  1787  Push "arenaPlayer1"
+  1792  GetVariable
+  1793  Push "PerSets3", 0, "Array"
+  1809  NewObject
+  1810  SetMember
+  1811  Push "arenaPlayer1"
+  1816  GetVariable
+  1817  Push "PerSets4", 0, "Array"
+  1833  NewObject
+  1834  SetMember
+  1835  Push "arenaPlayer1"
+  1840  GetVariable
+  1841  Push "PerSets5", 0, "Array"
+  1857  NewObject
+  1858  SetMember
+  1859  Push "arenaPlayer1"
+  1864  GetVariable
+  1865  Push "DefSets0", 0, "Array"
+  1881  NewObject
+  1882  SetMember
+  1883  Push "arenaPlayer1"
+  1888  GetVariable
+  1889  Push "DefSets1", 0, "Array"
+  1905  NewObject
+  1906  SetMember
+  1907  Push "arenaPlayer1"
+  1912  GetVariable
+  1913  Push "DefSets2", 0, "Array"
+  1929  NewObject
+  1930  SetMember
+  1931  Push "arenaPlayer1"
+  1936  GetVariable
+  1937  Push "DefSets3", 0, "Array"
+  1953  NewObject
+  1954  SetMember
+  1955  Push "arenaPlayer1"
+  1960  GetVariable
+  1961  Push "DefSets4", 0, "Array"
+  1977  NewObject
+  1978  SetMember
+  1979  Push "arenaPlayer1"
+  1984  GetVariable
+  1985  Push "DefSets5", 0, "Array"
+  2001  NewObject
+  2002  SetMember
+  2003  Push "arenaPlayer1"
+  2008  GetVariable
+  2009  Push "StatSets0", 0, "Array"
+  2025  NewObject
+  2026  SetMember
+  2027  Push "arenaPlayer1"
+  2032  GetVariable
+  2033  Push "StatSets1", 0, "Array"
+  2049  NewObject
+  2050  SetMember
+  2051  Push "arenaPlayer1"
+  2056  GetVariable
+  2057  Push "StatSets2", 0, "Array"
+  2073  NewObject
+  2074  SetMember
+  2075  Push "arenaPlayer1"
+  2080  GetVariable
+  2081  Push "StatSets3", 0, "Array"
+  2097  NewObject
+  2098  SetMember
+  2099  Push "arenaPlayer1"
+  2104  GetVariable
+  2105  Push "StatSets4", 0, "Array"
+  2121  NewObject
+  2122  SetMember
+  2123  Push "arenaPlayer1"
+  2128  GetVariable
+  2129  Push "StatSets5", 0, "Array"
+  2145  NewObject
+  2146  SetMember
+  2147  Push "arenaPlayer1"
+  2152  GetVariable
+  2153  Push "friendArrayX", 0, "Array"
+  2169  NewObject
+  2170  SetMember
+  2171  Push "arenaPlayer1"
+  2176  GetVariable
+  2177  Push "ExpSets", 0, "Array"
+  2193  NewObject
+  2194  SetMember
+  2195  Push "arenaPlayer1"
+  2200  GetVariable
+  2201  Push "ClassStats", 0, "Array"
+  2217  NewObject
+  2218  SetMember
+  2219  Push "arenaPlayer2", 0, "Object"
+  2235  NewObject
+  2236  SetVariable
+  2237  Push "arenaPlayer2"
+  2242  GetVariable
+  2243  Push "questProgress", 0, "Array"
+  2259  NewObject
+  2260  SetMember
+  2261  Push "arenaPlayer2"
+  2266  GetVariable
+  2267  Push "PER", 0, "Object"
+  2283  NewObject
+  2284  SetMember
+  2285  Push "arenaPlayer2"
+  2290  GetVariable
+  2291  Push "PER"
+  2296  GetMember
+  2297  Push "Physical", 100
+  2307  SetMember
+  2308  Push "arenaPlayer2"
+  2313  GetVariable
+  2314  Push "PER"
+  2319  GetMember
+  2320  Push "Magic", 100
+  2330  SetMember
+  2331  Push "arenaPlayer2"
+  2336  GetVariable
+  2337  Push "PER"
+  2342  GetMember
+  2343  Push "Ice", 100
+  2353  SetMember
+  2354  Push "arenaPlayer2"
+  2359  GetVariable
+  2360  Push "PER"
+  2365  GetMember
+  2366  Push "Fire", 100
+  2376  SetMember
+  2377  Push "arenaPlayer2"
+  2382  GetVariable
+  2383  Push "PER"
+  2388  GetMember
+  2389  Push "Lightning", 100
+  2399  SetMember
+  2400  Push "arenaPlayer2"
+  2405  GetVariable
+  2406  Push "PER"
+  2411  GetMember
+  2412  Push "Earth", 100
+  2422  SetMember
+  2423  Push "arenaPlayer2"
+  2428  GetVariable
+  2429  Push "PER"
+  2434  GetMember
+  2435  Push "Shadow", 100
+  2445  SetMember
+  2446  Push "arenaPlayer2"
+  2451  GetVariable
+  2452  Push "PER"
+  2457  GetMember
+  2458  Push "Poison", 100
+  2468  SetMember
+  2469  Push "arenaPlayer2"
+  2474  GetVariable
+  2475  Push "DEF", 0, "Object"
+  2491  NewObject
+  2492  SetMember
+  2493  Push "arenaPlayer2"
+  2498  GetVariable
+  2499  Push "DEF"
+  2504  GetMember
+  2505  Push "Physical", 100
+  2515  SetMember
+  2516  Push "arenaPlayer2"
+  2521  GetVariable
+  2522  Push "DEF"
+  2527  GetMember
+  2528  Push "Magic", 100
+  2538  SetMember
+  2539  Push "arenaPlayer2"
+  2544  GetVariable
+  2545  Push "DEF"
+  2550  GetMember
+  2551  Push "Ice", 100
+  2561  SetMember
+  2562  Push "arenaPlayer2"
+  2567  GetVariable
+  2568  Push "DEF"
+  2573  GetMember
+  2574  Push "Fire", 100
+  2584  SetMember
+  2585  Push "arenaPlayer2"
+  2590  GetVariable
+  2591  Push "DEF"
+  2596  GetMember
+  2597  Push "Lightning", 100
+  2607  SetMember
+  2608  Push "arenaPlayer2"
+  2613  GetVariable
+  2614  Push "DEF"
+  2619  GetMember
+  2620  Push "Earth", 100
+  2630  SetMember
+  2631  Push "arenaPlayer2"
+  2636  GetVariable
+  2637  Push "DEF"
+  2642  GetMember
+  2643  Push "Shadow", 100
+  2653  SetMember
+  2654  Push "arenaPlayer2"
+  2659  GetVariable
+  2660  Push "DEF"
+  2665  GetMember
+  2666  Push "Poison", 100
+  2676  SetMember
+  2677  Push "arenaPlayer2"
+  2682  GetVariable
+  2683  Push "agArray0", 0, "Array"
+  2699  NewObject
+  2700  SetMember
+  2701  Push "arenaPlayer2"
+  2706  GetVariable
+  2707  Push "agArray1", 0, "Array"
+  2723  NewObject
+  2724  SetMember
+  2725  Push "arenaPlayer2"
+  2730  GetVariable
+  2731  Push "agArray2", 0, "Array"
+  2747  NewObject
+  2748  SetMember
+  2749  Push "arenaPlayer2"
+  2754  GetVariable
+  2755  Push "agArray3", 0, "Array"
+  2771  NewObject
+  2772  SetMember
+  2773  Push "arenaPlayer2"
+  2778  GetVariable
+  2779  Push "agArray4", 0, "Array"
+  2795  NewObject
+  2796  SetMember
+  2797  Push "arenaPlayer2"
+  2802  GetVariable
+  2803  Push "agArray5", 0, "Array"
+  2819  NewObject
+  2820  SetMember
+  2821  Push "arenaPlayer2"
+  2826  GetVariable
+  2827  Push "agMode", 0, "Array"
+  2843  NewObject
+  2844  SetMember
+  2845  Push "arenaPlayer2"
+  2850  GetVariable
+  2851  Push "moveMatrix", 0, "Array"
+  2867  NewObject
+  2868  SetMember
+  2869  Push "arenaPlayer2"
+  2874  GetVariable
+  2875  Push "moveMatrix2", 0, "Array"
+  2891  NewObject
+  2892  SetMember
+  2893  Push "arenaPlayer2"
+  2898  GetVariable
+  2899  Push "moveMatrix2Limit", 0, "Array"
+  2915  NewObject
+  2916  SetMember
+  2917  Push "arenaPlayer2"
+  2922  GetVariable
+  2923  Push "talentMainArray", 0, "Array"
+  2939  NewObject
+  2940  SetMember
+  2941  Push "arenaPlayer2"
+  2946  GetVariable
+  2947  Push "skillAdderMatrix", 0, "Array"
+  2963  NewObject
+  2964  SetMember
+  2965  Push "arenaPlayer2"
+  2970  GetVariable
+  2971  Push "skillAdderMatrixOld", 0, "Array"
+  2987  NewObject
+  2988  SetMember
+  2989  Push "arenaPlayer2"
+  2994  GetVariable
+  2995  Push "buffAdderMatrix", 0, "Array"
+  3011  NewObject
+  3012  SetMember
+  3013  Push "arenaPlayer2"
+  3018  GetVariable
+  3019  Push "itemArray", 0, "Array"
+  3035  NewObject
+  3036  SetMember
+  3037  Push "arenaPlayer2"
+  3042  GetVariable
+  3043  Push "friendArray", 0, "Array"
+  3059  NewObject
+  3060  SetMember
+  3061  Push "arenaPlayer2"
+  3066  GetVariable
+  3067  Push "LevelStats", 0, "Array"
+  3083  NewObject
+  3084  SetMember
+  3085  Push "arenaPlayer2"
+  3090  GetVariable
+  3091  Push "equipArray0", 0, "Array"
+  3107  NewObject
+  3108  SetMember
+  3109  Push "arenaPlayer2"
+  3114  GetVariable
+  3115  Push "equipArray1", 0, "Array"
+  3131  NewObject
+  3132  SetMember
+  3133  Push "arenaPlayer2"
+  3138  GetVariable
+  3139  Push "equipArray2", 0, "Array"
+  3155  NewObject
+  3156  SetMember
+  3157  Push "arenaPlayer2"
+  3162  GetVariable
+  3163  Push "equipArray3", 0, "Array"
+  3179  NewObject
+  3180  SetMember
+  3181  Push "arenaPlayer2"
+  3186  GetVariable
+  3187  Push "equipArray4", 0, "Array"
+  3203  NewObject
+  3204  SetMember
+  3205  Push "arenaPlayer2"
+  3210  GetVariable
+  3211  Push "equipArray5", 0, "Array"
+  3227  NewObject
+  3228  SetMember
+  3229  Push "arenaPlayer2"
+  3234  GetVariable
+  3235  Push "PerSets0", 0, "Array"
+  3251  NewObject
+  3252  SetMember
+  3253  Push "arenaPlayer2"
+  3258  GetVariable
+  3259  Push "PerSets1", 0, "Array"
+  3275  NewObject
+  3276  SetMember
+  3277  Push "arenaPlayer2"
+  3282  GetVariable
+  3283  Push "PerSets2", 0, "Array"
+  3299  NewObject
+  3300  SetMember
+  3301  Push "arenaPlayer2"
+  3306  GetVariable
+  3307  Push "PerSets3", 0, "Array"
+  3323  NewObject
+  3324  SetMember
+  3325  Push "arenaPlayer2"
+  3330  GetVariable
+  3331  Push "PerSets4", 0, "Array"
+  3347  NewObject
+  3348  SetMember
+  3349  Push "arenaPlayer2"
+  3354  GetVariable
+  3355  Push "PerSets5", 0, "Array"
+  3371  NewObject
+  3372  SetMember
+  3373  Push "arenaPlayer2"
+  3378  GetVariable
+  3379  Push "DefSets0", 0, "Array"
+  3395  NewObject
+  3396  SetMember
+  3397  Push "arenaPlayer2"
+  3402  GetVariable
+  3403  Push "DefSets1", 0, "Array"
+  3419  NewObject
+  3420  SetMember
+  3421  Push "arenaPlayer2"
+  3426  GetVariable
+  3427  Push "DefSets2", 0, "Array"
+  3443  NewObject
+  3444  SetMember
+  3445  Push "arenaPlayer2"
+  3450  GetVariable
+  3451  Push "DefSets3", 0, "Array"
+  3467  NewObject
+  3468  SetMember
+  3469  Push "arenaPlayer2"
+  3474  GetVariable
+  3475  Push "DefSets4", 0, "Array"
+  3491  NewObject
+  3492  SetMember
+  3493  Push "arenaPlayer2"
+  3498  GetVariable
+  3499  Push "DefSets5", 0, "Array"
+  3515  NewObject
+  3516  SetMember
+  3517  Push "arenaPlayer2"
+  3522  GetVariable
+  3523  Push "StatSets0", 0, "Array"
+  3539  NewObject
+  3540  SetMember
+  3541  Push "arenaPlayer2"
+  3546  GetVariable
+  3547  Push "StatSets1", 0, "Array"
+  3563  NewObject
+  3564  SetMember
+  3565  Push "arenaPlayer2"
+  3570  GetVariable
+  3571  Push "StatSets2", 0, "Array"
+  3587  NewObject
+  3588  SetMember
+  3589  Push "arenaPlayer2"
+  3594  GetVariable
+  3595  Push "StatSets3", 0, "Array"
+  3611  NewObject
+  3612  SetMember
+  3613  Push "arenaPlayer2"
+  3618  GetVariable
+  3619  Push "StatSets4", 0, "Array"
+  3635  NewObject
+  3636  SetMember
+  3637  Push "arenaPlayer2"
+  3642  GetVariable
+  3643  Push "StatSets5", 0, "Array"
+  3659  NewObject
+  3660  SetMember
+  3661  Push "arenaPlayer2"
+  3666  GetVariable
+  3667  Push "friendArrayX", 0, "Array"
+  3683  NewObject
+  3684  SetMember
+  3685  Push "arenaPlayer2"
+  3690  GetVariable
+  3691  Push "ExpSets", 0, "Array"
+  3707  NewObject
+  3708  SetMember
+  3709  Push "arenaPlayer2"
+  3714  GetVariable
+  3715  Push "ClassStats", 0, "Array"
+  3731  NewObject
+  3732  SetMember
+  3733  GoToLabel 'dataMenu'
+  3745  End

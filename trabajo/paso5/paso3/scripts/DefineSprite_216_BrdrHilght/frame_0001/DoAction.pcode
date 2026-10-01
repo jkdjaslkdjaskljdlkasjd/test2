@@ -1,0 +1,15 @@
+// DoAction
+// origen: DefineSprite_216_BrdrHilght fotograma 1, DoAction (00376_DefineSprite_216.bin, byte 20)
+
+    20  Push "highlightColor", "this"
+    45  GetVariable
+    46  Push 2, "mx"
+    58  GetVariable
+    59  Push "skins"
+    69  GetMember
+    70  Push "ColoredSkinElement"
+    93  GetMember
+    94  Push "setColorStyle"
+   112  CallMethod
+   113  Pop
+   114  End

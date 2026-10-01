@@ -1,0 +1,8 @@
+// DoAction
+// origen: DefineSprite_204 fotograma 33, DoAction (00358_DefineSprite_204.bin, byte 490)
+
+   490  Stop
+   491  Push "", "_parent"
+   505  GetVariable
+   506  GetURL2 64
+   510  End

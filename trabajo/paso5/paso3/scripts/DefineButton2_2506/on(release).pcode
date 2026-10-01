@@ -1,0 +1,13 @@
+// on(release)
+// origen: boton 2506 (04109_DefineButton2_2506.bin)
+
+    17  Push "stance"
+    28  GetVariable
+    29  Push 1, "player6"
+    46  GetVariable
+    47  Push "inner"
+    57  GetMember
+    58  Push "gotoAndPlay"
+    74  CallMethod
+    75  Pop
+    76  End

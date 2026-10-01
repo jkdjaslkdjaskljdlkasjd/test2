@@ -1,0 +1,76 @@
+// DoAction
+// origen: escenario fotograma 124, DoAction (06293_DoAction.bin)
+
+     0  ConstantPool (11)
+    83  Push "xRx1", "_root"
+    90  GetVariable
+    91  Push "KrinLang"
+    96  GetMember
+    97  Push "KLangChoosen"
+   102  GetVariable
+   103  GetMember
+   104  Push "MANUAL"
+   109  GetMember
+   110  Push 0
+   122  GetMember
+   123  SetVariable
+   124  Push "xRx2", "_root"
+   131  GetVariable
+   132  Push "KrinLang"
+   137  GetMember
+   138  Push "KLangChoosen"
+   143  GetVariable
+   144  GetMember
+   145  Push "MANUAL"
+   150  GetMember
+   151  Push 1
+   159  GetMember
+   160  SetVariable
+   161  Push "xRx3", "_root"
+   168  GetVariable
+   169  Push "KrinLang"
+   174  GetMember
+   175  Push "KLangChoosen"
+   180  GetVariable
+   181  GetMember
+   182  Push "MANUAL"
+   187  GetMember
+   188  Push 2
+   196  GetMember
+   197  SetVariable
+   198  Push "xRx4", "_root"
+   205  GetVariable
+   206  Push "KrinLang"
+   211  GetMember
+   212  Push "KLangChoosen"
+   217  GetVariable
+   218  GetMember
+   219  Push "MANUAL"
+   224  GetMember
+   225  Push 3
+   233  GetMember
+   234  SetVariable
+   235  Push "xRx5", "_root"
+   242  GetVariable
+   243  Push "KrinLang"
+   248  GetMember
+   249  Push "KLangChoosen"
+   254  GetVariable
+   255  GetMember
+   256  Push "MANUAL"
+   261  GetMember
+   262  Push 4
+   270  GetMember
+   271  SetVariable
+   272  Push "xRx6", "_root"
+   279  GetVariable
+   280  Push "KrinLang"
+   285  GetMember
+   286  Push "KLangChoosen"
+   291  GetVariable
+   292  GetMember
+   293  Push "EXPLAINEXTRA"
+   298  GetMember
+   299  SetVariable
+   300  Stop
+   301  End

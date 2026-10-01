@@ -1,0 +1,220 @@
+// DoAction
+// origen: escenario fotograma 42, DoAction (04083_DoAction.bin)
+
+     0  ConstantPool (35)
+   768  Push "Krin"
+   773  GetVariable
+   774  Push "highestZoneDefeated", 0
+   788  SetMember
+   789  Push "Krin"
+   794  GetVariable
+   795  Push "numberOfRespecUsed", 0
+   809  SetMember
+   810  Push "Krin"
+   815  GetVariable
+   816  Push "numberOfTrainingUsed", 0
+   830  SetMember
+   831  Push "Krin"
+   836  GetVariable
+   837  Push "topDamagePhysical", 0
+   851  SetMember
+   852  Push "Krin"
+   857  GetVariable
+   858  Push "topDamageElemental", 0
+   872  SetMember
+   873  Push "checkAndUpdateZoneAchievements"
+   878  DefineFunction2 "" () regs=2 flags=0x6a {
+      889  Push "Krin"
+      894  GetVariable
+      895  Push "highestZoneDefeated"
+      900  GetMember
+      901  Push 1
+      909  Less2
+      910  Not
+      911  Not
+      912  If loc933
+      917  Push "ACH_S2_BEAT_ZONE_1", 1, register1, "sendAchievement"
+      931  CallMethod
+      932  Pop
+      933  Push "Krin"
+      938  GetVariable
+      939  Push "highestZoneDefeated"
+      944  GetMember
+      945  Push 2
+      953  Less2
+      954  Not
+      955  Not
+      956  If loc977
+      961  Push "ACH_S2_BEAT_ZONE_2", 1, register1, "sendAchievement"
+      975  CallMethod
+      976  Pop
+      977  Push "Krin"
+      982  GetVariable
+      983  Push "highestZoneDefeated"
+      988  GetMember
+      989  Push 3
+      997  Less2
+      998  Not
+      999  Not
+     1000  If loc1021
+     1005  Push "ACH_S2_BEAT_ZONE_3", 1, register1, "sendAchievement"
+     1019  CallMethod
+     1020  Pop
+     1021  Push "Krin"
+     1026  GetVariable
+     1027  Push "highestZoneDefeated"
+     1032  GetMember
+     1033  Push 4
+     1041  Less2
+     1042  Not
+     1043  Not
+     1044  If loc1065
+     1049  Push "ACH_S2_BEAT_ZONE_4", 1, register1, "sendAchievement"
+     1063  CallMethod
+     1064  Pop
+     1065  Push "Krin"
+     1070  GetVariable
+     1071  Push "highestZoneDefeated"
+     1076  GetMember
+     1077  Push 5
+     1085  Less2
+     1086  Not
+     1087  Not
+     1088  If loc1109
+     1093  Push "ACH_S2_BEAT_ZONE_5", 1, register1, "sendAchievement"
+     1107  CallMethod
+     1108  Pop
+     1109  Push "Krin"
+     1114  GetVariable
+     1115  Push "highestZoneDefeated"
+     1120  GetMember
+     1121  Push 6
+     1129  Less2
+     1130  Not
+     1131  Not
+     1132  If loc1153
+     1137  Push "ACH_S2_BEAT_ZONE_6", 1, register1, "sendAchievement"
+     1151  CallMethod
+     1152  Pop
+     1153  Push "Krin"
+     1158  GetVariable
+     1159  Push "highestZoneDefeated"
+     1164  GetMember
+     1165  Push 7
+     1173  Less2
+     1174  Not
+     1175  Not
+     1176  If loc1197
+     1181  Push "ACH_S2_BEAT_ZONE_7", 1, register1, "sendAchievement"
+     1195  CallMethod
+     1196  Pop
+        }
+  1197  SetVariable
+  1198  Push "updateSonny2AchByIndex"
+  1203  DefineFunction2 "" (r4:achId) regs=5 flags=0x6a {
+     1221  Push "ACH_S2_BEAT_ZONE_7", "ACH_S2_SOLO_NOSTALGIA", "ACH_S2_TIME_BOMB_UNDER_40", "ACH_S2_BEAT_WARDEN_DUO", "ACH_S2_ALL_CLASSES", "ACH_S2_BEAT_MAYOR_CLEAN", "ACH_S2_BEAT_HUNT_CLEAN", "ACH_S2_SUPPORT_HYDRA", "ACH_S2_SOLO_CLEMONS", "ACH_S2_BEAT_ZONE_1", 10
+     1249  InitArray
+     1250  StoreRegister 3
+     1254  Pop
+     1255  Push "Updating Original Sonny 2 Ach ID: ", register4
+     1262  Add2
+     1263  Trace
+     1264  Push register3, register4
+     1271  GetMember
+     1272  StoreRegister 2
+     1276  Pop
+     1277  Push register2, 1, register1, "sendAchievement"
+     1291  CallMethod
+     1292  Pop
+        }
+  1293  SetVariable
+  1294  Push "updateZoneDefeated"
+  1299  DefineFunction2 "" (r1:zoneId) regs=2 flags=0x2a {
+     1318  Push "Updating Top Zone Defeated: ", register1
+     1325  Add2
+     1326  Trace
+     1327  Push "Updating Top Zone Defeated: ", register1
+     1334  Add2
+     1335  Push 1, "sendWrapperMessage"
+     1345  CallFunction
+     1346  Pop
+     1347  Push register1, "Krin"
+     1354  GetVariable
+     1355  Push "highestZoneDefeated"
+     1360  GetMember
+     1361  Greater
+     1362  Not
+     1363  If loc1382
+     1368  Push "Krin"
+     1373  GetVariable
+     1374  Push "highestZoneDefeated", register1
+     1381  SetMember
+        }
+  1382  SetVariable
+  1383  Push "updateTopPhysicalDamage"
+  1388  DefineFunction2 "" (r2:damage) regs=3 flags=0x6a {
+     1407  Push "Updating Top Physical Damage: ", register2
+     1414  Add2
+     1415  Push " // Current Best: "
+     1420  Add2
+     1421  Push "Krin"
+     1426  GetVariable
+     1427  Push "topDamagePhysical"
+     1432  GetMember
+     1433  Add2
+     1434  Trace
+     1435  Push register2, "Krin"
+     1442  GetVariable
+     1443  Push "topDamagePhysical"
+     1448  GetMember
+     1449  Greater
+     1450  Not
+     1451  If loc1470
+     1456  Push "Krin"
+     1461  GetVariable
+     1462  Push "topDamagePhysical", register2
+     1469  SetMember
+     1470  Push register2, 2000
+     1480  Less2
+     1481  Not
+     1482  Not
+     1483  If loc1504
+     1488  Push "ACH_S2_DEAL_X_PHYSICAL", 1, register1, "sendAchievement"
+     1502  CallMethod
+     1503  Pop
+        }
+  1504  SetVariable
+  1505  Push "updateTopElementalDamage"
+  1510  DefineFunction2 "" (r2:damage) regs=3 flags=0x6a {
+     1529  Push "Updating Top Elemental Damage: ", register2
+     1536  Add2
+     1537  Push " // Current Best: "
+     1542  Add2
+     1543  Push "Krin"
+     1548  GetVariable
+     1549  Push "topDamageElemental"
+     1554  GetMember
+     1555  Add2
+     1556  Trace
+     1557  Push register2, "Krin"
+     1564  GetVariable
+     1565  Push "topDamageElemental"
+     1570  GetMember
+     1571  Greater
+     1572  Not
+     1573  If loc1592
+     1578  Push "Krin"
+     1583  GetVariable
+     1584  Push "topDamageElemental", register2
+     1591  SetMember
+     1592  Push register2, 2000
+     1602  Less2
+     1603  Not
+     1604  Not
+     1605  If loc1626
+     1610  Push "ACH_S2_DEAL_X_ELEMENTAL", 1, register1, "sendAchievement"
+     1624  CallMethod
+     1625  Pop
+        }
+  1626  SetVariable
+  1627  End

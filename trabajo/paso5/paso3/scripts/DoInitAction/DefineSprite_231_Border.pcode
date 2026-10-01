@@ -1,0 +1,11 @@
+// DefineSprite_231_Border
+// origen: DoInitAction del sprite 231 (03810_DoInitAction.bin)
+
+     2  Push "mx.skins.Border"
+    22  GetVariable
+    23  Push "Border", 2, "Object"
+    47  GetVariable
+    48  Push "registerClass"
+    66  CallMethod
+    67  Pop
+    68  End

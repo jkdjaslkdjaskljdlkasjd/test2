@@ -1,0 +1,11 @@
+// DefineSprite_229_UIComponent
+// origen: DoInitAction del sprite 229 (03808_DoInitAction.bin)
+
+     2  Push "mx.core.UIComponent"
+    26  GetVariable
+    27  Push "UIComponent", 2, "Object"
+    56  GetVariable
+    57  Push "registerClass"
+    75  CallMethod
+    76  Pop
+    77  End

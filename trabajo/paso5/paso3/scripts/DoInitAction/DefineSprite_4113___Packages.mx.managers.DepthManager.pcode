@@ -1,0 +1,1646 @@
+// DefineSprite_4113___Packages.mx.managers.DepthManager
+// origen: DoInitAction del sprite 4113 (03738_DoInitAction.bin)
+// 8 salto(s) sin patron reconocible se dejaron como goto.
+
+     2  ConstantPool (58)
+   647  Push "_global"
+   652  GetVariable
+   653  Push "mx"
+   658  GetMember
+   659  Not
+   660  Not
+   661  If loc690
+   666  Push "_global"
+   671  GetVariable
+   672  Push "mx", 0, "Object"
+   688  NewObject
+   689  SetMember
+   690  Pop
+   691  Push "_global"
+   696  GetVariable
+   697  Push "mx"
+   702  GetMember
+   703  Push "managers"
+   708  GetMember
+   709  Not
+   710  Not
+   711  If loc746
+   716  Push "_global"
+   721  GetVariable
+   722  Push "mx"
+   727  GetMember
+   728  Push "managers", 0, "Object"
+   744  NewObject
+   745  SetMember
+   746  Pop
+   747  Push "_global"
+   752  GetVariable
+   753  Push "mx"
+   758  GetMember
+   759  Push "managers"
+   764  GetMember
+   765  Push "DepthManager"
+   770  GetMember
+   771  Not
+   772  Not
+   773  If loc7110
+   778  Push "mx"
+   783  GetVariable
+   784  Push "managers"
+   789  GetMember
+   790  Push "DepthManager"
+   795  DefineFunction2 "" () regs=3 flags=0x129 {
+      806  Push "MovieClip"
+      811  GetVariable
+      812  Push "prototype"
+      817  GetMember
+      818  Push "createClassChildAtDepth", register1, "createClassChildAtDepth"
+      827  GetMember
+      828  SetMember
+      829  Push "MovieClip"
+      834  GetVariable
+      835  Push "prototype"
+      840  GetMember
+      841  Push "createChildAtDepth", register1, "createChildAtDepth"
+      850  GetMember
+      851  SetMember
+      852  Push "MovieClip"
+      857  GetVariable
+      858  Push "prototype"
+      863  GetMember
+      864  Push "setDepthTo", register1, "setDepthTo"
+      873  GetMember
+      874  SetMember
+      875  Push "MovieClip"
+      880  GetVariable
+      881  Push "prototype"
+      886  GetMember
+      887  Push "setDepthAbove", register1, "setDepthAbove"
+      896  GetMember
+      897  SetMember
+      898  Push "MovieClip"
+      903  GetVariable
+      904  Push "prototype"
+      909  GetMember
+      910  Push "setDepthBelow", register1, "setDepthBelow"
+      919  GetMember
+      920  SetMember
+      921  Push "MovieClip"
+      926  GetVariable
+      927  Push "prototype"
+      932  GetMember
+      933  Push "findNextAvailableDepth", register1, "findNextAvailableDepth"
+      942  GetMember
+      943  SetMember
+      944  Push "MovieClip"
+      949  GetVariable
+      950  Push "prototype"
+      955  GetMember
+      956  Push "shuffleDepths", register1, "shuffleDepths"
+      965  GetMember
+      966  SetMember
+      967  Push "MovieClip"
+      972  GetVariable
+      973  Push "prototype"
+      978  GetMember
+      979  Push "getDepthByFlag", register1, "getDepthByFlag"
+      988  GetMember
+      989  SetMember
+      990  Push "MovieClip"
+      995  GetVariable
+      996  Push "prototype"
+     1001  GetMember
+     1002  Push "buildDepthTable", register1, "buildDepthTable"
+     1011  GetMember
+     1012  SetMember
+     1013  Push 1, "createClassChildAtDepth", "MovieClip"
+     1025  GetVariable
+     1026  Push "prototype"
+     1031  GetMember
+     1032  Push 3, register2, "ASSetPropFlags"
+     1044  CallMethod
+     1045  Pop
+     1046  Push 1, "createChildAtDepth", "MovieClip"
+     1058  GetVariable
+     1059  Push "prototype"
+     1064  GetMember
+     1065  Push 3, register2, "ASSetPropFlags"
+     1077  CallMethod
+     1078  Pop
+     1079  Push 1, "setDepthTo", "MovieClip"
+     1091  GetVariable
+     1092  Push "prototype"
+     1097  GetMember
+     1098  Push 3, register2, "ASSetPropFlags"
+     1110  CallMethod
+     1111  Pop
+     1112  Push 1, "setDepthAbove", "MovieClip"
+     1124  GetVariable
+     1125  Push "prototype"
+     1130  GetMember
+     1131  Push 3, register2, "ASSetPropFlags"
+     1143  CallMethod
+     1144  Pop
+     1145  Push 1, "setDepthBelow", "MovieClip"
+     1157  GetVariable
+     1158  Push "prototype"
+     1163  GetMember
+     1164  Push 3, register2, "ASSetPropFlags"
+     1176  CallMethod
+     1177  Pop
+     1178  Push 1, "findNextAvailableDepth", "MovieClip"
+     1190  GetVariable
+     1191  Push "prototype"
+     1196  GetMember
+     1197  Push 3, register2, "ASSetPropFlags"
+     1209  CallMethod
+     1210  Pop
+     1211  Push 1, "shuffleDepths", "MovieClip"
+     1223  GetVariable
+     1224  Push "prototype"
+     1229  GetMember
+     1230  Push 3, register2, "ASSetPropFlags"
+     1242  CallMethod
+     1243  Pop
+     1244  Push 1, "getDepthByFlag", "MovieClip"
+     1256  GetVariable
+     1257  Push "prototype"
+     1262  GetMember
+     1263  Push 3, register2, "ASSetPropFlags"
+     1275  CallMethod
+     1276  Pop
+     1277  Push 1, "buildDepthTable", "MovieClip"
+     1289  GetVariable
+     1290  Push "prototype"
+     1295  GetMember
+     1296  Push 3, register2, "ASSetPropFlags"
+     1308  CallMethod
+     1309  Pop
+        }
+  1310  StoreRegister 1
+  1314  SetMember
+  1315  Push register1, "prototype"
+  1322  GetMember
+  1323  StoreRegister 2
+  1327  Pop
+  1328  Push register1, "sortFunction"
+  1335  DefineFunction2 "" (r2:a, r1:b) regs=3 flags=0x2a {
+     1352  Push 0, register2, "getDepth"
+     1368  CallMethod
+     1369  Push 0, register1, "getDepth"
+     1385  CallMethod
+     1386  Greater
+     1387  Not
+     1388  If loc1402
+     1393  Push 1
+     1401  Return
+     1402  Push -1
+     1410  Return
+        }
+  1411  SetMember
+  1412  Push register1, "test"
+  1419  DefineFunction2 "" (r1:depth) regs=2 flags=0x2a {
+     1437  Push register1, "mx"
+     1444  GetVariable
+     1445  Push "managers"
+     1450  GetMember
+     1451  Push "DepthManager"
+     1456  GetMember
+     1457  Push "reservedDepth"
+     1462  GetMember
+     1463  Equals2
+     1464  Not
+     1465  If loc1481
+     1470  Push false
+     1475  Return
+     1476  Jump loc1487
+     1481  Push true
+     1486  Return
+        }
+  1487  SetMember
+  1488  Push register1, "createClassObjectAtDepth"
+  1495  DefineFunction2 "" (r3:className, r4:depthSpace, r2:initObj) regs=5 flags=0x2a {
+     1538  Push undef
+     1542  StoreRegister 1
+     1546  Pop
+     1547  Push register4
+     1552  StoreRegister 0
+     1556  Push "mx"
+     1561  GetVariable
+     1562  Push "managers"
+     1567  GetMember
+     1568  Push "DepthManager"
+     1573  GetMember
+     1574  Push "kCursor"
+     1579  GetMember
+     1580  StrictEquals
+     1581  If loc1623
+     1586  Push register0, "mx"
+     1593  GetVariable
+     1594  Push "managers"
+     1599  GetMember
+     1600  Push "DepthManager"
+     1605  GetMember
+     1606  Push "kTooltip"
+     1611  GetMember
+     1612  StrictEquals
+     1613  If loc1696
+     1618  Jump loc1769
+     1623  Push register2, "mx"
+     1630  GetVariable
+     1631  Push "managers"
+     1636  GetMember
+     1637  Push "DepthManager"
+     1642  GetMember
+     1643  Push "kTopmost"
+     1648  GetMember
+     1649  Push register3, 3, "mx"
+     1661  GetVariable
+     1662  Push "managers"
+     1667  GetMember
+     1668  Push "DepthManager"
+     1673  GetMember
+     1674  Push "holder"
+     1679  GetMember
+     1680  Push "createClassChildAtDepth"
+     1685  CallMethod
+     1686  StoreRegister 1
+     1690  Pop
+     1691  Jump loc1774
+     1696  Push register2, "mx"
+     1703  GetVariable
+     1704  Push "managers"
+     1709  GetMember
+     1710  Push "DepthManager"
+     1715  GetMember
+     1716  Push "kTop"
+     1721  GetMember
+     1722  Push register3, 3, "mx"
+     1734  GetVariable
+     1735  Push "managers"
+     1740  GetMember
+     1741  Push "DepthManager"
+     1746  GetMember
+     1747  Push "holder"
+     1752  GetMember
+     1753  Push "createClassChildAtDepth"
+     1758  CallMethod
+     1759  StoreRegister 1
+     1763  Pop
+     1764  Jump loc1774
+     1769  Jump loc1774
+     1774  Push register1
+     1779  Return
+        }
+  1780  SetMember
+  1781  Push register1, "createObjectAtDepth"
+  1788  DefineFunction2 "" (r3:linkageName, r4:depthSpace, r2:initObj) regs=5 flags=0x2a {
+     1833  Push undef
+     1837  StoreRegister 1
+     1841  Pop
+     1842  Push register4
+     1847  StoreRegister 0
+     1851  Push "mx"
+     1856  GetVariable
+     1857  Push "managers"
+     1862  GetMember
+     1863  Push "DepthManager"
+     1868  GetMember
+     1869  Push "kCursor"
+     1874  GetMember
+     1875  StrictEquals
+     1876  If loc1918
+     1881  Push register0, "mx"
+     1888  GetVariable
+     1889  Push "managers"
+     1894  GetMember
+     1895  Push "DepthManager"
+     1900  GetMember
+     1901  Push "kTooltip"
+     1906  GetMember
+     1907  StrictEquals
+     1908  If loc1991
+     1913  Jump loc2064
+     1918  Push register2, "mx"
+     1925  GetVariable
+     1926  Push "managers"
+     1931  GetMember
+     1932  Push "DepthManager"
+     1937  GetMember
+     1938  Push "kTopmost"
+     1943  GetMember
+     1944  Push register3, 3, "mx"
+     1956  GetVariable
+     1957  Push "managers"
+     1962  GetMember
+     1963  Push "DepthManager"
+     1968  GetMember
+     1969  Push "holder"
+     1974  GetMember
+     1975  Push "createChildAtDepth"
+     1980  CallMethod
+     1981  StoreRegister 1
+     1985  Pop
+     1986  Jump loc2069
+     1991  Push register2, "mx"
+     1998  GetVariable
+     1999  Push "managers"
+     2004  GetMember
+     2005  Push "DepthManager"
+     2010  GetMember
+     2011  Push "kTop"
+     2016  GetMember
+     2017  Push register3, 3, "mx"
+     2029  GetVariable
+     2030  Push "managers"
+     2035  GetMember
+     2036  Push "DepthManager"
+     2041  GetMember
+     2042  Push "holder"
+     2047  GetMember
+     2048  Push "createChildAtDepth"
+     2053  CallMethod
+     2054  StoreRegister 1
+     2058  Pop
+     2059  Jump loc2069
+     2064  Jump loc2069
+     2069  Push register1
+     2074  Return
+        }
+  2075  SetMember
+  2076  Push register2, "createClassChildAtDepth"
+  2083  DefineFunction2 "" (r9:className, r7:depthFlag, r8:initObj) regs=10 flags=0x29 {
+     2125  Push register1, "_childCounter"
+     2132  GetMember
+     2133  Push undef
+     2137  Equals2
+     2138  Not
+     2139  If loc2161
+     2144  Push register1, "_childCounter", 0
+     2160  SetMember
+     2161  Push 0, register1, "buildDepthTable"
+     2177  CallMethod
+     2178  StoreRegister 3
+     2182  Pop
+     2183  Push register3, register7, 2, register1, "getDepthByFlag"
+     2199  CallMethod
+     2200  StoreRegister 2
+     2204  Pop
+     2205  Push "down"
+     2210  StoreRegister 5
+     2214  Pop
+     2215  Push register7, "mx"
+     2222  GetVariable
+     2223  Push "managers"
+     2228  GetMember
+     2229  Push "DepthManager"
+     2234  GetMember
+     2235  Push "kBottom"
+     2240  GetMember
+     2241  Equals2
+     2242  Not
+     2243  If loc2258
+     2248  Push "up"
+     2253  StoreRegister 5
+     2257  Pop
+     2258  Push undef
+     2262  StoreRegister 6
+     2266  Pop
+     2267  Push register3, register2
+     2274  GetMember
+     2275  Push undef
+     2279  Equals2
+     2280  Not
+     2281  Not
+     2282  If loc2321
+     2287  Push register2
+     2292  StoreRegister 6
+     2296  Pop
+     2297  Push register5, register3, register2, 3, register1, "findNextAvailableDepth"
+     2315  CallMethod
+     2316  StoreRegister 2
+     2320  Pop
+     2321  Push register8, register2, "depthChild", register1, "_childCounter"
+     2334  GetMember
+     2335  Push register1, "_childCounter", register1, "_childCounter"
+     2346  GetMember
+     2347  Increment
+     2348  SetMember
+     2349  Add2
+     2350  Push register9, 4, register1, "createClassObject"
+     2364  CallMethod
+     2365  StoreRegister 4
+     2369  Pop
+     2370  Push register6, undef
+     2376  Equals2
+     2377  Not
+     2378  Not
+     2379  If loc2416
+     2384  Push register3, register2, register4
+     2393  SetMember
+     2394  Push register5, register3, register6, register4, 4, register1, "shuffleDepths"
+     2414  CallMethod
+     2415  Pop
+     2416  Push register7, "mx"
+     2423  GetVariable
+     2424  Push "managers"
+     2429  GetMember
+     2430  Push "DepthManager"
+     2435  GetMember
+     2436  Push "kTopmost"
+     2441  GetMember
+     2442  Equals2
+     2443  Not
+     2444  If loc2459
+     2449  Push register4, "_topmost", true
+     2458  SetMember
+     2459  Push register4
+     2464  Return
+        }
+  2465  SetMember
+  2466  Push register2, "createChildAtDepth"
+  2473  DefineFunction2 "" (r9:linkageName, r7:depthFlag, r8:initObj) regs=10 flags=0x29 {
+     2517  Push register1, "_childCounter"
+     2524  GetMember
+     2525  Push undef
+     2529  Equals2
+     2530  Not
+     2531  If loc2553
+     2536  Push register1, "_childCounter", 0
+     2552  SetMember
+     2553  Push 0, register1, "buildDepthTable"
+     2569  CallMethod
+     2570  StoreRegister 3
+     2574  Pop
+     2575  Push register3, register7, 2, register1, "getDepthByFlag"
+     2591  CallMethod
+     2592  StoreRegister 2
+     2596  Pop
+     2597  Push "down"
+     2602  StoreRegister 5
+     2606  Pop
+     2607  Push register7, "mx"
+     2614  GetVariable
+     2615  Push "managers"
+     2620  GetMember
+     2621  Push "DepthManager"
+     2626  GetMember
+     2627  Push "kBottom"
+     2632  GetMember
+     2633  Equals2
+     2634  Not
+     2635  If loc2650
+     2640  Push "up"
+     2645  StoreRegister 5
+     2649  Pop
+     2650  Push undef
+     2654  StoreRegister 6
+     2658  Pop
+     2659  Push register3, register2
+     2666  GetMember
+     2667  Push undef
+     2671  Equals2
+     2672  Not
+     2673  Not
+     2674  If loc2713
+     2679  Push register2
+     2684  StoreRegister 6
+     2688  Pop
+     2689  Push register5, register3, register2, 3, register1, "findNextAvailableDepth"
+     2707  CallMethod
+     2708  StoreRegister 2
+     2712  Pop
+     2713  Push register8, register2, "depthChild", register1, "_childCounter"
+     2726  GetMember
+     2727  Push register1, "_childCounter", register1, "_childCounter"
+     2738  GetMember
+     2739  Increment
+     2740  SetMember
+     2741  Add2
+     2742  Push register9, 4, register1, "createObject"
+     2756  CallMethod
+     2757  StoreRegister 4
+     2761  Pop
+     2762  Push register6, undef
+     2768  Equals2
+     2769  Not
+     2770  Not
+     2771  If loc2808
+     2776  Push register3, register2, register4
+     2785  SetMember
+     2786  Push register5, register3, register6, register4, 4, register1, "shuffleDepths"
+     2806  CallMethod
+     2807  Pop
+     2808  Push register7, "mx"
+     2815  GetVariable
+     2816  Push "managers"
+     2821  GetMember
+     2822  Push "DepthManager"
+     2827  GetMember
+     2828  Push "kTopmost"
+     2833  GetMember
+     2834  Equals2
+     2835  Not
+     2836  If loc2851
+     2841  Push register4, "_topmost", true
+     2850  SetMember
+     2851  Push register4
+     2856  Return
+        }
+  2857  SetMember
+  2858  Push register2, "setDepthTo"
+  2865  DefineFunction2 "" (r4:depthFlag) regs=5 flags=0x29 {
+     2887  Push 0, register1, "_parent"
+     2903  GetMember
+     2904  Push "buildDepthTable"
+     2909  CallMethod
+     2910  StoreRegister 2
+     2914  Pop
+     2915  Push register2, register4, 2, register1, "_parent"
+     2931  GetMember
+     2932  Push "getDepthByFlag"
+     2937  CallMethod
+     2938  StoreRegister 3
+     2942  Pop
+     2943  Push register2, register3
+     2950  GetMember
+     2951  Push undef
+     2955  Equals2
+     2956  Not
+     2957  Not
+     2958  If loc2999
+     2963  Push undef, register2, register3, "MovieClip"
+     2973  GetVariable
+     2974  Push register1
+     2979  CastOp
+     2980  Push 4, register1, "shuffleDepths"
+     2992  CallMethod
+     2993  Pop
+     2994  Jump loc3015
+     2999  Push register3, 1, register1, "swapDepths"
+     3013  CallMethod
+     3014  Pop
+     3015  Push register4, "mx"
+     3022  GetVariable
+     3023  Push "managers"
+     3028  GetMember
+     3029  Push "DepthManager"
+     3034  GetMember
+     3035  Push "kTopmost"
+     3040  GetMember
+     3041  Equals2
+     3042  Not
+     3043  If loc3063
+     3048  Push register1, "_topmost", true
+     3057  SetMember
+     3058  Jump loc3072
+     3063  Push register1, "_topmost"
+     3070  Delete
+     3071  Pop
+        }
+  3072  SetMember
+  3073  Push register2, "setDepthAbove"
+  3080  DefineFunction2 "" (r4:targetInstance) regs=5 flags=0x29 {
+     3107  Push register4, "_parent"
+     3114  GetMember
+     3115  Push register1, "_parent"
+     3122  GetMember
+     3123  Equals2
+     3124  Not
+     3125  Not
+     3126  If loc3136
+     3131  Push undef
+     3135  Return
+     3136  Push 0, register4, "getDepth"
+     3152  CallMethod
+     3153  Push 1
+     3161  Add2
+     3162  StoreRegister 2
+     3166  Pop
+     3167  Push 0, register1, "_parent"
+     3183  GetMember
+     3184  Push "buildDepthTable"
+     3189  CallMethod
+     3190  StoreRegister 3
+     3194  Pop
+     3195  Push register3, register2
+     3202  GetMember
+     3203  Push undef
+     3207  Equals2
+     3208  Not
+     3209  PushDuplicate
+     3210  Not
+     3211  If loc3240
+     3216  Pop
+     3217  Push 0, register1, "getDepth"
+     3233  CallMethod
+     3234  Push register2
+     3239  Less2
+     3240  Not
+     3241  If loc3262
+     3246  Push register2, 1
+     3256  Subtract
+     3257  StoreRegister 2
+     3261  Pop
+     3262  Push register2, "mx"
+     3269  GetVariable
+     3270  Push "managers"
+     3275  GetMember
+     3276  Push "DepthManager"
+     3281  GetMember
+     3282  Push "highestDepth"
+     3287  GetMember
+     3288  Greater
+     3289  Not
+     3290  If loc3324
+     3295  Push "mx"
+     3300  GetVariable
+     3301  Push "managers"
+     3306  GetMember
+     3307  Push "DepthManager"
+     3312  GetMember
+     3313  Push "highestDepth"
+     3318  GetMember
+     3319  StoreRegister 2
+     3323  Pop
+     3324  Push register2, "mx"
+     3331  GetVariable
+     3332  Push "managers"
+     3337  GetMember
+     3338  Push "DepthManager"
+     3343  GetMember
+     3344  Push "highestDepth"
+     3349  GetMember
+     3350  Equals2
+     3351  Not
+     3352  If loc3390
+     3357  Push "down", register3, register2, register1, 4, register1, "_parent"
+     3377  GetMember
+     3378  Push "shuffleDepths"
+     3383  CallMethod
+     3384  Pop
+     3385  Jump loc3458
+     3390  Push register3, register2
+     3397  GetMember
+     3398  Push undef
+     3402  Equals2
+     3403  Not
+     3404  Not
+     3405  If loc3442
+     3410  Push undef, register3, register2, register1, 4, register1, "_parent"
+     3429  GetMember
+     3430  Push "shuffleDepths"
+     3435  CallMethod
+     3436  Pop
+     3437  Jump loc3458
+     3442  Push register2, 1, register1, "swapDepths"
+     3456  CallMethod
+     3457  Pop
+        }
+  3458  SetMember
+  3459  Push register2, "setDepthBelow"
+  3466  DefineFunction2 "" (r7:targetInstance) regs=8 flags=0x29 {
+     3493  Push register7, "_parent"
+     3500  GetMember
+     3501  Push register1, "_parent"
+     3508  GetMember
+     3509  Equals2
+     3510  Not
+     3511  Not
+     3512  If loc3522
+     3517  Push undef
+     3521  Return
+     3522  Push 0, register7, "getDepth"
+     3538  CallMethod
+     3539  Push 1
+     3547  Subtract
+     3548  StoreRegister 6
+     3552  Pop
+     3553  Push 0, register1, "_parent"
+     3569  GetMember
+     3570  Push "buildDepthTable"
+     3575  CallMethod
+     3576  StoreRegister 3
+     3580  Pop
+     3581  Push register3, register6
+     3588  GetMember
+     3589  Push undef
+     3593  Equals2
+     3594  Not
+     3595  PushDuplicate
+     3596  Not
+     3597  If loc3626
+     3602  Pop
+     3603  Push 0, register1, "getDepth"
+     3619  CallMethod
+     3620  Push register6
+     3625  Greater
+     3626  Not
+     3627  If loc3648
+     3632  Push register6, 1
+     3642  Add2
+     3643  StoreRegister 6
+     3647  Pop
+     3648  Push "mx"
+     3653  GetVariable
+     3654  Push "managers"
+     3659  GetMember
+     3660  Push "DepthManager"
+     3665  GetMember
+     3666  Push "lowestDepth"
+     3671  GetMember
+     3672  Push "mx"
+     3677  GetVariable
+     3678  Push "managers"
+     3683  GetMember
+     3684  Push "DepthManager"
+     3689  GetMember
+     3690  Push "numberOfAuthortimeLayers"
+     3695  GetMember
+     3696  Add2
+     3697  StoreRegister 4
+     3701  Pop
+     3702  Push undef
+     3706  StoreRegister 5
+     3710  Pop
+     3711  Push register3
+     3716  Enumerate2
+     3717  StoreRegister 0
+     3721  Push null
+     3725  Equals2
+     3726  If loc3820
+     3731  Push register0
+     3736  StoreRegister 5
+     3740  Pop
+     3741  Push register3, register5
+     3748  GetMember
+     3749  StoreRegister 2
+     3753  Pop
+     3754  Push register2, "_parent"
+     3761  GetMember
+     3762  Push undef
+     3766  Equals2
+     3767  Not
+     3768  Not
+     3769  If loc3815
+     3774  Push 0, register2, "getDepth"
+     3790  CallMethod
+     3791  Push register4, 2, "Math"
+     3803  GetVariable
+     3804  Push "min"
+     3809  CallMethod
+     3810  StoreRegister 4
+     3814  Pop
+     3815  Jump loc3717
+     3820  Push register6, register4
+     3827  Less2
+     3828  Not
+     3829  If loc3844
+     3834  Push register4
+     3839  StoreRegister 6
+     3843  Pop
+     3844  Push register6, register4
+     3851  Equals2
+     3852  Not
+     3853  If loc3891
+     3858  Push "up", register3, register6, register1, 4, register1, "_parent"
+     3878  GetMember
+     3879  Push "shuffleDepths"
+     3884  CallMethod
+     3885  Pop
+     3886  Jump loc3959
+     3891  Push register3, register6
+     3898  GetMember
+     3899  Push undef
+     3903  Equals2
+     3904  Not
+     3905  Not
+     3906  If loc3943
+     3911  Push undef, register3, register6, register1, 4, register1, "_parent"
+     3930  GetMember
+     3931  Push "shuffleDepths"
+     3936  CallMethod
+     3937  Pop
+     3938  Jump loc3959
+     3943  Push register6, 1, register1, "swapDepths"
+     3957  CallMethod
+     3958  Pop
+        }
+  3959  SetMember
+  3960  Push register2, "findNextAvailableDepth"
+  3967  DefineFunction2 "" (r4:targetDepth, r3:depthTable, r6:direction) regs=7 flags=0x2a {
+     4014  Push "mx"
+     4019  GetVariable
+     4020  Push "managers"
+     4025  GetMember
+     4026  Push "DepthManager"
+     4031  GetMember
+     4032  Push "lowestDepth"
+     4037  GetMember
+     4038  Push "mx"
+     4043  GetVariable
+     4044  Push "managers"
+     4049  GetMember
+     4050  Push "DepthManager"
+     4055  GetMember
+     4056  Push "numberOfAuthortimeLayers"
+     4061  GetMember
+     4062  Add2
+     4063  StoreRegister 5
+     4067  Pop
+     4068  Push register4, register5
+     4075  Less2
+     4076  Not
+     4077  If loc4092
+     4082  Push register5
+     4087  StoreRegister 4
+     4091  Pop
+     4092  Push register3, register4
+     4099  GetMember
+     4100  Push undef
+     4104  Equals2
+     4105  Not
+     4106  If loc4117
+     4111  Push register4
+     4116  Return
+     4117  Push register4
+     4122  StoreRegister 1
+     4126  Pop
+     4127  Push register4
+     4132  StoreRegister 2
+     4136  Pop
+     4137  Push register6, "down"
+     4144  Equals2
+     4145  Not
+     4146  If loc4193
+     4151  Push register3, register2
+     4158  GetMember
+     4159  Push undef
+     4163  Equals2
+     4164  Not
+     4165  Not
+     4166  If loc4187
+     4171  Push register2
+     4176  Decrement
+     4177  StoreRegister 2
+     4181  Pop
+     4182  Jump loc4151
+     4187  Push register2
+     4192  Return
+     4193  Push register3, register1
+     4200  GetMember
+     4201  Push undef
+     4205  Equals2
+     4206  Not
+     4207  Not
+     4208  If loc4229
+     4213  Push register1
+     4218  Increment
+     4219  StoreRegister 1
+     4223  Pop
+     4224  Jump loc4193
+     4229  Push register1
+     4234  Return
+        }
+  4235  SetMember
+  4236  Push register2, "shuffleDepths"
+  4243  DefineFunction2 "" (r2:subject, r10:targetDepth, r6:depthTable, r12:direction) regs=13 flags=0x2a {
+     4299  Push "mx"
+     4304  GetVariable
+     4305  Push "managers"
+     4310  GetMember
+     4311  Push "DepthManager"
+     4316  GetMember
+     4317  Push "lowestDepth"
+     4322  GetMember
+     4323  Push "mx"
+     4328  GetVariable
+     4329  Push "managers"
+     4334  GetMember
+     4335  Push "DepthManager"
+     4340  GetMember
+     4341  Push "numberOfAuthortimeLayers"
+     4346  GetMember
+     4347  Add2
+     4348  StoreRegister 9
+     4352  Pop
+     4353  Push register9
+     4358  StoreRegister 8
+     4362  Pop
+     4363  Push undef
+     4367  StoreRegister 5
+     4371  Pop
+     4372  Push register6
+     4377  Enumerate2
+     4378  StoreRegister 0
+     4382  Push null
+     4386  Equals2
+     4387  If loc4481
+     4392  Push register0
+     4397  StoreRegister 5
+     4401  Pop
+     4402  Push register6, register5
+     4409  GetMember
+     4410  StoreRegister 7
+     4414  Pop
+     4415  Push register7, "_parent"
+     4422  GetMember
+     4423  Push undef
+     4427  Equals2
+     4428  Not
+     4429  Not
+     4430  If loc4476
+     4435  Push 0, register7, "getDepth"
+     4451  CallMethod
+     4452  Push register9, 2, "Math"
+     4464  GetVariable
+     4465  Push "min"
+     4470  CallMethod
+     4471  StoreRegister 9
+     4475  Pop
+     4476  Jump loc4378
+     4481  Push register12, undef
+     4487  Equals2
+     4488  Not
+     4489  If loc4548
+     4494  Push 0, register2, "getDepth"
+     4510  CallMethod
+     4511  Push register10
+     4516  Greater
+     4517  Not
+     4518  If loc4538
+     4523  Push "up"
+     4528  StoreRegister 12
+     4532  Pop
+     4533  Jump loc4548
+     4538  Push "down"
+     4543  StoreRegister 12
+     4547  Pop
+     4548  Push 0, "Array"
+     4562  NewObject
+     4563  StoreRegister 1
+     4567  Pop
+     4568  Push register6
+     4573  Enumerate2
+     4574  StoreRegister 0
+     4578  Push null
+     4582  Equals2
+     4583  If loc4652
+     4588  Push register0
+     4593  StoreRegister 5
+     4597  Pop
+     4598  Push register6, register5
+     4605  GetMember
+     4606  StoreRegister 7
+     4610  Pop
+     4611  Push register7, "_parent"
+     4618  GetMember
+     4619  Push undef
+     4623  Equals2
+     4624  Not
+     4625  Not
+     4626  If loc4647
+     4631  Push register7, 1, register1, "push"
+     4645  CallMethod
+     4646  Pop
+     4647  Jump loc4574
+     4652  Push "mx"
+     4657  GetVariable
+     4658  Push "managers"
+     4663  GetMember
+     4664  Push "DepthManager"
+     4669  GetMember
+     4670  Push "sortFunction"
+     4675  GetMember
+     4676  Push 1, register1, "sort"
+     4688  CallMethod
+     4689  Pop
+     4690  Push register12, "up"
+     4697  Equals2
+     4698  Not
+     4699  If loc5051
+     4704  Push undef
+     4708  StoreRegister 3
+     4712  Pop
+     4713  Push undef
+     4717  StoreRegister 11
+     4721  Pop
+     4722  Push register1, "length"
+     4729  GetMember
+     4730  Push 0
+     4742  Greater
+     4743  Not
+     4744  If loc4795
+     4749  Push 0, register1, "pop"
+     4765  CallMethod
+     4766  StoreRegister 3
+     4770  Pop
+     4771  Push register3, register2
+     4778  Equals2
+     4779  Not
+     4780  If loc4790
+     4785  Jump loc4795
+     4790  Jump loc4722
+     4795  Push register1, "length"
+     4802  GetMember
+     4803  Push 0
+     4815  Greater
+     4816  Not
+     4817  If loc5046
+     4822  Push 0, register2, "getDepth"
+     4838  CallMethod
+     4839  StoreRegister 11
+     4843  Pop
+     4844  Push 0, register1, "pop"
+     4860  CallMethod
+     4861  StoreRegister 3
+     4865  Pop
+     4866  Push 0, register3, "getDepth"
+     4882  CallMethod
+     4883  StoreRegister 4
+     4887  Pop
+     4888  Push register11, register4, 1
+     4900  Add2
+     4901  Greater
+     4902  Not
+     4903  If loc5006
+     4908  Push register4, 0
+     4922  Less2
+     4923  Not
+     4924  Not
+     4925  If loc4960
+     4930  Push register4, 1
+     4940  Add2
+     4941  Push 1, register2, "swapDepths"
+     4953  CallMethod
+     4954  Pop
+     4955  Jump loc5006
+     4960  Push register11, register8
+     4967  Greater
+     4968  PushDuplicate
+     4969  Not
+     4970  If loc4984
+     4975  Pop
+     4976  Push register4, register8
+     4983  Less2
+     4984  Not
+     4985  If loc5006
+     4990  Push register8, 1, register2, "swapDepths"
+     5004  CallMethod
+     5005  Pop
+     5006  Push register3, 1, register2, "swapDepths"
+     5020  CallMethod
+     5021  Pop
+     5022  Push register4, register10
+     5029  Equals2
+     5030  Not
+     5031  If loc5041
+     5036  Jump loc5046
+     5041  Jump loc4795
+     5046  Jump loc5348
+     5051  Push register12, "down"
+     5058  Equals2
+     5059  Not
+     5060  If loc5348
+     5065  Push undef
+     5069  StoreRegister 3
+     5073  Pop
+     5074  Push register1, "length"
+     5081  GetMember
+     5082  Push 0
+     5094  Greater
+     5095  Not
+     5096  If loc5147
+     5101  Push 0, register1, "shift"
+     5117  CallMethod
+     5118  StoreRegister 3
+     5122  Pop
+     5123  Push register3, register2
+     5130  Equals2
+     5131  Not
+     5132  If loc5142
+     5137  Jump loc5147
+     5142  Jump loc5074
+     5147  Push register1, "length"
+     5154  GetMember
+     5155  Push 0
+     5167  Greater
+     5168  Not
+     5169  If loc5348
+     5174  Push 0, register3, "getDepth"
+     5190  CallMethod
+     5191  StoreRegister 11
+     5195  Pop
+     5196  Push 0, register1, "shift"
+     5212  CallMethod
+     5213  StoreRegister 3
+     5217  Pop
+     5218  Push 0, register3, "getDepth"
+     5234  CallMethod
+     5235  StoreRegister 4
+     5239  Pop
+     5240  Push register11, register4, 1
+     5252  Subtract
+     5253  Less2
+     5254  PushDuplicate
+     5255  Not
+     5256  If loc5277
+     5261  Pop
+     5262  Push register4, 0
+     5276  Greater
+     5277  Not
+     5278  If loc5308
+     5283  Push register4, 1
+     5293  Subtract
+     5294  Push 1, register2, "swapDepths"
+     5306  CallMethod
+     5307  Pop
+     5308  Push register3, 1, register2, "swapDepths"
+     5322  CallMethod
+     5323  Pop
+     5324  Push register4, register10
+     5331  Equals2
+     5332  Not
+     5333  If loc5343
+     5338  Jump loc5348
+     5343  Jump loc5147
+        }
+  5348  SetMember
+  5349  Push register2, "getDepthByFlag"
+  5356  DefineFunction2 "" (r10:depthFlag, r1:depthTable) regs=11 flags=0x2a {
+     5390  Push 0
+     5402  StoreRegister 2
+     5406  Pop
+     5407  Push register10, "mx"
+     5414  GetVariable
+     5415  Push "managers"
+     5420  GetMember
+     5421  Push "DepthManager"
+     5426  GetMember
+     5427  Push "kTop"
+     5432  GetMember
+     5433  Equals2
+     5434  PushDuplicate
+     5435  If loc5468
+     5440  Pop
+     5441  Push register10, "mx"
+     5448  GetVariable
+     5449  Push "managers"
+     5454  GetMember
+     5455  Push "DepthManager"
+     5460  GetMember
+     5461  Push "kNotopmost"
+     5466  GetMember
+     5467  Equals2
+     5468  Not
+     5469  If loc5883
+     5474  Push 0
+     5486  StoreRegister 5
+     5490  Pop
+     5491  Push false
+     5496  StoreRegister 7
+     5500  Pop
+     5501  Push undef
+     5505  StoreRegister 8
+     5509  Pop
+     5510  Push register1
+     5515  Enumerate2
+     5516  StoreRegister 0
+     5520  Push null
+     5524  Equals2
+     5525  If loc5820
+     5530  Push register0
+     5535  StoreRegister 8
+     5539  Pop
+     5540  Push register1, register8
+     5547  GetMember
+     5548  StoreRegister 9
+     5552  Pop
+     5553  Push register9
+     5558  TypeOf
+     5559  StoreRegister 3
+     5563  Pop
+     5564  Push register3, "movieclip"
+     5571  Equals2
+     5572  PushDuplicate
+     5573  If loc5609
+     5578  Pop
+     5579  Push register3, "object"
+     5586  Equals2
+     5587  PushDuplicate
+     5588  Not
+     5589  If loc5609
+     5594  Pop
+     5595  Push register9, "__getTextFormat"
+     5602  GetMember
+     5603  Push undef
+     5607  Equals2
+     5608  Not
+     5609  Not
+     5610  If loc5815
+     5615  Push 0, register9, "getDepth"
+     5631  CallMethod
+     5632  Push "mx"
+     5637  GetVariable
+     5638  Push "managers"
+     5643  GetMember
+     5644  Push "DepthManager"
+     5649  GetMember
+     5650  Push "highestDepth"
+     5655  GetMember
+     5656  Greater
+     5657  Not
+     5658  Not
+     5659  If loc5815
+     5664  Push register9, "_topmost"
+     5671  GetMember
+     5672  Not
+     5673  Not
+     5674  If loc5725
+     5679  Push 0, register9, "getDepth"
+     5695  CallMethod
+     5696  Push register2, 2, "Math"
+     5708  GetVariable
+     5709  Push "max"
+     5714  CallMethod
+     5715  StoreRegister 2
+     5719  Pop
+     5720  Jump loc5815
+     5725  Push register7
+     5730  Not
+     5731  Not
+     5732  If loc5774
+     5737  Push 0, register9, "getDepth"
+     5753  CallMethod
+     5754  StoreRegister 5
+     5758  Pop
+     5759  Push true
+     5764  StoreRegister 7
+     5768  Pop
+     5769  Jump loc5815
+     5774  Push 0, register9, "getDepth"
+     5790  CallMethod
+     5791  Push register5, 2, "Math"
+     5803  GetVariable
+     5804  Push "min"
+     5809  CallMethod
+     5810  StoreRegister 5
+     5814  Pop
+     5815  Jump loc5516
+     5820  Push register2, 20
+     5830  Add2
+     5831  StoreRegister 2
+     5835  Pop
+     5836  Push register7
+     5841  Not
+     5842  If loc5878
+     5847  Push register2, register5
+     5854  Less2
+     5855  Not
+     5856  Not
+     5857  If loc5878
+     5862  Push register5, 1
+     5872  Subtract
+     5873  StoreRegister 2
+     5877  Pop
+     5878  Jump loc6386
+     5883  Push register10, "mx"
+     5890  GetVariable
+     5891  Push "managers"
+     5896  GetMember
+     5897  Push "DepthManager"
+     5902  GetMember
+     5903  Push "kBottom"
+     5908  GetMember
+     5909  Equals2
+     5910  Not
+     5911  If loc6137
+     5916  Push register1
+     5921  Enumerate2
+     5922  StoreRegister 0
+     5926  Push null
+     5930  Equals2
+     5931  If loc6116
+     5936  Push register0
+     5941  StoreRegister 8
+     5945  Pop
+     5946  Push register1, register8
+     5953  GetMember
+     5954  StoreRegister 9
+     5958  Pop
+     5959  Push register9
+     5964  TypeOf
+     5965  StoreRegister 3
+     5969  Pop
+     5970  Push register3, "movieclip"
+     5977  Equals2
+     5978  PushDuplicate
+     5979  If loc6015
+     5984  Pop
+     5985  Push register3, "object"
+     5992  Equals2
+     5993  PushDuplicate
+     5994  Not
+     5995  If loc6015
+     6000  Pop
+     6001  Push register9, "__getTextFormat"
+     6008  GetMember
+     6009  Push undef
+     6013  Equals2
+     6014  Not
+     6015  Not
+     6016  If loc6111
+     6021  Push 0, register9, "getDepth"
+     6037  CallMethod
+     6038  Push "mx"
+     6043  GetVariable
+     6044  Push "managers"
+     6049  GetMember
+     6050  Push "DepthManager"
+     6055  GetMember
+     6056  Push "highestDepth"
+     6061  GetMember
+     6062  Greater
+     6063  Not
+     6064  Not
+     6065  If loc6111
+     6070  Push 0, register9, "getDepth"
+     6086  CallMethod
+     6087  Push register2, 2, "Math"
+     6099  GetVariable
+     6100  Push "min"
+     6105  CallMethod
+     6106  StoreRegister 2
+     6110  Pop
+     6111  Jump loc5922
+     6116  Push register2, 20
+     6126  Subtract
+     6127  StoreRegister 2
+     6131  Pop
+     6132  Jump loc6386
+     6137  Push register10, "mx"
+     6144  GetVariable
+     6145  Push "managers"
+     6150  GetMember
+     6151  Push "DepthManager"
+     6156  GetMember
+     6157  Push "kTopmost"
+     6162  GetMember
+     6163  Equals2
+     6164  Not
+     6165  If loc6386
+     6170  Push register1
+     6175  Enumerate2
+     6176  StoreRegister 0
+     6180  Push null
+     6184  Equals2
+     6185  If loc6370
+     6190  Push register0
+     6195  StoreRegister 8
+     6199  Pop
+     6200  Push register1, register8
+     6207  GetMember
+     6208  StoreRegister 9
+     6212  Pop
+     6213  Push register9
+     6218  TypeOf
+     6219  StoreRegister 3
+     6223  Pop
+     6224  Push register3, "movieclip"
+     6231  Equals2
+     6232  PushDuplicate
+     6233  If loc6269
+     6238  Pop
+     6239  Push register3, "object"
+     6246  Equals2
+     6247  PushDuplicate
+     6248  Not
+     6249  If loc6269
+     6254  Pop
+     6255  Push register9, "__getTextFormat"
+     6262  GetMember
+     6263  Push undef
+     6267  Equals2
+     6268  Not
+     6269  Not
+     6270  If loc6365
+     6275  Push 0, register9, "getDepth"
+     6291  CallMethod
+     6292  Push "mx"
+     6297  GetVariable
+     6298  Push "managers"
+     6303  GetMember
+     6304  Push "DepthManager"
+     6309  GetMember
+     6310  Push "highestDepth"
+     6315  GetMember
+     6316  Greater
+     6317  Not
+     6318  Not
+     6319  If loc6365
+     6324  Push 0, register9, "getDepth"
+     6340  CallMethod
+     6341  Push register2, 2, "Math"
+     6353  GetVariable
+     6354  Push "max"
+     6359  CallMethod
+     6360  StoreRegister 2
+     6364  Pop
+     6365  Jump loc6176
+     6370  Push register2, 100
+     6380  Add2
+     6381  StoreRegister 2
+     6385  Pop
+     6386  Push register2, "mx"
+     6393  GetVariable
+     6394  Push "managers"
+     6399  GetMember
+     6400  Push "DepthManager"
+     6405  GetMember
+     6406  Push "highestDepth"
+     6411  GetMember
+     6412  Less2
+     6413  Not
+     6414  Not
+     6415  If loc6449
+     6420  Push "mx"
+     6425  GetVariable
+     6426  Push "managers"
+     6431  GetMember
+     6432  Push "DepthManager"
+     6437  GetMember
+     6438  Push "highestDepth"
+     6443  GetMember
+     6444  StoreRegister 2
+     6448  Pop
+     6449  Push "mx"
+     6454  GetVariable
+     6455  Push "managers"
+     6460  GetMember
+     6461  Push "DepthManager"
+     6466  GetMember
+     6467  Push "lowestDepth"
+     6472  GetMember
+     6473  Push "mx"
+     6478  GetVariable
+     6479  Push "managers"
+     6484  GetMember
+     6485  Push "DepthManager"
+     6490  GetMember
+     6491  Push "numberOfAuthortimeLayers"
+     6496  GetMember
+     6497  Add2
+     6498  StoreRegister 6
+     6502  Pop
+     6503  Push register1
+     6508  Enumerate2
+     6509  StoreRegister 0
+     6513  Push null
+     6517  Equals2
+     6518  If loc6612
+     6523  Push register0
+     6528  StoreRegister 9
+     6532  Pop
+     6533  Push register1, register9
+     6540  GetMember
+     6541  StoreRegister 4
+     6545  Pop
+     6546  Push register4, "_parent"
+     6553  GetMember
+     6554  Push undef
+     6558  Equals2
+     6559  Not
+     6560  Not
+     6561  If loc6607
+     6566  Push 0, register4, "getDepth"
+     6582  CallMethod
+     6583  Push register6, 2, "Math"
+     6595  GetVariable
+     6596  Push "min"
+     6601  CallMethod
+     6602  StoreRegister 6
+     6606  Pop
+     6607  Jump loc6509
+     6612  Push register2, register6
+     6619  Greater
+     6620  Not
+     6621  Not
+     6622  If loc6637
+     6627  Push register6
+     6632  StoreRegister 2
+     6636  Pop
+     6637  Push register2
+     6642  Return
+        }
+  6643  SetMember
+  6644  Push register2, "buildDepthTable"
+  6651  DefineFunction2 "" (Void) regs=6 flags=0x29 {
+     6668  Push 0, "Array"
+     6682  NewObject
+     6683  StoreRegister 5
+     6687  Pop
+     6688  Push undef
+     6692  StoreRegister 4
+     6696  Pop
+     6697  Push register1
+     6702  Enumerate2
+     6703  StoreRegister 0
+     6707  Push null
+     6711  Equals2
+     6712  If loc6852
+     6717  Push register0
+     6722  StoreRegister 4
+     6726  Pop
+     6727  Push register1, register4
+     6734  GetMember
+     6735  StoreRegister 2
+     6739  Pop
+     6740  Push register2
+     6745  TypeOf
+     6746  StoreRegister 3
+     6750  Pop
+     6751  Push register3, "movieclip"
+     6758  Equals2
+     6759  PushDuplicate
+     6760  If loc6796
+     6765  Pop
+     6766  Push register3, "object"
+     6773  Equals2
+     6774  PushDuplicate
+     6775  Not
+     6776  If loc6796
+     6781  Pop
+     6782  Push register2, "__getTextFormat"
+     6789  GetMember
+     6790  Push undef
+     6794  Equals2
+     6795  Not
+     6796  Not
+     6797  If loc6847
+     6802  Push register2, "_parent"
+     6809  GetMember
+     6810  Push register1
+     6815  Equals2
+     6816  Not
+     6817  If loc6847
+     6822  Push register5, 0, register2, "getDepth"
+     6840  CallMethod
+     6841  Push register2
+     6846  SetMember
+     6847  Jump loc6703
+     6852  Push register5
+     6857  Return
+        }
+  6858  SetMember
+  6859  Push register1, "reservedDepth", 1048575
+  6871  SetMember
+  6872  Push register1, "highestDepth", 1048574
+  6884  SetMember
+  6885  Push register1, "lowestDepth", -16383
+  6897  SetMember
+  6898  Push register1, "numberOfAuthortimeLayers", 383
+  6910  SetMember
+  6911  Push register1, "kCursor", 101
+  6923  SetMember
+  6924  Push register1, "kTooltip", 102
+  6936  SetMember
+  6937  Push register1, "kTop", 201
+  6949  SetMember
+  6950  Push register1, "kBottom", 202
+  6962  SetMember
+  6963  Push register1, "kTopmost", 203
+  6975  SetMember
+  6976  Push register1, "kNotopmost", 204
+  6988  SetMember
+  6989  Push register1, "holder", "mx"
+  6998  GetVariable
+  6999  Push "managers"
+  7004  GetMember
+  7005  Push "DepthManager"
+  7010  GetMember
+  7011  Push "reservedDepth"
+  7016  GetMember
+  7017  Push "reserved", 2, "_root"
+  7029  GetVariable
+  7030  Push "createEmptyMovieClip"
+  7035  CallMethod
+  7036  SetMember
+  7037  Push register1, "__depthManager", 0, "mx"
+  7055  GetVariable
+  7056  Push "managers"
+  7061  GetMember
+  7062  Push "DepthManager"
+  7067  NewMethod
+  7068  SetMember
+  7069  Push 1, null, "mx"
+  7080  GetVariable
+  7081  Push "managers"
+  7086  GetMember
+  7087  Push "DepthManager"
+  7092  GetMember
+  7093  Push "prototype"
+  7098  GetMember
+  7099  Push 3, "ASSetPropFlags"
+  7109  CallFunction
+  7110  Pop
+  7111  End

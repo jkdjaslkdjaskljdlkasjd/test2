@@ -1,0 +1,33 @@
+// on(rollOut)
+// origen: boton 2712 (06139_DefineButton2_2712.bin)
+
+   707  ConstantPool (10)
+   798  Push "STOP", 1, "hydroDis"
+   810  GetVariable
+   811  Push "gotoAndPlay"
+   816  CallMethod
+   817  Pop
+   818  Push "_root"
+   823  GetVariable
+   824  Push "thereIsASlotSelected", false
+   831  SetMember
+   832  Push "_root"
+   837  GetVariable
+   838  Push "KrinToolTipper"
+   843  GetMember
+   844  Push "tt", ""
+   851  SetMember
+   852  Push "_root"
+   857  GetVariable
+   858  Push "KrinToolTipper"
+   863  GetMember
+   864  Push "t", ""
+   871  SetMember
+   872  Push 1, 1, "_root"
+   887  GetVariable
+   888  Push "KrinToolTipper"
+   893  GetMember
+   894  Push "gotoAndStop"
+   899  CallMethod
+   900  Pop
+   901  End

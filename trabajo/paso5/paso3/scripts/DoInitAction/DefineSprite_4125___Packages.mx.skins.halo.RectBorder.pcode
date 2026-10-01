@@ -1,0 +1,736 @@
+// DefineSprite_4125___Packages.mx.skins.halo.RectBorder
+// origen: DoInitAction del sprite 4125 (03774_DoInitAction.bin)
+
+     2  ConstantPool (75)
+   809  Push "_global"
+   814  GetVariable
+   815  Push "mx"
+   820  GetMember
+   821  Not
+   822  Not
+   823  If loc852
+   828  Push "_global"
+   833  GetVariable
+   834  Push "mx", 0, "Object"
+   850  NewObject
+   851  SetMember
+   852  Pop
+   853  Push "_global"
+   858  GetVariable
+   859  Push "mx"
+   864  GetMember
+   865  Push "skins"
+   870  GetMember
+   871  Not
+   872  Not
+   873  If loc908
+   878  Push "_global"
+   883  GetVariable
+   884  Push "mx"
+   889  GetMember
+   890  Push "skins", 0, "Object"
+   906  NewObject
+   907  SetMember
+   908  Pop
+   909  Push "_global"
+   914  GetVariable
+   915  Push "mx"
+   920  GetMember
+   921  Push "skins"
+   926  GetMember
+   927  Push "halo"
+   932  GetMember
+   933  Not
+   934  Not
+   935  If loc976
+   940  Push "_global"
+   945  GetVariable
+   946  Push "mx"
+   951  GetMember
+   952  Push "skins"
+   957  GetMember
+   958  Push "halo", 0, "Object"
+   974  NewObject
+   975  SetMember
+   976  Pop
+   977  Push "_global"
+   982  GetVariable
+   983  Push "mx"
+   988  GetMember
+   989  Push "skins"
+   994  GetMember
+   995  Push "halo"
+  1000  GetMember
+  1001  Push "RectBorder"
+  1006  GetMember
+  1007  Not
+  1008  Not
+  1009  If loc5054
+  1014  Push "mx"
+  1019  GetVariable
+  1020  Push "skins"
+  1025  GetMember
+  1026  Push "halo"
+  1031  GetMember
+  1032  Push "RectBorder"
+  1037  DefineFunction2 "" () regs=2 flags=0x1a {
+     1048  Push 0, register1, undef
+     1063  CallMethod
+     1064  Pop
+        }
+  1065  StoreRegister 1
+  1069  SetMember
+  1070  Push "mx"
+  1075  GetVariable
+  1076  Push "skins"
+  1081  GetMember
+  1082  Push "halo"
+  1087  GetMember
+  1088  Push "RectBorder"
+  1093  GetMember
+  1094  Push "mx"
+  1099  GetVariable
+  1100  Push "skins"
+  1105  GetMember
+  1106  Push "RectBorder"
+  1111  GetMember
+  1112  Extends
+  1113  Push register1, "prototype"
+  1120  GetMember
+  1121  StoreRegister 2
+  1125  Pop
+  1126  Push register2, "init"
+  1133  DefineFunction2 "" (Void) regs=3 flags=0x19 {
+     1150  Push register1, "borderWidths"
+     1157  GetMember
+     1158  Push "default", 3
+     1168  SetMember
+     1169  Push 0, register2, "init"
+     1185  CallMethod
+     1186  Pop
+        }
+  1187  SetMember
+  1188  Push register2, "getBorderMetrics"
+  1195  DefineFunction2 "" (Void) regs=8 flags=0x19 {
+     1212  Push register1, "offset"
+     1219  GetMember
+     1220  Push undef
+     1224  Equals2
+     1225  Not
+     1226  If loc1276
+     1231  Push register1, "borderStyleName"
+     1238  GetMember
+     1239  Push 1, register1, "getStyle"
+     1251  CallMethod
+     1252  StoreRegister 3
+     1256  Pop
+     1257  Push register1, "offset", register1, "borderWidths"
+     1268  GetMember
+     1269  Push register3
+     1274  GetMember
+     1275  SetMember
+     1276  Push register1, "borderStyleName"
+     1283  GetMember
+     1284  Push 1, register1, "getStyle"
+     1296  CallMethod
+     1297  Push "default"
+     1302  Equals2
+     1303  PushDuplicate
+     1304  If loc1337
+     1309  Pop
+     1310  Push register1, "borderStyleName"
+     1317  GetMember
+     1318  Push 1, register1, "getStyle"
+     1330  CallMethod
+     1331  Push "alert"
+     1336  Equals2
+     1337  Not
+     1338  If loc1394
+     1343  Push register1, "__borderMetrics", "left", 3, "top", 1, "right", 3, "bottom", 3, 4
+     1383  InitObject
+     1384  SetMember
+     1385  Push register1, "__borderMetrics"
+     1392  GetMember
+     1393  Return
+     1394  Push 0, register2, "getBorderMetrics"
+     1410  CallMethod
+     1411  Return
+        }
+  1412  SetMember
+  1413  Push register2, "drawBorder"
+  1420  DefineFunction2 "" (Void) regs=21 flags=0x129 {
+     1437  Push register2, "styles"
+     1444  GetMember
+     1445  Push register1, "className"
+     1452  GetMember
+     1453  GetMember
+     1454  StoreRegister 6
+     1458  Pop
+     1459  Push register6, undef
+     1465  Equals2
+     1466  Not
+     1467  If loc1491
+     1472  Push register2, "styles"
+     1479  GetMember
+     1480  Push "RectBorder"
+     1485  GetMember
+     1486  StoreRegister 6
+     1490  Pop
+     1491  Push register1, "borderStyleName"
+     1498  GetMember
+     1499  Push 1, register1, "getStyle"
+     1511  CallMethod
+     1512  StoreRegister 5
+     1516  Pop
+     1517  Push register1, "borderColorName"
+     1524  GetMember
+     1525  Push 1, register1, "getStyle"
+     1537  CallMethod
+     1538  StoreRegister 7
+     1542  Pop
+     1543  Push register7, undef
+     1549  Equals2
+     1550  Not
+     1551  If loc1572
+     1556  Push register6, register1, "borderColorName"
+     1565  GetMember
+     1566  GetMember
+     1567  StoreRegister 7
+     1571  Pop
+     1572  Push register1, "backgroundColorName"
+     1579  GetMember
+     1580  Push 1, register1, "getStyle"
+     1592  CallMethod
+     1593  StoreRegister 8
+     1597  Pop
+     1598  Push register8, undef
+     1604  Equals2
+     1605  Not
+     1606  If loc1627
+     1611  Push register6, register1, "backgroundColorName"
+     1620  GetMember
+     1621  GetMember
+     1622  StoreRegister 8
+     1626  Pop
+     1627  Push "backgroundImage", 1, register1, "getStyle"
+     1641  CallMethod
+     1642  StoreRegister 16
+     1646  Pop
+     1647  Push register5, "none"
+     1654  Equals2
+     1655  Not
+     1656  Not
+     1657  If loc1937
+     1662  Push register1, "shadowColorName"
+     1669  GetMember
+     1670  Push 1, register1, "getStyle"
+     1682  CallMethod
+     1683  StoreRegister 14
+     1687  Pop
+     1688  Push register14, undef
+     1694  Equals2
+     1695  Not
+     1696  If loc1717
+     1701  Push register6, register1, "shadowColorName"
+     1710  GetMember
+     1711  GetMember
+     1712  StoreRegister 14
+     1716  Pop
+     1717  Push register1, "highlightColorName"
+     1724  GetMember
+     1725  Push 1, register1, "getStyle"
+     1737  CallMethod
+     1738  StoreRegister 13
+     1742  Pop
+     1743  Push register13, undef
+     1749  Equals2
+     1750  Not
+     1751  If loc1772
+     1756  Push register6, register1, "highlightColorName"
+     1765  GetMember
+     1766  GetMember
+     1767  StoreRegister 13
+     1771  Pop
+     1772  Push register1, "buttonColorName"
+     1779  GetMember
+     1780  Push 1, register1, "getStyle"
+     1792  CallMethod
+     1793  StoreRegister 12
+     1797  Pop
+     1798  Push register12, undef
+     1804  Equals2
+     1805  Not
+     1806  If loc1827
+     1811  Push register6, register1, "buttonColorName"
+     1820  GetMember
+     1821  GetMember
+     1822  StoreRegister 12
+     1826  Pop
+     1827  Push register1, "borderCapColorName"
+     1834  GetMember
+     1835  Push 1, register1, "getStyle"
+     1847  CallMethod
+     1848  StoreRegister 11
+     1852  Pop
+     1853  Push register11, undef
+     1859  Equals2
+     1860  Not
+     1861  If loc1882
+     1866  Push register6, register1, "borderCapColorName"
+     1875  GetMember
+     1876  GetMember
+     1877  StoreRegister 11
+     1881  Pop
+     1882  Push register1, "shadowCapColorName"
+     1889  GetMember
+     1890  Push 1, register1, "getStyle"
+     1902  CallMethod
+     1903  StoreRegister 10
+     1907  Pop
+     1908  Push register10, undef
+     1914  Equals2
+     1915  Not
+     1916  If loc1937
+     1921  Push register6, register1, "shadowCapColorName"
+     1930  GetMember
+     1931  GetMember
+     1932  StoreRegister 10
+     1936  Pop
+     1937  Push register1, "offset", register1, "borderWidths"
+     1948  GetMember
+     1949  Push register5
+     1954  GetMember
+     1955  SetMember
+     1956  Push register1, "offset"
+     1963  GetMember
+     1964  StoreRegister 9
+     1968  Pop
+     1969  Push 0, register1, "__get__width"
+     1985  CallMethod
+     1986  StoreRegister 3
+     1990  Pop
+     1991  Push 0, register1, "__get__height"
+     2007  CallMethod
+     2008  StoreRegister 4
+     2012  Pop
+     2013  Push 0, register1, "clear"
+     2029  CallMethod
+     2030  Pop
+     2031  Push register1, "_color", undef
+     2039  SetMember
+     2040  Push register5, "none"
+     2047  Equals2
+     2048  Not
+     2049  If loc2059
+     2054  Jump loc3843
+     2059  Push register5, "inset"
+     2066  Equals2
+     2067  Not
+     2068  If loc2117
+     2073  Push register1, "_color", register1, "colorList"
+     2084  GetMember
+     2085  SetMember
+     2086  Push register10, register14, register13, register7, register12, register11, 6, register1, "draw3dBorder"
+     2110  CallMethod
+     2111  Pop
+     2112  Jump loc3843
+     2117  Push register5, "outset"
+     2124  Equals2
+     2125  Not
+     2126  If loc2175
+     2131  Push register1, "_color", register1, "colorList"
+     2142  GetMember
+     2143  SetMember
+     2144  Push register10, register13, register14, register12, register7, register11, 6, register1, "draw3dBorder"
+     2168  CallMethod
+     2169  Pop
+     2170  Jump loc3843
+     2175  Push register5, "alert"
+     2182  Equals2
+     2183  Not
+     2184  If loc2573
+     2189  Push "themeColor", 1, register1, "getStyle"
+     2203  CallMethod
+     2204  StoreRegister 15
+     2208  Pop
+     2209  Push 10, 6184542, 5, register4, 5
+     2234  Subtract
+     2235  Push register3, 5, 0, 7, register1, "drawRoundRect"
+     2263  CallMethod
+     2264  Pop
+     2265  Push "radial", 0, 10, 6184542, 6184542, 2
+     2299  InitArray
+     2300  Push 4, register4, 5
+     2315  Subtract
+     2316  Push register3, 2
+     2326  Subtract
+     2327  Push 4, 1, 9, register1, "drawRoundRect"
+     2349  CallMethod
+     2350  Pop
+     2351  Push "radial", 0, 100, 14342874, 0, 2
+     2389  InitArray
+     2390  Push 3, register4, 2
+     2405  Subtract
+     2406  Push register3, 4
+     2416  Subtract
+     2417  Push 0, 2, 9, register1, "drawRoundRect"
+     2443  CallMethod
+     2444  Pop
+     2445  Push 50, register15, 3, register4, 2
+     2467  Subtract
+     2468  Push register3, 4
+     2478  Subtract
+     2479  Push 0, 2, 7, register1, "drawRoundRect"
+     2505  CallMethod
+     2506  Pop
+     2507  Push 100, 16777215, 2, register4, 4
+     2532  Subtract
+     2533  Push register3, 6
+     2543  Subtract
+     2544  Push 1, 3, 7, register1, "drawRoundRect"
+     2566  CallMethod
+     2567  Pop
+     2568  Jump loc3843
+     2573  Push register5, "default"
+     2580  Equals2
+     2581  Not
+     2582  If loc3045
+     2587  Push 10, 6184542, "tl", 5, "tr", 5, "br", 0, "bl", 0, 4
+     2641  InitObject
+     2642  Push register4, 5
+     2652  Subtract
+     2653  Push register3, 5, 0, 7, register1, "drawRoundRect"
+     2681  CallMethod
+     2682  Pop
+     2683  Push "radial", 0, 10, 6184542, 6184542, 2
+     2717  InitArray
+     2718  Push "tl", 4, "tr", 4, "br", 0, "bl", 0, 4
+     2762  InitObject
+     2763  Push register4, 5
+     2773  Subtract
+     2774  Push register3, 2
+     2784  Subtract
+     2785  Push 4, 1, 9, register1, "drawRoundRect"
+     2807  CallMethod
+     2808  Pop
+     2809  Push "radial", 0, 100, 11844796, 12897484, 2
+     2843  InitArray
+     2844  Push "tl", 3, "tr", 3, "br", 0, "bl", 0, 4
+     2888  InitObject
+     2889  Push register4, 2
+     2899  Subtract
+     2900  Push register3, 4
+     2910  Subtract
+     2911  Push 0, 2, 9, register1, "drawRoundRect"
+     2937  CallMethod
+     2938  Pop
+     2939  Push 100, 16777215, "tl", 2, "tr", 2, "br", 0, "bl", 0, 4
+     2993  InitObject
+     2994  Push register4, 4
+     3004  Subtract
+     3005  Push register3, 6
+     3015  Subtract
+     3016  Push 1, 3, 7, register1, "drawRoundRect"
+     3038  CallMethod
+     3039  Pop
+     3040  Jump loc3843
+     3045  Push register5, "dropDown"
+     3052  Equals2
+     3053  Not
+     3054  If loc3286
+     3059  Push "linear", -10, 100, 7895160, 13290186, 2
+     3089  InitArray
+     3090  Push "tl", 4, "tr", 0, "br", 0, "bl", 4, 4
+     3134  InitObject
+     3135  Push register4, register3, 1
+     3147  Add2
+     3148  Push 0, 0, 9, register1, "drawRoundRect"
+     3178  CallMethod
+     3179  Pop
+     3180  Push 100, 16777215, "tl", 3, "tr", 0, "br", 0, "bl", 3, 4
+     3234  InitObject
+     3235  Push register4, 2
+     3245  Subtract
+     3246  Push register3, 1
+     3256  Subtract
+     3257  Push 1, 1, 7, register1, "drawRoundRect"
+     3279  CallMethod
+     3280  Pop
+     3281  Jump loc3843
+     3286  Push register5, "menuBorder"
+     3293  Equals2
+     3294  Not
+     3295  If loc3695
+     3300  Push "themeColor", 1, register1, "getStyle"
+     3314  CallMethod
+     3315  StoreRegister 15
+     3319  Pop
+     3320  Push "radial", 0, 10, 6184542, 6184542, 2
+     3354  InitArray
+     3355  Push 0, register4, 3
+     3374  Subtract
+     3375  Push register3, 2
+     3385  Subtract
+     3386  Push 4, 4, 9, register1, "drawRoundRect"
+     3408  CallMethod
+     3409  Pop
+     3410  Push 10, 6184542, 0, register4, 2
+     3439  Subtract
+     3440  Push register3, 1
+     3450  Subtract
+     3451  Push 4, 4, 7, register1, "drawRoundRect"
+     3473  CallMethod
+     3474  Pop
+     3475  Push "linear", 250, 100, 14342874, 0, 2
+     3509  InitArray
+     3510  Push 0, register4, register3, 1
+     3531  Add2
+     3532  Push 0, 0, 9, register1, "drawRoundRect"
+     3562  CallMethod
+     3563  Pop
+     3564  Push 50, register15, 0, register4, register3, 1
+     3592  Add2
+     3593  Push 0, 0, 7, register1, "drawRoundRect"
+     3623  CallMethod
+     3624  Pop
+     3625  Push 100, 16777215, 0, register4, 4
+     3654  Subtract
+     3655  Push register3, 3
+     3665  Subtract
+     3666  Push 2, 2, 7, register1, "drawRoundRect"
+     3688  CallMethod
+     3689  Pop
+     3690  Jump loc3843
+     3695  Push register5, "comboNonEdit"
+     3702  Equals2
+     3703  Not
+     3704  If loc3714
+     3709  Jump loc3843
+     3714  Push register7, 1, register1, "beginFill"
+     3728  CallMethod
+     3729  Pop
+     3730  Push register4, register3, 0, 0, 4, register1, "drawRect"
+     3764  CallMethod
+     3765  Pop
+     3766  Push register4, 1
+     3776  Subtract
+     3777  Push register3, 1
+     3787  Subtract
+     3788  Push 1, 1, 4, register1, "drawRect"
+     3810  CallMethod
+     3811  Pop
+     3812  Push 0, register1, "endFill"
+     3828  CallMethod
+     3829  Pop
+     3830  Push register1, "_color", register1, "borderColorName"
+     3841  GetMember
+     3842  SetMember
+     3843  Push register8, undef
+     3849  Equals2
+     3850  Not
+     3851  Not
+     3852  If loc3955
+     3857  Push register8, 1, register1, "beginFill"
+     3871  CallMethod
+     3872  Pop
+     3873  Push 0, register1, "__get__height"
+     3889  CallMethod
+     3890  Push register9
+     3895  Subtract
+     3896  Push 0, register1, "__get__width"
+     3912  CallMethod
+     3913  Push register9
+     3918  Subtract
+     3919  Push register9, register9, 4, register1, "drawRect"
+     3935  CallMethod
+     3936  Pop
+     3937  Push 0, register1, "endFill"
+     3953  CallMethod
+     3954  Pop
+        }
+  3955  SetMember
+  3956  Push register2, "draw3dBorder"
+  3963  DefineFunction2 "" (r9:c1, r8:c2, r7:c3, r6:c4, r5:c5, r4:c6) regs=10 flags=0x29 {
+     3998  Push 0, register1, "__get__width"
+     4014  CallMethod
+     4015  StoreRegister 3
+     4019  Pop
+     4020  Push 0, register1, "__get__height"
+     4036  CallMethod
+     4037  StoreRegister 2
+     4041  Pop
+     4042  Push register9, 1, register1, "beginFill"
+     4056  CallMethod
+     4057  Pop
+     4058  Push register2, register3, 0, 0, 4, register1, "drawRect"
+     4092  CallMethod
+     4093  Pop
+     4094  Push register2, register3, 1
+     4106  Subtract
+     4107  Push 0, 1, 4, register1, "drawRect"
+     4133  CallMethod
+     4134  Pop
+     4135  Push 0, register1, "endFill"
+     4151  CallMethod
+     4152  Pop
+     4153  Push register8, 1, register1, "beginFill"
+     4167  CallMethod
+     4168  Pop
+     4169  Push 1, register3, 1
+     4184  Subtract
+     4185  Push 0, 1, 4, register1, "drawRect"
+     4211  CallMethod
+     4212  Pop
+     4213  Push 0, register1, "endFill"
+     4229  CallMethod
+     4230  Pop
+     4231  Push register7, 1, register1, "beginFill"
+     4245  CallMethod
+     4246  Pop
+     4247  Push register2, register3, 1
+     4259  Subtract
+     4260  Push register2, 1
+     4270  Subtract
+     4271  Push 1, 4, register1, "drawRect"
+     4288  CallMethod
+     4289  Pop
+     4290  Push 0, register1, "endFill"
+     4306  CallMethod
+     4307  Pop
+     4308  Push register6, 1, register1, "beginFill"
+     4322  CallMethod
+     4323  Pop
+     4324  Push 2, register3, 1
+     4339  Subtract
+     4340  Push 1, 1, 4, register1, "drawRect"
+     4362  CallMethod
+     4363  Pop
+     4364  Push 0, register1, "endFill"
+     4380  CallMethod
+     4381  Pop
+     4382  Push register5, 1, register1, "beginFill"
+     4396  CallMethod
+     4397  Pop
+     4398  Push register2, 1
+     4408  Subtract
+     4409  Push register3, 1
+     4419  Subtract
+     4420  Push register2, 2
+     4430  Subtract
+     4431  Push 1, 4, register1, "drawRect"
+     4448  CallMethod
+     4449  Pop
+     4450  Push 0, register1, "endFill"
+     4466  CallMethod
+     4467  Pop
+     4468  Push register4, 1, register1, "beginFill"
+     4482  CallMethod
+     4483  Pop
+     4484  Push register2, 2
+     4494  Subtract
+     4495  Push register3, 1
+     4505  Subtract
+     4506  Push 2, 1, 4, register1, "drawRect"
+     4528  CallMethod
+     4529  Pop
+     4530  Push register2, 2
+     4540  Subtract
+     4541  Push register3, 2
+     4551  Subtract
+     4552  Push 2, 2, 4, register1, "drawRect"
+     4574  CallMethod
+     4575  Pop
+     4576  Push 0, register1, "endFill"
+     4592  CallMethod
+     4593  Pop
+        }
+  4594  SetMember
+  4595  Push register1, "classConstruct"
+  4602  DefineFunction2 "" () regs=2 flags=0x12a {
+     4613  Push 0, "mx"
+     4627  GetVariable
+     4628  Push "core"
+     4633  GetMember
+     4634  Push "ext"
+     4639  GetMember
+     4640  Push "UIObjectExtensions"
+     4645  GetMember
+     4646  Push "Extensions"
+     4651  CallMethod
+     4652  Pop
+     4653  Push register1, "styles"
+     4660  GetMember
+     4661  Push "rectBorderClass", "mx"
+     4668  GetVariable
+     4669  Push "skins"
+     4674  GetMember
+     4675  Push "halo"
+     4680  GetMember
+     4681  Push "RectBorder"
+     4686  GetMember
+     4687  SetMember
+     4688  Push register1, "skinRegistry"
+     4695  GetMember
+     4696  Push "RectBorder", true
+     4703  SetMember
+     4704  Push true
+     4709  Return
+        }
+  4710  SetMember
+  4711  Push register1, "symbolName", "RectBorder"
+  4720  SetMember
+  4721  Push register1, "symbolOwner", "mx"
+  4730  GetVariable
+  4731  Push "skins"
+  4736  GetMember
+  4737  Push "halo"
+  4742  GetMember
+  4743  Push "RectBorder"
+  4748  GetMember
+  4749  SetMember
+  4750  Push register1, "version", "2.0.2.127"
+  4759  SetMember
+  4760  Push register2, "borderCapColorName", "borderCapColor"
+  4769  SetMember
+  4770  Push register2, "shadowCapColorName", "shadowCapColor"
+  4779  SetMember
+  4780  Push register2, "colorList", "highlightColor", 0, "borderColor", 0, "buttonColor", 0, "shadowColor", 0, "borderCapColor", 0, "shadowCapColor", 0, 6
+  4858  InitObject
+  4859  SetMember
+  4860  Push register2, "borderWidths", "none", 0, "solid", 1, "inset", 2, "outset", 2, "alert", 3, "dropDown", 2, "menuBorder", 2, "comboNonEdit", 2, 8
+  4932  InitObject
+  4933  SetMember
+  4934  Push register1, "classConstructed", 0, "mx"
+  4952  GetVariable
+  4953  Push "skins"
+  4958  GetMember
+  4959  Push "halo"
+  4964  GetMember
+  4965  Push "RectBorder"
+  4970  GetMember
+  4971  Push "classConstruct"
+  4976  CallMethod
+  4977  SetMember
+  4978  Push register1, "UIObjectExtensionsDependency", "mx"
+  4987  GetVariable
+  4988  Push "core"
+  4993  GetMember
+  4994  Push "ext"
+  4999  GetMember
+  5000  Push "UIObjectExtensions"
+  5005  GetMember
+  5006  SetMember
+  5007  Push 1, null, "mx"
+  5018  GetVariable
+  5019  Push "skins"
+  5024  GetMember
+  5025  Push "halo"
+  5030  GetMember
+  5031  Push "RectBorder"
+  5036  GetMember
+  5037  Push "prototype"
+  5042  GetMember
+  5043  Push 3, "ASSetPropFlags"
+  5053  CallFunction
+  5054  Pop
+  5055  End

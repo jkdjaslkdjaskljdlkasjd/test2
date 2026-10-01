@@ -1,0 +1,179 @@
+// DoAction
+// origen: DefineSprite_3345 fotograma 4, DoAction (07203_DefineSprite_3345.bin, byte 534)
+
+   534  ConstantPool (24)
+   755  Push "zoomXGo", "zoomPointX"
+   762  GetVariable
+   763  Push "zoomPoint"
+   768  GetVariable
+   769  Multiply
+   770  SetVariable
+   771  Push "zoomYGo", "zoomPointY"
+   778  GetVariable
+   779  Push "zoomPoint"
+   784  GetVariable
+   785  Multiply
+   786  SetVariable
+   787  Push "scaleXGo", "zoomScaleX"
+   794  GetVariable
+   795  Push "zoomPoint"
+   800  GetVariable
+   801  Multiply
+   802  SetVariable
+   803  Push "scaleYGo", "zoomScaleY"
+   810  GetVariable
+   811  Push "zoomPoint"
+   816  GetVariable
+   817  Multiply
+   818  SetVariable
+   819  Push "_root"
+   824  GetVariable
+   825  Push "BATTLESCREEN"
+   830  GetMember
+   831  Push "_x", "_root"
+   838  GetVariable
+   839  Push "BATTLESCREEN"
+   844  GetMember
+   845  Push "_x"
+   850  GetMember
+   851  Push "zoomXGo"
+   856  GetVariable
+   857  Push "zoomReverse"
+   862  GetVariable
+   863  Multiply
+   864  Add2
+   865  SetMember
+   866  Push "_root"
+   871  GetVariable
+   872  Push "BATTLESCREEN"
+   877  GetMember
+   878  Push "_y", "_root"
+   885  GetVariable
+   886  Push "BATTLESCREEN"
+   891  GetMember
+   892  Push "_y"
+   897  GetMember
+   898  Push "zoomYGo"
+   903  GetVariable
+   904  Push "zoomReverse"
+   909  GetVariable
+   910  Multiply
+   911  Add2
+   912  SetMember
+   913  Push "_root"
+   918  GetVariable
+   919  Push "BATTLESCREEN"
+   924  GetMember
+   925  Push "_xscale", "_root"
+   932  GetVariable
+   933  Push "BATTLESCREEN"
+   938  GetMember
+   939  Push "_xscale"
+   944  GetMember
+   945  Push "scaleXGo"
+   950  GetVariable
+   951  Push "zoomReverse"
+   956  GetVariable
+   957  Multiply
+   958  Add2
+   959  SetMember
+   960  Push "_root"
+   965  GetVariable
+   966  Push "BATTLESCREEN"
+   971  GetMember
+   972  Push "_yscale", "_root"
+   979  GetVariable
+   980  Push "BATTLESCREEN"
+   985  GetMember
+   986  Push "_yscale"
+   991  GetMember
+   992  Push "scaleYGo"
+   997  GetVariable
+   998  Push "zoomReverse"
+  1003  GetVariable
+  1004  Multiply
+  1005  Add2
+  1006  SetMember
+  1007  Push "zoomPoint", "zoomPoint"
+  1014  GetVariable
+  1015  Decrement
+  1016  SetVariable
+  1017  Push "zoomPoint"
+  1022  GetVariable
+  1023  Push "zoomTime"
+  1028  GetVariable
+  1029  Push 1
+  1037  Add2
+  1038  Equals2
+  1039  Not
+  1040  If loc1060
+  1045  Push "zoomPoint", 0
+  1059  SetVariable
+  1060  Push "zoomPoint"
+  1065  GetVariable
+  1066  Push 0
+  1078  Greater
+  1079  Not
+  1080  If loc1107
+  1085  GoToLabel 'KrinZoomPlay'
+  1101  Play
+  1102  Jump loc1325
+  1107  Push "zoomReverse"
+  1112  GetVariable
+  1113  Push 1
+  1121  Equals2
+  1122  Not
+  1123  If loc1186
+  1128  Push "zoomReverse", -1
+  1138  SetVariable
+  1139  Push "zoomPoint", "zoomTime"
+  1146  GetVariable
+  1147  SetVariable
+  1148  Push "zoomPauseCounter", 0
+  1162  SetVariable
+  1163  GoToLabel 'KrinZoomPause'
+  1180  Play
+  1181  Jump loc1325
+  1186  Push "_root"
+  1191  GetVariable
+  1192  Push "BATTLESCREEN"
+  1197  GetMember
+  1198  Push "_x", "_root"
+  1205  GetVariable
+  1206  Push "BATTLESCREEN"
+  1211  GetMember
+  1212  Push "saverX"
+  1217  GetMember
+  1218  SetMember
+  1219  Push "_root"
+  1224  GetVariable
+  1225  Push "BATTLESCREEN"
+  1230  GetMember
+  1231  Push "_y", "_root"
+  1238  GetVariable
+  1239  Push "BATTLESCREEN"
+  1244  GetMember
+  1245  Push "saverY"
+  1250  GetMember
+  1251  SetMember
+  1252  Push "_root"
+  1257  GetVariable
+  1258  Push "KrinSettings"
+  1263  GetMember
+  1264  Push "SFX3"
+  1269  GetMember
+  1270  Push false
+  1275  Equals2
+  1276  Not
+  1277  If loc1309
+  1282  Push "_root"
+  1287  GetVariable
+  1288  Push "_quality", "_root"
+  1295  GetVariable
+  1296  Push "KrinSettings"
+  1301  GetMember
+  1302  Push "QUALITY"
+  1307  GetMember
+  1308  SetMember
+  1309  GoToLabel 'KrinZoomStop'
+  1325  End

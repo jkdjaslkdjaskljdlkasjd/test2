@@ -1,0 +1,11 @@
+// on(release)
+// origen: boton 2650 (05974_DefineButton2_2650.bin)
+
+    17  GoToLabel 'dataMenu'
+    29  Push "_root"
+    39  GetVariable
+    40  Push "Krin"
+    49  GetMember
+    50  Push "dataMode", "save"
+    69  SetMember
+    70  End

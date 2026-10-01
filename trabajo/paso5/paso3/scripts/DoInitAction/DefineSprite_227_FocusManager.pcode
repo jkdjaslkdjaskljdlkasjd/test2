@@ -1,0 +1,11 @@
+// DefineSprite_227_FocusManager
+// origen: DoInitAction del sprite 227 (03806_DoInitAction.bin)
+
+     2  Push "mx.managers.FocusManager"
+    31  GetVariable
+    32  Push "FocusManager", 2, "Object"
+    62  GetVariable
+    63  Push "registerClass"
+    81  CallMethod
+    82  Pop
+    83  End

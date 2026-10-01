@@ -1,0 +1,15 @@
+// on(release)
+// origen: boton 3178 (06895_DefineButton2_3178.bin)
+
+if(_root.Krin.statPoints > 0)
+{
+   _root.Krin.StatSets0[2] += 1;
+   _root.Krin.statPoints--;
+   statPoints--;
+   yut_mag2++;
+   _root.Krin.MAGIC += 1;
+   if(_root.Krin.statPoints == 0)
+   {
+      statColor.gotoAndStop("dead");
+   }
+}

@@ -1,0 +1,11 @@
+// onClipEvent(load)
+// origen: DefineSprite_2489 fotograma 1, clip en profundidad 3 (03863_DefineSprite_2489.bin, byte 36)
+
+    87  ConstantPool (3)
+   114  Push "widthkeep", "", 8
+   126  GetProperty
+   127  SetVariable
+   128  Push "heightkeep", "", 9
+   140  GetProperty
+   141  SetVariable
+   142  End

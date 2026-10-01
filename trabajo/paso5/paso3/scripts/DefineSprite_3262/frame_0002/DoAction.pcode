@@ -1,0 +1,40 @@
+// DoAction
+// origen: DefineSprite_3262 fotograma 2, DoAction (06992_DefineSprite_3262.bin, byte 34)
+
+    34  ConstantPool (9)
+   115  Push "ach_Plate"
+   120  GetVariable
+   121  Push "ach_Say", "_root"
+   128  GetVariable
+   129  Push "KrinLang"
+   134  GetMember
+   135  Push "_root"
+   140  GetVariable
+   141  Push "KLangChoosen"
+   146  GetMember
+   147  GetMember
+   148  Push "ACHSAY"
+   153  GetMember
+   154  Push 0
+   166  GetMember
+   167  SetMember
+   168  Push "ach_Plate"
+   173  GetVariable
+   174  Push "ach_Say2", "_root"
+   181  GetVariable
+   182  Push "KrinLang"
+   187  GetMember
+   188  Push "_root"
+   193  GetVariable
+   194  Push "KLangChoosen"
+   199  GetMember
+   200  GetMember
+   201  Push "ACH"
+   206  GetMember
+   207  Push "_root"
+   212  GetVariable
+   213  Push "achGlobal"
+   218  GetMember
+   219  GetMember
+   220  SetMember
+   221  End

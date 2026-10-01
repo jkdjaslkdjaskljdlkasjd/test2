@@ -1,0 +1,11 @@
+// DefineSprite_220_UIObjectExtensions
+// origen: DoInitAction del sprite 220 (03802_DoInitAction.bin)
+
+     2  Push "mx.core.ext.UIObjectExtensions"
+    37  GetVariable
+    38  Push "UIObjectExtensions", 2, "Object"
+    74  GetVariable
+    75  Push "registerClass"
+    93  CallMethod
+    94  Pop
+    95  End

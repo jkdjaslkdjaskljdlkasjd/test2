@@ -1,0 +1,11 @@
+// DefineSprite_290_BtnDownArrow
+// origen: DoInitAction del sprite 290 (03815_DoInitAction.bin)
+
+     2  Push "mx.controls.SimpleButton"
+    31  GetVariable
+    32  Push "BtnDownArrow", 2, "Object"
+    62  GetVariable
+    63  Push "registerClass"
+    81  CallMethod
+    82  Pop
+    83  End

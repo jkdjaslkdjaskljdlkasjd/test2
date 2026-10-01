@@ -1,0 +1,86 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_2797 fotograma 1, clip en profundidad 1 (06484_DefineSprite_2797.bin, byte 20)
+
+    45  ConstantPool (16)
+   160  Push "_root"
+   165  GetVariable
+   166  Push "_ymouse"
+   171  GetMember
+   172  Push "_root"
+   177  GetVariable
+   178  Push "_xmouse"
+   183  GetMember
+   184  Push 2, "this"
+   194  GetVariable
+   195  Push "hitTest"
+   200  CallMethod
+   201  Not
+   202  If loc410
+   207  Push "GO", 1, "_root"
+   219  GetVariable
+   220  Push "KrinToolTipper"
+   225  GetMember
+   226  Push "gotoAndPlay"
+   231  CallMethod
+   232  Pop
+   233  Push "_root"
+   238  GetVariable
+   239  Push "KrinToolTipper"
+   244  GetMember
+   245  Push "tt", "_root"
+   252  GetVariable
+   253  Push "KrinLang"
+   258  GetMember
+   259  Push "_root"
+   264  GetVariable
+   265  Push "KLangChoosen"
+   270  GetMember
+   271  GetMember
+   272  Push "MENU"
+   277  GetMember
+   278  Push 54, "_parent"
+   288  GetVariable
+   289  Push "pN"
+   294  GetMember
+   295  Add2
+   296  GetMember
+   297  Push " "
+   302  Add2
+   303  Push "_root"
+   308  GetVariable
+   309  Push "KrinLang"
+   314  GetMember
+   315  Push "_root"
+   320  GetVariable
+   321  Push "KLangChoosen"
+   326  GetMember
+   327  GetMember
+   328  Push "MENU"
+   333  GetMember
+   334  Push 64
+   342  GetMember
+   343  Add2
+   344  SetMember
+   345  Push "_root"
+   350  GetVariable
+   351  Push "KrinToolTipper"
+   356  GetMember
+   357  Push "t", "_root"
+   364  GetVariable
+   365  Push "KrinLang"
+   370  GetMember
+   371  Push "_root"
+   376  GetVariable
+   377  Push "KLangChoosen"
+   382  GetMember
+   383  GetMember
+   384  Push "MENU"
+   389  GetMember
+   390  Push 59, "_parent"
+   400  GetVariable
+   401  Push "pN"
+   406  GetMember
+   407  Add2
+   408  GetMember
+   409  SetMember
+   410  End

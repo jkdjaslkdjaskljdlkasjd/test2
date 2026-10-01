@@ -1,0 +1,29 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3239 fotograma 1, clip en profundidad 995 (06960_DefineSprite_3239.bin, byte 11712)
+
+ 11819  ConstantPool (3)
+ 11856  Push "_parent"
+ 11861  GetVariable
+ 11862  Push "teamChangeCD"
+ 11867  GetMember
+ 11868  Push false
+ 11873  Equals2
+ 11874  Not
+ 11875  If loc11940
+ 11880  Push "bobbybobby", "bobbybobby"
+ 11887  GetVariable
+ 11888  Increment
+ 11889  SetVariable
+ 11890  Push "bobbybobby"
+ 11895  GetVariable
+ 11896  Push 5
+ 11904  Equals2
+ 11905  Not
+ 11906  If loc11940
+ 11911  Push "_parent"
+ 11916  GetVariable
+ 11917  Push "teamChangeCD", true
+ 11924  SetMember
+ 11925  Push "bobbybobby", 0
+ 11939  SetVariable
+ 11940  End

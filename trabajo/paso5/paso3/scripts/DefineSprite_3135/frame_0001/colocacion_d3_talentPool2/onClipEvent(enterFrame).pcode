@@ -1,0 +1,48 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3135 fotograma 1, clip en profundidad 3 (06851_DefineSprite_3135.bin, byte 55)
+
+    87  ConstantPool (5)
+   113  Push "", 1
+   123  GetProperty
+   124  Push 0
+   136  Greater
+   137  Not
+   138  PushDuplicate
+   139  Not
+   140  If loc165
+   145  Pop
+   146  Push "_xmove"
+   151  GetVariable
+   152  Push 0
+   164  Greater
+   165  PushDuplicate
+   166  If loc228
+   171  Pop
+   172  Push "", 1
+   182  GetProperty
+   183  Push 0, "maxH"
+   197  GetVariable
+   198  Subtract
+   199  Less2
+   200  Not
+   201  PushDuplicate
+   202  Not
+   203  If loc228
+   208  Pop
+   209  Push "_xmove"
+   214  GetVariable
+   215  Push 0
+   227  Less2
+   228  Not
+   229  If loc262
+   234  Push "this"
+   239  GetVariable
+   240  Push "_y", "this"
+   247  GetVariable
+   248  Push "_y"
+   253  GetMember
+   254  Push "_xmove"
+   259  GetVariable
+   260  Add2
+   261  SetMember
+   262  End

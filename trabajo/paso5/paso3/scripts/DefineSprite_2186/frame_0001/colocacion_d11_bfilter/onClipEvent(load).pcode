@@ -1,0 +1,17 @@
+// onClipEvent(load)
+// origen: DefineSprite_2186 fotograma 1, clip en profundidad 11 (03320_DefineSprite_2186.bin, byte 45)
+
+    73  Push "_parent"
+    85  GetVariable
+    86  Push "dontHide"
+    99  GetMember
+   100  Push true
+   105  Equals2
+   106  Not
+   107  Not
+   108  If loc126
+   113  Push "", 7, false
+   125  SetProperty
+   126  Push "hitter", 0
+   146  SetVariable
+   147  End

@@ -1,0 +1,35 @@
+// on(release)
+// origen: boton 3283 (07085_DefineButton2_3283.bin)
+
+    17  ConstantPool (10)
+   135  Push "PvPCodeLode"
+   140  GetVariable
+   141  Not
+   142  Not
+   143  If loc242
+   148  Push 2, 1, "exportPvPCode"
+   163  CallFunction
+   164  Pop
+   165  Push "START", 1, "krinNavFadeSpeech"
+   177  GetVariable
+   178  Push "gotoAndStop"
+   183  CallMethod
+   184  Pop
+   185  Push "krinNavFadeSpeech"
+   190  GetVariable
+   191  Push "_visible", true
+   198  SetMember
+   199  Push "krinNavFadeSpeech"
+   204  GetVariable
+   205  Push "navText", "exportPvPArray"
+   212  GetVariable
+   213  SetMember
+   214  Push "krinNavFadeSpeech"
+   219  GetVariable
+   220  Push "naxTevt"
+   225  GetMember
+   226  Push "selectable", true
+   233  SetMember
+   234  Push "PvPCodeLode", true
+   241  SetVariable
+   242  End

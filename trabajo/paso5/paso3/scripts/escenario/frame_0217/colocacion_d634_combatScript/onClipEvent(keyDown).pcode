@@ -1,0 +1,40 @@
+// onClipEvent(keyDown)
+// origen: escenario fotograma 217, clip en profundidad 634 (07292_PlaceObject2.bin)
+
+   514  ConstantPool (9)
+   594  Push 32, 1, "Key"
+   609  GetVariable
+   610  Push "isDown"
+   615  CallMethod
+   616  Not
+   617  If loc734
+   622  Push "_root"
+   627  GetVariable
+   628  Push "nextSpeechKKK", true
+   635  SetMember
+   636  Push "_root"
+   641  GetVariable
+   642  Push "hardSkip", true
+   649  SetMember
+   650  Push 0, "_root"
+   664  GetVariable
+   665  Push "my_sound1"
+   670  GetMember
+   671  Push "stop"
+   676  CallMethod
+   677  Pop
+   678  Push 0, "_root"
+   692  GetVariable
+   693  Push "my_sound2"
+   698  GetMember
+   699  Push "stop"
+   704  CallMethod
+   705  Pop
+   706  Push 0, "_root"
+   720  GetVariable
+   721  Push "my_sound3"
+   726  GetMember
+   727  Push "stop"
+   732  CallMethod
+   733  Pop
+   734  End

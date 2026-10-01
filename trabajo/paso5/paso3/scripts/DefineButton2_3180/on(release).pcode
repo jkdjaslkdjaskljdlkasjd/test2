@@ -1,0 +1,80 @@
+// on(release)
+// origen: boton 3180 (06897_DefineButton2_3180.bin)
+
+    38  ConstantPool (9)
+   116  Push "_root"
+   121  GetVariable
+   122  Push "Krin"
+   127  GetMember
+   128  Push "statPoints"
+   133  GetMember
+   134  Push 0
+   146  Greater
+   147  Not
+   148  If loc374
+   153  Push "_root"
+   158  GetVariable
+   159  Push "Krin"
+   164  GetMember
+   165  Push "StatSets0"
+   170  GetMember
+   171  Push 0, "_root"
+   185  GetVariable
+   186  Push "Krin"
+   191  GetMember
+   192  Push "StatSets0"
+   197  GetMember
+   198  Push 0
+   210  GetMember
+   211  Push 1
+   219  Add2
+   220  SetMember
+   221  Push "_root"
+   226  GetVariable
+   227  Push "Krin"
+   232  GetMember
+   233  Push "statPoints", "_root"
+   240  GetVariable
+   241  Push "Krin"
+   246  GetMember
+   247  Push "statPoints"
+   252  GetMember
+   253  Decrement
+   254  SetMember
+   255  Push "statPoints", "statPoints"
+   262  GetVariable
+   263  Decrement
+   264  SetVariable
+   265  Push "yut_lif2", "yut_lif2"
+   272  GetVariable
+   273  Increment
+   274  SetVariable
+   275  Push "_root"
+   280  GetVariable
+   281  Push "Krin"
+   286  GetMember
+   287  Push "LIFE", "_root"
+   294  GetVariable
+   295  Push "Krin"
+   300  GetMember
+   301  Push "LIFE"
+   306  GetMember
+   307  Push 1
+   315  Add2
+   316  SetMember
+   317  Push "_root"
+   322  GetVariable
+   323  Push "Krin"
+   328  GetMember
+   329  Push "statPoints"
+   334  GetMember
+   335  Push 0
+   347  Equals2
+   348  Not
+   349  If loc374
+   354  Push "dead", 1, "statColor"
+   366  GetVariable
+   367  Push "gotoAndStop"
+   372  CallMethod
+   373  Pop
+   374  End

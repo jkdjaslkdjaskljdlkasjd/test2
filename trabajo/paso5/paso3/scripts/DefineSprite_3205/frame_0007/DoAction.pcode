@@ -1,0 +1,33 @@
+// DoAction
+// origen: DefineSprite_3205 fotograma 7, DoAction (06922_DefineSprite_3205.bin, byte 223)
+
+   223  ConstantPool (6)
+   276  Push "reader", "_root"
+   283  GetVariable
+   284  Push "KrinLang"
+   289  GetMember
+   290  Push "_root"
+   295  GetVariable
+   296  Push "KLangChoosen"
+   301  GetMember
+   302  GetMember
+   303  Push "MENU"
+   308  GetMember
+   309  Push 7
+   317  GetMember
+   318  SetVariable
+   319  Push "clicker", "_root"
+   326  GetVariable
+   327  Push "KrinLang"
+   332  GetMember
+   333  Push "_root"
+   338  GetVariable
+   339  Push "KLangChoosen"
+   344  GetMember
+   345  GetMember
+   346  Push "MENU"
+   351  GetMember
+   352  Push 11
+   360  GetMember
+   361  SetVariable
+   362  End

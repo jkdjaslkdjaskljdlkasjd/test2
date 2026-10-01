@@ -1,0 +1,16 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3154___v9NativeNode fotograma 1, clip en profundidad 17 (06870_DefineSprite_3154.bin, byte 65)
+
+    99  ConstantPool (3)
+   116  Push 32, 1, "Key"
+   131  GetVariable
+   132  Push "isDown"
+   137  CallMethod
+   138  Not
+   139  If loc162
+   144  Push "", 7, true
+   156  SetProperty
+   157  Jump loc175
+   162  Push "", 7, false
+   174  SetProperty
+   175  End

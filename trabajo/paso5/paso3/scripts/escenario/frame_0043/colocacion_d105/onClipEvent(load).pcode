@@ -1,0 +1,7 @@
+// onClipEvent(load)
+// origen: escenario fotograma 43, clip en profundidad 105 (04112_PlaceObject2.bin)
+
+    26  Push "", "this"
+    37  GetVariable
+    38  GetURL2 64
+    42  End

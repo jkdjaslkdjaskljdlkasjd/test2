@@ -1,0 +1,198 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_2186 fotograma 1, clip en profundidad 11 (03320_DefineSprite_2186.bin, byte 45)
+
+   156  Push "this"
+   165  GetVariable
+   166  Push "_parent"
+   178  GetMember
+   179  Push 1
+   187  Push "_root"
+   197  GetVariable
+   198  Push "__handoffCustomIcon"
+   222  CallMethod
+   223  Not
+   224  If loc314
+   229  Push "this"
+   238  GetVariable
+   239  Push "this"
+   248  GetVariable
+   249  Push "_parent"
+   261  GetMember
+   262  Push 2
+   270  Push "_root"
+   280  GetVariable
+   281  Push "__uiAbilityHover"
+   302  CallMethod
+   303  Pop
+   304  Push null
+   308  Return
+   309  Jump loc314
+   314  Push "_root"
+   324  GetVariable
+   325  Push "_ymouse"
+   337  GetMember
+   338  Push "_root"
+   348  GetVariable
+   349  Push "_xmouse"
+   361  GetMember
+   362  Push 2
+   370  Push "this"
+   379  GetVariable
+   380  Push "hitTest"
+   392  CallMethod
+   393  Not
+   394  If loc452
+   399  Push 0
+   407  Push "_root"
+   417  GetVariable
+   418  Push "__handoffReleaseCustom"
+   445  CallMethod
+   446  Pop
+   447  Jump loc452
+   452  ConstantPool (25)
+   628  Push "_root"
+   633  GetVariable
+   634  Push "_ymouse"
+   639  GetMember
+   640  Push "_root"
+   645  GetVariable
+   646  Push "_xmouse"
+   651  GetMember
+   652  Push 2, "this"
+   662  GetVariable
+   663  Push "hitTest"
+   668  CallMethod
+   669  Not
+   670  If loc1085
+   675  Push "_parent"
+   680  GetVariable
+   681  Push "_parent"
+   686  GetMember
+   687  Push "_visible"
+   692  GetMember
+   693  PushDuplicate
+   694  Not
+   695  If loc714
+   700  Pop
+   701  Push "_parent"
+   706  GetVariable
+   707  Push "zero"
+   712  GetMember
+   713  Not
+   714  Not
+   715  If loc1080
+   720  Push "_parent"
+   725  GetVariable
+   726  Push "chimney"
+   731  GetMember
+   732  Not
+   733  If loc823
+   738  Push "_root"
+   743  GetVariable
+   744  Push "KrinToolTipper"
+   749  GetMember
+   750  Push "tt", "_parent"
+   757  GetVariable
+   758  Push "toolTipTitle"
+   763  GetMember
+   764  SetMember
+   765  Push "_root"
+   770  GetVariable
+   771  Push "KrinToolTipper"
+   776  GetMember
+   777  Push "t", "_parent"
+   784  GetVariable
+   785  Push "toolTip"
+   790  GetMember
+   791  SetMember
+   792  Push "GO", 1, "_root"
+   804  GetVariable
+   805  Push "KrinToolTipper"
+   810  GetMember
+   811  Push "gotoAndPlay"
+   816  CallMethod
+   817  Pop
+   818  Jump loc1080
+   823  Push "_root"
+   828  GetVariable
+   829  Push "KrinToolTipper"
+   834  GetMember
+   835  Push "tt", "_parent"
+   842  GetVariable
+   843  Push "toolTipTitle"
+   848  GetMember
+   849  SetMember
+   850  Push "_root"
+   855  GetVariable
+   856  Push "KrinToolTipper"
+   861  GetMember
+   862  Push "t", "_parent"
+   869  GetVariable
+   870  Push "toolTip"
+   875  GetMember
+   876  SetMember
+   877  Push "_root"
+   882  GetVariable
+   883  Push "KrinToolTipper"
+   888  GetMember
+   889  Push "t3", "_parent"
+   896  GetVariable
+   897  Push "toolTip3"
+   902  GetMember
+   903  SetMember
+   904  Push "hitter"
+   909  GetVariable
+   910  Push 5
+   918  Equals2
+   919  Not
+   920  If loc1044
+   925  Push "_parent"
+   930  GetVariable
+   931  Push "_parent"
+   936  GetMember
+   937  Push "OKAY"
+   942  GetMember
+   943  Push true
+   948  Equals2
+   949  Not
+   950  If loc1013
+   955  Push "_root"
+   960  GetVariable
+   961  Push "KrinToolTipper"
+   966  GetMember
+   967  Push "tyut", "_parent"
+   974  GetVariable
+   975  Push "toolTip4"
+   980  GetMember
+   981  SetMember
+   982  Push "GO7", 1, "_root"
+   994  GetVariable
+   995  Push "KrinToolTipper"
+  1000  GetMember
+  1001  Push "gotoAndPlay"
+  1006  CallMethod
+  1007  Pop
+  1008  Jump loc1039
+  1013  Push "GO2", 1, "_root"
+  1025  GetVariable
+  1026  Push "KrinToolTipper"
+  1031  GetMember
+  1032  Push "gotoAndPlay"
+  1037  CallMethod
+  1038  Pop
+  1039  Jump loc1080
+  1044  Push "hitter", "hitter"
+  1051  GetVariable
+  1052  Increment
+  1053  SetVariable
+  1054  Push "GO3", 1, "_root"
+  1066  GetVariable
+  1067  Push "KrinToolTipper"
+  1072  GetMember
+  1073  Push "gotoAndPlay"
+  1078  CallMethod
+  1079  Pop
+  1080  Jump loc1100
+  1085  Push "hitter", 0
+  1099  SetVariable
+  1100  End

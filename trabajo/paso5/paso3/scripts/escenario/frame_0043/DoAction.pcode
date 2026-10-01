@@ -1,0 +1,192 @@
+// DoAction
+// origen: escenario fotograma 43, DoAction (04092_DoAction.bin)
+
+     0  ConstantPool (48)
+   325  Push "dollPartsArray", 0, "Array"
+   341  NewObject
+   342  SetVariable
+   343  Push "dollPartsArray", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", 15
+   383  InitArray
+   384  SetVariable
+   385  Push "dollPartsCores", 0, "Array"
+   401  NewObject
+   402  SetVariable
+   403  Push "dollPartsCores", 1, 6, 5, 4, 4, 4, 4, 3, 3, 2, 2, 1, 1, 1, 0, 15
+   492  InitArray
+   493  SetVariable
+   494  Push "dollPartsCores2", 0, "Array"
+   510  NewObject
+   511  SetVariable
+   512  Push "dollPartsCores2", "SHOULDER", "WEAPON", "WEAPON", "FOOT", "FOOT", "LEG2", "LEG2", "ARM", "ARM", "HAND", "HAND", "ARM", "ARM", "CHEST", "HEAD", 15
+   552  InitArray
+   553  SetVariable
+   554  Push "playerKrin6", 0, "Object"
+   570  NewObject
+   571  SetVariable
+   572  Push "playerKrin6"
+   577  GetVariable
+   578  Push "model", "M", "ONE", "MAN", "MODEL1", 4
+   596  InitArray
+   597  SetMember
+   598  Push "changer", "KLIMA"
+   605  SetVariable
+   606  Push "playerKrin6"
+   611  GetVariable
+   612  Push "equip", 0, 0, "changer"
+   637  GetVariable
+   638  Push "changer"
+   643  GetVariable
+   644  Push "changer"
+   649  GetVariable
+   650  Push "changer"
+   655  GetVariable
+   656  Push "changer"
+   661  GetVariable
+   662  Push 7
+   670  InitArray
+   671  SetMember
+   672  Push 0, "inner", "_root"
+   688  GetVariable
+   689  Push "playerKrin6"
+   694  GetMember
+   695  Push "model"
+   700  GetMember
+   701  Push 0
+   713  GetMember
+   714  Push 3, "player6"
+   724  GetVariable
+   725  Push "attachMovie"
+   730  CallMethod
+   731  Pop
+   732  Push "dollPartsArray"
+   737  GetVariable
+   738  Enumerate2
+   739  StoreRegister 0
+   743  Push null
+   747  Equals2
+   748  If loc1027
+   753  Push "h", register0
+   760  SetVariable
+   761  Push -1, "innerX", "_root"
+   773  GetVariable
+   774  Push "playerKrin6"
+   779  GetMember
+   780  Push "model"
+   785  GetMember
+   786  Push 3
+   794  GetMember
+   795  Push "_S"
+   800  Add2
+   801  Push "dollPartsCores2"
+   806  GetVariable
+   807  Push "h"
+   812  GetVariable
+   813  GetMember
+   814  Add2
+   815  Push "_"
+   820  Add2
+   821  Push "_root"
+   826  GetVariable
+   827  Push "playerKrin6"
+   832  GetMember
+   833  Push "model"
+   838  GetMember
+   839  Push 1
+   847  GetMember
+   848  Add2
+   849  Push 3, "player6"
+   859  GetVariable
+   860  Push "inner"
+   865  GetMember
+   866  Push "dollPartsArray"
+   871  GetVariable
+   872  Push "h"
+   877  GetVariable
+   878  GetMember
+   879  GetMember
+   880  Push "attachMovie"
+   885  CallMethod
+   886  Pop
+   887  Push 0, "inner", "_root"
+   903  GetVariable
+   904  Push "playerKrin6"
+   909  GetMember
+   910  Push "model"
+   915  GetMember
+   916  Push 3
+   924  GetMember
+   925  Push "_"
+   930  Add2
+   931  Push "dollPartsCores2"
+   936  GetVariable
+   937  Push "h"
+   942  GetVariable
+   943  GetMember
+   944  Add2
+   945  Push "_"
+   950  Add2
+   951  Push "_root"
+   956  GetVariable
+   957  Push "playerKrin6"
+   962  GetMember
+   963  Push "equip"
+   968  GetMember
+   969  Push "dollPartsCores"
+   974  GetVariable
+   975  Push "h"
+   980  GetVariable
+   981  GetMember
+   982  GetMember
+   983  Add2
+   984  Push 3, "player6"
+   994  GetVariable
+   995  Push "inner"
+  1000  GetMember
+  1001  Push "dollPartsArray"
+  1006  GetVariable
+  1007  Push "h"
+  1012  GetVariable
+  1013  GetMember
+  1014  GetMember
+  1015  Push "attachMovie"
+  1020  CallMethod
+  1021  Pop
+  1022  Jump loc739
+  1027  Push "_root"
+  1032  GetVariable
+  1033  Push "playerKrin6"
+  1038  GetMember
+  1039  Push "equip"
+  1044  GetMember
+  1045  Push 0
+  1057  GetMember
+  1058  Push 0
+  1070  Equals2
+  1071  Not
+  1072  If loc1144
+  1077  Push 2, "hair", "HAIR_", "_root"
+  1091  GetVariable
+  1092  Push "playerKrin6"
+  1097  GetMember
+  1098  Push "model"
+  1103  GetMember
+  1104  Push 2
+  1112  GetMember
+  1113  Add2
+  1114  Push 3, "player6"
+  1124  GetVariable
+  1125  Push "inner"
+  1130  GetMember
+  1131  Push "head"
+  1136  GetMember
+  1137  Push "attachMovie"
+  1142  CallMethod
+  1143  Pop
+  1144  Push "gameoverKrin"
+  1149  GetVariable
+  1150  Not
+  1151  If loc1180
+  1156  Push "gameoverKrin", false
+  1163  SetVariable
+  1164  GoToLabel 'gameOverMenu'
+  1180  End

@@ -1,0 +1,4 @@
+// DoAction
+// origen: DefineSprite_4298 fotograma 2, DoAction (03301_DefineSprite_4298.bin, byte 330)
+
+stop();

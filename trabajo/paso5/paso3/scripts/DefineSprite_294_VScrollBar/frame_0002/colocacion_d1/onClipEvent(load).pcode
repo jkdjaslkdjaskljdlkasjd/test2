@@ -1,0 +1,31 @@
+// onClipEvent(load)
+// origen: DefineSprite_294_VScrollBar fotograma 2, clip en profundidad 1 (00505_DefineSprite_294.bin, byte 74)
+
+    98  DefineFunction "__f_initialize" (eventObj) regs=4 flags=0x0 {
+      129  Push "icon", ""
+      140  SetVariable
+      141  Push "label", "Button"
+      159  SetVariable
+      160  Push "labelPlacement", "right"
+      186  SetVariable
+      187  Push "selected", false
+      202  SetVariable
+      203  Push "toggle", false
+      216  SetVariable
+      217  Push "enabled", true
+      231  SetVariable
+      232  Push "visible", true
+      246  SetVariable
+      247  Push "minHeight", 0
+      270  SetVariable
+      271  Push "minWidth", 0
+      293  SetVariable
+        }
+   294  Push "__f_initialize"
+   313  GetVariable
+   314  Push "initialize", 2, "this"
+   340  GetVariable
+   341  Push "addEventListener"
+   362  CallMethod
+   363  Pop
+   364  End

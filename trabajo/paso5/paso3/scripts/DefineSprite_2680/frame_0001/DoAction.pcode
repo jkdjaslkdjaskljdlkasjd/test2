@@ -1,0 +1,59 @@
+// DoAction
+// origen: DefineSprite_2680 fotograma 1, DoAction (06064_DefineSprite_2680.bin, byte 31)
+
+    31  ConstantPool (13)
+   117  Stop
+   118  Push "t", ""
+   125  SetVariable
+   126  Push "tt", ""
+   133  SetVariable
+   134  Push 0, "my_txt"
+   148  GetVariable
+   149  Push "removeTextField"
+   154  CallMethod
+   155  Pop
+   156  Push 0, "my_txt2"
+   170  GetVariable
+   171  Push "removeTextField"
+   176  CallMethod
+   177  Pop
+   178  Push 0, "my_txt3"
+   192  GetVariable
+   193  Push "removeTextField"
+   198  CallMethod
+   199  Pop
+   200  Push 0, "my_txt4"
+   214  GetVariable
+   215  Push "removeTextField"
+   220  CallMethod
+   221  Pop
+   222  Push 0, "ttt"
+   236  GetVariable
+   237  Push "removeTextField"
+   242  CallMethod
+   243  Pop
+   244  Push "j", 0
+   258  SetVariable
+   259  Push "j"
+   264  GetVariable
+   265  Push 10
+   273  Less2
+   274  Not
+   275  If loc327
+   280  Push 0, "this"
+   294  GetVariable
+   295  Push "MY_TX", "j"
+   302  GetVariable
+   303  Add2
+   304  GetMember
+   305  Push "removeTextField"
+   310  CallMethod
+   311  Pop
+   312  Push "j", "j"
+   319  GetVariable
+   320  Increment
+   321  SetVariable
+   322  Jump loc259
+   327  Push "colorChage", 0
+   341  SetVariable
+   342  End

@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_3155 fotograma 1, DoAction (06872_DefineSprite_3155.bin, byte 38)
+
+    38  Push 0, "krinRemakeTree"
+    66  CallFunction
+    67  Pop
+    68  End

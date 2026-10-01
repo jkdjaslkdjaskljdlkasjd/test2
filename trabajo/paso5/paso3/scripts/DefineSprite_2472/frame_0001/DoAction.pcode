@@ -1,0 +1,81 @@
+// DoAction
+// origen: DefineSprite_2472 fotograma 1, DoAction (03829_DefineSprite_2472.bin, byte 20)
+
+    20  ConstantPool (18)
+   164  Push "onEnterFrame"
+   169  DefineFunction2 "" () regs=2 flags=0x6a {
+      180  Push "urlStart", "://", 1, "", 15
+      199  GetProperty
+      200  Push "indexOf"
+      205  CallMethod
+      206  Push 3
+      214  Add2
+      215  SetVariable
+      216  Push "urlEnd", "urlStart"
+      223  GetVariable
+      224  Push "/", 2, "", 15
+      241  GetProperty
+      242  Push "indexOf"
+      247  CallMethod
+      248  SetVariable
+      249  Push "domain", "urlEnd"
+      256  GetVariable
+      257  Push "urlStart"
+      262  GetVariable
+      263  Push 2, "", 15
+      278  GetProperty
+      279  Push "substring"
+      284  CallMethod
+      285  SetVariable
+      286  Push "LastDot", ".", 1, "domain"
+      300  GetVariable
+      301  Push "lastIndexOf"
+      306  CallMethod
+      307  Push 1
+      315  Subtract
+      316  SetVariable
+      317  Push "pfixEnd", "LastDot"
+      324  GetVariable
+      325  Push ".", 2, "domain"
+      337  GetVariable
+      338  Push "lastIndexOf"
+      343  CallMethod
+      344  Push 1
+      352  Add2
+      353  SetVariable
+      354  Push "domain", "domain"
+      361  GetVariable
+      362  Push "length"
+      367  GetMember
+      368  Push "pfixEnd"
+      373  GetVariable
+      374  Push 2, "domain"
+      384  GetVariable
+      385  Push "substring"
+      390  CallMethod
+      391  SetVariable
+      392  Push "domain"
+      397  GetVariable
+      398  Push ""
+      403  Equals2
+      404  Not
+      405  PushDuplicate
+      406  Not
+      407  If loc426
+      412  Pop
+      413  Push "domain"
+      418  GetVariable
+      419  Push "armorgames.com"
+      424  Equals2
+      425  Not
+      426  Not
+      427  If loc442
+      432  Push register1, "gameLimited", true
+      441  SetMember
+        }
+   442  SetVariable
+   443  Push "this"
+   448  GetVariable
+   449  Push "_visible", false
+   456  SetMember
+   457  End

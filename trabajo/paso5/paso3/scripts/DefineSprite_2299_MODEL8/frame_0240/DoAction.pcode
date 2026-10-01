@@ -1,0 +1,6 @@
+// DoAction
+// origen: DefineSprite_2299_MODEL8 fotograma 240, DoAction (03478_DefineSprite_2299.bin, byte 32349)
+
+ 32349  GoToLabel 'stand'
+ 32358  Play
+ 32359  End

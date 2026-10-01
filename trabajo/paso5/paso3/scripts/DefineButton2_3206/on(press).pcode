@@ -1,0 +1,9 @@
+// on(press)
+// origen: boton 3206 (06923_DefineButton2_3206.bin)
+
+    24  Push 1, 1, "_root"
+    44  GetVariable
+    45  Push "krinHandleData"
+    64  CallMethod
+    65  Pop
+    66  End

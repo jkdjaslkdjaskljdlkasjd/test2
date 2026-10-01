@@ -1,0 +1,42 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 181, clip en profundidad 1652 (06982_PlaceObject2.bin)
+
+    65  ConstantPool (4)
+    97  Push "frameGo"
+   102  GetVariable
+   103  Push undef
+   107  Equals2
+   108  Not
+   109  If loc177
+   114  Push "", 6
+   124  GetProperty
+   125  Push 0
+   137  Greater
+   138  Not
+   139  If loc172
+   144  Push "", 6, "", 6
+   161  GetProperty
+   162  Push 15
+   170  Subtract
+   171  SetProperty
+   172  Jump loc260
+   177  Push "", 6
+   187  GetProperty
+   188  Push 100
+   196  Less2
+   197  Not
+   198  If loc236
+   203  Push "", 6, "", 6
+   220  GetProperty
+   221  Push 15
+   229  Add2
+   230  SetProperty
+   231  Jump loc260
+   236  Push "frameGo"
+   241  GetVariable
+   242  Push 1, "_root"
+   252  GetVariable
+   253  Push "gotoAndStop"
+   258  CallMethod
+   259  Pop
+   260  End

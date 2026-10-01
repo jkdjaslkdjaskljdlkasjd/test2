@@ -1,0 +1,7 @@
+// DoAction
+// origen: escenario fotograma 346, DoAction (07843_DoAction.bin)
+
+     0  Stop
+     1  Push "", 19, "HIGH"
+    17  SetProperty
+    18  End

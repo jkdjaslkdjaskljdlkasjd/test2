@@ -1,0 +1,6 @@
+// DoAction
+// origen: escenario fotograma 6, DoAction (03889_DoAction.bin)
+
+     0  GoToLabel 'NO_LOCK'
+    11  Play
+    12  End

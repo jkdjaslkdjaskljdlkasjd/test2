@@ -1,0 +1,23 @@
+// DoAction
+// origen: DefineSprite_3348 fotograma 12, DoAction (07209_DefineSprite_3348.bin, byte 770)
+
+   770  ConstantPool (7)
+   831  Push "DFTC"
+   836  GetVariable
+   837  Push "hitTarget"
+   842  GetVariable
+   843  Push "inner"
+   848  GetMember
+   849  Push 2, "_root"
+   859  GetVariable
+   860  Push "krinChangeColor"
+   865  CallMethod
+   866  Pop
+   867  Push "hitTarget"
+   872  GetVariable
+   873  Push "inner"
+   878  GetMember
+   879  Push "filters", "DFTF"
+   886  GetVariable
+   887  SetMember
+   888  End

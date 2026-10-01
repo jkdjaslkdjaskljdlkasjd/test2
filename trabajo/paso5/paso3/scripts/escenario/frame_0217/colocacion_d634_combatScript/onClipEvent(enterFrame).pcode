@@ -1,0 +1,83 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 217, clip en profundidad 634 (07292_PlaceObject2.bin)
+
+    88  ConstantPool (10)
+   192  Push 100, "", 6
+   207  GetProperty
+   208  Push 1.2
+   220  Divide
+   221  Subtract
+   222  Push 1, "_root"
+   232  GetVariable
+   233  Push "music", "_root"
+   240  GetVariable
+   241  Push "musicCounter2"
+   246  GetMember
+   247  Add2
+   248  GetMember
+   249  Push "setVolume"
+   254  CallMethod
+   255  Pop
+   256  Push "_root"
+   261  GetVariable
+   262  Push "nextSpeechKKK"
+   267  GetMember
+   268  Push false
+   273  Equals2
+   274  Not
+   275  If loc428
+   280  Push "", 6
+   290  GetProperty
+   291  Push 100
+   299  Less2
+   300  Not
+   301  If loc339
+   306  Push "", 6, "", 6
+   323  GetProperty
+   324  Push 5
+   332  Add2
+   333  SetProperty
+   334  Jump loc355
+   339  Push "", 6, 100
+   354  SetProperty
+   355  Push "timeX", "timeX"
+   362  GetVariable
+   363  Push 30, "_root"
+   373  GetVariable
+   374  Push "frameRateNowKrin"
+   379  GetMember
+   380  Divide
+   381  Add2
+   382  SetVariable
+   383  Push "timeX"
+   388  GetVariable
+   389  Push "_root"
+   394  GetVariable
+   395  Push "timeSpeechKKKUP"
+   400  GetMember
+   401  Less2
+   402  Not
+   403  Not
+   404  If loc423
+   409  Push "_root"
+   414  GetVariable
+   415  Push "nextSpeechKKK", true
+   422  SetMember
+   423  Jump loc505
+   428  Push "", 6
+   438  GetProperty
+   439  Push 0
+   451  Greater
+   452  Not
+   453  If loc491
+   458  Push "", 6, "", 6
+   475  GetProperty
+   476  Push 5
+   484  Subtract
+   485  SetProperty
+   486  Jump loc505
+   491  Push "_root"
+   496  GetVariable
+   497  Push "hardSkip", false
+   504  SetMember
+   505  End

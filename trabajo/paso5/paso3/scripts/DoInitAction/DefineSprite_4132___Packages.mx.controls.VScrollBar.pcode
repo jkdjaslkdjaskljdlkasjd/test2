@@ -1,0 +1,162 @@
+// DefineSprite_4132___Packages.mx.controls.VScrollBar
+// origen: DoInitAction del sprite 4132 (03795_DoInitAction.bin)
+
+     2  ConstantPool (29)
+   259  Push "_global"
+   264  GetVariable
+   265  Push "mx"
+   270  GetMember
+   271  Not
+   272  Not
+   273  If loc302
+   278  Push "_global"
+   283  GetVariable
+   284  Push "mx", 0, "Object"
+   300  NewObject
+   301  SetMember
+   302  Pop
+   303  Push "_global"
+   308  GetVariable
+   309  Push "mx"
+   314  GetMember
+   315  Push "controls"
+   320  GetMember
+   321  Not
+   322  Not
+   323  If loc358
+   328  Push "_global"
+   333  GetVariable
+   334  Push "mx"
+   339  GetMember
+   340  Push "controls", 0, "Object"
+   356  NewObject
+   357  SetMember
+   358  Pop
+   359  Push "_global"
+   364  GetVariable
+   365  Push "mx"
+   370  GetMember
+   371  Push "controls"
+   376  GetMember
+   377  Push "VScrollBar"
+   382  GetMember
+   383  Not
+   384  Not
+   385  If loc902
+   390  Push "mx"
+   395  GetVariable
+   396  Push "controls"
+   401  GetMember
+   402  Push "VScrollBar"
+   407  DefineFunction2 "" () regs=2 flags=0x1a {
+      418  Push 0, register1, undef
+      433  CallMethod
+      434  Pop
+        }
+   435  StoreRegister 1
+   439  SetMember
+   440  Push "mx"
+   445  GetVariable
+   446  Push "controls"
+   451  GetMember
+   452  Push "VScrollBar"
+   457  GetMember
+   458  Push "mx"
+   463  GetVariable
+   464  Push "controls"
+   469  GetMember
+   470  Push "scrollClasses"
+   475  GetMember
+   476  Push "ScrollBar"
+   481  GetMember
+   482  Extends
+   483  Push register1, "prototype"
+   490  GetMember
+   491  StoreRegister 2
+   495  Pop
+   496  Push register2, "init"
+   503  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+      520  Push 0, register1, "init"
+      536  CallMethod
+      537  Pop
+        }
+   538  SetMember
+   539  Push register2, "isScrollBarKey"
+   546  DefineFunction2 "" (r3:k) regs=4 flags=0x19 {
+      560  Push register3, 38
+      570  Equals2
+      571  Not
+      572  If loc609
+      577  Push -1, "Line", 2, register1, "scrollIt"
+      596  CallMethod
+      597  Pop
+      598  Push true
+      603  Return
+      604  Jump loc751
+      609  Push register3, 40
+      619  Equals2
+      620  Not
+      621  If loc658
+      626  Push 1, "Line", 2, register1, "scrollIt"
+      645  CallMethod
+      646  Pop
+      647  Push true
+      652  Return
+      653  Jump loc751
+      658  Push register3, 33
+      668  Equals2
+      669  Not
+      670  If loc707
+      675  Push -1, "Page", 2, register1, "scrollIt"
+      694  CallMethod
+      695  Pop
+      696  Push true
+      701  Return
+      702  Jump loc751
+      707  Push register3, 34
+      717  Equals2
+      718  Not
+      719  If loc751
+      724  Push 1, "Page", 2, register1, "scrollIt"
+      743  CallMethod
+      744  Pop
+      745  Push true
+      750  Return
+      751  Push register3, 1, register2, "isScrollBarKey"
+      765  CallMethod
+      766  Return
+        }
+   767  SetMember
+   768  Push register1, "symbolName", "VScrollBar"
+   777  SetMember
+   778  Push register1, "symbolOwner", "mx"
+   787  GetVariable
+   788  Push "core"
+   793  GetMember
+   794  Push "UIComponent"
+   799  GetMember
+   800  SetMember
+   801  Push register1, "version", "2.0.2.127"
+   810  SetMember
+   811  Push register2, "className", "VScrollBar"
+   820  SetMember
+   821  Push register2, "minusMode", "Up"
+   830  SetMember
+   831  Push register2, "plusMode", "Down"
+   840  SetMember
+   841  Push register2, "minMode", "AtTop"
+   850  SetMember
+   851  Push register2, "maxMode", "AtBottom"
+   860  SetMember
+   861  Push 1, null, "mx"
+   872  GetVariable
+   873  Push "controls"
+   878  GetMember
+   879  Push "VScrollBar"
+   884  GetMember
+   885  Push "prototype"
+   890  GetMember
+   891  Push 3, "ASSetPropFlags"
+   901  CallFunction
+   902  Pop
+   903  End

@@ -1,0 +1,10 @@
+// DoAction
+// origen: DefineSprite_2680 fotograma 15, DoAction (06064_DefineSprite_2680.bin, byte 7798)
+
+  7798  Push 0, "my_txt3"
+  7819  GetVariable
+  7820  Push "removeTextField"
+  7840  CallMethod
+  7841  Pop
+  7842  GoToLabel 'none'
+  7850  End

@@ -1,0 +1,22 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 89 (07200_PlaceObject2.bin)
+
+    39  ConstantPool (8)
+    94  Push "saverX", "", 0
+   110  GetProperty
+   111  SetVariable
+   112  Push "saverY", "", 1
+   124  GetProperty
+   125  SetVariable
+   126  Push "_root"
+   131  GetVariable
+   132  Push "Krin"
+   137  GetMember
+   138  Push "ZoneBG"
+   143  GetMember
+   144  Push 1, "this"
+   154  GetVariable
+   155  Push "gotoAndStop"
+   160  CallMethod
+   161  Pop
+   162  End

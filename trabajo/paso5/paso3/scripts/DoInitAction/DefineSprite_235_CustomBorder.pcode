@@ -1,0 +1,27 @@
+// DefineSprite_235_CustomBorder
+// origen: DoInitAction del sprite 235 (03814_DoInitAction.bin)
+
+     2  ConstantPool (8)
+   100  Push "mx.skins.CustomBorder"
+   105  GetVariable
+   106  Push "CustomBorder", 2, "Object"
+   118  GetVariable
+   119  Push "registerClass"
+   124  CallMethod
+   125  Pop
+   126  Push "mx"
+   131  GetVariable
+   132  Push "skins"
+   137  GetMember
+   138  Push "CustomBorder"
+   143  GetMember
+   144  Push "CustomBorder", 2, "mx"
+   156  GetVariable
+   157  Push "skins"
+   162  GetMember
+   163  Push "SkinElement"
+   168  GetMember
+   169  Push "registerElement"
+   174  CallMethod
+   175  Pop
+   176  End

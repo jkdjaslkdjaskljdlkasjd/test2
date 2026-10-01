@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1052_BOOM_SLASH fotograma 25, DoAction (01595_DefineSprite_1052.bin, byte 194)
+
+   194  Push "", "this"
+   205  GetVariable
+   206  GetURL2 64
+   210  End

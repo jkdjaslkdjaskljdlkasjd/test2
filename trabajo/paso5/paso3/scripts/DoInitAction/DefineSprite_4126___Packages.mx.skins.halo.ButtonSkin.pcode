@@ -1,0 +1,904 @@
+// DefineSprite_4126___Packages.mx.skins.halo.ButtonSkin
+// origen: DoInitAction del sprite 4126 (03777_DoInitAction.bin)
+
+     2  ConstantPool (45)
+   495  Push "_global"
+   500  GetVariable
+   501  Push "mx"
+   506  GetMember
+   507  Not
+   508  Not
+   509  If loc538
+   514  Push "_global"
+   519  GetVariable
+   520  Push "mx", 0, "Object"
+   536  NewObject
+   537  SetMember
+   538  Pop
+   539  Push "_global"
+   544  GetVariable
+   545  Push "mx"
+   550  GetMember
+   551  Push "skins"
+   556  GetMember
+   557  Not
+   558  Not
+   559  If loc594
+   564  Push "_global"
+   569  GetVariable
+   570  Push "mx"
+   575  GetMember
+   576  Push "skins", 0, "Object"
+   592  NewObject
+   593  SetMember
+   594  Pop
+   595  Push "_global"
+   600  GetVariable
+   601  Push "mx"
+   606  GetMember
+   607  Push "skins"
+   612  GetMember
+   613  Push "halo"
+   618  GetMember
+   619  Not
+   620  Not
+   621  If loc662
+   626  Push "_global"
+   631  GetVariable
+   632  Push "mx"
+   637  GetMember
+   638  Push "skins"
+   643  GetMember
+   644  Push "halo", 0, "Object"
+   660  NewObject
+   661  SetMember
+   662  Pop
+   663  Push "_global"
+   668  GetVariable
+   669  Push "mx"
+   674  GetMember
+   675  Push "skins"
+   680  GetMember
+   681  Push "halo"
+   686  GetMember
+   687  Push "ButtonSkin"
+   692  GetMember
+   693  Not
+   694  Not
+   695  If loc6534
+   700  Push "mx"
+   705  GetVariable
+   706  Push "skins"
+   711  GetMember
+   712  Push "halo"
+   717  GetMember
+   718  Push "ButtonSkin"
+   723  DefineFunction2 "" () regs=2 flags=0x1a {
+      734  Push 0, register1, undef
+      749  CallMethod
+      750  Pop
+        }
+   751  StoreRegister 1
+   755  SetMember
+   756  Push "mx"
+   761  GetVariable
+   762  Push "skins"
+   767  GetMember
+   768  Push "halo"
+   773  GetMember
+   774  Push "ButtonSkin"
+   779  GetMember
+   780  Push "mx"
+   785  GetVariable
+   786  Push "skins"
+   791  GetMember
+   792  Push "RectBorder"
+   797  GetMember
+   798  Extends
+   799  Push register1, "prototype"
+   806  GetMember
+   807  StoreRegister 2
+   811  Pop
+   812  Push register2, "init"
+   819  DefineFunction2 "" () regs=2 flags=0x1a {
+      830  Push 0, register1, "init"
+      846  CallMethod
+      847  Pop
+        }
+   848  SetMember
+   849  Push register2, "size"
+   856  DefineFunction2 "" () regs=2 flags=0x29 {
+      867  Push 0, register1, "__get__height"
+      883  CallMethod
+      884  Push 0, register1, "__get__width"
+      900  CallMethod
+      901  Push 2, register1, "drawHaloRect"
+      913  CallMethod
+      914  Pop
+        }
+   915  SetMember
+   916  Push register2, "drawHaloRect"
+   923  DefineFunction2 "" (r3:w, r2:h) regs=7 flags=0x29 {
+      940  Push "borderStyle", 1, register1, "getStyle"
+      954  CallMethod
+      955  StoreRegister 6
+      959  Pop
+      960  Push "themeColor", 1, register1, "getStyle"
+      974  CallMethod
+      975  StoreRegister 4
+      979  Pop
+      980  Push register1, "_parent"
+      987  GetMember
+      988  Push "emphasized"
+      993  GetMember
+      994  StoreRegister 5
+      998  Pop
+      999  Push 0, register1, "clear"
+     1015  CallMethod
+     1016  Pop
+     1017  Push register6
+     1022  StoreRegister 0
+     1026  Push "falseup"
+     1031  StrictEquals
+     1032  If loc1133
+     1037  Push register0, "falsedown"
+     1044  StrictEquals
+     1045  If loc2196
+     1050  Push register0, "falserollover"
+     1057  StrictEquals
+     1058  If loc2895
+     1063  Push register0, "falsedisabled"
+     1070  StrictEquals
+     1071  If loc3597
+     1076  Push register0, "trueup"
+     1083  StrictEquals
+     1084  If loc3836
+     1089  Push register0, "truedown"
+     1096  StrictEquals
+     1097  If loc4538
+     1102  Push register0, "truerollover"
+     1109  StrictEquals
+     1110  If loc5237
+     1115  Push register0, "truedisabled"
+     1122  StrictEquals
+     1123  If loc6039
+     1128  Jump loc6273
+     1133  Push register5
+     1138  Not
+     1139  If loc1846
+     1144  Push 100, 9542041, 5, register2, register3, 0, register1, "__get__y"
+     1179  CallMethod
+     1180  Push 0, register1, "__get__x"
+     1196  CallMethod
+     1197  Push 7, register1, "drawRoundRect"
+     1209  CallMethod
+     1210  Pop
+     1211  Push 75, register4, 5, register2, register3, 0, register1, "__get__y"
+     1243  CallMethod
+     1244  Push 0, register1, "__get__x"
+     1260  CallMethod
+     1261  Push 7, register1, "drawRoundRect"
+     1273  CallMethod
+     1274  Pop
+     1275  Push "radial", 0, 85, 16777215, 3355443, 2
+     1309  InitArray
+     1310  Push 4, register2, 2
+     1325  Subtract
+     1326  Push register3, 2
+     1336  Subtract
+     1337  Push 0, register1, "__get__y"
+     1353  CallMethod
+     1354  Push 1
+     1362  Add2
+     1363  Push 0, register1, "__get__x"
+     1379  CallMethod
+     1380  Push 1
+     1388  Add2
+     1389  Push 9, register1, "drawRoundRect"
+     1401  CallMethod
+     1402  Pop
+     1403  Push "radial", 0, 100, 14342874, 0, 2
+     1441  InitArray
+     1442  Push 3, register2, 4
+     1457  Subtract
+     1458  Push register3, 4
+     1468  Subtract
+     1469  Push 0, register1, "__get__y"
+     1485  CallMethod
+     1486  Push 2
+     1494  Add2
+     1495  Push 0, register1, "__get__x"
+     1511  CallMethod
+     1512  Push 2
+     1520  Add2
+     1521  Push 9, register1, "drawRoundRect"
+     1533  CallMethod
+     1534  Pop
+     1535  Push 75, register4, 3, register2, 4
+     1557  Subtract
+     1558  Push register3, 4
+     1568  Subtract
+     1569  Push 0, register1, "__get__y"
+     1585  CallMethod
+     1586  Push 2
+     1594  Add2
+     1595  Push 0, register1, "__get__x"
+     1611  CallMethod
+     1612  Push 2
+     1620  Add2
+     1621  Push 7, register1, "drawRoundRect"
+     1633  CallMethod
+     1634  Pop
+     1635  Push 100, 16777215, 2, register2, 6
+     1660  Subtract
+     1661  Push register3, 6
+     1671  Subtract
+     1672  Push 0, register1, "__get__y"
+     1688  CallMethod
+     1689  Push 3
+     1697  Add2
+     1698  Push 0, register1, "__get__x"
+     1714  CallMethod
+     1715  Push 3
+     1723  Add2
+     1724  Push 7, register1, "drawRoundRect"
+     1736  CallMethod
+     1737  Pop
+     1738  Push 100, 16316664, 2, register2, 7
+     1763  Subtract
+     1764  Push register3, 6
+     1774  Subtract
+     1775  Push 0, register1, "__get__y"
+     1791  CallMethod
+     1792  Push 4
+     1800  Add2
+     1801  Push 0, register1, "__get__x"
+     1817  CallMethod
+     1818  Push 3
+     1826  Add2
+     1827  Push 7, register1, "drawRoundRect"
+     1839  CallMethod
+     1840  Pop
+     1841  Jump loc2191
+     1846  Push 100, 9542041, 5, register2, register3, 0, 0, 7, register1, "drawRoundRect"
+     1895  CallMethod
+     1896  Pop
+     1897  Push "radial", 0, 100, 16250871, 13291985, 2
+     1931  InitArray
+     1932  Push 4, register2, 2
+     1947  Subtract
+     1948  Push register3, 2
+     1958  Subtract
+     1959  Push 1, 1, 9, register1, "drawRoundRect"
+     1981  CallMethod
+     1982  Pop
+     1983  Push "radial", 0, 100, 13818586, 9542041, 2
+     2017  InitArray
+     2018  Push 3, register2, 4
+     2033  Subtract
+     2034  Push register3, 4
+     2044  Subtract
+     2045  Push 2, 2, 9, register1, "drawRoundRect"
+     2067  CallMethod
+     2068  Pop
+     2069  Push 100, 16777215, 2, register2, 6
+     2094  Subtract
+     2095  Push register3, 6
+     2105  Subtract
+     2106  Push 3, 3, 7, register1, "drawRoundRect"
+     2128  CallMethod
+     2129  Pop
+     2130  Push 100, 16316664, 2, register2, 7
+     2155  Subtract
+     2156  Push register3, 6
+     2166  Subtract
+     2167  Push 4, 3, 7, register1, "drawRoundRect"
+     2189  CallMethod
+     2190  Pop
+     2191  Jump loc6273
+     2196  Push 100, 9542041, 5, register2, register3, 0, register1, "__get__y"
+     2231  CallMethod
+     2232  Push 0, register1, "__get__x"
+     2248  CallMethod
+     2249  Push 7, register1, "drawRoundRect"
+     2261  CallMethod
+     2262  Pop
+     2263  Push "radial", 0, 100, 16579836, 3355443, 2
+     2297  InitArray
+     2298  Push 4, register2, 2
+     2313  Subtract
+     2314  Push register3, 2
+     2324  Subtract
+     2325  Push 0, register1, "__get__y"
+     2341  CallMethod
+     2342  Push 1
+     2350  Add2
+     2351  Push 0, register1, "__get__x"
+     2367  CallMethod
+     2368  Push 1
+     2376  Add2
+     2377  Push 9, register1, "drawRoundRect"
+     2389  CallMethod
+     2390  Pop
+     2391  Push 50, register4, 4, register2, 2
+     2413  Subtract
+     2414  Push register3, 2
+     2424  Subtract
+     2425  Push 0, register1, "__get__y"
+     2441  CallMethod
+     2442  Push 1
+     2450  Add2
+     2451  Push 0, register1, "__get__x"
+     2467  CallMethod
+     2468  Push 1
+     2476  Add2
+     2477  Push 7, register1, "drawRoundRect"
+     2489  CallMethod
+     2490  Pop
+     2491  Push "radial", 0, 100, 14342874, 0, 2
+     2529  InitArray
+     2530  Push 3, register2, 4
+     2545  Subtract
+     2546  Push register3, 4
+     2556  Subtract
+     2557  Push 0, register1, "__get__y"
+     2573  CallMethod
+     2574  Push 2
+     2582  Add2
+     2583  Push 0, register1, "__get__x"
+     2599  CallMethod
+     2600  Push 2
+     2608  Add2
+     2609  Push 9, register1, "drawRoundRect"
+     2621  CallMethod
+     2622  Pop
+     2623  Push 40, register4, 5, register2, register3, 0, register1, "__get__y"
+     2655  CallMethod
+     2656  Push 0, register1, "__get__x"
+     2672  CallMethod
+     2673  Push 7, register1, "drawRoundRect"
+     2685  CallMethod
+     2686  Pop
+     2687  Push 100, 16777215, 2, register2, 6
+     2712  Subtract
+     2713  Push register3, 6
+     2723  Subtract
+     2724  Push 0, register1, "__get__y"
+     2740  CallMethod
+     2741  Push 3
+     2749  Add2
+     2750  Push 0, register1, "__get__x"
+     2766  CallMethod
+     2767  Push 3
+     2775  Add2
+     2776  Push 7, register1, "drawRoundRect"
+     2788  CallMethod
+     2789  Pop
+     2790  Push 20, register4, 2, register2, 7
+     2812  Subtract
+     2813  Push register3, 6
+     2823  Subtract
+     2824  Push 0, register1, "__get__y"
+     2840  CallMethod
+     2841  Push 4
+     2849  Add2
+     2850  Push 0, register1, "__get__x"
+     2866  CallMethod
+     2867  Push 3
+     2875  Add2
+     2876  Push 7, register1, "drawRoundRect"
+     2888  CallMethod
+     2889  Pop
+     2890  Jump loc6273
+     2895  Push 100, 9542041, 5, register2, register3, 0, register1, "__get__y"
+     2930  CallMethod
+     2931  Push 0, register1, "__get__x"
+     2947  CallMethod
+     2948  Push 7, register1, "drawRoundRect"
+     2960  CallMethod
+     2961  Pop
+     2962  Push 50, register4, 5, register2, register3, 0, register1, "__get__y"
+     2994  CallMethod
+     2995  Push 0, register1, "__get__x"
+     3011  CallMethod
+     3012  Push 7, register1, "drawRoundRect"
+     3024  CallMethod
+     3025  Pop
+     3026  Push "radial", 0, 100, 16777215, 3355443, 2
+     3060  InitArray
+     3061  Push 4, register2, 2
+     3076  Subtract
+     3077  Push register3, 2
+     3087  Subtract
+     3088  Push 0, register1, "__get__y"
+     3104  CallMethod
+     3105  Push 1
+     3113  Add2
+     3114  Push 0, register1, "__get__x"
+     3130  CallMethod
+     3131  Push 1
+     3139  Add2
+     3140  Push 9, register1, "drawRoundRect"
+     3152  CallMethod
+     3153  Pop
+     3154  Push "radial", 0, 100, 14342874, 0, 2
+     3192  InitArray
+     3193  Push 3, register2, 4
+     3208  Subtract
+     3209  Push register3, 4
+     3219  Subtract
+     3220  Push 0, register1, "__get__y"
+     3236  CallMethod
+     3237  Push 2
+     3245  Add2
+     3246  Push 0, register1, "__get__x"
+     3262  CallMethod
+     3263  Push 2
+     3271  Add2
+     3272  Push 9, register1, "drawRoundRect"
+     3284  CallMethod
+     3285  Pop
+     3286  Push 50, register4, 3, register2, 4
+     3308  Subtract
+     3309  Push register3, 4
+     3319  Subtract
+     3320  Push 0, register1, "__get__y"
+     3336  CallMethod
+     3337  Push 2
+     3345  Add2
+     3346  Push 0, register1, "__get__x"
+     3362  CallMethod
+     3363  Push 2
+     3371  Add2
+     3372  Push 7, register1, "drawRoundRect"
+     3384  CallMethod
+     3385  Pop
+     3386  Push 100, 16777215, 2, register2, 6
+     3411  Subtract
+     3412  Push register3, 6
+     3422  Subtract
+     3423  Push 0, register1, "__get__y"
+     3439  CallMethod
+     3440  Push 3
+     3448  Add2
+     3449  Push 0, register1, "__get__x"
+     3465  CallMethod
+     3466  Push 3
+     3474  Add2
+     3475  Push 7, register1, "drawRoundRect"
+     3487  CallMethod
+     3488  Pop
+     3489  Push 100, 16316664, 2, register2, 7
+     3514  Subtract
+     3515  Push register3, 6
+     3525  Subtract
+     3526  Push 0, register1, "__get__y"
+     3542  CallMethod
+     3543  Push 4
+     3551  Add2
+     3552  Push 0, register1, "__get__x"
+     3568  CallMethod
+     3569  Push 3
+     3577  Add2
+     3578  Push 7, register1, "drawRoundRect"
+     3590  CallMethod
+     3591  Pop
+     3592  Jump loc6273
+     3597  Push 100, 13159628, 5, register2, register3, 0, 0, 7, register1, "drawRoundRect"
+     3646  CallMethod
+     3647  Pop
+     3648  Push 100, 15921906, 4, register2, 2
+     3673  Subtract
+     3674  Push register3, 2
+     3684  Subtract
+     3685  Push 1, 1, 7, register1, "drawRoundRect"
+     3707  CallMethod
+     3708  Pop
+     3709  Push 100, 13949401, 3, register2, 4
+     3734  Subtract
+     3735  Push register3, 4
+     3745  Subtract
+     3746  Push 2, 2, 7, register1, "drawRoundRect"
+     3768  CallMethod
+     3769  Pop
+     3770  Push 100, 15921906, 2, register2, 6
+     3795  Subtract
+     3796  Push register3, 6
+     3806  Subtract
+     3807  Push 3, 3, 7, register1, "drawRoundRect"
+     3829  CallMethod
+     3830  Pop
+     3831  Jump loc6273
+     3836  Push 100, 10066329, 5, register2, register3, 0, register1, "__get__y"
+     3871  CallMethod
+     3872  Push 0, register1, "__get__x"
+     3888  CallMethod
+     3889  Push 7, register1, "drawRoundRect"
+     3901  CallMethod
+     3902  Pop
+     3903  Push "radial", 0, 100, 16579836, 3355443, 2
+     3937  InitArray
+     3938  Push 4, register2, 2
+     3953  Subtract
+     3954  Push register3, 2
+     3964  Subtract
+     3965  Push 0, register1, "__get__y"
+     3981  CallMethod
+     3982  Push 1
+     3990  Add2
+     3991  Push 0, register1, "__get__x"
+     4007  CallMethod
+     4008  Push 1
+     4016  Add2
+     4017  Push 9, register1, "drawRoundRect"
+     4029  CallMethod
+     4030  Pop
+     4031  Push 50, register4, 4, register2, 2
+     4053  Subtract
+     4054  Push register3, 2
+     4064  Subtract
+     4065  Push 0, register1, "__get__y"
+     4081  CallMethod
+     4082  Push 1
+     4090  Add2
+     4091  Push 0, register1, "__get__x"
+     4107  CallMethod
+     4108  Push 1
+     4116  Add2
+     4117  Push 7, register1, "drawRoundRect"
+     4129  CallMethod
+     4130  Pop
+     4131  Push "radial", 0, 100, 14342874, 0, 2
+     4169  InitArray
+     4170  Push 3, register2, 4
+     4185  Subtract
+     4186  Push register3, 4
+     4196  Subtract
+     4197  Push 0, register1, "__get__y"
+     4213  CallMethod
+     4214  Push 2
+     4222  Add2
+     4223  Push 0, register1, "__get__x"
+     4239  CallMethod
+     4240  Push 2
+     4248  Add2
+     4249  Push 9, register1, "drawRoundRect"
+     4261  CallMethod
+     4262  Pop
+     4263  Push 40, register4, 5, register2, register3, 0, register1, "__get__y"
+     4295  CallMethod
+     4296  Push 0, register1, "__get__x"
+     4312  CallMethod
+     4313  Push 7, register1, "drawRoundRect"
+     4325  CallMethod
+     4326  Pop
+     4327  Push 100, 16777215, 2, register2, 6
+     4352  Subtract
+     4353  Push register3, 6
+     4363  Subtract
+     4364  Push 0, register1, "__get__y"
+     4380  CallMethod
+     4381  Push 3
+     4389  Add2
+     4390  Push 0, register1, "__get__x"
+     4406  CallMethod
+     4407  Push 3
+     4415  Add2
+     4416  Push 7, register1, "drawRoundRect"
+     4428  CallMethod
+     4429  Pop
+     4430  Push 100, 16250871, 2, register2, 7
+     4455  Subtract
+     4456  Push register3, 6
+     4466  Subtract
+     4467  Push 0, register1, "__get__y"
+     4483  CallMethod
+     4484  Push 4
+     4492  Add2
+     4493  Push 0, register1, "__get__x"
+     4509  CallMethod
+     4510  Push 3
+     4518  Add2
+     4519  Push 7, register1, "drawRoundRect"
+     4531  CallMethod
+     4532  Pop
+     4533  Jump loc6273
+     4538  Push 100, 10066329, 5, register2, register3, 0, register1, "__get__y"
+     4573  CallMethod
+     4574  Push 0, register1, "__get__x"
+     4590  CallMethod
+     4591  Push 7, register1, "drawRoundRect"
+     4603  CallMethod
+     4604  Pop
+     4605  Push "radial", 0, 100, 16579836, 3355443, 2
+     4639  InitArray
+     4640  Push 4, register2, 2
+     4655  Subtract
+     4656  Push register3, 2
+     4666  Subtract
+     4667  Push 0, register1, "__get__y"
+     4683  CallMethod
+     4684  Push 1
+     4692  Add2
+     4693  Push 0, register1, "__get__x"
+     4709  CallMethod
+     4710  Push 1
+     4718  Add2
+     4719  Push 9, register1, "drawRoundRect"
+     4731  CallMethod
+     4732  Pop
+     4733  Push 50, register4, 4, register2, 2
+     4755  Subtract
+     4756  Push register3, 2
+     4766  Subtract
+     4767  Push 0, register1, "__get__y"
+     4783  CallMethod
+     4784  Push 1
+     4792  Add2
+     4793  Push 0, register1, "__get__x"
+     4809  CallMethod
+     4810  Push 1
+     4818  Add2
+     4819  Push 7, register1, "drawRoundRect"
+     4831  CallMethod
+     4832  Pop
+     4833  Push "radial", 0, 100, 14342874, 0, 2
+     4871  InitArray
+     4872  Push 3, register2, 4
+     4887  Subtract
+     4888  Push register3, 4
+     4898  Subtract
+     4899  Push 0, register1, "__get__y"
+     4915  CallMethod
+     4916  Push 2
+     4924  Add2
+     4925  Push 0, register1, "__get__x"
+     4941  CallMethod
+     4942  Push 2
+     4950  Add2
+     4951  Push 9, register1, "drawRoundRect"
+     4963  CallMethod
+     4964  Pop
+     4965  Push 40, register4, 5, register2, register3, 0, register1, "__get__y"
+     4997  CallMethod
+     4998  Push 0, register1, "__get__x"
+     5014  CallMethod
+     5015  Push 7, register1, "drawRoundRect"
+     5027  CallMethod
+     5028  Pop
+     5029  Push 100, 16777215, 2, register2, 6
+     5054  Subtract
+     5055  Push register3, 6
+     5065  Subtract
+     5066  Push 0, register1, "__get__y"
+     5082  CallMethod
+     5083  Push 3
+     5091  Add2
+     5092  Push 0, register1, "__get__x"
+     5108  CallMethod
+     5109  Push 3
+     5117  Add2
+     5118  Push 7, register1, "drawRoundRect"
+     5130  CallMethod
+     5131  Pop
+     5132  Push 20, register4, 2, register2, 7
+     5154  Subtract
+     5155  Push register3, 6
+     5165  Subtract
+     5166  Push 0, register1, "__get__y"
+     5182  CallMethod
+     5183  Push 4
+     5191  Add2
+     5192  Push 0, register1, "__get__x"
+     5208  CallMethod
+     5209  Push 3
+     5217  Add2
+     5218  Push 7, register1, "drawRoundRect"
+     5230  CallMethod
+     5231  Pop
+     5232  Jump loc6273
+     5237  Push 100, 9542041, 5, register2, register3, 0, register1, "__get__y"
+     5272  CallMethod
+     5273  Push 0, register1, "__get__x"
+     5289  CallMethod
+     5290  Push 7, register1, "drawRoundRect"
+     5302  CallMethod
+     5303  Pop
+     5304  Push 50, register4, 5, register2, register3, 0, register1, "__get__y"
+     5336  CallMethod
+     5337  Push 0, register1, "__get__x"
+     5353  CallMethod
+     5354  Push 7, register1, "drawRoundRect"
+     5366  CallMethod
+     5367  Pop
+     5368  Push "radial", 0, 100, 16777215, 3355443, 2
+     5402  InitArray
+     5403  Push 4, register2, 2
+     5418  Subtract
+     5419  Push register3, 2
+     5429  Subtract
+     5430  Push 0, register1, "__get__y"
+     5446  CallMethod
+     5447  Push 1
+     5455  Add2
+     5456  Push 0, register1, "__get__x"
+     5472  CallMethod
+     5473  Push 1
+     5481  Add2
+     5482  Push 9, register1, "drawRoundRect"
+     5494  CallMethod
+     5495  Pop
+     5496  Push 40, register4, 4, register2, 2
+     5518  Subtract
+     5519  Push register3, 2
+     5529  Subtract
+     5530  Push 0, register1, "__get__y"
+     5546  CallMethod
+     5547  Push 1
+     5555  Add2
+     5556  Push 0, register1, "__get__x"
+     5572  CallMethod
+     5573  Push 1
+     5581  Add2
+     5582  Push 7, register1, "drawRoundRect"
+     5594  CallMethod
+     5595  Pop
+     5596  Push "radial", 0, 100, 14342874, 0, 2
+     5634  InitArray
+     5635  Push 3, register2, 4
+     5650  Subtract
+     5651  Push register3, 4
+     5661  Subtract
+     5662  Push 0, register1, "__get__y"
+     5678  CallMethod
+     5679  Push 2
+     5687  Add2
+     5688  Push 0, register1, "__get__x"
+     5704  CallMethod
+     5705  Push 2
+     5713  Add2
+     5714  Push 9, register1, "drawRoundRect"
+     5726  CallMethod
+     5727  Pop
+     5728  Push 40, register4, 3, register2, 4
+     5750  Subtract
+     5751  Push register3, 4
+     5761  Subtract
+     5762  Push 0, register1, "__get__y"
+     5778  CallMethod
+     5779  Push 2
+     5787  Add2
+     5788  Push 0, register1, "__get__x"
+     5804  CallMethod
+     5805  Push 2
+     5813  Add2
+     5814  Push 7, register1, "drawRoundRect"
+     5826  CallMethod
+     5827  Pop
+     5828  Push 100, 16777215, 2, register2, 6
+     5853  Subtract
+     5854  Push register3, 6
+     5864  Subtract
+     5865  Push 0, register1, "__get__y"
+     5881  CallMethod
+     5882  Push 3
+     5890  Add2
+     5891  Push 0, register1, "__get__x"
+     5907  CallMethod
+     5908  Push 3
+     5916  Add2
+     5917  Push 7, register1, "drawRoundRect"
+     5929  CallMethod
+     5930  Pop
+     5931  Push 100, 16316664, 2, register2, 7
+     5956  Subtract
+     5957  Push register3, 6
+     5967  Subtract
+     5968  Push 0, register1, "__get__y"
+     5984  CallMethod
+     5985  Push 4
+     5993  Add2
+     5994  Push 0, register1, "__get__x"
+     6010  CallMethod
+     6011  Push 3
+     6019  Add2
+     6020  Push 7, register1, "drawRoundRect"
+     6032  CallMethod
+     6033  Pop
+     6034  Jump loc6273
+     6039  Push 100, 13159628, 5, register2, register3, 0, 0, 7, register1, "drawRoundRect"
+     6088  CallMethod
+     6089  Pop
+     6090  Push 100, 15921906, 4, register2, 2
+     6115  Subtract
+     6116  Push register3, 2
+     6126  Subtract
+     6127  Push 1, 1, 7, register1, "drawRoundRect"
+     6149  CallMethod
+     6150  Pop
+     6151  Push 100, 13949401, 3, register2, 4
+     6176  Subtract
+     6177  Push register3, 4
+     6187  Subtract
+     6188  Push 2, 2, 7, register1, "drawRoundRect"
+     6210  CallMethod
+     6211  Pop
+     6212  Push 100, 15921906, 2, register2, 6
+     6237  Subtract
+     6238  Push register3, 6
+     6248  Subtract
+     6249  Push 3, 3, 7, register1, "drawRoundRect"
+     6271  CallMethod
+     6272  Pop
+        }
+  6273  SetMember
+  6274  Push register1, "classConstruct"
+  6281  DefineFunction2 "" () regs=2 flags=0x12a {
+     6292  Push 0, "mx"
+     6306  GetVariable
+     6307  Push "core"
+     6312  GetMember
+     6313  Push "ext"
+     6318  GetMember
+     6319  Push "UIObjectExtensions"
+     6324  GetMember
+     6325  Push "Extensions"
+     6330  CallMethod
+     6331  Pop
+     6332  Push register1, "skinRegistry"
+     6339  GetMember
+     6340  Push "ButtonSkin", true
+     6347  SetMember
+     6348  Push true
+     6353  Return
+        }
+  6354  SetMember
+  6355  Push register1, "symbolName", "ButtonSkin"
+  6364  SetMember
+  6365  Push register1, "symbolOwner", "mx"
+  6374  GetVariable
+  6375  Push "skins"
+  6380  GetMember
+  6381  Push "halo"
+  6386  GetMember
+  6387  Push "ButtonSkin"
+  6392  GetMember
+  6393  SetMember
+  6394  Push register2, "className", "ButtonSkin"
+  6403  SetMember
+  6404  Push register2, "backgroundColorName", "buttonColor"
+  6413  SetMember
+  6414  Push register1, "classConstructed", 0, "mx"
+  6432  GetVariable
+  6433  Push "skins"
+  6438  GetMember
+  6439  Push "halo"
+  6444  GetMember
+  6445  Push "ButtonSkin"
+  6450  GetMember
+  6451  Push "classConstruct"
+  6456  CallMethod
+  6457  SetMember
+  6458  Push register1, "UIObjectExtensionsDependency", "mx"
+  6467  GetVariable
+  6468  Push "core"
+  6473  GetMember
+  6474  Push "ext"
+  6479  GetMember
+  6480  Push "UIObjectExtensions"
+  6485  GetMember
+  6486  SetMember
+  6487  Push 1, null, "mx"
+  6498  GetVariable
+  6499  Push "skins"
+  6504  GetMember
+  6505  Push "halo"
+  6510  GetMember
+  6511  Push "ButtonSkin"
+  6516  GetMember
+  6517  Push "prototype"
+  6522  GetMember
+  6523  Push 3, "ASSetPropFlags"
+  6533  CallFunction
+  6534  Pop
+  6535  End

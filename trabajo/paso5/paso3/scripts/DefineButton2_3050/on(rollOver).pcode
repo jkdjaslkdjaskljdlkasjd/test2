@@ -1,0 +1,97 @@
+// on(rollOver)
+// origen: boton 3050 (06766_DefineButton2_3050.bin)
+
+   633  ConstantPool (17)
+   791  Push "_root"
+   796  GetVariable
+   797  Push "thereIsASlotSelected", true
+   804  SetMember
+   805  Push "_root"
+   810  GetVariable
+   811  Push "KrinToolTipper"
+   816  GetMember
+   817  Push "colorChange", "Common"
+   824  SetMember
+   825  Push "_root"
+   830  GetVariable
+   831  Push "KrinToolTipper"
+   836  GetMember
+   837  Push "colorChange"
+   842  GetMember
+   843  Push "_root"
+   848  GetVariable
+   849  Push "KrinToolTipper"
+   854  GetMember
+   855  Push "fontBacker2"
+   860  GetMember
+   861  Push 2, "_root"
+   871  GetVariable
+   872  Push "krinChangeColor"
+   877  CallMethod
+   878  Pop
+   879  Push "id"
+   884  GetVariable
+   885  Push 0
+   897  Equals2
+   898  Not
+   899  Not
+   900  If loc965
+   905  Push "_root"
+   910  GetVariable
+   911  Push "KrinToolTipper"
+   916  GetMember
+   917  Push "t", "_root"
+   924  GetVariable
+   925  Push "KrinLang"
+   930  GetMember
+   931  Push "_root"
+   936  GetVariable
+   937  Push "KLangChoosen"
+   942  GetMember
+   943  GetMember
+   944  Push "MENU"
+   949  GetMember
+   950  Push 48
+   958  GetMember
+   959  SetMember
+   960  Jump loc1020
+   965  Push "_root"
+   970  GetVariable
+   971  Push "KrinToolTipper"
+   976  GetMember
+   977  Push "t", "_root"
+   984  GetVariable
+   985  Push "KrinLang"
+   990  GetMember
+   991  Push "_root"
+   996  GetVariable
+   997  Push "KLangChoosen"
+  1002  GetMember
+  1003  GetMember
+  1004  Push "MENU"
+  1009  GetMember
+  1010  Push 49
+  1018  GetMember
+  1019  SetMember
+  1020  Push "_root"
+  1025  GetVariable
+  1026  Push "KrinToolTipper"
+  1031  GetMember
+  1032  Push "tt", "_root"
+  1039  GetVariable
+  1040  Push "Krin"
+  1045  GetMember
+  1046  Push "NameSets"
+  1051  GetMember
+  1052  Push "id"
+  1057  GetVariable
+  1058  GetMember
+  1059  SetMember
+  1060  Push "GO", 1, "_root"
+  1072  GetVariable
+  1073  Push "KrinToolTipper"
+  1078  GetMember
+  1079  Push "gotoAndStop"
+  1084  CallMethod
+  1085  Pop
+  1086  End

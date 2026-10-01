@@ -1,0 +1,76 @@
+// on(rollOver)
+// origen: boton 2938 (06648_DefineButton2_2938.bin)
+
+   379  ConstantPool (17)
+   548  Push "START", 1, "ui_but7"
+   560  GetVariable
+   561  Push "gotoAndPlay"
+   566  CallMethod
+   567  Pop
+   568  Push "_root"
+   573  GetVariable
+   574  Push "thereIsASlotSelected", true
+   581  SetMember
+   582  Push "_root"
+   587  GetVariable
+   588  Push "KrinToolTipper"
+   593  GetMember
+   594  Push "colorChange", "Common"
+   601  SetMember
+   602  Push "_root"
+   607  GetVariable
+   608  Push "KrinToolTipper"
+   613  GetMember
+   614  Push "colorChange"
+   619  GetMember
+   620  Push "_root"
+   625  GetVariable
+   626  Push "KrinToolTipper"
+   631  GetMember
+   632  Push "fontBacker2"
+   637  GetMember
+   638  Push 2, "_root"
+   648  GetVariable
+   649  Push "krinChangeColor"
+   654  CallMethod
+   655  Pop
+   656  Push "_root"
+   661  GetVariable
+   662  Push "KrinToolTipper"
+   667  GetMember
+   668  Push "tt", "_root"
+   675  GetVariable
+   676  Push "KrinLang"
+   681  GetMember
+   682  Push "KLangChoosen"
+   687  GetVariable
+   688  GetMember
+   689  Push "SYSTEM"
+   694  GetMember
+   695  Push 42
+   703  GetMember
+   704  SetMember
+   705  Push "_root"
+   710  GetVariable
+   711  Push "KrinToolTipper"
+   716  GetMember
+   717  Push "t", "_root"
+   724  GetVariable
+   725  Push "KrinLang"
+   730  GetMember
+   731  Push "KLangChoosen"
+   736  GetVariable
+   737  GetMember
+   738  Push "SYSTEM"
+   743  GetMember
+   744  Push 43
+   752  GetMember
+   753  SetMember
+   754  Push "GO", 1, "_root"
+   766  GetVariable
+   767  Push "KrinToolTipper"
+   772  GetMember
+   773  Push "gotoAndStop"
+   778  CallMethod
+   779  Pop
+   780  End

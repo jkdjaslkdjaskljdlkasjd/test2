@@ -1,0 +1,25 @@
+// DoAction
+// origen: DefineSprite_3344 fotograma 4, DoAction (07201_DefineSprite_3344.bin, byte 188)
+
+   188  ConstantPool (5)
+   237  Push "_root"
+   242  GetVariable
+   243  Push "BATTLESCREEN"
+   248  GetMember
+   249  Push "_y", "_root"
+   256  GetVariable
+   257  Push "BATTLESCREEN"
+   262  GetMember
+   263  Push "_y"
+   268  GetMember
+   269  Push "shakeValue"
+   274  GetVariable
+   275  Subtract
+   276  SetMember
+   277  Push "shakeValue", "shakeValue"
+   284  GetVariable
+   285  Push "shakeMinus"
+   290  GetVariable
+   291  Subtract
+   292  SetVariable
+   293  End

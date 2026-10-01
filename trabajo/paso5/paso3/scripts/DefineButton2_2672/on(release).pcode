@@ -1,0 +1,158 @@
+// on(release)
+// origen: boton 2672 (06051_DefineButton2_2672.bin)
+
+    17  ConstantPool (24)
+   241  Push "_root"
+   246  GetVariable
+   247  Push "Krin"
+   252  GetMember
+   253  Push "slotInUse", 1
+   263  SetMember
+   264  Push "_root"
+   269  GetVariable
+   270  Push "Krin"
+   275  GetMember
+   276  Push "dataMode"
+   281  GetMember
+   282  Push "save"
+   287  Equals2
+   288  Not
+   289  If loc422
+   294  Push "_root"
+   299  GetVariable
+   300  Push "Krin"
+   305  GetMember
+   306  Push "nameUser", "_root"
+   313  GetVariable
+   314  Push "krinNameUser"
+   319  GetMember
+   320  SetMember
+   321  Push "_root"
+   326  GetVariable
+   327  Push "thereIsASlotSelected", false
+   334  SetMember
+   335  Push "_root"
+   340  GetVariable
+   341  Push "KrinToolTipper"
+   346  GetMember
+   347  Push "tt", ""
+   354  SetMember
+   355  Push "_root"
+   360  GetVariable
+   361  Push "KrinToolTipper"
+   366  GetMember
+   367  Push "t", ""
+   374  SetMember
+   375  Push 1, 1, "_root"
+   390  GetVariable
+   391  Push "KrinToolTipper"
+   396  GetMember
+   397  Push "gotoAndStop"
+   402  CallMethod
+   403  Pop
+   404  GoToLabel 'classMenu'
+   417  Jump loc756
+   422  Push "_root"
+   427  GetVariable
+   428  Push "slot", "_root"
+   435  GetVariable
+   436  Push "Krin"
+   441  GetMember
+   442  Push "slotInUse"
+   447  GetMember
+   448  Add2
+   449  GetMember
+   450  Push "data"
+   455  GetMember
+   456  Push "nameUser"
+   461  GetMember
+   462  Push undef
+   466  Equals2
+   467  Not
+   468  Not
+   469  If loc756
+   474  Push "_root"
+   479  GetVariable
+   480  Push "krinNameUser", "_root"
+   487  GetVariable
+   488  Push "slot", "_root"
+   495  GetVariable
+   496  Push "Krin"
+   501  GetMember
+   502  Push "slotInUse"
+   507  GetMember
+   508  Add2
+   509  GetMember
+   510  Push "data"
+   515  GetMember
+   516  Push "nameUser"
+   521  GetMember
+   522  SetMember
+   523  Push "_root"
+   528  GetVariable
+   529  Push "Krin"
+   534  GetMember
+   535  Push "slotInUse"
+   540  GetMember
+   541  Push 1, "_root"
+   551  GetVariable
+   552  Push "krinHandleData"
+   557  CallMethod
+   558  Pop
+   559  Push 0, "_root"
+   573  GetVariable
+   574  Push "slot", "_root"
+   581  GetVariable
+   582  Push "Krin"
+   587  GetMember
+   588  Push "slotInUse"
+   593  GetMember
+   594  Add2
+   595  GetMember
+   596  Push "flush"
+   601  CallMethod
+   602  Pop
+   603  Push "arenaMode"
+   608  GetVariable
+   609  Push true
+   614  Equals2
+   615  Not
+   616  If loc742
+   621  Push "_root"
+   626  GetVariable
+   627  Push "arenaPlayer", "currentArenaPlayer"
+   634  GetVariable
+   635  Add2
+   636  GetMember
+   637  Push "krinNameUser", "_root"
+   644  GetVariable
+   645  Push "krinNameUser"
+   650  GetMember
+   651  SetMember
+   652  Push "currentArenaPlayer"
+   657  GetVariable
+   658  Push 1
+   666  Equals2
+   667  Not
+   668  If loc725
+   673  Push "currentArenaPlayer", "currentArenaPlayer"
+   680  GetVariable
+   681  Increment
+   682  SetVariable
+   683  Push "pickText", "_root"
+   690  GetVariable
+   691  Push "KrinLang"
+   696  GetMember
+   697  Push "KLangChoosen"
+   702  GetVariable
+   703  GetMember
+   704  Push "MENU"
+   709  GetMember
+   710  Push 73
+   718  GetMember
+   719  SetVariable
+   720  Jump loc737
+   725  GoToLabel 'ArenaNav'
+   737  Jump loc756
+   742  GoToLabel 'Navigation'
+   756  End

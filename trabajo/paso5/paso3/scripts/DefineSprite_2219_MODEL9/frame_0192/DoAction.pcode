@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_2219_MODEL9 fotograma 192, DoAction (03370_DefineSprite_2219.bin, byte 2321)
+
+  2321  Push "this"
+  2330  GetVariable
+  2331  RemoveSprite
+  2332  End

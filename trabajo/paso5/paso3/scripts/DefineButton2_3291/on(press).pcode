@@ -1,0 +1,17 @@
+// on(press)
+// origen: boton 3291 (07095_DefineButton2_3291.bin)
+
+    17  ConstantPool (6)
+    70  Push "", 7, false
+    82  SetProperty
+    83  Push "naxTevt2"
+    88  GetVariable
+    89  Push "selectable", false
+    96  SetMember
+    97  Push "_root"
+   102  GetVariable
+   103  Push "PvPCodeLode", false
+   110  SetMember
+   111  Push "navText2", ""
+   118  SetVariable
+   119  End

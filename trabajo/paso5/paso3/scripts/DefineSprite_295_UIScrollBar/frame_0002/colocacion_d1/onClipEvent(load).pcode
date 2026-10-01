@@ -1,0 +1,21 @@
+// onClipEvent(load)
+// origen: DefineSprite_295_UIScrollBar fotograma 2, clip en profundidad 1 (00507_DefineSprite_295.bin, byte 74)
+
+    99  DefineFunction "__f_initialize" (eventObj) regs=4 flags=0x0 {
+      130  Push "enabled", true
+      144  SetVariable
+      145  Push "visible", true
+      159  SetVariable
+      160  Push "minHeight", 0
+      183  SetVariable
+      184  Push "minWidth", 0
+      206  SetVariable
+        }
+   207  Push "__f_initialize"
+   226  GetVariable
+   227  Push "initialize", 2, "this"
+   253  GetVariable
+   254  Push "addEventListener"
+   275  CallMethod
+   276  Pop
+   277  End

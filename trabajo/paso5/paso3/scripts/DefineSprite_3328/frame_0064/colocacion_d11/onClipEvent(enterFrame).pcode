@@ -1,0 +1,18 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3328 fotograma 64, clip en profundidad 11 (07183_DefineSprite_3328.bin, byte 3668)
+
+  3711  ConstantPool (1)
+  3717  Push "", 0, "", 0
+  3742  GetProperty
+  3743  Push 0.5
+  3755  Subtract
+  3756  SetProperty
+  3757  Push "", 0
+  3771  GetProperty
+  3772  Push -600
+  3780  Less2
+  3781  Not
+  3782  If loc3807
+  3787  Push "", 0, 600
+  3806  SetProperty
+  3807  End

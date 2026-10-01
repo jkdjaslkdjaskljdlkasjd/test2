@@ -1,0 +1,28 @@
+// on(rollOut)
+// origen: boton 3091 (06807_DefineButton2_3091.bin)
+
+  2853  ConstantPool (7)
+  2918  Push "_root"
+  2923  GetVariable
+  2924  Push "thereIsASlotSelected", false
+  2931  SetMember
+  2932  Push "_root"
+  2937  GetVariable
+  2938  Push "KrinToolTipper"
+  2943  GetMember
+  2944  Push "tt", ""
+  2951  SetMember
+  2952  Push "_root"
+  2957  GetVariable
+  2958  Push "KrinToolTipper"
+  2963  GetMember
+  2964  Push "t", ""
+  2971  SetMember
+  2972  Push 1, 1, "_root"
+  2987  GetVariable
+  2988  Push "KrinToolTipper"
+  2993  GetMember
+  2994  Push "gotoAndStop"
+  2999  CallMethod
+  3000  Pop
+  3001  End

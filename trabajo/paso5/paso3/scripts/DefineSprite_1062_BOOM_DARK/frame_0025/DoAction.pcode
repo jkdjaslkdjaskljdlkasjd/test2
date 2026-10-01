@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_1062_BOOM_DARK fotograma 25, DoAction (01610_DefineSprite_1062.bin, byte 220)
+
+   220  Push "", "this"
+   231  GetVariable
+   232  GetURL2 64
+   236  End

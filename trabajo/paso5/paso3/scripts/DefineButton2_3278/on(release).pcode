@@ -1,0 +1,57 @@
+// on(release)
+// origen: boton 3278 (07075_DefineButton2_3278.bin)
+
+    17  ConstantPool (11)
+   113  Push "PvPCodeLode"
+   118  GetVariable
+   119  Not
+   120  Not
+   121  If loc326
+   126  Push "Krin"
+   131  GetVariable
+   132  Push "singlePlayer", false
+   139  SetMember
+   140  Push "Krin"
+   145  GetVariable
+   146  Push "playerNumber", 1
+   156  SetMember
+   157  Push "turnBasedKrin", true
+   164  SetVariable
+   165  Push "Krin"
+   170  GetVariable
+   171  Push "BattlePick", 1
+   181  SetMember
+   182  Push "_root"
+   187  GetVariable
+   188  Push "KRS", 0, "Array"
+   204  NewObject
+   205  SetMember
+   206  Push "r", 0
+   220  SetVariable
+   221  Push "r"
+   226  GetVariable
+   227  Push 100
+   235  Less2
+   236  Not
+   237  If loc285
+   242  Push "_root"
+   247  GetVariable
+   248  Push "KRS"
+   253  GetMember
+   254  Push "r"
+   259  GetVariable
+   260  Push 100
+   268  RandomNumber
+   269  SetMember
+   270  Push "r", "r"
+   277  GetVariable
+   278  Increment
+   279  SetVariable
+   280  Jump loc221
+   285  Push "_root"
+   290  GetVariable
+   291  Push "KRSC", 0
+   305  SetMember
+   306  GoToLabel 'LOADBATTLESCENE'
+   325  Play
+   326  End

@@ -1,0 +1,357 @@
+// DefineSprite_4110___Packages.mx.events.EventDispatcher
+// origen: DoInitAction del sprite 4110 (03729_DoInitAction.bin)
+
+     2  ConstantPool (30)
+   299  Push "_global"
+   304  GetVariable
+   305  Push "mx"
+   310  GetMember
+   311  Not
+   312  Not
+   313  If loc342
+   318  Push "_global"
+   323  GetVariable
+   324  Push "mx", 0, "Object"
+   340  NewObject
+   341  SetMember
+   342  Pop
+   343  Push "_global"
+   348  GetVariable
+   349  Push "mx"
+   354  GetMember
+   355  Push "events"
+   360  GetMember
+   361  Not
+   362  Not
+   363  If loc398
+   368  Push "_global"
+   373  GetVariable
+   374  Push "mx"
+   379  GetMember
+   380  Push "events", 0, "Object"
+   396  NewObject
+   397  SetMember
+   398  Pop
+   399  Push "_global"
+   404  GetVariable
+   405  Push "mx"
+   410  GetMember
+   411  Push "events"
+   416  GetMember
+   417  Push "EventDispatcher"
+   422  GetMember
+   423  Not
+   424  Not
+   425  If loc1684
+   430  Push "mx"
+   435  GetVariable
+   436  Push "events"
+   441  GetMember
+   442  Push "EventDispatcher"
+   447  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   455  StoreRegister 1
+   459  SetMember
+   460  Push register1, "prototype"
+   467  GetMember
+   468  StoreRegister 2
+   472  Pop
+   473  Push register1, "_removeEventListener"
+   480  DefineFunction2 "" (r3:queue, event, r5:handler) regs=6 flags=0x2a {
+      514  Push register3, undef
+      520  Equals2
+      521  Not
+      522  Not
+      523  If loc650
+      528  Push register3, "length"
+      535  GetMember
+      536  StoreRegister 4
+      540  Pop
+      541  Push undef
+      545  StoreRegister 1
+      549  Pop
+      550  Push 0
+      562  StoreRegister 1
+      566  Pop
+      567  Push register1, register4
+      574  Less2
+      575  Not
+      576  If loc650
+      581  Push register3, register1
+      588  GetMember
+      589  StoreRegister 2
+      593  Pop
+      594  Push register2, register5
+      601  Equals2
+      602  Not
+      603  If loc634
+      608  Push 1, register1, 2, register3, "splice"
+      627  CallMethod
+      628  Pop
+      629  Push undef
+      633  Return
+      634  Push register1
+      639  Increment
+      640  StoreRegister 1
+      644  Pop
+      645  Jump loc567
+        }
+   650  SetMember
+   651  Push register1, "initialize"
+   658  DefineFunction2 "" (r1:object) regs=2 flags=0x2a {
+      677  Push "mx"
+      682  GetVariable
+      683  Push "events"
+      688  GetMember
+      689  Push "EventDispatcher"
+      694  GetMember
+      695  Push "_fEventDispatcher"
+      700  GetMember
+      701  Push undef
+      705  Equals2
+      706  Not
+      707  If loc760
+      712  Push "mx"
+      717  GetVariable
+      718  Push "events"
+      723  GetMember
+      724  Push "EventDispatcher"
+      729  GetMember
+      730  Push "_fEventDispatcher", 0, "mx"
+      746  GetVariable
+      747  Push "events"
+      752  GetMember
+      753  Push "EventDispatcher"
+      758  NewMethod
+      759  SetMember
+      760  Push register1, "addEventListener", "mx"
+      769  GetVariable
+      770  Push "events"
+      775  GetMember
+      776  Push "EventDispatcher"
+      781  GetMember
+      782  Push "_fEventDispatcher"
+      787  GetMember
+      788  Push "addEventListener"
+      793  GetMember
+      794  SetMember
+      795  Push register1, "removeEventListener", "mx"
+      804  GetVariable
+      805  Push "events"
+      810  GetMember
+      811  Push "EventDispatcher"
+      816  GetMember
+      817  Push "_fEventDispatcher"
+      822  GetMember
+      823  Push "removeEventListener"
+      828  GetMember
+      829  SetMember
+      830  Push register1, "dispatchEvent", "mx"
+      839  GetVariable
+      840  Push "events"
+      845  GetMember
+      846  Push "EventDispatcher"
+      851  GetMember
+      852  Push "_fEventDispatcher"
+      857  GetMember
+      858  Push "dispatchEvent"
+      863  GetMember
+      864  SetMember
+      865  Push register1, "dispatchQueue", "mx"
+      874  GetVariable
+      875  Push "events"
+      880  GetMember
+      881  Push "EventDispatcher"
+      886  GetMember
+      887  Push "_fEventDispatcher"
+      892  GetMember
+      893  Push "dispatchQueue"
+      898  GetMember
+      899  SetMember
+        }
+   900  SetMember
+   901  Push register2, "dispatchQueue"
+   908  DefineFunction2 "" (r6:queueObj, r2:eventObj) regs=8 flags=0x2a {
+      939  Push "__q_", register2, "type"
+      948  GetMember
+      949  Add2
+      950  StoreRegister 7
+      954  Pop
+      955  Push register6, register7
+      962  GetMember
+      963  StoreRegister 4
+      967  Pop
+      968  Push register4, undef
+      974  Equals2
+      975  Not
+      976  Not
+      977  If loc1233
+      982  Push undef
+      986  StoreRegister 5
+      990  Pop
+      991  Push register4
+      996  Enumerate2
+      997  StoreRegister 0
+     1001  Push null
+     1005  Equals2
+     1006  If loc1233
+     1011  Push register0
+     1016  StoreRegister 5
+     1020  Pop
+     1021  Push register4, register5
+     1028  GetMember
+     1029  StoreRegister 1
+     1033  Pop
+     1034  Push register1
+     1039  TypeOf
+     1040  StoreRegister 3
+     1044  Pop
+     1045  Push register3, "object"
+     1052  Equals2
+     1053  PushDuplicate
+     1054  If loc1068
+     1059  Pop
+     1060  Push register3, "movieclip"
+     1067  Equals2
+     1068  Not
+     1069  If loc1201
+     1074  Push register1, "handleEvent"
+     1081  GetMember
+     1082  Push undef
+     1086  Equals2
+     1087  Not
+     1088  Not
+     1089  If loc1110
+     1094  Push register2, 1, register1, "handleEvent"
+     1108  CallMethod
+     1109  Pop
+     1110  Push register1, register2, "type"
+     1119  GetMember
+     1120  GetMember
+     1121  Push undef
+     1125  Equals2
+     1126  Not
+     1127  Not
+     1128  If loc1196
+     1133  Push "mx"
+     1138  GetVariable
+     1139  Push "events"
+     1144  GetMember
+     1145  Push "EventDispatcher"
+     1150  GetMember
+     1151  Push "exceptions"
+     1156  GetMember
+     1157  Push register2, "type"
+     1164  GetMember
+     1165  GetMember
+     1166  Push undef
+     1170  Equals2
+     1171  Not
+     1172  If loc1196
+     1177  Push register2, 1, register1, register2, "type"
+     1193  GetMember
+     1194  CallMethod
+     1195  Pop
+     1196  Jump loc1228
+     1201  Push register2, 1
+     1211  InitArray
+     1212  Push register6, 2, register1, "apply"
+     1226  CallMethod
+     1227  Pop
+     1228  Jump loc997
+        }
+  1233  SetMember
+  1234  Push register2, "dispatchEvent"
+  1241  DefineFunction2 "" (r2:eventObj) regs=3 flags=0x29 {
+     1262  Push register2, "target"
+     1269  GetMember
+     1270  Push undef
+     1274  Equals2
+     1275  Not
+     1276  If loc1291
+     1281  Push register2, "target", register1
+     1290  SetMember
+     1291  Push register2, 1, register1, register2, "type"
+     1307  GetMember
+     1308  Push "Handler"
+     1313  Add2
+     1314  CallMethod
+     1315  Pop
+     1316  Push register2, register1, 2, register1, "dispatchQueue"
+     1332  CallMethod
+     1333  Pop
+        }
+  1334  SetMember
+  1335  Push register2, "addEventListener"
+  1342  DefineFunction2 "" (r4:event, r5:handler) regs=6 flags=0x129 {
+     1369  Push "__q_", register4
+     1376  Add2
+     1377  StoreRegister 3
+     1381  Pop
+     1382  Push register1, register3
+     1389  GetMember
+     1390  Push undef
+     1394  Equals2
+     1395  Not
+     1396  If loc1421
+     1401  Push register1, register3, 0, "Array"
+     1419  NewObject
+     1420  SetMember
+     1421  Push 1, register3, register1, 3, register2, "ASSetPropFlags"
+     1442  CallMethod
+     1443  Pop
+     1444  Push register5, register4, register1, register3
+     1455  GetMember
+     1456  Push 3, "mx"
+     1466  GetVariable
+     1467  Push "events"
+     1472  GetMember
+     1473  Push "EventDispatcher"
+     1478  GetMember
+     1479  Push "_removeEventListener"
+     1484  CallMethod
+     1485  Pop
+     1486  Push register5, 1, register1, register3
+     1500  GetMember
+     1501  Push "push"
+     1506  CallMethod
+     1507  Pop
+        }
+  1508  SetMember
+  1509  Push register2, "removeEventListener"
+  1516  DefineFunction2 "" (r3:event, r4:handler) regs=5 flags=0x29 {
+     1543  Push "__q_", register3
+     1550  Add2
+     1551  StoreRegister 2
+     1555  Pop
+     1556  Push register4, register3, register1, register2
+     1567  GetMember
+     1568  Push 3, "mx"
+     1578  GetVariable
+     1579  Push "events"
+     1584  GetMember
+     1585  Push "EventDispatcher"
+     1590  GetMember
+     1591  Push "_removeEventListener"
+     1596  CallMethod
+     1597  Pop
+        }
+  1598  SetMember
+  1599  Push register1, "_fEventDispatcher", undef
+  1607  SetMember
+  1608  Push register1, "exceptions", "move", 1, "draw", 1, "load", 1, 3
+  1641  InitObject
+  1642  SetMember
+  1643  Push 1, null, "mx"
+  1654  GetVariable
+  1655  Push "events"
+  1660  GetMember
+  1661  Push "EventDispatcher"
+  1666  GetMember
+  1667  Push "prototype"
+  1672  GetMember
+  1673  Push 3, "ASSetPropFlags"
+  1683  CallFunction
+  1684  Pop
+  1685  End

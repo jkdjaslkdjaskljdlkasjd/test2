@@ -1,0 +1,9 @@
+// on(keyPress_<Tab>_)
+// origen: boton 224 (00390_DefineButton2_224.bin)
+
+    24  Push 0, "this"
+    42  GetVariable
+    43  Push "tabHandler"
+    58  CallMethod
+    59  Pop
+    60  End

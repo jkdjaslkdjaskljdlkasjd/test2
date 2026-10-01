@@ -1,0 +1,223 @@
+// DefineSprite_4124___Packages.mx.skins.RectBorder
+// origen: DoInitAction del sprite 4124 (03771_DoInitAction.bin)
+
+     2  ConstantPool (46)
+   508  Push "_global"
+   513  GetVariable
+   514  Push "mx"
+   519  GetMember
+   520  Not
+   521  Not
+   522  If loc551
+   527  Push "_global"
+   532  GetVariable
+   533  Push "mx", 0, "Object"
+   549  NewObject
+   550  SetMember
+   551  Pop
+   552  Push "_global"
+   557  GetVariable
+   558  Push "mx"
+   563  GetMember
+   564  Push "skins"
+   569  GetMember
+   570  Not
+   571  Not
+   572  If loc607
+   577  Push "_global"
+   582  GetVariable
+   583  Push "mx"
+   588  GetMember
+   589  Push "skins", 0, "Object"
+   605  NewObject
+   606  SetMember
+   607  Pop
+   608  Push "_global"
+   613  GetVariable
+   614  Push "mx"
+   619  GetMember
+   620  Push "skins"
+   625  GetMember
+   626  Push "RectBorder"
+   631  GetMember
+   632  Not
+   633  Not
+   634  If loc1437
+   639  Push "mx"
+   644  GetVariable
+   645  Push "skins"
+   650  GetMember
+   651  Push "RectBorder"
+   656  DefineFunction2 "" () regs=2 flags=0x1a {
+      667  Push 0, register1, undef
+      682  CallMethod
+      683  Pop
+        }
+   684  StoreRegister 1
+   688  SetMember
+   689  Push "mx"
+   694  GetVariable
+   695  Push "skins"
+   700  GetMember
+   701  Push "RectBorder"
+   706  GetMember
+   707  Push "mx"
+   712  GetVariable
+   713  Push "skins"
+   718  GetMember
+   719  Push "Border"
+   724  GetMember
+   725  Extends
+   726  Push register1, "prototype"
+   733  GetMember
+   734  StoreRegister 2
+   738  Pop
+   739  Push register2, "__get__width"
+   746  DefineFunction2 "" () regs=2 flags=0x29 {
+      757  Push register1, "__width"
+      764  GetMember
+      765  Return
+        }
+   766  SetMember
+   767  Push register2, "__get__height"
+   774  DefineFunction2 "" () regs=2 flags=0x29 {
+      785  Push register1, "__height"
+      792  GetMember
+      793  Return
+        }
+   794  SetMember
+   795  Push register2, "init"
+   802  DefineFunction2 "" (Void) regs=2 flags=0x1a {
+      819  Push 0, register1, "init"
+      835  CallMethod
+      836  Pop
+        }
+   837  SetMember
+   838  Push register2, "draw"
+   845  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+      862  Push 0, register1, "size"
+      878  CallMethod
+      879  Pop
+        }
+   880  SetMember
+   881  Push register2, "getBorderMetrics"
+   888  DefineFunction2 "" (Void) regs=7 flags=0x29 {
+      905  Push register1, "offset"
+      912  GetMember
+      913  StoreRegister 2
+      917  Pop
+      918  Push register1, "__borderMetrics"
+      925  GetMember
+      926  Push undef
+      930  Equals2
+      931  Not
+      932  If loc972
+      937  Push register1, "__borderMetrics", "left", register2, "top", register2, "right", register2, "bottom", register2, 4
+      965  InitObject
+      966  SetMember
+      967  Jump loc1036
+      972  Push register1, "__borderMetrics"
+      979  GetMember
+      980  Push "left", register2
+      987  SetMember
+      988  Push register1, "__borderMetrics"
+      995  GetMember
+      996  Push "top", register2
+     1003  SetMember
+     1004  Push register1, "__borderMetrics"
+     1011  GetMember
+     1012  Push "right", register2
+     1019  SetMember
+     1020  Push register1, "__borderMetrics"
+     1027  GetMember
+     1028  Push "bottom", register2
+     1035  SetMember
+     1036  Push register1, "__borderMetrics"
+     1043  GetMember
+     1044  Return
+        }
+  1045  SetMember
+  1046  Push register2, "__get__borderMetrics"
+  1053  DefineFunction2 "" () regs=2 flags=0x29 {
+     1064  Push 0, register1, "getBorderMetrics"
+     1080  CallMethod
+     1081  Return
+        }
+  1082  SetMember
+  1083  Push register2, "drawBorder"
+  1090  DefineFunction "" (Void) regs=4 flags=0x0 {
+
+        }
+  1103  SetMember
+  1104  Push register2, "size"
+  1111  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     1128  Push 0, register1, "drawBorder"
+     1144  CallMethod
+     1145  Pop
+        }
+  1146  SetMember
+  1147  Push register2, "setColor"
+  1154  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     1171  Push 0, register1, "drawBorder"
+     1187  CallMethod
+     1188  Pop
+        }
+  1189  SetMember
+  1190  Push register1, "symbolName", "RectBorder"
+  1199  SetMember
+  1200  Push register1, "symbolOwner", "mx"
+  1209  GetVariable
+  1210  Push "skins"
+  1215  GetMember
+  1216  Push "RectBorder"
+  1221  GetMember
+  1222  SetMember
+  1223  Push register1, "version", "2.0.2.127"
+  1232  SetMember
+  1233  Push register2, "className", "RectBorder"
+  1242  SetMember
+  1243  Push register2, "borderStyleName", "borderStyle"
+  1252  SetMember
+  1253  Push register2, "borderColorName", "borderColor"
+  1262  SetMember
+  1263  Push register2, "shadowColorName", "shadowColor"
+  1272  SetMember
+  1273  Push register2, "highlightColorName", "highlightColor"
+  1282  SetMember
+  1283  Push register2, "buttonColorName", "buttonColor"
+  1292  SetMember
+  1293  Push register2, "backgroundColorName", "backgroundColor"
+  1302  SetMember
+  1303  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1311  Push register2, "__get__borderMetrics"
+  1318  GetMember
+  1319  Push "borderMetrics", 3, register2, "addProperty"
+  1333  CallMethod
+  1334  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1342  Push register2, "__get__height"
+  1349  GetMember
+  1350  Push "height", 3, register2, "addProperty"
+  1364  CallMethod
+  1365  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1373  Push register2, "__get__width"
+  1380  GetMember
+  1381  Push "width", 3, register2, "addProperty"
+  1395  CallMethod
+  1396  Push 1, null, "mx"
+  1407  GetVariable
+  1408  Push "skins"
+  1413  GetMember
+  1414  Push "RectBorder"
+  1419  GetMember
+  1420  Push "prototype"
+  1425  GetMember
+  1426  Push 3, "ASSetPropFlags"
+  1436  CallFunction
+  1437  Pop
+  1438  End

@@ -1,0 +1,11 @@
+// DefineSprite_221_UIObject
+// origen: DoInitAction del sprite 221 (03803_DoInitAction.bin)
+
+     2  Push "mx.core.UIObject"
+    23  GetVariable
+    24  Push "UIObject", 2, "Object"
+    50  GetVariable
+    51  Push "registerClass"
+    69  CallMethod
+    70  Pop
+    71  End

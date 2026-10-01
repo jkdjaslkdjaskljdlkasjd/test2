@@ -1,0 +1,15 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 73 (07184_PlaceObject2.bin)
+
+    26  Push "_root"
+    36  GetVariable
+    37  Push "Krin"
+    46  GetMember
+    47  Push "SkyBG"
+    57  GetMember
+    58  Push 1, "this"
+    72  GetVariable
+    73  Push "gotoAndStop"
+    89  CallMethod
+    90  Pop
+    91  End

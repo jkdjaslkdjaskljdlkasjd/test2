@@ -1,0 +1,15 @@
+// DoAction
+// origen: DefineSprite_209_BrdrShdw fotograma 1, DoAction (00365_DefineSprite_209.bin, byte 20)
+
+    20  Push "shadowColor", "this"
+    42  GetVariable
+    43  Push 2, "mx"
+    55  GetVariable
+    56  Push "skins"
+    66  GetMember
+    67  Push "ColoredSkinElement"
+    90  GetMember
+    91  Push "setColorStyle"
+   109  CallMethod
+   110  Pop
+   111  End

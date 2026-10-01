@@ -1,0 +1,11 @@
+// DefineSprite_295_UIScrollBar
+// origen: DoInitAction del sprite 295 (03819_DoInitAction.bin)
+
+     2  Push "mx.controls.UIScrollBar"
+    30  GetVariable
+    31  Push "UIScrollBar", 2, "Object"
+    60  GetVariable
+    61  Push "registerClass"
+    79  CallMethod
+    80  Pop
+    81  End

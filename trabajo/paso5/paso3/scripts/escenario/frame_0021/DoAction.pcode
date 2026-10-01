@@ -1,0 +1,6 @@
+// DoAction
+// origen: escenario fotograma 21, DoAction (03908_DoAction.bin)
+
+     0  GoToLabel 'soundExport'
+    15  Play
+    16  End

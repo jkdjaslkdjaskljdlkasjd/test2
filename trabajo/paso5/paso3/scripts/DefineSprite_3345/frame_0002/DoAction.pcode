@@ -1,0 +1,81 @@
+// DoAction
+// origen: DefineSprite_3345 fotograma 2, DoAction (07203_DefineSprite_3345.bin, byte 70)
+
+    70  ConstantPool (20)
+   265  Push "zoomPointX", "_root"
+   272  GetVariable
+   273  Push "zoomPointX"
+   278  GetMember
+   279  Push "_root"
+   284  GetVariable
+   285  Push "BATTLESCREEN"
+   290  GetMember
+   291  Push "saverX"
+   296  GetMember
+   297  Subtract
+   298  Push "zoomFactor"
+   303  GetVariable
+   304  Divide
+   305  SetVariable
+   306  Push "zoomPointY", "_root"
+   313  GetVariable
+   314  Push "zoomPointY"
+   319  GetMember
+   320  Push "_root"
+   325  GetVariable
+   326  Push "BATTLESCREEN"
+   331  GetMember
+   332  Push "saverY"
+   337  GetMember
+   338  Subtract
+   339  Push "zoomFactor"
+   344  GetVariable
+   345  Divide
+   346  SetVariable
+   347  Push "zoomScaleX", "scaleChange"
+   354  GetVariable
+   355  Push "zoomFactor"
+   360  GetVariable
+   361  Divide
+   362  SetVariable
+   363  Push "zoomScaleY", "scaleChange"
+   370  GetVariable
+   371  Push "zoomFactor"
+   376  GetVariable
+   377  Divide
+   378  SetVariable
+   379  Push "zoomPoint", "zoomTime"
+   386  GetVariable
+   387  SetVariable
+   388  Push "zoomReverse", 1
+   398  SetVariable
+   399  Push "_root"
+   404  GetVariable
+   405  Push "KrinSettings"
+   410  GetMember
+   411  Push "SFX2"
+   416  GetMember
+   417  Not
+   418  If loc452
+   423  Push 2, 1, "_root"
+   438  GetVariable
+   439  Push "BATTLEBLUR"
+   444  GetMember
+   445  Push "gotoAndPlay"
+   450  CallMethod
+   451  Pop
+   452  Push "_root"
+   457  GetVariable
+   458  Push "KrinSettings"
+   463  GetMember
+   464  Push "SFX3"
+   469  GetMember
+   470  Push false
+   475  Equals2
+   476  Not
+   477  If loc496
+   482  Push "_root"
+   487  GetVariable
+   488  Push "_quality", "LOW"
+   495  SetMember
+   496  End

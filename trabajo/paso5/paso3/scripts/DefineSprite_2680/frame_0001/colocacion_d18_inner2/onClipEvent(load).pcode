@@ -1,0 +1,8 @@
+// onClipEvent(load)
+// origen: DefineSprite_2680 fotograma 1, clip en profundidad 18 (06064_DefineSprite_2680.bin, byte 367)
+
+   399  Push "", "bfilter"
+   413  GetVariable
+   414  GetURL2 64
+   418  Stop
+   419  End

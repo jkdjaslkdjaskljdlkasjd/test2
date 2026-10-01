@@ -1,0 +1,492 @@
+// DefineSprite_4117___Packages.mx.managers.SystemManager
+// origen: DoInitAction del sprite 4117 (03750_DoInitAction.bin)
+
+     2  ConstantPool (56)
+   540  Push "_global"
+   545  GetVariable
+   546  Push "mx"
+   551  GetMember
+   552  Not
+   553  Not
+   554  If loc583
+   559  Push "_global"
+   564  GetVariable
+   565  Push "mx", 0, "Object"
+   581  NewObject
+   582  SetMember
+   583  Pop
+   584  Push "_global"
+   589  GetVariable
+   590  Push "mx"
+   595  GetMember
+   596  Push "managers"
+   601  GetMember
+   602  Not
+   603  Not
+   604  If loc639
+   609  Push "_global"
+   614  GetVariable
+   615  Push "mx"
+   620  GetMember
+   621  Push "managers", 0, "Object"
+   637  NewObject
+   638  SetMember
+   639  Pop
+   640  Push "_global"
+   645  GetVariable
+   646  Push "mx"
+   651  GetMember
+   652  Push "managers"
+   657  GetMember
+   658  Push "SystemManager"
+   663  GetMember
+   664  Not
+   665  Not
+   666  If loc2277
+   671  Push "mx"
+   676  GetVariable
+   677  Push "managers"
+   682  GetMember
+   683  Push "SystemManager"
+   688  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+   696  StoreRegister 1
+   700  SetMember
+   701  Push register1, "prototype"
+   708  GetMember
+   709  StoreRegister 2
+   713  Pop
+   714  Push register1, "init"
+   721  DefineFunction "" (Void) regs=4 flags=0x0 {
+      734  Push "mx"
+      739  GetVariable
+      740  Push "managers"
+      745  GetMember
+      746  Push "SystemManager"
+      751  GetMember
+      752  Push "_initialized"
+      757  GetMember
+      758  Push false
+      763  Equals2
+      764  Not
+      765  If loc1096
+      770  Push "mx"
+      775  GetVariable
+      776  Push "managers"
+      781  GetMember
+      782  Push "SystemManager"
+      787  GetMember
+      788  Push "_initialized", true
+      795  SetMember
+      796  Push "mx"
+      801  GetVariable
+      802  Push "managers"
+      807  GetMember
+      808  Push "SystemManager"
+      813  GetMember
+      814  Push 1, "mx"
+      824  GetVariable
+      825  Push "events"
+      830  GetMember
+      831  Push "EventDispatcher"
+      836  GetMember
+      837  Push "initialize"
+      842  CallMethod
+      843  Pop
+      844  Push "mx"
+      849  GetVariable
+      850  Push "managers"
+      855  GetMember
+      856  Push "SystemManager"
+      861  GetMember
+      862  Push 1, "Mouse"
+      872  GetVariable
+      873  Push "addListener"
+      878  CallMethod
+      879  Pop
+      880  Push "mx"
+      885  GetVariable
+      886  Push "managers"
+      891  GetMember
+      892  Push "SystemManager"
+      897  GetMember
+      898  Push 1, "Stage"
+      908  GetVariable
+      909  Push "addListener"
+      914  CallMethod
+      915  Pop
+      916  Push "mx"
+      921  GetVariable
+      922  Push "managers"
+      927  GetMember
+      928  Push "SystemManager"
+      933  GetMember
+      934  Push "_xAddEventListener", "mx"
+      941  GetVariable
+      942  Push "managers"
+      947  GetMember
+      948  Push "SystemManager"
+      953  GetMember
+      954  Push "addEventListener"
+      959  GetMember
+      960  SetMember
+      961  Push "mx"
+      966  GetVariable
+      967  Push "managers"
+      972  GetMember
+      973  Push "SystemManager"
+      978  GetMember
+      979  Push "addEventListener", "mx"
+      986  GetVariable
+      987  Push "managers"
+      992  GetMember
+      993  Push "SystemManager"
+      998  GetMember
+      999  Push "__addEventListener"
+     1004  GetMember
+     1005  SetMember
+     1006  Push "mx"
+     1011  GetVariable
+     1012  Push "managers"
+     1017  GetMember
+     1018  Push "SystemManager"
+     1023  GetMember
+     1024  Push "_xRemoveEventListener", "mx"
+     1031  GetVariable
+     1032  Push "managers"
+     1037  GetMember
+     1038  Push "SystemManager"
+     1043  GetMember
+     1044  Push "removeEventListener"
+     1049  GetMember
+     1050  SetMember
+     1051  Push "mx"
+     1056  GetVariable
+     1057  Push "managers"
+     1062  GetMember
+     1063  Push "SystemManager"
+     1068  GetMember
+     1069  Push "removeEventListener", "mx"
+     1076  GetVariable
+     1077  Push "managers"
+     1082  GetMember
+     1083  Push "SystemManager"
+     1088  GetMember
+     1089  Push "__removeEventListener"
+     1094  GetMember
+     1095  SetMember
+        }
+  1096  SetMember
+  1097  Push register1, "addFocusManager"
+  1104  DefineFunction2 "" (r1:f) regs=2 flags=0x2a {
+     1118  Push "mx"
+     1123  GetVariable
+     1124  Push "managers"
+     1129  GetMember
+     1130  Push "SystemManager"
+     1135  GetMember
+     1136  Push "form", register1
+     1143  SetMember
+     1144  Push 0, register1, "focusManager"
+     1160  GetMember
+     1161  Push "activate"
+     1166  CallMethod
+     1167  Pop
+        }
+  1168  SetMember
+  1169  Push register1, "removeFocusManager"
+  1176  DefineFunction "" (f) regs=4 flags=0x0 {
+
+        }
+  1186  SetMember
+  1187  Push register1, "onMouseDown"
+  1194  DefineFunction2 "" (Void) regs=2 flags=0x2a {
+     1211  Push "mx"
+     1216  GetVariable
+     1217  Push "managers"
+     1222  GetMember
+     1223  Push "SystemManager"
+     1228  GetMember
+     1229  Push "form"
+     1234  GetMember
+     1235  StoreRegister 1
+     1239  Pop
+     1240  Push 0, register1, "focusManager"
+     1256  GetMember
+     1257  Push "_onMouseDown"
+     1262  CallMethod
+     1263  Pop
+        }
+  1264  SetMember
+  1265  Push register1, "onResize"
+  1272  DefineFunction2 "" (Void) regs=11 flags=0x16a {
+     1289  Push "Stage"
+     1294  GetVariable
+     1295  Push "width"
+     1300  GetMember
+     1301  StoreRegister 7
+     1305  Pop
+     1306  Push "Stage"
+     1311  GetVariable
+     1312  Push "height"
+     1317  GetMember
+     1318  StoreRegister 6
+     1322  Pop
+     1323  Push register2, "origWidth"
+     1330  GetMember
+     1331  StoreRegister 9
+     1335  Pop
+     1336  Push register2, "origHeight"
+     1343  GetMember
+     1344  StoreRegister 8
+     1348  Pop
+     1349  Push "Stage"
+     1354  GetVariable
+     1355  Push "align"
+     1360  GetMember
+     1361  StoreRegister 3
+     1365  Pop
+     1366  Push register9, register7
+     1373  Subtract
+     1374  Push 2
+     1382  Divide
+     1383  StoreRegister 5
+     1387  Pop
+     1388  Push register8, register6
+     1395  Subtract
+     1396  Push 2
+     1404  Divide
+     1405  StoreRegister 4
+     1409  Pop
+     1410  Push register3, "T"
+     1417  Equals2
+     1418  Not
+     1419  If loc1446
+     1424  Push 0
+     1436  StoreRegister 4
+     1440  Pop
+     1441  Jump loc1737
+     1446  Push register3, "B"
+     1453  Equals2
+     1454  Not
+     1455  If loc1478
+     1460  Push register8, register6
+     1467  Subtract
+     1468  StoreRegister 4
+     1472  Pop
+     1473  Jump loc1737
+     1478  Push register3, "L"
+     1485  Equals2
+     1486  Not
+     1487  If loc1514
+     1492  Push 0
+     1504  StoreRegister 5
+     1508  Pop
+     1509  Jump loc1737
+     1514  Push register3, "R"
+     1521  Equals2
+     1522  Not
+     1523  If loc1546
+     1528  Push register9, register7
+     1535  Subtract
+     1536  StoreRegister 5
+     1540  Pop
+     1541  Jump loc1737
+     1546  Push register3, "LT"
+     1553  Equals2
+     1554  Not
+     1555  If loc1599
+     1560  Push 0
+     1572  StoreRegister 4
+     1576  Pop
+     1577  Push 0
+     1589  StoreRegister 5
+     1593  Pop
+     1594  Jump loc1737
+     1599  Push register3, "TR"
+     1606  Equals2
+     1607  Not
+     1608  If loc1648
+     1613  Push 0
+     1625  StoreRegister 4
+     1629  Pop
+     1630  Push register9, register7
+     1637  Subtract
+     1638  StoreRegister 5
+     1642  Pop
+     1643  Jump loc1737
+     1648  Push register3, "LB"
+     1655  Equals2
+     1656  Not
+     1657  If loc1697
+     1662  Push register8, register6
+     1669  Subtract
+     1670  StoreRegister 4
+     1674  Pop
+     1675  Push 0
+     1687  StoreRegister 5
+     1691  Pop
+     1692  Jump loc1737
+     1697  Push register3, "RB"
+     1704  Equals2
+     1705  Not
+     1706  If loc1737
+     1711  Push register8, register6
+     1718  Subtract
+     1719  StoreRegister 4
+     1723  Pop
+     1724  Push register9, register7
+     1731  Subtract
+     1732  StoreRegister 5
+     1736  Pop
+     1737  Push "mx"
+     1742  GetVariable
+     1743  Push "managers"
+     1748  GetMember
+     1749  Push "SystemManager"
+     1754  GetMember
+     1755  Push "__screen"
+     1760  GetMember
+     1761  Push undef
+     1765  Equals2
+     1766  Not
+     1767  If loc1808
+     1772  Push "mx"
+     1777  GetVariable
+     1778  Push "managers"
+     1783  GetMember
+     1784  Push "SystemManager"
+     1789  GetMember
+     1790  Push "__screen", 0, "Object"
+     1806  NewObject
+     1807  SetMember
+     1808  Push "mx"
+     1813  GetVariable
+     1814  Push "managers"
+     1819  GetMember
+     1820  Push "SystemManager"
+     1825  GetMember
+     1826  Push "__screen"
+     1831  GetMember
+     1832  Push "x", register5
+     1839  SetMember
+     1840  Push "mx"
+     1845  GetVariable
+     1846  Push "managers"
+     1851  GetMember
+     1852  Push "SystemManager"
+     1857  GetMember
+     1858  Push "__screen"
+     1863  GetMember
+     1864  Push "y", register4
+     1871  SetMember
+     1872  Push "mx"
+     1877  GetVariable
+     1878  Push "managers"
+     1883  GetMember
+     1884  Push "SystemManager"
+     1889  GetMember
+     1890  Push "__screen"
+     1895  GetMember
+     1896  Push "width", register7
+     1903  SetMember
+     1904  Push "mx"
+     1909  GetVariable
+     1910  Push "managers"
+     1915  GetMember
+     1916  Push "SystemManager"
+     1921  GetMember
+     1922  Push "__screen"
+     1927  GetMember
+     1928  Push "height", register6
+     1935  SetMember
+     1936  Push 0, register1, "focusManager"
+     1952  GetMember
+     1953  Push "relocate"
+     1958  CallMethod
+     1959  Pop
+     1960  Push "type", "resize", 1
+     1972  InitObject
+     1973  Push 1, "mx"
+     1983  GetVariable
+     1984  Push "managers"
+     1989  GetMember
+     1990  Push "SystemManager"
+     1995  GetMember
+     1996  Push "dispatchEvent"
+     2001  CallMethod
+     2002  Pop
+        }
+  2003  SetMember
+  2004  Push register1, "__get__screen"
+  2011  DefineFunction "" () regs=4 flags=0x0 {
+     2019  Push 0, "mx"
+     2033  GetVariable
+     2034  Push "managers"
+     2039  GetMember
+     2040  Push "SystemManager"
+     2045  GetMember
+     2046  Push "init"
+     2051  CallMethod
+     2052  Pop
+     2053  Push "mx"
+     2058  GetVariable
+     2059  Push "managers"
+     2064  GetMember
+     2065  Push "SystemManager"
+     2070  GetMember
+     2071  Push "__screen"
+     2076  GetMember
+     2077  Push undef
+     2081  Equals2
+     2082  Not
+     2083  If loc2122
+     2088  Push 0, "mx"
+     2102  GetVariable
+     2103  Push "managers"
+     2108  GetMember
+     2109  Push "SystemManager"
+     2114  GetMember
+     2115  Push "onResize"
+     2120  CallMethod
+     2121  Pop
+     2122  Push "mx"
+     2127  GetVariable
+     2128  Push "managers"
+     2133  GetMember
+     2134  Push "SystemManager"
+     2139  GetMember
+     2140  Push "__screen"
+     2145  GetMember
+     2146  Return
+        }
+  2147  SetMember
+  2148  Push register1, "_initialized", false
+  2157  SetMember
+  2158  Push register1, "idleFrames", 0
+  2174  SetMember
+  2175  Push register1, "isMouseDown", false
+  2184  SetMember
+  2185  Push register1, "forms", 0, "Array"
+  2203  NewObject
+  2204  SetMember
+  2205  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  2213  Push register1, "__get__screen"
+  2220  GetMember
+  2221  Push "screen", 3, register1, "addProperty"
+  2235  CallMethod
+  2236  Push 1, null, "mx"
+  2247  GetVariable
+  2248  Push "managers"
+  2253  GetMember
+  2254  Push "SystemManager"
+  2259  GetMember
+  2260  Push "prototype"
+  2265  GetMember
+  2266  Push 3, "ASSetPropFlags"
+  2276  CallFunction
+  2277  Pop
+  2278  End

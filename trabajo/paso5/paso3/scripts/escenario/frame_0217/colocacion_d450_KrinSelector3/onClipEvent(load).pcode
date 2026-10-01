@@ -1,0 +1,6 @@
+// onClipEvent(load)
+// origen: escenario fotograma 217, clip en profundidad 450 (07244_PlaceObject3.bin)
+
+    68  Push "", 6, 0
+    87  SetProperty
+    88  End

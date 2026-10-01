@@ -1,0 +1,352 @@
+// DoAction_2
+// origen: DefineSprite_3239 fotograma 39, DoAction (06960_DefineSprite_3239.bin, byte 38830)
+
+ 38830  ConstantPool (33)
+ 39185  Push "tit_1", "_root"
+ 39192  GetVariable
+ 39193  Push "KrinLang"
+ 39198  GetMember
+ 39199  Push "_root"
+ 39204  GetVariable
+ 39205  Push "KLangChoosen"
+ 39210  GetMember
+ 39211  GetMember
+ 39212  Push "MENU"
+ 39217  GetMember
+ 39218  Push 27
+ 39226  GetMember
+ 39227  SetVariable
+ 39228  Push "tit_2", "_root"
+ 39235  GetVariable
+ 39236  Push "KrinLang"
+ 39241  GetMember
+ 39242  Push "_root"
+ 39247  GetVariable
+ 39248  Push "KLangChoosen"
+ 39253  GetMember
+ 39254  GetMember
+ 39255  Push "MENU"
+ 39260  GetMember
+ 39261  Push 28
+ 39269  GetMember
+ 39270  SetVariable
+ 39271  Push "tit_8", "_root"
+ 39278  GetVariable
+ 39279  Push "KrinLang"
+ 39284  GetMember
+ 39285  Push "_root"
+ 39290  GetVariable
+ 39291  Push "KLangChoosen"
+ 39296  GetMember
+ 39297  GetMember
+ 39298  Push "MENU"
+ 39303  GetMember
+ 39304  Push 35
+ 39312  GetMember
+ 39313  SetVariable
+ 39314  Push "tit_9", "_root"
+ 39321  GetVariable
+ 39322  Push "KrinLang"
+ 39327  GetMember
+ 39328  Push "_root"
+ 39333  GetVariable
+ 39334  Push "KLangChoosen"
+ 39339  GetMember
+ 39340  GetMember
+ 39341  Push "MENU"
+ 39346  GetMember
+ 39347  Push 38
+ 39355  GetMember
+ 39356  SetVariable
+ 39357  Push "_root"
+ 39362  GetVariable
+ 39363  Push "Krin"
+ 39368  GetMember
+ 39369  Push "sound"
+ 39374  GetMember
+ 39375  Not
+ 39376  If loc39429
+ 39381  Push "tit_3", "_root"
+ 39388  GetVariable
+ 39389  Push "KrinLang"
+ 39394  GetMember
+ 39395  Push "_root"
+ 39400  GetVariable
+ 39401  Push "KLangChoosen"
+ 39406  GetMember
+ 39407  GetMember
+ 39408  Push "MENU"
+ 39413  GetMember
+ 39414  Push 29
+ 39422  GetMember
+ 39423  SetVariable
+ 39424  Jump loc39472
+ 39429  Push "tit_3", "_root"
+ 39436  GetVariable
+ 39437  Push "KrinLang"
+ 39442  GetMember
+ 39443  Push "_root"
+ 39448  GetVariable
+ 39449  Push "KLangChoosen"
+ 39454  GetMember
+ 39455  GetMember
+ 39456  Push "MENU"
+ 39461  GetMember
+ 39462  Push 30
+ 39470  GetMember
+ 39471  SetVariable
+ 39472  Push "_root"
+ 39477  GetVariable
+ 39478  Push "Krin"
+ 39483  GetMember
+ 39484  Push "graphics"
+ 39489  GetMember
+ 39490  Not
+ 39491  If loc39544
+ 39496  Push "tit_4", "_root"
+ 39503  GetVariable
+ 39504  Push "KrinLang"
+ 39509  GetMember
+ 39510  Push "_root"
+ 39515  GetVariable
+ 39516  Push "KLangChoosen"
+ 39521  GetMember
+ 39522  GetMember
+ 39523  Push "MENU"
+ 39528  GetMember
+ 39529  Push 31
+ 39537  GetMember
+ 39538  SetVariable
+ 39539  Jump loc39587
+ 39544  Push "tit_4", "_root"
+ 39551  GetVariable
+ 39552  Push "KrinLang"
+ 39557  GetMember
+ 39558  Push "_root"
+ 39563  GetVariable
+ 39564  Push "KLangChoosen"
+ 39569  GetMember
+ 39570  GetMember
+ 39571  Push "MENU"
+ 39576  GetMember
+ 39577  Push 32
+ 39585  GetMember
+ 39586  SetVariable
+ 39587  Push "_root"
+ 39592  GetVariable
+ 39593  Push "Krin"
+ 39598  GetMember
+ 39599  Push "qual"
+ 39604  GetMember
+ 39605  Push "LOW"
+ 39610  Equals2
+ 39611  Not
+ 39612  If loc39665
+ 39617  Push "tit_11", "_root"
+ 39624  GetVariable
+ 39625  Push "KrinLang"
+ 39630  GetMember
+ 39631  Push "_root"
+ 39636  GetVariable
+ 39637  Push "KLangChoosen"
+ 39642  GetMember
+ 39643  GetMember
+ 39644  Push "MENU"
+ 39649  GetMember
+ 39650  Push 32
+ 39658  GetMember
+ 39659  SetVariable
+ 39660  Jump loc39708
+ 39665  Push "tit_11", "_root"
+ 39672  GetVariable
+ 39673  Push "KrinLang"
+ 39678  GetMember
+ 39679  Push "_root"
+ 39684  GetVariable
+ 39685  Push "KLangChoosen"
+ 39690  GetMember
+ 39691  GetMember
+ 39692  Push "MENU"
+ 39697  GetMember
+ 39698  Push 31
+ 39706  GetMember
+ 39707  SetVariable
+ 39708  Push "_root"
+ 39713  GetVariable
+ 39714  Push "Krin"
+ 39719  GetMember
+ 39720  Push "autoSaver"
+ 39725  GetMember
+ 39726  Not
+ 39727  If loc39780
+ 39732  Push "tit_7", "_root"
+ 39739  GetVariable
+ 39740  Push "KrinLang"
+ 39745  GetMember
+ 39746  Push "_root"
+ 39751  GetVariable
+ 39752  Push "KLangChoosen"
+ 39757  GetMember
+ 39758  GetMember
+ 39759  Push "MENU"
+ 39764  GetMember
+ 39765  Push 29
+ 39773  GetMember
+ 39774  SetVariable
+ 39775  Jump loc39823
+ 39780  Push "tit_7", "_root"
+ 39787  GetVariable
+ 39788  Push "KrinLang"
+ 39793  GetMember
+ 39794  Push "_root"
+ 39799  GetVariable
+ 39800  Push "KLangChoosen"
+ 39805  GetMember
+ 39806  GetMember
+ 39807  Push "MENU"
+ 39812  GetMember
+ 39813  Push 30
+ 39821  GetMember
+ 39822  SetVariable
+ 39823  Push "TitLOL1", "_root"
+ 39830  GetVariable
+ 39831  Push "KrinLang"
+ 39836  GetMember
+ 39837  Push "_root"
+ 39842  GetVariable
+ 39843  Push "KLangChoosen"
+ 39848  GetMember
+ 39849  GetMember
+ 39850  Push "MENU"
+ 39855  GetMember
+ 39856  Push 33
+ 39864  GetMember
+ 39865  SetVariable
+ 39866  Push "whatToSayY", "_root"
+ 39873  GetVariable
+ 39874  Push "KrinLang"
+ 39879  GetMember
+ 39880  Push "_root"
+ 39885  GetVariable
+ 39886  Push "KLangChoosen"
+ 39891  GetMember
+ 39892  GetMember
+ 39893  Push "MENU"
+ 39898  GetMember
+ 39899  Push 36
+ 39907  GetMember
+ 39908  SetVariable
+ 39909  Push "t_dif", "_root"
+ 39916  GetVariable
+ 39917  Push "KrinLang"
+ 39922  GetMember
+ 39923  Push "_root"
+ 39928  GetVariable
+ 39929  Push "KLangChoosen"
+ 39934  GetMember
+ 39935  GetMember
+ 39936  Push "MENU"
+ 39941  GetMember
+ 39942  Push 78
+ 39950  GetMember
+ 39951  SetVariable
+ 39952  Push "_root"
+ 39957  GetVariable
+ 39958  Push "Krin"
+ 39963  GetMember
+ 39964  Push "difficulty"
+ 39969  GetMember
+ 39970  Push 0
+ 39982  Equals2
+ 39983  Not
+ 39984  If loc40037
+ 39989  Push "t_dif2", "_root"
+ 39996  GetVariable
+ 39997  Push "KrinLang"
+ 40002  GetMember
+ 40003  Push "_root"
+ 40008  GetVariable
+ 40009  Push "KLangChoosen"
+ 40014  GetMember
+ 40015  GetMember
+ 40016  Push "MENU"
+ 40021  GetMember
+ 40022  Push 79
+ 40030  GetMember
+ 40031  SetVariable
+ 40032  Jump loc40161
+ 40037  Push "_root"
+ 40042  GetVariable
+ 40043  Push "Krin"
+ 40048  GetMember
+ 40049  Push "difficulty"
+ 40054  GetMember
+ 40055  Push 1
+ 40063  Equals2
+ 40064  Not
+ 40065  If loc40118
+ 40070  Push "t_dif2", "_root"
+ 40077  GetVariable
+ 40078  Push "KrinLang"
+ 40083  GetMember
+ 40084  Push "_root"
+ 40089  GetVariable
+ 40090  Push "KLangChoosen"
+ 40095  GetMember
+ 40096  GetMember
+ 40097  Push "MENU"
+ 40102  GetMember
+ 40103  Push 80
+ 40111  GetMember
+ 40112  SetVariable
+ 40113  Jump loc40161
+ 40118  Push "t_dif2", "_root"
+ 40125  GetVariable
+ 40126  Push "KrinLang"
+ 40131  GetMember
+ 40132  Push "_root"
+ 40137  GetVariable
+ 40138  Push "KLangChoosen"
+ 40143  GetMember
+ 40144  GetMember
+ 40145  Push "MENU"
+ 40150  GetMember
+ 40151  Push 81
+ 40159  GetMember
+ 40160  SetVariable
+ 40161  Push "gs_zone_cleared", "_root"
+ 40168  GetVariable
+ 40169  Push "Krin"
+ 40174  GetMember
+ 40175  Push "highestZoneDefeated"
+ 40180  GetMember
+ 40181  SetVariable
+ 40182  Push "gs_respec_used", "_root"
+ 40189  GetVariable
+ 40190  Push "Krin"
+ 40195  GetMember
+ 40196  Push "numberOfRespecUsed"
+ 40201  GetMember
+ 40202  SetVariable
+ 40203  Push "gs_training_used", "_root"
+ 40210  GetVariable
+ 40211  Push "Krin"
+ 40216  GetMember
+ 40217  Push "numberOfTrainingUsed"
+ 40222  GetMember
+ 40223  SetVariable
+ 40224  Push "gs_top_dmg_physical", "_root"
+ 40231  GetVariable
+ 40232  Push "Krin"
+ 40237  GetMember
+ 40238  Push "topDamagePhysical"
+ 40243  GetMember
+ 40244  SetVariable
+ 40245  Push "gs_top_dmg_elemental", "_root"
+ 40252  GetVariable
+ 40253  Push "Krin"
+ 40258  GetMember
+ 40259  Push "topDamageElemental"
+ 40264  GetMember
+ 40265  SetVariable
+ 40266  End

@@ -1,0 +1,13 @@
+// on(release)
+// origen: boton 3142 (06858_DefineButton2_3142.bin)
+
+    31  Push "thing1"
+    42  GetVariable
+    43  Push "assignedThing"
+    61  GetMember
+    62  Push 1, "_root"
+    77  GetVariable
+    78  Push "addMoveForPlayer"
+    99  CallMethod
+   100  Pop
+   101  End

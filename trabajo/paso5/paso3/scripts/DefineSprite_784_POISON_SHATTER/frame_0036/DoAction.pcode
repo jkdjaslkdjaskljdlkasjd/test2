@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_784_POISON_SHATTER fotograma 36, DoAction (01194_DefineSprite_784.bin, byte 10643)
+
+ 10643  Push "", "this"
+ 10654  GetVariable
+ 10655  GetURL2 64
+ 10659  End

@@ -1,0 +1,5 @@
+// on(release)
+// origen: boton 3204 (06921_DefineButton2_3204.bin)
+
+    17  GoToLabel 'stable'
+    27  End

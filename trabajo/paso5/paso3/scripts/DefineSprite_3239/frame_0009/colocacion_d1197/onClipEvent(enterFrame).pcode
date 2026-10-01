@@ -1,0 +1,211 @@
+// onClipEvent(enterFrame)
+// origen: DefineSprite_3239 fotograma 9, clip en profundidad 1197 (06960_DefineSprite_3239.bin, byte 20340)
+
+ 20978  ConstantPool (31)
+ 21227  Push "prx"
+ 21232  GetVariable
+ 21233  Push undef
+ 21237  Equals2
+ 21238  Not
+ 21239  Not
+ 21240  If loc21903
+ 21245  Push "mainPlayer", 1, "avIn"
+ 21257  GetVariable
+ 21258  Push "gotoAndStop"
+ 21263  CallMethod
+ 21264  Pop
+ 21265  Push "sLmT2"
+ 21270  GetVariable
+ 21271  Push 0
+ 21283  Equals2
+ 21284  Not
+ 21285  If loc21315
+ 21290  Push "_root"
+ 21295  GetVariable
+ 21296  Push "Krin"
+ 21301  GetMember
+ 21302  Push "PauseForScreen2", false
+ 21309  SetMember
+ 21310  Jump loc21325
+ 21315  Push "sLmT2", "sLmT2"
+ 21322  GetVariable
+ 21323  Decrement
+ 21324  SetVariable
+ 21325  Push "setLimiter"
+ 21330  GetVariable
+ 21331  Push 0
+ 21343  Greater
+ 21344  Not
+ 21345  If loc21872
+ 21350  Push "_root"
+ 21355  GetVariable
+ 21356  Push "Krin"
+ 21361  GetMember
+ 21362  Push "LevelStats"
+ 21367  GetMember
+ 21368  Push "prx"
+ 21373  GetVariable
+ 21374  GetMember
+ 21375  Push 30
+ 21383  Less2
+ 21384  Not
+ 21385  If loc21867
+ 21390  Push "setLimiter", "setLimiter"
+ 21397  GetVariable
+ 21398  Decrement
+ 21399  SetVariable
+ 21400  Push "exp", "exp"
+ 21407  GetVariable
+ 21408  Push "adderPer"
+ 21413  GetVariable
+ 21414  Add2
+ 21415  SetVariable
+ 21416  Push "exp2", "exp"
+ 21423  GetVariable
+ 21424  Push 1, "Math"
+ 21434  GetVariable
+ 21435  Push "round"
+ 21440  CallMethod
+ 21441  Push "%"
+ 21446  Add2
+ 21447  SetVariable
+ 21448  Push "bar"
+ 21453  GetVariable
+ 21454  Push "_width", "exp"
+ 21461  GetVariable
+ 21462  Push 100
+ 21470  Divide
+ 21471  Push 95.10000000000001
+ 21483  Multiply
+ 21484  SetMember
+ 21485  Push "exp"
+ 21490  GetVariable
+ 21491  Push 100
+ 21499  Less2
+ 21500  Not
+ 21501  Not
+ 21502  If loc21867
+ 21507  Push "_parent"
+ 21512  GetVariable
+ 21513  Push "playerLeveled", true
+ 21520  SetMember
+ 21521  Push "exp", "exp"
+ 21528  GetVariable
+ 21529  Push 100
+ 21537  Subtract
+ 21538  SetVariable
+ 21539  Push "exp2", "100%"
+ 21546  SetVariable
+ 21547  Push "_root"
+ 21552  GetVariable
+ 21553  Push "Krin"
+ 21558  GetMember
+ 21559  Push "LevelStats"
+ 21564  GetMember
+ 21565  Push "prx"
+ 21570  GetVariable
+ 21571  Push "_root"
+ 21576  GetVariable
+ 21577  Push "Krin"
+ 21582  GetMember
+ 21583  Push "LevelStats"
+ 21588  GetMember
+ 21589  Push "prx"
+ 21594  GetVariable
+ 21595  GetMember
+ 21596  Increment
+ 21597  SetMember
+ 21598  Push "_root"
+ 21603  GetVariable
+ 21604  Push "Krin"
+ 21609  GetMember
+ 21610  Push "Level", "_root"
+ 21617  GetVariable
+ 21618  Push "Krin"
+ 21623  GetMember
+ 21624  Push "Level"
+ 21629  GetMember
+ 21630  Push 1
+ 21638  Add2
+ 21639  SetMember
+ 21640  Push "level", 1, "bar"
+ 21652  GetVariable
+ 21653  Push "gotoAndStop"
+ 21658  CallMethod
+ 21659  Pop
+ 21660  Push "bar"
+ 21665  GetVariable
+ 21666  Push "_width", 95.10000000000001
+ 21680  SetMember
+ 21681  Push "levelI", "_root"
+ 21688  GetVariable
+ 21689  Push "KrinLang"
+ 21694  GetMember
+ 21695  Push "_root"
+ 21700  GetVariable
+ 21701  Push "KLangChoosen"
+ 21706  GetMember
+ 21707  GetMember
+ 21708  Push "MENU"
+ 21713  GetMember
+ 21714  Push 0
+ 21726  GetMember
+ 21727  Push "_root"
+ 21732  GetVariable
+ 21733  Push "Krin"
+ 21738  GetMember
+ 21739  Push "LevelStats"
+ 21744  GetMember
+ 21745  Push "prx"
+ 21750  GetVariable
+ 21751  GetMember
+ 21752  Add2
+ 21753  SetVariable
+ 21754  Push "_root"
+ 21759  GetVariable
+ 21760  Push "Krin"
+ 21765  GetMember
+ 21766  Push "skillPoints", "_root"
+ 21773  GetVariable
+ 21774  Push "Krin"
+ 21779  GetMember
+ 21780  Push "skillPoints"
+ 21785  GetMember
+ 21786  Push 1
+ 21794  Add2
+ 21795  SetMember
+ 21796  Push "_root"
+ 21801  GetVariable
+ 21802  Push "Krin"
+ 21807  GetMember
+ 21808  Push "statPoints", "_root"
+ 21815  GetVariable
+ 21816  Push "Krin"
+ 21821  GetMember
+ 21822  Push "statPoints"
+ 21827  GetMember
+ 21828  Push false, "_root"
+ 21835  GetVariable
+ 21836  Push "Krin"
+ 21841  GetMember
+ 21842  Push "Level"
+ 21847  GetMember
+ 21848  Push 2, "_root"
+ 21858  GetVariable
+ 21859  Push "givePoints"
+ 21864  CallMethod
+ 21865  Add2
+ 21866  SetMember
+ 21867  Jump loc21903
+ 21872  Push "_root"
+ 21877  GetVariable
+ 21878  Push "Krin"
+ 21883  GetMember
+ 21884  Push "ExpSets"
+ 21889  GetMember
+ 21890  Push "prx"
+ 21895  GetVariable
+ 21896  Push "exp"
+ 21901  GetVariable
+ 21902  SetMember
+ 21903  End

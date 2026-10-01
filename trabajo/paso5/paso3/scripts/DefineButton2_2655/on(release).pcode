@@ -1,0 +1,5 @@
+// on(release)
+// origen: boton 2655 (05984_DefineButton2_2655.bin)
+
+    17  GoToLabel 'mainMenu'
+    29  End

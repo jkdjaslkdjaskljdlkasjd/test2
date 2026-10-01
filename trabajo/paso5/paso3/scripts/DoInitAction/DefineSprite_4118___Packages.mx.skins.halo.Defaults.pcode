@@ -1,0 +1,950 @@
+// DefineSprite_4118___Packages.mx.skins.halo.Defaults
+// origen: DoInitAction del sprite 4118 (03753_DoInitAction.bin)
+
+     2  ConstantPool (132)
+  1520  Push "_global"
+  1525  GetVariable
+  1526  Push "mx"
+  1531  GetMember
+  1532  Not
+  1533  Not
+  1534  If loc1563
+  1539  Push "_global"
+  1544  GetVariable
+  1545  Push "mx", 0, "Object"
+  1561  NewObject
+  1562  SetMember
+  1563  Pop
+  1564  Push "_global"
+  1569  GetVariable
+  1570  Push "mx"
+  1575  GetMember
+  1576  Push "skins"
+  1581  GetMember
+  1582  Not
+  1583  Not
+  1584  If loc1619
+  1589  Push "_global"
+  1594  GetVariable
+  1595  Push "mx"
+  1600  GetMember
+  1601  Push "skins", 0, "Object"
+  1617  NewObject
+  1618  SetMember
+  1619  Pop
+  1620  Push "_global"
+  1625  GetVariable
+  1626  Push "mx"
+  1631  GetMember
+  1632  Push "skins"
+  1637  GetMember
+  1638  Push "halo"
+  1643  GetMember
+  1644  Not
+  1645  Not
+  1646  If loc1687
+  1651  Push "_global"
+  1656  GetVariable
+  1657  Push "mx"
+  1662  GetMember
+  1663  Push "skins"
+  1668  GetMember
+  1669  Push "halo", 0, "Object"
+  1685  NewObject
+  1686  SetMember
+  1687  Pop
+  1688  Push "_global"
+  1693  GetVariable
+  1694  Push "mx"
+  1699  GetMember
+  1700  Push "skins"
+  1705  GetMember
+  1706  Push "halo"
+  1711  GetMember
+  1712  Push "Defaults"
+  1717  GetMember
+  1718  Not
+  1719  Not
+  1720  If loc5628
+  1725  Push "mx"
+  1730  GetVariable
+  1731  Push "skins"
+  1736  GetMember
+  1737  Push "halo"
+  1742  GetMember
+  1743  Push "Defaults"
+  1748  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+  1756  StoreRegister 1
+  1760  SetMember
+  1761  Push register1, "prototype"
+  1768  GetMember
+  1769  StoreRegister 2
+  1773  Pop
+  1774  Push register1, "setThemeDefaults"
+  1781  DefineFunction2 "" () regs=5 flags=0x12a {
+     1792  Push register1, "style"
+     1799  GetMember
+     1800  StoreRegister 2
+     1804  Pop
+     1805  Push register2, "themeColor", 8453965
+     1817  SetMember
+     1818  Push register2, "disabledColor", 8684164
+     1830  SetMember
+     1831  Push register2, "modalTransparency", 0
+     1847  SetMember
+     1848  Push register2, "filled", true
+     1857  SetMember
+     1858  Push register2, "stroked", true
+     1867  SetMember
+     1868  Push register2, "strokeWidth", 1
+     1880  SetMember
+     1881  Push register2, "strokeColor", 0
+     1897  SetMember
+     1898  Push register2, "fillColor", 16777215
+     1910  SetMember
+     1911  Push register2, "repeatInterval", 35
+     1923  SetMember
+     1924  Push register2, "repeatDelay", 500
+     1936  SetMember
+     1937  Push register2, "fontFamily", "_sans"
+     1946  SetMember
+     1947  Push register2, "fontSize", 12
+     1959  SetMember
+     1960  Push register2, "selectionColor", 13500353
+     1972  SetMember
+     1973  Push register2, "rollOverColor", 14942166
+     1985  SetMember
+     1986  Push register2, "useRollOver", true
+     1995  SetMember
+     1996  Push register2, "backgroundDisabledColor", 14540253
+     2008  SetMember
+     2009  Push register2, "selectionDisabledColor", 14540253
+     2021  SetMember
+     2022  Push register2, "selectionDuration", 200
+     2034  SetMember
+     2035  Push register2, "openDuration", 250
+     2047  SetMember
+     2048  Push register2, "borderStyle", "inset"
+     2057  SetMember
+     2058  Push register2, "color", 734012
+     2070  SetMember
+     2071  Push register2, "textSelectedColor", 24371
+     2083  SetMember
+     2084  Push register2, "textRollOverColor", 2831164
+     2096  SetMember
+     2097  Push register2, "textDisabledColor", 16777215
+     2109  SetMember
+     2110  Push register2, "vGridLines", true
+     2119  SetMember
+     2120  Push register2, "hGridLines", false
+     2129  SetMember
+     2130  Push register2, "vGridLineColor", 6710886
+     2142  SetMember
+     2143  Push register2, "hGridLineColor", 6710886
+     2155  SetMember
+     2156  Push register2, "headerColor", 15395562
+     2168  SetMember
+     2169  Push register2, "indentation", 17
+     2181  SetMember
+     2182  Push register2, "folderOpenIcon", "TreeFolderOpen"
+     2191  SetMember
+     2192  Push register2, "folderClosedIcon", "TreeFolderClosed"
+     2201  SetMember
+     2202  Push register2, "defaultLeafIcon", "TreeNodeIcon"
+     2211  SetMember
+     2212  Push register2, "disclosureOpenIcon", "TreeDisclosureOpen"
+     2221  SetMember
+     2222  Push register2, "disclosureClosedIcon", "TreeDisclosureClosed"
+     2231  SetMember
+     2232  Push register2, "popupDuration", 150
+     2244  SetMember
+     2245  Push register2, "todayColor", 6710886
+     2257  SetMember
+     2258  Push register1, "styles"
+     2265  GetMember
+     2266  Push "ScrollSelectList", 0, "mx"
+     2282  GetVariable
+     2283  Push "styles"
+     2288  GetMember
+     2289  Push "CSSStyleDeclaration"
+     2294  NewMethod
+     2295  StoreRegister 0
+     2299  SetMember
+     2300  Push register0
+     2305  StoreRegister 2
+     2309  Pop
+     2310  Push register2, "backgroundColor", 16777215
+     2322  SetMember
+     2323  Push register2, "borderColor", 13290186
+     2335  SetMember
+     2336  Push register2, "borderStyle", "inset"
+     2345  SetMember
+     2346  Push register1, "styles"
+     2353  GetMember
+     2354  Push "ComboBox", 0, "mx"
+     2370  GetVariable
+     2371  Push "styles"
+     2376  GetMember
+     2377  Push "CSSStyleDeclaration"
+     2382  NewMethod
+     2383  StoreRegister 0
+     2387  SetMember
+     2388  Push register0
+     2393  StoreRegister 2
+     2397  Pop
+     2398  Push register2, "borderStyle", "inset"
+     2407  SetMember
+     2408  Push register1, "styles"
+     2415  GetMember
+     2416  Push "NumericStepper", 0, "mx"
+     2432  GetVariable
+     2433  Push "styles"
+     2438  GetMember
+     2439  Push "CSSStyleDeclaration"
+     2444  NewMethod
+     2445  StoreRegister 0
+     2449  SetMember
+     2450  Push register0
+     2455  StoreRegister 2
+     2459  Pop
+     2460  Push register2, "textAlign", "center"
+     2469  SetMember
+     2470  Push register1, "styles"
+     2477  GetMember
+     2478  Push "RectBorder", 0, "mx"
+     2494  GetVariable
+     2495  Push "styles"
+     2500  GetMember
+     2501  Push "CSSStyleDeclaration"
+     2506  NewMethod
+     2507  StoreRegister 0
+     2511  SetMember
+     2512  Push register0
+     2517  StoreRegister 2
+     2521  Pop
+     2522  Push register2, "borderColor", 14015965
+     2534  SetMember
+     2535  Push register2, "buttonColor", 7305079
+     2547  SetMember
+     2548  Push register2, "shadowColor", 15658734
+     2560  SetMember
+     2561  Push register2, "highlightColor", 12897484
+     2573  SetMember
+     2574  Push register2, "shadowCapColor", 14015965
+     2586  SetMember
+     2587  Push register2, "borderCapColor", 9542041
+     2599  SetMember
+     2600  Push 0, "Object"
+     2614  NewObject
+     2615  StoreRegister 4
+     2619  Pop
+     2620  Push register4, "borderColor", 16711680
+     2632  SetMember
+     2633  Push register4, "buttonColor", 16711680
+     2645  SetMember
+     2646  Push register4, "shadowColor", 16711680
+     2658  SetMember
+     2659  Push register4, "highlightColor", 16711680
+     2671  SetMember
+     2672  Push register4, "shadowCapColor", 16711680
+     2684  SetMember
+     2685  Push register4, "borderCapColor", 16711680
+     2697  SetMember
+     2698  Push "mx"
+     2703  GetVariable
+     2704  Push "core"
+     2709  GetMember
+     2710  Push "UIComponent"
+     2715  GetMember
+     2716  Push "prototype"
+     2721  GetMember
+     2722  Push "origBorderStyles", register4
+     2729  SetMember
+     2730  Push undef
+     2734  StoreRegister 3
+     2738  Pop
+     2739  Push register1, "styles"
+     2746  GetMember
+     2747  Push "TextInput", 0, "mx"
+     2763  GetVariable
+     2764  Push "styles"
+     2769  GetMember
+     2770  Push "CSSStyleDeclaration"
+     2775  NewMethod
+     2776  StoreRegister 0
+     2780  SetMember
+     2781  Push register0
+     2786  StoreRegister 3
+     2790  Pop
+     2791  Push register3, "backgroundColor", 16777215
+     2803  SetMember
+     2804  Push register3, "borderStyle", "inset"
+     2813  SetMember
+     2814  Push register1, "styles"
+     2821  GetMember
+     2822  Push "TextArea", register1, "styles"
+     2831  GetMember
+     2832  Push "TextInput"
+     2837  GetMember
+     2838  SetMember
+     2839  Push register1, "styles"
+     2846  GetMember
+     2847  Push "Window", 0, "mx"
+     2863  GetVariable
+     2864  Push "styles"
+     2869  GetMember
+     2870  Push "CSSStyleDeclaration"
+     2875  NewMethod
+     2876  StoreRegister 0
+     2880  SetMember
+     2881  Push register0
+     2886  StoreRegister 3
+     2890  Pop
+     2891  Push register3, "borderStyle", "default"
+     2900  SetMember
+     2901  Push register1, "styles"
+     2908  GetMember
+     2909  Push "windowStyles", 0, "mx"
+     2925  GetVariable
+     2926  Push "styles"
+     2931  GetMember
+     2932  Push "CSSStyleDeclaration"
+     2937  NewMethod
+     2938  StoreRegister 0
+     2942  SetMember
+     2943  Push register0
+     2948  StoreRegister 3
+     2952  Pop
+     2953  Push register3, "fontWeight", "bold"
+     2962  SetMember
+     2963  Push register1, "styles"
+     2970  GetMember
+     2971  Push "dataGridStyles", 0, "mx"
+     2987  GetVariable
+     2988  Push "styles"
+     2993  GetMember
+     2994  Push "CSSStyleDeclaration"
+     2999  NewMethod
+     3000  StoreRegister 0
+     3004  SetMember
+     3005  Push register0
+     3010  StoreRegister 3
+     3014  Pop
+     3015  Push register3, "fontWeight", "bold"
+     3024  SetMember
+     3025  Push register1, "styles"
+     3032  GetMember
+     3033  Push "Alert", 0, "mx"
+     3049  GetVariable
+     3050  Push "styles"
+     3055  GetMember
+     3056  Push "CSSStyleDeclaration"
+     3061  NewMethod
+     3062  StoreRegister 0
+     3066  SetMember
+     3067  Push register0
+     3072  StoreRegister 3
+     3076  Pop
+     3077  Push register3, "borderStyle", "alert"
+     3086  SetMember
+     3087  Push register1, "styles"
+     3094  GetMember
+     3095  Push "ScrollView", 0, "mx"
+     3111  GetVariable
+     3112  Push "styles"
+     3117  GetMember
+     3118  Push "CSSStyleDeclaration"
+     3123  NewMethod
+     3124  StoreRegister 0
+     3128  SetMember
+     3129  Push register0
+     3134  StoreRegister 3
+     3138  Pop
+     3139  Push register3, "borderStyle", "inset"
+     3148  SetMember
+     3149  Push register1, "styles"
+     3156  GetMember
+     3157  Push "View", 0, "mx"
+     3173  GetVariable
+     3174  Push "styles"
+     3179  GetMember
+     3180  Push "CSSStyleDeclaration"
+     3185  NewMethod
+     3186  StoreRegister 0
+     3190  SetMember
+     3191  Push register0
+     3196  StoreRegister 3
+     3200  Pop
+     3201  Push register3, "borderStyle", "none"
+     3210  SetMember
+     3211  Push register1, "styles"
+     3218  GetMember
+     3219  Push "ProgressBar", 0, "mx"
+     3235  GetVariable
+     3236  Push "styles"
+     3241  GetMember
+     3242  Push "CSSStyleDeclaration"
+     3247  NewMethod
+     3248  StoreRegister 0
+     3252  SetMember
+     3253  Push register0
+     3258  StoreRegister 3
+     3262  Pop
+     3263  Push register3, "color", 11187123
+     3275  SetMember
+     3276  Push register3, "fontWeight", "bold"
+     3285  SetMember
+     3286  Push register1, "styles"
+     3293  GetMember
+     3294  Push "AccordionHeader", 0, "mx"
+     3310  GetVariable
+     3311  Push "styles"
+     3316  GetMember
+     3317  Push "CSSStyleDeclaration"
+     3322  NewMethod
+     3323  StoreRegister 0
+     3327  SetMember
+     3328  Push register0
+     3333  StoreRegister 3
+     3337  Pop
+     3338  Push register3, "fontWeight", "bold"
+     3347  SetMember
+     3348  Push register3, "fontSize", "11"
+     3357  SetMember
+     3358  Push register1, "styles"
+     3365  GetMember
+     3366  Push "Accordion", 0, "mx"
+     3382  GetVariable
+     3383  Push "styles"
+     3388  GetMember
+     3389  Push "CSSStyleDeclaration"
+     3394  NewMethod
+     3395  StoreRegister 0
+     3399  SetMember
+     3400  Push register0
+     3405  StoreRegister 3
+     3409  Pop
+     3410  Push register3, "borderStyle", "solid"
+     3419  SetMember
+     3420  Push register3, "backgroundColor", 16777215
+     3432  SetMember
+     3433  Push register3, "borderColor", 9081738
+     3445  SetMember
+     3446  Push register3, "headerHeight", 22
+     3458  SetMember
+     3459  Push register3, "marginLeft", register3, "marginRight", register3, "marginTop", register3, "marginBottom", -1
+     3483  StoreRegister 0
+     3487  SetMember
+     3488  Push register0
+     3493  StoreRegister 0
+     3497  SetMember
+     3498  Push register0
+     3503  StoreRegister 0
+     3507  SetMember
+     3508  Push register0
+     3513  SetMember
+     3514  Push register3, "verticalGap", -1
+     3526  SetMember
+     3527  Push register1, "styles"
+     3534  GetMember
+     3535  Push "DateChooser", 0, "mx"
+     3551  GetVariable
+     3552  Push "styles"
+     3557  GetMember
+     3558  Push "CSSStyleDeclaration"
+     3563  NewMethod
+     3564  StoreRegister 0
+     3568  SetMember
+     3569  Push register0
+     3574  StoreRegister 3
+     3578  Pop
+     3579  Push register3, "borderColor", 9542041
+     3591  SetMember
+     3592  Push register3, "headerColor", 16777215
+     3604  SetMember
+     3605  Push register1, "styles"
+     3612  GetMember
+     3613  Push "CalendarLayout", 0, "mx"
+     3629  GetVariable
+     3630  Push "styles"
+     3635  GetMember
+     3636  Push "CSSStyleDeclaration"
+     3641  NewMethod
+     3642  StoreRegister 0
+     3646  SetMember
+     3647  Push register0
+     3652  StoreRegister 3
+     3656  Pop
+     3657  Push register3, "fontSize", 10
+     3669  SetMember
+     3670  Push register3, "textAlign", "right"
+     3679  SetMember
+     3680  Push register3, "color", 2831164
+     3692  SetMember
+     3693  Push register1, "styles"
+     3700  GetMember
+     3701  Push "WeekDayStyle", 0, "mx"
+     3717  GetVariable
+     3718  Push "styles"
+     3723  GetMember
+     3724  Push "CSSStyleDeclaration"
+     3729  NewMethod
+     3730  StoreRegister 0
+     3734  SetMember
+     3735  Push register0
+     3740  StoreRegister 3
+     3744  Pop
+     3745  Push register3, "fontWeight", "bold"
+     3754  SetMember
+     3755  Push register3, "fontSize", 11
+     3767  SetMember
+     3768  Push register3, "textAlign", "center"
+     3777  SetMember
+     3778  Push register3, "color", 2831164
+     3790  SetMember
+     3791  Push register1, "styles"
+     3798  GetMember
+     3799  Push "TodayStyle", 0, "mx"
+     3815  GetVariable
+     3816  Push "styles"
+     3821  GetMember
+     3822  Push "CSSStyleDeclaration"
+     3827  NewMethod
+     3828  StoreRegister 0
+     3832  SetMember
+     3833  Push register0
+     3838  StoreRegister 3
+     3842  Pop
+     3843  Push register3, "color", 16777215
+     3855  SetMember
+     3856  Push register1, "styles"
+     3863  GetMember
+     3864  Push "HeaderDateText", 0, "mx"
+     3880  GetVariable
+     3881  Push "styles"
+     3886  GetMember
+     3887  Push "CSSStyleDeclaration"
+     3892  NewMethod
+     3893  StoreRegister 0
+     3897  SetMember
+     3898  Push register0
+     3903  StoreRegister 3
+     3907  Pop
+     3908  Push register3, "fontSize", 12
+     3920  SetMember
+     3921  Push register3, "fontWeight", "bold"
+     3930  SetMember
+     3931  Push register3, "textAlign", "center"
+     3940  SetMember
+        }
+  3941  SetMember
+  3942  Push register2, "drawRoundRect"
+  3949  DefineFunction2 "" (r4:x, r3:y, r6:w, r5:h, r2:r, r7:c, r8:alpha, r19:rot, r21:gradient, r17:ratios) regs=22 flags=0x29 {
+     4008  Push register2
+     4013  TypeOf
+     4014  Push "object"
+     4019  Equals2
+     4020  Not
+     4021  If loc4083
+     4026  Push register2, "br"
+     4033  GetMember
+     4034  StoreRegister 18
+     4038  Pop
+     4039  Push register2, "bl"
+     4046  GetMember
+     4047  StoreRegister 16
+     4051  Pop
+     4052  Push register2, "tl"
+     4059  GetMember
+     4060  StoreRegister 15
+     4064  Pop
+     4065  Push register2, "tr"
+     4072  GetMember
+     4073  StoreRegister 10
+     4077  Pop
+     4078  Jump loc4105
+     4083  Push register2
+     4088  StoreRegister 10
+     4092  StoreRegister 15
+     4096  StoreRegister 16
+     4100  StoreRegister 18
+     4104  Pop
+     4105  Push register7
+     4110  TypeOf
+     4111  Push "object"
+     4116  Equals2
+     4117  Not
+     4118  If loc4424
+     4123  Push register8
+     4128  TypeOf
+     4129  Push "object"
+     4134  Equals2
+     4135  Not
+     4136  Not
+     4137  If loc4165
+     4142  Push register8, register8, 2
+     4154  InitArray
+     4155  StoreRegister 9
+     4159  Pop
+     4160  Jump loc4175
+     4165  Push register8
+     4170  StoreRegister 9
+     4174  Pop
+     4175  Push register17, undef
+     4181  Equals2
+     4182  Not
+     4183  If loc4216
+     4188  Push 255, 0, 2
+     4210  InitArray
+     4211  StoreRegister 17
+     4215  Pop
+     4216  Push register5, 0.7
+     4230  Multiply
+     4231  StoreRegister 14
+     4235  Pop
+     4236  Push register19
+     4241  TypeOf
+     4242  Push "object"
+     4247  Equals2
+     4248  Not
+     4249  Not
+     4250  If loc4342
+     4255  Push "matrixType", "box", "x", 0, register14
+     4275  Subtract
+     4276  Push "y", register14, "w", register6, 2
+     4292  Multiply
+     4293  Push "h", register5, 4
+     4305  Multiply
+     4306  Push "r", register19, 0.0174532925199433
+     4322  Multiply
+     4323  Push 6
+     4331  InitObject
+     4332  StoreRegister 11
+     4336  Pop
+     4337  Jump loc4352
+     4342  Push register19
+     4347  StoreRegister 11
+     4351  Pop
+     4352  Push register21, "radial"
+     4359  Equals2
+     4360  Not
+     4361  If loc4395
+     4366  Push register11, register17, register9, register7, "radial", 5, register1, "beginGradientFill"
+     4388  CallMethod
+     4389  Pop
+     4390  Jump loc4419
+     4395  Push register11, register17, register9, register7, "linear", 5, register1, "beginGradientFill"
+     4417  CallMethod
+     4418  Pop
+     4419  Jump loc4456
+     4424  Push register7, undef
+     4430  Equals2
+     4431  Not
+     4432  Not
+     4433  If loc4456
+     4438  Push register8, register7, 2, register1, "beginFill"
+     4454  CallMethod
+     4455  Pop
+     4456  Push register18
+     4461  StoreRegister 2
+     4465  Pop
+     4466  Push register2, register2, 0.707106781186547
+     4482  Multiply
+     4483  Subtract
+     4484  StoreRegister 13
+     4488  Pop
+     4489  Push register2, register2, 0.414213562373095
+     4505  Multiply
+     4506  Subtract
+     4507  StoreRegister 12
+     4511  Pop
+     4512  Push register3, register5
+     4519  Add2
+     4520  Push register2
+     4525  Subtract
+     4526  Push register4, register6
+     4533  Add2
+     4534  Push 2, register1, "moveTo"
+     4546  CallMethod
+     4547  Pop
+     4548  Push register3, register5
+     4555  Add2
+     4556  Push register2
+     4561  Subtract
+     4562  Push register4, register6
+     4569  Add2
+     4570  Push 2, register1, "lineTo"
+     4582  CallMethod
+     4583  Pop
+     4584  Push register3, register5
+     4591  Add2
+     4592  Push register13
+     4597  Subtract
+     4598  Push register4, register6
+     4605  Add2
+     4606  Push register13
+     4611  Subtract
+     4612  Push register3, register5
+     4619  Add2
+     4620  Push register12
+     4625  Subtract
+     4626  Push register4, register6
+     4633  Add2
+     4634  Push 4, register1, "curveTo"
+     4646  CallMethod
+     4647  Pop
+     4648  Push register3, register5
+     4655  Add2
+     4656  Push register4, register6
+     4663  Add2
+     4664  Push register2
+     4669  Subtract
+     4670  Push register3, register5
+     4677  Add2
+     4678  Push register4, register6
+     4685  Add2
+     4686  Push register12
+     4691  Subtract
+     4692  Push 4, register1, "curveTo"
+     4704  CallMethod
+     4705  Pop
+     4706  Push register16
+     4711  StoreRegister 2
+     4715  Pop
+     4716  Push register2, register2, 0.707106781186547
+     4732  Multiply
+     4733  Subtract
+     4734  StoreRegister 13
+     4738  Pop
+     4739  Push register2, register2, 0.414213562373095
+     4755  Multiply
+     4756  Subtract
+     4757  StoreRegister 12
+     4761  Pop
+     4762  Push register3, register5
+     4769  Add2
+     4770  Push register4, register2
+     4777  Add2
+     4778  Push 2, register1, "lineTo"
+     4790  CallMethod
+     4791  Pop
+     4792  Push register3, register5
+     4799  Add2
+     4800  Push register13
+     4805  Subtract
+     4806  Push register4, register13
+     4813  Add2
+     4814  Push register3, register5
+     4821  Add2
+     4822  Push register4, register12
+     4829  Add2
+     4830  Push 4, register1, "curveTo"
+     4842  CallMethod
+     4843  Pop
+     4844  Push register3, register5
+     4851  Add2
+     4852  Push register2
+     4857  Subtract
+     4858  Push register4, register3, register5
+     4867  Add2
+     4868  Push register12
+     4873  Subtract
+     4874  Push register4, 4, register1, "curveTo"
+     4888  CallMethod
+     4889  Pop
+     4890  Push register15
+     4895  StoreRegister 2
+     4899  Pop
+     4900  Push register2, register2, 0.707106781186547
+     4916  Multiply
+     4917  Subtract
+     4918  StoreRegister 13
+     4922  Pop
+     4923  Push register2, register2, 0.414213562373095
+     4939  Multiply
+     4940  Subtract
+     4941  StoreRegister 12
+     4945  Pop
+     4946  Push register3, register2
+     4953  Add2
+     4954  Push register4, 2, register1, "lineTo"
+     4968  CallMethod
+     4969  Pop
+     4970  Push register3, register13
+     4977  Add2
+     4978  Push register4, register13
+     4985  Add2
+     4986  Push register3, register12
+     4993  Add2
+     4994  Push register4, 4, register1, "curveTo"
+     5008  CallMethod
+     5009  Pop
+     5010  Push register3, register4, register2
+     5019  Add2
+     5020  Push register3, register4, register12
+     5029  Add2
+     5030  Push 4, register1, "curveTo"
+     5042  CallMethod
+     5043  Pop
+     5044  Push register10
+     5049  StoreRegister 2
+     5053  Pop
+     5054  Push register2, register2, 0.707106781186547
+     5070  Multiply
+     5071  Subtract
+     5072  StoreRegister 13
+     5076  Pop
+     5077  Push register2, register2, 0.414213562373095
+     5093  Multiply
+     5094  Subtract
+     5095  StoreRegister 12
+     5099  Pop
+     5100  Push register3, register4, register6
+     5109  Add2
+     5110  Push register2
+     5115  Subtract
+     5116  Push 2, register1, "lineTo"
+     5128  CallMethod
+     5129  Pop
+     5130  Push register3, register13
+     5137  Add2
+     5138  Push register4, register6
+     5145  Add2
+     5146  Push register13
+     5151  Subtract
+     5152  Push register3, register4, register6
+     5161  Add2
+     5162  Push register12
+     5167  Subtract
+     5168  Push 4, register1, "curveTo"
+     5180  CallMethod
+     5181  Pop
+     5182  Push register3, register2
+     5189  Add2
+     5190  Push register4, register6
+     5197  Add2
+     5198  Push register3, register12
+     5205  Add2
+     5206  Push register4, register6
+     5213  Add2
+     5214  Push 4, register1, "curveTo"
+     5226  CallMethod
+     5227  Pop
+     5228  Push register3, register5
+     5235  Add2
+     5236  Push register2
+     5241  Subtract
+     5242  Push register4, register6
+     5249  Add2
+     5250  Push 2, register1, "lineTo"
+     5262  CallMethod
+     5263  Pop
+     5264  Push register7, undef
+     5270  Equals2
+     5271  Not
+     5272  Not
+     5273  If loc5296
+     5278  Push 0, register1, "endFill"
+     5294  CallMethod
+     5295  Pop
+        }
+  5296  SetMember
+  5297  Push register1, "classConstruct"
+  5304  DefineFunction "" () regs=4 flags=0x0 {
+     5312  Push 0, "mx"
+     5326  GetVariable
+     5327  Push "core"
+     5332  GetMember
+     5333  Push "ext"
+     5338  GetMember
+     5339  Push "UIObjectExtensions"
+     5344  GetMember
+     5345  Push "Extensions"
+     5350  CallMethod
+     5351  Pop
+     5352  Push 0, "mx"
+     5366  GetVariable
+     5367  Push "skins"
+     5372  GetMember
+     5373  Push "halo"
+     5378  GetMember
+     5379  Push "Defaults"
+     5384  GetMember
+     5385  Push "setThemeDefaults"
+     5390  CallMethod
+     5391  Pop
+     5392  Push "mx"
+     5397  GetVariable
+     5398  Push "core"
+     5403  GetMember
+     5404  Push "UIObject"
+     5409  GetMember
+     5410  Push "prototype"
+     5415  GetMember
+     5416  Push "drawRoundRect", "mx"
+     5423  GetVariable
+     5424  Push "skins"
+     5429  GetMember
+     5430  Push "halo"
+     5435  GetMember
+     5436  Push "Defaults"
+     5441  GetMember
+     5442  Push "prototype"
+     5447  GetMember
+     5448  Push "drawRoundRect"
+     5453  GetMember
+     5454  SetMember
+     5455  Push true
+     5460  Return
+        }
+  5461  SetMember
+  5462  Push register1, "classConstructed", 0, "mx"
+  5480  GetVariable
+  5481  Push "skins"
+  5486  GetMember
+  5487  Push "halo"
+  5492  GetMember
+  5493  Push "Defaults"
+  5498  GetMember
+  5499  Push "classConstruct"
+  5504  CallMethod
+  5505  SetMember
+  5506  Push register1, "CSSStyleDeclarationDependency", "mx"
+  5515  GetVariable
+  5516  Push "styles"
+  5521  GetMember
+  5522  Push "CSSStyleDeclaration"
+  5527  GetMember
+  5528  SetMember
+  5529  Push register1, "UIObjectExtensionsDependency", "mx"
+  5538  GetVariable
+  5539  Push "core"
+  5544  GetMember
+  5545  Push "ext"
+  5550  GetMember
+  5551  Push "UIObjectExtensions"
+  5556  GetMember
+  5557  SetMember
+  5558  Push register1, "UIObjectDependency", "mx"
+  5567  GetVariable
+  5568  Push "core"
+  5573  GetMember
+  5574  Push "UIObject"
+  5579  GetMember
+  5580  SetMember
+  5581  Push 1, null, "mx"
+  5592  GetVariable
+  5593  Push "skins"
+  5598  GetMember
+  5599  Push "halo"
+  5604  GetMember
+  5605  Push "Defaults"
+  5610  GetMember
+  5611  Push "prototype"
+  5616  GetMember
+  5617  Push 3, "ASSetPropFlags"
+  5627  CallFunction
+  5628  Pop
+  5629  End

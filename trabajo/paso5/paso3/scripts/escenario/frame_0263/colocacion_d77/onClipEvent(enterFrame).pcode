@@ -1,0 +1,117 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 263, clip en profundidad 77 (07417_PlaceObject2.bin)
+
+    65  ConstantPool (15)
+   215  Push "_root"
+   220  GetVariable
+   221  Push "cutSceneEnd"
+   226  GetMember
+   227  Push false
+   232  Equals2
+   233  Not
+   234  If loc302
+   239  Push "", 6
+   249  GetProperty
+   250  Push 0
+   262  Greater
+   263  Not
+   264  If loc297
+   269  Push "", 6, "", 6
+   286  GetProperty
+   287  Push 5
+   295  Subtract
+   296  SetProperty
+   297  Jump loc688
+   302  Push "", 6, "", 6
+   319  GetProperty
+   320  Push 5
+   328  Add2
+   329  SetProperty
+   330  Push "", 6
+   340  GetProperty
+   341  Push 100
+   349  Less2
+   350  Not
+   351  Not
+   352  If loc688
+   357  Push "", 19, "_root"
+   369  GetVariable
+   370  Push "Krin"
+   375  GetMember
+   376  Push "qual"
+   381  GetMember
+   382  SetProperty
+   383  Push "_root"
+   388  GetVariable
+   389  Push "gotoSceneKrin"
+   394  GetMember
+   395  Push "endMenu"
+   400  Equals2
+   401  Not
+   402  If loc449
+   407  Push "_root"
+   412  GetVariable
+   413  Push "soundModeKrin", 0
+   427  SetMember
+   428  Push "_root"
+   433  GetVariable
+   434  Push "soundPlayCounter", 0
+   448  SetMember
+   449  Push "_root"
+   454  GetVariable
+   455  Push "gotoSceneKrin"
+   460  GetMember
+   461  Push "overMap"
+   466  Equals2
+   467  Not
+   468  If loc540
+   473  Push "_root"
+   478  GetVariable
+   479  Push "soundPlayCounter", 0
+   493  SetMember
+   494  Push "_root"
+   499  GetVariable
+   500  Push "soundModeKrin", 0
+   514  SetMember
+   515  Push 1, "Music", 2, "_root"
+   532  GetVariable
+   533  Push "addSound"
+   538  CallMethod
+   539  Pop
+   540  Push "_root"
+   545  GetVariable
+   546  Push "gotoSceneKrin"
+   551  GetMember
+   552  Push "Navigation"
+   557  Equals2
+   558  Not
+   559  If loc631
+   564  Push "_root"
+   569  GetVariable
+   570  Push "soundPlayCounter", 0
+   584  SetMember
+   585  Push "_root"
+   590  GetVariable
+   591  Push "soundModeKrin", 0
+   605  SetMember
+   606  Push 1, "Music", 2, "_root"
+   623  GetVariable
+   624  Push "addSound"
+   629  CallMethod
+   630  Pop
+   631  Push "_root"
+   636  GetVariable
+   637  Push "Krin"
+   642  GetMember
+   643  Push "cutsceneSequence", 0
+   657  SetMember
+   658  Push "_root"
+   663  GetVariable
+   664  Push "gotoSceneKrin"
+   669  GetMember
+   670  Push 1, "_root"
+   680  GetVariable
+   681  Push "gotoAndPlay"
+   686  CallMethod
+   687  Pop
+   688  End

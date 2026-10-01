@@ -1,0 +1,103 @@
+// on(rollOver)
+// origen: boton 3206 (06923_DefineButton2_3206.bin)
+
+    71  ConstantPool (16)
+   205  Push "_root"
+   210  GetVariable
+   211  Push "thereIsASlotSelected", true
+   218  SetMember
+   219  Push "_root"
+   224  GetVariable
+   225  Push "KrinToolTipper"
+   230  GetMember
+   231  Push "tt", "_root"
+   238  GetVariable
+   239  Push "KrinLang"
+   244  GetMember
+   245  Push "_root"
+   250  GetVariable
+   251  Push "KLangChoosen"
+   256  GetMember
+   257  GetMember
+   258  Push "MENU"
+   263  GetMember
+   264  Push 3
+   272  GetMember
+   273  SetMember
+   274  Push "_root"
+   279  GetVariable
+   280  Push "Krin"
+   285  GetMember
+   286  Push "mouseItem"
+   291  GetMember
+   292  Push 0
+   304  Equals2
+   305  Not
+   306  Not
+   307  If loc442
+   312  Push "_root"
+   317  GetVariable
+   318  Push "KrinToolTipper"
+   323  GetMember
+   324  Push "t", "_root"
+   331  GetVariable
+   332  Push "KrinLang"
+   337  GetMember
+   338  Push "_root"
+   343  GetVariable
+   344  Push "KLangChoosen"
+   349  GetMember
+   350  GetMember
+   351  Push "MENU"
+   356  GetMember
+   357  Push 4
+   365  GetMember
+   366  Push " €"
+   371  Add2
+   372  Push "_root"
+   377  GetVariable
+   378  Push "KRINITEM", "_root"
+   385  GetVariable
+   386  Push "Krin"
+   391  GetMember
+   392  Push "mouseItem"
+   397  GetMember
+   398  Add2
+   399  GetMember
+   400  Push 5
+   408  GetMember
+   409  Push 3
+   417  Divide
+   418  Push 1, "Math"
+   428  GetVariable
+   429  Push "round"
+   434  CallMethod
+   435  Add2
+   436  SetMember
+   437  Jump loc497
+   442  Push "_root"
+   447  GetVariable
+   448  Push "KrinToolTipper"
+   453  GetMember
+   454  Push "t", "_root"
+   461  GetVariable
+   462  Push "KrinLang"
+   467  GetMember
+   468  Push "_root"
+   473  GetVariable
+   474  Push "KLangChoosen"
+   479  GetMember
+   480  GetMember
+   481  Push "MENU"
+   486  GetMember
+   487  Push 5
+   495  GetMember
+   496  SetMember
+   497  Push "GO", 1, "_root"
+   509  GetVariable
+   510  Push "KrinToolTipper"
+   515  GetMember
+   516  Push "gotoAndStop"
+   521  CallMethod
+   522  Pop
+   523  End

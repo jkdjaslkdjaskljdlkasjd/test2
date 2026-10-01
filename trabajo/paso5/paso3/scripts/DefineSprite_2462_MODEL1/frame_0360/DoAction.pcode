@@ -1,0 +1,10 @@
+// DoAction
+// origen: DefineSprite_2462_MODEL1 fotograma 360, DoAction (03695_DefineSprite_2462.bin, byte 166008)
+
+166008  Push "_parent"
+166020  GetVariable
+166021  Push "shadower"
+166034  GetMember
+166035  Push "_visible", false
+166050  SetMember
+166051  End

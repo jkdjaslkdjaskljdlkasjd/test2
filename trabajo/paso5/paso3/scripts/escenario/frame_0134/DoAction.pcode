@@ -1,0 +1,89 @@
+// DoAction
+// origen: escenario fotograma 134, DoAction (06345_DoAction.bin)
+
+     0  ConstantPool (11)
+   101  Push "credit_1", "_root"
+   108  GetVariable
+   109  Push "KrinLang"
+   114  GetMember
+   115  Push "KLangChoosen"
+   120  GetVariable
+   121  GetMember
+   122  Push "MENU"
+   127  GetMember
+   128  Push 92
+   136  GetMember
+   137  SetVariable
+   138  Push "credit_2", "_root"
+   145  GetVariable
+   146  Push "KrinLang"
+   151  GetMember
+   152  Push "KLangChoosen"
+   157  GetVariable
+   158  GetMember
+   159  Push "MENU"
+   164  GetMember
+   165  Push 93
+   173  GetMember
+   174  SetVariable
+   175  Push "credit_3", "_root"
+   182  GetVariable
+   183  Push "KrinLang"
+   188  GetMember
+   189  Push "KLangChoosen"
+   194  GetVariable
+   195  GetMember
+   196  Push "MENU"
+   201  GetMember
+   202  Push 94
+   210  GetMember
+   211  SetVariable
+   212  Push "credit_4", "_root"
+   219  GetVariable
+   220  Push "KrinLang"
+   225  GetMember
+   226  Push "KLangChoosen"
+   231  GetVariable
+   232  GetMember
+   233  Push "MENU"
+   238  GetMember
+   239  Push 95
+   247  GetMember
+   248  SetVariable
+   249  Push "credit_5", "_root"
+   256  GetVariable
+   257  Push "KrinLang"
+   262  GetMember
+   263  Push "KLangChoosen"
+   268  GetVariable
+   269  GetMember
+   270  Push "MENU"
+   275  GetMember
+   276  Push 96
+   284  GetMember
+   285  SetVariable
+   286  Push "credit_6", "_root"
+   293  GetVariable
+   294  Push "KrinLang"
+   299  GetMember
+   300  Push "KLangChoosen"
+   305  GetVariable
+   306  GetMember
+   307  Push "MENU"
+   312  GetMember
+   313  Push 97
+   321  GetMember
+   322  SetVariable
+   323  Push "credit_7", "_root"
+   330  GetVariable
+   331  Push "KrinLang"
+   336  GetMember
+   337  Push "KLangChoosen"
+   342  GetVariable
+   343  GetMember
+   344  Push "MENU"
+   349  GetMember
+   350  Push 98
+   358  GetMember
+   359  SetVariable
+   360  End

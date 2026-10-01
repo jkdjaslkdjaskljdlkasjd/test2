@@ -1,0 +1,125 @@
+// on(press)
+// origen: boton 2796 (06483_DefineButton2_2796.bin)
+
+    17  ConstantPool (21)
+   212  Push "i", 1
+   222  SetVariable
+   223  Push "i"
+   228  GetVariable
+   229  Push 6
+   237  Less2
+   238  Not
+   239  If loc295
+   244  Push "BLACK", 1, "_parent"
+   256  GetVariable
+   257  Push "b", "i"
+   264  GetVariable
+   265  Add2
+   266  GetMember
+   267  Push "COVER"
+   272  GetMember
+   273  Push "gotoAndStop"
+   278  CallMethod
+   279  Pop
+   280  Push "i", "i"
+   287  GetVariable
+   288  Increment
+   289  SetVariable
+   290  Jump loc223
+   295  Push "WHITE", 1, "COVER"
+   307  GetVariable
+   308  Push "gotoAndStop"
+   313  CallMethod
+   314  Pop
+   315  Push "_root"
+   320  GetVariable
+   321  Push "playerKrin", "_parent"
+   328  GetVariable
+   329  Push "pN"
+   334  GetMember
+   335  Add2
+   336  GetMember
+   337  Push "agMode", "pN"
+   344  GetVariable
+   345  SetMember
+   346  Push "_root"
+   351  GetVariable
+   352  Push "playerKrin", "_parent"
+   359  GetVariable
+   360  Push "pN"
+   365  GetMember
+   366  Add2
+   367  GetMember
+   368  Push "Aggression", "_root"
+   375  GetVariable
+   376  Push "agModeAr1"
+   381  GetMember
+   382  Push "pN"
+   387  GetVariable
+   388  GetMember
+   389  SetMember
+   390  Push "_root"
+   395  GetVariable
+   396  Push "playerKrin", "_parent"
+   403  GetVariable
+   404  Push "pN"
+   409  GetMember
+   410  Add2
+   411  GetMember
+   412  Push "LifeBoundary1", "_root"
+   419  GetVariable
+   420  Push "agModeAr2"
+   425  GetMember
+   426  Push "pN"
+   431  GetVariable
+   432  GetMember
+   433  SetMember
+   434  Push "_root"
+   439  GetVariable
+   440  Push "playerKrin", "_parent"
+   447  GetVariable
+   448  Push "pN"
+   453  GetMember
+   454  Add2
+   455  GetMember
+   456  Push "LifeBoundary2", "_root"
+   463  GetVariable
+   464  Push "agModeAr3"
+   469  GetMember
+   470  Push "pN"
+   475  GetVariable
+   476  GetMember
+   477  SetMember
+   478  Push "_root"
+   483  GetVariable
+   484  Push "playerKrin", "_parent"
+   491  GetVariable
+   492  Push "pN"
+   497  GetMember
+   498  Add2
+   499  GetMember
+   500  Push "FocusAggression", "_root"
+   507  GetVariable
+   508  Push "agModeAr4"
+   513  GetMember
+   514  Push "pN"
+   519  GetVariable
+   520  GetMember
+   521  SetMember
+   522  Push "_root"
+   527  GetVariable
+   528  Push "playerKrin", "_parent"
+   535  GetVariable
+   536  Push "pN"
+   541  GetMember
+   542  Add2
+   543  GetMember
+   544  Push "FocusRegenLimit", "_root"
+   551  GetVariable
+   552  Push "agModeAr5"
+   557  GetMember
+   558  Push "pN"
+   563  GetVariable
+   564  GetMember
+   565  SetMember
+   566  End

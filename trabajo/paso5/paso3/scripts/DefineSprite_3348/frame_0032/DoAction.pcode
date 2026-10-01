@@ -1,0 +1,23 @@
+// DoAction
+// origen: DefineSprite_3348 fotograma 32, DoAction (07209_DefineSprite_3348.bin, byte 2410)
+
+  2410  ConstantPool (7)
+  2481  Push "Hit", "hitTarget"
+  2488  GetVariable
+  2489  Push "inner"
+  2494  GetMember
+  2495  Push 2, "_root"
+  2505  GetVariable
+  2506  Push "krinChangeColor"
+  2511  CallMethod
+  2512  Pop
+  2513  Push "hitTarget"
+  2518  GetVariable
+  2519  Push "inner"
+  2524  GetMember
+  2525  Push "filters", "_root"
+  2532  GetVariable
+  2533  Push "KrinFilterFocus"
+  2538  GetMember
+  2539  SetMember
+  2540  End

@@ -1,0 +1,15 @@
+// DoAction
+// origen: DefineSprite_269_ThumbThemeColor2 fotograma 1, DoAction (00459_DefineSprite_269.bin, byte 20)
+
+    20  Push "themeColor", "this"
+    41  GetVariable
+    42  Push 2, "mx"
+    54  GetVariable
+    55  Push "skins"
+    65  GetMember
+    66  Push "ColoredSkinElement"
+    89  GetMember
+    90  Push "setColorStyle"
+   108  CallMethod
+   109  Pop
+   110  End

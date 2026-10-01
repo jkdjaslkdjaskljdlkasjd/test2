@@ -1,0 +1,11 @@
+// DefineSprite_230_SimpleButton
+// origen: DoInitAction del sprite 230 (03809_DoInitAction.bin)
+
+     2  Push "mx.controls.SimpleButton"
+    31  GetVariable
+    32  Push "SimpleButton", 2, "Object"
+    62  GetVariable
+    63  Push "registerClass"
+    81  CallMethod
+    82  Pop
+    83  End

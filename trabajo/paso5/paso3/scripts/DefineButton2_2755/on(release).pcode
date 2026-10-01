@@ -1,0 +1,16 @@
+// on(release)
+// origen: boton 2755 (06317_DefineButton2_2755.bin)
+
+    17  Push "xRx6", "_root"
+    33  GetVariable
+    34  Push "KrinLang"
+    47  GetMember
+    48  Push "KLangChoosen"
+    65  GetVariable
+    66  GetMember
+    67  Push "MANUALEX"
+    80  GetMember
+    81  Push 4
+    89  GetMember
+    90  SetVariable
+    91  End

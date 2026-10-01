@@ -1,0 +1,16 @@
+// DoAction
+// origen: escenario fotograma 5, DoAction (03873_DoAction.bin)
+
+     0  Push "whatToSay", "_root"
+    21  GetVariable
+    22  Push "KrinLang"
+    35  GetMember
+    36  Push "KLangChoosen"
+    53  GetVariable
+    54  GetMember
+    55  Push "SYSTEM"
+    66  GetMember
+    67  Push 12
+    75  GetMember
+    76  SetVariable
+    77  End

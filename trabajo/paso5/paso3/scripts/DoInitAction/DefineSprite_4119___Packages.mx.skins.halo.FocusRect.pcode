@@ -1,0 +1,670 @@
+// DefineSprite_4119___Packages.mx.skins.halo.FocusRect
+// origen: DoInitAction del sprite 4119 (03756_DoInitAction.bin)
+
+     2  ConstantPool (59)
+   557  Push "_global"
+   562  GetVariable
+   563  Push "mx"
+   568  GetMember
+   569  Not
+   570  Not
+   571  If loc600
+   576  Push "_global"
+   581  GetVariable
+   582  Push "mx", 0, "Object"
+   598  NewObject
+   599  SetMember
+   600  Pop
+   601  Push "_global"
+   606  GetVariable
+   607  Push "mx"
+   612  GetMember
+   613  Push "skins"
+   618  GetMember
+   619  Not
+   620  Not
+   621  If loc656
+   626  Push "_global"
+   631  GetVariable
+   632  Push "mx"
+   637  GetMember
+   638  Push "skins", 0, "Object"
+   654  NewObject
+   655  SetMember
+   656  Pop
+   657  Push "_global"
+   662  GetVariable
+   663  Push "mx"
+   668  GetMember
+   669  Push "skins"
+   674  GetMember
+   675  Push "halo"
+   680  GetMember
+   681  Not
+   682  Not
+   683  If loc724
+   688  Push "_global"
+   693  GetVariable
+   694  Push "mx"
+   699  GetMember
+   700  Push "skins"
+   705  GetMember
+   706  Push "halo", 0, "Object"
+   722  NewObject
+   723  SetMember
+   724  Pop
+   725  Push "_global"
+   730  GetVariable
+   731  Push "mx"
+   736  GetMember
+   737  Push "skins"
+   742  GetMember
+   743  Push "halo"
+   748  GetMember
+   749  Push "FocusRect"
+   754  GetMember
+   755  Not
+   756  Not
+   757  If loc3611
+   762  Push "mx"
+   767  GetVariable
+   768  Push "skins"
+   773  GetMember
+   774  Push "halo"
+   779  GetMember
+   780  Push "FocusRect"
+   785  DefineFunction2 "" () regs=3 flags=0x19 {
+      796  Push 0, register2, undef
+      811  CallMethod
+      812  Pop
+      813  Push register1, "boundingBox_mc"
+      820  GetMember
+      821  Push "_visible", false
+      828  SetMember
+      829  Push register1, "boundingBox_mc"
+      836  GetMember
+      837  Push "_width", register1, "boundingBox_mc"
+      846  GetMember
+      847  Push "_height", 0
+      861  StoreRegister 0
+      865  SetMember
+      866  Push register0
+      871  SetMember
+        }
+   872  StoreRegister 1
+   876  SetMember
+   877  Push "mx"
+   882  GetVariable
+   883  Push "skins"
+   888  GetMember
+   889  Push "halo"
+   894  GetMember
+   895  Push "FocusRect"
+   900  GetMember
+   901  Push "mx"
+   906  GetVariable
+   907  Push "skins"
+   912  GetMember
+   913  Push "SkinElement"
+   918  GetMember
+   919  Extends
+   920  Push register1, "prototype"
+   927  GetMember
+   928  StoreRegister 2
+   932  Pop
+   933  Push register2, "draw"
+   940  DefineFunction2 "" (r1:o) regs=2 flags=0x2a {
+      954  Push 0, register1, "adjustFocusRect"
+      970  CallMethod
+      971  Pop
+        }
+   972  SetMember
+   973  Push register2, "setSize"
+   980  DefineFunction2 "" (r4:w, r3:h, r2:r, r6:a, r7:rectCol) regs=8 flags=0x29 {
+     1012  Push register1, "_xscale", register1, "_yscale", 100
+     1028  StoreRegister 0
+     1032  SetMember
+     1033  Push register0
+     1038  SetMember
+     1039  Push 0, register1, "clear"
+     1055  CallMethod
+     1056  Pop
+     1057  Push register2
+     1062  TypeOf
+     1063  Push "object"
+     1068  Equals2
+     1069  Not
+     1070  If loc2092
+     1075  Push register2, "br", register2, "br"
+     1086  GetMember
+     1087  Push 2
+     1095  Greater
+     1096  If loc1118
+     1101  Push 0
+     1113  Jump loc1135
+     1118  Push register2, "br"
+     1125  GetMember
+     1126  Push 2
+     1134  Subtract
+     1135  SetMember
+     1136  Push register2, "bl", register2, "bl"
+     1147  GetMember
+     1148  Push 2
+     1156  Greater
+     1157  If loc1179
+     1162  Push 0
+     1174  Jump loc1196
+     1179  Push register2, "bl"
+     1186  GetMember
+     1187  Push 2
+     1195  Subtract
+     1196  SetMember
+     1197  Push register2, "tr", register2, "tr"
+     1208  GetMember
+     1209  Push 2
+     1217  Greater
+     1218  If loc1240
+     1223  Push 0
+     1235  Jump loc1257
+     1240  Push register2, "tr"
+     1247  GetMember
+     1248  Push 2
+     1256  Subtract
+     1257  SetMember
+     1258  Push register2, "tl", register2, "tl"
+     1269  GetMember
+     1270  Push 2
+     1278  Greater
+     1279  If loc1301
+     1284  Push 0
+     1296  Jump loc1318
+     1301  Push register2, "tl"
+     1308  GetMember
+     1309  Push 2
+     1317  Subtract
+     1318  SetMember
+     1319  Push register6, 0.3
+     1333  Multiply
+     1334  Push register7, 2, register1, "beginFill"
+     1348  CallMethod
+     1349  Pop
+     1350  Push register2, register3, register4, 0, 0, 5, register1, "drawRoundRect"
+     1386  CallMethod
+     1387  Pop
+     1388  Push register2, register3, 4
+     1400  Subtract
+     1401  Push register4, 4
+     1411  Subtract
+     1412  Push 2, 2, 5, register1, "drawRoundRect"
+     1434  CallMethod
+     1435  Pop
+     1436  Push 0, register1, "endFill"
+     1452  CallMethod
+     1453  Pop
+     1454  Push register2, "br", register2, "br"
+     1465  GetMember
+     1466  Push 1
+     1474  Greater
+     1475  If loc1497
+     1480  Push 0
+     1492  Jump loc1514
+     1497  Push register2, "br"
+     1504  GetMember
+     1505  Push 1
+     1513  Add2
+     1514  SetMember
+     1515  Push register2, "bl", register2, "bl"
+     1526  GetMember
+     1527  Push 1
+     1535  Greater
+     1536  If loc1558
+     1541  Push 0
+     1553  Jump loc1575
+     1558  Push register2, "bl"
+     1565  GetMember
+     1566  Push 1
+     1574  Add2
+     1575  SetMember
+     1576  Push register2, "tr", register2, "tr"
+     1587  GetMember
+     1588  Push 1
+     1596  Greater
+     1597  If loc1619
+     1602  Push 0
+     1614  Jump loc1636
+     1619  Push register2, "tr"
+     1626  GetMember
+     1627  Push 1
+     1635  Add2
+     1636  SetMember
+     1637  Push register2, "tl", register2, "tl"
+     1648  GetMember
+     1649  Push 1
+     1657  Greater
+     1658  If loc1680
+     1663  Push 0
+     1675  Jump loc1697
+     1680  Push register2, "tl"
+     1687  GetMember
+     1688  Push 1
+     1696  Add2
+     1697  SetMember
+     1698  Push register6, 0.3
+     1712  Multiply
+     1713  Push register7, 2, register1, "beginFill"
+     1727  CallMethod
+     1728  Pop
+     1729  Push register2, register3, 2
+     1741  Subtract
+     1742  Push register4, 2
+     1752  Subtract
+     1753  Push 1, 1, 5, register1, "drawRoundRect"
+     1775  CallMethod
+     1776  Pop
+     1777  Push register2, "br", register2, "br"
+     1788  GetMember
+     1789  Push 1
+     1797  Greater
+     1798  If loc1820
+     1803  Push 0
+     1815  Jump loc1837
+     1820  Push register2, "br"
+     1827  GetMember
+     1828  Push 1
+     1836  Subtract
+     1837  SetMember
+     1838  Push register2, "bl", register2, "bl"
+     1849  GetMember
+     1850  Push 1
+     1858  Greater
+     1859  If loc1881
+     1864  Push 0
+     1876  Jump loc1898
+     1881  Push register2, "bl"
+     1888  GetMember
+     1889  Push 1
+     1897  Subtract
+     1898  SetMember
+     1899  Push register2, "tr", register2, "tr"
+     1910  GetMember
+     1911  Push 1
+     1919  Greater
+     1920  If loc1942
+     1925  Push 0
+     1937  Jump loc1959
+     1942  Push register2, "tr"
+     1949  GetMember
+     1950  Push 1
+     1958  Subtract
+     1959  SetMember
+     1960  Push register2, "tl", register2, "tl"
+     1971  GetMember
+     1972  Push 1
+     1980  Greater
+     1981  If loc2003
+     1986  Push 0
+     1998  Jump loc2020
+     2003  Push register2, "tl"
+     2010  GetMember
+     2011  Push 1
+     2019  Subtract
+     2020  SetMember
+     2021  Push register2, register3, 4
+     2033  Subtract
+     2034  Push register4, 4
+     2044  Subtract
+     2045  Push 2, 2, 5, register1, "drawRoundRect"
+     2067  CallMethod
+     2068  Pop
+     2069  Push 0, register1, "endFill"
+     2085  CallMethod
+     2086  Pop
+     2087  Jump loc2534
+     2092  Push undef
+     2096  StoreRegister 5
+     2100  Pop
+     2101  Push register2, 0
+     2115  Equals2
+     2116  Not
+     2117  Not
+     2118  If loc2144
+     2123  Push register2, 2
+     2133  Subtract
+     2134  StoreRegister 5
+     2138  Pop
+     2139  Jump loc2161
+     2144  Push 0
+     2156  StoreRegister 5
+     2160  Pop
+     2161  Push register6, 0.3
+     2175  Multiply
+     2176  Push register7, 2, register1, "beginFill"
+     2190  CallMethod
+     2191  Pop
+     2192  Push register2, register3, register4, 0, 0, 5, register1, "drawRoundRect"
+     2228  CallMethod
+     2229  Pop
+     2230  Push register5, register3, 4
+     2242  Subtract
+     2243  Push register4, 4
+     2253  Subtract
+     2254  Push 2, 2, 5, register1, "drawRoundRect"
+     2276  CallMethod
+     2277  Pop
+     2278  Push 0, register1, "endFill"
+     2294  CallMethod
+     2295  Pop
+     2296  Push register6, 0.3
+     2310  Multiply
+     2311  Push register7, 2, register1, "beginFill"
+     2325  CallMethod
+     2326  Pop
+     2327  Push register2, 0
+     2341  Equals2
+     2342  Not
+     2343  Not
+     2344  If loc2386
+     2349  Push register2, 2
+     2359  Subtract
+     2360  StoreRegister 5
+     2364  Pop
+     2365  Push register2, 1
+     2375  Subtract
+     2376  StoreRegister 2
+     2380  Pop
+     2381  Jump loc2420
+     2386  Push 0
+     2398  StoreRegister 5
+     2402  Pop
+     2403  Push 0
+     2415  StoreRegister 2
+     2419  Pop
+     2420  Push register2, register3, 2
+     2432  Subtract
+     2433  Push register4, 2
+     2443  Subtract
+     2444  Push 1, 1, 5, register1, "drawRoundRect"
+     2466  CallMethod
+     2467  Pop
+     2468  Push register5, register3, 4
+     2480  Subtract
+     2481  Push register4, 4
+     2491  Subtract
+     2492  Push 2, 2, 5, register1, "drawRoundRect"
+     2514  CallMethod
+     2515  Pop
+     2516  Push 0, register1, "endFill"
+     2532  CallMethod
+     2533  Pop
+        }
+  2534  SetMember
+  2535  Push register2, "handleEvent"
+  2542  DefineFunction2 "" (r2:e) regs=3 flags=0x29 {
+     2556  Push register2, "type"
+     2563  GetMember
+     2564  Push "unload"
+     2569  Equals2
+     2570  Not
+     2571  If loc2591
+     2576  Push register1, "_visible", true
+     2585  SetMember
+     2586  Jump loc2684
+     2591  Push register2, "type"
+     2598  GetMember
+     2599  Push "resize"
+     2604  Equals2
+     2605  Not
+     2606  If loc2640
+     2611  Push 0, register2, "target"
+     2627  GetMember
+     2628  Push "adjustFocusRect"
+     2633  CallMethod
+     2634  Pop
+     2635  Jump loc2684
+     2640  Push register2, "type"
+     2647  GetMember
+     2648  Push "move"
+     2653  Equals2
+     2654  Not
+     2655  If loc2684
+     2660  Push 0, register2, "target"
+     2676  GetMember
+     2677  Push "adjustFocusRect"
+     2682  CallMethod
+     2683  Pop
+        }
+  2684  SetMember
+  2685  Push register1, "classConstruct"
+  2692  DefineFunction2 "" () regs=4 flags=0x29 {
+     2703  Push "mx"
+     2708  GetVariable
+     2709  Push "core"
+     2714  GetMember
+     2715  Push "UIComponent"
+     2720  GetMember
+     2721  Push "prototype"
+     2726  GetMember
+     2727  Push "drawFocus"
+     2732  DefineFunction2 "" (r3:focused) regs=4 flags=0x29 {
+        2752  Push register1, "_parent"
+        2759  GetMember
+        2760  Push "focus_mc"
+        2765  GetMember
+        2766  StoreRegister 2
+        2770  Pop
+        2771  Push register3
+        2776  Not
+        2777  Not
+        2778  If loc2852
+        2783  Push register2, "_visible", false
+        2792  SetMember
+        2793  Push register2, "unload", 2, register1, "removeEventListener"
+        2809  CallMethod
+        2810  Pop
+        2811  Push register2, "move", 2, register1, "removeEventListener"
+        2827  CallMethod
+        2828  Pop
+        2829  Push register2, "resize", 2, register1, "removeEventListener"
+        2845  CallMethod
+        2846  Pop
+        2847  Jump loc3083
+        2852  Push register2, undef
+        2858  Equals2
+        2859  Not
+        2860  If loc2946
+        2865  Push "mx"
+        2870  GetVariable
+        2871  Push "managers"
+        2876  GetMember
+        2877  Push "DepthManager"
+        2882  GetMember
+        2883  Push "kTop"
+        2888  GetMember
+        2889  Push "FocusRect", 2, register1, "_parent"
+        2903  GetMember
+        2904  Push "createChildAtDepth"
+        2909  CallMethod
+        2910  StoreRegister 2
+        2914  Pop
+        2915  Push register2, "tabEnabled", false
+        2924  SetMember
+        2925  Push register1, "_parent"
+        2932  GetMember
+        2933  Push "focus_mc", register2
+        2940  SetMember
+        2941  Jump loc2956
+        2946  Push register2, "_visible", true
+        2955  SetMember
+        2956  Push register1, 1, register2, "draw"
+        2970  CallMethod
+        2971  Pop
+        2972  Push 0, register2, "getDepth"
+        2988  CallMethod
+        2989  Push 0, register1, "getDepth"
+        3005  CallMethod
+        3006  Less2
+        3007  Not
+        3008  If loc3029
+        3013  Push register1, 1, register2, "setDepthAbove"
+        3027  CallMethod
+        3028  Pop
+        3029  Push register2, "unload", 2, register1, "addEventListener"
+        3045  CallMethod
+        3046  Pop
+        3047  Push register2, "move", 2, register1, "addEventListener"
+        3063  CallMethod
+        3064  Pop
+        3065  Push register2, "resize", 2, register1, "addEventListener"
+        3081  CallMethod
+        3082  Pop
+           }
+     3083  SetMember
+     3084  Push "mx"
+     3089  GetVariable
+     3090  Push "core"
+     3095  GetMember
+     3096  Push "UIComponent"
+     3101  GetMember
+     3102  Push "prototype"
+     3107  GetMember
+     3108  Push "adjustFocusRect"
+     3113  DefineFunction2 "" () regs=4 flags=0x29 {
+        3124  Push "themeColor", 1, register1, "getStyle"
+        3138  CallMethod
+        3139  StoreRegister 2
+        3143  Pop
+        3144  Push register2, undef
+        3150  Equals2
+        3151  Not
+        3152  If loc3170
+        3157  Push 8453965
+        3165  StoreRegister 2
+        3169  Pop
+        3170  Push register1, "_parent"
+        3177  GetMember
+        3178  Push "focus_mc"
+        3183  GetMember
+        3184  StoreRegister 3
+        3188  Pop
+        3189  Push register2, 100, 0, register1, "height"
+        3212  GetMember
+        3213  Push 4
+        3221  Add2
+        3222  Push register1, "width"
+        3229  GetMember
+        3230  Push 4
+        3238  Add2
+        3239  Push 5, register3, "setSize"
+        3251  CallMethod
+        3252  Pop
+        3253  Push register1, "y"
+        3260  GetMember
+        3261  Push 2
+        3269  Subtract
+        3270  Push register1, "x"
+        3277  GetMember
+        3278  Push 2
+        3286  Subtract
+        3287  Push 2, register3, "move"
+        3299  CallMethod
+        3300  Pop
+           }
+     3301  SetMember
+     3302  Push "TextField"
+     3307  GetVariable
+     3308  Push "prototype"
+     3313  GetMember
+     3314  Push "drawFocus", "mx"
+     3321  GetVariable
+     3322  Push "core"
+     3327  GetMember
+     3328  Push "UIComponent"
+     3333  GetMember
+     3334  Push "prototype"
+     3339  GetMember
+     3340  Push "drawFocus"
+     3345  GetMember
+     3346  SetMember
+     3347  Push "TextField"
+     3352  GetVariable
+     3353  Push "prototype"
+     3358  GetMember
+     3359  Push "adjustFocusRect", "mx"
+     3366  GetVariable
+     3367  Push "core"
+     3372  GetMember
+     3373  Push "UIComponent"
+     3378  GetMember
+     3379  Push "prototype"
+     3384  GetMember
+     3385  Push "adjustFocusRect"
+     3390  GetMember
+     3391  SetMember
+     3392  Push "mx"
+     3397  GetVariable
+     3398  Push "skins"
+     3403  GetMember
+     3404  Push "halo"
+     3409  GetMember
+     3410  Push "FocusRect"
+     3415  GetMember
+     3416  Push "prototype"
+     3421  GetMember
+     3422  Push "drawRoundRect", "mx"
+     3429  GetVariable
+     3430  Push "skins"
+     3435  GetMember
+     3436  Push "halo"
+     3441  GetMember
+     3442  Push "Defaults"
+     3447  GetMember
+     3448  Push "prototype"
+     3453  GetMember
+     3454  Push "drawRoundRect"
+     3459  GetMember
+     3460  SetMember
+     3461  Push true
+     3466  Return
+        }
+  3467  SetMember
+  3468  Push register1, "classConstructed", 0, "mx"
+  3486  GetVariable
+  3487  Push "skins"
+  3492  GetMember
+  3493  Push "halo"
+  3498  GetMember
+  3499  Push "FocusRect"
+  3504  GetMember
+  3505  Push "classConstruct"
+  3510  CallMethod
+  3511  SetMember
+  3512  Push register1, "DefaultsDependency", "mx"
+  3521  GetVariable
+  3522  Push "skins"
+  3527  GetMember
+  3528  Push "halo"
+  3533  GetMember
+  3534  Push "Defaults"
+  3539  GetMember
+  3540  SetMember
+  3541  Push register1, "UIComponentDependency", "mx"
+  3550  GetVariable
+  3551  Push "core"
+  3556  GetMember
+  3557  Push "UIComponent"
+  3562  GetMember
+  3563  SetMember
+  3564  Push 1, null, "mx"
+  3575  GetVariable
+  3576  Push "skins"
+  3581  GetMember
+  3582  Push "halo"
+  3587  GetMember
+  3588  Push "FocusRect"
+  3593  GetMember
+  3594  Push "prototype"
+  3599  GetMember
+  3600  Push 3, "ASSetPropFlags"
+  3610  CallFunction
+  3611  Pop
+  3612  End

@@ -1,0 +1,9 @@
+// on(press)
+// origen: boton 2808 (06497_DefineButton2_2808.bin)
+
+    17  Push 1, 1, "_root"
+    37  GetVariable
+    38  Push "krinNavHideUI"
+    56  CallMethod
+    57  Pop
+    58  End

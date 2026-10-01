@@ -1,0 +1,23 @@
+// onClipEvent(load)
+// origen: escenario fotograma 181, clip en profundidad 59 (06602_PlaceObject3.bin)
+
+    63  ConstantPool (6)
+   115  Push "_root"
+   120  GetVariable
+   121  Push "Krin"
+   126  GetMember
+   127  Push "zoneName"
+   132  GetMember
+   133  Push "_root"
+   138  GetVariable
+   139  Push "Krin"
+   144  GetMember
+   145  Push "sectionIn"
+   150  GetMember
+   151  GetMember
+   152  Push 1, "this"
+   162  GetVariable
+   163  Push "gotoAndStop"
+   168  CallMethod
+   169  Pop
+   170  End

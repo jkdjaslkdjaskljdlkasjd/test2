@@ -1,0 +1,9 @@
+// on(press)
+// origen: boton 3250 (06974_DefineButton2_3250.bin)
+
+    17  Push 0, "_root"
+    36  GetVariable
+    37  Push "krinNavHideUI"
+    55  CallMethod
+    56  Pop
+    57  End

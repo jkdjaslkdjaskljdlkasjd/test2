@@ -1,0 +1,67 @@
+// DoAction
+// origen: escenario fotograma 2, DoAction (03822_DoAction.bin)
+
+     0  ConstantPool (21)
+   303  DefineFunction2 "onUnload" () regs=2 flags=0x6a {
+      322  Push "Closing Sonny AS2 Bridge"
+      327  Trace
+      328  Push "Closing Sonny 2 Client Connection", 1, "sendWrapperMessage"
+      340  CallFunction
+      341  Pop
+      342  Push 0, register1, "swfBridge"
+      358  GetMember
+      359  Push "close"
+      364  CallMethod
+      365  Pop
+        }
+   366  Push "swiftBridgeAS2", "this"
+   373  GetVariable
+   374  Push "_sonnyConnect", 2, "com"
+   386  GetVariable
+   387  Push "gskinner"
+   392  GetMember
+   393  Push "utils"
+   398  GetMember
+   399  Push "SWFBridgeAS2"
+   404  NewMethod
+   405  DefineLocal
+   406  Push "_root"
+   411  GetVariable
+   412  Push "swfBridge", "swiftBridgeAS2"
+   419  GetVariable
+   420  SetMember
+   421  Push "swf Bridge Made: ", "_root"
+   428  GetVariable
+   429  Push "swfBridge"
+   434  GetMember
+   435  Add2
+   436  Trace
+   437  Push "sendAchievement"
+   442  DefineFunction2 "" (r2:key) regs=3 flags=0x6a {
+      458  Push register2, "GetAchivementFromClient", 2, register1, "swfBridge"
+      474  GetMember
+      475  Push "send"
+      480  CallMethod
+      481  Pop
+      482  Push "Sending Achivement ", register2
+      489  Add2
+      490  Push " using swfBridge: "
+      495  Add2
+      496  Push register1, "swiftBridgeAS2"
+      503  GetMember
+      504  Add2
+      505  Trace
+        }
+   506  SetVariable
+   507  Push "sendWrapperMessage"
+   512  DefineFunction2 "" (r2:payload) regs=3 flags=0x6a {
+      532  Push register2, "MessageFromClient", 2, register1, "swfBridge"
+      548  GetMember
+      549  Push "send"
+      554  CallMethod
+      555  Pop
+        }
+   556  SetVariable
+   557  Push "isDebugMode", false
+   564  SetVariable
+   565  End

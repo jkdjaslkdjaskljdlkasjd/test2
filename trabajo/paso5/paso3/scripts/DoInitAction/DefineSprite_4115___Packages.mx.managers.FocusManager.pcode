@@ -1,0 +1,2526 @@
+// DefineSprite_4115___Packages.mx.managers.FocusManager
+// origen: DoInitAction del sprite 4115 (03744_DoInitAction.bin)
+
+     2  ConstantPool (151)
+  1762  Push "_global"
+  1767  GetVariable
+  1768  Push "mx"
+  1773  GetMember
+  1774  Not
+  1775  Not
+  1776  If loc1805
+  1781  Push "_global"
+  1786  GetVariable
+  1787  Push "mx", 0, "Object"
+  1803  NewObject
+  1804  SetMember
+  1805  Pop
+  1806  Push "_global"
+  1811  GetVariable
+  1812  Push "mx"
+  1817  GetMember
+  1818  Push "managers"
+  1823  GetMember
+  1824  Not
+  1825  Not
+  1826  If loc1861
+  1831  Push "_global"
+  1836  GetVariable
+  1837  Push "mx"
+  1842  GetMember
+  1843  Push "managers", 0, "Object"
+  1859  NewObject
+  1860  SetMember
+  1861  Pop
+  1862  Push "_global"
+  1867  GetVariable
+  1868  Push "mx"
+  1873  GetMember
+  1874  Push "managers"
+  1879  GetMember
+  1880  Push "FocusManager"
+  1885  GetMember
+  1886  Not
+  1887  Not
+  1888  If loc10914
+  1893  Push "mx"
+  1898  GetVariable
+  1899  Push "managers"
+  1904  GetMember
+  1905  Push "FocusManager"
+  1910  DefineFunction2 "" () regs=2 flags=0x1a {
+     1921  Push 0, register1, undef
+     1936  CallMethod
+     1937  Pop
+        }
+  1938  StoreRegister 1
+  1942  SetMember
+  1943  Push "mx"
+  1948  GetVariable
+  1949  Push "managers"
+  1954  GetMember
+  1955  Push "FocusManager"
+  1960  GetMember
+  1961  Push "mx"
+  1966  GetVariable
+  1967  Push "core"
+  1972  GetMember
+  1973  Push "UIComponent"
+  1978  GetMember
+  1979  Extends
+  1980  Push register1, "prototype"
+  1987  GetMember
+  1988  StoreRegister 2
+  1992  Pop
+  1993  Push register2, "__get__defaultPushButton"
+  2000  DefineFunction2 "" () regs=2 flags=0x29 {
+     2011  Push register1, "__defaultPushButton"
+     2018  GetMember
+     2019  Return
+        }
+  2020  SetMember
+  2021  Push register2, "__set__defaultPushButton"
+  2028  DefineFunction2 "" (r2:x) regs=3 flags=0x29 {
+     2042  Push register2, register1, "__defaultPushButton"
+     2051  GetMember
+     2052  Equals2
+     2053  Not
+     2054  Not
+     2055  If loc2118
+     2060  Push false, 1, register1, "__defaultPushButton"
+     2074  GetMember
+     2075  Push "__set__emphasized"
+     2080  CallMethod
+     2081  Pop
+     2082  Push register1, "__defaultPushButton", register2
+     2091  SetMember
+     2092  Push register1, "defPushButton", register2
+     2101  SetMember
+     2102  Push true, 1, register2, "__set__emphasized"
+     2116  CallMethod
+     2117  Pop
+     2118  Push 0, register1, "__get__defaultPushButton"
+     2134  CallMethod
+     2135  Return
+     2136  Pop
+        }
+  2137  SetMember
+  2138  Push register2, "getMaxTabIndex"
+  2145  DefineFunction2 "" (r5:o) regs=7 flags=0x29 {
+     2159  Push 0
+     2171  StoreRegister 3
+     2175  Pop
+     2176  Push undef
+     2180  StoreRegister 6
+     2184  Pop
+     2185  Push register5
+     2190  Enumerate2
+     2191  StoreRegister 0
+     2195  Push null
+     2199  Equals2
+     2200  If loc2370
+     2205  Push register0
+     2210  StoreRegister 6
+     2214  Pop
+     2215  Push register5, register6
+     2222  GetMember
+     2223  StoreRegister 2
+     2227  Pop
+     2228  Push register2, "_parent"
+     2235  GetMember
+     2236  Push register5
+     2241  Equals2
+     2242  Not
+     2243  If loc2365
+     2248  Push register2, "tabIndex"
+     2255  GetMember
+     2256  Push undef
+     2260  Equals2
+     2261  Not
+     2262  Not
+     2263  If loc2301
+     2268  Push register2, "tabIndex"
+     2275  GetMember
+     2276  Push register3
+     2281  Greater
+     2282  Not
+     2283  If loc2301
+     2288  Push register2, "tabIndex"
+     2295  GetMember
+     2296  StoreRegister 3
+     2300  Pop
+     2301  Push register2, "tabChildren"
+     2308  GetMember
+     2309  Push true
+     2314  Equals2
+     2315  Not
+     2316  If loc2365
+     2321  Push register2, 1, register1, "getMaxTabIndex"
+     2335  CallMethod
+     2336  StoreRegister 4
+     2340  Pop
+     2341  Push register4, register3
+     2348  Greater
+     2349  Not
+     2350  If loc2365
+     2355  Push register4
+     2360  StoreRegister 3
+     2364  Pop
+     2365  Jump loc2191
+     2370  Push register3
+     2375  Return
+        }
+  2376  SetMember
+  2377  Push register2, "getNextTabIndex"
+  2384  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     2401  Push register1, "form"
+     2408  GetMember
+     2409  Push 1, register1, "getMaxTabIndex"
+     2421  CallMethod
+     2422  Push 1
+     2430  Add2
+     2431  Return
+        }
+  2432  SetMember
+  2433  Push register2, "__get__nextTabIndex"
+  2440  DefineFunction2 "" () regs=2 flags=0x29 {
+     2451  Push 0, register1, "getNextTabIndex"
+     2467  CallMethod
+     2468  Return
+        }
+  2469  SetMember
+  2470  Push register2, "relocate"
+  2477  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     2494  Push 0, "mx"
+     2508  GetVariable
+     2509  Push "managers"
+     2514  GetMember
+     2515  Push "SystemManager"
+     2520  GetMember
+     2521  Push "__get__screen"
+     2526  CallMethod
+     2527  StoreRegister 2
+     2531  Pop
+     2532  Push register2, "y"
+     2539  GetMember
+     2540  Push 1
+     2548  Subtract
+     2549  Push register2, "x"
+     2556  GetMember
+     2557  Push 1
+     2565  Subtract
+     2566  Push 2, register1, "move"
+     2578  CallMethod
+     2579  Pop
+        }
+  2580  SetMember
+  2581  Push register2, "init"
+  2588  DefineFunction2 "" (Void) regs=4 flags=0x119 {
+     2605  Push 0, register2, "init"
+     2621  CallMethod
+     2622  Pop
+     2623  Push register1, "tabEnabled", false
+     2632  SetMember
+     2633  Push register1, "_width", register1, "_height", 1
+     2649  StoreRegister 0
+     2653  SetMember
+     2654  Push register0
+     2659  SetMember
+     2660  Push register1, "_x", register1, "_y", -1
+     2676  StoreRegister 0
+     2680  SetMember
+     2681  Push register0
+     2686  SetMember
+     2687  Push register1, "_alpha", 0
+     2703  SetMember
+     2704  Push register1, "_parent"
+     2711  GetMember
+     2712  Push "focusManager", register1
+     2719  SetMember
+     2720  Push register1, "_parent"
+     2727  GetMember
+     2728  Push "tabChildren", true
+     2735  SetMember
+     2736  Push register1, "_parent"
+     2743  GetMember
+     2744  Push "tabEnabled", false
+     2751  SetMember
+     2752  Push register1, "form", register1, "_parent"
+     2763  GetMember
+     2764  SetMember
+     2765  Push register1, "hide", 2, register1, "_parent"
+     2781  GetMember
+     2782  Push "addEventListener"
+     2787  CallMethod
+     2788  Pop
+     2789  Push register1, "reveal", 2, register1, "_parent"
+     2805  GetMember
+     2806  Push "addEventListener"
+     2811  CallMethod
+     2812  Pop
+     2813  Push 0, "mx"
+     2827  GetVariable
+     2828  Push "managers"
+     2833  GetMember
+     2834  Push "SystemManager"
+     2839  GetMember
+     2840  Push "init"
+     2845  CallMethod
+     2846  Pop
+     2847  Push register1, "form"
+     2854  GetMember
+     2855  Push 1, "mx"
+     2865  GetVariable
+     2866  Push "managers"
+     2871  GetMember
+     2872  Push "SystemManager"
+     2877  GetMember
+     2878  Push "addFocusManager"
+     2883  CallMethod
+     2884  Pop
+     2885  Push register1, "tabCapture"
+     2892  GetMember
+     2893  Push "tabIndex", 0
+     2907  SetMember
+     2908  Push register1, "enabledChanged"
+     2915  GetMember
+     2916  Push "enabled", 2, register1, "watch"
+     2930  CallMethod
+     2931  Pop
+     2932  Push register1, 1, "Selection"
+     2944  GetVariable
+     2945  Push "addListener"
+     2950  CallMethod
+     2951  Pop
+     2952  Push register1, "lastMouse", 0, "Object"
+     2970  NewObject
+     2971  SetMember
+     2972  Push 1, "focusManager", register1, "_parent"
+     2986  GetMember
+     2987  Push 3, register3, "ASSetPropFlags"
+     2999  CallMethod
+     3000  Pop
+     3001  Push 1, "tabChildren", register1, "_parent"
+     3015  GetMember
+     3016  Push 3, register3, "ASSetPropFlags"
+     3028  CallMethod
+     3029  Pop
+     3030  Push 1, "tabEnabled", register1, "_parent"
+     3044  GetMember
+     3045  Push 3, register3, "ASSetPropFlags"
+     3057  CallMethod
+     3058  Pop
+        }
+  3059  SetMember
+  3060  Push register2, "enabledChanged"
+  3067  DefineFunction2 "" (id, oldValue, r2:newValue) regs=3 flags=0x29 {
+     3102  Push register1, "_visible", register2
+     3111  SetMember
+     3112  Push register2
+     3117  Return
+        }
+  3118  SetMember
+  3119  Push register2, "activate"
+  3126  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     3143  Push register1, 1, "Key"
+     3155  GetVariable
+     3156  Push "addListener"
+     3161  CallMethod
+     3162  Pop
+     3163  Push register1, "activated", register1, "_visible", true
+     3176  StoreRegister 0
+     3180  SetMember
+     3181  Push register0
+     3186  SetMember
+     3187  Push register1, "lastFocus"
+     3194  GetMember
+     3195  Push undef
+     3199  Equals2
+     3200  Not
+     3201  Not
+     3202  If loc3266
+     3207  Push register1, "bNeedFocus", true
+     3216  SetMember
+     3217  Push "mx"
+     3222  GetVariable
+     3223  Push "managers"
+     3228  GetMember
+     3229  Push "SystemManager"
+     3234  GetMember
+     3235  Push "isMouseDown"
+     3240  GetMember
+     3241  Not
+     3242  Not
+     3243  If loc3266
+     3248  Push "restoreFocus", register1, 2, register1, "doLater"
+     3264  CallMethod
+     3265  Pop
+        }
+  3266  SetMember
+  3267  Push register2, "deactivate"
+  3274  DefineFunction2 "" (Void) regs=4 flags=0x29 {
+     3291  Push register1, 1, "Key"
+     3303  GetVariable
+     3304  Push "removeListener"
+     3309  CallMethod
+     3310  Pop
+     3311  Push register1, "activated", register1, "_visible", false
+     3324  StoreRegister 0
+     3328  SetMember
+     3329  Push register0
+     3334  SetMember
+     3335  Push 0, register1, "getSelectionFocus"
+     3351  CallMethod
+     3352  StoreRegister 2
+     3356  Pop
+     3357  Push register2, 1, register1, "getActualFocus"
+     3371  CallMethod
+     3372  StoreRegister 3
+     3376  Pop
+     3377  Push register3, 1, register1, "isOurFocus"
+     3391  CallMethod
+     3392  Not
+     3393  If loc3418
+     3398  Push register1, "lastSelFocus", register2
+     3407  SetMember
+     3408  Push register1, "lastFocus", register3
+     3417  SetMember
+     3418  Push 0, register1, "cancelAllDoLaters"
+     3434  CallMethod
+     3435  Pop
+        }
+  3436  SetMember
+  3437  Push register2, "isOurFocus"
+  3444  DefineFunction2 "" (r2:o) regs=3 flags=0x29 {
+     3458  Push register2, "focusManager"
+     3465  GetMember
+     3466  Push register1
+     3471  Equals2
+     3472  Not
+     3473  If loc3484
+     3478  Push true
+     3483  Return
+     3484  Push register2, undef
+     3490  Equals2
+     3491  Not
+     3492  Not
+     3493  If loc3571
+     3498  Push register2, "focusManager"
+     3505  GetMember
+     3506  Push undef
+     3510  Equals2
+     3511  Not
+     3512  Not
+     3513  If loc3524
+     3518  Push false
+     3523  Return
+     3524  Push register2, "_parent"
+     3531  GetMember
+     3532  Push register1, "_parent"
+     3539  GetMember
+     3540  Equals2
+     3541  Not
+     3542  If loc3553
+     3547  Push true
+     3552  Return
+     3553  Push register2, "_parent"
+     3560  GetMember
+     3561  StoreRegister 2
+     3565  Pop
+     3566  Jump loc3484
+     3571  Push false
+     3576  Return
+        }
+  3577  SetMember
+  3578  Push register2, "onSetFocus"
+  3585  DefineFunction2 "" (o, r3:n) regs=4 flags=0x29 {
+     3602  Push register3, null
+     3608  Equals2
+     3609  Not
+     3610  If loc3644
+     3615  Push register1, "activated"
+     3622  GetMember
+     3623  Not
+     3624  If loc3639
+     3629  Push register1, "bNeedFocus", true
+     3638  SetMember
+     3639  Jump loc3717
+     3644  Push 0, register1, "getFocus"
+     3660  CallMethod
+     3661  StoreRegister 2
+     3665  Pop
+     3666  Push register2, 1, register1, "isOurFocus"
+     3680  CallMethod
+     3681  Not
+     3682  If loc3717
+     3687  Push register1, "bNeedFocus", false
+     3696  SetMember
+     3697  Push register1, "lastFocus", register2
+     3706  SetMember
+     3707  Push register1, "lastSelFocus", register3
+     3716  SetMember
+        }
+  3717  SetMember
+  3718  Push register2, "restoreFocus"
+  3725  DefineFunction2 "" (Void) regs=6 flags=0x29 {
+     3742  Push register1, "lastSelFocus"
+     3749  GetMember
+     3750  Push "hscroll"
+     3755  GetMember
+     3756  StoreRegister 2
+     3760  Pop
+     3761  Push register2, undef
+     3767  Equals2
+     3768  Not
+     3769  Not
+     3770  If loc3813
+     3775  Push register1, "lastSelFocus"
+     3782  GetMember
+     3783  Push "scroll"
+     3788  GetMember
+     3789  StoreRegister 5
+     3793  Pop
+     3794  Push register1, "lastSelFocus"
+     3801  GetMember
+     3802  Push "background"
+     3807  GetMember
+     3808  StoreRegister 4
+     3812  Pop
+     3813  Push 0, register1, "lastFocus"
+     3829  GetMember
+     3830  Push "setFocus"
+     3835  CallMethod
+     3836  Pop
+     3837  Push "Selection"
+     3842  GetVariable
+     3843  StoreRegister 3
+     3847  Pop
+     3848  Push register3, "lastEndIndex"
+     3855  GetMember
+     3856  Push register3, "lastBeginIndex"
+     3863  GetMember
+     3864  Push 2, "Selection"
+     3874  GetVariable
+     3875  Push "setSelection"
+     3880  CallMethod
+     3881  Pop
+     3882  Push register2, undef
+     3888  Equals2
+     3889  Not
+     3890  Not
+     3891  If loc3944
+     3896  Push register1, "lastSelFocus"
+     3903  GetMember
+     3904  Push "scroll", register5
+     3911  SetMember
+     3912  Push register1, "lastSelFocus"
+     3919  GetMember
+     3920  Push "hscroll", register2
+     3927  SetMember
+     3928  Push register1, "lastSelFocus"
+     3935  GetMember
+     3936  Push "background", register4
+     3943  SetMember
+        }
+  3944  SetMember
+  3945  Push register2, "onUnload"
+  3952  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     3969  Push register1, "form"
+     3976  GetMember
+     3977  Push 1, "mx"
+     3987  GetVariable
+     3988  Push "managers"
+     3993  GetMember
+     3994  Push "SystemManager"
+     3999  GetMember
+     4000  Push "removeFocusManager"
+     4005  CallMethod
+     4006  Pop
+        }
+  4007  SetMember
+  4008  Push register2, "setFocus"
+  4015  DefineFunction2 "" (r1:o) regs=2 flags=0x2a {
+     4029  Push register1, null
+     4035  Equals2
+     4036  Not
+     4037  If loc4066
+     4042  Push null, 1, "Selection"
+     4053  GetVariable
+     4054  Push "setFocus"
+     4059  CallMethod
+     4060  Pop
+     4061  Jump loc4128
+     4066  Push register1, "setFocus"
+     4073  GetMember
+     4074  Push undef
+     4078  Equals2
+     4079  Not
+     4080  If loc4110
+     4085  Push register1, 1, "Selection"
+     4097  GetVariable
+     4098  Push "setFocus"
+     4103  CallMethod
+     4104  Pop
+     4105  Jump loc4128
+     4110  Push 0, register1, "setFocus"
+     4126  CallMethod
+     4127  Pop
+        }
+  4128  SetMember
+  4129  Push register2, "getActualFocus"
+  4136  DefineFunction2 "" (r2:o) regs=3 flags=0x2a {
+     4150  Push register2, "_parent"
+     4157  GetMember
+     4158  StoreRegister 1
+     4162  Pop
+     4163  Push register1, undef
+     4169  Equals2
+     4170  Not
+     4171  Not
+     4172  If loc4343
+     4177  Push register1, "focusTextField"
+     4184  GetMember
+     4185  Push undef
+     4189  Equals2
+     4190  Not
+     4191  Not
+     4192  If loc4288
+     4197  Push register1, "focusTextField"
+     4204  GetMember
+     4205  Push undef
+     4209  Equals2
+     4210  Not
+     4211  Not
+     4212  If loc4288
+     4217  Push register1
+     4222  StoreRegister 2
+     4226  Pop
+     4227  Push register1, "_parent"
+     4234  GetMember
+     4235  StoreRegister 1
+     4239  Pop
+     4240  Push register1, undef
+     4246  Equals2
+     4247  Not
+     4248  If loc4258
+     4253  Push undef
+     4257  Return
+     4258  Push register1, "focusTextField"
+     4265  GetMember
+     4266  Push undef
+     4270  Equals2
+     4271  Not
+     4272  If loc4283
+     4277  Push register2
+     4282  Return
+     4283  Jump loc4197
+     4288  Push register1, "tabEnabled"
+     4295  GetMember
+     4296  Push true
+     4301  Equals2
+     4302  Not
+     4303  Not
+     4304  If loc4315
+     4309  Push register2
+     4314  Return
+     4315  Push register1
+     4320  StoreRegister 2
+     4324  Pop
+     4325  Push register2, "_parent"
+     4332  GetMember
+     4333  StoreRegister 1
+     4337  Pop
+     4338  Jump loc4163
+     4343  Push undef
+     4347  Return
+        }
+  4348  SetMember
+  4349  Push register2, "getSelectionFocus"
+  4356  DefineFunction "" () regs=4 flags=0x0 {
+     4364  Push "m", 0, "Selection"
+     4380  GetVariable
+     4381  Push "getFocus"
+     4386  CallMethod
+     4387  DefineLocal
+     4388  Push "o", "m"
+     4395  GetVariable
+     4396  GetVariable
+     4397  DefineLocal
+     4398  Push "o"
+     4403  GetVariable
+     4404  Return
+        }
+  4405  SetMember
+  4406  Push register2, "getFocus"
+  4413  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     4430  Push 0, register1, "getSelectionFocus"
+     4446  CallMethod
+     4447  StoreRegister 2
+     4451  Pop
+     4452  Push register2, 1, register1, "getActualFocus"
+     4466  CallMethod
+     4467  Return
+        }
+  4468  SetMember
+  4469  Push register2, "walkTree"
+  4476  DefineFunction2 "" (r8:p, r6:index, r4:groupName, r9:dir, r12:lookup, r10:firstChild) regs=13 flags=0x29 {
+     4533  Push true
+     4538  StoreRegister 5
+     4542  Pop
+     4543  Push undef
+     4547  StoreRegister 11
+     4551  Pop
+     4552  Push register8
+     4557  Enumerate2
+     4558  StoreRegister 0
+     4562  Push null
+     4566  Equals2
+     4567  If loc7311
+     4572  Push register0
+     4577  StoreRegister 11
+     4581  Pop
+     4582  Push register8, register11
+     4589  GetMember
+     4590  StoreRegister 2
+     4594  Pop
+     4595  Push register2, "_parent"
+     4602  GetMember
+     4603  Push register8
+     4608  Equals2
+     4609  PushDuplicate
+     4610  Not
+     4611  If loc4632
+     4616  Pop
+     4617  Push register2, "enabled"
+     4624  GetMember
+     4625  Push false
+     4630  Equals2
+     4631  Not
+     4632  PushDuplicate
+     4633  Not
+     4634  If loc4655
+     4639  Pop
+     4640  Push register2, "_visible"
+     4647  GetMember
+     4648  Push false
+     4653  Equals2
+     4654  Not
+     4655  PushDuplicate
+     4656  Not
+     4657  If loc4863
+     4662  Pop
+     4663  Push register2, "tabEnabled"
+     4670  GetMember
+     4671  Push true
+     4676  Equals2
+     4677  PushDuplicate
+     4678  If loc4863
+     4683  Pop
+     4684  Push register2, "tabEnabled"
+     4691  GetMember
+     4692  Push false
+     4697  Equals2
+     4698  Not
+     4699  PushDuplicate
+     4700  Not
+     4701  If loc4863
+     4706  Pop
+     4707  Push register2, "onPress"
+     4714  GetMember
+     4715  Push undef
+     4719  Equals2
+     4720  Not
+     4721  PushDuplicate
+     4722  If loc4742
+     4727  Pop
+     4728  Push register2, "onRelease"
+     4735  GetMember
+     4736  Push undef
+     4740  Equals2
+     4741  Not
+     4742  PushDuplicate
+     4743  If loc4763
+     4748  Pop
+     4749  Push register2, "onReleaseOutside"
+     4756  GetMember
+     4757  Push undef
+     4761  Equals2
+     4762  Not
+     4763  PushDuplicate
+     4764  If loc4784
+     4769  Pop
+     4770  Push register2, "onDragOut"
+     4777  GetMember
+     4778  Push undef
+     4782  Equals2
+     4783  Not
+     4784  PushDuplicate
+     4785  If loc4805
+     4790  Pop
+     4791  Push register2, "onDragOver"
+     4798  GetMember
+     4799  Push undef
+     4803  Equals2
+     4804  Not
+     4805  PushDuplicate
+     4806  If loc4826
+     4811  Pop
+     4812  Push register2, "onRollOver"
+     4819  GetMember
+     4820  Push undef
+     4824  Equals2
+     4825  Not
+     4826  PushDuplicate
+     4827  If loc4847
+     4832  Pop
+     4833  Push register2, "onRollOut"
+     4840  GetMember
+     4841  Push undef
+     4845  Equals2
+     4846  Not
+     4847  PushDuplicate
+     4848  If loc4863
+     4853  Pop
+     4854  Push register2, "TextField"
+     4861  GetVariable
+     4862  InstanceOf
+     4863  Not
+     4864  If loc6869
+     4869  Push register2, "_searchKey"
+     4876  GetMember
+     4877  Push register1, "_searchKey"
+     4884  GetMember
+     4885  Equals2
+     4886  Not
+     4887  If loc4897
+     4892  Jump loc4558
+     4897  Push register2, "_searchKey", register1, "_searchKey"
+     4908  GetMember
+     4909  SetMember
+     4910  Push register2, register1, "_lastTarget"
+     4919  GetMember
+     4920  Equals2
+     4921  Not
+     4922  Not
+     4923  If loc5479
+     4928  Push register2, "groupName"
+     4935  GetMember
+     4936  Push undef
+     4940  Equals2
+     4941  Not
+     4942  PushDuplicate
+     4943  If loc4957
+     4948  Pop
+     4949  Push register4, undef
+     4955  Equals2
+     4956  Not
+     4957  PushDuplicate
+     4958  Not
+     4959  If loc4979
+     4964  Pop
+     4965  Push register2, "groupName"
+     4972  GetMember
+     4973  Push register4
+     4978  Equals2
+     4979  Not
+     4980  If loc4990
+     4985  Jump loc4558
+     4990  Push register2, "TextField"
+     4997  GetVariable
+     4998  InstanceOf
+     4999  PushDuplicate
+     5000  Not
+     5001  If loc5021
+     5006  Pop
+     5007  Push register2, "selectable"
+     5014  GetMember
+     5015  Push false
+     5020  Equals2
+     5021  Not
+     5022  If loc5032
+     5027  Jump loc4558
+     5032  Push register5
+     5037  PushDuplicate
+     5038  If loc5111
+     5043  Pop
+     5044  Push register2, "groupName"
+     5051  GetMember
+     5052  Push undef
+     5056  Equals2
+     5057  Not
+     5058  PushDuplicate
+     5059  Not
+     5060  If loc5089
+     5065  Pop
+     5066  Push register2, "groupName"
+     5073  GetMember
+     5074  Push register1, "_firstNode"
+     5081  GetMember
+     5082  Push "groupName"
+     5087  GetMember
+     5088  Equals2
+     5089  PushDuplicate
+     5090  Not
+     5091  If loc5111
+     5096  Pop
+     5097  Push register2, "selected"
+     5104  GetMember
+     5105  Push true
+     5110  Equals2
+     5111  Not
+     5112  If loc5148
+     5117  Push register10
+     5122  Not
+     5123  If loc5148
+     5128  Push register1, "_firstNode", register2
+     5137  SetMember
+     5138  Push false
+     5143  StoreRegister 10
+     5147  Pop
+     5148  Push register1, "_nextIsNext"
+     5155  GetMember
+     5156  Push true
+     5161  Equals2
+     5162  Not
+     5163  If loc5336
+     5168  Push register2, "groupName"
+     5175  GetMember
+     5176  Push undef
+     5180  Equals2
+     5181  Not
+     5182  PushDuplicate
+     5183  Not
+     5184  If loc5213
+     5189  Pop
+     5190  Push register2, "groupName"
+     5197  GetMember
+     5198  Push register1, "_nextNode"
+     5205  GetMember
+     5206  Push "groupName"
+     5211  GetMember
+     5212  Equals2
+     5213  PushDuplicate
+     5214  Not
+     5215  If loc5235
+     5220  Pop
+     5221  Push register2, "selected"
+     5228  GetMember
+     5229  Push true
+     5234  Equals2
+     5235  PushDuplicate
+     5236  If loc5320
+     5241  Pop
+     5242  Push register1, "_nextNode"
+     5249  GetMember
+     5250  Push undef
+     5254  Equals2
+     5255  PushDuplicate
+     5256  Not
+     5257  If loc5320
+     5262  Pop
+     5263  Push register2, "groupName"
+     5270  GetMember
+     5271  Push undef
+     5275  Equals2
+     5276  PushDuplicate
+     5277  If loc5320
+     5282  Pop
+     5283  Push register2, "groupName"
+     5290  GetMember
+     5291  Push undef
+     5295  Equals2
+     5296  Not
+     5297  PushDuplicate
+     5298  Not
+     5299  If loc5320
+     5304  Pop
+     5305  Push register2, "groupName"
+     5312  GetMember
+     5313  Push register4
+     5318  Equals2
+     5319  Not
+     5320  Not
+     5321  If loc5336
+     5326  Push register1, "_nextNode", register2
+     5335  SetMember
+     5336  Push register2, "groupName"
+     5343  GetMember
+     5344  Push undef
+     5348  Equals2
+     5349  PushDuplicate
+     5350  If loc5368
+     5355  Pop
+     5356  Push register4, register2, "groupName"
+     5365  GetMember
+     5366  Equals2
+     5367  Not
+     5368  Not
+     5369  If loc5474
+     5374  Push register1, "_lastx"
+     5381  GetMember
+     5382  Push "groupName"
+     5387  GetMember
+     5388  Push undef
+     5392  Equals2
+     5393  Not
+     5394  PushDuplicate
+     5395  Not
+     5396  If loc5425
+     5401  Pop
+     5402  Push register2, "groupName"
+     5409  GetMember
+     5410  Push register1, "_lastx"
+     5417  GetMember
+     5418  Push "groupName"
+     5423  GetMember
+     5424  Equals2
+     5425  PushDuplicate
+     5426  Not
+     5427  If loc5453
+     5432  Pop
+     5433  Push register1, "_lastx"
+     5440  GetMember
+     5441  Push "selected"
+     5446  GetMember
+     5447  Push true
+     5452  Equals2
+     5453  Not
+     5454  If loc5464
+     5459  Jump loc5474
+     5464  Push register1, "_lastx", register2
+     5473  SetMember
+     5474  Jump loc5512
+     5479  Push register1, "_prevNode", register1, "_lastx"
+     5490  GetMember
+     5491  SetMember
+     5492  Push register1, "_needPrev", false
+     5501  SetMember
+     5502  Push register1, "_nextIsNext", true
+     5511  SetMember
+     5512  Push register2, "tabIndex"
+     5519  GetMember
+     5520  Push undef
+     5524  Equals2
+     5525  Not
+     5526  Not
+     5527  If loc6800
+     5532  Push register2, "tabIndex"
+     5539  GetMember
+     5540  Push register6
+     5545  Equals2
+     5546  Not
+     5547  If loc5624
+     5552  Push register1, "_foundList"
+     5559  GetMember
+     5560  Push register2, "_name"
+     5567  GetMember
+     5568  GetMember
+     5569  Push undef
+     5573  Equals2
+     5574  Not
+     5575  If loc5624
+     5580  Push register1, "_needPrev"
+     5587  GetMember
+     5588  Not
+     5589  If loc5614
+     5594  Push register1, "_prevObj", register2
+     5603  SetMember
+     5604  Push register1, "_needPrev", false
+     5613  SetMember
+     5614  Push register1, "_nextObj", register2
+     5623  SetMember
+     5624  Push register9
+     5629  PushDuplicate
+     5630  Not
+     5631  If loc5651
+     5636  Pop
+     5637  Push register2, "tabIndex"
+     5644  GetMember
+     5645  Push register6
+     5650  Greater
+     5651  Not
+     5652  If loc5938
+     5657  Push register1, "_nextObj"
+     5664  GetMember
+     5665  Push undef
+     5669  Equals2
+     5670  PushDuplicate
+     5671  If loc5778
+     5676  Pop
+     5677  Push register1, "_nextObj"
+     5684  GetMember
+     5685  Push "tabIndex"
+     5690  GetMember
+     5691  Push register2, "tabIndex"
+     5698  GetMember
+     5699  Greater
+     5700  PushDuplicate
+     5701  Not
+     5702  If loc5778
+     5707  Pop
+     5708  Push register2, "groupName"
+     5715  GetMember
+     5716  Push undef
+     5720  Equals2
+     5721  PushDuplicate
+     5722  If loc5747
+     5727  Pop
+     5728  Push register1, "_nextObj"
+     5735  GetMember
+     5736  Push "groupName"
+     5741  GetMember
+     5742  Push undef
+     5746  Equals2
+     5747  PushDuplicate
+     5748  If loc5778
+     5753  Pop
+     5754  Push register2, "groupName"
+     5761  GetMember
+     5762  Push register1, "_nextObj"
+     5769  GetMember
+     5770  Push "groupName"
+     5775  GetMember
+     5776  Equals2
+     5777  Not
+     5778  PushDuplicate
+     5779  If loc5917
+     5784  Pop
+     5785  Push register1, "_nextObj"
+     5792  GetMember
+     5793  Push "groupName"
+     5798  GetMember
+     5799  Push undef
+     5803  Equals2
+     5804  Not
+     5805  PushDuplicate
+     5806  Not
+     5807  If loc5836
+     5812  Pop
+     5813  Push register1, "_nextObj"
+     5820  GetMember
+     5821  Push "groupName"
+     5826  GetMember
+     5827  Push register2, "groupName"
+     5834  GetMember
+     5835  Equals2
+     5836  PushDuplicate
+     5837  Not
+     5838  If loc5865
+     5843  Pop
+     5844  Push register1, "_nextObj"
+     5851  GetMember
+     5852  Push "selected"
+     5857  GetMember
+     5858  Push true
+     5863  Equals2
+     5864  Not
+     5865  PushDuplicate
+     5866  Not
+     5867  If loc5917
+     5872  Pop
+     5873  Push register2, "selected"
+     5880  GetMember
+     5881  Push true
+     5886  Equals2
+     5887  PushDuplicate
+     5888  If loc5917
+     5893  Pop
+     5894  Push register1, "_nextObj"
+     5901  GetMember
+     5902  Push "tabIndex"
+     5907  GetMember
+     5908  Push register2, "tabIndex"
+     5915  GetMember
+     5916  Greater
+     5917  Not
+     5918  If loc5933
+     5923  Push register1, "_nextObj", register2
+     5932  SetMember
+     5933  Jump loc6248
+     5938  Push register9
+     5943  Not
+     5944  PushDuplicate
+     5945  Not
+     5946  If loc5966
+     5951  Pop
+     5952  Push register2, "tabIndex"
+     5959  GetMember
+     5960  Push register6
+     5965  Less2
+     5966  Not
+     5967  If loc6248
+     5972  Push register1, "_prevObj"
+     5979  GetMember
+     5980  Push undef
+     5984  Equals2
+     5985  PushDuplicate
+     5986  If loc6093
+     5991  Pop
+     5992  Push register1, "_prevObj"
+     5999  GetMember
+     6000  Push "tabIndex"
+     6005  GetMember
+     6006  Push register2, "tabIndex"
+     6013  GetMember
+     6014  Less2
+     6015  PushDuplicate
+     6016  Not
+     6017  If loc6093
+     6022  Pop
+     6023  Push register2, "groupName"
+     6030  GetMember
+     6031  Push undef
+     6035  Equals2
+     6036  PushDuplicate
+     6037  If loc6062
+     6042  Pop
+     6043  Push register1, "_prevObj"
+     6050  GetMember
+     6051  Push "groupName"
+     6056  GetMember
+     6057  Push undef
+     6061  Equals2
+     6062  PushDuplicate
+     6063  If loc6093
+     6068  Pop
+     6069  Push register2, "groupName"
+     6076  GetMember
+     6077  Push register1, "_prevObj"
+     6084  GetMember
+     6085  Push "groupName"
+     6090  GetMember
+     6091  Equals2
+     6092  Not
+     6093  PushDuplicate
+     6094  If loc6232
+     6099  Pop
+     6100  Push register1, "_prevObj"
+     6107  GetMember
+     6108  Push "groupName"
+     6113  GetMember
+     6114  Push undef
+     6118  Equals2
+     6119  Not
+     6120  PushDuplicate
+     6121  Not
+     6122  If loc6151
+     6127  Pop
+     6128  Push register1, "_prevObj"
+     6135  GetMember
+     6136  Push "groupName"
+     6141  GetMember
+     6142  Push register2, "groupName"
+     6149  GetMember
+     6150  Equals2
+     6151  PushDuplicate
+     6152  Not
+     6153  If loc6180
+     6158  Pop
+     6159  Push register1, "_prevObj"
+     6166  GetMember
+     6167  Push "selected"
+     6172  GetMember
+     6173  Push true
+     6178  Equals2
+     6179  Not
+     6180  PushDuplicate
+     6181  Not
+     6182  If loc6232
+     6187  Pop
+     6188  Push register2, "selected"
+     6195  GetMember
+     6196  Push true
+     6201  Equals2
+     6202  PushDuplicate
+     6203  If loc6232
+     6208  Pop
+     6209  Push register1, "_prevObj"
+     6216  GetMember
+     6217  Push "tabIndex"
+     6222  GetMember
+     6223  Push register2, "tabIndex"
+     6230  GetMember
+     6231  Less2
+     6232  Not
+     6233  If loc6248
+     6238  Push register1, "_prevObj", register2
+     6247  SetMember
+     6248  Push register1, "_firstObj"
+     6255  GetMember
+     6256  Push undef
+     6260  Equals2
+     6261  PushDuplicate
+     6262  If loc6369
+     6267  Pop
+     6268  Push register2, "tabIndex"
+     6275  GetMember
+     6276  Push register1, "_firstObj"
+     6283  GetMember
+     6284  Push "tabIndex"
+     6289  GetMember
+     6290  Less2
+     6291  PushDuplicate
+     6292  Not
+     6293  If loc6369
+     6298  Pop
+     6299  Push register2, "groupName"
+     6306  GetMember
+     6307  Push undef
+     6311  Equals2
+     6312  PushDuplicate
+     6313  If loc6338
+     6318  Pop
+     6319  Push register1, "_firstObj"
+     6326  GetMember
+     6327  Push "groupName"
+     6332  GetMember
+     6333  Push undef
+     6337  Equals2
+     6338  PushDuplicate
+     6339  If loc6369
+     6344  Pop
+     6345  Push register2, "groupName"
+     6352  GetMember
+     6353  Push register1, "_firstObj"
+     6360  GetMember
+     6361  Push "groupName"
+     6366  GetMember
+     6367  Equals2
+     6368  Not
+     6369  PushDuplicate
+     6370  If loc6508
+     6375  Pop
+     6376  Push register1, "_firstObj"
+     6383  GetMember
+     6384  Push "groupName"
+     6389  GetMember
+     6390  Push undef
+     6394  Equals2
+     6395  Not
+     6396  PushDuplicate
+     6397  Not
+     6398  If loc6427
+     6403  Pop
+     6404  Push register1, "_firstObj"
+     6411  GetMember
+     6412  Push "groupName"
+     6417  GetMember
+     6418  Push register2, "groupName"
+     6425  GetMember
+     6426  Equals2
+     6427  PushDuplicate
+     6428  Not
+     6429  If loc6456
+     6434  Pop
+     6435  Push register1, "_firstObj"
+     6442  GetMember
+     6443  Push "selected"
+     6448  GetMember
+     6449  Push true
+     6454  Equals2
+     6455  Not
+     6456  PushDuplicate
+     6457  Not
+     6458  If loc6508
+     6463  Pop
+     6464  Push register2, "selected"
+     6471  GetMember
+     6472  Push true
+     6477  Equals2
+     6478  PushDuplicate
+     6479  If loc6508
+     6484  Pop
+     6485  Push register2, "tabIndex"
+     6492  GetMember
+     6493  Push register1, "_firstObj"
+     6500  GetMember
+     6501  Push "tabIndex"
+     6506  GetMember
+     6507  Less2
+     6508  Not
+     6509  If loc6524
+     6514  Push register1, "_firstObj", register2
+     6523  SetMember
+     6524  Push register1, "_lastObj"
+     6531  GetMember
+     6532  Push undef
+     6536  Equals2
+     6537  PushDuplicate
+     6538  If loc6645
+     6543  Pop
+     6544  Push register2, "tabIndex"
+     6551  GetMember
+     6552  Push register1, "_lastObj"
+     6559  GetMember
+     6560  Push "tabIndex"
+     6565  GetMember
+     6566  Greater
+     6567  PushDuplicate
+     6568  Not
+     6569  If loc6645
+     6574  Pop
+     6575  Push register2, "groupName"
+     6582  GetMember
+     6583  Push undef
+     6587  Equals2
+     6588  PushDuplicate
+     6589  If loc6614
+     6594  Pop
+     6595  Push register1, "_lastObj"
+     6602  GetMember
+     6603  Push "groupName"
+     6608  GetMember
+     6609  Push undef
+     6613  Equals2
+     6614  PushDuplicate
+     6615  If loc6645
+     6620  Pop
+     6621  Push register2, "groupName"
+     6628  GetMember
+     6629  Push register1, "_lastObj"
+     6636  GetMember
+     6637  Push "groupName"
+     6642  GetMember
+     6643  Equals2
+     6644  Not
+     6645  PushDuplicate
+     6646  If loc6784
+     6651  Pop
+     6652  Push register1, "_lastObj"
+     6659  GetMember
+     6660  Push "groupName"
+     6665  GetMember
+     6666  Push undef
+     6670  Equals2
+     6671  Not
+     6672  PushDuplicate
+     6673  Not
+     6674  If loc6703
+     6679  Pop
+     6680  Push register1, "_lastObj"
+     6687  GetMember
+     6688  Push "groupName"
+     6693  GetMember
+     6694  Push register2, "groupName"
+     6701  GetMember
+     6702  Equals2
+     6703  PushDuplicate
+     6704  Not
+     6705  If loc6732
+     6710  Pop
+     6711  Push register1, "_lastObj"
+     6718  GetMember
+     6719  Push "selected"
+     6724  GetMember
+     6725  Push true
+     6730  Equals2
+     6731  Not
+     6732  PushDuplicate
+     6733  Not
+     6734  If loc6784
+     6739  Pop
+     6740  Push register2, "selected"
+     6747  GetMember
+     6748  Push true
+     6753  Equals2
+     6754  PushDuplicate
+     6755  If loc6784
+     6760  Pop
+     6761  Push register2, "tabIndex"
+     6768  GetMember
+     6769  Push register1, "_lastObj"
+     6776  GetMember
+     6777  Push "tabIndex"
+     6782  GetMember
+     6783  Greater
+     6784  Not
+     6785  If loc6800
+     6790  Push register1, "_lastObj", register2
+     6799  SetMember
+     6800  Push register2, "tabChildren"
+     6807  GetMember
+     6808  Not
+     6809  If loc6854
+     6814  Push register5
+     6819  PushDuplicate
+     6820  Not
+     6821  If loc6832
+     6826  Pop
+     6827  Push register10
+     6832  Push register9, register4, register6, register2, 5, register1, "getTabCandidateFromChildren"
+     6852  CallMethod
+     6853  Pop
+     6854  Push false
+     6859  StoreRegister 5
+     6863  Pop
+     6864  Jump loc7306
+     6869  Push register2, "_parent"
+     6876  GetMember
+     6877  Push register8
+     6882  Equals2
+     6883  PushDuplicate
+     6884  Not
+     6885  If loc6905
+     6890  Pop
+     6891  Push register2, "tabChildren"
+     6898  GetMember
+     6899  Push true
+     6904  Equals2
+     6905  PushDuplicate
+     6906  Not
+     6907  If loc6928
+     6912  Pop
+     6913  Push register2, "_visible"
+     6920  GetMember
+     6921  Push false
+     6926  Equals2
+     6927  Not
+     6928  Not
+     6929  If loc7306
+     6934  Push register2, register1, "_lastTarget"
+     6943  GetMember
+     6944  Equals2
+     6945  Not
+     6946  If loc7166
+     6951  Push register2, "_searchKey"
+     6958  GetMember
+     6959  Push register1, "_searchKey"
+     6966  GetMember
+     6967  Equals2
+     6968  Not
+     6969  If loc6979
+     6974  Jump loc4558
+     6979  Push register2, "_searchKey", register1, "_searchKey"
+     6990  GetMember
+     6991  SetMember
+     6992  Push register1, "_prevNode"
+     6999  GetMember
+     7000  Push undef
+     7004  Equals2
+     7005  Not
+     7006  If loc7122
+     7011  Push register1, "_lastx"
+     7018  GetMember
+     7019  StoreRegister 3
+     7023  Pop
+     7024  Push false
+     7029  StoreRegister 7
+     7033  Pop
+     7034  Push register3, undef
+     7040  Equals2
+     7041  Not
+     7042  Not
+     7043  If loc7095
+     7048  Push register3, register2
+     7055  Equals2
+     7056  Not
+     7057  If loc7077
+     7062  Push true
+     7067  StoreRegister 7
+     7071  Pop
+     7072  Jump loc7095
+     7077  Push register3, "_parent"
+     7084  GetMember
+     7085  StoreRegister 3
+     7089  Pop
+     7090  Jump loc7034
+     7095  Push register7, false
+     7102  Equals2
+     7103  Not
+     7104  If loc7122
+     7109  Push register1, "_prevNode", register1, "_lastx"
+     7120  GetMember
+     7121  SetMember
+     7122  Push register1, "_needPrev", false
+     7131  SetMember
+     7132  Push register1, "_nextNode"
+     7139  GetMember
+     7140  Push undef
+     7144  Equals2
+     7145  Not
+     7146  If loc7161
+     7151  Push register1, "_nextIsNext", true
+     7160  SetMember
+     7161  Jump loc7296
+     7166  Push register2, "focusManager"
+     7173  GetMember
+     7174  Push undef
+     7178  Equals2
+     7179  Not
+     7180  PushDuplicate
+     7181  Not
+     7182  If loc7208
+     7187  Pop
+     7188  Push register2, "focusManager"
+     7195  GetMember
+     7196  Push "_parent"
+     7201  GetMember
+     7202  Push register2
+     7207  Equals2
+     7208  Not
+     7209  Not
+     7210  If loc7296
+     7215  Push register2, "_searchKey"
+     7222  GetMember
+     7223  Push register1, "_searchKey"
+     7230  GetMember
+     7231  Equals2
+     7232  Not
+     7233  If loc7243
+     7238  Jump loc4558
+     7243  Push register2, "_searchKey", register1, "_searchKey"
+     7254  GetMember
+     7255  SetMember
+     7256  Push register5
+     7261  PushDuplicate
+     7262  Not
+     7263  If loc7274
+     7268  Pop
+     7269  Push register10
+     7274  Push register9, register4, register6, register2, 5, register1, "getTabCandidateFromChildren"
+     7294  CallMethod
+     7295  Pop
+     7296  Push false
+     7301  StoreRegister 5
+     7305  Pop
+     7306  Jump loc4558
+     7311  Push register1, "_lastNode", register1, "_lastx"
+     7322  GetMember
+     7323  SetMember
+     7324  Push register12
+     7329  Not
+     7330  If loc7512
+     7335  Push register8, "_parent"
+     7342  GetMember
+     7343  Push undef
+     7347  Equals2
+     7348  Not
+     7349  Not
+     7350  If loc7512
+     7355  Push register8, register1, "_parent"
+     7364  GetMember
+     7365  Equals2
+     7366  Not
+     7367  Not
+     7368  If loc7512
+     7373  Push register1, "_prevNode"
+     7380  GetMember
+     7381  Push undef
+     7385  Equals2
+     7386  PushDuplicate
+     7387  Not
+     7388  If loc7399
+     7393  Pop
+     7394  Push register9
+     7399  Not
+     7400  If loc7420
+     7405  Push register1, "_needPrev", true
+     7414  SetMember
+     7415  Jump loc7463
+     7420  Push register1, "_nextNode"
+     7427  GetMember
+     7428  Push undef
+     7432  Equals2
+     7433  PushDuplicate
+     7434  Not
+     7435  If loc7447
+     7440  Pop
+     7441  Push register9
+     7446  Not
+     7447  Not
+     7448  If loc7463
+     7453  Push register1, "_nextIsNext", false
+     7462  SetMember
+     7463  Push register1, "_lastTarget", register1, "_lastTarget"
+     7474  GetMember
+     7475  Push "_parent"
+     7480  GetMember
+     7481  SetMember
+     7482  Push true, register9, register4, register6, register8, "_parent"
+     7497  GetMember
+     7498  Push 5, register1, "getTabCandidate"
+     7510  CallMethod
+     7511  Pop
+        }
+  7512  SetMember
+  7513  Push register2, "getTabCandidate"
+  7520  DefineFunction2 "" (r4:o, r6:index, r5:groupName, r8:dir, r7:firstChild) regs=9 flags=0x29 {
+     7569  Push undef
+     7573  StoreRegister 2
+     7577  Pop
+     7578  Push true
+     7583  StoreRegister 3
+     7587  Pop
+     7588  Push register4, register1, "_parent"
+     7597  GetMember
+     7598  Equals2
+     7599  Not
+     7600  If loc7630
+     7605  Push register4
+     7610  StoreRegister 2
+     7614  Pop
+     7615  Push false
+     7620  StoreRegister 3
+     7624  Pop
+     7625  Jump loc7676
+     7630  Push register4, "_parent"
+     7637  GetMember
+     7638  StoreRegister 2
+     7642  Pop
+     7643  Push register2, undef
+     7649  Equals2
+     7650  Not
+     7651  If loc7676
+     7656  Push register4
+     7661  StoreRegister 2
+     7665  Pop
+     7666  Push false
+     7671  StoreRegister 3
+     7675  Pop
+     7676  Push register7, register3, register8, register5, register6, register2, 6, register1, "walkTree"
+     7700  CallMethod
+     7701  Pop
+        }
+  7702  SetMember
+  7703  Push register2, "getTabCandidateFromChildren"
+  7710  DefineFunction2 "" (r3:o, r4:index, r2:groupName, r6:dir, r5:firstChild) regs=7 flags=0x29 {
+     7759  Push register5, false, register6, register2, register4, register3, 6, register1, "walkTree"
+     7783  CallMethod
+     7784  Pop
+        }
+  7785  SetMember
+  7786  Push register2, "getFocusManagerFromObject"
+  7793  DefineFunction2 "" (r1:o) regs=2 flags=0x2a {
+     7807  Push register1, undef
+     7813  Equals2
+     7814  Not
+     7815  Not
+     7816  If loc7868
+     7821  Push register1, "focusManager"
+     7828  GetMember
+     7829  Push undef
+     7833  Equals2
+     7834  Not
+     7835  Not
+     7836  If loc7850
+     7841  Push register1, "focusManager"
+     7848  GetMember
+     7849  Return
+     7850  Push register1, "_parent"
+     7857  GetMember
+     7858  StoreRegister 1
+     7862  Pop
+     7863  Jump loc7807
+     7868  Push undef
+     7872  Return
+        }
+  7873  SetMember
+  7874  Push register2, "tabHandler"
+  7881  DefineFunction2 "" (Void) regs=7 flags=0x29 {
+     7898  Push register1, "bDrawFocus", true
+     7907  SetMember
+     7908  Push 0, register1, "getSelectionFocus"
+     7924  CallMethod
+     7925  StoreRegister 5
+     7929  Pop
+     7930  Push register5, 1, register1, "getActualFocus"
+     7944  CallMethod
+     7945  StoreRegister 4
+     7949  Pop
+     7950  Push register4, register5
+     7957  Equals2
+     7958  Not
+     7959  Not
+     7960  If loc7975
+     7965  Push register4
+     7970  StoreRegister 5
+     7974  Pop
+     7975  Push register5, 1, register1, "getFocusManagerFromObject"
+     7989  CallMethod
+     7990  Push register1
+     7995  Equals2
+     7996  Not
+     7997  Not
+     7998  If loc8011
+     8003  Push register5, undef
+     8009  Equals2
+     8010  Pop
+     8011  Push register5, undef
+     8017  Equals2
+     8018  Not
+     8019  If loc8042
+     8024  Push register1, "form"
+     8031  GetMember
+     8032  StoreRegister 5
+     8036  Pop
+     8037  Jump loc8174
+     8042  Push register5, "tabIndex"
+     8049  GetMember
+     8050  Push undef
+     8054  Equals2
+     8055  Not
+     8056  Not
+     8057  If loc8174
+     8062  Push register1, "_foundList"
+     8069  GetMember
+     8070  Push undef
+     8074  Equals2
+     8075  Not
+     8076  PushDuplicate
+     8077  If loc8107
+     8082  Pop
+     8083  Push register1, "_foundList"
+     8090  GetMember
+     8091  Push "tabIndex"
+     8096  GetMember
+     8097  Push register5, "tabIndex"
+     8104  GetMember
+     8105  Equals2
+     8106  Not
+     8107  Not
+     8108  If loc8152
+     8113  Push register1, "_foundList", 0, "Object"
+     8131  NewObject
+     8132  SetMember
+     8133  Push register1, "_foundList"
+     8140  GetMember
+     8141  Push "tabIndex", register5, "tabIndex"
+     8150  GetMember
+     8151  SetMember
+     8152  Push register1, "_foundList"
+     8159  GetMember
+     8160  Push register5, "_name"
+     8167  GetMember
+     8168  Push register5
+     8173  SetMember
+     8174  Push 16, 1, "Key"
+     8189  GetVariable
+     8190  Push "isDown"
+     8195  CallMethod
+     8196  Push true
+     8201  Equals2
+     8202  Not
+     8203  StoreRegister 3
+     8207  Pop
+     8208  Push register1, "_searchKey"
+     8215  GetTime
+     8216  SetMember
+     8217  Push register1, "_needPrev", true
+     8226  SetMember
+     8227  Push register1, "_nextIsNext", false
+     8236  SetMember
+     8237  Push register1, "_lastx", undef
+     8245  SetMember
+     8246  Push register1, "_firstNode", undef
+     8254  SetMember
+     8255  Push register1, "_lastNode", undef
+     8263  SetMember
+     8264  Push register1, "_nextNode", undef
+     8272  SetMember
+     8273  Push register1, "_prevNode", undef
+     8281  SetMember
+     8282  Push register1, "_firstObj", undef
+     8290  SetMember
+     8291  Push register1, "_lastObj", undef
+     8299  SetMember
+     8300  Push register1, "_nextObj", undef
+     8308  SetMember
+     8309  Push register1, "_prevObj", undef
+     8317  SetMember
+     8318  Push register1, "_lastTarget", register5
+     8327  SetMember
+     8328  Push register5
+     8333  StoreRegister 6
+     8337  Pop
+     8338  Push true, register3, register5, "groupName"
+     8349  GetMember
+     8350  Push register5, "tabIndex"
+     8357  GetMember
+     8358  Push undef
+     8362  Equals2
+     8363  If loc8381
+     8368  Push register5, "tabIndex"
+     8375  GetMember
+     8376  Jump loc8393
+     8381  Push 0
+     8393  Push register6, 5, register1, "getTabCandidate"
+     8407  CallMethod
+     8408  Pop
+     8409  Push undef
+     8413  StoreRegister 2
+     8417  Pop
+     8418  Push register3
+     8423  Not
+     8424  If loc8485
+     8429  Push register1, "_nextObj"
+     8436  GetMember
+     8437  Push undef
+     8441  Equals2
+     8442  Not
+     8443  Not
+     8444  If loc8467
+     8449  Push register1, "_nextObj"
+     8456  GetMember
+     8457  StoreRegister 2
+     8461  Pop
+     8462  Jump loc8480
+     8467  Push register1, "_firstObj"
+     8474  GetMember
+     8475  StoreRegister 2
+     8479  Pop
+     8480  Jump loc8536
+     8485  Push register1, "_prevObj"
+     8492  GetMember
+     8493  Push undef
+     8497  Equals2
+     8498  Not
+     8499  Not
+     8500  If loc8523
+     8505  Push register1, "_prevObj"
+     8512  GetMember
+     8513  StoreRegister 2
+     8517  Pop
+     8518  Jump loc8536
+     8523  Push register1, "_lastObj"
+     8530  GetMember
+     8531  StoreRegister 2
+     8535  Pop
+     8536  Push register2, "tabIndex"
+     8543  GetMember
+     8544  Push register5, "tabIndex"
+     8551  GetMember
+     8552  Equals2
+     8553  Not
+     8554  Not
+     8555  If loc8626
+     8560  Push register1, "_foundList", 0, "Object"
+     8578  NewObject
+     8579  SetMember
+     8580  Push register1, "_foundList"
+     8587  GetMember
+     8588  Push "tabIndex", register2, "tabIndex"
+     8597  GetMember
+     8598  SetMember
+     8599  Push register1, "_foundList"
+     8606  GetMember
+     8607  Push register2, "_name"
+     8614  GetMember
+     8615  Push register2
+     8620  SetMember
+     8621  Jump loc8706
+     8626  Push register1, "_foundList"
+     8633  GetMember
+     8634  Push undef
+     8638  Equals2
+     8639  Not
+     8640  If loc8684
+     8645  Push register1, "_foundList", 0, "Object"
+     8663  NewObject
+     8664  SetMember
+     8665  Push register1, "_foundList"
+     8672  GetMember
+     8673  Push "tabIndex", register2, "tabIndex"
+     8682  GetMember
+     8683  SetMember
+     8684  Push register1, "_foundList"
+     8691  GetMember
+     8692  Push register2, "_name"
+     8699  GetMember
+     8700  Push register2
+     8705  SetMember
+     8706  Push register2, undef
+     8712  Equals2
+     8713  Not
+     8714  If loc8857
+     8719  Push register3, false
+     8726  Equals2
+     8727  Not
+     8728  If loc8789
+     8733  Push register1, "_nextNode"
+     8740  GetMember
+     8741  Push undef
+     8745  Equals2
+     8746  Not
+     8747  Not
+     8748  If loc8771
+     8753  Push register1, "_nextNode"
+     8760  GetMember
+     8761  StoreRegister 2
+     8765  Pop
+     8766  Jump loc8784
+     8771  Push register1, "_firstNode"
+     8778  GetMember
+     8779  StoreRegister 2
+     8783  Pop
+     8784  Jump loc8857
+     8789  Push register1, "_prevNode"
+     8796  GetMember
+     8797  Push undef
+     8801  Equals2
+     8802  PushDuplicate
+     8803  If loc8820
+     8808  Pop
+     8809  Push register5, register1, "form"
+     8818  GetMember
+     8819  Equals2
+     8820  Not
+     8821  If loc8844
+     8826  Push register1, "_lastNode"
+     8833  GetMember
+     8834  StoreRegister 2
+     8838  Pop
+     8839  Jump loc8857
+     8844  Push register1, "_prevNode"
+     8851  GetMember
+     8852  StoreRegister 2
+     8856  Pop
+     8857  Push register2, undef
+     8863  Equals2
+     8864  Not
+     8865  If loc8875
+     8870  Push undef
+     8874  Return
+     8875  Push register1, "lastTabFocus", register2
+     8884  SetMember
+     8885  Push register2, 1, register1, "setFocus"
+     8899  CallMethod
+     8900  Pop
+     8901  Push register2, "emphasized"
+     8908  GetMember
+     8909  Push undef
+     8913  Equals2
+     8914  Not
+     8915  Not
+     8916  If loc9008
+     8921  Push register1, "defPushButton"
+     8928  GetMember
+     8929  Push undef
+     8933  Equals2
+     8934  Not
+     8935  Not
+     8936  If loc9003
+     8941  Push register1, "defPushButton"
+     8948  GetMember
+     8949  StoreRegister 5
+     8953  Pop
+     8954  Push register1, "defPushButton", "mx"
+     8963  GetVariable
+     8964  Push "controls"
+     8969  GetMember
+     8970  Push "SimpleButton"
+     8975  GetMember
+     8976  Push register2
+     8981  CastOp
+     8982  SetMember
+     8983  Push register5, "emphasized", false
+     8992  SetMember
+     8993  Push register2, "emphasized", true
+     9002  SetMember
+     9003  Jump loc9112
+     9008  Push register1, "defPushButton"
+     9015  GetMember
+     9016  Push undef
+     9020  Equals2
+     9021  Not
+     9022  PushDuplicate
+     9023  Not
+     9024  If loc9048
+     9029  Pop
+     9030  Push register1, "defPushButton"
+     9037  GetMember
+     9038  Push register1, "__defaultPushButton"
+     9045  GetMember
+     9046  Equals2
+     9047  Not
+     9048  Not
+     9049  If loc9112
+     9054  Push register1, "defPushButton"
+     9061  GetMember
+     9062  StoreRegister 5
+     9066  Pop
+     9067  Push register1, "defPushButton", register1, "__defaultPushButton"
+     9078  GetMember
+     9079  SetMember
+     9080  Push register5, "emphasized", false
+     9089  SetMember
+     9090  Push true, 1, register1, "__defaultPushButton"
+     9104  GetMember
+     9105  Push "__set__emphasized"
+     9110  CallMethod
+     9111  Pop
+        }
+  9112  SetMember
+  9113  Push register2, "onKeyDown"
+  9120  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+     9137  Push "mx"
+     9142  GetVariable
+     9143  Push "managers"
+     9148  GetMember
+     9149  Push "SystemManager"
+     9154  GetMember
+     9155  Push "idleFrames", 0
+     9169  SetMember
+     9170  Push register1, "defaultPushButtonEnabled"
+     9177  GetMember
+     9178  Not
+     9179  If loc9267
+     9184  Push 0, "Key"
+     9198  GetVariable
+     9199  Push "getCode"
+     9204  CallMethod
+     9205  Push 13
+     9213  Equals2
+     9214  Not
+     9215  If loc9267
+     9220  Push 0, register1, "__get__defaultPushButton"
+     9236  CallMethod
+     9237  Push undef
+     9241  Equals2
+     9242  Not
+     9243  Not
+     9244  If loc9267
+     9249  Push "sendDefaultPushButtonEvent", register1, 2, register1, "doLater"
+     9265  CallMethod
+     9266  Pop
+        }
+  9267  SetMember
+  9268  Push register2, "sendDefaultPushButtonEvent"
+  9275  DefineFunction2 "" (Void) regs=3 flags=0x29 {
+     9292  Push "type", "click", 1
+     9304  InitObject
+     9305  Push 1, register1, "defPushButton"
+     9317  GetMember
+     9318  Push "dispatchEvent"
+     9323  CallMethod
+     9324  Pop
+        }
+  9325  SetMember
+  9326  Push register2, "getMousedComponentFromChildren"
+  9333  DefineFunction2 "" (r6:x, r5:y, r4:o) regs=8 flags=0x29 {
+     9353  Push register4
+     9358  Enumerate2
+     9359  StoreRegister 0
+     9363  Push null
+     9367  Equals2
+     9368  If loc9647
+     9373  Push register0
+     9378  StoreRegister 7
+     9382  Pop
+     9383  Push register4, register7
+     9390  GetMember
+     9391  StoreRegister 2
+     9395  Pop
+     9396  Push register2, "_visible"
+     9403  GetMember
+     9404  PushDuplicate
+     9405  Not
+     9406  If loc9420
+     9411  Pop
+     9412  Push register2, "enabled"
+     9419  GetMember
+     9420  PushDuplicate
+     9421  Not
+     9422  If loc9442
+     9427  Pop
+     9428  Push register2, "_parent"
+     9435  GetMember
+     9436  Push register4
+     9441  Equals2
+     9442  PushDuplicate
+     9443  Not
+     9444  If loc9468
+     9449  Pop
+     9450  Push register2, "_searchKey"
+     9457  GetMember
+     9458  Push register1, "_searchKey"
+     9465  GetMember
+     9466  Equals2
+     9467  Not
+     9468  Not
+     9469  If loc9642
+     9474  Push register2, "_searchKey", register1, "_searchKey"
+     9485  GetMember
+     9486  SetMember
+     9487  Push true, register5, register6, 3, register2, "hitTest"
+     9505  CallMethod
+     9506  Not
+     9507  If loc9642
+     9512  Push register2, "onPress"
+     9519  GetMember
+     9520  Push undef
+     9524  Equals2
+     9525  Not
+     9526  PushDuplicate
+     9527  If loc9547
+     9532  Pop
+     9533  Push register2, "onRelease"
+     9540  GetMember
+     9541  Push undef
+     9545  Equals2
+     9546  Not
+     9547  Not
+     9548  If loc9570
+     9553  Push null
+     9557  Equals2
+     9558  Not
+     9559  If loc9553
+     9564  Push register2
+     9569  Return
+     9570  Push register2, register5, register6, 3, register1, "getMousedComponentFromChildren"
+     9588  CallMethod
+     9589  StoreRegister 3
+     9593  Pop
+     9594  Push register3, undef
+     9600  Equals2
+     9601  Not
+     9602  Not
+     9603  If loc9625
+     9608  Push null
+     9612  Equals2
+     9613  Not
+     9614  If loc9608
+     9619  Push register3
+     9624  Return
+     9625  Push null
+     9629  Equals2
+     9630  Not
+     9631  If loc9625
+     9636  Push register2
+     9641  Return
+     9642  Jump loc9359
+     9647  Push undef
+     9651  Return
+        }
+  9652  SetMember
+  9653  Push register2, "mouseActivate"
+  9660  DefineFunction2 "" (Void) regs=7 flags=0x29 {
+     9677  Push register1, "bNeedFocus"
+     9684  GetMember
+     9685  Not
+     9686  Not
+     9687  If loc9697
+     9692  Push undef
+     9696  Return
+     9697  Push register1, "_searchKey"
+     9704  GetTime
+     9705  SetMember
+     9706  Push register1, "form"
+     9713  GetMember
+     9714  Push register1, "lastMouse"
+     9721  GetMember
+     9722  Push "y"
+     9727  GetMember
+     9728  Push register1, "lastMouse"
+     9735  GetMember
+     9736  Push "x"
+     9741  GetMember
+     9742  Push 3, register1, "getMousedComponentFromChildren"
+     9754  CallMethod
+     9755  StoreRegister 2
+     9759  Pop
+     9760  Push register2, "mx"
+     9767  GetVariable
+     9768  Push "core"
+     9773  GetMember
+     9774  Push "UIComponent"
+     9779  GetMember
+     9780  InstanceOf
+     9781  Not
+     9782  If loc9792
+     9787  Push undef
+     9791  Return
+     9792  Push register2, 1, register1, "findFocusFromObject"
+     9806  CallMethod
+     9807  StoreRegister 2
+     9811  Pop
+     9812  Push register2, register1, "lastFocus"
+     9821  GetMember
+     9822  Equals2
+     9823  Not
+     9824  If loc9834
+     9829  Push undef
+     9833  Return
+     9834  Push register2, undef
+     9840  Equals2
+     9841  Not
+     9842  If loc9870
+     9847  Push "restoreFocus", register1, 2, register1, "doLater"
+     9863  CallMethod
+     9864  Pop
+     9865  Push undef
+     9869  Return
+     9870  Push register2, "hscroll"
+     9877  GetMember
+     9878  StoreRegister 3
+     9882  Pop
+     9883  Push register3, undef
+     9889  Equals2
+     9890  Not
+     9891  Not
+     9892  If loc9923
+     9897  Push register2, "scroll"
+     9904  GetMember
+     9905  StoreRegister 6
+     9909  Pop
+     9910  Push register2, "background"
+     9917  GetMember
+     9918  StoreRegister 5
+     9922  Pop
+     9923  Push register2, 1, register1, "setFocus"
+     9937  CallMethod
+     9938  Pop
+     9939  Push "Selection"
+     9944  GetVariable
+     9945  StoreRegister 4
+     9949  Pop
+     9950  Push register4, "lastEndIndex"
+     9957  GetMember
+     9958  Push register4, "lastBeginIndex"
+     9965  GetMember
+     9966  Push 2, "Selection"
+     9976  GetVariable
+     9977  Push "setSelection"
+     9982  CallMethod
+     9983  Pop
+     9984  Push register3, undef
+     9990  Equals2
+     9991  Not
+     9992  Not
+     9993  If loc10028
+     9998  Push register2, "scroll", register6
+    10007  SetMember
+    10008  Push register2, "hscroll", register3
+    10017  SetMember
+    10018  Push register2, "background", register5
+    10027  SetMember
+        }
+ 10028  SetMember
+ 10029  Push register2, "_onMouseDown"
+ 10036  DefineFunction2 "" (Void) regs=4 flags=0x69 {
+    10053  Push register1, "bDrawFocus", false
+    10062  SetMember
+    10063  Push register1, "lastFocus"
+    10070  GetMember
+    10071  Push undef
+    10075  Equals2
+    10076  Not
+    10077  Not
+    10078  If loc10105
+    10083  Push false, 1, register1, "lastFocus"
+    10097  GetMember
+    10098  Push "drawFocus"
+    10103  CallMethod
+    10104  Pop
+    10105  Push "mx"
+    10110  GetVariable
+    10111  Push "managers"
+    10116  GetMember
+    10117  Push "SystemManager"
+    10122  GetMember
+    10123  Push "idleFrames", 0
+    10137  SetMember
+    10138  Push "Selection"
+    10143  GetVariable
+    10144  StoreRegister 3
+    10148  Pop
+    10149  Push register3, "lastBeginIndex", 0, "Selection"
+    10167  GetVariable
+    10168  Push "getBeginIndex"
+    10173  CallMethod
+    10174  SetMember
+    10175  Push register3, "lastEndIndex", 0, "Selection"
+    10193  GetVariable
+    10194  Push "getEndIndex"
+    10199  CallMethod
+    10200  SetMember
+    10201  Push register1, "lastMouse"
+    10208  GetMember
+    10209  Push "x", register2, "_xmouse"
+    10218  GetMember
+    10219  SetMember
+    10220  Push register1, "lastMouse"
+    10227  GetMember
+    10228  Push "y", register2, "_ymouse"
+    10237  GetMember
+    10238  SetMember
+    10239  Push register1, "lastMouse"
+    10246  GetMember
+    10247  Push 1, register2, "localToGlobal"
+    10259  CallMethod
+    10260  Pop
+        }
+ 10261  SetMember
+ 10262  Push register2, "onMouseUp"
+ 10269  DefineFunction2 "" (Void) regs=2 flags=0x29 {
+    10286  Push register1, "_visible"
+    10293  GetMember
+    10294  Not
+    10295  If loc10318
+    10300  Push "mouseActivate", register1, 2, register1, "doLater"
+    10316  CallMethod
+    10317  Pop
+        }
+ 10318  SetMember
+ 10319  Push register2, "handleEvent"
+ 10326  DefineFunction2 "" (r2:e) regs=3 flags=0x29 {
+    10340  Push register2, "type"
+    10347  GetMember
+    10348  Push "reveal"
+    10353  Equals2
+    10354  Not
+    10355  If loc10403
+    10360  Push register1, "form"
+    10367  GetMember
+    10368  Push 1, "mx"
+    10378  GetVariable
+    10379  Push "managers"
+    10384  GetMember
+    10385  Push "SystemManager"
+    10390  GetMember
+    10391  Push "activate"
+    10396  CallMethod
+    10397  Pop
+    10398  Jump loc10441
+    10403  Push register1, "form"
+    10410  GetMember
+    10411  Push 1, "mx"
+    10421  GetVariable
+    10422  Push "managers"
+    10427  GetMember
+    10428  Push "SystemManager"
+    10433  GetMember
+    10434  Push "deactivate"
+    10439  CallMethod
+    10440  Pop
+        }
+ 10441  SetMember
+ 10442  Push register1, "enableFocusManagement"
+ 10449  DefineFunction2 "" () regs=2 flags=0x6a {
+    10460  Push "mx"
+    10465  GetVariable
+    10466  Push "managers"
+    10471  GetMember
+    10472  Push "FocusManager"
+    10477  GetMember
+    10478  Push "initialized"
+    10483  GetMember
+    10484  Not
+    10485  Not
+    10486  If loc10678
+    10491  Push "mx"
+    10496  GetVariable
+    10497  Push "managers"
+    10502  GetMember
+    10503  Push "FocusManager"
+    10508  GetMember
+    10509  Push "initialized", true
+    10516  SetMember
+    10517  Push "mx"
+    10522  GetVariable
+    10523  Push "managers"
+    10528  GetMember
+    10529  Push "FocusManager"
+    10534  GetMember
+    10535  Push "FocusManager", 2, "Object"
+    10547  GetVariable
+    10548  Push "registerClass"
+    10553  CallMethod
+    10554  Pop
+    10555  Push register1, "focusManager"
+    10562  GetMember
+    10563  Push undef
+    10567  Equals2
+    10568  Not
+    10569  If loc10678
+    10574  Push "mx"
+    10579  GetVariable
+    10580  Push "managers"
+    10585  GetMember
+    10586  Push "DepthManager"
+    10591  GetMember
+    10592  Push "highestDepth"
+    10597  GetMember
+    10598  Push "mx"
+    10603  GetVariable
+    10604  Push "managers"
+    10609  GetMember
+    10610  Push "DepthManager"
+    10615  GetMember
+    10616  Push "highestDepth", "mx"
+    10623  GetVariable
+    10624  Push "managers"
+    10629  GetMember
+    10630  Push "DepthManager"
+    10635  GetMember
+    10636  Push "highestDepth"
+    10641  GetMember
+    10642  Decrement
+    10643  SetMember
+    10644  Push "focusManager", "mx"
+    10651  GetVariable
+    10652  Push "managers"
+    10657  GetMember
+    10658  Push "FocusManager"
+    10663  GetMember
+    10664  Push 3, register1, "createClassObject"
+    10676  CallMethod
+    10677  Pop
+        }
+ 10678  SetMember
+ 10679  Push register1, "symbolName", "FocusManager"
+ 10688  SetMember
+ 10689  Push register1, "symbolOwner", "mx"
+ 10698  GetVariable
+ 10699  Push "managers"
+ 10704  GetMember
+ 10705  Push "FocusManager"
+ 10710  GetMember
+ 10711  SetMember
+ 10712  Push register1, "version", "2.0.2.127"
+ 10721  SetMember
+ 10722  Push register2, "className", "FocusManager"
+ 10731  SetMember
+ 10732  Push register2, "bNeedFocus", false
+ 10741  SetMember
+ 10742  Push register2, "bDrawFocus", false
+ 10751  SetMember
+ 10752  Push register2, "defaultPushButtonEnabled", true
+ 10761  SetMember
+ 10762  Push register2, "activated", true
+ 10771  SetMember
+ 10772  Push register1, "initialized", false
+ 10781  SetMember
+ 10782  Push register1, "UIObjectExtensionsDependency", "mx"
+ 10791  GetVariable
+ 10792  Push "core"
+ 10797  GetMember
+ 10798  Push "ext"
+ 10803  GetMember
+ 10804  Push "UIObjectExtensions"
+ 10809  GetMember
+ 10810  SetMember
+ 10811  Push register2, "__set__defaultPushButton"
+ 10818  GetMember
+ 10819  Push register2, "__get__defaultPushButton"
+ 10826  GetMember
+ 10827  Push "defaultPushButton", 3, register2, "addProperty"
+ 10841  CallMethod
+ 10842  DefineFunction "" () regs=4 flags=0x0 {
+
+        }
+ 10850  Push register2, "__get__nextTabIndex"
+ 10857  GetMember
+ 10858  Push "nextTabIndex", 3, register2, "addProperty"
+ 10872  CallMethod
+ 10873  Push 1, null, "mx"
+ 10884  GetVariable
+ 10885  Push "managers"
+ 10890  GetMember
+ 10891  Push "FocusManager"
+ 10896  GetMember
+ 10897  Push "prototype"
+ 10902  GetMember
+ 10903  Push 3, "ASSetPropFlags"
+ 10913  CallFunction
+ 10914  Pop
+ 10915  End

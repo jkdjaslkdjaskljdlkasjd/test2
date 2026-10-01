@@ -1,0 +1,230 @@
+// on(release)
+// origen: boton 2673 (06053_DefineButton2_2673.bin)
+
+    17  ConstantPool (33)
+   329  Push "_root"
+   334  GetVariable
+   335  Push "Krin"
+   340  GetMember
+   341  Push "slotInUse", 2
+   351  SetMember
+   352  Push "_root"
+   357  GetVariable
+   358  Push "Krin"
+   363  GetMember
+   364  Push "dataMode"
+   369  GetMember
+   370  Push "save"
+   375  Equals2
+   376  Not
+   377  If loc851
+   382  Push "_root"
+   387  GetVariable
+   388  Push "Krin"
+   393  GetMember
+   394  Push "nameUser", "_root"
+   401  GetVariable
+   402  Push "krinNameUser"
+   407  GetMember
+   408  SetMember
+   409  Push "_root"
+   414  GetVariable
+   415  Push "thereIsASlotSelected", false
+   422  SetMember
+   423  Push "_root"
+   428  GetVariable
+   429  Push "KrinToolTipper"
+   434  GetMember
+   435  Push "tt", ""
+   442  SetMember
+   443  Push "_root"
+   448  GetVariable
+   449  Push "KrinToolTipper"
+   454  GetMember
+   455  Push "t", ""
+   462  SetMember
+   463  Push 1, 1, "_root"
+   478  GetVariable
+   479  Push "KrinToolTipper"
+   484  GetMember
+   485  Push "gotoAndStop"
+   490  CallMethod
+   491  Pop
+   492  Push "_root"
+   497  GetVariable
+   498  Push "isDebugMode"
+   503  GetMember
+   504  Not
+   505  If loc833
+   510  Push "debugLevel", 50
+   520  DefineLocal
+   521  Push "_root"
+   526  GetVariable
+   527  Push "Krin"
+   532  GetMember
+   533  Push "Level", "debugLevel"
+   540  GetVariable
+   541  SetMember
+   542  Push "_root"
+   547  GetVariable
+   548  Push "Krin"
+   553  GetMember
+   554  Push "LevelStats"
+   559  GetMember
+   560  Push 0, "debugLevel"
+   574  GetVariable
+   575  SetMember
+   576  Push "_root"
+   581  GetVariable
+   582  Push "Krin"
+   587  GetMember
+   588  Push "skillPoints", "debugLevel"
+   595  GetVariable
+   596  SetMember
+   597  Push "_root"
+   602  GetVariable
+   603  Push "Krin"
+   608  GetMember
+   609  Push "statPoints", "debugLevel"
+   616  GetVariable
+   617  Push 20
+   625  Multiply
+   626  SetMember
+   627  Push "_root"
+   632  GetVariable
+   633  Push "Krin"
+   638  GetMember
+   639  Push "Euro", 1000000
+   649  SetMember
+   650  Push "_root"
+   655  GetVariable
+   656  Push "Krin"
+   661  GetMember
+   662  Push "questProgress", 0, 0, 0, 0, 0, 0, 0, 0, 13, 10, 9, 13, 10, "EMPTY", 14
+   771  InitArray
+   772  SetMember
+   773  Push "_root"
+   778  GetVariable
+   779  Push "Krin"
+   784  GetMember
+   785  Push "LevelStats", "debugLevel"
+   792  GetVariable
+   793  Push "debugLevel"
+   798  GetVariable
+   799  Push "debugLevel"
+   804  GetVariable
+   805  Push "debugLevel"
+   810  GetVariable
+   811  Push "debugLevel"
+   816  GetVariable
+   817  Push "debugLevel"
+   822  GetVariable
+   823  Push 6
+   831  InitArray
+   832  SetMember
+   833  GoToLabel 'classMenu'
+   846  Jump loc1185
+   851  Push "_root"
+   856  GetVariable
+   857  Push "slot", "_root"
+   864  GetVariable
+   865  Push "Krin"
+   870  GetMember
+   871  Push "slotInUse"
+   876  GetMember
+   877  Add2
+   878  GetMember
+   879  Push "data"
+   884  GetMember
+   885  Push "nameUser"
+   890  GetMember
+   891  Push undef
+   895  Equals2
+   896  Not
+   897  Not
+   898  If loc1185
+   903  Push "_root"
+   908  GetVariable
+   909  Push "krinNameUser", "_root"
+   916  GetVariable
+   917  Push "slot", "_root"
+   924  GetVariable
+   925  Push "Krin"
+   930  GetMember
+   931  Push "slotInUse"
+   936  GetMember
+   937  Add2
+   938  GetMember
+   939  Push "data"
+   944  GetMember
+   945  Push "nameUser"
+   950  GetMember
+   951  SetMember
+   952  Push "_root"
+   957  GetVariable
+   958  Push "Krin"
+   963  GetMember
+   964  Push "slotInUse"
+   969  GetMember
+   970  Push 1, "_root"
+   980  GetVariable
+   981  Push "krinHandleData"
+   986  CallMethod
+   987  Pop
+   988  Push 0, "_root"
+  1002  GetVariable
+  1003  Push "slot", "_root"
+  1010  GetVariable
+  1011  Push "Krin"
+  1016  GetMember
+  1017  Push "slotInUse"
+  1022  GetMember
+  1023  Add2
+  1024  GetMember
+  1025  Push "flush"
+  1030  CallMethod
+  1031  Pop
+  1032  Push "arenaMode"
+  1037  GetVariable
+  1038  Push true
+  1043  Equals2
+  1044  Not
+  1045  If loc1171
+  1050  Push "_root"
+  1055  GetVariable
+  1056  Push "arenaPlayer", "currentArenaPlayer"
+  1063  GetVariable
+  1064  Add2
+  1065  GetMember
+  1066  Push "krinNameUser", "_root"
+  1073  GetVariable
+  1074  Push "krinNameUser"
+  1079  GetMember
+  1080  SetMember
+  1081  Push "currentArenaPlayer"
+  1086  GetVariable
+  1087  Push 1
+  1095  Equals2
+  1096  Not
+  1097  If loc1154
+  1102  Push "currentArenaPlayer", "currentArenaPlayer"
+  1109  GetVariable
+  1110  Increment
+  1111  SetVariable
+  1112  Push "pickText", "_root"
+  1119  GetVariable
+  1120  Push "KrinLang"
+  1125  GetMember
+  1126  Push "KLangChoosen"
+  1131  GetVariable
+  1132  GetMember
+  1133  Push "MENU"
+  1138  GetMember
+  1139  Push 73
+  1147  GetMember
+  1148  SetVariable
+  1149  Jump loc1166
+  1154  GoToLabel 'ArenaNav'
+  1166  Jump loc1185
+  1171  GoToLabel 'Navigation'
+  1185  End

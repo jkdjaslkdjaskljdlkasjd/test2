@@ -1,0 +1,7 @@
+// DoAction
+// origen: DefineSprite_736_ex_SPRBLUE fotograma 15, DoAction (01126_DefineSprite_736.bin, byte 158)
+
+   158  Push "", "this"
+   169  GetVariable
+   170  GetURL2 64
+   174  End

@@ -1,0 +1,17 @@
+// DoAction
+// origen: DefineSprite_151_LifeBarSmoother fotograma 36, DoAction (00301_DefineSprite_151.bin, byte 1175)
+
+  1175  ConstantPool (5)
+  1210  Push "_parent"
+  1215  GetVariable
+  1216  Push "_parent"
+  1221  GetMember
+  1222  Push "lB"
+  1227  GetMember
+  1228  Push "_width", "wsaver"
+  1235  GetVariable
+  1236  SetMember
+  1237  Push "this"
+  1242  GetVariable
+  1243  RemoveSprite
+  1244  End

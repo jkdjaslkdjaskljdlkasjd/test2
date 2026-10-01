@@ -1,0 +1,710 @@
+// DoAction
+// origen: escenario fotograma 449, DoAction (08313_DoAction.bin)
+
+     0  ConstantPool (26)
+   223  Push "thingerDepthK", 0
+   237  SetVariable
+   238  Stop
+   239  Push "toGive", 0
+   253  SetVariable
+   254  Push "toGive", "questHub"
+   261  GetVariable
+   262  Push "length"
+   267  GetMember
+   268  SetVariable
+   269  Push "achGet"
+   274  GetVariable
+   275  Push 4
+   283  GetMember
+   284  Push 0
+   296  Equals2
+   297  Not
+   298  If loc327
+   303  Push "toGive", "questHub"
+   310  GetVariable
+   311  Push "length"
+   316  GetMember
+   317  Push 1
+   325  Subtract
+   326  SetVariable
+   327  Push "Krin"
+   332  GetVariable
+   333  Push "difficulty"
+   338  GetMember
+   339  Push 1
+   347  Equals2
+   348  Not
+   349  If loc378
+   354  Push "toGive", "questHub"
+   361  GetVariable
+   362  Push "length"
+   367  GetMember
+   368  Push 1
+   376  Subtract
+   377  SetVariable
+   378  Push "Krin"
+   383  GetVariable
+   384  Push "difficulty"
+   389  GetMember
+   390  Push 0
+   402  Equals2
+   403  Not
+   404  If loc433
+   409  Push "toGive", "questHub"
+   416  GetVariable
+   417  Push "length"
+   422  GetMember
+   423  Push 2
+   431  Subtract
+   432  SetVariable
+   433  Push "i", 1
+   443  SetVariable
+   444  Push "i"
+   449  GetVariable
+   450  Push "toGive"
+   455  GetVariable
+   456  Less2
+   457  Not
+   458  If loc1592
+   463  Push "krinMapper"
+   468  GetVariable
+   469  Push "mb", "i"
+   476  GetVariable
+   477  Add2
+   478  GetMember
+   479  Push "sectionID", "i"
+   486  GetVariable
+   487  SetMember
+   488  Push "i"
+   493  GetVariable
+   494  Push 1
+   502  Greater
+   503  Not
+   504  If loc793
+   509  Push "thingerDepthK"
+   514  GetVariable
+   515  Push "line_mc", "thingerDepthK"
+   522  GetVariable
+   523  Add2
+   524  Push 2, "krinMapper"
+   534  GetVariable
+   535  Push "lineMC"
+   540  GetMember
+   541  Push "createEmptyMovieClip"
+   546  CallMethod
+   547  Pop
+   548  Push 100, 0, 6, 3, "krinMapper"
+   577  GetVariable
+   578  Push "lineMC"
+   583  GetMember
+   584  Push "line_mc", "thingerDepthK"
+   591  GetVariable
+   592  Add2
+   593  GetMember
+   594  Push "lineStyle"
+   599  CallMethod
+   600  Pop
+   601  Push "krinMapper"
+   606  GetVariable
+   607  Push "mb", "i"
+   614  GetVariable
+   615  Add2
+   616  GetMember
+   617  Push "_y"
+   622  GetMember
+   623  Push "krinMapper"
+   628  GetVariable
+   629  Push "mb", "i"
+   636  GetVariable
+   637  Add2
+   638  GetMember
+   639  Push "_x"
+   644  GetMember
+   645  Push 2, "krinMapper"
+   655  GetVariable
+   656  Push "lineMC"
+   661  GetMember
+   662  Push "line_mc", "thingerDepthK"
+   669  GetVariable
+   670  Add2
+   671  GetMember
+   672  Push "moveTo"
+   677  CallMethod
+   678  Pop
+   679  Push "krinMapper"
+   684  GetVariable
+   685  Push "mb", "questHub"
+   692  GetVariable
+   693  Push "i"
+   698  GetVariable
+   699  GetMember
+   700  Push "linked"
+   705  GetMember
+   706  Add2
+   707  GetMember
+   708  Push "_y"
+   713  GetMember
+   714  Push "krinMapper"
+   719  GetVariable
+   720  Push "mb", "questHub"
+   727  GetVariable
+   728  Push "i"
+   733  GetVariable
+   734  GetMember
+   735  Push "linked"
+   740  GetMember
+   741  Add2
+   742  GetMember
+   743  Push "_x"
+   748  GetMember
+   749  Push 2, "krinMapper"
+   759  GetVariable
+   760  Push "lineMC"
+   765  GetMember
+   766  Push "line_mc", "thingerDepthK"
+   773  GetVariable
+   774  Add2
+   775  GetMember
+   776  Push "lineTo"
+   781  CallMethod
+   782  Pop
+   783  Push "thingerDepthK", "thingerDepthK"
+   790  GetVariable
+   791  Increment
+   792  SetVariable
+   793  Push "i"
+   798  GetVariable
+   799  Push 1
+   807  Equals2
+   808  PushDuplicate
+   809  If loc880
+   814  Pop
+   815  Push "questHub"
+   820  GetVariable
+   821  Push "questHub"
+   826  GetVariable
+   827  Push "i"
+   832  GetVariable
+   833  GetMember
+   834  Push "linked"
+   839  GetMember
+   840  GetMember
+   841  Push "progressMax"
+   846  GetMember
+   847  Push "Krin"
+   852  GetVariable
+   853  Push "questProgress"
+   858  GetMember
+   859  Push "questHub"
+   864  GetVariable
+   865  Push "i"
+   870  GetVariable
+   871  GetMember
+   872  Push "linked"
+   877  GetMember
+   878  GetMember
+   879  Less2
+   880  Not
+   881  If loc1216
+   886  Push "krinMapper"
+   891  GetVariable
+   892  Push "mb", "i"
+   899  GetVariable
+   900  Add2
+   901  GetMember
+   902  Push "canUse", true
+   909  SetMember
+   910  Push "i"
+   915  GetVariable
+   916  Push 1
+   924  Greater
+   925  Not
+   926  If loc1211
+   931  Push "thingerDepthK"
+   936  GetVariable
+   937  Push "line_mc", "thingerDepthK"
+   944  GetVariable
+   945  Add2
+   946  Push 2, "krinMapper"
+   956  GetVariable
+   957  Push "lineMC"
+   962  GetMember
+   963  Push "createEmptyMovieClip"
+   968  CallMethod
+   969  Pop
+   970  Push 100, 3246559, 2, 3, "krinMapper"
+   995  GetVariable
+   996  Push "lineMC"
+  1001  GetMember
+  1002  Push "line_mc", "thingerDepthK"
+  1009  GetVariable
+  1010  Add2
+  1011  GetMember
+  1012  Push "lineStyle"
+  1017  CallMethod
+  1018  Pop
+  1019  Push "krinMapper"
+  1024  GetVariable
+  1025  Push "mb", "i"
+  1032  GetVariable
+  1033  Add2
+  1034  GetMember
+  1035  Push "_y"
+  1040  GetMember
+  1041  Push "krinMapper"
+  1046  GetVariable
+  1047  Push "mb", "i"
+  1054  GetVariable
+  1055  Add2
+  1056  GetMember
+  1057  Push "_x"
+  1062  GetMember
+  1063  Push 2, "krinMapper"
+  1073  GetVariable
+  1074  Push "lineMC"
+  1079  GetMember
+  1080  Push "line_mc", "thingerDepthK"
+  1087  GetVariable
+  1088  Add2
+  1089  GetMember
+  1090  Push "moveTo"
+  1095  CallMethod
+  1096  Pop
+  1097  Push "krinMapper"
+  1102  GetVariable
+  1103  Push "mb", "questHub"
+  1110  GetVariable
+  1111  Push "i"
+  1116  GetVariable
+  1117  GetMember
+  1118  Push "linked"
+  1123  GetMember
+  1124  Add2
+  1125  GetMember
+  1126  Push "_y"
+  1131  GetMember
+  1132  Push "krinMapper"
+  1137  GetVariable
+  1138  Push "mb", "questHub"
+  1145  GetVariable
+  1146  Push "i"
+  1151  GetVariable
+  1152  GetMember
+  1153  Push "linked"
+  1158  GetMember
+  1159  Add2
+  1160  GetMember
+  1161  Push "_x"
+  1166  GetMember
+  1167  Push 2, "krinMapper"
+  1177  GetVariable
+  1178  Push "lineMC"
+  1183  GetMember
+  1184  Push "line_mc", "thingerDepthK"
+  1191  GetVariable
+  1192  Add2
+  1193  GetMember
+  1194  Push "lineTo"
+  1199  CallMethod
+  1200  Pop
+  1201  Push "thingerDepthK", "thingerDepthK"
+  1208  GetVariable
+  1209  Increment
+  1210  SetVariable
+  1211  Jump loc1577
+  1216  Push "i"
+  1221  GetVariable
+  1222  Push 1
+  1230  Greater
+  1231  Not
+  1232  If loc1517
+  1237  Push "thingerDepthK"
+  1242  GetVariable
+  1243  Push "line_mc", "thingerDepthK"
+  1250  GetVariable
+  1251  Add2
+  1252  Push 2, "krinMapper"
+  1262  GetVariable
+  1263  Push "lineMC"
+  1268  GetMember
+  1269  Push "createEmptyMovieClip"
+  1274  CallMethod
+  1275  Pop
+  1276  Push 100, 3355443, 2, 3, "krinMapper"
+  1301  GetVariable
+  1302  Push "lineMC"
+  1307  GetMember
+  1308  Push "line_mc", "thingerDepthK"
+  1315  GetVariable
+  1316  Add2
+  1317  GetMember
+  1318  Push "lineStyle"
+  1323  CallMethod
+  1324  Pop
+  1325  Push "krinMapper"
+  1330  GetVariable
+  1331  Push "mb", "i"
+  1338  GetVariable
+  1339  Add2
+  1340  GetMember
+  1341  Push "_y"
+  1346  GetMember
+  1347  Push "krinMapper"
+  1352  GetVariable
+  1353  Push "mb", "i"
+  1360  GetVariable
+  1361  Add2
+  1362  GetMember
+  1363  Push "_x"
+  1368  GetMember
+  1369  Push 2, "krinMapper"
+  1379  GetVariable
+  1380  Push "lineMC"
+  1385  GetMember
+  1386  Push "line_mc", "thingerDepthK"
+  1393  GetVariable
+  1394  Add2
+  1395  GetMember
+  1396  Push "moveTo"
+  1401  CallMethod
+  1402  Pop
+  1403  Push "krinMapper"
+  1408  GetVariable
+  1409  Push "mb", "questHub"
+  1416  GetVariable
+  1417  Push "i"
+  1422  GetVariable
+  1423  GetMember
+  1424  Push "linked"
+  1429  GetMember
+  1430  Add2
+  1431  GetMember
+  1432  Push "_y"
+  1437  GetMember
+  1438  Push "krinMapper"
+  1443  GetVariable
+  1444  Push "mb", "questHub"
+  1451  GetVariable
+  1452  Push "i"
+  1457  GetVariable
+  1458  GetMember
+  1459  Push "linked"
+  1464  GetMember
+  1465  Add2
+  1466  GetMember
+  1467  Push "_x"
+  1472  GetMember
+  1473  Push 2, "krinMapper"
+  1483  GetVariable
+  1484  Push "lineMC"
+  1489  GetMember
+  1490  Push "line_mc", "thingerDepthK"
+  1497  GetVariable
+  1498  Add2
+  1499  GetMember
+  1500  Push "lineTo"
+  1505  CallMethod
+  1506  Pop
+  1507  Push "thingerDepthK", "thingerDepthK"
+  1514  GetVariable
+  1515  Increment
+  1516  SetVariable
+  1517  Push "blank", 1, "krinMapper"
+  1529  GetVariable
+  1530  Push "mb", "i"
+  1537  GetVariable
+  1538  Add2
+  1539  GetMember
+  1540  Push "underGF"
+  1545  GetMember
+  1546  Push "gotoAndStop"
+  1551  CallMethod
+  1552  Pop
+  1553  Push "krinMapper"
+  1558  GetVariable
+  1559  Push "mb", "i"
+  1566  GetVariable
+  1567  Add2
+  1568  GetMember
+  1569  Push "canUse", false
+  1576  SetMember
+  1577  Push "i", "i"
+  1584  GetVariable
+  1585  Increment
+  1586  SetVariable
+  1587  Jump loc444
+  1592  Push "_root"
+  1602  GetVariable
+  1603  Push "__nzCatalog"
+  1619  GetMember
+  1620  Not
+  1621  Not
+  1622  If loc1674
+  1627  Push 0
+  1635  Push "_root"
+  1645  GetVariable
+  1646  Push "__nzBuildCatalog"
+  1667  CallMethod
+  1668  Pop
+  1669  Jump loc1674
+  1674  Push 0
+  1682  Push "_root"
+  1692  GetVariable
+  1693  Push "__nzController"
+  1712  GetMember
+  1713  Push "removeMovieClip"
+  1733  CallMethod
+  1734  Pop
+  1735  Push 100020
+  1743  Push "__nzController"
+  1762  Push 2
+  1770  Push "_root"
+  1780  GetVariable
+  1781  Push "createEmptyMovieClip"
+  1806  CallMethod
+  1807  Pop
+  1808  Push "_root"
+  1818  GetVariable
+  1819  Push "__nzController"
+  1838  GetMember
+  1839  Push "onEnterFrame"
+  1856  DefineFunction "" () regs=4 flags=0x0 {
+     1864  Push 0
+     1872  Push "_root"
+     1882  GetVariable
+     1883  Push "__nzTick"
+     1896  CallMethod
+     1897  Pop
+        }
+  1898  SetMember
+  1899  Push 100000
+  1907  Push "__nzGate"
+  1920  Push 2
+  1928  Push "_root"
+  1938  GetVariable
+  1939  Push "createEmptyMovieClip"
+  1964  CallMethod
+  1965  Pop
+  1966  Push "_root"
+  1976  GetVariable
+  1977  Push "__nzGate"
+  1990  GetMember
+  1991  Push "_x"
+  1998  Push 400
+  2006  SetMember
+  2007  Push "_root"
+  2017  GetVariable
+  2018  Push "__nzGate"
+  2031  GetMember
+  2032  Push "_y"
+  2039  Push 285
+  2047  SetMember
+  2048  Push 1
+  2056  Push "icon"
+  2065  Push "__nzMapMarker"
+  2083  Push 3
+  2091  Push "_root"
+  2101  GetVariable
+  2102  Push "__nzGate"
+  2115  GetMember
+  2116  Push "attachMovie"
+  2132  CallMethod
+  2133  Pop
+  2134  Push "_root"
+  2144  GetVariable
+  2145  Push "__nzGate"
+  2158  GetMember
+  2159  Push "icon"
+  2168  GetMember
+  2169  Push "_width"
+  2180  Push 44
+  2188  SetMember
+  2189  Push "_root"
+  2199  GetVariable
+  2200  Push "__nzGate"
+  2213  GetMember
+  2214  Push "icon"
+  2223  GetMember
+  2224  Push "_height"
+  2236  Push 44
+  2244  SetMember
+  2245  Push "bounds"
+  2256  Push "_root"
+  2266  GetVariable
+  2267  Push "__nzGate"
+  2280  GetMember
+  2281  Push 1
+  2289  Push "_root"
+  2299  GetVariable
+  2300  Push "__nzGate"
+  2313  GetMember
+  2314  Push "icon"
+  2323  GetMember
+  2324  Push "getBounds"
+  2338  CallMethod
+  2339  DefineLocal
+  2340  Push "_root"
+  2350  GetVariable
+  2351  Push "__nzGate"
+  2364  GetMember
+  2365  Push "icon"
+  2374  GetMember
+  2375  Push "_x"
+  2382  Push -22
+  2390  Push "bounds"
+  2401  GetVariable
+  2402  Push "xMin"
+  2411  GetMember
+  2412  Subtract
+  2413  SetMember
+  2414  Push "_root"
+  2424  GetVariable
+  2425  Push "__nzGate"
+  2438  GetMember
+  2439  Push "icon"
+  2448  GetMember
+  2449  Push "_y"
+  2456  Push -22
+  2464  Push "bounds"
+  2475  GetVariable
+  2476  Push "yMin"
+  2485  GetMember
+  2486  Subtract
+  2487  SetMember
+  2488  Push "_root"
+  2498  GetVariable
+  2499  Push "__nzGate"
+  2512  GetMember
+  2513  Push "onRelease"
+  2527  DefineFunction "" () regs=4 flags=0x0 {
+     2535  Push "_root"
+     2545  GetVariable
+     2546  Push "__nzActive"
+     2561  Push true
+     2566  SetMember
+     2567  Push 0
+     2575  Push "_root"
+     2585  GetVariable
+     2586  Push "__nzGate"
+     2599  GetMember
+     2600  Push "removeMovieClip"
+     2620  CallMethod
+     2621  Pop
+     2622  Push "Navigation"
+     2637  Push 1
+     2645  Push "_root"
+     2655  GetVariable
+     2656  Push "gotoAndStop"
+     2672  CallMethod
+     2673  Pop
+        }
+  2674  SetMember
+  2675  Push "_root"
+  2685  GetVariable
+  2686  Push "__nzGate"
+  2699  GetMember
+  2700  Push "onRollOver"
+  2715  DefineFunction "" () regs=4 flags=0x0 {
+     2723  Push "_root"
+     2733  GetVariable
+     2734  Push "navTitle"
+     2747  Push "NULL ZONE"
+     2761  SetMember
+        }
+  2762  SetMember
+  2763  Push "_root"
+  2773  GetVariable
+  2774  Push "__nzGate"
+  2787  GetMember
+  2788  Push "onEnterFrame"
+  2805  DefineFunction "" () regs=4 flags=0x0 {
+     2813  Push "_root"
+     2823  GetVariable
+     2824  Push "_currentframe"
+     2842  GetMember
+     2843  Push 449
+     2851  Equals2
+     2852  If loc2897
+     2857  Push 0
+     2865  Push "this"
+     2874  GetVariable
+     2875  Push "removeMovieClip"
+     2895  CallMethod
+     2896  Pop
+        }
+  2897  SetMember
+  2898  Push 24
+  2906  Push 140
+  2914  Push 29
+  2922  Push -59
+  2930  Push 100
+  2938  Push "label"
+  2948  Push 6
+  2956  Push "_root"
+  2966  GetVariable
+  2967  Push "__nzGate"
+  2980  GetMember
+  2981  Push "createTextField"
+  3001  CallMethod
+  3002  Pop
+  3003  Push 14931404, 14, "Rockwell", 3, "TextFormat"
+  3043  NewObject
+  3044  Push 1
+  3052  Push "_root"
+  3062  GetVariable
+  3063  Push "__nzGate"
+  3076  GetMember
+  3077  Push "label"
+  3087  GetMember
+  3088  Push "setNewTextFormat"
+  3109  CallMethod
+  3110  Pop
+  3111  Push "_root"
+  3121  GetVariable
+  3122  Push "__nzGate"
+  3135  GetMember
+  3136  Push "label"
+  3146  GetMember
+  3147  Push "selectable"
+  3162  Push false
+  3167  SetMember
+  3168  Push "_root"
+  3178  GetVariable
+  3179  Push "__nzGate"
+  3192  GetMember
+  3193  Push "label"
+  3203  GetMember
+  3204  Push "text"
+  3213  Push "NULL ZONE"
+  3227  SetMember
+  3228  Push "_root"
+  3238  GetVariable
+  3239  Push "__nzGate"
+  3252  GetMember
+  3253  Push "label"
+  3263  GetMember
+  3264  Push "embedFonts"
+  3279  Push true
+  3284  SetMember
+  3285  Push "fmt"
+  3293  Push 14931404, 14, "Rockwell", 3, "TextFormat"
+  3333  NewObject
+  3334  DefineLocal
+  3335  Push "fmt"
+  3343  GetVariable
+  3344  Push "bold"
+  3353  Push true
+  3358  SetMember
+  3359  Push "fmt"
+  3367  GetVariable
+  3368  Push 1
+  3376  Push "_root"
+  3386  GetVariable
+  3387  Push "__nzGate"
+  3400  GetMember
+  3401  Push "label"
+  3411  GetMember
+  3412  Push "setTextFormat"
+  3430  CallMethod
+  3431  Pop
+  3432  End

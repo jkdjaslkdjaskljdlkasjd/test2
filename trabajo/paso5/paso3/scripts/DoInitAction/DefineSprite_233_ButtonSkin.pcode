@@ -1,0 +1,11 @@
+// DefineSprite_233_ButtonSkin
+// origen: DoInitAction del sprite 233 (03812_DoInitAction.bin)
+
+     2  Push "mx.skins.halo.ButtonSkin"
+    31  GetVariable
+    32  Push "ButtonSkin", 2, "Object"
+    60  GetVariable
+    61  Push "registerClass"
+    79  CallMethod
+    80  Pop
+    81  End

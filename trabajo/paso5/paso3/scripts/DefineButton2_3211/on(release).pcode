@@ -1,0 +1,118 @@
+// on(release)
+// origen: boton 3211 (06928_DefineButton2_3211.bin)
+
+    17  ConstantPool (13)
+   133  Push "_root"
+   138  GetVariable
+   139  Push "Krin"
+   144  GetMember
+   145  Push "sound"
+   150  GetMember
+   151  Not
+   152  If loc204
+   157  Push "_root"
+   162  GetVariable
+   163  Push "Krin"
+   168  GetMember
+   169  Push "sound", false
+   176  SetMember
+   177  Push "_root"
+   182  GetVariable
+   183  Push "soundModeKrin", 0
+   197  SetMember
+   198  StopSounds
+   199  Jump loc291
+   204  Push "_root"
+   209  GetVariable
+   210  Push "Krin"
+   215  GetMember
+   216  Push "sound", true
+   223  SetMember
+   224  Push "_root"
+   229  GetVariable
+   230  Push "soundModeKrin", 0
+   244  SetMember
+   245  Push "_root"
+   250  GetVariable
+   251  Push "soundPlayCounter", 0
+   265  SetMember
+   266  Push 1, "Music", 2, "_root"
+   283  GetVariable
+   284  Push "addSound"
+   289  CallMethod
+   290  Pop
+   291  Push "_root"
+   296  GetVariable
+   297  Push "Krin"
+   302  GetMember
+   303  Push "sound"
+   308  GetMember
+   309  Not
+   310  If loc363
+   315  Push "tit_3", "_root"
+   322  GetVariable
+   323  Push "KrinLang"
+   328  GetMember
+   329  Push "_root"
+   334  GetVariable
+   335  Push "KLangChoosen"
+   340  GetMember
+   341  GetMember
+   342  Push "MENU"
+   347  GetMember
+   348  Push 29
+   356  GetMember
+   357  SetVariable
+   358  Jump loc406
+   363  Push "tit_3", "_root"
+   370  GetVariable
+   371  Push "KrinLang"
+   376  GetMember
+   377  Push "_root"
+   382  GetVariable
+   383  Push "KLangChoosen"
+   388  GetMember
+   389  GetMember
+   390  Push "MENU"
+   395  GetMember
+   396  Push 30
+   404  GetMember
+   405  SetVariable
+   406  Push "_root"
+   411  GetVariable
+   412  Push "Krin"
+   417  GetMember
+   418  Push "graphics"
+   423  GetMember
+   424  Not
+   425  If loc478
+   430  Push "tit_4", "_root"
+   437  GetVariable
+   438  Push "KrinLang"
+   443  GetMember
+   444  Push "_root"
+   449  GetVariable
+   450  Push "KLangChoosen"
+   455  GetMember
+   456  GetMember
+   457  Push "MENU"
+   462  GetMember
+   463  Push 31
+   471  GetMember
+   472  SetVariable
+   473  Jump loc521
+   478  Push "tit_4", "_root"
+   485  GetVariable
+   486  Push "KrinLang"
+   491  GetMember
+   492  Push "_root"
+   497  GetVariable
+   498  Push "KLangChoosen"
+   503  GetMember
+   504  GetMember
+   505  Push "MENU"
+   510  GetMember
+   511  Push 32
+   519  GetMember
+   520  SetVariable
+   521  End

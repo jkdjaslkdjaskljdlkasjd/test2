@@ -1,0 +1,51 @@
+// DoAction
+// origen: DefineSprite_3344 fotograma 5, DoAction (07201_DefineSprite_3344.bin, byte 306)
+
+   306  ConstantPool (6)
+   369  Push "_root"
+   374  GetVariable
+   375  Push "BATTLESCREEN"
+   380  GetMember
+   381  Push "_y", "_root"
+   388  GetVariable
+   389  Push "BATTLESCREEN"
+   394  GetMember
+   395  Push "_y"
+   400  GetMember
+   401  Push "shakeValue"
+   406  GetVariable
+   407  Add2
+   408  SetMember
+   409  Push "shakeValue", "shakeValue"
+   416  GetVariable
+   417  Push "shakeMinus"
+   422  GetVariable
+   423  Subtract
+   424  SetVariable
+   425  Push "shakeValue"
+   430  GetVariable
+   431  Push 0
+   443  Greater
+   444  Not
+   445  If loc477
+   450  GoToLabel 'KrinShakeplayHere'
+   471  Play
+   472  Jump loc553
+   477  Push "shakeValue", "shakeOriginal"
+   484  GetVariable
+   485  SetVariable
+   486  Push "_root"
+   491  GetVariable
+   492  Push "BATTLESCREEN"
+   497  GetMember
+   498  Push "_y", "_root"
+   505  GetVariable
+   506  Push "BATTLESCREEN"
+   511  GetMember
+   512  Push "_y"
+   517  GetMember
+   518  Push 0.9000000000000002
+   530  Add2
+   531  SetMember
+   532  GoToLabel 'KrinShakestopHere'
+   553  End

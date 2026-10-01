@@ -1,0 +1,363 @@
+// onClipEvent(enterFrame)
+// origen: escenario fotograma 217, clip en profundidad 500 (07269_PlaceObject3.bin)
+
+   993  ConstantPool (23)
+  1191  Push "clicker"
+  1196  GetVariable
+  1197  Not
+  1198  If loc1809
+  1203  Push "_root"
+  1208  GetVariable
+  1209  Push "arenaMode"
+  1214  GetMember
+  1215  Not
+  1216  If loc1250
+  1221  Push "theGuy", "arenaPlayer", "_root"
+  1230  GetVariable
+  1231  Push "Krin"
+  1236  GetMember
+  1237  Push "playerNumber"
+  1242  GetMember
+  1243  Add2
+  1244  SetVariable
+  1245  Jump loc1258
+  1250  Push "theGuy", "Krin"
+  1257  SetVariable
+  1258  Push "i", 0
+  1272  SetVariable
+  1273  Push "i"
+  1278  GetVariable
+  1279  Push 8
+  1287  Less2
+  1288  Not
+  1289  If loc1637
+  1294  Push "_root"
+  1299  GetVariable
+  1300  Push "selector"
+  1305  GetMember
+  1306  Push "thing", "i"
+  1313  GetVariable
+  1314  Add2
+  1315  GetMember
+  1316  Push "bfilter"
+  1321  GetMember
+  1322  Push "_visible", false
+  1329  SetMember
+  1330  Push "this"
+  1335  GetVariable
+  1336  Push "thing", "i"
+  1343  GetVariable
+  1344  Add2
+  1345  GetMember
+  1346  Push "bfilter"
+  1351  GetMember
+  1352  Push "_alpha", 75
+  1362  SetMember
+  1363  Push "_root"
+  1368  GetVariable
+  1369  Push "KRINABILITY", "_root"
+  1376  GetVariable
+  1377  Push "theGuy"
+  1382  GetVariable
+  1383  GetMember
+  1384  Push "moveMatrix"
+  1389  GetMember
+  1390  Push "i"
+  1395  GetVariable
+  1396  GetMember
+  1397  Add2
+  1398  GetMember
+  1399  Push "_root"
+  1404  GetVariable
+  1405  Push "theEnemyToMoveVS2"
+  1410  GetMember
+  1411  GetMember
+  1412  Push 0
+  1424  Equals2
+  1425  Not
+  1426  If loc1467
+  1431  Push "_root"
+  1436  GetVariable
+  1437  Push "selector"
+  1442  GetMember
+  1443  Push "thing", "i"
+  1450  GetVariable
+  1451  Add2
+  1452  GetMember
+  1453  Push "bfilter"
+  1458  GetMember
+  1459  Push "_visible", true
+  1466  SetMember
+  1467  Push "_root"
+  1472  GetVariable
+  1473  Push "theGuy"
+  1478  GetVariable
+  1479  GetMember
+  1480  Push "abilityCoolDown"
+  1485  GetMember
+  1486  Push "i"
+  1491  GetVariable
+  1492  GetMember
+  1493  Push 0
+  1505  Greater
+  1506  Not
+  1507  If loc1598
+  1512  Push "this"
+  1517  GetVariable
+  1518  Push "thing", "i"
+  1525  GetVariable
+  1526  Add2
+  1527  GetMember
+  1528  Push "ACD", "_root"
+  1535  GetVariable
+  1536  Push "theGuy"
+  1541  GetVariable
+  1542  GetMember
+  1543  Push "abilityCoolDown"
+  1548  GetMember
+  1549  Push "i"
+  1554  GetVariable
+  1555  GetMember
+  1556  SetMember
+  1557  Push "_root"
+  1562  GetVariable
+  1563  Push "selector"
+  1568  GetMember
+  1569  Push "thing", "i"
+  1576  GetVariable
+  1577  Add2
+  1578  GetMember
+  1579  Push "bfilter"
+  1584  GetMember
+  1585  Push "_visible", true
+  1592  SetMember
+  1593  Jump loc1622
+  1598  Push "this"
+  1603  GetVariable
+  1604  Push "thing", "i"
+  1611  GetVariable
+  1612  Add2
+  1613  GetMember
+  1614  Push "ACD", ""
+  1621  SetMember
+  1622  Push "i", "i"
+  1629  GetVariable
+  1630  Increment
+  1631  SetVariable
+  1632  Jump loc1273
+  1637  Push "", 6
+  1647  GetProperty
+  1648  Push 100
+  1656  Less2
+  1657  Not
+  1658  If loc1696
+  1663  Push "", 6, "", 6
+  1680  GetProperty
+  1681  Push 50
+  1689  Add2
+  1690  SetProperty
+  1691  Jump loc1804
+  1696  Push "", 6, 100
+  1711  SetProperty
+  1712  Push "i", 0
+  1726  SetVariable
+  1727  Push "i"
+  1732  GetVariable
+  1733  Push 8
+  1741  Less2
+  1742  Not
+  1743  If loc1796
+  1748  Push "this"
+  1753  GetVariable
+  1754  Push "thing", "i"
+  1761  GetVariable
+  1762  Add2
+  1763  GetMember
+  1764  Push "bfilter"
+  1769  GetMember
+  1770  Push "_alpha", 85
+  1780  SetMember
+  1781  Push "i", "i"
+  1788  GetVariable
+  1789  Increment
+  1790  SetVariable
+  1791  Jump loc1727
+  1796  Push "clicker", false
+  1803  SetVariable
+  1804  Jump loc2404
+  1809  Push "_root"
+  1814  GetVariable
+  1815  Push "_ymouse"
+  1820  GetMember
+  1821  Push "_root"
+  1826  GetVariable
+  1827  Push "_xmouse"
+  1832  GetMember
+  1833  Push 2, "this"
+  1843  GetVariable
+  1844  Push "hitTest"
+  1849  CallMethod
+  1850  Not
+  1851  Not
+  1852  If loc2009
+  1857  Push "", 6, "", 6
+  1874  GetProperty
+  1875  Push 10
+  1883  Subtract
+  1884  SetProperty
+  1885  Push "i", 0
+  1899  SetVariable
+  1900  Push "i"
+  1905  GetVariable
+  1906  Push 8
+  1914  Less2
+  1915  Not
+  1916  If loc1960
+  1921  Push "this"
+  1926  GetVariable
+  1927  Push "thing", "i"
+  1934  GetVariable
+  1935  Add2
+  1936  GetMember
+  1937  Push "ACD", ""
+  1944  SetMember
+  1945  Push "i", "i"
+  1952  GetVariable
+  1953  Increment
+  1954  SetVariable
+  1955  Jump loc1900
+  1960  Push "", 6
+  1970  GetProperty
+  1971  Push 0
+  1983  Greater
+  1984  Not
+  1985  Not
+  1986  If loc2004
+  1991  Push "", 7, false
+  2003  SetProperty
+  2004  Jump loc2404
+  2009  Push "", 6, 100
+  2024  SetProperty
+  2025  Push "i", 0
+  2039  SetVariable
+  2040  Push "i"
+  2045  GetVariable
+  2046  Push 8
+  2054  Less2
+  2055  Not
+  2056  If loc2404
+  2061  Push "_root"
+  2066  GetVariable
+  2067  Push "selector"
+  2072  GetMember
+  2073  Push "thing", "i"
+  2080  GetVariable
+  2081  Add2
+  2082  GetMember
+  2083  Push "bfilter"
+  2088  GetMember
+  2089  Push "_visible", false
+  2096  SetMember
+  2097  Push "this"
+  2102  GetVariable
+  2103  Push "thing", "i"
+  2110  GetVariable
+  2111  Add2
+  2112  GetMember
+  2113  Push "bfilter"
+  2118  GetMember
+  2119  Push "_alpha", 85
+  2129  SetMember
+  2130  Push "_root"
+  2135  GetVariable
+  2136  Push "KRINABILITY", "_root"
+  2143  GetVariable
+  2144  Push "theGuy"
+  2149  GetVariable
+  2150  GetMember
+  2151  Push "moveMatrix"
+  2156  GetMember
+  2157  Push "i"
+  2162  GetVariable
+  2163  GetMember
+  2164  Add2
+  2165  GetMember
+  2166  Push "_root"
+  2171  GetVariable
+  2172  Push "theEnemyToMoveVS2"
+  2177  GetMember
+  2178  GetMember
+  2179  Push 0
+  2191  Equals2
+  2192  Not
+  2193  If loc2234
+  2198  Push "_root"
+  2203  GetVariable
+  2204  Push "selector"
+  2209  GetMember
+  2210  Push "thing", "i"
+  2217  GetVariable
+  2218  Add2
+  2219  GetMember
+  2220  Push "bfilter"
+  2225  GetMember
+  2226  Push "_visible", true
+  2233  SetMember
+  2234  Push "_root"
+  2239  GetVariable
+  2240  Push "theGuy"
+  2245  GetVariable
+  2246  GetMember
+  2247  Push "abilityCoolDown"
+  2252  GetMember
+  2253  Push "i"
+  2258  GetVariable
+  2259  GetMember
+  2260  Push 0
+  2272  Greater
+  2273  Not
+  2274  If loc2365
+  2279  Push "this"
+  2284  GetVariable
+  2285  Push "thing", "i"
+  2292  GetVariable
+  2293  Add2
+  2294  GetMember
+  2295  Push "ACD", "_root"
+  2302  GetVariable
+  2303  Push "theGuy"
+  2308  GetVariable
+  2309  GetMember
+  2310  Push "abilityCoolDown"
+  2315  GetMember
+  2316  Push "i"
+  2321  GetVariable
+  2322  GetMember
+  2323  SetMember
+  2324  Push "_root"
+  2329  GetVariable
+  2330  Push "selector"
+  2335  GetMember
+  2336  Push "thing", "i"
+  2343  GetVariable
+  2344  Add2
+  2345  GetMember
+  2346  Push "bfilter"
+  2351  GetMember
+  2352  Push "_visible", true
+  2359  SetMember
+  2360  Jump loc2389
+  2365  Push "this"
+  2370  GetVariable
+  2371  Push "thing", "i"
+  2378  GetVariable
+  2379  Add2
+  2380  GetMember
+  2381  Push "ACD", ""
+  2388  SetMember
+  2389  Push "i", "i"
+  2396  GetVariable
+  2397  Increment
+  2398  SetVariable
+  2399  Jump loc2040
+  2404  End

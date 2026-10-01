@@ -1,0 +1,16 @@
+// DoAction
+// origen: escenario fotograma 253, DoAction (07385_DoAction.bin)
+
+     0  Push "someListenerKrin"
+    21  GetVariable
+    22  Push 1, "Mouse"
+    37  GetVariable
+    38  Push "removeListener"
+    57  CallMethod
+    58  Pop
+    59  Push "arenaNav", 1, "_root"
+    84  GetVariable
+    85  Push "gotoAndStop"
+   101  CallMethod
+   102  Pop
+   103  End

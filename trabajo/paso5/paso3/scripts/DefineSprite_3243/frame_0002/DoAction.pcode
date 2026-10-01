@@ -1,0 +1,9 @@
+// DoAction
+// origen: DefineSprite_3243 fotograma 2, DoAction (06965_DefineSprite_3243.bin, byte 43)
+
+    43  Push "inner"
+    53  GetVariable
+    54  Push "combatText", "combatTexter"
+    83  GetVariable
+    84  SetMember
+    85  End

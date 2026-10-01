@@ -1,0 +1,5 @@
+// on(release)
+// origen: boton 2643 (05940_DefineButton2_2643.bin)
+
+    17  GoToLabel 'designMenu'
+    31  End
