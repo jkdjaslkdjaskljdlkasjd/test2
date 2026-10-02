@@ -2,7 +2,7 @@
 
 > **Si eres una IA que recién llega, lee primero `INICIO_LLM.md`** (por dónde empezar, quién hace qué, reglas y estado). Este archivo es el detalle técnico.
 
-Última actualización: 01/10/2026. Versión vigente: **I39** (los 10 fondos de combate HD activos, sin pérdida; además, lo de I38: Zona 1 HD de prueba y botón ZONAS en NULL ZONE).
+Última actualización: 01/10/2026. Versión vigente: **I40** (Zona 3, el tren, en HD con el parpadeo del original; imágenes en JPEG 97 4:4:4; los 10 fondos de combate; Zona 1 HD de prueba; botón ZONAS en NULL ZONE).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -28,7 +28,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I36 | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
   | I37 | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
   | I38 | Zona 1 New Alcatraz HD (prueba, Real-ESRGAN); imágenes HD sin pérdida; botón ZONAS en NULL ZONE |
-  | **I39** | Los 10 fondos de combate HD activos (12 combinaciones, 99 combates), sin pérdida |
+  | I39 | Los 10 fondos de combate HD activos (12 combinaciones, 99 combates), sin pérdida |
+  | **I40** | Zona 3 (tren) HD con el parpadeo cálido/azul; imágenes en JPEG 97 4:4:4 (SWF de 42 MB) |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -43,10 +44,12 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
   - no se abre PR salvo que el usuario lo pida;
-  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I35 a I39, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I36 a I40, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
 - **Entregas (desde el 01/10):** solo por GitHub. No subir zips ni archivos al chat de Claude: tiene un límite de 30 MB y comprime.
-- **Calidad máxima en imágenes (desde el 01/10):**
-  - bitmaps sin pérdida (`DefineBitsLossless2`) y PNG; nada de JPEG;
+- **Calidad de las imágenes:**
+  - el 01/10 el usuario pidió calidad máxima: sin pérdida (I38–I39);
+  - el 02/10 pidió **bajar un poco el peso sin perder calidad visible**. Desde I40, **JPEG 97 con color completo (4:4:4)**: ~51 dB contra la imagen sin pérdida y un tercio del peso;
+  - las fuentes en la repo siguen en PNG;
   - para ampliar, Real-ESRGAN `realesr-animevideov3` ×4 (`trabajo/herramientas/esrgan_np.py`) y después Lanczos a 2560×1440.
 - **Varias IA:** el usuario trabaja también con ChatGPT (imágenes y orden de `fondos_hd/`). Al terminar, actualizar el registro de `INICIO_LLM.md`.
 - **Commits:** terminan con el trailer de la sesión.
@@ -98,7 +101,22 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I39, todos los fondos de combate (01/10)
+## 5. Lo último que se hizo: I40, el tren en HD y el SWF más liviano (02/10)
+
+- **Pedido del usuario:**
+  - bajar un poco el peso de las imágenes sin perder mucha calidad;
+  - agregar el HD del tren con sus dos imágenes, la cálida y la azul;
+  - sobre el haz de luz de los costados: «no sé si reworkearlo; por ahora solo agrega el HD».
+- **`tren.py`:**
+  - lee el `ColorMatrixFilter` de cada uno de los 56 fotogramas de 2846 y lo aplica a un naranja del vagón para saber si ese fotograma es azul o cálido, y con qué brillo (33 azules y 23 cálidos);
+  - arma el sprite 4406 con las dos HD (4402/4403 cálida, 4404/4405 azul encima) y transformaciones de color: el alfa de la azul y el brillo (60 % del cambio original, de ×1,00 a ×1,21);
+  - en 2908, fotograma 46: 4406 en la 26 (en lugar de 2848) y sin marco 47. Verificado con `simular_2908.py`.
+- **Las luces de las ventanas** (2837) quedan tapadas: ver `ZONAS_HD.md`, sección 6c.
+- **`calidad.py`:** `jpeg2()` y `jpeg3()` a calidad 97 4:4:4. El suelo va en JPEG3 premultiplicado. Contra I39 (sin pérdida): diferencia máxima 5/255 en pantalla.
+- **Compilar:** `python3 i40/build.py SONNY2_I40.swf` da `0142abdd…ed64`. Pesa 42,3 MB.
+- **Ruffle:** `s_i40_tren.json` (tren: 12 capturas seguidas, más las zonas 1, 4 y 5) y `s_i40_bat.json` (JAIL y CHURCH).
+
+## 5v. I39, todos los fondos de combate (01/10)
 
 - **Pedido del usuario:** «implementa todas las etapas de batallas; luego vemos los arreglos correspondientes».
 - **Cambios:**
@@ -317,7 +335,7 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i39/build.py SONNY2_I39.swf` (sale `eb340217…d64a`), `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i40/build.py SONNY2_I40.swf` (sale `0142abdd…ed64`), `python3 i39/build.py SONNY2_I39.swf` (sale `eb340217…d64a`), `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
 - **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas
