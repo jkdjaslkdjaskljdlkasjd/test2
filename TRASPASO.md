@@ -1,6 +1,8 @@
 # Traspaso para la siguiente sesión (LLM): mod de Sonny 2, rework del lobo
 
-Última actualización: 01/10/2026. Versión vigente: **I37** (New Alcatraz: los edificios van con el suelo, como el original).
+> **Si eres una IA que recién llega, lee primero `INICIO_LLM.md`** (por dónde empezar, quién hace qué, reglas y estado). Este archivo es el detalle técnico.
+
+Última actualización: 01/10/2026. Versión vigente: **I38** (Zona 1 New Alcatraz HD de prueba, imágenes sin pérdida y botón ZONAS en NULL ZONE).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -24,7 +26,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I34 | Combate HD en dos capas (cielo quieto y suelo con la cámara) y diálogo al 62 % |
   | I35 | Los 10 fondos de combate en HD (99 combates) y el zoom al 50 % en HD |
   | I36 | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
-  | **I37** | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
+  | I37 | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
+  | **I38** | Zona 1 New Alcatraz HD (prueba, Real-ESRGAN); imágenes HD sin pérdida; botón ZONAS en NULL ZONE |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -39,7 +42,12 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
   - no se abre PR salvo que el usuario lo pida;
-  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I33 a I37, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I34 a I38, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+- **Entregas (desde el 01/10):** solo por GitHub. No subir zips ni archivos al chat de Claude: tiene un límite de 30 MB y comprime.
+- **Calidad máxima en imágenes (desde el 01/10):**
+  - bitmaps sin pérdida (`DefineBitsLossless2`) y PNG; nada de JPEG;
+  - para ampliar, Real-ESRGAN `realesr-animevideov3` ×4 (`trabajo/herramientas/esrgan_np.py`) y después Lanczos a 2560×1440.
+- **Varias IA:** el usuario trabaja también con ChatGPT (imágenes y orden de `fondos_hd/`). Al terminar, actualizar el registro de `INICIO_LLM.md`.
 - **Commits:** terminan con el trailer de la sesión.
 - **Antes de cambiar habilidades:** conversar con el usuario. Ver la sección 6.
 
@@ -89,7 +97,26 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I37, New Alcatraz como el original (01/10)
+## 5. Lo último que se hizo: I38 (01/10)
+
+- **Pedido:**
+  - probar en la Zona 1 la imagen de New Alcatraz que mandó el usuario y guardarla en `fondos_hd/world_map/`;
+  - calidad máxima en las imágenes;
+  - un selector de zona en NULL ZONE;
+  - ajustar el plan de 5 versiones con humo: `planes/PLAN_NEW_ALCATRAZ_HUMO.md`;
+  - un `.md` de inicio para cualquier LLM: `INICIO_LLM.md`.
+- **`zona1.py`:**
+  - bitmap 4400 (`Lossless2`) y forma 4401 (copia de 4320), insertados antes de 2908;
+  - fotograma 1: quita el 47 y pone 4401 en la 26;
+  - fotograma 16 (CITY): al empezar, quita la 26 y repone el 47.
+  - Verificado con `herramientas/simular_2908.py`: todas las zonas, bien.
+- **Real-ESRGAN sin torch:** `herramientas/esrgan_np.py` carga el `.pth` oficial con un unpickler propio y corre SRVGGNetCompact en numpy (float32), por bloques de 128 con 24 px de solapamiento. Da diferencia 0 contra la imagen entera. Tarda unos 75 s por imagen de 1672×941 en 2 núcleos.
+- **`calidad.lossless2()`:** cielo y suelo de combate, y Zona 1. Además, `p.image()` para 4319 (Labyrinth, desde Real-ESRGAN) y 4323 (Il Sanctus). El SWF pasa a 49,6 MB.
+- **`nz_zonas.as`:** envuelve `__nzZoneReady` y agrega el botón ZONAS. `__zsIr(n)`: `sectionIn = n`, `overMap` y en el fotograma siguiente `Navigation`.
+- **Compilar:** `python3 i38/build.py SONNY2_I38.swf` da `4cd1eac3…3a8f`.
+- **Ruffle:** guiones `s_i38_zonas.json`, `s_i38_nz.json` y `s_i38_batalla.json`.
+
+## 5x. I37, New Alcatraz como el original (01/10)
 
 - **Pedido del usuario (video de I36):** «pareciera que las estructuras fueran solo una imagen y por eso el zoom las corre; pasa con todas las estructuras, pero vamos de a poco». Se arregló solo JAIL.
 - **Cómo es el original** (Ruffle, `BATTLESCREEN` oculto): el cielo 3328 de JAIL es solo cielo + ciudad lejana; los edificios de los costados están en el suelo (`BATTLESCREEN`) y se mueven con el zoom.
@@ -273,12 +300,12 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
 - **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas
 
-- **Zonas:** `KrinScreen` (2908) arranca en el fotograma 1 y salta hacia adelante, así que una colocación en una profundidad ocupada se ignora. Toda zona que pone algo en la 26 tiene que vaciarla antes. Ver `ZONAS_HD.md`.
+- **Zonas:** `KrinScreen` (2908) arranca en el fotograma 1 y salta hacia adelante, así que una colocación en una profundidad ocupada se ignora. Toda zona que pone algo en la 26 tiene que vaciarla antes. Ver `ZONAS_HD.md`. **Ruffle no lo reproduce:** comprobarlo con `trabajo/herramientas/simular_2908.py`.
 
 - Las profundidades AS en `_root` deben estar fuera del rango −16383..−1, porque pisan piezas del juego. `__wsFondo` usa −16384.
 - `getInstanceAtDepth` de una forma o de una profundidad vacía devuelve `_level0` en Ruffle: no usar ese resultado como ruta.

@@ -1,10 +1,17 @@
 # Mod de Sonny 2: estado del proyecto
 
-Última actualización: 01/10/2026 (I37: New Alcatraz con los edificios en el suelo, como el original).
+Última actualización: 01/10/2026 (I38: Zona 1 HD de prueba, imágenes sin pérdida, selector de zona en NULL ZONE).
 
 ## Estado actual
 
-- **I37 (vigente, 01/10):** en JAIL los edificios de los costados pasan a la capa del suelo (siguen la cámara), como en el juego original, donde el cielo 3328 es solo cielo y ciudad lejana. La capa quieta lleva el cielo prolongado detrás de los edificios (`capas.relleno_cielo`), para que el zoom no deje ver un «fantasma». El borde es el contorno medido de los techos (`'poligono'`). El usuario pidió ir de a poco: las demás estructuras (pilares de CHURCH/ROME, etc.) quedan para después. SHA `50c1a33a…640b`.
+- **I38 (vigente, 01/10):**
+  - **Zona 1 New Alcatraz:** la imagen del usuario de prueba (`fondos_hd/world_map/PRISON_Z1*.png`), ampliada con Real-ESRGAN `realesr-animevideov3` (numpy, sin torch). CITY vacía la 26 y repone el marco, para que no vuelva el bug de Hew; verificado con `simular_2908.py`.
+  - **Calidad máxima:** imágenes HD sin pérdida (`Lossless2`) en los combates JAIL y SNOW y en las zonas 1, 4 y 6. El SWF pesa 49,6 MB.
+  - **NULL ZONE:** botón ZONAS para ir a cualquier zona (envuelve `__nzZoneReady`).
+  - **Entregas solo por GitHub** (pedido del usuario).
+  - **Documentos nuevos:** `INICIO_LLM.md` (por dónde empezar para cualquier IA) y `planes/PLAN_NEW_ALCATRAZ_HUMO.md`.
+  - SHA `4cd1eac3…3a8f`.
+- **I37 (01/10):** en JAIL los edificios de los costados pasan a la capa del suelo (siguen la cámara), como en el juego original, donde el cielo 3328 es solo cielo y ciudad lejana. La capa quieta lleva el cielo prolongado detrás de los edificios (`capas.relleno_cielo`), para que el zoom no deje ver un «fantasma». El borde es el contorno medido de los techos (`'poligono'`). El usuario pidió ir de a poco: las demás estructuras (pilares de CHURCH/ROME, etc.) quedan para después. SHA `50c1a33a…640b`.
 - **I36 (01/10):** combate HD solo en New Alcatraz (JAIL) y Oberursel (SNOW), por pedido del usuario; el resto vuelve al fondo clásico.
   - **Bug de I35 en AIR:** todos los combates mostraban CHURCH. Causa: el `gotoAndStop` hacia adelante recorre los fotogramas del contenedor y AIR ignora la colocación en una profundidad ocupada. Ahora cada fotograma vacía las profundidades 1 y 2 antes de colocar.
   - **Zoom:** con SFX3 apagado el juego bajaba la calidad a LOW en cada zoom (imagen pixelada); en HD se mantiene `KrinSettings.QUALITY`.
@@ -682,7 +689,7 @@ En `SONNY2_HD_PARTE2.zip` van `NECESITO.md`, las plantillas con guías, los orig
   1. ~~el menú de habilidades en 2K~~ (I30);
   2. revisar las habilidades: el usuario siente que pocas explotan las marcas (Scent, Wounds, Frostbite), salvo unas cuantas. Lo van a conversar antes de tocar nada.
 - **Menú principal en 2K:** el usuario va a pedirle a ChatGPT el fondo del título en 2560x1440 (con y sin el título «SONNY 2», sin textos ni botones) para integrarlo como los fondos HD.
-- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, los 5 SWF más nuevos (regla del usuario), imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
+- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, los 5 SWF más nuevos (regla del usuario; hoy I34 a I38), imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
 - **«Solo se muestra la primera imagen» (01/10):** resuelto en I36; falta la confirmación del usuario en su app.
 - **2K:** imágenes de pantalla completa para las demás zonas (las da el usuario).
 - **Mod:**
