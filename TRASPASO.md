@@ -1,6 +1,6 @@
 # Traspaso para la siguiente sesión (LLM): mod de Sonny 2, rework del lobo
 
-Última actualización: 01/10/2026. Versión vigente: **I36** (combate HD solo en New Alcatraz y Oberursel, con el arreglo de «siempre CHURCH» en AIR).
+Última actualización: 01/10/2026. Versión vigente: **I37** (New Alcatraz: los edificios van con el suelo, como el original).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -23,7 +23,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I33 | La imagen HD del combate sigue la cámara (zoom y temblor) |
   | I34 | Combate HD en dos capas (cielo quieto y suelo con la cámara) y diálogo al 62 % |
   | I35 | Los 10 fondos de combate en HD (99 combates) y el zoom al 50 % en HD |
-  | **I36** | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
+  | I36 | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
+  | **I37** | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -38,7 +39,7 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
   - no se abre PR salvo que el usuario lo pida;
-  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I32 a I36, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I33 a I37, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
 - **Commits:** terminan con el trailer de la sesión.
 - **Antes de cambiar habilidades:** conversar con el usuario. Ver la sección 6.
 
@@ -88,7 +89,19 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I36, arreglo del combate HD en AIR (01/10)
+## 5. Lo último que se hizo: I37, New Alcatraz como el original (01/10)
+
+- **Pedido del usuario (video de I36):** «pareciera que las estructuras fueran solo una imagen y por eso el zoom las corre; pasa con todas las estructuras, pero vamos de a poco». Se arregló solo JAIL.
+- **Cómo es el original** (Ruffle, `BATTLESCREEN` oculto): el cielo 3328 de JAIL es solo cielo + ciudad lejana; los edificios de los costados están en el suelo (`BATTLESCREEN`) y se mueven con el zoom.
+- **I37:** `capas.BORDES['JAIL'] = ('poligono', puntos, -3, 4, True)`:
+  - el borde es el contorno de los techos (medido cada 50 px: primer borde con gradiente > 45 desde arriba; el techo es curvo) y las paredes interiores (x 751/752 y 1807/1808); en el centro, 612 (pie de la ciudad);
+  - margen −3 (incluye la línea del techo) y fundido de 4 px;
+  - `relleno=True`: la capa quieta se arma con `capas.relleno_cielo()`. En cada fila, lo que queda bajo el borde toma el color del cielo 14 px hacia adentro, y se suaviza (σ 6). Sin esto, el zoom deja ver el edificio viejo detrás del que se mueve.
+- **Regla para los próximos fondos:** lo lejano (cielo, montañas, horizonte) queda quieto; lo cercano (piso, paredes, pilares, rejas) va con el suelo. Si una estructura grande deja un hueco que el relleno no cubre bien, pedirle al usuario una versión «solo fondo» de la imagen (no generarla).
+- **Compilar:** `python3 build.py SONNY2_I37.swf` da `50c1a33a…640b`. Fuente: `trabajo/i37/` o `i37/fuente/`.
+- **Ruffle:** `banco/s_i37.json` (JAIL en reposo y un ataque, con capturas cada 120 ms).
+
+## 5y. I36, arreglo del combate HD en AIR (01/10)
 
 - **El bug (video del usuario, I35):** en su app todos los combates mostraban la imagen de CHURCH. El contenedor `__hdBattleBG` tiene un fotograma por imagen y todas van en las profundidades 1 y 2. `gotoAndStop(etiqueta)` hacia adelante recorre los fotogramas intermedios y Flash/AIR **ignora una colocación en una profundidad ocupada**, así que quedaba la del primer fotograma (CHURCH). Ruffle no lo reproduce. Arreglo: cada fotograma del contenedor quita las profundidades 1 y 2 antes de colocar (`batalla.py`). Es la misma trampa que el bug de Hew (I31).
 - **Calidad en el zoom:** con la opción SFX3 apagada, `GridZoomer` (3345, fotogramas 2 y 6) baja `_quality` a `LOW` mientras dura el zoom, y la imagen HD se dibuja sin suavizado (pilares pixelados). En HD se vuelve a `KrinSettings.QUALITY` al final de esos dos scripts (`CALIDAD` en `build.py`).
@@ -260,7 +273,7 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
 - **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas

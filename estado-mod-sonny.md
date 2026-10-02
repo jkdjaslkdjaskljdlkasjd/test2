@@ -1,10 +1,11 @@
 # Mod de Sonny 2: estado del proyecto
 
-Última actualización: 01/10/2026 (I36: combate HD en JAIL y SNOW, arreglado para AIR).
+Última actualización: 01/10/2026 (I37: New Alcatraz con los edificios en el suelo, como el original).
 
 ## Estado actual
 
-- **I36 (vigente, 01/10):** combate HD solo en New Alcatraz (JAIL) y Oberursel (SNOW), por pedido del usuario; el resto vuelve al fondo clásico.
+- **I37 (vigente, 01/10):** en JAIL los edificios de los costados pasan a la capa del suelo (siguen la cámara), como en el juego original, donde el cielo 3328 es solo cielo y ciudad lejana. La capa quieta lleva el cielo prolongado detrás de los edificios (`capas.relleno_cielo`), para que el zoom no deje ver un «fantasma». El borde es el contorno medido de los techos (`'poligono'`). El usuario pidió ir de a poco: las demás estructuras (pilares de CHURCH/ROME, etc.) quedan para después. SHA `50c1a33a…640b`.
+- **I36 (01/10):** combate HD solo en New Alcatraz (JAIL) y Oberursel (SNOW), por pedido del usuario; el resto vuelve al fondo clásico.
   - **Bug de I35 en AIR:** todos los combates mostraban CHURCH. Causa: el `gotoAndStop` hacia adelante recorre los fotogramas del contenedor y AIR ignora la colocación en una profundidad ocupada. Ahora cada fotograma vacía las profundidades 1 y 2 antes de colocar.
   - **Zoom:** con SFX3 apagado el juego bajaba la calidad a LOW en cada zoom (imagen pixelada); en HD se mantiene `KrinSettings.QUALITY`.
   - **JAIL:** el borde entre capas sigue la base de los edificios (antes una línea recta los cortaba en el zoom).
