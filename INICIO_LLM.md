@@ -64,7 +64,7 @@ El mod hace dos cosas:
 9. **Nunca correr una simulación Heroic.**
 10. **Commits de Claude:** terminan con su trailer de sesión.
 
-## 5. Estado actual (versión vigente: I38, 01/10/2026)
+## 5. Estado actual (versión vigente: I39, 01/10/2026)
 
 | Pantalla | Estado |
 |---|---|
@@ -73,12 +73,20 @@ El mod hace dos cosas:
 | Zona 3 tren, Zona 5 Hew y Zona 7 Japón | Arte original |
 | Zona 4 Labyrinth y Zona 6 Il Sanctus | HD (I31). Desde I38, sin pérdida; Labyrinth ampliada con Real-ESRGAN |
 | NULL ZONE (zona del usuario) | HD. Desde I38 tiene el botón **ZONAS**, que lleva a cualquier zona para probar |
-| **Combates HD** | Solo **New Alcatraz (JAIL)** y **Oberursel (SNOW)**. Los otros 8 fondos están en la fuente, apagados |
+| **Combates HD** | **Los 10 fondos activos** (desde I39): las 12 combinaciones de suelo y cielo, es decir, los 99 combates. JAIL ya tiene el corte final entre capas; los demás todavía usan el de I35 |
 
 **Pendientes, en orden:**
-1. **El usuario prueba I38 en su app:** Zona 1 HD, el botón ZONAS, los combates JAIL y SNOW, y que Hew siga bien después de la cárcel.
-2. **Las 5 versiones con humo de New Alcatraz,** según el plan de `planes/`.
-3. **Reactivar los demás fondos de combate, uno por uno**, con la regla de las dos capas (sección 6). CHURCH y ROME necesitan una versión «sin pilares» de su imagen, que la genera la IA de imágenes.
+1. **El usuario prueba I39 en su app:**
+   - todos los combates;
+   - la Zona 1 HD;
+   - el botón ZONAS;
+   - que Hew siga bien después de la cárcel.
+2. **Arreglar el corte entre capas, fondo por fondo**, con la regla de la sección 6:
+   - **CHURCH y ROME:** los pilares se parten con el zoom. Hace falta una versión «sin pilares» de cada imagen, que la genera la IA de imágenes;
+   - **TRAIN:** la base de los paneles;
+   - **STREETS2:** el pie de las columnas;
+   - el resto, según el video del usuario. La tabla está en `i39/LEEME.md`.
+3. **Las 5 versiones con humo de New Alcatraz,** según el plan de `planes/`.
 4. **`fondos_hd/world_map/VILLAGE_Z2.jpg` y `ROME_Z6.jpg`:** las subió el usuario, pero todavía no están en el juego. Preguntar si van y, si van, pedir el PNG sin pérdida.
 
 ## 6. Reglas para las imágenes HD
@@ -113,8 +121,8 @@ El mod hace dos cosas:
 
 ```
 cd trabajo && sh preparar.sh            # arma act1/act3/base1 (una vez por contenedor)
-python3 i38/build.py SONNY2_I38.swf     # mismo SHA que i38/SONNY2.swf
-python3 i38/build.py X.swf --debug      # con el gancho para el banco de Ruffle
+python3 i39/build.py SONNY2_I39.swf     # mismo SHA que i39/SONNY2.swf
+python3 i39/build.py X.swf --debug      # con el gancho para el banco de Ruffle
 ```
 
 - **El banco de Ruffle:**
@@ -123,6 +131,8 @@ python3 i38/build.py X.swf --debug      # con el gancho para el banco de Ruffle
 - **En el juego:** NULL ZONE → botón **ZONAS** → la zona que se quiera probar.
 
 ## 9. Registro de sesiones (agregar una línea al terminar, la más nueva arriba)
+
+- **01/10/2026, Claude:** I39, con los 10 fondos de combate activos, sin pérdida. Probados en Ruffle; quedan anotados los arreglos de cada mapa.
 
 - **01/10/2026, Claude:**
   - I38: Zona 1 con la imagen HD del usuario (de prueba, ampliada con Real-ESRGAN), imágenes sin pérdida, botón ZONAS en NULL ZONE;

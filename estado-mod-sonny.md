@@ -1,10 +1,14 @@
 # Mod de Sonny 2: estado del proyecto
 
-Última actualización: 01/10/2026 (I38: Zona 1 HD de prueba, imágenes sin pérdida, selector de zona en NULL ZONE).
+Última actualización: 01/10/2026 (I39: los 10 fondos de combate HD activos).
 
 ## Estado actual
 
-- **I38 (vigente, 01/10):**
+- **I39 (vigente, 01/10):** activos los 10 fondos de combate (12 combinaciones, 99 combates), sin pérdida y en dos capas.
+  - Pedido del usuario: activar todos ahora y ver los arreglos después.
+  - Arreglos pendientes del corte entre capas: CHURCH/ROME (pilares; hace falta una imagen sin pilares), TRAIN (paneles), STREETS2 (columnas); el resto, según el video del usuario.
+  - SWF de 77,5 MB. SHA `eb340217…d64a`.
+- **I38 (01/10):**
   - **Zona 1 New Alcatraz:** la imagen del usuario de prueba (`fondos_hd/world_map/PRISON_Z1*.png`), ampliada con Real-ESRGAN `realesr-animevideov3` (numpy, sin torch). CITY vacía la 26 y repone el marco, para que no vuelva el bug de Hew; verificado con `simular_2908.py`.
   - **Calidad máxima:** imágenes HD sin pérdida (`Lossless2`) en los combates JAIL y SNOW y en las zonas 1, 4 y 6. El SWF pesa 49,6 MB.
   - **NULL ZONE:** botón ZONAS para ir a cualquier zona (envuelve `__nzZoneReady`).
@@ -689,7 +693,7 @@ En `SONNY2_HD_PARTE2.zip` van `NECESITO.md`, las plantillas con guías, los orig
   1. ~~el menú de habilidades en 2K~~ (I30);
   2. revisar las habilidades: el usuario siente que pocas explotan las marcas (Scent, Wounds, Frostbite), salvo unas cuantas. Lo van a conversar antes de tocar nada.
 - **Menú principal en 2K:** el usuario va a pedirle a ChatGPT el fondo del título en 2560x1440 (con y sin el título «SONNY 2», sin textos ni botones) para integrarlo como los fondos HD.
-- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, los 5 SWF más nuevos (regla del usuario; hoy I34 a I38), imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
+- **Repositorio GitHub:** desde el 01/10/2026 es `jkdjaslkdjaskljdlkasjd/test2` (privada, rama `main`), con todo: fuente, los 5 SWF más nuevos (regla del usuario; hoy I35 a I39), imágenes, capturas y `trabajo/` (base compilable, con el contenido de `DECOMPILACION_PASO5.zip`). `a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test` (públicas, solo fuente y textos) quedan como historial.
 - **«Solo se muestra la primera imagen» (01/10):** resuelto en I36; falta la confirmación del usuario en su app.
 - **2K:** imágenes de pantalla completa para las demás zonas (las da el usuario).
 - **Mod:**

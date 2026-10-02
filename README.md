@@ -19,16 +19,17 @@ Repositorio del mod de Sonny 2.
 - `i35/`: los 10 fondos de combate en HD (los 99 combates) y el zoom al 50 % en HD.
 - `i36/`: combate HD solo en New Alcatraz y Oberursel, con el arreglo de «siempre CHURCH» en AIR y sin pixelado en el zoom. La guía está en `i36/documentacion/COMBATE_HD.md`.
 - `i37/`: New Alcatraz como el original: los edificios se mueven con el suelo en el zoom y la capa quieta es solo cielo y ciudad lejana.
-- `i38/`: Zona 1 New Alcatraz HD (prueba, ampliada con Real-ESRGAN), imágenes HD sin pérdida y botón ZONAS en NULL ZONE para probar. **Versión vigente.**
+- `i38/`: Zona 1 New Alcatraz HD (prueba, ampliada con Real-ESRGAN), imágenes HD sin pérdida y botón ZONAS en NULL ZONE para probar.
+- `i39/`: los 10 fondos de combate HD activos (los 99 combates), sin pérdida. Los arreglos pendientes de cada mapa están en su `LEEME.md`. **Versión vigente.**
 - `planes/`: planes de arte para la IA de imágenes (`PLAN_NEW_ALCATRAZ_HUMO.md`).
 - `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. Los mapas limpios son `world_map/VILLAGE_Z2.jpg` (Oberursel) y `world_map/ROME_Z6.jpg` (Il Sanctus), ambos de 2560x1440, y `world_map/PRISON_Z1.png` (New Alcatraz, 1672x941; `PRISON_Z1_2560x1440.png` es la ampliada con Real-ESRGAN que usa I38).
 - `instalador/`: `INSTALAR.bat` y `RESTAURAR.bat` (copian `SONNY2.swf` a la carpeta del juego de Steam con respaldo).
 
-- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`) con `trabajo/i37/build.py`, I37 (`50c1a33a…640b`), y con `trabajo/i38/build.py`, I38 (`4cd1eac3…3a8f`).
+- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`) con `trabajo/i37/build.py`, I37 (`50c1a33a…640b`), con `trabajo/i38/build.py`, I38 (`4cd1eac3…3a8f`), y con `trabajo/i39/build.py`, I39 (`eb340217…d64a`).
   - `bases/SONNY2_29-09.swf`: el SWF de I30 del que parten I31 a I35;
   - `paso5/`: el contenido de `DECOMPILACION_PASO5.zip` (herramientas, juego base recompilado y su descompilación);
-  - `i31/`, `i35/` a `i38/`: la fuente de trabajo, con las imágenes;
+  - `i31/`, `i35/` a `i39/`: la fuente de trabajo, con las imágenes;
   - `herramientas/`: `esrgan_np.py` (Real-ESRGAN `realesr-animevideov3` en numpy, con los pesos oficiales) y `simular_2908.py` (comprueba la regla de la capa 26 de las zonas, que Ruffle no reproduce).
-- **SWF:** se guardan solo los 5 más nuevos (regla del usuario), cada uno en `iNN/SONNY2.swf`: hoy I34 a I38. El vigente es `i38/SONNY2.swf`, para instalar con `instalador/INSTALAR.bat`. Los anteriores se recompilan desde su fuente.
+- **SWF:** se guardan solo los 5 más nuevos (regla del usuario), cada uno en `iNN/SONNY2.swf`: hoy I35 a I39. El vigente es `i39/SONNY2.swf`, para instalar con `instalador/INSTALAR.bat`. Los anteriores se recompilan desde su fuente.
 
 La repo es privada, así que lleva también el SWF, las imágenes y las capturas.

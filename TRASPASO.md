@@ -2,7 +2,7 @@
 
 > **Si eres una IA que recién llega, lee primero `INICIO_LLM.md`** (por dónde empezar, quién hace qué, reglas y estado). Este archivo es el detalle técnico.
 
-Última actualización: 01/10/2026. Versión vigente: **I38** (Zona 1 New Alcatraz HD de prueba, imágenes sin pérdida y botón ZONAS en NULL ZONE).
+Última actualización: 01/10/2026. Versión vigente: **I39** (los 10 fondos de combate HD activos, sin pérdida; además, lo de I38: Zona 1 HD de prueba y botón ZONAS en NULL ZONE).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -27,7 +27,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I35 | Los 10 fondos de combate en HD (99 combates) y el zoom al 50 % en HD |
   | I36 | Combate HD solo en JAIL y SNOW; arreglo de «siempre CHURCH» en AIR; sin bajar a LOW en el zoom; JPEG 95 |
   | I37 | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
-  | **I38** | Zona 1 New Alcatraz HD (prueba, Real-ESRGAN); imágenes HD sin pérdida; botón ZONAS en NULL ZONE |
+  | I38 | Zona 1 New Alcatraz HD (prueba, Real-ESRGAN); imágenes HD sin pérdida; botón ZONAS en NULL ZONE |
+  | **I39** | Los 10 fondos de combate HD activos (12 combinaciones, 99 combates), sin pérdida |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -42,7 +43,7 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
   - no se abre PR salvo que el usuario lo pida;
-  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I34 a I38, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I35 a I39, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
 - **Entregas (desde el 01/10):** solo por GitHub. No subir zips ni archivos al chat de Claude: tiene un límite de 30 MB y comprime.
 - **Calidad máxima en imágenes (desde el 01/10):**
   - bitmaps sin pérdida (`DefineBitsLossless2`) y PNG; nada de JPEG;
@@ -97,7 +98,23 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I38 (01/10)
+## 5. Lo último que se hizo: I39, todos los fondos de combate (01/10)
+
+- **Pedido del usuario:** «implementa todas las etapas de batallas; luego vemos los arreglos correspondientes».
+- **Cambios:**
+  - `capas.ACTIVOS` tiene los 10 fondos: JAIL, SNOW, TRAIN, TUNNEL, STREETS, STREETS2, STREETS3, CHURCH, ROME y SEA;
+  - `__hdBattleMap` tiene las 12 combinaciones;
+  - los ids van de 4341 a 4390, cinco por imagen, y no chocan con 4400/4401 (Zona 1).
+- **Tamaño:** el SWF pesa 77,5 MB, por los bitmaps sin pérdida. El límite de GitHub es 100 MB por archivo.
+  - Si hace falta espacio, recortar el bitmap del suelo a la parte con alfa > 0: hoy es la imagen entera, con alfa 0 arriba.
+- **Pendiente:** el corte entre capas de cada fondo nuevo es el de I35. La tabla de arreglos está en `i39/LEEME.md`:
+  - CHURCH/ROME: pilares, que necesitan una imagen «sin pilares»;
+  - TRAIN: paneles;
+  - STREETS2: columnas.
+- **Compilar:** `python3 i39/build.py SONNY2_I39.swf` da `eb340217…d64a`.
+- **Ruffle:** `s_i39_1.json`, `s_i39_2.json` y `s_i39_3.json`, cuatro combinaciones cada uno; juntos pasan de los 10 minutos que dura un comando.
+
+## 5w. I38 (01/10)
 
 - **Pedido:**
   - probar en la Zona 1 la imagen de New Alcatraz que mandó el usuario y guardarla en `fondos_hd/world_map/`;
@@ -300,7 +317,7 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i39/build.py SONNY2_I39.swf` (sale `eb340217…d64a`), `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
 - **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas
