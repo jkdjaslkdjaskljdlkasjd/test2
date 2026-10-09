@@ -21,16 +21,17 @@ Repositorio del mod de Sonny 2.
 - `i37/`: New Alcatraz como el original: los edificios se mueven con el suelo en el zoom y la capa quieta es solo cielo y ciudad lejana.
 - `i38/`: Zona 1 New Alcatraz HD (prueba, ampliada con Real-ESRGAN), imágenes HD sin pérdida y botón ZONAS en NULL ZONE para probar.
 - `i39/`: los 10 fondos de combate HD activos (los 99 combates), sin pérdida. Los arreglos pendientes de cada mapa están en su `LEEME.md`.
-- `i40/`: la Zona 3 (el tren) en HD, con el parpadeo cálido/azul del original; imágenes en JPEG 97 4:4:4 (SWF de 42 MB). **Versión vigente.**
-- `planes/`: planes de arte para la IA de imágenes (`PLAN_NEW_ALCATRAZ_HUMO.md`).
-- `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. Los mapas limpios son `world_map/VILLAGE_Z2.jpg` (Oberursel) y `world_map/ROME_Z6.jpg` (Il Sanctus), ambos de 2560x1440, `world_map/PRISON_Z1.png` (New Alcatraz, 1672x941; `PRISON_Z1_2560x1440.png` es la ampliada con Real-ESRGAN) y `world_map/TRAIN_Z3_calido.png` / `TRAIN_Z3_azul.png` (el tren, 1673x941, con sus versiones `_2560x1440`).
+- `i40/`: la Zona 3 (el tren) en HD, con el parpadeo cálido/azul del original; imágenes en JPEG 97 4:4:4 (SWF de 42 MB).
+- `i41/`: la nueva New Alcatraz HD (v2 del usuario) en la Zona 1. **Versión vigente.**
+- `planes/`: planes y prompts de arte para la IA de imágenes (`PLAN_NEW_ALCATRAZ_HUMO.md`, `PROMPT_TREN_LUCES.md`).
+- `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. Los mapas limpios son `world_map/VILLAGE_Z2.jpg` (Oberursel) y `world_map/ROME_Z6.jpg` (Il Sanctus), ambos de 2560x1440, `world_map/PRISON_Z1.png` (New Alcatraz v2, 1672x941; `PRISON_Z1_2560x1440.png` es la ampliada con Real-ESRGAN; la v1 está en `PRISON_Z1_v1*`) y `world_map/TRAIN_Z3_calido.png` / `TRAIN_Z3_azul.png` (el tren, 1673x941, con sus versiones `_2560x1440`).
 - `instalador/`: `INSTALAR.bat` y `RESTAURAR.bat` (copian `SONNY2.swf` a la carpeta del juego de Steam con respaldo).
 
-- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`) con `trabajo/i37/build.py`, I37 (`50c1a33a…640b`), con `trabajo/i38/build.py`, I38 (`4cd1eac3…3a8f`), con `trabajo/i39/build.py`, I39 (`eb340217…d64a`), y con `trabajo/i40/build.py`, I40 (`0142abdd…ed64`).
+- `trabajo/`: la base para compilar. `sh trabajo/preparar.sh` y después `python3 trabajo/i35/build.py SONNY2_I35.swf` dan el mismo SWF que I35 (SHA `5d5a9beb…576e`); con `trabajo/i36/build.py` sale I36 (`49a3537f…2cfd`) con `trabajo/i37/build.py`, I37 (`50c1a33a…640b`), con `trabajo/i38/build.py`, I38 (`4cd1eac3…3a8f`), con `trabajo/i39/build.py`, I39 (`eb340217…d64a`), con `trabajo/i40/build.py`, I40 (`0142abdd…ed64`), y con `trabajo/i41/build.py`, I41 (`6b26ee6d…8812`).
   - `bases/SONNY2_29-09.swf`: el SWF de I30 del que parten I31 a I35;
   - `paso5/`: el contenido de `DECOMPILACION_PASO5.zip` (herramientas, juego base recompilado y su descompilación);
-  - `i31/`, `i35/` a `i40/`: la fuente de trabajo, con las imágenes;
+  - `i31/`, `i35/` a `i41/`: la fuente de trabajo, con las imágenes;
   - `herramientas/`: `esrgan_np.py` (Real-ESRGAN `realesr-animevideov3` en numpy, con los pesos oficiales) y `simular_2908.py` (comprueba la regla de la capa 26 de las zonas, que Ruffle no reproduce).
-- **SWF:** se guardan solo los 5 más nuevos (regla del usuario), cada uno en `iNN/SONNY2.swf`: hoy I36 a I40. El vigente es `i40/SONNY2.swf`, para instalar con `instalador/INSTALAR.bat`. Los anteriores se recompilan desde su fuente.
+- **SWF:** se guardan solo los 5 más nuevos (regla del usuario), cada uno en `iNN/SONNY2.swf`: hoy I37 a I41. El vigente es `i41/SONNY2.swf`, para instalar con `instalador/INSTALAR.bat`. Los anteriores se recompilan desde su fuente.
 
 La repo es privada, así que lleva también el SWF, las imágenes y las capturas.

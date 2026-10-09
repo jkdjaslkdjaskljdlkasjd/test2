@@ -65,11 +65,11 @@ El mod hace dos cosas:
 9. **Nunca correr una simulación Heroic.**
 10. **Commits de Claude:** terminan con su trailer de sesión.
 
-## 5. Estado actual (versión vigente: I40, 02/10/2026)
+## 5. Estado actual (versión vigente: I41, 02/10/2026)
 
 | Pantalla | Estado |
 |---|---|
-| **Zona 1 New Alcatraz** (pantalla de zona) | **HD de prueba** (`fondos_hd/world_map/PRISON_Z1*.png`). Hay un plan de 5 versiones con humo: `planes/PLAN_NEW_ALCATRAZ_HUMO.md` |
+| **Zona 1 New Alcatraz** (pantalla de zona) | **HD, imagen v2 del usuario desde I41** (`fondos_hd/world_map/PRISON_Z1*.png`; la v1 está en `PRISON_Z1_v1*`). Hay un plan de 5 versiones con humo: `planes/PLAN_NEW_ALCATRAZ_HUMO.md` |
 | Zona 2 Oberursel | HD (desde I19) |
 | **Zona 3, el tren** | **HD desde I40**: las dos imágenes del usuario (cálida y azul) parpadean como el original. Las luces de las ventanas quedan tapadas, pendiente de decidir |
 | Zona 5 Hew y Zona 7 Japón | Arte original |
@@ -78,7 +78,7 @@ El mod hace dos cosas:
 | **Combates HD** | **Los 10 fondos activos** (desde I39): las 12 combinaciones de suelo y cielo, es decir, los 99 combates. JAIL ya tiene el corte final entre capas; los demás todavía usan el de I35 |
 
 **Pendientes, en orden:**
-1. **El usuario prueba I40 en su app:**
+1. **El usuario prueba I41 en su app:**
    - el tren;
    - todos los combates;
    - la Zona 1 HD;
@@ -90,7 +90,7 @@ El mod hace dos cosas:
    - **STREETS2:** el pie de las columnas;
    - el resto, según el video del usuario. La tabla está en `i39/LEEME.md`.
 3. **Las 5 versiones con humo de New Alcatraz,** según el plan de `planes/`.
-4. **El tren:** decidir si se recuperan las luces que pasan por las ventanas (`ZONAS_HD.md`, sección 6c).
+4. **El tren:** recuperar las luces que pasan por las ventanas. El prompt para ChatGPT está en `planes/PROMPT_TREN_LUCES.md`: pide la máscara de las ventanas y el haz de luz. Ver también `ZONAS_HD.md`, sección 6c.
 4. **`fondos_hd/world_map/VILLAGE_Z2.jpg` y `ROME_Z6.jpg`:** las subió el usuario, pero todavía no están en el juego. Preguntar si van y, si van, pedir el PNG sin pérdida.
 
 ## 6. Reglas para las imágenes HD
@@ -125,8 +125,8 @@ El mod hace dos cosas:
 
 ```
 cd trabajo && sh preparar.sh            # arma act1/act3/base1 (una vez por contenedor)
-python3 i40/build.py SONNY2_I40.swf     # mismo SHA que i40/SONNY2.swf
-python3 i40/build.py X.swf --debug      # con el gancho para el banco de Ruffle
+python3 i41/build.py SONNY2_I41.swf     # mismo SHA que i41/SONNY2.swf
+python3 i41/build.py X.swf --debug      # con el gancho para el banco de Ruffle
 ```
 
 - **El banco de Ruffle:**
@@ -135,6 +135,8 @@ python3 i40/build.py X.swf --debug      # con el gancho para el banco de Ruffle
 - **En el juego:** NULL ZONE → botón **ZONAS** → la zona que se quiera probar.
 
 ## 9. Registro de sesiones (agregar una línea al terminar, la más nueva arriba)
+
+- **02/10/2026, Claude:** I41, con la nueva New Alcatraz HD (v2 del usuario) en la Zona 1. También dejó el prompt de las luces del tren (`planes/PROMPT_TREN_LUCES.md`).
 
 - **02/10/2026, Claude:** I40, con el tren en HD (con el parpadeo cálido/azul del original) y las imágenes en JPEG 97 4:4:4. El SWF pasa de 77,5 a 42,3 MB.
 

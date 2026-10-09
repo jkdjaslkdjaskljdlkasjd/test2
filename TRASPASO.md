@@ -2,7 +2,7 @@
 
 > **Si eres una IA que recién llega, lee primero `INICIO_LLM.md`** (por dónde empezar, quién hace qué, reglas y estado). Este archivo es el detalle técnico.
 
-Última actualización: 01/10/2026. Versión vigente: **I40** (Zona 3, el tren, en HD con el parpadeo del original; imágenes en JPEG 97 4:4:4; los 10 fondos de combate; Zona 1 HD de prueba; botón ZONAS en NULL ZONE).
+Última actualización: 01/10/2026. Versión vigente: **I41** (nueva New Alcatraz HD en la Zona 1; además, de I40: Zona 3, el tren, en HD con el parpadeo del original; imágenes en JPEG 97 4:4:4; los 10 fondos de combate; Zona 1 HD de prueba; botón ZONAS en NULL ZONE).
 
 Este documento resume lo último que se hizo y cómo seguir. El historial completo está en `estado-mod-sonny.md`, y cada versión tiene su `LEEME.md` en `iNN/`.
 
@@ -29,7 +29,8 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   | I37 | JAIL: los edificios van con el suelo (capa que sigue la cámara) y la capa quieta lleva el cielo prolongado detrás |
   | I38 | Zona 1 New Alcatraz HD (prueba, Real-ESRGAN); imágenes HD sin pérdida; botón ZONAS en NULL ZONE |
   | I39 | Los 10 fondos de combate HD activos (12 combinaciones, 99 combates), sin pérdida |
-  | **I40** | Zona 3 (tren) HD con el parpadeo cálido/azul; imágenes en JPEG 97 4:4:4 (SWF de 42 MB) |
+  | I40 | Zona 3 (tren) HD con el parpadeo cálido/azul; imágenes en JPEG 97 4:4:4 (SWF de 42 MB) |
+  | **I41** | Zona 1: la imagen nueva de New Alcatraz del usuario (v2) |
 
 ## 2. Reglas del usuario (vigentes, respetarlas siempre)
 
@@ -44,7 +45,7 @@ Este documento resume lo último que se hizo y cómo seguir. El historial comple
   - desde el 01/10/2026 es **`jkdjaslkdjaskljdlkasjd/test2`**, **privada**, rama `main`. Ahí va todo: fuente, textos, el SWF vigente, las imágenes, las capturas y la base de trabajo (`trabajo/`);
   - las anteriores (`a7kp2mq9xx-cyber/test` y `jkdjaslkdjaskljdlkasjd/test`, públicas) quedan como historial y solo tienen fuente y textos;
   - no se abre PR salvo que el usuario lo pida;
-  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I36 a I40, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
+  - **regla de oro del usuario:** en la repo quedan solo los **5 SWF más nuevos** (hoy I37 a I41, cada uno en `iNN/SONNY2.swf`). Al subir uno nuevo se borra el más viejo; los anteriores se recompilan desde su fuente.
 - **Entregas (desde el 01/10):** solo por GitHub. No subir zips ni archivos al chat de Claude: tiene un límite de 30 MB y comprime.
 - **Calidad de las imágenes:**
   - el 01/10 el usuario pidió calidad máxima: sin pérdida (I38–I39);
@@ -101,7 +102,14 @@ cd tests && python3 test_rework.py  # banco AVM1 fiel: 312 comprobaciones, todas
 5. Para crear una partida rápida, usar `inicio()` de `mk.py`. Para que el árbol de clase tenga datos: `{"dbg": "call _root.loadTalents 0"}`.
 6. Asignar una habilidad a la barra de combate son dos clics: uno en el Ability Pool y otro en la casilla. No se arrastra.
 
-## 5. Lo último que se hizo: I40, el tren en HD y el SWF más liviano (02/10)
+## 5. Lo último que se hizo: I41, nueva New Alcatraz (02/10)
+
+- La Zona 1 usa la imagen v2 del usuario: en `zona1.py`, `SRC = fuente/zonas/PRISON_Z1_v2_2560x1440_esrgan.png` (Real-ESRGAN + Lanczos).
+- La v1 queda en `fondos_hd/world_map/PRISON_Z1_v1*.png`.
+- **Compilar:** `python3 i41/build.py SONNY2_I41.swf` da `6b26ee6d…8812`.
+- **Pendiente:** el usuario tiene el prompt para que ChatGPT haga la máscara de las ventanas del tren y el haz de luz (`planes/PROMPT_TREN_LUCES.md`). Con esas dos imágenes se rearman las luces que pasan por las ventanas.
+
+## 5u. I40, el tren en HD y el SWF más liviano (02/10)
 
 - **Pedido del usuario:**
   - bajar un poco el peso de las imágenes sin perder mucha calidad;
@@ -335,7 +343,7 @@ Las descripciones completas, al rango máximo, se obtienen con el banco: `b.call
 - Las imágenes HD de las demás zonas (cárcel definitiva, Hew, tren, Japón y fondos de combate): las da el usuario. Agregarlas siguiendo `i31/documentacion/ZONAS_HD.md`.
 - El fondo del menú principal en 2K: el usuario lo pide a otra herramienta.
 - Traducir los diálogos, cuando el usuario lo pida.
-- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i40/build.py SONNY2_I40.swf` (sale `0142abdd…ed64`), `python3 i39/build.py SONNY2_I39.swf` (sale `eb340217…d64a`), `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
+- **Compilar desde la repo (contenedor nuevo):** `cd trabajo && sh preparar.sh` (arma `act1`, `act3` y `base1` con las herramientas de `paso5/tools`) y después `python3 i41/build.py SONNY2_I41.swf` (sale `6b26ee6d…8812`), `python3 i40/build.py SONNY2_I40.swf` (sale `0142abdd…ed64`), `python3 i39/build.py SONNY2_I39.swf` (sale `eb340217…d64a`), `python3 i38/build.py SONNY2_I38.swf` (sale `4cd1eac3…3a8f`), `python3 i37/build.py SONNY2_I37.swf` (sale `50c1a33a…640b`), `python3 i36/build.py SONNY2_I36.swf` (sale `49a3537f…2cfd`) o `python3 i35/build.py SONNY2_I35.swf` (sale `5d5a9beb…576e`). `trabajo/paso5/` es el contenido de `DECOMPILACION_PASO5.zip`; `trabajo/bases/SONNY2_29-09.swf` es el SWF del usuario del 29/09 (I30).
 - **Resuelto en I36:** «solo se muestra la primera imagen» (era la profundidad ocupada en el `gotoAndStop`). Falta que el usuario lo confirme en su app.
 
 ## 8. Trampas técnicas conocidas

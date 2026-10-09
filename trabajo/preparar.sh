@@ -4,7 +4,7 @@
 #   act3  = act1 descompilado con swfcode
 #   base1 = juego base del paso 5, recompilado (f6a98433...), separado con swfsplit
 # Uso:  cd trabajo && sh preparar.sh
-#       python3 i40/build.py SONNY2_I40.swf      (sale 0142abdd...ed64)
+#       python3 i41/build.py SONNY2_I41.swf      (sale 6b26ee6d...8812)
 set -e
 cd "$(dirname "$0")"
 python3 paso5/tools/swfsplit.py bases/SONNY2_29-09.swf act1
