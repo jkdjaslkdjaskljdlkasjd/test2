@@ -1,0 +1,67 @@
+[
+ {
+  "animacion": "stand",
+  "fotograma": 1,
+  "iou_alfa": 0.947
+ },
+ {
+  "animacion": "run",
+  "fotograma": 46,
+  "iou_alfa": 0.9493
+ },
+ {
+  "animacion": "Attack_Upper",
+  "fotograma": 78,
+  "iou_alfa": 0.9571
+ },
+ {
+  "animacion": "Attack_Stab",
+  "fotograma": 108,
+  "iou_alfa": 0.9571
+ },
+ {
+  "animacion": "Attack",
+  "fotograma": 138,
+  "iou_alfa": 0.9571
+ },
+ {
+  "animacion": "attack2",
+  "fotograma": 153,
+  "iou_alfa": 0.2198
+ },
+ {
+  "animacion": "runback",
+  "fotograma": 168,
+  "iou_alfa": 0.9516
+ },
+ {
+  "animacion": "cast",
+  "fotograma": 189,
+  "iou_alfa": 0.947
+ },
+ {
+  "animacion": "stun",
+  "fotograma": 220,
+  "iou_alfa": 0.9534
+ },
+ {
+  "animacion": "stun2",
+  "fotograma": 240,
+  "iou_alfa": 0.8386
+ },
+ {
+  "animacion": "outofstun",
+  "fotograma": 280,
+  "iou_alfa": 0.9509
+ },
+ {
+  "animacion": "hit",
+  "fotograma": 296,
+  "iou_alfa": 0.9503
+ },
+ {
+  "animacion": "dead",
+  "fotograma": 313,
+  "iou_alfa": 0.9503
+ }
+]
