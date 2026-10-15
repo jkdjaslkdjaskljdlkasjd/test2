@@ -35,6 +35,10 @@ integración en Godot.
 | `04_Personajes/apariencias/` | 145 apariencias únicas. Cada una incluye: SWF de reconstrucción, informe de ensamblaje, poses (primer fotograma de cada animación) en PNG ×2, fotograma 1 en SVG y lámina |
 | `05_Catalogo/` | `catalogo_recursos.csv/json` y `catalogo_personajes.csv/json` |
 | `06_Laminas/` | Láminas visuales |
+| `07_Audio_Uso/` | Quién usa cada uno de los 147 sonidos y cuándo suena: voces de golpe y muerte por personaje, diálogos con combate `KBR<n>` y frase, sonidos de movimientos, música (`soundPlayArray`, `_music_boss`) y las 7 pistas de cinemáticas con su etiqueta |
+| `08_Interfaz/` | 138 botones y 226 textos organizados por pantalla, con instancia, estados up/over/down/hit (95 son zonas de clic invisibles), acción de cada botón y láminas por pantalla |
+| `09_Escenarios/` | Capas de las 34 pantallas (posición, profundidad, escala, color, filtros, capas del mod HD marcadas), cielo y suelo de combate por etiqueta con render, los 99 combates con su fondo y el código de cámara, zoom y temblor |
+| `10_Godot_Animaciones/` | Escenas Godot 4 de los 145 personajes con `AnimationPlayer` (todas las etiquetas del `MODEL`, transformaciones exactas, efectos animados). Verificadas fotograma a fotograma contra JPEXS; no integradas en el proyecto |
 | `90_Registro/` | `registro_extraccion.md`, versiones de las herramientas, herramientas y registros de JPEXS |
 | `LIMITACIONES.md` | Qué no se pudo hacer o no está comprobado |
 
@@ -62,3 +66,13 @@ integración en Godot.
   comparación píxel a píxel con Flash Player (ver `LIMITACIONES.md`).
 - **Personajes desconocidos.** `DESCONOCIDO` en `personajes_con_evidencia` = pieza sin personaje en el código original.
   Hay 126 piezas así; 102 solo aparecen en el catálogo del mod.
+
+## Estado por bloque (15-10-2026)
+| Bloque | Extracción | Trabajo adicional |
+|---|---|---|
+| Personajes y equipo | Completa | Ensamblaje según código: 145 apariencias |
+| Animaciones | Completa (JSON) | Convertidas a Godot 4 (145 escenas); faltan el shader de desenfoque y la prueba en el editor |
+| Audio | Completa | Uso documentado: quién y cuándo (`07_Audio_Uso`) |
+| Escenarios | Completa | Capas, posiciones, fondos de combate y combates (`09_Escenarios`); sin reconstruir en Godot |
+| Interfaz | Completa | Organizada por pantalla con estados y acciones (`08_Interfaz`); sin reconstruir en Godot |
+| Código | Completo | Usado para documentar personajes, audio, interfaz, escenarios y animaciones |
