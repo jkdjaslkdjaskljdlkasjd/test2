@@ -1,0 +1,269 @@
+ConstantPool "_global", "mx", "Object", "core", "ext", "UIComponentExtensions", "prototype", "Extensions", "bExtended", "TextField", "setFocus", "Selection", "onSetFocus", "tabEnabled", "getFocusManager", "bDrawFocus", "drawFocus", "onKillFocus", "UIComponent", "managers", "OverlappedWindows", "enableOverlappedWindows", "styles", "CSSSetStyle", "enableRunTimeCSS", "FocusManager", "enableFocusManagement", "UIComponentExtended", "UIComponentDependency", "FocusManagerDependency", "OverlappedWindowsDependency", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc01d6
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc01d6:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Not
+Not
+If loc020e
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core", 0.0, "Object"
+NewObject
+SetMember
+loc020e:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Not
+Not
+If loc0252
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext", 0.0, "Object"
+NewObject
+SetMember
+loc0252:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+GetMember
+Not
+Not
+If loc055c
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "Extensions"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+GetMember
+Push "bExtended"
+GetMember
+Push true
+Equals2
+Not
+If loc02eb
+Push true
+Return
+loc02eb:Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+GetMember
+Push "bExtended", true
+SetMember
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+Push "setFocus"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, 1, "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+}
+SetMember
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+Push "onSetFocus"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "oldFocus" {
+Push register1, "tabEnabled"
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc03a4
+Push 0.0, register1, "getFocusManager"
+CallMethod
+Push "bDrawFocus"
+GetMember
+Not
+If loc03a4
+Push true, 1, register1, "drawFocus"
+CallMethod
+Pop
+}
+loc03a4:SetMember
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+Push "onKillFocus"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "oldFocus" {
+Push register1, "tabEnabled"
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc03f0
+Push false, 1, register1, "drawFocus"
+CallMethod
+Pop
+}
+loc03f0:SetMember
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+Push "drawFocus", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "prototype"
+GetMember
+Push "drawFocus"
+GetMember
+SetMember
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+Push "getFocusManager", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "prototype"
+GetMember
+Push "getFocusManager"
+GetMember
+SetMember
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "enableOverlappedWindows"
+CallMethod
+Pop
+Push 0.0, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+GetMember
+Push "enableRunTimeCSS"
+CallMethod
+Pop
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "enableFocusManagement"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "bExtended", false
+SetMember
+Push register1, "UIComponentExtended", 0.0, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+GetMember
+Push "Extensions"
+CallMethod
+SetMember
+Push register1, "UIComponentDependency", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+SetMember
+Push register1, "FocusManagerDependency", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+SetMember
+Push register1, "OverlappedWindowsDependency", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIComponentExtensions"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc055c:Pop

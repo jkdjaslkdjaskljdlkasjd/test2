@@ -1,0 +1,2392 @@
+[
+ {
+  "linkage": "M_SHEAD_TWO",
+  "characterId": 1834,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1833,
+    "tipo": "DefineShape2",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape2_1833.svg",
+     "subelementos/DefineShape2_1833.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1833,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1833,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   9.0,
+   11.05
+  ],
+  "anclaje_svg_px": [
+   2.55,
+   6.7
+  ],
+  "png_tamano": [
+   36,
+   45
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   10.2,
+   27.2
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1833,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SCHEST_TWO",
+  "characterId": 1840,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1839,
+    "tipo": "DefineShape3",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape3_1839.svg",
+     "subelementos/DefineShape3_1839.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1839,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1839,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   19.85,
+   32.85
+  ],
+  "anclaje_svg_px": [
+   9.9,
+   16.4
+  ],
+  "png_tamano": [
+   80,
+   132
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   39.9,
+   65.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1839,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SARM_TWO",
+  "characterId": 1842,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1841,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1841.svg",
+     "subelementos/DefineShape_1841.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1841,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1841,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.1,
+   19.65
+  ],
+  "anclaje_svg_px": [
+   3.55,
+   9.8
+  ],
+  "png_tamano": [
+   29,
+   79
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   14.5,
+   39.4
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1841,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SHAND_TWO",
+  "characterId": 1836,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1835,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1835.svg",
+     "subelementos/DefineShape_1835.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1835,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1835,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.05,
+   18.35
+  ],
+  "anclaje_svg_px": [
+   3.55,
+   9.15
+  ],
+  "png_tamano": [
+   29,
+   74
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   14.6,
+   36.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1835,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SLEG2_TWO",
+  "characterId": 1832,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1831,
+    "tipo": "DefineShape3",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape3_1831.svg",
+     "subelementos/DefineShape3_1831.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1831,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1831,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   9.3,
+   30.4
+  ],
+  "anclaje_svg_px": [
+   4.6,
+   15.2
+  ],
+  "png_tamano": [
+   38,
+   122
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   18.8,
+   61.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1831,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SFOOT_TWO",
+  "characterId": 1838,
+  "tipo": "DefineSprite",
+  "grupo": "A_B_piel_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1837,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1837.svg",
+     "subelementos/DefineShape_1837.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1837,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1837,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   11.75,
+   5.3
+  ],
+  "anclaje_svg_px": [
+   5.85,
+   2.65
+  ],
+  "png_tamano": [
+   47,
+   22
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   23.4,
+   11.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1837,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "HAIR_TWO",
+  "characterId": 1187,
+  "tipo": "DefineSprite",
+  "grupo": "A_pelo_TWO_veradux_equipo",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1186,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1186.svg",
+     "subelementos/DefineShape_1186.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1186,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1186,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   12.95,
+   10.2
+  ],
+  "anclaje_svg_px": [
+   5.15,
+   9.45
+  ],
+  "png_tamano": [
+   52,
+   41
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   20.7,
+   37.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1186,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_HEAD_ZPCI3",
+  "characterId": 804,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 801,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_801.svg",
+     "subelementos/DefineShape_801.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 801,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 801,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 803,
+    "tipo": "DefineSprite",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineSprite_803.svg",
+     "subelementos/DefineSprite_803.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 803,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       58,
+       1
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "10.0",
+        "glowColor": "#ffffff/255"
+       }
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 803,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       58,
+       1
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "10.0",
+        "glowColor": "#ffffff/255"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 802,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_802.svg",
+     "subelementos/DefineShape_802.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 802,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   11.9,
+   16.6
+  ],
+  "anclaje_svg_px": [
+   6.65,
+   8.05
+  ],
+  "png_tamano": [
+   88,
+   107
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   46.8,
+   52.5
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 801,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   },
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 803,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     58,
+     1
+    ],
+    "filters": [
+     {
+      "type": "GLOWFILTER",
+      "blurX": "5.0",
+      "blurY": "5.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "false",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "10.0",
+      "glowColor": "#ffffff/255"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_CHEST_ZPCI3",
+  "characterId": 813,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 809,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_809.svg",
+     "subelementos/DefineShape_809.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 809,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 809,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 811,
+    "tipo": "DefineSprite",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineSprite_811.svg",
+     "subelementos/DefineSprite_811.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 811,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       200,
+       -120
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "7.0",
+        "blurY": "7.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.0",
+        "glowColor": "#ff0000/255"
+       }
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 811,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       200,
+       -120
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "7.0",
+        "blurY": "7.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.0",
+        "glowColor": "#ff0000/255"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 810,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_810.svg",
+     "subelementos/DefineShape_810.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 810,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 812,
+    "tipo": "DefineShape2",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape2_812.svg",
+     "subelementos/DefineShape2_812.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 5,
+      "op": "place",
+      "ch": 812,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 5,
+      "op": "place",
+      "ch": 812,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   24.05,
+   36.15
+  ],
+  "anclaje_svg_px": [
+   9.9,
+   18.9
+  ],
+  "png_tamano": [
+   153,
+   201
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   68.0,
+   103.8
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 809,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   },
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 811,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     200,
+     -120
+    ],
+    "filters": [
+     {
+      "type": "GLOWFILTER",
+      "blurX": "7.0",
+      "blurY": "7.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "false",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "2.0",
+      "glowColor": "#ff0000/255"
+     }
+    ]
+   },
+   {
+    "f": 1,
+    "depth": 5,
+    "op": "place",
+    "ch": 812,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SHOULDER_ZPCI3",
+  "characterId": 796,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 793,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_793.svg",
+     "subelementos/DefineShape_793.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 793,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 793,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 795,
+    "tipo": "DefineSprite",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineSprite_795.svg",
+     "subelementos/DefineSprite_795.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 795,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       -12,
+       -84
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "26.0",
+        "blurY": "26.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "true",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.3671875",
+        "glowColor": "#ff0000/255"
+       },
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "1.0",
+        "glowColor": "#ff0000/255"
+       }
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 795,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       -12,
+       -84
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "26.0",
+        "blurY": "26.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "true",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.3671875",
+        "glowColor": "#ff0000/255"
+       },
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "1.0",
+        "glowColor": "#ff0000/255"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 794,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_794.svg",
+     "subelementos/DefineShape_794.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 794,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   16.8,
+   16.1
+  ],
+  "anclaje_svg_px": [
+   10.6,
+   9.65
+  ],
+  "png_tamano": [
+   316,
+   313
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   166.8,
+   162.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 793,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   },
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 795,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     -12,
+     -84
+    ],
+    "filters": [
+     {
+      "type": "GLOWFILTER",
+      "blurX": "26.0",
+      "blurY": "26.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "true",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "2.3671875",
+      "glowColor": "#ff0000/255"
+     },
+     {
+      "type": "GLOWFILTER",
+      "blurX": "5.0",
+      "blurY": "5.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "false",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "1.0",
+      "glowColor": "#ff0000/255"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_ARM_ZPCI3",
+  "characterId": 814,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 296,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_296.svg",
+     "subelementos/DefineShape_296.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 296,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 296,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.1,
+   19.65
+  ],
+  "anclaje_svg_px": [
+   3.55,
+   9.8
+  ],
+  "png_tamano": [
+   29,
+   79
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   14.5,
+   39.4
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 296,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_HAND_ZPCI3",
+  "characterId": 806,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 805,
+    "tipo": "DefineShape2",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape2_805.svg",
+     "subelementos/DefineShape2_805.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 805,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 805,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   8.7,
+   18.4
+  ],
+  "anclaje_svg_px": [
+   4.1,
+   9.2
+  ],
+  "png_tamano": [
+   35,
+   74
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   16.5,
+   37.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 805,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_LEG2_ZPCI3",
+  "characterId": 800,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 797,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_797.svg",
+     "subelementos/DefineShape_797.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 797,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 797,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 799,
+    "tipo": "DefineSprite",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineSprite_799.svg",
+     "subelementos/DefineSprite_799.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 799,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       -24,
+       -35
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "true",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "1.0",
+        "glowColor": "#ffffff/255"
+       },
+       {
+        "type": "GLOWFILTER",
+        "blurX": "7.0",
+        "blurY": "7.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.0",
+        "glowColor": "#ffffff/255"
+       }
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 799,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       -24,
+       -35
+      ],
+      "filters": [
+       {
+        "type": "GLOWFILTER",
+        "blurX": "5.0",
+        "blurY": "5.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "true",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "1.0",
+        "glowColor": "#ffffff/255"
+       },
+       {
+        "type": "GLOWFILTER",
+        "blurX": "7.0",
+        "blurY": "7.0",
+        "compositeSource": "true",
+        "id": "2",
+        "innerGlow": "false",
+        "knockout": "false",
+        "passes": "1",
+        "strength": "2.0",
+        "glowColor": "#ffffff/255"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "characterId": 798,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_798.svg",
+     "subelementos/DefineShape_798.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 798,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   13.2,
+   33.5
+  ],
+  "anclaje_svg_px": [
+   6.05,
+   17.95
+  ],
+  "png_tamano": [
+   149,
+   230
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   72.3,
+   119.8
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 797,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   },
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 799,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     -24,
+     -35
+    ],
+    "filters": [
+     {
+      "type": "GLOWFILTER",
+      "blurX": "5.0",
+      "blurY": "5.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "true",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "1.0",
+      "glowColor": "#ffffff/255"
+     },
+     {
+      "type": "GLOWFILTER",
+      "blurX": "7.0",
+      "blurY": "7.0",
+      "compositeSource": "true",
+      "id": "2",
+      "innerGlow": "false",
+      "knockout": "false",
+      "passes": "1",
+      "strength": "2.0",
+      "glowColor": "#ffffff/255"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_FOOT_ZPCI3",
+  "characterId": 808,
+  "tipo": "DefineSprite",
+  "grupo": "B_C_armadura_ZPCI3_medic",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 807,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_807.svg",
+     "subelementos/DefineShape_807.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 807,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 807,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   15.6,
+   5.7
+  ],
+  "anclaje_svg_px": [
+   5.85,
+   3.05
+  ],
+  "png_tamano": [
+   63,
+   23
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   23.7,
+   12.3
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 807,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_WEAPON_M4",
+  "characterId": 1740,
+  "tipo": "DefineSprite",
+  "grupo": "B_arma_M4_gun",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1739,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1739.svg",
+     "subelementos/DefineShape_1739.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1739,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1739,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   44.2,
+   48.55
+  ],
+  "anclaje_svg_px": [
+   15.6,
+   20.4
+  ],
+  "png_tamano": [
+   177,
+   195
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   62.5,
+   82.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1739,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SHEAD_METABII",
+  "characterId": 1941,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1940,
+    "tipo": "DefineShape2",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape2_1940.svg",
+     "subelementos/DefineShape2_1940.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1940,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1940,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.9,
+   11.35
+  ],
+  "anclaje_svg_px": [
+   2.55,
+   6.7
+  ],
+  "png_tamano": [
+   32,
+   46
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   10.4,
+   27.1
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1940,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SCHEST_METABII",
+  "characterId": 1947,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1946,
+    "tipo": "DefineShape3",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape3_1946.svg",
+     "subelementos/DefineShape3_1946.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 4,
+      "op": "place",
+      "ch": 1946,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 4,
+      "op": "place",
+      "ch": 1946,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   19.85,
+   32.85
+  ],
+  "anclaje_svg_px": [
+   9.9,
+   16.4
+  ],
+  "png_tamano": [
+   80,
+   132
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   39.9,
+   65.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 4,
+    "op": "place",
+    "ch": 1946,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SARM_METABII",
+  "characterId": 1949,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1948,
+    "tipo": "DefineShape3",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape3_1948.svg",
+     "subelementos/DefineShape3_1948.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 3,
+      "op": "place",
+      "ch": 1948,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 3,
+      "op": "place",
+      "ch": 1948,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.15,
+   19.65
+  ],
+  "anclaje_svg_px": [
+   3.55,
+   9.8
+  ],
+  "png_tamano": [
+   29,
+   79
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   14.4,
+   39.4
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 3,
+    "op": "place",
+    "ch": 1948,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SHAND_METABII",
+  "characterId": 1943,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1942,
+    "tipo": "DefineShape2",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape2_1942.svg",
+     "subelementos/DefineShape2_1942.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1942,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1942,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   7.05,
+   18.35
+  ],
+  "anclaje_svg_px": [
+   3.55,
+   9.15
+  ],
+  "png_tamano": [
+   29,
+   74
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   14.6,
+   36.9
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1942,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SLEG2_METABII",
+  "characterId": 1939,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1938,
+    "tipo": "DefineShape3",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape3_1938.svg",
+     "subelementos/DefineShape3_1938.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1938,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 2,
+      "op": "place",
+      "ch": 1938,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   9.3,
+   30.4
+  ],
+  "anclaje_svg_px": [
+   4.6,
+   15.2
+  ],
+  "png_tamano": [
+   38,
+   122
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   18.8,
+   61.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 2,
+    "op": "place",
+    "ch": 1938,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "linkage": "M_SFOOT_METABII",
+  "characterId": 1945,
+  "tipo": "DefineSprite",
+  "grupo": "C_D_piel_METABII_unidad_npc",
+  "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+  "archivos": {
+   "svg": "pieza.svg",
+   "png": "pieza_x4.png"
+  },
+  "subelementos": [
+   {
+    "characterId": 1944,
+    "tipo": "DefineShape",
+    "linkage": [],
+    "archivos": [
+     "subelementos/DefineShape_1944.svg",
+     "subelementos/DefineShape_1944.png"
+    ],
+    "colocaciones_en_padre": [
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1944,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     },
+     {
+      "f": 1,
+      "depth": 1,
+      "op": "place",
+      "ch": 1944,
+      "matrix": [
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "svg_lienzo_px": [
+   11.75,
+   5.3
+  ],
+  "anclaje_svg_px": [
+   5.85,
+   2.65
+  ],
+  "png_tamano": [
+   47,
+   22
+  ],
+  "png_escala": 4.0,
+  "anclaje_png_px": [
+   23.4,
+   11.0
+  ],
+  "lista_visualizacion": [
+   {
+    "f": 1,
+    "depth": 1,
+    "op": "place",
+    "ch": 1944,
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0,
+     0
+    ]
+   }
+  ]
+ }
+]

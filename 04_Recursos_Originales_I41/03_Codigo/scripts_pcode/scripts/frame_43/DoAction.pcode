@@ -1,0 +1,189 @@
+ConstantPool "dollPartsArray", "Array", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", "dollPartsCores", "dollPartsCores2", "SHOULDER", "WEAPON", "FOOT", "LEG2", "ARM", "HAND", "CHEST", "HEAD", "playerKrin6", "Object", "model", "M", "ONE", "MAN", "MODEL1", "changer", "KLIMA", "equip", "inner", "_root", "player6", "attachMovie", "h", "innerX", "_S", "_", "hair", "HAIR_", "gameoverKrin"
+Push "dollPartsArray", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsArray", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", 15
+InitArray
+SetVariable
+Push "dollPartsCores", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores", 1, 6, 5, 4, 4, 4, 4, 3, 3, 2, 2, 1, 1, 1, 0.0, 15
+InitArray
+SetVariable
+Push "dollPartsCores2", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores2", "SHOULDER", "WEAPON", "WEAPON", "FOOT", "FOOT", "LEG2", "LEG2", "ARM", "ARM", "HAND", "HAND", "ARM", "ARM", "CHEST", "HEAD", 15
+InitArray
+SetVariable
+Push "playerKrin6", 0.0, "Object"
+NewObject
+SetVariable
+Push "playerKrin6"
+GetVariable
+Push "model", "M", "ONE", "MAN", "MODEL1", 4
+InitArray
+SetMember
+Push "changer", "KLIMA"
+SetVariable
+Push "playerKrin6"
+GetVariable
+Push "equip", 0.0, 0.0, "changer"
+GetVariable
+Push "changer"
+GetVariable
+Push "changer"
+GetVariable
+Push "changer"
+GetVariable
+Push "changer"
+GetVariable
+Push 7
+InitArray
+SetMember
+Push 0.0, "inner", "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "model"
+GetMember
+Push 0.0
+GetMember
+Push 3, "player6"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc02e3:StoreRegister 0
+Push null
+Equals2
+If loc0403
+Push "h", register0
+SetVariable
+Push -1, "innerX", "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "model"
+GetMember
+Push 3
+GetMember
+Push "_S"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "model"
+GetMember
+Push 1
+GetMember
+Add2
+Push 3, "player6"
+GetVariable
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push 0.0, "inner", "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "model"
+GetMember
+Push 3
+GetMember
+Push "_"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "equip"
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+Push 3, "player6"
+GetVariable
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Jump loc02e3
+loc0403:Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "equip"
+GetMember
+Push 0.0
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0478
+Push 2, "hair", "HAIR_", "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "model"
+GetMember
+Push 2
+GetMember
+Add2
+Push 3, "player6"
+GetVariable
+Push "inner"
+GetMember
+Push "head"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0478:Push "gameoverKrin"
+GetVariable
+Not
+If loc049c
+Push "gameoverKrin", false
+SetVariable
+GoToLabel "gameOverMenu"
+loc049c:

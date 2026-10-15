@@ -1,0 +1,128 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "bossFight", "progressLevelOn", "progressArray", "sectionIn", "BattlePick", "progressFight", "LOADBATTLESCENE", "gotoAndPlay", "KrinScreen", "_visible"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc0222
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", false
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressLevelOn"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressArray"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push 1
+GetMember
+Greater
+Not
+If loc016a
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressArray"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push 1
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", true
+SetMember
+Jump loc01fa
+loc016a:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressLevelOn"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressArray"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push 1
+GetMember
+Equals2
+Not
+If loc01c5
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", true
+SetMember
+loc01c5:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressLevelOn"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressFight", true
+SetMember
+loc01fa:Push "LOADBATTLESCENE", 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", false
+SetMember
+loc0222:

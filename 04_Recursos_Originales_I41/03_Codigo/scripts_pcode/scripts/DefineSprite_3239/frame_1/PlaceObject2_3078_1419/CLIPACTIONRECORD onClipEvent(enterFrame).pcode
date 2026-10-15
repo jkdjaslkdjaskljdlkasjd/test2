@@ -1,0 +1,41 @@
+ConstantPool "", "_root", "Krin", "ExpSets", "MenuPlayerSelect", "_parent", "exp2", "Math", "round", "%"
+Push "", 8, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ExpSets"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push 100
+Divide
+Push 95.10000000000001
+Multiply
+SetProperty
+Push "_parent"
+GetVariable
+Push "exp2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ExpSets"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Push "%"
+Add2
+SetMember

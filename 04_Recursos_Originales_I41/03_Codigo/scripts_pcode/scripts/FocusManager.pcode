@@ -1,0 +1,7 @@
+Push "mx.managers.FocusManager"
+GetVariable
+Push "FocusManager", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

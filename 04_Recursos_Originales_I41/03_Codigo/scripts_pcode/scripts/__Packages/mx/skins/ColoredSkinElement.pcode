@@ -1,0 +1,159 @@
+ConstantPool "_global", "mx", "Object", "skins", "ColoredSkinElement", "prototype", "setColor", "Color", "setRGB", "draw", "_color", "getStyle", "onEnterFrame", "invalidateStyle", "setColorStyle", "mixins", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc00d1
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc00d1:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc0109
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc0109:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Not
+Not
+If loc0313
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "setColor"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 3, "c" {
+Push register3, undefined
+Equals2
+Not
+Not
+If loc0199
+Push register1, 1, "Color"
+NewObject
+StoreRegister 2
+Pop
+Push register3, 1, register2, "setRGB"
+CallMethod
+Pop
+}
+loc0199:SetMember
+Push register2, "draw"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_color"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+Push 1, register1, "setColor"
+CallMethod
+Pop
+Push register1, "onEnterFrame", undefined
+SetMember
+}
+SetMember
+Push register2, "invalidateStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "onEnterFrame", register1, "draw"
+GetMember
+SetMember
+}
+SetMember
+Push register1, "setColorStyle"
+DefineFunction2 "", 2, 3, false, false, true, false, true, false, true, false, false, 1, "p", 2, "colorStyle" {
+Push register1, "_color"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0243
+Push register1, "_color", register2
+SetMember
+loc0243:Push register1, "setColor", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Push "mixins"
+GetMember
+Push "setColor"
+GetMember
+SetMember
+Push register1, "invalidateStyle", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Push "mixins"
+GetMember
+Push "invalidateStyle"
+GetMember
+SetMember
+Push register1, "draw", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Push "mixins"
+GetMember
+Push "draw"
+GetMember
+SetMember
+Push register2, 1, register1, "getStyle"
+CallMethod
+Push 1, register1, "setColor"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "mixins", 0.0, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+NewMethod
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0313:Pop

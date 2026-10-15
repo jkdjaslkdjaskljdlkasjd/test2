@@ -1,0 +1,2263 @@
+ConstantPool "STANDARD", "playerKrin", "model", "dressNow", "dollPartsArray", "Array", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", "dollPartsCores", "dollPartsCores2", "SHOULDER", "WEAPON", "FOOT", "LEG2", "ARM", "HAND", "CHEST", "HEAD", "BATTLESCREEN", "player", "inner", "removeMovieClip", "attachMovie", "MODEL5", "_xscale", "_yscale", "_y", "h", "innerX", "_S", "_", "equip", "F", "hair", "HAIR_", "M_", "", "Team1Speed", "Team2Speed", "Team1Div", "Team2Div", "i", "active", "Math", "pow", "SPEEDU", "absoluteStart", "Krin", "timeLock", "TeamMove", "s1tm", "s2tm", "singlePlayer", "teamSetRandomSpeed", "TurnTime", "TeamMoveNow", "TeamSpeedAdder", "teamSide", "AIGoER", "arenaMode", "playerNumber", "BattleTime", "BattleTimeLimit", "BattleTimeNow", "InBattle", "CurrentMoveID", "_root", "hardSkip", "nextSpeechKKK", "speechDone", "MoveArrayFINAL", "autoMoveK", "speechOn", "someListenerKrin", "Object", "onMouseDown", "battleClocker", "timerWait", "winCondition", "KrinCombatText", "combatTexter", "KrinLang", "KLangChoosen", "MENU", "play", "Mouse", "addListener", "_visible", "wep2", "wep1", "gender", "skin", "dressChar", "healedThisTurn", "EnemyXP", "EnemyXP2", "EnemyXP3", "goodSelect", "badSelect", "Orange", "KrinSelector", "krinChangeColor", "_x", "TargetEr", "TargetType", "TargetName", "playerName", "TargetLevel", "plevel", "KrinSelector1", "PlayerToMove", "NextPlayer", "MoveEnd", "KRRR", "KRSO", "AIGoERSwitch", "id", "speed", "playerKrin1", "push", "playerKrin3", "playerKrin5", "DESCENDING", "NUMERIC", "sortOn", "teamAdder", "playerKrin2", "playerKrin4", "playerKrin6", "AITeamMoveOrder", "TeamSelect", "PrevTeam", "krinAddMove", "menuMode", "hitTarget", "moveToMakeGGTT", "turnBasedKrin", "turnTimeKKK", "turnTimeKKK2", "hitTargetX", "theEnemyToMoveVS", "theEnemyToMoveVS2", "arenaPlayer", "selector", "refreshOrbs", "_alpha", "clicker", "HTX", "HTY", "thtk", "passiveBuffs", "length", "krinb", "applyBuffKrin", "firstUpdate", "applyChangesKrin", "MOKO", "M", "NONE"
+DefineFunction2 "__nzRawDress", 9, 11, false, true, true, false, true, false, true, false, false, 10, "nameOfForm", 2, "player_id", 5, "standard", 9, "model_dress", 8, "skin_dress", 4, "gender_dress", 3, "hair_dress", 6, "weapon1_dress", 7, "weapon2_dress" {
+Push register5, "STANDARD"
+Equals2
+Not
+If loc072b
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "model"
+GetMember
+Push 0.0
+GetMember
+StoreRegister 9
+Pop
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "model"
+GetMember
+Push 1
+GetMember
+StoreRegister 8
+Pop
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "model"
+GetMember
+Push 3
+GetMember
+StoreRegister 4
+Pop
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "model"
+GetMember
+Push 2
+GetMember
+StoreRegister 3
+Pop
+loc072b:Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "dressNow", register10
+SetMember
+Push "dollPartsArray", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsArray", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", 15
+InitArray
+SetVariable
+Push "dollPartsCores", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores", 1, 6, 5, 4, 4, 4, 4, 3, 3, 2, 2, 1, 1, 1, 0.0, 15
+InitArray
+SetVariable
+Push "dollPartsCores2", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores2", "SHOULDER", "WEAPON", "WEAPON", "FOOT", "FOOT", "LEG2", "LEG2", "ARM", "ARM", "HAND", "HAND", "ARM", "ARM", "CHEST", "HEAD", 15
+InitArray
+SetVariable
+Push 0.0, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, "inner", register9, 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push register9, "MODEL5"
+Equals2
+Not
+If loc093a
+Push "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_xscale", "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_xscale"
+GetMember
+Push 0.8
+Multiply
+SetMember
+Push "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_yscale", "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_yscale"
+GetMember
+Push 0.8
+Multiply
+SetMember
+Push "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_y", "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "_y"
+GetMember
+Push 10
+Add2
+SetMember
+loc093a:Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc0941:StoreRegister 0
+Push null
+Equals2
+If loc0dd7
+Push "h", register0
+SetVariable
+Push -1, "innerX", register4, "_S"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register8
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push register5, "STANDARD"
+Equals2
+Not
+If loc0b94
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "equip"
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc0a66
+Push 0.0, "inner", register4, "_"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "equip"
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0a66:Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "equip"
+GetMember
+Push 0.0
+GetMember
+Push 0.0
+Equals2
+PushDuplicate
+If loc0ab8
+Pop
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "model"
+GetMember
+Push 3
+GetMember
+Push "F"
+Equals2
+loc0ab8:Not
+If loc0af4
+Push 2, "hair", "HAIR_", register3
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "head"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0af4:Push "h"
+GetVariable
+Push 12
+Equals2
+PushDuplicate
+If loc0b19
+Pop
+Push "h"
+GetVariable
+Push 13
+Equals2
+loc0b19:Not
+If loc0b8f
+Push 0.0, "inner", "M_", "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "equip"
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0b8f:Jump loc0dd2
+loc0b94:Push 0.0, "inner", register4, "_"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register5
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push register3, ""
+Equals2
+Not
+Not
+If loc0c35
+Push 2, "hair", "HAIR_", register3
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "head"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0c35:Push "h"
+GetVariable
+Push 12
+Equals2
+PushDuplicate
+If loc0c5a
+Pop
+Push "h"
+GetVariable
+Push 13
+Equals2
+loc0c5a:Not
+If loc0dd2
+Push "h"
+GetVariable
+Push 12
+Equals2
+PushDuplicate
+Not
+If loc0c80
+Pop
+Push register6, ""
+Equals2
+Not
+loc0c80:Not
+If loc0ce1
+Push 0.0, "inner", "M_", "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register6
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Jump loc0dd2
+loc0ce1:Push "h"
+GetVariable
+Push 13
+Equals2
+PushDuplicate
+Not
+If loc0d01
+Pop
+Push register7, ""
+Equals2
+Not
+loc0d01:Not
+If loc0d62
+Push 0.0, "inner", "M_", "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register7
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Jump loc0dd2
+loc0d62:Push 0.0, "inner", "M_", "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register1, "playerKrin", register2
+Add2
+GetMember
+Push "equip"
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+Push 3, "BATTLESCREEN"
+GetVariable
+Push "player", register2
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0dd2:Jump loc0941
+}
+loc0dd7:Push "_root"
+GetVariable
+Push "dressChar"
+DefineFunction "", 9, "nameOfForm" , "player_id" , "standard" , "model_dress" , "skin_dress" , "gender_dress" , "hair_dress" , "weapon1_dress" , "weapon2_dress"  {
+Push "player_id"
+GetVariable
+Push 1
+Equals2
+Push "standard"
+GetVariable
+Push "STANDARD"
+Equals2
+And
+If loc0f5c
+Push "weapon2_dress"
+GetVariable
+Push "weapon1_dress"
+GetVariable
+Push "hair_dress"
+GetVariable
+Push "gender_dress"
+GetVariable
+Push "skin_dress"
+GetVariable
+Push "model_dress"
+GetVariable
+Push "standard"
+GetVariable
+Push "player_id"
+GetVariable
+Push "nameOfForm"
+GetVariable
+Push 9
+Push "_root"
+GetVariable
+Push "__nzRawDress"
+CallMethod
+Pop
+Push null
+Return
+loc0f5c:Push "_root"
+GetVariable
+Push "__nzChosen"
+GetMember
+Push 0
+Equals2
+Not
+If loc1047
+Push "weapon2_dress"
+GetVariable
+Push "weapon1_dress"
+GetVariable
+Push "hair_dress"
+GetVariable
+Push "gender_dress"
+GetVariable
+Push "skin_dress"
+GetVariable
+Push "model_dress"
+GetVariable
+Push "standard"
+GetVariable
+Push "player_id"
+GetVariable
+Push "nameOfForm"
+GetVariable
+Push 9
+Push "_root"
+GetVariable
+Push "__nzRawDress"
+CallMethod
+Pop
+Push null
+Return
+loc1047:Push "look"
+Push "_root"
+GetVariable
+Push "__nzChosen"
+GetMember
+Push 1
+Push "_root"
+GetVariable
+Push "__nzGetLook"
+CallMethod
+DefineLocal
+Push "p"
+Push "_root"
+GetVariable
+Push "playerKrin1"
+GetMember
+DefineLocal
+Push "oldModel"
+Push "p"
+GetVariable
+Push "model"
+GetMember
+DefineLocal
+Push "oldEquip"
+Push "p"
+GetVariable
+Push "equip"
+GetMember
+DefineLocal
+Push "p"
+GetVariable
+Push "model"
+Push "look"
+GetVariable
+Push "model"
+GetMember
+SetMember
+Push "p"
+GetVariable
+Push "equip"
+Push "look"
+GetVariable
+Push "equip"
+GetMember
+SetMember
+Push "weapon2_dress"
+GetVariable
+Push "weapon1_dress"
+GetVariable
+Push "hair_dress"
+GetVariable
+Push "gender_dress"
+GetVariable
+Push "skin_dress"
+GetVariable
+Push "model_dress"
+GetVariable
+Push "standard"
+GetVariable
+Push "player_id"
+GetVariable
+Push "nameOfForm"
+GetVariable
+Push 9
+Push "_root"
+GetVariable
+Push "__nzRawDress"
+CallMethod
+Pop
+Push "p"
+GetVariable
+Push "model"
+Push "oldModel"
+GetVariable
+SetMember
+Push "p"
+GetVariable
+Push "equip"
+Push "oldEquip"
+GetVariable
+SetMember
+Push null
+Return
+}
+SetMember
+DefineFunction2 "TeamSelect", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "Team1Speed", 0.0
+SetVariable
+Push "Team2Speed", 0.0
+SetVariable
+Push "Team1Div", 0.0
+SetVariable
+Push "Team2Div", 0.0
+SetVariable
+Push "i", 1
+SetVariable
+loc129f:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc1361
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1352
+Push "i"
+GetVariable
+Push -1, 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Push 0.0
+Less2
+Not
+If loc132c
+Push "Team1Speed", "Team1Speed"
+GetVariable
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "SPEEDU"
+GetMember
+Add2
+SetVariable
+Push "Team1Div", "Team1Div"
+GetVariable
+Increment
+SetVariable
+Jump loc1352
+loc132c:Push "Team2Speed", "Team2Speed"
+GetVariable
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "SPEEDU"
+GetMember
+Add2
+SetVariable
+Push "Team2Div", "Team2Div"
+GetVariable
+Increment
+SetVariable
+loc1352:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc129f
+loc1361:Push "Team1Speed", "Team1Speed"
+GetVariable
+Push "Team1Div"
+GetVariable
+Divide
+SetVariable
+Push "Team2Speed", "Team2Speed"
+GetVariable
+Push "Team2Div"
+GetVariable
+Divide
+SetVariable
+Push "absoluteStart"
+GetVariable
+Push 0.0
+Equals2
+Not
+Not
+If loc140b
+Push "absoluteStart"
+GetVariable
+Push 1
+Equals2
+Not
+If loc13bf
+Push "Team1Speed", 10000000000000.0
+SetVariable
+loc13bf:Push "absoluteStart"
+GetVariable
+Push 2
+Equals2
+Not
+If loc13e3
+Push "Team2Speed", 10000000000000.0
+SetVariable
+loc13e3:Push "Krin"
+GetVariable
+Push "timeLock"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc140b
+Push "absoluteStart", 0.0
+SetVariable
+loc140b:Push "Team1Speed"
+GetVariable
+Push "Team2Speed"
+GetVariable
+Greater
+Not
+If loc1443
+Push "TeamMove", 1
+SetVariable
+Push "s1tm", 0.0
+SetVariable
+Push "s2tm", 3
+SetVariable
+loc1443:Push "Team2Speed"
+GetVariable
+Push "Team1Speed"
+GetVariable
+Greater
+Not
+If loc147b
+Push "TeamMove", 2
+SetVariable
+Push "s1tm", 3
+SetVariable
+Push "s2tm", 0.0
+SetVariable
+loc147b:Push "Team1Speed"
+GetVariable
+Push "Team2Speed"
+GetVariable
+Equals2
+Not
+If loc152e
+Push "Krin"
+GetVariable
+Push "singlePlayer"
+GetMember
+Not
+If loc14ca
+Push "TeamMove", 1
+SetVariable
+Push "s1tm", 0.0
+SetVariable
+Push "s2tm", 3
+SetVariable
+Jump loc152e
+loc14ca:Push "teamSetRandomSpeed"
+GetVariable
+Push 50
+Greater
+Not
+If loc1509
+Push "TeamMove", 1
+SetVariable
+Push "s1tm", 0.0
+SetVariable
+Push "s2tm", 3
+SetVariable
+Jump loc152e
+loc1509:Push "TeamMove", 2
+SetVariable
+Push "s1tm", 3
+SetVariable
+Push "s2tm", 0.0
+SetVariable
+loc152e:Push "TurnTime", 2
+SetVariable
+Push "TeamMoveNow", "TeamMove"
+GetVariable
+SetVariable
+Push 0.0, "TeamSpeedAdder"
+CallFunction
+Pop
+Push "i", 1
+SetVariable
+loc155d:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc15f5
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc15e6
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push "TeamMoveNow"
+GetVariable
+Equals2
+Not
+If loc15cb
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AIGoER", 1
+SetMember
+Jump loc15e6
+loc15cb:Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AIGoER", 0.0
+SetMember
+loc15e6:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc155d
+loc15f5:Push "arenaMode"
+GetVariable
+Not
+If loc1641
+Push "TeamMove"
+GetVariable
+Push 1
+Equals2
+Not
+If loc162e
+Push register1, "Krin"
+GetMember
+Push "playerNumber", 1
+SetMember
+Jump loc1641
+loc162e:Push register1, "Krin"
+GetMember
+Push "playerNumber", 2
+SetMember
+}
+loc1641:Push "BattleTime", 120
+SetVariable
+Push "BattleTimeLimit", 120
+SetVariable
+Push "BattleTimeNow", 0.0
+SetVariable
+Push "InBattle", false
+SetVariable
+Push "CurrentMoveID", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "hardSkip", false
+SetMember
+Push "_root"
+GetVariable
+Push "nextSpeechKKK", true
+SetMember
+Push "_root"
+GetVariable
+Push "speechDone", false
+SetMember
+Push "MoveArrayFINAL", 0.0, "Array"
+NewObject
+SetVariable
+Push "i", 0.0
+SetVariable
+loc16c8:Push "i"
+GetVariable
+Push 9
+Less2
+Not
+If loc1705
+Push "MoveArrayFINAL"
+GetVariable
+Push "i"
+GetVariable
+Push 0.0
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc16c8
+loc1705:Push "autoMoveK", false
+SetVariable
+Push "speechOn", 0.0
+SetVariable
+Push "someListenerKrin", 0.0, "Object"
+NewObject
+DefineLocal
+Push "someListenerKrin"
+GetVariable
+Push "onMouseDown"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push register1, "InBattle"
+GetMember
+Push false
+Equals2
+PushDuplicate
+Not
+If loc1773
+Pop
+Push "battleClocker"
+GetVariable
+Push "timerWait"
+GetMember
+Push 0.0
+Equals2
+loc1773:PushDuplicate
+Not
+If loc1790
+Pop
+Push register1, "winCondition"
+GetMember
+Push 0.0
+Less2
+loc1790:PushDuplicate
+Not
+If loc17a6
+Pop
+Push register1, "speechDone"
+GetMember
+Push true
+Equals2
+loc17a6:Not
+Not
+If loc17ee
+Push register1, "KrinCombatText"
+GetMember
+Push "combatTexter", register1, "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 37
+GetMember
+SetMember
+Push 0.0, register1, "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+}
+loc17ee:SetMember
+Push "someListenerKrin"
+GetVariable
+Push 1, "Mouse"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Stop
+Push "arenaMode"
+GetVariable
+Not
+If loc182a
+Push "Krin"
+GetVariable
+Push "player", 2
+SetMember
+Jump loc1849
+loc182a:Push "Krin"
+GetVariable
+Push "player", "_root"
+GetVariable
+Push "playerKrin", "Krin"
+GetVariable
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+SetMember
+loc1849:Push "i", 1
+SetVariable
+loc1854:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc18d9
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc18a8
+Push "BATTLESCREEN"
+GetVariable
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc18ca
+loc18a8:Push "wep2", "wep1", "hair", "gender", "skin", "model", "STANDARD", "i"
+GetVariable
+Push "STANDARD", 9, "dressChar"
+CallFunction
+Pop
+loc18ca:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1854
+loc18d9:Push "_root"
+GetVariable
+Push "healedThisTurn", 0.0, "Array"
+NewObject
+SetMember
+Push "i", 1
+SetVariable
+loc18fc:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc193f
+Push "_root"
+GetVariable
+Push "healedThisTurn"
+GetMember
+Push "i"
+GetVariable
+Push 0.0
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc18fc
+loc193f:Push "Krin"
+GetVariable
+Push "EnemyXP", 0.0
+SetMember
+Push "Krin"
+GetVariable
+Push "EnemyXP2", 1
+SetMember
+Push "Krin"
+GetVariable
+Push "EnemyXP3", 0.0
+SetMember
+Push "goodSelect", 3
+SetVariable
+Push "badSelect", 2
+SetVariable
+Push "i", 1
+SetVariable
+loc199b:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc1fbe
+Push "arenaMode"
+GetVariable
+Not
+If loc1b38
+Push "Orange", "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push 2, "krinChangeColor"
+CallFunction
+Pop
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1b33
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x"
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "TargetEr", "i"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "TargetType", 3
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "TargetName", "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Add2
+GetMember
+Push "TargetLevel", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "plevel"
+GetMember
+Add2
+SetMember
+loc1b33:Jump loc1faf
+loc1b38:Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1faf
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push "Krin"
+GetVariable
+Push "player"
+GetMember
+Push "teamSide"
+GetMember
+Equals2
+Not
+If loc1dfa
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "Krin"
+GetVariable
+Push "player"
+GetMember
+Equals2
+Not
+If loc1cac
+Push "KrinSelector1"
+GetVariable
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x"
+GetMember
+Add2
+SetMember
+Push "KrinSelector1"
+GetVariable
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Add2
+SetMember
+Push "KrinSelector1"
+GetVariable
+Push "TargetEr", "i"
+GetVariable
+SetMember
+Push "KrinSelector1"
+GetVariable
+Push "TargetType", 2
+SetMember
+Push "KrinSelector1"
+GetVariable
+Push "TargetName", "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetMember
+Push "KrinSelector1"
+GetVariable
+Push "TargetLevel", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "plevel"
+GetMember
+Add2
+SetMember
+Jump loc1df5
+loc1cac:Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x"
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetEr", "i"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetType", 4
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetName", "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "goodSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetLevel", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "plevel"
+GetMember
+Add2
+SetMember
+Push "goodSelect", "goodSelect"
+GetVariable
+Push 2
+Add2
+SetVariable
+loc1df5:Jump loc1faf
+loc1dfa:Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x"
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "EnemyXP", "Krin"
+GetVariable
+Push "EnemyXP"
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "plevel"
+GetMember
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "EnemyXP2", "Krin"
+GetVariable
+Push "EnemyXP2"
+GetMember
+Push 0.2
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "EnemyXP3", "Krin"
+GetVariable
+Push "EnemyXP3"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetEr", "i"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetType", 3
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetName", "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSelector", "badSelect"
+GetVariable
+Add2
+GetMember
+Push "TargetLevel", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "plevel"
+GetMember
+Add2
+SetMember
+Push "badSelect", "badSelect"
+GetVariable
+Push 2
+Add2
+SetVariable
+loc1faf:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc199b
+loc1fbe:Push "PlayerToMove", 0.0
+SetVariable
+Push "NextPlayer", false
+SetVariable
+Push "MoveEnd", true
+SetVariable
+Push 0.0, "_root"
+GetVariable
+Push "KRRR"
+CallMethod
+Pop
+Push "teamSetRandomSpeed", "_root"
+GetVariable
+Push "KRSO"
+GetMember
+SetVariable
+Push "AIGoERSwitch"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "i", 1
+SetVariable
+loc201d:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc209d
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AIGoER"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc2073
+Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AIGoER", 1
+SetMember
+Jump loc208e
+loc2073:Push register1, "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AIGoER", 0.0
+SetMember
+loc208e:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc201d
+}
+loc209d:SetVariable
+Push "TeamSpeedAdder"
+DefineFunction2 "", 0, 6, false, true, true, false, true, false, true, false, false {
+Push 0.0, "Array"
+NewObject
+StoreRegister 3
+Pop
+Push "id", 1, "speed", register1, "playerKrin1"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register3, "push"
+CallMethod
+Pop
+Push "id", 3, "speed", register1, "playerKrin3"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register3, "push"
+CallMethod
+Pop
+Push "id", 5, "speed", register1, "playerKrin5"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register3, "push"
+CallMethod
+Pop
+Push "Array"
+GetVariable
+Push "DESCENDING"
+GetMember
+Push "Array"
+GetVariable
+Push "NUMERIC"
+GetMember
+BitOr
+Push "Array"
+GetVariable
+Push "DESCENDING"
+GetMember
+Push "Array"
+GetVariable
+Push "NUMERIC"
+GetMember
+BitOr
+Push 2
+InitArray
+Push "id", "speed", 2
+InitArray
+Push 2, register3, "sortOn"
+CallMethod
+Pop
+Push register1, "playerKrin", register3, 0.0
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 0.0
+SetMember
+Push register1, "playerKrin", register3, 1
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 1
+SetMember
+Push register1, "playerKrin", register3, 2
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 2
+SetMember
+Push 0.0, "Array"
+NewObject
+StoreRegister 2
+Pop
+Push "id", 2, "speed", register1, "playerKrin2"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register2, "push"
+CallMethod
+Pop
+Push "id", 4, "speed", register1, "playerKrin4"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register2, "push"
+CallMethod
+Pop
+Push "id", 6, "speed", register1, "playerKrin6"
+GetMember
+Push "SPEEDU"
+GetMember
+Push 2
+InitObject
+Push 1, register2, "push"
+CallMethod
+Pop
+Push "Array"
+GetVariable
+Push "DESCENDING"
+GetMember
+Push "Array"
+GetVariable
+Push "NUMERIC"
+GetMember
+BitOr
+Push "Array"
+GetVariable
+Push "DESCENDING"
+GetMember
+Push "Array"
+GetVariable
+Push "NUMERIC"
+GetMember
+BitOr
+Push 2
+InitArray
+Push "id", "speed", 2
+InitArray
+Push 2, register2, "sortOn"
+CallMethod
+Pop
+Push register1, "playerKrin", register2, 0.0
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 0.0
+SetMember
+Push register1, "playerKrin", register2, 1
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 1
+SetMember
+Push register1, "playerKrin", register2, 2
+GetMember
+Push "id"
+GetMember
+Add2
+GetMember
+Push "teamAdder", 2
+SetMember
+Push register1, "AITeamMoveOrder", 0.0, "Array"
+NewObject
+SetMember
+Push "i", 0.0
+SetVariable
+loc2395:Push "i"
+GetVariable
+Push 3
+Less2
+Not
+If loc2403
+Push register1, "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+Push "s1tm"
+GetVariable
+Add2
+Push register3, "i"
+GetVariable
+GetMember
+Push "id"
+GetMember
+SetMember
+Push register1, "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+Push "s2tm"
+GetVariable
+Add2
+Push register2, "i"
+GetVariable
+GetMember
+Push "id"
+GetMember
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc2395
+}
+loc2403:SetVariable
+Push 0.0, "TeamSelect"
+CallFunction
+Pop
+Push "PrevTeam", "TeamMove"
+GetVariable
+SetVariable
+Push "i", 1
+SetVariable
+loc2428:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc246d
+Push 0.0, "i"
+GetVariable
+Push "i"
+GetVariable
+Push 3, "krinAddMove"
+CallFunction
+Pop
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc2428
+loc246d:Push "menuMode", false
+SetVariable
+Push "hitTarget", 0.0, "Array"
+NewObject
+SetVariable
+Push "i", 0.0
+SetVariable
+loc2496:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc24d3
+Push "hitTarget"
+GetVariable
+Push "i"
+GetVariable
+Push 0.0
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc2496
+loc24d3:Push "_root"
+GetVariable
+Push "moveToMakeGGTT", 0.0
+SetMember
+Push "turnBasedKrin"
+GetVariable
+Not
+If loc24f4
+loc24f4:Push "turnTimeKKK", 0.0
+SetVariable
+Push "turnTimeKKK2", 0.0
+SetVariable
+Push "nextSpeechKKK", true
+SetVariable
+Push "onMouseDown"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push register1, "InBattle"
+GetMember
+Push false
+Equals2
+PushDuplicate
+Not
+If loc2559
+Pop
+Push "battleClocker"
+GetVariable
+Push "timerWait"
+GetMember
+Push 0.0
+Equals2
+loc2559:PushDuplicate
+Not
+If loc2576
+Pop
+Push register1, "winCondition"
+GetMember
+Push 0.0
+Less2
+loc2576:PushDuplicate
+Not
+If loc258c
+Pop
+Push register1, "speechDone"
+GetMember
+Push true
+Equals2
+loc258c:Not
+If loc2742
+Push "hitTargetX", 0.0
+SetVariable
+Push "i", 0.0
+SetVariable
+loc25b0:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc26e7
+Push "hitTarget"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Not
+If loc26d8
+Push "hitTargetX", 1
+SetVariable
+Push register1, "theEnemyToMoveVS", register1, "KrinSelector", "i"
+GetVariable
+Push 1
+Add2
+Add2
+GetMember
+Push "TargetEr"
+GetMember
+SetMember
+Push register1, "theEnemyToMoveVS2", register1, "KrinSelector", "i"
+GetVariable
+Push 1
+Add2
+Add2
+GetMember
+Push "TargetType"
+GetMember
+SetMember
+Push "arenaMode"
+GetVariable
+Not
+If loc26d8
+Push "arenaPlayer", register1, "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+Push 1, register1, "selector"
+GetMember
+Push "refreshOrbs"
+CallMethod
+Pop
+Push register1, "theEnemyToMoveVS"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc267e
+Push register1, "theEnemyToMoveVS2", 2
+SetMember
+loc267e:Push register1, "theEnemyToMoveVS"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Push 2
+Add2
+Equals2
+PushDuplicate
+If loc26c5
+Pop
+Push register1, "theEnemyToMoveVS"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Push 4
+Add2
+Equals2
+loc26c5:Not
+If loc26d8
+Push register1, "theEnemyToMoveVS2", 4
+SetMember
+loc26d8:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc25b0
+loc26e7:Push "hitTargetX"
+GetVariable
+Not
+If loc2742
+Push "selector"
+GetVariable
+Push "_alpha", 0.0
+SetMember
+Push "selector"
+GetVariable
+Push "_visible", true
+SetMember
+Push "selector"
+GetVariable
+Push "clicker", true
+SetMember
+Push "selector"
+GetVariable
+Push "_x", "HTX"
+GetVariable
+SetMember
+Push "selector"
+GetVariable
+Push "_y", "HTY"
+GetVariable
+SetMember
+}
+loc2742:SetVariable
+Push "thtk", 1
+SetVariable
+loc274e:Push "thtk"
+GetVariable
+Push 7
+Less2
+Not
+If loc2887
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc2878
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push "passiveBuffs"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc2878
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push "passiveBuffs"
+GetMember
+Enumerate2
+loc27cb:StoreRegister 0
+Push null
+Equals2
+If loc283a
+Push "krinb", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push 1, "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push "passiveBuffs"
+GetMember
+Push "krinb"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push 4, "_root"
+GetVariable
+Push "applyBuffKrin"
+CallMethod
+Pop
+Jump loc27cb
+loc283a:Push "_root"
+GetVariable
+Push "firstUpdate", true
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "thtk"
+GetVariable
+Add2
+GetMember
+Push 1, "_root"
+GetVariable
+Push "applyChangesKrin"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "firstUpdate", false
+SetMember
+loc2878:Push "thtk", "thtk"
+GetVariable
+Increment
+SetVariable
+Jump loc274e
+loc2887:Push 0
+Push "_root"
+GetVariable
+Push "__a35Ready"
+CallMethod
+Pop

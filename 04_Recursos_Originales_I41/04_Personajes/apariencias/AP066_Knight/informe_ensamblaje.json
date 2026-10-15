@@ -1,0 +1,580 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "MAN",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   "XADER",
+   "XADER",
+   "XADER",
+   "XADER",
+   "XADER",
+   "PALADINSWORD",
+   "SHIELD2"
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 20,
+    "nombre": "Knight",
+    "linea": 8569,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 16,
+    "nombre": "Knight",
+    "linea": 13833
+   }
+  ],
+  "name": "AP066_Knight",
+  "nombres": [
+   "Knight"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP066_Knight",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_XADER",
+     "characterId": 861
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN",
+     "characterId": 1752
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_XADER",
+     "characterId": 1586
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_SHIELD2",
+     "characterId": 1283
+    }
+   ]
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_MAN",
+     "characterId": 1754
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_XADER",
+     "characterId": 1693
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_XADER",
+     "characterId": 861
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN",
+     "characterId": 1749
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_XADER",
+     "characterId": 1691
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_MAN",
+     "characterId": 1754
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_XADER",
+     "characterId": 1693
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_XADER",
+     "characterId": 861
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN",
+     "characterId": 1749
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_XADER",
+     "characterId": 1691
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_MAN",
+     "characterId": 1756
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_CHEST_XADER",
+     "characterId": 1425
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_MAN",
+     "characterId": 1750
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HEAD_XADER",
+     "characterId": 1514
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_XADER",
+     "characterId": 861
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_SHOULDER_XADER",
+     "characterId": 1423
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_PALADINSWORD",
+     "characterId": 1285
+    }
+   ]
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN",
+     "characterId": 1752
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_XADER",
+     "characterId": 1586
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1750
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "M_HEAD_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1514
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1756
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_CHEST_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1425
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_ARM_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 861
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_ARM_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 861
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1752
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_HAND_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1586
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1752
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_HAND_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1586
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 861
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 861
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1749
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1691
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1749
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1691
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1754
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1693
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1754
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1693
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_PALADINSWORD",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1285
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_PALADINSWORD",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1285
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_SHIELD2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1283
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_SHIELD2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1283
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SHOULDER_XADER",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1423
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 85,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

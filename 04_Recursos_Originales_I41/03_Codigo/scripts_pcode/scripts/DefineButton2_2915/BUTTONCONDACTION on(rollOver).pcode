@@ -1,0 +1,72 @@
+ConstantPool "START", "ui_but4", "gotoAndPlay", "_root", "thereIsASlotSelected", "KrinToolTipper", "colorChange", "Common", "fontBacker2", "krinChangeColor", "tt", "KrinLang", "KLangChoosen", "SYSTEM", "t", "GO", "gotoAndStop"
+Push "START", 1, "ui_but4"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "Common"
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange"
+GetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "fontBacker2"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 23
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 24
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop

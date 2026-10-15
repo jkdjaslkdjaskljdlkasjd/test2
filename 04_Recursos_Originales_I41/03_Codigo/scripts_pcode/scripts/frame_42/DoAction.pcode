@@ -1,0 +1,216 @@
+ConstantPool "Krin", "highestZoneDefeated", "numberOfRespecUsed", "numberOfTrainingUsed", "topDamagePhysical", "topDamageElemental", "checkAndUpdateZoneAchievements", "ACH_S2_BEAT_ZONE_1", "sendAchievement", "ACH_S2_BEAT_ZONE_2", "ACH_S2_BEAT_ZONE_3", "ACH_S2_BEAT_ZONE_4", "ACH_S2_BEAT_ZONE_5", "ACH_S2_BEAT_ZONE_6", "ACH_S2_BEAT_ZONE_7", "updateSonny2AchByIndex", "ACH_S2_SOLO_NOSTALGIA", "ACH_S2_TIME_BOMB_UNDER_40", "ACH_S2_BEAT_WARDEN_DUO", "ACH_S2_ALL_CLASSES", "ACH_S2_BEAT_MAYOR_CLEAN", "ACH_S2_BEAT_HUNT_CLEAN", "ACH_S2_SUPPORT_HYDRA", "ACH_S2_SOLO_CLEMONS", "Updating Original Sonny 2 Ach ID: ", "updateZoneDefeated", "Updating Top Zone Defeated: ", "sendWrapperMessage", "updateTopPhysicalDamage", "Updating Top Physical Damage: ", " // Current Best: ", "ACH_S2_DEAL_X_PHYSICAL", "updateTopElementalDamage", "Updating Top Elemental Damage: ", "ACH_S2_DEAL_X_ELEMENTAL"
+Push "Krin"
+GetVariable
+Push "highestZoneDefeated", 0.0
+SetMember
+Push "Krin"
+GetVariable
+Push "numberOfRespecUsed", 0.0
+SetMember
+Push "Krin"
+GetVariable
+Push "numberOfTrainingUsed", 0.0
+SetMember
+Push "Krin"
+GetVariable
+Push "topDamagePhysical", 0.0
+SetMember
+Push "Krin"
+GetVariable
+Push "topDamageElemental", 0.0
+SetMember
+Push "checkAndUpdateZoneAchievements"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 1
+Less2
+Not
+Not
+If loc03a5
+Push "ACH_S2_BEAT_ZONE_1", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc03a5:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 2
+Less2
+Not
+Not
+If loc03d1
+Push "ACH_S2_BEAT_ZONE_2", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc03d1:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 3
+Less2
+Not
+Not
+If loc03fd
+Push "ACH_S2_BEAT_ZONE_3", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc03fd:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 4
+Less2
+Not
+Not
+If loc0429
+Push "ACH_S2_BEAT_ZONE_4", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc0429:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 5
+Less2
+Not
+Not
+If loc0455
+Push "ACH_S2_BEAT_ZONE_5", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc0455:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 6
+Less2
+Not
+Not
+If loc0481
+Push "ACH_S2_BEAT_ZONE_6", 1, register1, "sendAchievement"
+CallMethod
+Pop
+loc0481:Push "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Push 7
+Less2
+Not
+Not
+If loc04ad
+Push "ACH_S2_BEAT_ZONE_7", 1, register1, "sendAchievement"
+CallMethod
+Pop
+}
+loc04ad:SetVariable
+Push "updateSonny2AchByIndex"
+DefineFunction2 "", 1, 5, false, true, true, false, true, false, true, false, false, 4, "achId" {
+Push "ACH_S2_BEAT_ZONE_7", "ACH_S2_SOLO_NOSTALGIA", "ACH_S2_TIME_BOMB_UNDER_40", "ACH_S2_BEAT_WARDEN_DUO", "ACH_S2_ALL_CLASSES", "ACH_S2_BEAT_MAYOR_CLEAN", "ACH_S2_BEAT_HUNT_CLEAN", "ACH_S2_SUPPORT_HYDRA", "ACH_S2_SOLO_CLEMONS", "ACH_S2_BEAT_ZONE_1", 10
+InitArray
+StoreRegister 3
+Pop
+Push "Updating Original Sonny 2 Ach ID: ", register4
+Add2
+Trace
+Push register3, register4
+GetMember
+StoreRegister 2
+Pop
+Push register2, 1, register1, "sendAchievement"
+CallMethod
+Pop
+}
+SetVariable
+Push "updateZoneDefeated"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "zoneId" {
+Push "Updating Top Zone Defeated: ", register1
+Add2
+Trace
+Push "Updating Top Zone Defeated: ", register1
+Add2
+Push 1, "sendWrapperMessage"
+CallFunction
+Pop
+Push register1, "Krin"
+GetVariable
+Push "highestZoneDefeated"
+GetMember
+Greater
+Not
+If loc0566
+Push "Krin"
+GetVariable
+Push "highestZoneDefeated", register1
+SetMember
+}
+loc0566:SetVariable
+Push "updateTopPhysicalDamage"
+DefineFunction2 "", 1, 3, false, true, true, false, true, false, true, false, false, 2, "damage" {
+Push "Updating Top Physical Damage: ", register2
+Add2
+Push " // Current Best: "
+Add2
+Push "Krin"
+GetVariable
+Push "topDamagePhysical"
+GetMember
+Add2
+Trace
+Push register2, "Krin"
+GetVariable
+Push "topDamagePhysical"
+GetMember
+Greater
+Not
+If loc05be
+Push "Krin"
+GetVariable
+Push "topDamagePhysical", register2
+SetMember
+loc05be:Push register2, 2000
+Less2
+Not
+Not
+If loc05e0
+Push "ACH_S2_DEAL_X_PHYSICAL", 1, register1, "sendAchievement"
+CallMethod
+Pop
+}
+loc05e0:SetVariable
+Push "updateTopElementalDamage"
+DefineFunction2 "", 1, 3, false, true, true, false, true, false, true, false, false, 2, "damage" {
+Push "Updating Top Elemental Damage: ", register2
+Add2
+Push " // Current Best: "
+Add2
+Push "Krin"
+GetVariable
+Push "topDamageElemental"
+GetMember
+Add2
+Trace
+Push register2, "Krin"
+GetVariable
+Push "topDamageElemental"
+GetMember
+Greater
+Not
+If loc0638
+Push "Krin"
+GetVariable
+Push "topDamageElemental", register2
+SetMember
+loc0638:Push register2, 2000
+Less2
+Not
+Not
+If loc065a
+Push "ACH_S2_DEAL_X_ELEMENTAL", 1, register1, "sendAchievement"
+CallMethod
+Pop
+}
+loc065a:SetVariable

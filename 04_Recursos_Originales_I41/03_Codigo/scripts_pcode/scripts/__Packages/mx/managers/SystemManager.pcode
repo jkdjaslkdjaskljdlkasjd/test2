@@ -1,0 +1,485 @@
+ConstantPool "_global", "mx", "Object", "managers", "SystemManager", "prototype", "init", "_initialized", "events", "EventDispatcher", "initialize", "Mouse", "addListener", "Stage", "_xAddEventListener", "addEventListener", "__addEventListener", "_xRemoveEventListener", "removeEventListener", "__removeEventListener", "addFocusManager", "form", "focusManager", "activate", "removeFocusManager", "onMouseDown", "_onMouseDown", "onResize", "width", "height", "origWidth", "origHeight", "align", "T", "B", "L", "R", "LT", "TR", "LB", "RB", "__screen", "x", "y", "relocate", "type", "resize", "dispatchEvent", "__get__screen", "idleFrames", "isMouseDown", "forms", "Array", "screen", "addProperty", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0245
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0245:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Not
+Not
+If loc027d
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers", 0.0, "Object"
+NewObject
+SetMember
+loc027d:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Not
+Not
+If loc08e3
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "init"
+DefineFunction "", 1, "Void"  {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_initialized"
+GetMember
+Push false
+Equals2
+Not
+If loc0446
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_initialized", true
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "initialize"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push 1, "Mouse"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push 1, "Stage"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_xAddEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "addEventListener"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "addEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__addEventListener"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_xRemoveEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "removeEventListener"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "removeEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__removeEventListener"
+GetMember
+SetMember
+}
+loc0446:SetMember
+Push register1, "addFocusManager"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "f" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form", register1
+SetMember
+Push 0.0, register1, "focusManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "removeFocusManager"
+DefineFunction "", 1, "f"  {
+}
+SetMember
+Push register1, "onMouseDown"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 0, "Void" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+StoreRegister 1
+Pop
+Push 0.0, register1, "focusManager"
+GetMember
+Push "_onMouseDown"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "onResize"
+DefineFunction2 "", 1, 11, false, true, true, false, true, false, true, false, true, 0, "Void" {
+Push "Stage"
+GetVariable
+Push "width"
+GetMember
+StoreRegister 7
+Pop
+Push "Stage"
+GetVariable
+Push "height"
+GetMember
+StoreRegister 6
+Pop
+Push register2, "origWidth"
+GetMember
+StoreRegister 9
+Pop
+Push register2, "origHeight"
+GetMember
+StoreRegister 8
+Pop
+Push "Stage"
+GetVariable
+Push "align"
+GetMember
+StoreRegister 3
+Pop
+Push register9, register7
+Subtract
+Push 2
+Divide
+StoreRegister 5
+Pop
+Push register8, register6
+Subtract
+Push 2
+Divide
+StoreRegister 4
+Pop
+Push register3, "T"
+Equals2
+Not
+If loc05a4
+Push 0.0
+StoreRegister 4
+Pop
+Jump loc06c7
+loc05a4:Push register3, "B"
+Equals2
+Not
+If loc05c4
+Push register8, register6
+Subtract
+StoreRegister 4
+Pop
+Jump loc06c7
+loc05c4:Push register3, "L"
+Equals2
+Not
+If loc05e8
+Push 0.0
+StoreRegister 5
+Pop
+Jump loc06c7
+loc05e8:Push register3, "R"
+Equals2
+Not
+If loc0608
+Push register9, register7
+Subtract
+StoreRegister 5
+Pop
+Jump loc06c7
+loc0608:Push register3, "LT"
+Equals2
+Not
+If loc063d
+Push 0.0
+StoreRegister 4
+Pop
+Push 0.0
+StoreRegister 5
+Pop
+Jump loc06c7
+loc063d:Push register3, "TR"
+Equals2
+Not
+If loc066e
+Push 0.0
+StoreRegister 4
+Pop
+Push register9, register7
+Subtract
+StoreRegister 5
+Pop
+Jump loc06c7
+loc066e:Push register3, "LB"
+Equals2
+Not
+If loc069f
+Push register8, register6
+Subtract
+StoreRegister 4
+Pop
+Push 0.0
+StoreRegister 5
+Pop
+Jump loc06c7
+loc069f:Push register3, "RB"
+Equals2
+Not
+If loc06c7
+Push register8, register6
+Subtract
+StoreRegister 4
+Pop
+Push register9, register7
+Subtract
+StoreRegister 5
+Pop
+loc06c7:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push undefined
+Equals2
+Not
+If loc070e
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen", 0.0, "Object"
+NewObject
+SetMember
+loc070e:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push "x", register5
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push "y", register4
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push "width", register7
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push "height", register6
+SetMember
+Push 0.0, register1, "focusManager"
+GetMember
+Push "relocate"
+CallMethod
+Pop
+Push "type", "resize", 1
+InitObject
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "__get__screen"
+DefineFunction "", 0 {
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "init"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0848
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "onResize"
+CallMethod
+Pop
+loc0848:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__screen"
+GetMember
+Return
+}
+SetMember
+Push register1, "_initialized", false
+SetMember
+Push register1, "idleFrames", 0.0
+SetMember
+Push register1, "isMouseDown", false
+SetMember
+Push register1, "forms", 0.0, "Array"
+NewObject
+SetMember
+DefineFunction "", 0 {
+}
+Push register1, "__get__screen"
+GetMember
+Push "screen", 3, register1, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc08e3:Pop

@@ -1,0 +1,24 @@
+ConstantPool "j", "this", "MY_TX", "removeTextField"
+Push "j", 0.0
+SetVariable
+loc0031:Push "j"
+GetVariable
+Push 10
+Less2
+Not
+If loc0075
+Push 0.0, "this"
+GetVariable
+Push "MY_TX", "j"
+GetVariable
+Add2
+GetMember
+Push "removeTextField"
+CallMethod
+Pop
+Push "j", "j"
+GetVariable
+Increment
+SetVariable
+Jump loc0031
+loc0075:GoToLabel "GO4"

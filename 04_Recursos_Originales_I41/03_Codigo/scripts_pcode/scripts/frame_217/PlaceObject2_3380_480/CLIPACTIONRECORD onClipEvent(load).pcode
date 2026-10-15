@@ -1,0 +1,103 @@
+ConstantPool "moveStart", "theGuy", "Krin", "_root", "BAMBAMBAM", "turnTime", "timerWait", "AttackEndCounterLimit", "AttackEndCounter", "playerKrin", "playerNumber", "teamSide", "TeamMoveNow", "friend", "this", "thingerClock", "gotoAndStop", "enemy", "firstUpdate", "i", "active", "lifeBarUpdate", "p", "BAR", "_visible"
+Push "moveStart", false
+SetVariable
+Push "theGuy", "Krin"
+SetVariable
+Push "_root"
+GetVariable
+Push "BAMBAMBAM", false
+SetMember
+Push "turnTime", 0.0
+SetVariable
+Push "timerWait", 30
+SetVariable
+Push "AttackEndCounterLimit", 25
+SetVariable
+Push "AttackEndCounter", "AttackEndCounterLimit"
+GetVariable
+Push 1
+Add2
+SetVariable
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push "_root"
+GetVariable
+Push "TeamMoveNow"
+GetMember
+Equals2
+Not
+If loc0198
+Push "friend", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc01b2
+loc0198:Push "enemy", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc01b2:Push "_root"
+GetVariable
+Push "firstUpdate", true
+SetMember
+Push "i", 1
+SetVariable
+loc01cb:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc0246
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active"
+GetMember
+Not
+If loc0219
+Push "i"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "lifeBarUpdate"
+CallMethod
+Pop
+Jump loc0237
+loc0219:Push "_root"
+GetVariable
+Push "p", "i"
+GetVariable
+Add2
+Push "BAR"
+Add2
+GetMember
+Push "_visible", false
+SetMember
+loc0237:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc01cb
+loc0246:Push "_root"
+GetVariable
+Push "firstUpdate", false
+SetMember

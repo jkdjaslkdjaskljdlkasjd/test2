@@ -1,0 +1,13 @@
+ConstantPool "Key", "isDown", ""
+Push 32, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc003f
+Push "", 7, true
+SetProperty
+Jump loc004c
+loc003f:Push "", 7, false
+SetProperty
+loc004c:

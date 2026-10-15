@@ -1,0 +1,4 @@
+Stop
+Push "", "_parent"
+GetVariable
+GetURL2 false, true, 0

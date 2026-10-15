@@ -1,0 +1,26 @@
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "shopId"
+GetMember
+Push 1
+Add2
+Push 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "__nzShopActive"
+GetMember
+Not
+If loc0092
+Push "this"
+GetVariable
+Push "_visible"
+Push false
+SetMember
+Jump loc0092
+loc0092:

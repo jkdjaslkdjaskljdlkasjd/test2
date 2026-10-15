@@ -1,0 +1,58 @@
+ConstantPool "_root", "Krin", "mouseItem", "PauseForScreen", "skills", "KRINMENU", "gotoAndStop", "KrinScreen", "_visible", "KrinCombatText", "play", "combatTexter", "KrinLang", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0100
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc00fb
+Push "skills", 1, "KRINMENU"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "KrinScreen"
+GetVariable
+Push "_visible", false
+SetMember
+loc00fb:Jump loc0153
+loc0100:Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 66
+GetMember
+SetMember
+loc0153:

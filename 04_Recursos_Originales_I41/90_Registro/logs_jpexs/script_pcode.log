@@ -1,0 +1,1029 @@
+JPEXS Free Flash Decompiler v.0.0.0
+-----------------------------------
+Exporting scripts...
+Exported script 1/1024 /home/claude/work/full/scripts_pcode/scripts/Border.pcode, 00:00.008
+Exported script 3/1024 /home/claude/work/full/scripts_pcode/scripts/BtnUpArrow.pcode, 00:00.001
+Exported script 2/1024 /home/claude/work/full/scripts_pcode/scripts/BtnDownArrow.pcode, 00:00.006
+Exported script 4/1024 /home/claude/work/full/scripts_pcode/scripts/Button.pcode, 00:00.000
+Exported script 5/1024 /home/claude/work/full/scripts_pcode/scripts/ButtonSkin.pcode, 00:00.001
+Exported script 6/1024 /home/claude/work/full/scripts_pcode/scripts/CustomBorder.pcode, 00:00.000
+Exported script 7/1024 /home/claude/work/full/scripts_pcode/scripts/Defaults.pcode, 00:00.000
+Exported script 8/1024 /home/claude/work/full/scripts_pcode/scripts/FocusManager.pcode, 00:00.000
+Exported script 9/1024 /home/claude/work/full/scripts_pcode/scripts/FocusRect.pcode, 00:00.000
+Exported script 10/1024 /home/claude/work/full/scripts_pcode/scripts/HScrollBar.pcode, 00:00.000
+Exported script 11/1024 /home/claude/work/full/scripts_pcode/scripts/RectBorder.pcode, 00:00.000
+Exported script 12/1024 /home/claude/work/full/scripts_pcode/scripts/SimpleButton.pcode, 00:00.000
+Exported script 13/1024 /home/claude/work/full/scripts_pcode/scripts/UIComponent.pcode, 00:00.001
+Exported script 14/1024 /home/claude/work/full/scripts_pcode/scripts/UIComponentExtensions.pcode, 00:00.000
+Exported script 15/1024 /home/claude/work/full/scripts_pcode/scripts/UIObject.pcode, 00:00.000
+Exported script 17/1024 /home/claude/work/full/scripts_pcode/scripts/UIScrollBar.pcode, 00:00.001
+Exported script 18/1024 /home/claude/work/full/scripts_pcode/scripts/VScrollBar.pcode, 00:00.000
+Exported script 16/1024 /home/claude/work/full/scripts_pcode/scripts/UIObjectExtensions.pcode, 00:00.009
+Exported script 20/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/Button.pcode, 00:00.046
+Exported script 21/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/HScrollBar.pcode, 00:00.007
+Exported script 19/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/com/gskinner/utils/SWFBridgeAS2.pcode, 00:00.066
+Exported script 23/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/UIScrollBar.pcode, 00:00.010
+Exported script 24/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/VScrollBar.pcode, 00:00.001
+Exported script 22/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/SimpleButton.pcode, 00:00.031
+Exported script 25/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/scrollClasses/ScrollBar.pcode, 00:00.026
+Exported script 26/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/controls/scrollClasses/ScrollThumb.pcode, 00:00.019
+Exported script 27/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/core/UIComponent.pcode, 00:00.008
+Exported script 29/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/core/ext/UIComponentExtensions.pcode, 00:00.002
+Exported script 30/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/core/ext/UIObjectExtensions.pcode, 00:00.006
+Exported script 31/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/events/EventDispatcher.pcode, 00:00.010
+Exported script 32/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/events/UIEventDispatcher.pcode, 00:00.008
+Exported script 33/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/managers/DepthManager.pcode, 00:00.014
+Exported script 28/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/core/UIObject.pcode, 00:00.048
+Exported script 34/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/managers/FocusManager.pcode, 00:00.022
+Exported script 35/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/managers/OverlappedWindows.pcode, 00:00.020
+Exported script 36/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/managers/SystemManager.pcode, 00:00.004
+Exported script 37/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/Border.pcode, 00:00.006
+Exported script 38/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/ColoredSkinElement.pcode, 00:00.002
+Exported script 40/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/RectBorder.pcode, 00:00.005
+Exported script 41/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/SkinElement.pcode, 00:00.002
+Exported script 42/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/halo/ButtonSkin.pcode, 00:00.009
+Exported script 39/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/CustomBorder.pcode, 00:00.018
+Exported script 43/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/halo/Defaults.pcode, 00:00.008
+Exported script 44/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/halo/FocusRect.pcode, 00:00.009
+Exported script 45/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/skins/halo/RectBorder.pcode, 00:00.352
+Exported script 46/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/styles/CSSSetStyle.pcode, 00:00.352
+Exported script 48/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/styles/CSSTextStyles.pcode, 00:00.018
+Exported script 47/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/styles/CSSStyleDeclaration.pcode, 00:00.024
+Exported script 49/1024 /home/claude/work/full/scripts_pcode/scripts/__Packages/mx/styles/StyleManager.pcode, 00:00.009
+Exported script 51/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_224/BUTTONCONDACTION on(keyPress Tab).pcode, 00:00.001
+Exported script 50/1024 /home/claude/work/full/scripts_pcode/scripts/DoInitAction.pcode, 00:00.015
+Exported script 53/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2494/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 54/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2506/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 55/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2643/BUTTONCONDACTION on(release).pcode, 00:00.004
+Exported script 56/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2644/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 52/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2190/BUTTONCONDACTION on(press).pcode, 00:00.019
+Exported script 58/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2650/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 57/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2645/BUTTONCONDACTION on(release).pcode, 00:00.018
+Exported script 59/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2651/BUTTONCONDACTION on(release).pcode, 00:00.032
+Exported script 61/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2655/BUTTONCONDACTION on(release).pcode, 00:00.011
+Exported script 62/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2659/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 63/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2672/BUTTONCONDACTION on(release).pcode, 00:00.009
+Exported script 60/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2653/BUTTONCONDACTION on(release).pcode, 00:00.039
+Exported script 64/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2672/BUTTONCONDACTION on(rollOver).pcode, 00:00.005
+Exported script 66/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2673/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 65/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2672/BUTTONCONDACTION on(rollOut).pcode, 00:00.007
+Exported script 68/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2673/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 69/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2674/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 70/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2674/BUTTONCONDACTION on(rollOver).pcode, 00:00.002
+Exported script 71/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2674/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 67/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2673/BUTTONCONDACTION on(rollOver).pcode, 00:00.006
+Exported script 73/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2675/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 72/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2675/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 74/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2675/BUTTONCONDACTION on(rollOut).pcode, 00:00.003
+Exported script 76/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2712/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 77/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2712/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 75/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2712/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 78/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2713/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 79/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2713/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 80/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2713/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 81/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2714/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 82/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2714/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 83/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2714/BUTTONCONDACTION on(rollOut).pcode, 00:00.002
+Exported script 84/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2730/BUTTONCONDACTION on(release).pcode, 00:00.005
+Exported script 85/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2731/BUTTONCONDACTION on(release).pcode, 00:00.004
+Exported script 87/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2733/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 86/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2732/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 88/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2734/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 90/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2736/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 91/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2740/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 92/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2742/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 89/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2735/BUTTONCONDACTION on(release).pcode, 00:00.010
+Exported script 94/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2753/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 95/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2754/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 96/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2755/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 97/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2756/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 98/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2796/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 99/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2808/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 100/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2809/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 101/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2810/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 102/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2811/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 93/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2752/BUTTONCONDACTION on(release).pcode, 00:00.008
+Exported script 104/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2813/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 105/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2813/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 106/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2814/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 107/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2814/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 108/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2814/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 109/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2815/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 110/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2815/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 111/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2815/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 103/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2813/BUTTONCONDACTION on(press).pcode, 00:00.010
+Exported script 113/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2819/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 114/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2819/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 115/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2820/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 116/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2820/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 112/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2819/BUTTONCONDACTION on(press).pcode, 00:00.010
+Exported script 118/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2821/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 119/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2822/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 120/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2823/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 121/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2824/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 117/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2820/BUTTONCONDACTION on(rollOut).pcode, 00:00.003
+Exported script 123/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2827/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 124/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2827/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 125/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2828/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 126/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2828/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 127/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2828/BUTTONCONDACTION on(rollOut).pcode, 00:00.005
+Exported script 128/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2829/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 129/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2830/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 130/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2831/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 131/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2832/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 132/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2833/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 133/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2849/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 134/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2849/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 135/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2849/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 136/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2850/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 137/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2850/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 138/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2850/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 139/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2851/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 140/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2852/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 141/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2853/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 142/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2854/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 122/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2827/BUTTONCONDACTION on(press).pcode, 00:00.010
+Exported script 144/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2857/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 145/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2857/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 146/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2858/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 147/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2858/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 148/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2858/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 149/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2859/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 150/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2860/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 151/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2861/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 152/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2874/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 153/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2874/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 154/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2874/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 155/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2875/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 143/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2857/BUTTONCONDACTION on(press).pcode, 00:00.013
+Exported script 157/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2875/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 158/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2876/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 159/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2876/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 160/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2876/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 161/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2893/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 162/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2893/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 163/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2893/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 164/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2902/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 165/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2902/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 166/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2902/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 167/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2903/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 168/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2903/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 169/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2903/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 156/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2875/BUTTONCONDACTION on(rollOver).pcode, 00:00.012
+Exported script 171/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2904/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 172/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2904/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 173/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2905/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 174/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2905/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 175/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2905/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 176/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2906/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 177/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2906/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 178/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2906/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 179/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2907/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 180/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2907/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 181/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2907/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 182/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2910/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 183/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2910/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 184/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2910/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 185/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2911/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 186/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2911/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 187/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2911/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 170/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2904/BUTTONCONDACTION on(press).pcode, 00:00.006
+Exported script 189/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2912/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 190/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2912/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 191/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2913/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 192/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2914/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 193/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2915/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 194/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2915/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 195/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2915/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 188/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2912/BUTTONCONDACTION on(release).pcode, 00:00.005
+Exported script 197/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2916/BUTTONCONDACTION on(rollOver).pcode, 00:00.003
+Exported script 198/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2916/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 199/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2917/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 196/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2916/BUTTONCONDACTION on(release).pcode, 00:00.006
+Exported script 201/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2917/BUTTONCONDACTION on(rollOut).pcode, 00:00.005
+Exported script 202/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2918/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 203/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2918/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 204/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2918/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 205/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2938/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 200/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2917/BUTTONCONDACTION on(rollOver).pcode, 00:00.009
+Exported script 207/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2938/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 208/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2961/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 209/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2961/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 210/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2961/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 206/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2938/BUTTONCONDACTION on(rollOver).pcode, 00:00.003
+Exported script 212/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2963/BUTTONCONDACTION on(rollOver).pcode, 00:00.002
+Exported script 213/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2963/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 214/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3050/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 215/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3050/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 216/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3050/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 217/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3085/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 218/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3085/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 219/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3085/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 211/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_2963/BUTTONCONDACTION on(press).pcode, 00:00.013
+Exported script 221/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3091/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 222/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3091/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 223/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3091/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 224/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3100/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 220/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3089/BUTTONCONDACTION on(press).pcode, 00:00.013
+Exported script 226/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3125/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 227/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3125/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 228/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3133/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 229/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3133/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 230/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3133/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 231/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3134/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 232/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3134/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 233/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3134/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 234/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3136/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 235/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3136/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 236/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3136/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 237/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3137/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 238/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3137/BUTTONCONDACTION on(rollOver).pcode, 00:00.001
+Exported script 239/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3137/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 240/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3138/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 241/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3138/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 242/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3138/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 243/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3139/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 244/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3139/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 245/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3139/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 246/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3140/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 247/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3140/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 248/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3140/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 249/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3141/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 250/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3141/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 251/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3141/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 252/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3142/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 253/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3142/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 254/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3142/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 255/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3143/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 225/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3125/BUTTONCONDACTION on(press).pcode, 00:00.012
+Exported script 256/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3143/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 258/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3147/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 259/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3177/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 257/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3143/BUTTONCONDACTION on(rollOut).pcode, 00:00.002
+Exported script 260/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3178/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 261/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3179/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 263/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3188/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 264/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3194/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 265/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3199/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 266/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3201/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 267/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3204/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 268/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3206/BUTTONCONDACTION on(press).pcode, 00:00.001
+Exported script 269/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3206/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 262/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3180/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 270/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3206/BUTTONCONDACTION on(rollOut).pcode, 00:00.003
+Exported script 271/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3211/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 273/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3235/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 274/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3235/BUTTONCONDACTION on(rollOut).pcode, 00:00.002
+Exported script 272/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3219/BUTTONCONDACTION on(release).pcode, 00:00.004
+Exported script 275/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3250/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 276/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3278/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 277/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3280/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 279/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3282/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 278/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3281/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 281/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3284/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 280/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3283/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 282/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3291/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 283/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3296/BUTTONCONDACTION on(press).pcode, 00:00.000
+Exported script 285/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3382/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 286/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3383/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 284/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3381/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 288/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3385/BUTTONCONDACTION on(release).pcode, 00:00.001
+Exported script 289/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3386/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 290/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3387/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 291/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3388/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 292/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3389/BUTTONCONDACTION on(release).pcode, 00:00.002
+Exported script 287/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3384/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 294/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3408/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 293/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3408/BUTTONCONDACTION on(release).pcode, 00:00.000
+Exported script 295/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3408/BUTTONCONDACTION on(rollOut).pcode, 00:00.001
+Exported script 296/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_3417/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 297/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_4101/BUTTONCONDACTION on(release).pcode, 00:00.003
+Exported script 299/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_4101/BUTTONCONDACTION on(rollOut).pcode, 00:00.000
+Exported script 298/1024 /home/claude/work/full/scripts_pcode/scripts/DefineButton2_4101/BUTTONCONDACTION on(rollOver).pcode, 00:00.000
+Exported script 301/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_151_LifeBarSmoother/frame_19/DoAction.pcode, 00:00.001
+Exported script 302/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_151_LifeBarSmoother/frame_36/DoAction.pcode, 00:00.001
+Exported script 300/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_151_LifeBarSmoother/frame_18/DoAction.pcode, 00:00.002
+Exported script 303/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_151_LifeBarSmoother/frame_38/DoAction.pcode, 00:00.000
+Exported script 304/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_152_LifeBarSmoother2/frame_19/DoAction.pcode, 00:00.000
+Exported script 305/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_152_LifeBarSmoother2/frame_39/DoAction.pcode, 00:00.000
+Exported script 307/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_161_NumberFixer/frame_130/DoAction.pcode, 00:00.001
+Exported script 308/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_161_NumberFixer/frame_182/DoAction.pcode, 00:00.000
+Exported script 309/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_161_NumberFixer/frame_234/DoAction.pcode, 00:00.000
+Exported script 310/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_204/frame_33/DoAction.pcode, 00:00.000
+Exported script 311/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_209_BrdrShdw/frame_1/DoAction.pcode, 00:00.002
+Exported script 312/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_211_BrdrFace/frame_1/DoAction.pcode, 00:00.001
+Exported script 313/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_214_BrdrBlk/frame_1/DoAction.pcode, 00:00.000
+Exported script 314/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_216_BrdrHilght/frame_1/DoAction.pcode, 00:00.000
+Exported script 306/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_161_NumberFixer/frame_68/DoAction.pcode, 00:00.005
+Exported script 315/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_221_UIObject/frame_1/DoAction.pcode, 00:00.001
+Exported script 316/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_225/frame_1/DoAction.pcode, 00:00.000
+Exported script 317/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_227_FocusManager/frame_1/DoAction.pcode, 00:00.000
+Exported script 318/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_229_UIComponent/frame_1/DoAction.pcode, 00:00.000
+Exported script 319/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_230_SimpleButton/frame_1/DoAction.pcode, 00:00.000
+Exported script 320/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_231_Border/frame_1/DoAction.pcode, 00:00.001
+Exported script 321/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_232_RectBorder/frame_1/DoAction.pcode, 00:00.001
+Exported script 322/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_234_Button/frame_1/DoAction.pcode, 00:00.000
+Exported script 324/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_235_CustomBorder/frame_1/DoAction.pcode, 00:00.000
+Exported script 325/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_247_ScrollThemeColor1/frame_1/DoAction.pcode, 00:00.001
+Exported script 323/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_234_Button/frame_2/PlaceObject2_230_SimpleButton_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.002
+Exported script 327/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_260_ThumbThemeColor1/frame_1/DoAction.pcode, 00:00.000
+Exported script 328/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_262_ThumbThemeColor3/frame_1/DoAction.pcode, 00:00.001
+Exported script 326/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_249_ScrollThemeColor2/frame_1/DoAction.pcode, 00:00.002
+Exported script 329/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_269_ThumbThemeColor2/frame_1/DoAction.pcode, 00:00.000
+Exported script 330/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_293_HScrollBar/frame_1/DoAction.pcode, 00:00.000
+Exported script 331/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_293_HScrollBar/frame_2/PlaceObject2_234_Button_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 332/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_293_HScrollBar/frame_2/PlaceObject2_230_SimpleButton_31/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 333/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_294_VScrollBar/frame_1/DoAction.pcode, 00:00.000
+Exported script 335/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_294_VScrollBar/frame_2/PlaceObject2_230_SimpleButton_31/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 336/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_295_UIScrollBar/frame_1/DoAction.pcode, 00:00.001
+Exported script 337/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_295_UIScrollBar/frame_2/PlaceObject2_294_VScrollBar_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 338/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_295_UIScrollBar/frame_2/PlaceObject2_293_HScrollBar_59/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 339/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_442/frame_20/DoAction.pcode, 00:00.000
+Exported script 340/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_578_BOOM_SUN_BLUE/frame_25/DoAction.pcode, 00:00.000
+Exported script 341/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_579_BOOM_SUN_PURPLE/frame_25/DoAction.pcode, 00:00.001
+Exported script 334/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_294_VScrollBar/frame_2/PlaceObject2_234_Button_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.003
+Exported script 342/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_621/frame_10/DoAction.pcode, 00:00.000
+Exported script 343/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_622_BOOM_STAR_PURPLE/frame_16/DoAction.pcode, 00:00.000
+Exported script 344/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_636_ex_DOWNPURPLE/frame_25/DoAction.pcode, 00:00.000
+Exported script 345/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_637_ex_DOWNBLUE/frame_25/DoAction.pcode, 00:00.000
+Exported script 346/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_711_ex_AnasOut3/frame_15/DoAction.pcode, 00:00.000
+Exported script 348/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_724/frame_15/DoAction.pcode, 00:00.002
+Exported script 347/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_712_BOOM_STAR_BLUE/frame_16/DoAction.pcode, 00:00.004
+Exported script 349/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_725_BOOM_SLASHPURPLE/frame_25/DoAction.pcode, 00:00.001
+Exported script 350/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_734_ex_SPRYELLOW/frame_15/DoAction.pcode, 00:00.001
+Exported script 351/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_735_ex_SPRPURPLE/frame_15/DoAction.pcode, 00:00.000
+Exported script 352/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_736_ex_SPRBLUE/frame_15/DoAction.pcode, 00:00.000
+Exported script 353/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_737_ex_AnasOut2/frame_15/DoAction.pcode, 00:00.001
+Exported script 355/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_784_POISON_SHATTER/frame_36/DoAction.pcode, 00:00.000
+Exported script 356/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_786_BOOM_STAR/frame_16/DoAction.pcode, 00:00.001
+Exported script 357/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_787_BOOM_ANAS/frame_15/DoAction.pcode, 00:00.000
+Exported script 354/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_771_BOOM_STAR_YELLOW/frame_16/DoAction.pcode, 00:00.005
+Exported script 358/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_788_BOOM_IMMOB/frame_25/DoAction.pcode, 00:00.004
+Exported script 360/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1045/frame_13/DoAction.pcode, 00:00.000
+Exported script 361/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1046_BOOM_SLASH2RED/frame_25/DoAction.pcode, 00:00.000
+Exported script 362/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1047_BOOM_SLASH2/frame_25/DoAction.pcode, 00:00.000
+Exported script 363/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1048_BOOM_SLASHBLUE/frame_25/DoAction.pcode, 00:00.001
+Exported script 364/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1049_BOOM_SLASHORANGE/frame_25/DoAction.pcode, 00:00.000
+Exported script 359/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1033_BOOM_SPARKBLUE/frame_25/DoAction.pcode, 00:00.002
+Exported script 365/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1050_BOOM_SLASHRED/frame_25/DoAction.pcode, 00:00.000
+Exported script 367/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1052_BOOM_SLASH/frame_25/DoAction.pcode, 00:00.000
+Exported script 366/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1051_BOOM_SLASHGREEN/frame_25/DoAction.pcode, 00:00.000
+Exported script 368/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1055_BOOM_POWERUP/frame_16/DoAction.pcode, 00:00.001
+Exported script 370/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1060_BOOM_RED/frame_25/DoAction.pcode, 00:00.000
+Exported script 369/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1059_BOOM_SHIELD/frame_20/DoAction.pcode, 00:00.000
+Exported script 371/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1061_BOOM_HEAL2/frame_25/DoAction.pcode, 00:00.000
+Exported script 372/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1062_BOOM_DARK/frame_25/DoAction.pcode, 00:00.001
+Exported script 373/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1063_BOOM_HEAL/frame_16/DoAction.pcode, 00:00.001
+Exported script 375/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1126_MODEL2/frame_29/DoAction.pcode, 00:00.001
+Exported script 374/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1125_BOOM1/frame_36/DoAction.pcode, 00:00.001
+Exported script 376/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1126_MODEL2/frame_56/DoAction.pcode, 00:00.000
+Exported script 377/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1126_MODEL2/frame_77/DoAction.pcode, 00:00.001
+Exported script 378/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_401/DoAction.pcode, 00:00.001
+Exported script 379/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_402/DoAction.pcode, 00:00.002
+Exported script 380/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_403/DoAction.pcode, 00:00.004
+Exported script 381/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_404/DoAction.pcode, 00:00.004
+Exported script 382/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_405/DoAction.pcode, 00:00.001
+Exported script 383/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_406/DoAction.pcode, 00:00.001
+Exported script 384/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_407/DoAction.pcode, 00:00.000
+Exported script 385/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_408/DoAction.pcode, 00:00.000
+Exported script 386/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_409/DoAction.pcode, 00:00.000
+Exported script 388/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_411/DoAction.pcode, 00:00.000
+Exported script 387/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1986/frame_410/DoAction.pcode, 00:00.001
+Exported script 390/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1990_BOOM3/frame_25/DoAction.pcode, 00:00.006
+Exported script 391/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1991_BOOM2/frame_36/DoAction.pcode, 00:00.000
+Exported script 389/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_1989_KrinBuffShower/frame_1/PlaceObject2_1951_1/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.008
+Exported script 393/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4235/frame_2/DoAction.pcode, 00:00.000
+Exported script 392/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4235/frame_1/DoAction.pcode, 00:00.002
+Exported script 395/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4238/frame_2/DoAction.pcode, 00:00.000
+Exported script 396/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4241/frame_1/DoAction.pcode, 00:00.001
+Exported script 394/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4238/frame_1/DoAction.pcode, 00:00.003
+Exported script 397/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4241/frame_2/DoAction.pcode, 00:00.002
+Exported script 398/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4244/frame_1/DoAction.pcode, 00:00.001
+Exported script 399/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4244/frame_2/DoAction.pcode, 00:00.000
+Exported script 401/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4247/frame_2/DoAction.pcode, 00:00.001
+Exported script 402/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4250/frame_1/DoAction.pcode, 00:00.002
+Exported script 400/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4247/frame_1/DoAction.pcode, 00:00.003
+Exported script 403/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4250/frame_2/DoAction.pcode, 00:00.000
+Exported script 405/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4253/frame_2/DoAction.pcode, 00:00.001
+Exported script 404/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4253/frame_1/DoAction.pcode, 00:00.001
+Exported script 406/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4256/frame_1/DoAction.pcode, 00:00.001
+Exported script 408/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4259/frame_1/DoAction.pcode, 00:00.006
+Exported script 407/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4256/frame_2/DoAction.pcode, 00:00.007
+Exported script 409/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4259/frame_2/DoAction.pcode, 00:00.000
+Exported script 411/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4262/frame_2/DoAction.pcode, 00:00.001
+Exported script 410/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4262/frame_1/DoAction.pcode, 00:00.001
+Exported script 413/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4265/frame_2/DoAction.pcode, 00:00.000
+Exported script 412/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4265/frame_1/DoAction.pcode, 00:00.001
+Exported script 415/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4268/frame_2/DoAction.pcode, 00:00.000
+Exported script 416/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4271/frame_1/DoAction.pcode, 00:00.001
+Exported script 417/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4271/frame_2/DoAction.pcode, 00:00.000
+Exported script 418/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4274/frame_1/DoAction.pcode, 00:00.001
+Exported script 414/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4268/frame_1/DoAction.pcode, 00:00.003
+Exported script 420/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4277/frame_1/DoAction.pcode, 00:00.001
+Exported script 421/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4277/frame_2/DoAction.pcode, 00:00.000
+Exported script 419/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4274/frame_2/DoAction.pcode, 00:00.001
+Exported script 423/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4280/frame_2/DoAction.pcode, 00:00.002
+Exported script 424/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4283/frame_1/DoAction.pcode, 00:00.000
+Exported script 422/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4280/frame_1/DoAction.pcode, 00:00.003
+Exported script 425/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4283/frame_2/DoAction.pcode, 00:00.000
+Exported script 427/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4286/frame_2/DoAction.pcode, 00:00.001
+Exported script 426/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4286/frame_1/DoAction.pcode, 00:00.001
+Exported script 429/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4289/frame_2/DoAction.pcode, 00:00.000
+Exported script 428/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4289/frame_1/DoAction.pcode, 00:00.003
+Exported script 430/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4292/frame_1/DoAction.pcode, 00:00.003
+Exported script 431/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4292/frame_2/DoAction.pcode, 00:00.001
+Exported script 432/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4295/frame_1/DoAction.pcode, 00:00.001
+Exported script 434/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4298/frame_1/DoAction.pcode, 00:00.001
+Exported script 433/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4295/frame_2/DoAction.pcode, 00:00.002
+Exported script 435/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4298/frame_2/DoAction.pcode, 00:00.002
+Exported script 437/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4301/frame_2/DoAction.pcode, 00:00.001
+Exported script 438/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4304/frame_1/DoAction.pcode, 00:00.000
+Exported script 439/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4304/frame_2/DoAction.pcode, 00:00.001
+Exported script 440/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4307/frame_1/DoAction.pcode, 00:00.001
+Exported script 441/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4307/frame_2/DoAction.pcode, 00:00.001
+Exported script 436/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4301/frame_1/DoAction.pcode, 00:00.004
+Exported script 442/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4310/frame_1/DoAction.pcode, 00:00.001
+Exported script 444/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4313/frame_1/DoAction.pcode, 00:00.000
+Exported script 445/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4313/frame_2/DoAction.pcode, 00:00.000
+Exported script 446/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4316/frame_1/DoAction.pcode, 00:00.001
+Exported script 447/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4316/frame_2/DoAction.pcode, 00:00.000
+Exported script 448/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1/PlaceObject2_2002_11/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 449/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1/PlaceObject2_2002_11/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 450/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_15/PlaceObject2_2004_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 451/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_987/PlaceObject2_2004_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 452/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_987/PlaceObject2_2002_11/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 453/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_987/PlaceObject2_2002_11/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.005
+Exported script 454/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_987/DoAction.pcode, 00:00.000
+Exported script 455/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_988/DoAction.pcode, 00:00.001
+Exported script 443/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4310/frame_2/DoAction.pcode, 00:00.011
+Exported script 457/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_990/DoAction.pcode, 00:00.001
+Exported script 458/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_991/DoAction.pcode, 00:00.000
+Exported script 459/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_992/DoAction.pcode, 00:00.000
+Exported script 460/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_993/DoAction.pcode, 00:00.000
+Exported script 461/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_994/DoAction.pcode, 00:00.000
+Exported script 462/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_995/DoAction.pcode, 00:00.000
+Exported script 463/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_996/DoAction.pcode, 00:00.000
+Exported script 464/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_997/DoAction.pcode, 00:00.000
+Exported script 465/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_998/DoAction.pcode, 00:00.000
+Exported script 466/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_999/DoAction.pcode, 00:00.000
+Exported script 467/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1000/DoAction.pcode, 00:00.001
+Exported script 468/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1001/DoAction.pcode, 00:00.000
+Exported script 469/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1002/DoAction.pcode, 00:00.000
+Exported script 470/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1003/DoAction.pcode, 00:00.000
+Exported script 471/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1004/DoAction.pcode, 00:00.000
+Exported script 472/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1005/DoAction.pcode, 00:00.000
+Exported script 473/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1006/DoAction.pcode, 00:00.000
+Exported script 474/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1007/DoAction.pcode, 00:00.000
+Exported script 475/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1008/DoAction.pcode, 00:00.001
+Exported script 476/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1009/DoAction.pcode, 00:00.000
+Exported script 477/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1010/DoAction.pcode, 00:00.000
+Exported script 456/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_989/DoAction.pcode, 00:00.005
+Exported script 478/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1011/DoAction.pcode, 00:00.000
+Exported script 480/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1013/DoAction.pcode, 00:00.001
+Exported script 481/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1014/DoAction.pcode, 00:00.000
+Exported script 482/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1015/DoAction.pcode, 00:00.000
+Exported script 483/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1016/DoAction.pcode, 00:00.000
+Exported script 484/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1017/DoAction.pcode, 00:00.000
+Exported script 485/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1018/DoAction.pcode, 00:00.000
+Exported script 486/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1019/DoAction.pcode, 00:00.000
+Exported script 487/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1020/DoAction.pcode, 00:00.000
+Exported script 488/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1021/DoAction.pcode, 00:00.000
+Exported script 489/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1022/DoAction.pcode, 00:00.000
+Exported script 490/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1023/DoAction.pcode, 00:00.001
+Exported script 491/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1024/DoAction.pcode, 00:00.000
+Exported script 492/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1025/DoAction.pcode, 00:00.000
+Exported script 493/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1026/DoAction.pcode, 00:00.000
+Exported script 494/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1027/DoAction.pcode, 00:00.000
+Exported script 495/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1028/DoAction.pcode, 00:00.000
+Exported script 479/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1012/DoAction.pcode, 00:00.004
+Exported script 496/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1029/DoAction.pcode, 00:00.000
+Exported script 498/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1031/DoAction.pcode, 00:00.000
+Exported script 499/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1032/DoAction.pcode, 00:00.000
+Exported script 500/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1033/DoAction.pcode, 00:00.001
+Exported script 501/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1034/DoAction.pcode, 00:00.000
+Exported script 502/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_30/DoAction.pcode, 00:00.000
+Exported script 503/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_59/DoAction.pcode, 00:00.000
+Exported script 497/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2186/frame_1030/DoAction.pcode, 00:00.002
+Exported script 504/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_111/DoAction.pcode, 00:00.000
+Exported script 505/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_142/DoAction.pcode, 00:00.000
+Exported script 506/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_162/DoAction.pcode, 00:00.000
+Exported script 507/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_192/DoAction.pcode, 00:00.000
+Exported script 508/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_243/DoAction.pcode, 00:00.001
+Exported script 509/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2219_MODEL9/frame_259/DoAction.pcode, 00:00.000
+Exported script 510/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2285/frame_1/PlaceObject2_2284_M_SHAND_HYDRA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 511/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2286/frame_1/PlaceObject2_2282_M_SLEG2_HYDRA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 512/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2289/frame_1/PlaceObject2_2280_M_SCHEST_HYDRA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 513/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2290/frame_1/PlaceObject2_2278_M_SFOOT_HYDRA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 514/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2291/frame_1/PlaceObject2_2276_M_SHEAD_HYDRA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 516/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_30/DoAction.pcode, 00:00.001
+Exported script 517/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_59/DoAction.pcode, 00:00.000
+Exported script 518/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_111/DoAction.pcode, 00:00.000
+Exported script 519/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_123/DoAction.pcode, 00:00.000
+Exported script 520/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_143/DoAction.pcode, 00:00.001
+Exported script 521/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_173/DoAction.pcode, 00:00.000
+Exported script 522/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_224/DoAction.pcode, 00:00.000
+Exported script 523/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2299_MODEL8/frame_240/DoAction.pcode, 00:00.000
+Exported script 524/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2359/frame_1/PlaceObject2_2358_M_SHAND_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 525/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2360/frame_1/PlaceObject2_2356_M_SARM_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 526/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2361/frame_1/PlaceObject2_2354_M_SLEG2_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 527/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2362/frame_1/PlaceObject2_2352_M_SCHEST_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 528/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2363/frame_1/PlaceObject2_2350_M_SFOOT_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 529/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2364/frame_1/PlaceObject2_2348_M_SHEAD_APE_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 530/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2367/frame_1/PlaceObject2_2366_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 531/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2370/frame_12/DoAction.pcode, 00:00.000
+Exported script 515/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2295/frame_1/PlaceObject2_2293_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.005
+Exported script 532/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_30/DoAction.pcode, 00:00.000
+Exported script 534/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_69/DoAction.pcode, 00:00.001
+Exported script 535/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_111/DoAction.pcode, 00:00.000
+Exported script 536/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_123/DoAction.pcode, 00:00.000
+Exported script 537/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_143/DoAction.pcode, 00:00.000
+Exported script 533/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_59/DoAction.pcode, 00:00.001
+Exported script 538/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_173/DoAction.pcode, 00:00.001
+Exported script 539/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_224/DoAction.pcode, 00:00.000
+Exported script 540/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2371_MODEL6/frame_240/DoAction.pcode, 00:00.000
+Exported script 541/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2382/frame_1/PlaceObject2_2381_M_SHAND_GREGOR_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 543/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2384/frame_1/PlaceObject2_2377_M_SCHEST_GREGOR_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 542/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2383/frame_1/PlaceObject2_2379_M_SLEG2_GREGOR_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 545/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2386/frame_1/PlaceObject2_2373_M_SHEAD_GREGOR_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 544/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2385/frame_1/PlaceObject2_2375_M_SFOOT_GREGOR_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 546/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_30/DoAction.pcode, 00:00.000
+Exported script 547/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_59/DoAction.pcode, 00:00.000
+Exported script 549/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_111/DoAction.pcode, 00:00.000
+Exported script 548/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_69/DoAction.pcode, 00:00.001
+Exported script 550/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_123/DoAction.pcode, 00:00.001
+Exported script 551/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_143/DoAction.pcode, 00:00.001
+Exported script 552/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_173/DoAction.pcode, 00:00.000
+Exported script 553/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_224/DoAction.pcode, 00:00.000
+Exported script 554/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2394_MODEL7/frame_240/DoAction.pcode, 00:00.001
+Exported script 555/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2421/frame_1/PlaceObject2_2420_M_SHAND_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 556/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2422/frame_1/PlaceObject2_2418_M_SARM_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 558/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2424/frame_1/PlaceObject2_2414_M_SCHEST_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 557/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2423/frame_1/PlaceObject2_2416_M_SLEG2_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 559/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2425/frame_1/PlaceObject2_2412_M_SFOOT_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 560/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2426/frame_1/PlaceObject2_2408_M_SHEAD_WOLF_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 562/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_59/DoAction.pcode, 00:00.000
+Exported script 561/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_30/DoAction.pcode, 00:00.001
+Exported script 563/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_71/DoAction.pcode, 00:00.000
+Exported script 565/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_123/DoAction.pcode, 00:00.000
+Exported script 564/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_111/DoAction.pcode, 00:00.000
+Exported script 566/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_143/DoAction.pcode, 00:00.001
+Exported script 567/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_173/DoAction.pcode, 00:00.001
+Exported script 569/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_240/DoAction.pcode, 00:00.000
+Exported script 568/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2427_MODEL5/frame_224/DoAction.pcode, 00:00.001
+Exported script 571/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2433/frame_1/PlaceObject2_2432_M_HAND_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 570/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2430/frame_1/PlaceObject2_2429_M_ARM_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 573/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2439/frame_1/PlaceObject2_2438_M_FOOT_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 572/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2436/frame_1/PlaceObject2_2435_M_WEAPON_KATANA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 574/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2442/frame_1/PlaceObject2_2441_M_LEG2_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 575/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2445/frame_1/PlaceObject2_2444_M_CHEST_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 577/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2451/frame_1/PlaceObject2_2450_M_SHOULDER_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 576/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2448/frame_1/PlaceObject2_2447_M_HEAD_NINJA_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 579/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_77/DoAction.pcode, 00:00.000
+Exported script 578/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_45/DoAction.pcode, 00:00.000
+Exported script 580/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_86/DoAction.pcode, 00:00.001
+Exported script 581/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_123/DoAction.pcode, 00:00.001
+Exported script 582/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_154/DoAction.pcode, 00:00.000
+Exported script 583/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_214/DoAction.pcode, 00:00.000
+Exported script 584/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_230/DoAction.pcode, 00:00.000
+Exported script 585/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_247/DoAction.pcode, 00:00.001
+Exported script 586/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_295/DoAction.pcode, 00:00.000
+Exported script 587/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2452_MODEL4/frame_306/DoAction.pcode, 00:00.000
+Exported script 588/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2453_BOOM_SPARK/frame_25/DoAction.pcode, 00:00.000
+Exported script 589/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2456/frame_1/PlaceObject2_2455_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 590/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2457/frame_12/DoAction.pcode, 00:00.001
+Exported script 591/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2460/frame_1/PlaceObject2_2459_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 592/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2461/frame_12/DoAction.pcode, 00:00.001
+Exported script 594/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_77/DoAction.pcode, 00:00.000
+Exported script 593/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_45/DoAction.pcode, 00:00.000
+Exported script 595/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_88/DoAction.pcode, 00:00.000
+Exported script 596/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_107/DoAction.pcode, 00:00.000
+Exported script 598/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_137/DoAction.pcode, 00:00.000
+Exported script 597/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_118/DoAction.pcode, 00:00.001
+Exported script 599/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_146/DoAction.pcode, 00:00.000
+Exported script 600/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_188/DoAction.pcode, 00:00.000
+Exported script 601/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_219/DoAction.pcode, 00:00.000
+Exported script 602/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_279/DoAction.pcode, 00:00.001
+Exported script 603/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_295/DoAction.pcode, 00:00.001
+Exported script 604/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_312/DoAction.pcode, 00:00.000
+Exported script 605/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_360/DoAction.pcode, 00:00.000
+Exported script 606/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2462_MODEL1/frame_371/DoAction.pcode, 00:00.001
+Exported script 607/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2472/frame_1/DoAction.pcode, 00:00.002
+Exported script 608/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2489/frame_1/PlaceObject3_2488_3/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 610/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2496/frame_1/DoAction.pcode, 00:00.000
+Exported script 609/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2489/frame_1/PlaceObject3_2488_3/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 611/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2502/frame_1/DoAction.pcode, 00:00.001
+Exported script 612/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2503/frame_1/PlaceObject3_2462_MODEL1_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 613/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2503/frame_1/PlaceObject2_2496_35/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 615/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2636/frame_105/DoAction.pcode, 00:00.005
+Exported script 616/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_1/PlaceObject2_2186_18/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 617/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_1/DoAction.pcode, 00:00.001
+Exported script 618/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_3/DoAction.pcode, 00:00.000
+Exported script 619/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_4/DoAction.pcode, 00:00.003
+Exported script 614/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2636/frame_1/DoAction.pcode, 00:00.010
+Exported script 621/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_7/DoAction.pcode, 00:00.002
+Exported script 620/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_6/DoAction.pcode, 00:00.002
+Exported script 622/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_9/DoAction.pcode, 00:00.001
+Exported script 623/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_10/DoAction.pcode, 00:00.001
+Exported script 624/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_12/DoAction.pcode, 00:00.003
+Exported script 626/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_15/DoAction.pcode, 00:00.001
+Exported script 627/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_16/DoAction.pcode, 00:00.000
+Exported script 625/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_13/DoAction.pcode, 00:00.006
+Exported script 628/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_17/DoAction.pcode, 00:00.003
+Exported script 630/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2693/frame_1/DoAction.pcode, 00:00.000
+Exported script 631/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2693/frame_7/DoAction.pcode, 00:00.000
+Exported script 632/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2693/frame_26/DoAction.pcode, 00:00.001
+Exported script 633/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2703/frame_1/DoAction.pcode, 00:00.000
+Exported script 634/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2703/frame_7/DoAction.pcode, 00:00.000
+Exported script 635/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2703/frame_26/DoAction.pcode, 00:00.000
+Exported script 636/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2710/frame_1/DoAction.pcode, 00:00.001
+Exported script 637/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2710/frame_7/DoAction.pcode, 00:00.000
+Exported script 638/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2710/frame_26/DoAction.pcode, 00:00.000
+Exported script 639/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2795/frame_1/DoAction.pcode, 00:00.000
+Exported script 640/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2797/frame_1/PlaceObject2_2791_1/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 641/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/PlaceObject3_2797_3/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 642/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/PlaceObject3_2797_14/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 643/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/PlaceObject3_2797_25/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 644/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/PlaceObject3_2797_36/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 645/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/PlaceObject3_2797_47/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 646/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_1/DoAction.pcode, 00:00.001
+Exported script 647/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2799/frame_9/DoAction.pcode, 00:00.000
+Exported script 648/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2800/frame_1/PlaceObject3_2799_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 649/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2800/frame_1/PlaceObject3_2799_49/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 650/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2801/frame_1/PlaceObject2_2800_7/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 651/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2908/frame_191/DoAction.pcode, 00:00.000
+Exported script 652/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2922/frame_1/DoAction.pcode, 00:00.000
+Exported script 653/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2922/frame_7/DoAction.pcode, 00:00.000
+Exported script 654/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2922/frame_27/DoAction.pcode, 00:00.001
+Exported script 655/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2925/frame_1/DoAction.pcode, 00:00.000
+Exported script 656/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2925/frame_7/DoAction.pcode, 00:00.000
+Exported script 657/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2925/frame_27/DoAction.pcode, 00:00.000
+Exported script 629/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2680/frame_19/DoAction.pcode, 00:00.010
+Exported script 658/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2928/frame_1/DoAction.pcode, 00:00.001
+Exported script 660/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2928/frame_27/DoAction.pcode, 00:00.000
+Exported script 661/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2931/frame_1/DoAction.pcode, 00:00.000
+Exported script 662/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2931/frame_7/DoAction.pcode, 00:00.000
+Exported script 663/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2931/frame_27/DoAction.pcode, 00:00.001
+Exported script 664/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2934/frame_1/DoAction.pcode, 00:00.000
+Exported script 665/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2934/frame_7/DoAction.pcode, 00:00.000
+Exported script 666/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2934/frame_27/DoAction.pcode, 00:00.000
+Exported script 667/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2937/frame_1/DoAction.pcode, 00:00.001
+Exported script 668/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2937/frame_7/DoAction.pcode, 00:00.000
+Exported script 669/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2937/frame_27/DoAction.pcode, 00:00.000
+Exported script 670/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2941/frame_1/DoAction.pcode, 00:00.000
+Exported script 671/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2941/frame_7/DoAction.pcode, 00:00.001
+Exported script 672/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2941/frame_27/DoAction.pcode, 00:00.000
+Exported script 659/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_2928/frame_7/DoAction.pcode, 00:00.004
+Exported script 673/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3069/frame_1/PlaceObject2_3068_1/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 674/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3078/frame_1/DoAction.pcode, 00:00.001
+Exported script 675/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3135/frame_1/PlaceObject2_3127_3/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.002
+Exported script 676/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3154___v9NativeNode/frame_1/PlaceObject2_3153_17/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 677/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3155/frame_1/DoAction.pcode, 00:00.001
+Exported script 678/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3173/frame_1/DoAction.pcode, 00:00.001
+Exported script 680/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_7/DoAction.pcode, 00:00.001
+Exported script 679/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_1/DoAction.pcode, 00:00.001
+Exported script 682/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_55/DoAction.pcode, 00:00.000
+Exported script 681/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_12/DoAction.pcode, 00:00.001
+Exported script 683/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_56/DoAction.pcode, 00:00.001
+Exported script 685/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_107/DoAction.pcode, 00:00.001
+Exported script 684/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_106/DoAction.pcode, 00:00.000
+Exported script 686/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_150/DoAction.pcode, 00:00.000
+Exported script 688/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3237/frame_1/DoAction.pcode, 00:00.000
+Exported script 689/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_786/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 690/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_807/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 691/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_828/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 687/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3205/frame_151/DoAction.pcode, 00:00.002
+Exported script 692/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_849/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 694/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_891/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 693/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_870/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 695/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_2964_943/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 696/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_3053_995/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 697/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_3053_995/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 698/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_3078_1419/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 699/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/PlaceObject2_3078_1419/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 700/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/DoAction.pcode, 00:00.001
+Exported script 702/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_2/DoAction.pcode, 00:00.000
+Exported script 703/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_3/DoAction.pcode, 00:00.000
+Exported script 704/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_4/DoAction.pcode, 00:00.001
+Exported script 705/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_5/DoAction.pcode, 00:00.000
+Exported script 706/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_6/DoAction.pcode, 00:00.000
+Exported script 707/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_7/DoAction.pcode, 00:00.000
+Exported script 708/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_8/DoAction.pcode, 00:00.000
+Exported script 709/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1111/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 710/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1111/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 711/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1154/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 712/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1154/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 713/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1197/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 714/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/PlaceObject3_3107_1197/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 715/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/DoAction.pcode, 00:00.000
+Exported script 716/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_9/DoAction_2.pcode, 00:00.003
+Exported script 717/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_10/DoAction.pcode, 00:00.005
+Exported script 718/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_11/DoAction.pcode, 00:00.000
+Exported script 719/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_12/DoAction.pcode, 00:00.000
+Exported script 720/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_13/DoAction.pcode, 00:00.000
+Exported script 721/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_14/DoAction.pcode, 00:00.001
+Exported script 722/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_15/DoAction.pcode, 00:00.000
+Exported script 723/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_3120_25/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 724/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1103/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 725/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1124/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 726/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1145/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 727/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1166/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 728/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1187/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 729/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1208/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 730/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/PlaceObject2_2964_1260/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 731/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/DoAction.pcode, 00:00.001
+Exported script 701/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_1/DoAction_2.pcode, 00:00.024
+Exported script 733/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_17/DoAction.pcode, 00:00.000
+Exported script 734/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_18/DoAction.pcode, 00:00.000
+Exported script 735/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_19/DoAction.pcode, 00:00.000
+Exported script 736/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_20/DoAction.pcode, 00:00.001
+Exported script 737/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_21/DoAction.pcode, 00:00.000
+Exported script 738/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_22/DoAction.pcode, 00:00.000
+Exported script 739/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_23/DoAction.pcode, 00:00.000
+Exported script 740/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_24/DoAction.pcode, 00:00.000
+Exported script 732/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_16/DoAction_2.pcode, 00:00.006
+Exported script 742/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_25/PlaceObject2_3173_657/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 743/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_25/PlaceObject2_3205_675/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 741/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_25/PlaceObject3_3155_153/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.006
+Exported script 744/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_25/DoAction.pcode, 00:00.005
+Exported script 746/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_27/DoAction.pcode, 00:00.001
+Exported script 747/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_28/DoAction.pcode, 00:00.000
+Exported script 748/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_29/DoAction.pcode, 00:00.001
+Exported script 749/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_30/DoAction.pcode, 00:00.000
+Exported script 750/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_31/DoAction.pcode, 00:00.000
+Exported script 751/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_32/DoAction.pcode, 00:00.000
+Exported script 752/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_33/DoAction.pcode, 00:00.000
+Exported script 753/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_34/DoAction.pcode, 00:00.000
+Exported script 754/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_35/DoAction.pcode, 00:00.000
+Exported script 755/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_36/DoAction.pcode, 00:00.001
+Exported script 756/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_37/DoAction.pcode, 00:00.000
+Exported script 757/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_38/DoAction.pcode, 00:00.000
+Exported script 758/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_39/DoAction.pcode, 00:00.000
+Exported script 759/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_39/DoAction_2.pcode, 00:00.001
+Exported script 760/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_40/DoAction.pcode, 00:00.000
+Exported script 761/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_41/DoAction.pcode, 00:00.000
+Exported script 762/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_42/DoAction.pcode, 00:00.000
+Exported script 763/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_43/DoAction.pcode, 00:00.000
+Exported script 764/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_44/DoAction.pcode, 00:00.000
+Exported script 765/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_45/DoAction.pcode, 00:00.001
+Exported script 766/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_45/DoAction_2.pcode, 00:00.000
+Exported script 767/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_46/DoAction.pcode, 00:00.000
+Exported script 768/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_47/DoAction.pcode, 00:00.000
+Exported script 769/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_48/DoAction.pcode, 00:00.000
+Exported script 745/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_26/DoAction.pcode, 00:00.006
+Exported script 771/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_50/DoAction.pcode, 00:00.001
+Exported script 772/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_51/DoAction.pcode, 00:00.000
+Exported script 773/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_52/DoAction.pcode, 00:00.000
+Exported script 774/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_53/DoAction.pcode, 00:00.000
+Exported script 775/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_54/DoAction.pcode, 00:00.000
+Exported script 776/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_55/DoAction.pcode, 00:00.000
+Exported script 777/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_56/DoAction.pcode, 00:00.000
+Exported script 778/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_57/DoAction.pcode, 00:00.001
+Exported script 779/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_58/DoAction.pcode, 00:00.000
+Exported script 780/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3243/frame_1/DoAction.pcode, 00:00.000
+Exported script 781/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3243/frame_2/DoAction.pcode, 00:00.000
+Exported script 782/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3243/frame_125/DoAction.pcode, 00:00.000
+Exported script 783/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3251/frame_1/DoAction.pcode, 00:00.000
+Exported script 784/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3262/frame_1/DoAction.pcode, 00:00.000
+Exported script 785/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3262/frame_2/DoAction.pcode, 00:00.001
+Exported script 786/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3298/frame_1/PlaceObject2_295_UIScrollBar_13/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 787/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3298/frame_1/DoAction.pcode, 00:00.000
+Exported script 788/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3298/frame_5/DoAction.pcode, 00:00.000
+Exported script 789/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_1/DoAction.pcode, 00:00.000
+Exported script 790/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_2/DoAction.pcode, 00:00.000
+Exported script 791/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_3/DoAction.pcode, 00:00.000
+Exported script 792/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_4/DoAction.pcode, 00:00.001
+Exported script 793/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_5/DoAction.pcode, 00:00.000
+Exported script 794/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_6/DoAction.pcode, 00:00.000
+Exported script 795/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_7/DoAction.pcode, 00:00.000
+Exported script 796/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_8/DoAction.pcode, 00:00.000
+Exported script 797/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_9/DoAction.pcode, 00:00.000
+Exported script 798/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_10/DoAction.pcode, 00:00.000
+Exported script 770/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3239/frame_49/DoAction.pcode, 00:00.004
+Exported script 800/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4329/frame_1/DoAction.pcode, 00:00.000
+Exported script 801/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4330/frame_1/DoAction.pcode, 00:00.000
+Exported script 802/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4331/frame_1/DoAction.pcode, 00:00.000
+Exported script 803/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4332/frame_1/DoAction.pcode, 00:00.001
+Exported script 804/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4333/frame_1/DoAction.pcode, 00:00.000
+Exported script 805/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4334/frame_1/DoAction.pcode, 00:00.000
+Exported script 806/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4335/frame_1/DoAction.pcode, 00:00.001
+Exported script 807/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4336/frame_1/DoAction.pcode, 00:00.000
+Exported script 808/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4337/frame_1/DoAction.pcode, 00:00.000
+Exported script 809/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4338/frame_1/DoAction.pcode, 00:00.000
+Exported script 810/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4339/frame_1/DoAction.pcode, 00:00.000
+Exported script 811/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4340/frame_1/DoAction.pcode, 00:00.000
+Exported script 799/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4325/frame_11/DoAction.pcode, 00:00.004
+Exported script 813/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_14/PlaceObject3_3314_8/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 814/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_14/PlaceObject3_3316_10/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 815/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_14/PlaceObject3_3316_12/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 816/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_14/PlaceObject3_3316_14/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 817/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_21/PlaceObject3_3314_5/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 818/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_21/PlaceObject3_3314_7/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 819/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_21/PlaceObject3_3316_9/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 820/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_21/PlaceObject3_3316_11/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 821/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_21/PlaceObject3_3316_13/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 822/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_44/PlaceObject3_3314_4/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 823/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_44/PlaceObject3_3314_6/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 824/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_44/PlaceObject3_3316_8/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 825/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_44/PlaceObject3_3316_10/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 826/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_44/PlaceObject3_3316_12/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 827/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_64/PlaceObject3_3314_5/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 828/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_64/PlaceObject3_3314_7/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 829/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_64/PlaceObject3_3316_9/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 830/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_64/PlaceObject3_3316_11/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 831/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_64/PlaceObject3_3316_13/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 832/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3344/frame_1/DoAction.pcode, 00:00.000
+Exported script 812/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3328/frame_14/PlaceObject3_3314_6/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 834/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3344/frame_4/DoAction.pcode, 00:00.001
+Exported script 835/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3344/frame_5/DoAction.pcode, 00:00.000
+Exported script 836/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3345/frame_1/DoAction.pcode, 00:00.000
+Exported script 837/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3345/frame_2/DoAction.pcode, 00:00.001
+Exported script 838/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3345/frame_4/DoAction.pcode, 00:00.001
+Exported script 839/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3345/frame_6/DoAction.pcode, 00:00.000
+Exported script 840/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_1/DoAction.pcode, 00:00.000
+Exported script 841/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_5/DoAction.pcode, 00:00.000
+Exported script 833/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3344/frame_2/DoAction.pcode, 00:00.004
+Exported script 842/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_7/DoAction.pcode, 00:00.000
+Exported script 843/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_9/DoAction.pcode, 00:00.001
+Exported script 844/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_11/DoAction.pcode, 00:00.000
+Exported script 845/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_14/DoAction.pcode, 00:00.000
+Exported script 846/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_16/DoAction.pcode, 00:00.000
+Exported script 847/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_18/DoAction.pcode, 00:00.000
+Exported script 848/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3347/frame_20/DoAction.pcode, 00:00.000
+Exported script 849/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_1/DoAction.pcode, 00:00.000
+Exported script 850/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_2/DoAction.pcode, 00:00.001
+Exported script 851/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_4/DoAction.pcode, 00:00.000
+Exported script 852/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_6/DoAction.pcode, 00:00.000
+Exported script 853/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_8/DoAction.pcode, 00:00.000
+Exported script 854/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_10/DoAction.pcode, 00:00.000
+Exported script 855/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_12/DoAction.pcode, 00:00.000
+Exported script 856/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_14/DoAction.pcode, 00:00.001
+Exported script 857/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_16/DoAction.pcode, 00:00.000
+Exported script 858/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_17/DoAction.pcode, 00:00.000
+Exported script 859/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_19/DoAction.pcode, 00:00.000
+Exported script 860/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_21/DoAction.pcode, 00:00.000
+Exported script 861/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_23/DoAction.pcode, 00:00.000
+Exported script 862/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_25/DoAction.pcode, 00:00.000
+Exported script 863/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_27/DoAction.pcode, 00:00.001
+Exported script 864/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_29/DoAction.pcode, 00:00.000
+Exported script 865/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_31/DoAction.pcode, 00:00.000
+Exported script 866/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_32/DoAction.pcode, 00:00.000
+Exported script 867/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_34/DoAction.pcode, 00:00.000
+Exported script 869/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_38/DoAction.pcode, 00:00.000
+Exported script 870/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_40/DoAction.pcode, 00:00.000
+Exported script 871/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_42/DoAction.pcode, 00:00.000
+Exported script 872/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_44/DoAction.pcode, 00:00.000
+Exported script 873/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_46/DoAction.pcode, 00:00.000
+Exported script 874/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3351_1/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 875/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3352_3/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 876/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3351_6/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 877/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3353_8/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 878/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3352_11/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 879/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3355/frame_1/PlaceObject2_3353_13/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 880/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3368/frame_1/DoAction.pcode, 00:00.000
+Exported script 881/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3378/frame_1/PlaceObject2_3377_2/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 882/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3378/frame_1/PlaceObject2_3377_6/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 883/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3393/frame_21/DoAction.pcode, 00:00.000
+Exported script 884/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3394/frame_1/DoAction.pcode, 00:00.000
+Exported script 885/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3405/frame_1/DoAction.pcode, 00:00.000
+Exported script 886/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3409/frame_31/DoAction.pcode, 00:00.000
+Exported script 887/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3409/frame_85/DoAction.pcode, 00:00.001
+Exported script 888/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3415/frame_401/DoAction.pcode, 00:00.000
+Exported script 868/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3348/frame_36/DoAction.pcode, 00:00.004
+Exported script 890/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3580/frame_2084/DoAction.pcode, 00:00.001
+Exported script 891/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3584/frame_1/DoAction.pcode, 00:00.000
+Exported script 892/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3745/frame_1795/DoAction.pcode, 00:00.000
+Exported script 893/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3767/frame_1/DoAction.pcode, 00:00.001
+Exported script 894/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3848/frame_117/DoAction.pcode, 00:00.000
+Exported script 895/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3860/frame_621/DoAction.pcode, 00:00.000
+Exported script 896/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3892/frame_501/DoAction.pcode, 00:00.000
+Exported script 889/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3433/frame_1/DoAction.pcode, 00:00.003
+Exported script 897/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3898/frame_1/DoAction.pcode, 00:00.001
+Exported script 899/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3981/frame_1/DoAction.pcode, 00:00.000
+Exported script 900/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4083/frame_2424/DoAction.pcode, 00:00.000
+Exported script 901/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4099/frame_1/DoAction.pcode, 00:00.001
+Exported script 902/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4103/frame_1/PlaceObject3_4102_85/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 903/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_4103/frame_1/PlaceObject3_4102_91/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 898/1024 /home/claude/work/full/scripts_pcode/scripts/DefineSprite_3970/frame_1237/DoAction.pcode, 00:00.005
+Exported script 905/1024 /home/claude/work/full/scripts_pcode/scripts/frame_2/DoAction.pcode, 00:00.000
+Exported script 906/1024 /home/claude/work/full/scripts_pcode/scripts/frame_4/PlaceObject2_2491_27/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 907/1024 /home/claude/work/full/scripts_pcode/scripts/frame_4/DoAction.pcode, 00:00.001
+Exported script 908/1024 /home/claude/work/full/scripts_pcode/scripts/frame_5/DoAction.pcode, 00:00.000
+Exported script 909/1024 /home/claude/work/full/scripts_pcode/scripts/frame_6/DoAction.pcode, 00:00.000
+Exported script 910/1024 /home/claude/work/full/scripts_pcode/scripts/frame_21/DoAction.pcode, 00:00.000
+Exported script 904/1024 /home/claude/work/full/scripts_pcode/scripts/frame_1/DoAction.pcode, 00:00.121
+Exported script 912/1024 /home/claude/work/full/scripts_pcode/scripts/frame_42/DoAction.pcode, 00:00.001
+Exported script 911/1024 /home/claude/work/full/scripts_pcode/scripts/frame_41/DoAction.pcode, 00:00.119
+Exported script 914/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2406_M_SCHEST_HOUND_105/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 915/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2404_M_SFOOT_HOUND_109/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 916/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2402_M_SLEG2_HOUND_112/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 917/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2400_M_SARM_HOUND_115/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 918/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2398_M_SHAND_HOUND_117/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 919/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2396_M_SHEAD_HOUND_120/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.002
+Exported script 920/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2320_M_SCHEST_MOKO_205/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 921/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2318_M_SFOOT_MOKO_210/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 922/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2314_M_SLEG2_MOKO_214/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 923/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2312_M_SARM_MOKO_217/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 924/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2308_M_SHAND_MOKO_220/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 925/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2304_M_SHEAD_MOKO_224/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 926/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2272_M_SCHEST_WEREWOLF_249/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 927/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2270_M_SFOOT_WEREWOLF_253/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 928/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2266_M_SLEG2_WEREWOLF_257/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 929/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2264_M_SHAND_WEREWOLF_260/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 930/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2262_M_SHEAD_WEREWOLF_263/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 931/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2257_M_SHAND_HYDRA2_270/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 932/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2255_M_SLEG2_HYDRA2_275/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 933/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2253_M_SCHEST_HYDRA2_277/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 934/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2251_M_SFOOT_HYDRA2_281/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 935/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2248_M_SHEAD_HYDRA2_287/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 936/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2246_M_SCHEST_DOG_289/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 937/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2244_M_SFOOT_DOG_294/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 938/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2242_M_SLEG2_DOG_299/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 939/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2240_M_SHAND_DOG_302/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 940/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2238_M_SARM_DOG_306/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 941/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2236_M_SHEAD_DOG_309/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 942/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2234_M_SHAND_HYDRA3_315/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 943/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2232_M_SLEG2_HYDRA3_317/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 944/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2230_M_SCHEST_HYDRA3_319/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 945/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2228_M_SFOOT_HYDRA3_321/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 946/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2223_M_SHEAD_HYDRA3_326/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 947/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_2221_M_SARM_WEREWOLF_331/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 948/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_356_F_SHOULDER_FIR_2609/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 949/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/PlaceObject2_338_F_SHOULDER_FIR2_2660/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 950/1024 /home/claude/work/full/scripts_pcode/scripts/frame_43/DoAction.pcode, 00:00.000
+Exported script 951/1024 /home/claude/work/full/scripts_pcode/scripts/frame_45/DoAction.pcode, 00:00.000
+Exported script 952/1024 /home/claude/work/full/scripts_pcode/scripts/frame_46/DoAction.pcode, 00:00.001
+Exported script 953/1024 /home/claude/work/full/scripts_pcode/scripts/frame_56/DoAction.pcode, 00:00.000
+Exported script 954/1024 /home/claude/work/full/scripts_pcode/scripts/frame_64/DoAction.pcode, 00:00.000
+Exported script 955/1024 /home/claude/work/full/scripts_pcode/scripts/frame_74/PlaceObject2_2680_43/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 956/1024 /home/claude/work/full/scripts_pcode/scripts/frame_74/DoAction.pcode, 00:00.005
+Exported script 957/1024 /home/claude/work/full/scripts_pcode/scripts/frame_84/DoAction.pcode, 00:00.000
+Exported script 958/1024 /home/claude/work/full/scripts_pcode/scripts/frame_93/DoAction.pcode, 00:00.000
+Exported script 959/1024 /home/claude/work/full/scripts_pcode/scripts/frame_104/DoAction.pcode, 00:00.001
+Exported script 960/1024 /home/claude/work/full/scripts_pcode/scripts/frame_116/DoAction.pcode, 00:00.000
+Exported script 961/1024 /home/claude/work/full/scripts_pcode/scripts/frame_124/DoAction.pcode, 00:00.000
+Exported script 962/1024 /home/claude/work/full/scripts_pcode/scripts/frame_134/DoAction.pcode, 00:00.000
+Exported script 963/1024 /home/claude/work/full/scripts_pcode/scripts/frame_165/DoAction.pcode, 00:00.000
+Exported script 964/1024 /home/claude/work/full/scripts_pcode/scripts/frame_180/DoAction.pcode, 00:00.000
+Exported script 965/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject3_2908_59/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 966/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject3_3239_167/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 967/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject2_2680_1604/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 968/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject2_3251_1643/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 969/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject2_3254_1652/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 970/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/PlaceObject2_3254_1652/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 971/1024 /home/claude/work/full/scripts_pcode/scripts/frame_181/DoAction.pcode, 00:00.001
+Exported script 972/1024 /home/claude/work/full/scripts_pcode/scripts/frame_200/PlaceObject2_3298_37/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 973/1024 /home/claude/work/full/scripts_pcode/scripts/frame_200/DoAction.pcode, 00:00.000
+Exported script 974/1024 /home/claude/work/full/scripts_pcode/scripts/frame_201/DoAction.pcode, 00:00.008
+Exported script 975/1024 /home/claude/work/full/scripts_pcode/scripts/frame_216/DoAction.pcode, 00:00.005
+Exported script 976/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3328_73/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 977/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3343_89/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 978/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3344_330/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 979/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3345_332/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 980/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3348_338/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 981/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3369_396/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 982/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3369_414/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 983/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3369_432/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 984/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_450/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 985/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_450/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 986/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_455/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 987/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_455/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 988/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_460/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 989/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_460/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 990/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_465/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 991/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_465/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.005
+Exported script 992/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_470/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 993/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_470/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 994/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_475/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 995/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3374_475/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 996/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3380_480/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 997/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3380_480/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.019
+Exported script 998/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_2186_484/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.001
+Exported script 999/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3390_500/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 1000/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject3_3390_500/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 1001/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3407_634/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 1002/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3407_634/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 1003/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_3407_634/CLIPACTIONRECORD onClipEvent(keyDown).pcode, 00:00.000
+Exported script 1004/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/PlaceObject2_2680_647/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.000
+Exported script 1005/1024 /home/claude/work/full/scripts_pcode/scripts/frame_217/DoAction.pcode, 00:00.007
+Exported script 1006/1024 /home/claude/work/full/scripts_pcode/scripts/frame_218/DoAction.pcode, 00:00.000
+Exported script 1007/1024 /home/claude/work/full/scripts_pcode/scripts/frame_219/DoAction.pcode, 00:00.000
+Exported script 1008/1024 /home/claude/work/full/scripts_pcode/scripts/frame_229/DoAction.pcode, 00:00.000
+Exported script 1009/1024 /home/claude/work/full/scripts_pcode/scripts/frame_230/DoAction.pcode, 00:00.000
+Exported script 1010/1024 /home/claude/work/full/scripts_pcode/scripts/frame_240/DoAction.pcode, 00:00.001
+Exported script 1011/1024 /home/claude/work/full/scripts_pcode/scripts/frame_241/DoAction.pcode, 00:00.000
+Exported script 1012/1024 /home/claude/work/full/scripts_pcode/scripts/frame_252/DoAction.pcode, 00:00.000
+Exported script 1013/1024 /home/claude/work/full/scripts_pcode/scripts/frame_253/DoAction.pcode, 00:00.000
+Exported script 1014/1024 /home/claude/work/full/scripts_pcode/scripts/frame_263/PlaceObject2_3419_77/CLIPACTIONRECORD onClipEvent(load).pcode, 00:00.000
+Exported script 1015/1024 /home/claude/work/full/scripts_pcode/scripts/frame_263/PlaceObject2_3419_77/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.005
+Exported script 1016/1024 /home/claude/work/full/scripts_pcode/scripts/frame_263/DoAction.pcode, 00:00.000
+Exported script 1017/1024 /home/claude/work/full/scripts_pcode/scripts/frame_293/DoAction.pcode, 00:00.000
+Exported script 1018/1024 /home/claude/work/full/scripts_pcode/scripts/frame_320/DoAction.pcode, 00:00.000
+Exported script 1019/1024 /home/claude/work/full/scripts_pcode/scripts/frame_346/DoAction.pcode, 00:00.000
+Exported script 1020/1024 /home/claude/work/full/scripts_pcode/scripts/frame_372/DoAction.pcode, 00:00.000
+Exported script 1021/1024 /home/claude/work/full/scripts_pcode/scripts/frame_396/DoAction.pcode, 00:00.000
+Exported script 1022/1024 /home/claude/work/full/scripts_pcode/scripts/frame_421/DoAction.pcode, 00:00.000
+Exported script 1023/1024 /home/claude/work/full/scripts_pcode/scripts/frame_449/PlaceObject2_2680_93/CLIPACTIONRECORD onClipEvent(enterFrame).pcode, 00:00.001
+Exported script 1024/1024 /home/claude/work/full/scripts_pcode/scripts/frame_449/DoAction.pcode, 00:00.001
+Exported script 913/1024 /home/claude/work/full/scripts_pcode/scripts/frame_42/DoAction_2.pcode, 00:00.511
+Export finished. Total export time: 01:12.298
+OK

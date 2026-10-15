@@ -1,0 +1,49 @@
+ConstantPool "START", "bioDis", "gotoAndPlay", "_root", "thereIsASlotSelected", "KrinToolTipper", "tt", "KrinLang", "KLangChoosen", "CLASS", "t", "CLASSDESCRIPT", "GO", "gotoAndStop"
+Push "START", 1, "bioDis"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASS"
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASSDESCRIPT"
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop

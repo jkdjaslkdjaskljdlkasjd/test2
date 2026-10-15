@@ -1,0 +1,121 @@
+ConstantPool "i", "BLACK", "_parent", "b", "COVER", "gotoAndStop", "WHITE", "_root", "playerKrin", "pN", "agMode", "Aggression", "agModeAr1", "LifeBoundary1", "agModeAr2", "LifeBoundary2", "agModeAr3", "FocusAggression", "agModeAr4", "FocusRegenLimit", "agModeAr5"
+Push "i", 1
+SetVariable
+loc00ce:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc0116
+Push "BLACK", 1, "_parent"
+GetVariable
+Push "b", "i"
+GetVariable
+Add2
+GetMember
+Push "COVER"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc00ce
+loc0116:Push "WHITE", 1, "COVER"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "agMode", "pN"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "Aggression", "_root"
+GetVariable
+Push "agModeAr1"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "LifeBoundary1", "_root"
+GetVariable
+Push "agModeAr2"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "LifeBoundary2", "_root"
+GetVariable
+Push "agModeAr3"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "FocusAggression", "_root"
+GetVariable
+Push "agModeAr4"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push "FocusRegenLimit", "_root"
+GetVariable
+Push "agModeAr5"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+SetMember

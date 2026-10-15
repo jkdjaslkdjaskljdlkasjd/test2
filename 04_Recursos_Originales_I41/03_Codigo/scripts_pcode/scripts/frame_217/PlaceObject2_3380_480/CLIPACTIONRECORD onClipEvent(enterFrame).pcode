@@ -1,0 +1,4786 @@
+ConstantPool "_root", "Krin", "mCaster", "i", "mAry1", "active", "MoveArrayFINAL", "PlayerToMove", "playerKrin", "BATTLESCREEN", "krinToMove", "BattlePick", "AITeamMoveOrder", "KBR", "mAry2", "playerNumber", "phase", "subAI_BAR", "UI_BAR", "speechOn", "mTarget", "gotoAndStop", "mTarget2", "teamSide", "Cycler", "owegwe", "phases", "eged", "MOVE", "AttackEndCounter", "BattleTimeNow", "BUFFARRAYK", "winCondition", "combatScript", "nextPlayer", "KrinPVar01", "moveStart", "mCaster2", "speeches", "loseCon", "inner", "gotoAndPlay", "usedBuff", "playerID", "toolTip", "_x", "phaseTeamCheck1", "phaseTeamCheck2", "turnTimeKKK2", "krinAddMove", "InBattle", "cycleAss", "spdVar3", "player", "winCon", "theGuy", "e", "m", "numberRandomerBuffHit", "KrinCombatText", "turnBasedKrin", "mToBeBuffed", "TeamMoveNow", "moveBammer", "speechDone", "BAMBAMBAM", "autoMoveK", "KRINBUFF", "turnTime", "_visible", "Math", "_y", "p3", "p5", "BattleTimeLimit", "timerWait", "addSound", "thinger2", "Effects", "getPNum", "buffId", "LIFEN", "play", "u", "w", "dispelCounterXYUX", "abilityCoolDown", "strikeSuccess", "nextSpeechKKK", "thingerClock", "soundToMake", "turnTimeKKK", "missToMake", "speechAdds", "benderADJ", "inactive", "xPoint1", "yPoint1", "FOCUSN", "LIFEU", "setAG", "this", "AION", "CD", "buffUniqueCheck", "buffTickChecker", "toolTipTitle", "KrinSettings", "combatTexter", "AIGoERSwitch", "playerKrin1", "playerKrin3", "playerKrin5", "playerKrin4", "playerKrin6", "AImoveAdder", "moveChoosen", "buffTicker", "arenaMode", "TurnTime", "TeamMove", "thinger1", "hardSkip", "spdVar1", "LowerCD", "random", "length", "AIGoER", "tKrin", "round", "STUN", "SFX", "b1", "GO", "AttackEndCounterLimit", "combatTextName", "applyBuffKrin", "__rwExtraTurn", "maxBuffLimit", "zoomRatioNEW", "krinBoltMake", "KrinSelector", "executeMove", "playerKrin2", "__rwNoDodge", "zoomPointX", "zoomPointY", "KrinZoomGo", "GridZoomer", "colortobe", "zoomPause", "voiceOver", "teamLeft", "blacker5", "PrevTeam", "thinger4", "spdVar2", "_height", "friend", "SPEEDU", "_width", "timer", "neinh", "enemy", "Shock", "time", "turn", "cast", "You failed to use your ability because you don\'t have enough Health.", "You failed to use your ability because you don\'t have enough Focus.", "You failed to use your ability because you are stunned this round.", "moveCoolDownBreaker", "frameRateNowKrin", "applyChangesKrin", "winDateCondition", "timeSpeechKKKUP", "KrinToolTipper", "KrinNumberShow", "phaseTeamCheck", "healedThisTurn", "lifeBarUpdate", "sfx_magicmiss", "arenaPlayer2", "arenaPlayer1", "KRINABILITYB", "arenaPlayer", "KRINABILITY", "attachMovie", "TeamSelect", "GridShaker", "BattleTime", "combatText", "playerName", "buffValue", "AI_CD_ARR", "AI_CD_PUT", "krinMelee", "turnTime2", "kebabBurn", "timeToSay", "winOrLose", "sfx_cast", "thinger3", "selector", "graphics", "winDate", "AchVal4", "Missile", "save_x1", "save_x2", "endGame", "inner2", "speech", "Melee", "STEP1", "STEP2", "STEP3", "timeX", "miss", "life", "KRRR", "KRSO", "ADD1", "ADD2", "ADD3", "SHOW", "HIDE", "qual", "run", "xyz", "say", "LOW"
+Push "tKrin"
+GetVariable
+Push true
+Equals2
+Not
+If loc096d
+Push "time"
+GetTime
+StoreRegister 0
+SetVariable
+Push register0
+Pop
+Jump loc098c
+loc096d:Push "timer", 1000
+GetTime
+Push "time"
+GetVariable
+Subtract
+Divide
+ToInteger
+StoreRegister 0
+SetVariable
+Push register0
+Pop
+loc098c:Push "tKrin", "tKrin"
+GetVariable
+Not
+SetVariable
+Push "_root"
+GetVariable
+Push "frameRateNowKrin", "timer"
+GetVariable
+SetMember
+Push "timerWait"
+GetVariable
+Push 0
+Greater
+Not
+If loc09c4
+Push "timerWait", "timerWait"
+GetVariable
+Decrement
+SetVariable
+loc09c4:Push 0, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Not
+If loc3192
+Push "_root"
+GetVariable
+Push "BAMBAMBAM"
+GetMember
+Not
+If loc101b
+Push "_root"
+GetVariable
+Push "BAMBAMBAM", false
+SetMember
+Push "AttackEndCounter", 0
+SetVariable
+Push "moveBammer"
+GetVariable
+Push false
+Equals2
+Not
+If loc101b
+Push "moveBammer", true
+SetVariable
+Push "_root"
+GetVariable
+Push "strikeSuccess"
+GetMember
+Not
+If loc0fcc
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "soundToMake"
+GetMember
+Push "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+Push "mAry2"
+GetVariable
+Push 16
+GetMember
+Push 0
+Greater
+Not
+If loc0cc4
+Push "dispelCounterXYUX", "mAry2"
+GetVariable
+Push 16
+GetMember
+SetVariable
+Push "eged", 0
+SetVariable
+loc0aa6:Push "eged"
+GetVariable
+Push "_root"
+GetVariable
+Push "maxBuffLimit"
+GetMember
+Less2
+Not
+If loc0cc4
+Push "mAry2"
+GetVariable
+Push 15
+GetMember
+Enumerate2
+loc0acf:StoreRegister 0
+Push null
+Equals2
+If loc0cb5
+Push "neinh", register0
+SetVariable
+Push "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "CD"
+GetMember
+Push 0
+Greater
+PushDuplicate
+Not
+If loc0b52
+Pop
+Push "mAry2"
+GetVariable
+Push 15
+GetMember
+Push "neinh"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINBUFF", "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "buffId"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Equals2
+loc0b52:Not
+If loc0cb0
+Push "dispelCounterXYUX"
+GetVariable
+Push 0
+Greater
+Not
+If loc0cb0
+Push "mAry2"
+GetVariable
+Push 19
+GetMember
+Push "_root"
+GetVariable
+Push "KRINBUFF", "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "buffId"
+GetMember
+Add2
+GetMember
+Push 20
+GetMember
+Equals2
+Not
+If loc0cb0
+Push "dispelCounterXYUX", "dispelCounterXYUX"
+GetVariable
+Decrement
+SetVariable
+Push "numberRandomerBuffHit", 0, "Math"
+GetVariable
+Push "random"
+CallMethod
+SetVariable
+Push "numberRandomerBuffHit"
+GetVariable
+Push "mAry2"
+GetVariable
+Push 22
+GetMember
+Greater
+Not
+Not
+If loc0cb0
+Push "numberRandomerBuffHit", 0, "Math"
+GetVariable
+Push "random"
+CallMethod
+SetVariable
+Push "numberRandomerBuffHit"
+GetVariable
+Push "_root"
+GetVariable
+Push "KRINBUFF", "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "buffId"
+GetMember
+Add2
+GetMember
+Push 32
+GetMember
+Less2
+Not
+Not
+If loc0cb0
+Push "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "CD", 0
+SetMember
+Push "eged"
+GetVariable
+Push "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "buffValue"
+GetMember
+Push 0, -1, "mTarget"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "eged"
+GetVariable
+GetMember
+Push "buffId"
+GetMember
+Push "mTarget"
+GetVariable
+Push 6, "_root"
+GetVariable
+Push "applyBuffKrin"
+CallMethod
+Pop
+loc0cb0:Jump loc0acf
+loc0cb5:Push "eged", "eged"
+GetVariable
+Increment
+SetVariable
+Jump loc0aa6
+loc0cc4:Push "mAry2"
+GetVariable
+Push 20
+GetMember
+Not
+Not
+If loc0d09
+Push "mTarget"
+GetVariable
+Push "mCaster"
+GetVariable
+Push "mAry2"
+GetVariable
+Push "mAry1"
+GetVariable
+Push 4, "_root"
+GetVariable
+Push "executeMove"
+CallMethod
+Pop
+Jump loc0dc0
+loc0d09:Push "owegwe", 0
+SetVariable
+loc0d14:Push "owegwe"
+GetVariable
+Push 3
+Less2
+Not
+If loc0dc0
+Push "_root"
+GetVariable
+Push "playerKrin", 7, "mCaster"
+GetVariable
+Push "teamSide"
+GetMember
+Push "owegwe"
+GetVariable
+Push 2
+Multiply
+Add2
+Subtract
+Add2
+GetMember
+Push "active"
+GetMember
+Not
+If loc0db1
+Push "_root"
+GetVariable
+Push "playerKrin", 7, "mCaster"
+GetVariable
+Push "teamSide"
+GetMember
+Push "owegwe"
+GetVariable
+Push 2
+Multiply
+Add2
+Subtract
+Add2
+GetMember
+Push "mCaster"
+GetVariable
+Push "mAry2"
+GetVariable
+Push "mAry1"
+GetVariable
+Push 4, "_root"
+GetVariable
+Push "executeMove"
+CallMethod
+Pop
+loc0db1:Push "owegwe", "owegwe"
+GetVariable
+Increment
+SetVariable
+Jump loc0d14
+loc0dc0:Push "mAry2"
+GetVariable
+Push 13
+GetMember
+Push 0
+Equals2
+Not
+Not
+If loc0faf
+Push "numberRandomerBuffHit", 0, "Math"
+GetVariable
+Push "random"
+CallMethod
+SetVariable
+Push "numberRandomerBuffHit"
+GetVariable
+Push "mAry2"
+GetVariable
+Push 14
+GetMember
+Less2
+Not
+If loc0faf
+Push "buffUniqueCheck", true
+SetVariable
+Push "mAry2"
+GetVariable
+Push 21
+GetMember
+Push 0
+Equals2
+Not
+If loc0e43
+Push "mToBeBuffed", "mTarget"
+GetVariable
+SetVariable
+Jump loc0e4c
+loc0e43:Push "mToBeBuffed", "mCaster"
+GetVariable
+SetVariable
+loc0e4c:Push "e", 0
+SetVariable
+loc0e57:Push "e"
+GetVariable
+Push "_root"
+GetVariable
+Push "maxBuffLimit"
+GetMember
+Less2
+Not
+If loc0f41
+Push "_root"
+GetVariable
+Push "KRINBUFF", "mAry2"
+GetVariable
+Push 13
+GetMember
+Add2
+GetMember
+Push 27
+GetMember
+Not
+If loc0f32
+Push "mToBeBuffed"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "e"
+GetVariable
+GetMember
+Push "buffId"
+GetMember
+Push "mAry2"
+GetVariable
+Push 13
+GetMember
+Equals2
+PushDuplicate
+Not
+If loc0eec
+Pop
+Push "mToBeBuffed"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "e"
+GetVariable
+GetMember
+Push "CD"
+GetMember
+Push 0
+Equals2
+Not
+loc0eec:Not
+If loc0f32
+Push "buffUniqueCheck", false
+SetVariable
+Push "mToBeBuffed"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "e"
+GetVariable
+GetMember
+Push "CD", "_root"
+GetVariable
+Push "KRINBUFF", "mAry2"
+GetVariable
+Push 13
+GetMember
+Add2
+GetMember
+Push 16
+GetMember
+SetMember
+loc0f32:Push "e", "e"
+GetVariable
+Increment
+SetVariable
+Jump loc0e57
+loc0f41:Push "_root"
+GetVariable
+Push "KRINBUFF", "mAry2"
+GetVariable
+Push 13
+GetMember
+Add2
+GetMember
+Push 27
+GetMember
+Not
+PushDuplicate
+If loc0f77
+Pop
+Push "buffUniqueCheck"
+GetVariable
+Push true
+Equals2
+loc0f77:Not
+If loc0faf
+Push "mCaster"
+GetVariable
+Push 1, "mAry2"
+GetVariable
+Push 13
+GetMember
+Push "mToBeBuffed"
+GetVariable
+Push 4, "_root"
+GetVariable
+Push "applyBuffKrin"
+CallMethod
+Pop
+loc0faf:Push "mTarget"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "applyChangesKrin"
+CallMethod
+Pop
+Jump loc101b
+loc0fcc:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "missToMake"
+GetMember
+Push "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+Push "mAry2"
+GetVariable
+Push 0
+GetMember
+Push "mTarget2"
+GetVariable
+Push "miss", 3, "_root"
+GetVariable
+Push "KrinNumberShow"
+CallMethod
+Pop
+loc101b:Push "AttackEndCounter"
+GetVariable
+Push "AttackEndCounterLimit"
+GetVariable
+Less2
+Not
+If loc103d
+Push "AttackEndCounter", "AttackEndCounter"
+GetVariable
+Increment
+SetVariable
+Jump loc112a
+loc103d:Push "AttackEndCounter"
+GetVariable
+Push "AttackEndCounterLimit"
+GetVariable
+Equals2
+Not
+If loc112a
+Push "usedBuff"
+GetVariable
+Push false
+Equals2
+PushDuplicate
+Not
+If loc1076
+Pop
+Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Push true
+Equals2
+loc1076:Not
+If loc10da
+Push "mCaster"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "buffTicker"
+CallMethod
+Pop
+Push "usedBuff", true
+SetVariable
+Push "_root"
+GetVariable
+Push "buffTickChecker"
+GetMember
+Not
+If loc10d5
+Push "AttackEndCounter", 0
+SetVariable
+Push "_root"
+GetVariable
+Push "BAMBAMBAM", true
+SetMember
+Push "_root"
+GetVariable
+Push "moveBammer", true
+SetMember
+loc10d5:Jump loc112a
+loc10da:Push "AttackEndCounter", "AttackEndCounter"
+GetVariable
+Increment
+SetVariable
+Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Cycler", "Cycler"
+GetVariable
+Decrement
+SetVariable
+Push "moveStart", false
+SetVariable
+Push "cycleAss", false
+SetVariable
+loc112a:Push "_root"
+GetVariable
+Push "nextPlayer"
+GetMember
+Not
+If loc3192
+Push "Cycler"
+GetVariable
+Push 0
+Equals2
+PushDuplicate
+Not
+If loc115f
+Pop
+Push "_root"
+GetVariable
+Push "__rwExtraTurn"
+GetMember
+loc115f:PushDuplicate
+Not
+If loc1178
+Pop
+Push 0, "_root"
+GetVariable
+Push "__rwExtraTurn"
+CallMethod
+loc1178:Not
+If loc1220
+Push "_root"
+GetVariable
+Push "BattleTimeNow", 0
+SetMember
+Push "_root"
+GetVariable
+Push "InBattle", false
+SetMember
+Push "_root"
+GetVariable
+Push "speechDone", true
+SetMember
+Push "turnTime", 0
+SetVariable
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 3
+Subtract
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 0
+Less2
+Not
+If loc120d
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 6
+Add2
+SetMember
+loc120d:Push "_root"
+GetVariable
+Push "nextPlayer", false
+SetMember
+Jump loc3192
+loc1220:Push "Cycler"
+GetVariable
+Push 0
+Equals2
+Not
+If loc1d24
+Push "_root"
+GetVariable
+Push "BattleTimeNow", 0
+SetMember
+Push "_root"
+GetVariable
+Push "InBattle", false
+SetMember
+Push "_root"
+GetVariable
+Push "speechDone", false
+SetMember
+Push "turnTime", 0
+SetVariable
+Push "_root"
+GetVariable
+Push "TurnTime", "_root"
+GetVariable
+Push "TurnTime"
+GetMember
+Decrement
+SetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK", "_root"
+GetVariable
+Push "turnTimeKKK"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2", "_root"
+GetVariable
+Push "turnTimeKKK2"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "phaseTeamCheck1", 0
+SetMember
+Push "_root"
+GetVariable
+Push "phaseTeamCheck2", 0
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin1"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc131d
+Push "_root"
+GetVariable
+Push "phaseTeamCheck1", "_root"
+GetVariable
+Push "phaseTeamCheck1"
+GetMember
+Push 1
+Add2
+SetMember
+loc131d:Push "_root"
+GetVariable
+Push "playerKrin3"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1359
+Push "_root"
+GetVariable
+Push "phaseTeamCheck1", "_root"
+GetVariable
+Push "phaseTeamCheck1"
+GetMember
+Push 1
+Add2
+SetMember
+loc1359:Push "_root"
+GetVariable
+Push "playerKrin5"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1395
+Push "_root"
+GetVariable
+Push "phaseTeamCheck1", "_root"
+GetVariable
+Push "phaseTeamCheck1"
+GetMember
+Push 1
+Add2
+SetMember
+loc1395:Push "_root"
+GetVariable
+Push "playerKrin2"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc13d1
+Push "_root"
+GetVariable
+Push "phaseTeamCheck2", "_root"
+GetVariable
+Push "phaseTeamCheck2"
+GetMember
+Push 1
+Add2
+SetMember
+loc13d1:Push "_root"
+GetVariable
+Push "playerKrin4"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc140d
+Push "_root"
+GetVariable
+Push "phaseTeamCheck2", "_root"
+GetVariable
+Push "phaseTeamCheck2"
+GetMember
+Push 1
+Add2
+SetMember
+loc140d:Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc1449
+Push "_root"
+GetVariable
+Push "phaseTeamCheck2", "_root"
+GetVariable
+Push "phaseTeamCheck2"
+GetMember
+Push 1
+Add2
+SetMember
+loc1449:Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "length"
+GetMember
+Push 0
+Greater
+PushDuplicate
+Not
+If loc14b8
+Pop
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "length"
+GetMember
+Greater
+Not
+loc14b8:Not
+If loc177e
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "player"
+GetMember
+Add2
+GetMember
+Push "LIFEN"
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "player"
+GetMember
+Add2
+GetMember
+Push "LIFEU"
+GetMember
+Divide
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "life"
+GetMember
+Greater
+Not
+Not
+If loc15ba
+Push "_root"
+GetVariable
+Push "phase", "_root"
+GetVariable
+Push "phase"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2", 0
+SetMember
+Jump loc177e
+loc15ba:Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "teamLeft"
+GetMember
+Push 0
+Greater
+PushDuplicate
+Not
+If loc1686
+Pop
+Push "_root"
+GetVariable
+Push "phaseTeamCheck", "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "player"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Add2
+GetMember
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "teamLeft"
+GetMember
+Greater
+Not
+loc1686:Not
+If loc16c0
+Push "_root"
+GetVariable
+Push "phase", "_root"
+GetVariable
+Push "phase"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2", 0
+SetMember
+Jump loc177e
+loc16c0:Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "turn"
+GetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2"
+GetMember
+Greater
+Not
+PushDuplicate
+Not
+If loc1749
+Pop
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+GetMember
+Push "turn"
+GetMember
+Push 0
+Greater
+loc1749:Not
+If loc177e
+Push "_root"
+GetVariable
+Push "phase", "_root"
+GetVariable
+Push "phase"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2", 0
+SetMember
+loc177e:Push "_root"
+GetVariable
+Push "winDate"
+GetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK"
+GetMember
+Equals2
+Not
+If loc17b2
+Push "_root"
+GetVariable
+Push "winCondition", "_root"
+GetVariable
+Push "winDateCondition"
+GetMember
+SetMember
+loc17b2:Push "winCon", 0
+SetVariable
+Push "loseCon", 0
+SetVariable
+Push "_root"
+GetVariable
+Push "playerKrin1"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc181f
+Push "_root"
+GetVariable
+Push "turnBasedKrin", true
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 2
+Equals2
+Not
+If loc181f
+Push "loseCon", "loseCon"
+GetVariable
+Increment
+SetVariable
+loc181f:Push "_root"
+GetVariable
+Push "playerKrin1"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc18c3
+Push "_root"
+GetVariable
+Push "playerKrin3"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc18c3
+Push "_root"
+GetVariable
+Push "playerKrin5"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc18c3
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push 1
+Equals2
+Not
+If loc18b9
+Push "loseCon", "loseCon"
+GetVariable
+Increment
+SetVariable
+Jump loc18c3
+loc18b9:Push "winCon", "winCon"
+GetVariable
+Increment
+SetVariable
+loc18c3:Push "_root"
+GetVariable
+Push "playerKrin2"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc1967
+Push "_root"
+GetVariable
+Push "playerKrin4"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc1967
+Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc1967
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push 2
+Equals2
+Not
+If loc195d
+Push "loseCon", "loseCon"
+GetVariable
+Increment
+SetVariable
+Jump loc1967
+loc195d:Push "winCon", "winCon"
+GetVariable
+Increment
+SetVariable
+loc1967:Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push -1
+Equals2
+Not
+If loc19e9
+Push "winCon"
+GetVariable
+Not
+If loc199f
+Push "_root"
+GetVariable
+Push "winCondition", 1
+SetMember
+loc199f:Push "loseCon"
+GetVariable
+Not
+If loc19bc
+Push "_root"
+GetVariable
+Push "winCondition", 0
+SetMember
+loc19bc:Push "winCon"
+GetVariable
+Push "loseCon"
+GetVariable
+Add2
+Push 2
+Equals2
+Not
+If loc19e9
+Push "_root"
+GetVariable
+Push "winCondition", 2
+SetMember
+loc19e9:Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 0
+Less2
+Not
+Not
+If loc1a32
+Push "_root"
+GetVariable
+Push "AchVal4", "_root"
+GetVariable
+Push "turnTimeKKK"
+GetMember
+SetMember
+Push 0, "_root"
+GetVariable
+Push "blacker5"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc1a32:Push "_root"
+GetVariable
+Push "TurnTime"
+GetMember
+Push 0
+Equals2
+Not
+If loc1c0d
+Push 0, "_root"
+GetVariable
+Push "TeamSelect"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "TeamMove"
+GetMember
+Push "_root"
+GetVariable
+Push "PrevTeam"
+GetMember
+Equals2
+Not
+If loc1af8
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 0, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 6
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 7
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 8
+GetMember
+SetMember
+Jump loc1be2
+loc1af8:Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 0, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 3
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 4
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 5
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 3, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 6
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 4, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 7
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 5, "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push 8
+GetMember
+SetMember
+loc1be2:Push "_root"
+GetVariable
+Push "PrevTeam", "_root"
+GetVariable
+Push "TeamMove"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", 0
+SetMember
+Jump loc1d1f
+loc1c0d:Push "_root"
+GetVariable
+Push "TeamMove"
+GetMember
+Push 1
+Equals2
+Not
+If loc1c6f
+Push "_root"
+GetVariable
+Push "TeamMoveNow", 2
+SetMember
+Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc1c6a
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber", 2
+SetMember
+Push "theGuy", "arenaPlayer2"
+SetVariable
+loc1c6a:Jump loc1cb1
+loc1c6f:Push "_root"
+GetVariable
+Push "TeamMoveNow", 1
+SetMember
+Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc1cb1
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber", 1
+SetMember
+Push "theGuy", "arenaPlayer1"
+SetVariable
+loc1cb1:Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push "_root"
+GetVariable
+Push "TeamMoveNow"
+GetMember
+Equals2
+Not
+If loc1d05
+Push "friend", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc1d1f
+loc1d05:Push "enemy", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1d1f:Jump loc3192
+loc1d24:Push "_root"
+GetVariable
+Push "nextPlayer", false
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 6
+Equals2
+Not
+If loc1d5e
+Push "_root"
+GetVariable
+Push "PlayerToMove", 0
+SetMember
+loc1d5e:Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc1d88
+Push "theGuy", "arenaPlayer", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+SetVariable
+loc1d88:Push "mAry1", "_root"
+GetVariable
+Push "KRINABILITY", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 3
+GetMember
+Add2
+GetMember
+SetVariable
+Push "mAry2", "_root"
+GetVariable
+Push "KRINABILITYB", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 3
+GetMember
+Add2
+GetMember
+SetVariable
+Push "mCaster", "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 1
+GetMember
+Add2
+GetMember
+SetVariable
+Push "mTarget", "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 2
+GetMember
+Add2
+GetMember
+SetVariable
+Push "mCaster2", "player", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 1
+GetMember
+Add2
+SetVariable
+Push "mTarget2", "player", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 2
+GetMember
+Add2
+SetVariable
+Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Not
+If loc1f01
+Push "usedBuff", false
+SetVariable
+Jump loc1f09
+loc1f01:Push "usedBuff", true
+SetVariable
+loc1f09:Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc1fbb
+Push "m", 0
+SetVariable
+loc1f39:Push "m"
+GetVariable
+Push 8
+Less2
+Not
+If loc1fbb
+Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "m"
+GetVariable
+GetMember
+Push 0
+Greater
+Not
+If loc1fac
+Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "m"
+GetVariable
+Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "m"
+GetVariable
+GetMember
+Decrement
+SetMember
+loc1fac:Push "m", "m"
+GetVariable
+Increment
+SetVariable
+Jump loc1f39
+loc1fbb:Push "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 3
+GetMember
+Push 0
+Equals2
+Not
+PushDuplicate
+Not
+If loc200e
+Pop
+Push "mTarget"
+GetVariable
+Push "active"
+GetMember
+Push true
+Equals2
+loc200e:PushDuplicate
+Not
+If loc202b
+Pop
+Push "mCaster"
+GetVariable
+Push "STUN"
+GetMember
+Push 0
+Equals2
+loc202b:Not
+If loc2eae
+Push "moveStart"
+GetVariable
+Push true
+Equals2
+Not
+Not
+If loc2ea9
+Push "moveBammer", false
+SetVariable
+Push "mCaster"
+GetVariable
+Push "FOCUSN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 5
+GetMember
+Less2
+Not
+PushDuplicate
+Not
+If loc20bb
+Pop
+Push "mCaster"
+GetVariable
+Push "LIFEN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 6
+GetMember
+Push "mCaster"
+GetVariable
+Push "LIFEU"
+GetMember
+Push "mAry1"
+GetVariable
+Push 16
+GetMember
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Add2
+Greater
+loc20bb:Not
+If loc2b81
+Push "mCaster"
+GetVariable
+Push "FOCUSN", "mCaster"
+GetVariable
+Push "FOCUSN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 5
+GetMember
+Subtract
+SetMember
+Push "mCaster"
+GetVariable
+Push "LIFEN", "mCaster"
+GetVariable
+Push "LIFEN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 6
+GetMember
+Push "mCaster"
+GetVariable
+Push "LIFEU"
+GetMember
+Push "mAry1"
+GetVariable
+Push 16
+GetMember
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Add2
+Subtract
+SetMember
+Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "lifeBarUpdate"
+CallMethod
+Pop
+Push "mAry1"
+GetVariable
+Push 10
+GetMember
+Push "Shock"
+Equals2
+Not
+PushDuplicate
+Not
+If loc218a
+Pop
+Push "mTarget"
+GetVariable
+Push "STUN"
+GetMember
+Push 0
+Equals2
+loc218a:Not
+If loc22c0
+Push "spdVar1", "mTarget"
+GetVariable
+Push "SPEEDU"
+GetMember
+Push "mCaster"
+GetVariable
+Push "SPEEDU"
+GetMember
+Push "mAry1"
+GetVariable
+Push 9
+GetMember
+Multiply
+Divide
+SetVariable
+Push "spdVar2", "spdVar1"
+GetVariable
+Push 3
+Multiply
+Push 3
+Add2
+SetVariable
+Push "spdVar3", "spdVar1"
+GetVariable
+Push "spdVar2"
+GetVariable
+Multiply
+SetVariable
+Push "spdVar3"
+GetVariable
+Push 75
+Greater
+Not
+If loc2207
+Push "spdVar3", 75
+SetVariable
+loc2207:Push "spdVar3"
+GetVariable
+Push 1
+Less2
+Not
+If loc2227
+Push "spdVar3", 0
+SetVariable
+loc2227:Push "_root"
+GetVariable
+Push "__rwNoDodge"
+GetMember
+PushDuplicate
+Not
+If loc225e
+Pop
+Push "mAry1"
+GetVariable
+Push "mTarget"
+GetVariable
+Push "mCaster"
+GetVariable
+Push 3, "_root"
+GetVariable
+Push "__rwNoDodge"
+CallMethod
+loc225e:Not
+If loc226f
+Push "spdVar3", 0
+SetVariable
+loc226f:Push 0, "_root"
+GetVariable
+Push "KRRR"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KRSO"
+GetMember
+Push "spdVar3"
+GetVariable
+Greater
+Not
+If loc22ad
+Push "_root"
+GetVariable
+Push "strikeSuccess", true
+SetMember
+Jump loc22bb
+loc22ad:Push "_root"
+GetVariable
+Push "strikeSuccess", false
+SetMember
+loc22bb:Jump loc22ce
+loc22c0:Push "_root"
+GetVariable
+Push "strikeSuccess", true
+SetMember
+loc22ce:Push "moveStart", true
+SetVariable
+Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc23d1
+Push "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 3
+GetMember
+Push 0
+Equals2
+Not
+Not
+If loc238f
+Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "_root"
+GetVariable
+Push "moveCoolDownBreaker"
+GetMember
+Push "mAry1"
+GetVariable
+Push 7
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "_visible", false
+SetMember
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+If loc238f
+loc238f:Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTipTitle", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger1"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger2"
+GetMember
+SetMember
+loc23d1:Push "mCaster"
+GetVariable
+Push "AION"
+GetMember
+Not
+If loc2412
+Push "mCaster"
+GetVariable
+Push "mCaster"
+GetVariable
+Push "AI_CD_ARR"
+GetMember
+GetMember
+Push "mCaster"
+GetVariable
+Push "AI_CD_PUT"
+GetMember
+Push "mAry1"
+GetVariable
+Push 7
+GetMember
+SetMember
+loc2412:Push "mAry1"
+GetVariable
+Push 10
+GetMember
+Push "Melee"
+Equals2
+Not
+If loc24ea
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "missToMake", undefined
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "soundToMake", "mAry1"
+GetVariable
+Push 18
+GetMember
+SetMember
+Push "run", 1, "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "mAry1"
+GetVariable
+Push 13
+GetMember
+Push "mAry1"
+GetVariable
+Push 12
+GetMember
+Push "mAry1"
+GetVariable
+Push 11
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push 5, "_root"
+GetVariable
+Push "krinMelee"
+CallMethod
+Pop
+loc24ea:Push "mAry1"
+GetVariable
+Push 10
+GetMember
+Push "Missile"
+Equals2
+Not
+If loc2849
+Push "sfx_cast", "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "missToMake", "sfx_magicmiss"
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "soundToMake", "mAry1"
+GetVariable
+Push 18
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push "inner"
+GetMember
+Push "colortobe", "mAry1"
+GetVariable
+Push 11
+GetMember
+SetMember
+Push "cast", 1, "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "mAry2"
+GetVariable
+Push 20
+GetMember
+Not
+Not
+If loc274e
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX"
+GetMember
+Not
+If loc26e4
+Push "_root"
+GetVariable
+Push "xPoint1", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_width"
+GetMember
+Push 2
+Divide
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "yPoint1", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_height"
+GetMember
+Push 2
+Divide
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "zoomPointX", "_root"
+GetVariable
+Push "xPoint1"
+GetMember
+Push 0, "_root"
+GetVariable
+Push "zoomRatioNEW"
+GetMember
+Subtract
+Multiply
+Push 400
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "zoomPointY", "_root"
+GetVariable
+Push "yPoint1"
+GetMember
+Push 0, "_root"
+GetVariable
+Push "zoomRatioNEW"
+GetMember
+Subtract
+Multiply
+Push 300
+Add2
+SetMember
+Push "KrinZoomGo", 1, "_root"
+GetVariable
+Push "GridZoomer"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "zoomPause", 5
+SetMember
+loc26e4:Push "mAry1"
+GetVariable
+Push 13
+GetMember
+Push "mAry1"
+GetVariable
+Push 12
+GetMember
+Push "mAry1"
+GetVariable
+Push 11
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push 5, "_root"
+GetVariable
+Push "krinBoltMake"
+CallMethod
+Pop
+Jump loc2849
+loc274e:Push "owegwe", 0
+SetVariable
+loc2759:Push "owegwe"
+GetVariable
+Push 3
+Less2
+Not
+If loc2849
+Push "_root"
+GetVariable
+Push "playerKrin", 7, "mCaster"
+GetVariable
+Push "teamSide"
+GetMember
+Push "owegwe"
+GetVariable
+Push 2
+Multiply
+Add2
+Subtract
+Add2
+GetMember
+Push "active"
+GetMember
+Not
+If loc283a
+Push "mAry1"
+GetVariable
+Push 13
+GetMember
+Push "mAry1"
+GetVariable
+Push 12
+GetMember
+Push "mAry1"
+GetVariable
+Push 11
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "_root"
+GetVariable
+Push "playerKrin", 7, "mCaster"
+GetVariable
+Push "teamSide"
+GetMember
+Push "owegwe"
+GetVariable
+Push 2
+Multiply
+Add2
+Subtract
+Add2
+GetMember
+Push "playerID"
+GetMember
+Add2
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push 5, "_root"
+GetVariable
+Push "krinBoltMake"
+CallMethod
+Pop
+loc283a:Push "owegwe", "owegwe"
+GetVariable
+Increment
+SetVariable
+Jump loc2759
+loc2849:Push "mAry1"
+GetVariable
+Push 10
+GetMember
+Push "Shock"
+Equals2
+Not
+If loc2b0b
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "missToMake", undefined
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "soundToMake", undefined
+SetMember
+Push "mAry1"
+GetVariable
+Push 18
+GetMember
+Push "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push "inner"
+GetMember
+Push "colortobe", "mAry1"
+GetVariable
+Push 11
+GetMember
+SetMember
+Push "cast", 1, "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mCaster2"
+GetVariable
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push -9, "b1", "mAry1"
+GetVariable
+Push 13
+GetMember
+Push 3, "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "b1"
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_x"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "b1"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_y"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX"
+GetMember
+Not
+If loc2aac
+Push "_root"
+GetVariable
+Push "xPoint1", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_x"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_width"
+GetMember
+Push 2
+Divide
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "yPoint1", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_y"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "mTarget2"
+GetVariable
+GetMember
+Push "_height"
+GetMember
+Push 2
+Divide
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "zoomPointX", "_root"
+GetVariable
+Push "xPoint1"
+GetMember
+Push -0.3
+Multiply
+Push 400
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "zoomPointY", "_root"
+GetVariable
+Push "yPoint1"
+GetMember
+Push -0.3
+Multiply
+Push 300
+Add2
+SetMember
+Push "KrinZoomGo", 1, "_root"
+GetVariable
+Push "GridZoomer"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "zoomPause", 1
+SetMember
+loc2aac:Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX"
+GetMember
+PushDuplicate
+Not
+If loc2adf
+Pop
+Push "mAry1"
+GetVariable
+Push 9
+GetMember
+Push 0
+Less2
+Not
+loc2adf:Not
+If loc2afd
+Push 0, "_root"
+GetVariable
+Push "GridShaker"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc2afd:Push "_root"
+GetVariable
+Push "BAMBAMBAM", true
+SetMember
+loc2b0b:Push "KrinPVar01", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "autoMoveK", true
+SetMember
+Push 0, "KrinPVar01"
+GetVariable
+Push "KrinPVar01"
+GetVariable
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "autoMoveK", false
+SetMember
+Jump loc2ea9
+loc2b81:Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc2c75
+Push "mCaster"
+GetVariable
+Push "FOCUSN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 5
+GetMember
+Less2
+Not
+If loc2bf6
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "You failed to use your ability because you don\'t have enough Focus."
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc2bf6:Push "mCaster"
+GetVariable
+Push "LIFEN"
+GetMember
+Push "mAry1"
+GetVariable
+Push 6
+GetMember
+Push "mCaster"
+GetVariable
+Push "LIFEU"
+GetMember
+Push "mAry1"
+GetVariable
+Push 16
+GetMember
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Add2
+Greater
+Not
+Not
+If loc2c75
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "You failed to use your ability because you don\'t have enough Health."
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc2c75:Push "KrinPVar01", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "autoMoveK", true
+SetMember
+Push 0, "KrinPVar01"
+GetVariable
+Push "KrinPVar01"
+GetVariable
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "autoMoveK", false
+SetMember
+Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc2d73
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTipTitle", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger1"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger2"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "_visible", false
+SetMember
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+If loc2d73
+loc2d73:Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc2dd1
+Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Cycler", "Cycler"
+GetVariable
+Decrement
+SetVariable
+Push "moveStart", false
+SetVariable
+Push "cycleAss", false
+SetVariable
+loc2dd1:Push "usedBuff"
+GetVariable
+Push false
+Equals2
+Not
+If loc2ea9
+Push "mCaster"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "buffTicker"
+CallMethod
+Pop
+Push "usedBuff", true
+SetVariable
+Push "_root"
+GetVariable
+Push "buffTickChecker"
+GetMember
+PushDuplicate
+Not
+If loc2e29
+Pop
+Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Push true
+Equals2
+loc2e29:Not
+If loc2e63
+Push "moveStart", true
+SetVariable
+Push "AttackEndCounter", 0
+SetVariable
+Push "_root"
+GetVariable
+Push "BAMBAMBAM", true
+SetMember
+Push "_root"
+GetVariable
+Push "moveBammer", true
+SetMember
+Jump loc2ea9
+loc2e63:Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Cycler", "Cycler"
+GetVariable
+Decrement
+SetVariable
+Push "moveStart", false
+SetVariable
+Push "cycleAss", false
+SetVariable
+loc2ea9:Jump loc3192
+loc2eae:Push "mCaster"
+GetVariable
+Push "STUN"
+GetMember
+Push 0
+Equals2
+Not
+PushDuplicate
+Not
+If loc2f05
+Pop
+Push "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 3
+GetMember
+Push 0
+Equals2
+Not
+loc2f05:Not
+If loc2f5e
+Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc2f5e
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "You failed to use your ability because you are stunned this round."
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc2f5e:Push "mCaster"
+GetVariable
+Push "playerID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Equals2
+Not
+If loc2feb
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTipTitle", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger1"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger2"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "_visible", false
+SetMember
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+If loc2feb
+loc2feb:Push "KrinPVar01", "_root"
+GetVariable
+Push "_root"
+GetVariable
+Push "MoveArrayFINAL"
+GetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+GetMember
+Push "MOVE"
+Add2
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "autoMoveK", true
+SetMember
+Push 0, "KrinPVar01"
+GetVariable
+Push "KrinPVar01"
+GetVariable
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "autoMoveK", false
+SetMember
+Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc30ba
+Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Cycler", "Cycler"
+GetVariable
+Decrement
+SetVariable
+Push "moveStart", false
+SetVariable
+Push "cycleAss", false
+SetVariable
+loc30ba:Push "usedBuff"
+GetVariable
+Push false
+Equals2
+Not
+If loc3192
+Push "mCaster"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "buffTicker"
+CallMethod
+Pop
+Push "usedBuff", true
+SetVariable
+Push "_root"
+GetVariable
+Push "buffTickChecker"
+GetMember
+PushDuplicate
+Not
+If loc3112
+Pop
+Push "mCaster"
+GetVariable
+Push "active"
+GetMember
+Push true
+Equals2
+loc3112:Not
+If loc314c
+Push "AttackEndCounter", 0
+SetVariable
+Push "moveStart", true
+SetVariable
+Push "_root"
+GetVariable
+Push "BAMBAMBAM", true
+SetMember
+Push "_root"
+GetVariable
+Push "moveBammer", true
+SetMember
+Jump loc3192
+loc314c:Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "PlayerToMove", "_root"
+GetVariable
+Push "PlayerToMove"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Cycler", "Cycler"
+GetVariable
+Decrement
+SetVariable
+Push "moveStart", false
+SetVariable
+Push "cycleAss", false
+SetVariable
+loc3192:Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+PushDuplicate
+Not
+If loc31bb
+Pop
+Push "timerWait"
+GetVariable
+Push 0
+Equals2
+loc31bb:PushDuplicate
+Not
+If loc31d8
+Pop
+Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 0
+Less2
+loc31d8:Not
+If loc449f
+Push "_root"
+GetVariable
+Push "speechDone"
+GetMember
+Push true
+Equals2
+Not
+If loc3e21
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+PushDuplicate
+Not
+If loc323a
+Pop
+Push "_root"
+GetVariable
+Push "TeamMoveNow"
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Equals2
+loc323a:Not
+If loc3263
+Push "_root"
+GetVariable
+Push "BattleTimeNow", "_root"
+GetVariable
+Push "BattleTimeNow"
+GetMember
+Push 1
+Add2
+SetMember
+Jump loc36dd
+loc3263:Push "_root"
+GetVariable
+Push "TeamMoveNow"
+GetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Equals2
+Not
+Not
+If loc340d
+Push "_root"
+GetVariable
+Push "BattleTimeNow", "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+SetMember
+Push "i", 0
+SetVariable
+loc32b9:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc33f6
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AIGoER"
+GetMember
+Not
+If loc33e7
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AION"
+GetMember
+Push true
+Equals2
+Not
+If loc33e7
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc33aa
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "LowerCD"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "AImoveAdder"
+CallMethod
+Pop
+Push "ADD1"
+Trace
+Jump loc33e7
+loc33aa:Push 0, "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+loc33e7:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc32b9
+loc33f6:Push 0, "_root"
+GetVariable
+Push "AIGoERSwitch"
+CallMethod
+Pop
+Jump loc36dd
+loc340d:Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "active"
+GetMember
+Push false
+Equals2
+Not
+If loc3514
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+Not
+If loc3514
+Push 0, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+If loc3514
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+PushDuplicate
+Not
+If loc34c9
+Pop
+Push "timerWait"
+GetVariable
+Push 0
+Equals2
+loc34c9:PushDuplicate
+Not
+If loc34e6
+Pop
+Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 0
+Less2
+loc34e6:PushDuplicate
+Not
+If loc3500
+Pop
+Push "_root"
+GetVariable
+Push "speechDone"
+GetMember
+Push true
+Equals2
+loc3500:Not
+If loc3514
+Push "_root"
+GetVariable
+Push "moveChoosen", true
+SetMember
+loc3514:Push "_root"
+GetVariable
+Push "moveChoosen"
+GetMember
+Not
+Not
+If loc354e
+Push "_root"
+GetVariable
+Push "BattleTimeNow", "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+Push 0.000001
+Subtract
+SetMember
+Jump loc36dd
+loc354e:Push "i", 0
+SetVariable
+loc3559:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc36a8
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AIGoER"
+GetMember
+Not
+If loc3699
+Push "STEP1"
+Trace
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AION"
+GetMember
+Push true
+Equals2
+Not
+If loc3699
+Push "STEP2"
+Trace
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc365c
+Push "STEP3"
+Trace
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "LowerCD"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "AImoveAdder"
+CallMethod
+Pop
+Push "ADD2"
+Trace
+Jump loc3699
+loc365c:Push 0, "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+loc3699:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc3559
+loc36a8:Push 0, "_root"
+GetVariable
+Push "AIGoERSwitch"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "BattleTimeNow", "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "moveChoosen", false
+SetMember
+loc36dd:Push "_root"
+GetVariable
+Push "BattleTimeNow"
+GetMember
+Push "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+Push 1
+Subtract
+Equals2
+Not
+If loc385f
+Push "i", 0
+SetVariable
+loc3710:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc384d
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AIGoER"
+GetMember
+Not
+If loc383e
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "AION"
+GetMember
+Push true
+Equals2
+Not
+If loc383e
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "active"
+GetMember
+Push true
+Equals2
+Not
+If loc3801
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "LowerCD"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "AImoveAdder"
+CallMethod
+Pop
+Push "ADD3"
+Trace
+Jump loc383e
+loc3801:Push 0, "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "AITeamMoveOrder"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+loc383e:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc3710
+loc384d:Push 0, "_root"
+GetVariable
+Push "AIGoERSwitch"
+CallMethod
+Pop
+loc385f:Push "cycleAss"
+GetVariable
+Push true
+Equals2
+Not
+Not
+If loc3cab
+Push "_root"
+GetVariable
+Push "hardSkip", false
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push "_root"
+GetVariable
+Push "TeamMoveNow"
+GetMember
+Equals2
+Not
+If loc3bcc
+Push "friend", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "SHOW", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push 1
+Equals2
+Not
+If loc3a76
+Push "_root"
+GetVariable
+Push "playerKrin3"
+GetMember
+Push "active"
+GetMember
+Not
+If loc3963
+Push "active", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc3989
+loc3963:Push "inactive", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc3989:Push "_root"
+GetVariable
+Push "playerKrin5"
+GetMember
+Push "active"
+GetMember
+Not
+If loc39cc
+Push "active", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc39f2
+loc39cc:Push "inactive", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc39f2:Push "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "save_x1"
+GetMember
+SetMember
+Push 3, 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "setAG"
+CallMethod
+Pop
+Push 5, 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "setAG"
+CallMethod
+Pop
+Jump loc3bc7
+loc3a76:Push "_root"
+GetVariable
+Push "playerKrin4"
+GetMember
+Push "active"
+GetMember
+Not
+If loc3ab9
+Push "active", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc3adf
+loc3ab9:Push "inactive", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc3adf:Push "_root"
+GetVariable
+Push "playerKrin6"
+GetMember
+Push "active"
+GetMember
+Not
+If loc3b22
+Push "active", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc3b48
+loc3b22:Push "inactive", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc3b48:Push "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "save_x2"
+GetMember
+SetMember
+Push 4, 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p3"
+GetMember
+Push "setAG"
+CallMethod
+Pop
+Push 6, 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "p5"
+GetMember
+Push "setAG"
+CallMethod
+Pop
+loc3bc7:Jump loc3c06
+loc3bcc:Push "enemy", 1, "this"
+GetVariable
+Push "thingerClock"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "HIDE", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc3c06:Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip"
+GetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger2"
+GetMember
+Equals2
+Not
+Not
+If loc3c53
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger4"
+GetMember
+SetMember
+loc3c53:Push "u", 0
+SetVariable
+loc3c5e:Push "u"
+GetVariable
+Push 6
+Less2
+Not
+If loc3ca3
+Push "_root"
+GetVariable
+Push "KrinSelector", "u"
+GetVariable
+Push 1
+Add2
+Add2
+GetMember
+Push "_visible", true
+SetMember
+Push "u", "u"
+GetVariable
+Increment
+SetVariable
+Jump loc3c5e
+loc3ca3:Push "cycleAss", true
+SetVariable
+loc3cab:Push "BattleTime", "_root"
+GetVariable
+Push "BattleTimeNow"
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "BattleTimeNow"
+GetMember
+Push "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+Equals2
+Not
+If loc3e1c
+Push "w", 1
+SetVariable
+loc3ce4:Push "w"
+GetVariable
+Push 7
+Less2
+Not
+If loc3d23
+Push "_root"
+GetVariable
+Push "healedThisTurn"
+GetMember
+Push "w"
+GetVariable
+Push 0
+SetMember
+Push "w", "w"
+GetVariable
+Increment
+SetVariable
+Jump loc3ce4
+loc3d23:Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip"
+GetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger2"
+GetMember
+Equals2
+Not
+Not
+If loc3d91
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger4", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "toolTip", "_root"
+GetVariable
+Push "krinToMove"
+GetMember
+Push "thinger3"
+GetMember
+SetMember
+loc3d91:Push "_root"
+GetVariable
+Push "InBattle", true
+SetMember
+Push "_root"
+GetVariable
+Push "nextPlayer", true
+SetMember
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "_visible", false
+SetMember
+Push "i", 0
+SetVariable
+loc3dcc:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc3e11
+Push "_root"
+GetVariable
+Push "KrinSelector", "i"
+GetVariable
+Push 1
+Add2
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc3dcc
+loc3e11:Push "Cycler", 3
+SetVariable
+loc3e1c:Jump loc449f
+loc3e21:Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "length"
+GetMember
+Push 0
+Equals2
+Not
+If loc3e6b
+Push "_root"
+GetVariable
+Push "speechDone", true
+SetMember
+Jump loc449f
+loc3e6b:Push "_root"
+GetVariable
+Push "nextSpeechKKK"
+GetMember
+Push true
+Equals2
+Not
+If loc449f
+Push "_root"
+GetVariable
+Push "speechAdds", 0
+SetMember
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Enumerate2
+loc3eb7:StoreRegister 0
+Push null
+Equals2
+If loc43d3
+Push "xyz", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "nextSpeechKKK"
+GetMember
+Push true
+Equals2
+Not
+If loc43ce
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "getPNum"
+CallMethod
+Push NaN
+Equals2
+Not
+If loc3f23
+Push "_root"
+GetVariable
+Push "hardSkip", true
+SetMember
+loc3f23:Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "phase"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+Equals2
+Not
+If loc43ce
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "turnTime"
+GetMember
+Push "_root"
+GetVariable
+Push "turnTimeKKK2"
+GetMember
+Equals2
+Not
+If loc43ce
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "turnTime2"
+GetMember
+Push "turnTime"
+GetVariable
+Equals2
+Not
+If loc43ce
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "getPNum"
+CallMethod
+Add2
+GetMember
+Push "active"
+GetMember
+PushDuplicate
+Not
+If loc403d
+Pop
+Push "_root"
+GetVariable
+Push "hardSkip"
+GetMember
+Push true
+Equals2
+Not
+loc403d:Not
+If loc43a2
+Push "kebabBurn", true
+SetVariable
+Push "turnTime", "turnTime"
+GetVariable
+Increment
+SetVariable
+Push "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "getPNum"
+CallMethod
+Add2
+GetMember
+Push "teamSide"
+GetMember
+Push 2
+Equals2
+Not
+If loc40cc
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "_x", 473.3000000000001
+SetMember
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "_y", 460.7
+SetMember
+Jump loc4102
+loc40cc:Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "_x", 21.800000000000008
+SetMember
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "_y", 460.7
+SetMember
+loc4102:Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "inner"
+GetMember
+Push "combatText", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "say"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "inner"
+GetMember
+Push "combatTextName", "_root"
+GetVariable
+Push "playerKrin", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "getPNum"
+CallMethod
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "inner"
+GetMember
+Push "combatTextName"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "inner"
+GetMember
+Push "inner2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual"
+GetMember
+Push "LOW"
+Equals2
+PushDuplicate
+If loc4201
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics"
+GetMember
+Push false
+Equals2
+loc4201:Not
+If loc4217
+Push "benderADJ", 30
+SetVariable
+Jump loc4222
+loc4217:Push "benderADJ", 30
+SetVariable
+loc4222:Push "benderADJ", 30
+SetVariable
+Push "_root"
+GetVariable
+Push "timeSpeechKKKUP", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "timeToSay"
+GetMember
+Push "benderADJ"
+GetVariable
+Multiply
+SetMember
+Push 0, "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "player", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "getPNum"
+CallMethod
+Add2
+GetMember
+Push "speech"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "voiceOver"
+GetMember
+Push ""
+Equals2
+Not
+Not
+If loc433c
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "speeches"
+GetMember
+Push "_root"
+GetVariable
+Push "speechOn"
+GetMember
+GetMember
+Push "voiceOver"
+GetMember
+Push "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+loc433c:Push "_root"
+GetVariable
+Push "speechOn", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "speechAdds", "_root"
+GetVariable
+Push "speechAdds"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "nextSpeechKKK", false
+SetMember
+Push "_root"
+GetVariable
+Push "combatScript"
+GetMember
+Push "timeX", 0
+SetMember
+Jump loc43ce
+loc43a2:Push "_root"
+GetVariable
+Push "speechOn", "_root"
+GetVariable
+Push "speechOn"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "nextSpeechKKK", true
+SetMember
+loc43ce:Jump loc3eb7
+loc43d3:Push "_root"
+GetVariable
+Push "speechAdds"
+GetMember
+Push 0
+Equals2
+Not
+If loc449f
+Push "_root"
+GetVariable
+Push "speechDone", true
+SetMember
+Push "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+Push 1
+Subtract
+GetMember
+Push "endGame"
+GetMember
+Not
+If loc449f
+Push "_root"
+GetVariable
+Push "winCondition", "_root"
+GetVariable
+Push "KBR", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "phases"
+GetMember
+Push "_root"
+GetVariable
+Push "phase"
+GetMember
+Push 1
+Subtract
+GetMember
+Push "winOrLose"
+GetMember
+SetMember
+Push 0, "_root"
+GetVariable
+Push "blacker5"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc449f:

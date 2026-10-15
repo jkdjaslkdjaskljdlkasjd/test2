@@ -1,0 +1,4 @@
+Push "inner"
+GetVariable
+Push "combatText", ""
+SetMember

@@ -1,0 +1,550 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "ONE",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   "ARCTIC",
+   "ARCTIC",
+   "ARCTIC",
+   "ARCTIC",
+   "ARCTIC",
+   0,
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "catalogo_mod",
+    "indice": 90,
+    "nombre": "ARCTIC - armadura",
+    "linea": 13907
+   }
+  ],
+  "name": "AP001_ARCTIC_armadura",
+  "nombres": [
+   "ARCTIC - armadura"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP001_ARCTIC_armadura",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_ARCTIC",
+     "characterId": 743
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_ONE",
+     "characterId": 2208
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_ARCTIC",
+     "characterId": 1602
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_ONE",
+     "characterId": 2210
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_ARCTIC",
+     "characterId": 1723
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_ARCTIC",
+     "characterId": 743
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_ONE",
+     "characterId": 2204
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_ARCTIC",
+     "characterId": 1721
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_ONE",
+     "characterId": 2210
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_ARCTIC",
+     "characterId": 1723
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_ARCTIC",
+     "characterId": 743
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_ONE",
+     "characterId": 2204
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_ARCTIC",
+     "characterId": 1721
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_ONE",
+     "characterId": 2212
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_CHEST_ARCTIC",
+     "characterId": 1466
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_ONE",
+     "characterId": 2206
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HEAD_ARCTIC",
+     "characterId": 1541
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_ARCTIC",
+     "characterId": 743
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SSHOULDER_ONE",
+     "characterId": 2202
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_SHOULDER_ARCTIC",
+     "characterId": 1463
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": []
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_ONE",
+     "characterId": 2208
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_ARCTIC",
+     "characterId": 1602
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2206
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "M_HEAD_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1541
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2212
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_CHEST_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1466
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_ARM_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 743
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_ARM_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 743
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2208
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_HAND_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1602
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2208
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_HAND_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1602
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 743
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 743
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2204
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1721
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2204
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1721
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2210
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1723
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2210
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1723
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2202
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SHOULDER_ARCTIC",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1463
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 84,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

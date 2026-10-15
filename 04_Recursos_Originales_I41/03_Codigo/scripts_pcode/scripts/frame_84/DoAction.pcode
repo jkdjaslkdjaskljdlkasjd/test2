@@ -1,0 +1,61 @@
+ConstantPool "whatToSay1", "_root", "KrinLang", "KLangChoosen", "MENU", "whatToSay2", "CLASS", "whatToSay3", "whatToSay4", "whatToSay5"
+Push "whatToSay1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 24
+GetMember
+SetVariable
+Push "whatToSay2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASS"
+GetMember
+Push 0.0
+GetMember
+SetVariable
+Push "whatToSay3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASS"
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "whatToSay4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASS"
+GetMember
+Push 2
+GetMember
+SetVariable
+Push "whatToSay5", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "CLASS"
+GetMember
+Push 3
+GetMember
+SetVariable

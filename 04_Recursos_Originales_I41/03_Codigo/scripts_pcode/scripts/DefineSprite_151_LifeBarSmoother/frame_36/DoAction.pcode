@@ -1,0 +1,13 @@
+ConstantPool "_parent", "lB", "_width", "wsaver", "this"
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "lB"
+GetMember
+Push "_width", "wsaver"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+RemoveSprite

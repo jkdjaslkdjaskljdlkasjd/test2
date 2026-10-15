@@ -1,0 +1,1685 @@
+ConstantPool "_global", "mx", "Object", "core", "UIObject", "constructObject", "MovieClip", "prototype", "__get__width", "_width", "__get__height", "_height", "__get__left", "_x", "__get__x", "__get__top", "_y", "__get__y", "__get__right", "_parent", "width", "__get__bottom", "height", "getMinHeight", "_minHeight", "setMinHeight", "__get__minHeight", "__set__minHeight", "getMinWidth", "_minWidth", "setMinWidth", "__get__minWidth", "__set__minWidth", "setVisible", "_visible", "type", "hide", "reveal", "dispatchEvent", "__get__visible", "__set__visible", "__get__scaleX", "_xscale", "__set__scaleX", "__get__scaleY", "_yscale", "__set__scaleY", "doLater", "methodTable", "Array", "obj", "fn", "push", "onEnterFrame", "doLaterDispatcher", "invalidateFlag", "redraw", "length", "shift", "cancelAllDoLaters", "invalidate", "invalidateStyle", "tfList", "draw", "move", "oldX", "oldY", "setSize", "__width", "__height", "size", "resize", "oldWidth", "oldHeight", "drawRect", "moveTo", "lineTo", "createLabel", "createTextField", "_color", "textColorList", "__text", "styleName", "createObject", "attachMovie", "createClassObject", "symbolName", "symbolOwner", "registerClass", "createEmptyObject", "destroyObject", "getDepth", "buildDepthTable", "up", "findNextAvailableDepth", "swapDepths", "removeMovieClip", "getSkinIDName", "idNames", "setSkin", "skinRegistry", "skins", "SkinElement", "registerElement", "createSkin", "createChildren", "_createChildren", "childrenCreated", "_name", "init", "createAccessibilityImplementation", "_endInit", "validateNow", "initFromClipParameters", "clipParameters", "hasOwnProperty", "def_", "initProperties", "cascadingStyles", "stylecache", "getClassStyleDeclaration", "className", "ignoreClassStyleDeclaration", "styles", "__proto__", "setColor", "__getTextFormat", "tf", "StyleManager", "TextFormatStyleProps", "_tf", "font", "fontFamily", "fontSize", "color", "leftMargin", "marginLeft", "rightMargin", "marginRight", "italic", "fontStyle", "bold", "fontWeight", "align", "textAlign", "indent", "textIndent", "underline", "textDecoration", "embedFonts", "string", "style", "_getTextFormat", "TextFormat", "enabled", "disabledColor", "getStyle", "getStyleName", "getStyleCounter", "isInheritingStyle", "isColorStyle", "mergeClipParameters", "version", "2.0.2.127", "lineWidth", "lineColor", "tabEnabled", "visible", "minHeight", "minWidth", "maxHeight", "maxWidth", "preferredHeight", "preferredWidth", "bottom", "addProperty", "left", "right", "scaleX", "scaleY", "top", "x", "y", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc07e8
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc07e8:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Not
+Not
+If loc0820
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core", 0.0, "Object"
+NewObject
+SetMember
+loc0820:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Not
+Not
+If loc23b1
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+DefineFunction2 "", 0, 3, false, false, false, true, true, false, false, true, false {
+Push 0.0, register2, undefined
+CallMethod
+Pop
+Push 0.0, register1, "constructObject"
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "MovieClip"
+GetVariable
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__width"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_width"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__height"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_height"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__left"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_x"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__x"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_x"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__top"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_y"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__y"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_y"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__right"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_parent"
+GetMember
+Push "width"
+GetMember
+Push register1, "_x"
+GetMember
+Push 0.0, register1, "__get__width"
+CallMethod
+Add2
+Subtract
+Return
+}
+SetMember
+Push register2, "__get__bottom"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_parent"
+GetMember
+Push "height"
+GetMember
+Push register1, "_y"
+GetMember
+Push 0.0, register1, "__get__height"
+CallMethod
+Add2
+Subtract
+Return
+}
+SetMember
+Push register2, "getMinHeight"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_minHeight"
+GetMember
+Return
+}
+SetMember
+Push register2, "setMinHeight"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "h" {
+Push register1, "_minHeight", register2
+SetMember
+}
+SetMember
+Push register2, "__get__minHeight"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getMinHeight"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__set__minHeight"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "h" {
+Push register2, 1, register1, "setMinHeight"
+CallMethod
+Pop
+Push 0.0, register1, "__get__minHeight"
+CallMethod
+Return
+}
+SetMember
+Push register2, "getMinWidth"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_minWidth"
+GetMember
+Return
+}
+SetMember
+Push register2, "setMinWidth"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "w" {
+Push register1, "_minWidth", register2
+SetMember
+}
+SetMember
+Push register2, "__get__minWidth"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getMinWidth"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__set__minWidth"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "w" {
+Push register2, 1, register1, "setMinWidth"
+CallMethod
+Pop
+Push 0.0, register1, "__get__minWidth"
+CallMethod
+Return
+}
+SetMember
+Push register2, "setVisible"
+DefineFunction2 "", 2, 5, false, false, true, false, true, false, false, true, false, 2, "x", 4, "noEvent" {
+Push register2, register1, "_visible"
+GetMember
+Equals2
+Not
+Not
+If loc0b85
+Push register1, "_visible", register2
+SetMember
+Push register4, true
+Equals2
+Not
+Not
+If loc0b85
+Push "type", register2
+If loc0b69
+Push "hide"
+Jump loc0b6e
+loc0b69:Push "reveal"
+loc0b6e:Push 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+loc0b85:SetMember
+Push register2, "__get__visible"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_visible"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__visible"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push false, register2, 2, register1, "setVisible"
+CallMethod
+Pop
+Push 0.0, register1, "__get__visible"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__scaleX"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_xscale"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__scaleX"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_xscale", register2
+SetMember
+Push 0.0, register1, "__get__scaleX"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__scaleY"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_yscale"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__scaleY"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "y" {
+Push register1, "_yscale", register2
+SetMember
+Push 0.0, register1, "__get__scaleY"
+CallMethod
+Return
+}
+SetMember
+Push register2, "doLater"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 2, "obj", 3, "fn" {
+Push register1, "methodTable"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0cba
+Push register1, "methodTable", 0.0, "Array"
+NewObject
+SetMember
+loc0cba:Push "obj", register2, "fn", register3, 2
+InitObject
+Push 1, register1, "methodTable"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push register1, "onEnterFrame", register1, "doLaterDispatcher"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "doLaterDispatcher"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "onEnterFrame"
+Delete
+Pop
+Push register1, "invalidateFlag"
+GetMember
+Not
+If loc0d2e
+Push 0.0, register1, "redraw"
+CallMethod
+Pop
+loc0d2e:Push register1, "methodTable"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "methodTable", 0.0, "Array"
+NewObject
+SetMember
+Push register3, "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc0db4
+Push undefined
+StoreRegister 2
+Pop
+loc0d73:Push 0.0, register3, "shift"
+CallMethod
+StoreRegister 2
+Push undefined
+Equals2
+Not
+Not
+If loc0db4
+Push 0.0, register2, "obj"
+GetMember
+Push register2, "fn"
+GetMember
+CallMethod
+Pop
+Jump loc0d73
+}
+loc0db4:SetMember
+Push register2, "cancelAllDoLaters"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "onEnterFrame"
+Delete
+Pop
+Push register1, "methodTable", 0.0, "Array"
+NewObject
+SetMember
+}
+SetMember
+Push register2, "invalidate"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "invalidateFlag", true
+SetMember
+Push register1, "onEnterFrame", register1, "doLaterDispatcher"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "invalidateStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "redraw"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "bAlways" {
+Push register1, "invalidateFlag"
+GetMember
+PushDuplicate
+If loc0e75
+Pop
+Push register4
+loc0e75:Not
+If loc0eff
+Push register1, "invalidateFlag", false
+SetMember
+Push undefined
+StoreRegister 2
+Pop
+Push register1, "tfList"
+GetMember
+Enumerate2
+loc0e97:StoreRegister 0
+Push null
+Equals2
+If loc0ed2
+Push register0
+StoreRegister 2
+Pop
+Push 0.0, register1, "tfList"
+GetMember
+Push register2
+GetMember
+Push "draw"
+CallMethod
+Pop
+Jump loc0e97
+loc0ed2:Push 0.0, register1, "draw"
+CallMethod
+Pop
+Push "type", "draw", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+loc0eff:SetMember
+Push register2, "draw"
+DefineFunction "", 1, "Void"  {
+}
+SetMember
+Push register2, "move"
+DefineFunction2 "", 3, 8, false, false, true, false, true, false, false, true, false, 7, "x", 6, "y", 5, "noEvent" {
+Push register1, "_x"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "_y"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "_x", register7
+SetMember
+Push register1, "_y", register6
+SetMember
+Push register5, true
+Equals2
+Not
+Not
+If loc0f96
+Push "type", "move", "oldX", register3, "oldY", register2, 3
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+loc0f96:SetMember
+Push register2, "setSize"
+DefineFunction2 "", 3, 8, false, false, true, false, true, false, false, true, false, 7, "w", 6, "h", 5, "noEvent" {
+Push register1, "__width"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "__height"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "__width", register7
+SetMember
+Push register1, "__height", register6
+SetMember
+Push 0.0, register1, "size"
+CallMethod
+Pop
+Push register5, true
+Equals2
+Not
+Not
+If loc102a
+Push "type", "resize", "oldWidth", register3, "oldHeight", register2, 3
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+loc102a:SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_width", register1, "__width"
+GetMember
+SetMember
+Push register1, "_height", register1, "__height"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "drawRect"
+DefineFunction2 "", 4, 6, false, false, true, false, true, false, false, true, false, 3, "x1", 2, "y1", 5, "x2", 4, "y2" {
+Push register2, register3, 2, register1, "moveTo"
+CallMethod
+Pop
+Push register2, register5, 2, register1, "lineTo"
+CallMethod
+Pop
+Push register4, register5, 2, register1, "lineTo"
+CallMethod
+Pop
+Push register4, register3, 2, register1, "lineTo"
+CallMethod
+Pop
+Push register2, register3, 2, register1, "lineTo"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "createLabel"
+DefineFunction2 "", 3, 6, false, false, true, false, true, false, false, true, false, 3, "name", 5, "depth", 4, "text" {
+Push 0.0, 0.0, 0.0, 0.0, register5, register3, 6, register1, "createTextField"
+CallMethod
+Pop
+Push register1, register3
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_color", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "textColorList"
+GetMember
+SetMember
+Push register2, "_visible", false
+SetMember
+Push register2, "__text", register4
+SetMember
+Push register1, "tfList"
+GetMember
+Push undefined
+Equals2
+Not
+If loc119b
+Push register1, "tfList", 0.0, "Object"
+NewObject
+SetMember
+loc119b:Push register1, "tfList"
+GetMember
+Push register3, register2
+SetMember
+Push 0.0, register2, "invalidateStyle"
+CallMethod
+Pop
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+Push register2, "styleName", register1
+SetMember
+Push register2
+Return
+}
+SetMember
+Push register2, "createObject"
+DefineFunction2 "", 4, 6, false, false, true, false, true, false, false, true, false, 4, "linkageName", 2, "id", 5, "depth", 3, "initobj" {
+Push register3, register5, register2, register4, 4, register1, "attachMovie"
+CallMethod
+Return
+}
+SetMember
+Push register2, "createClassObject"
+DefineFunction2 "", 4, 8, false, false, true, false, true, false, false, true, false, 2, "className", 5, "id", 7, "depth", 6, "initobj" {
+Push register2, "symbolName"
+GetMember
+Push undefined
+Equals2
+StoreRegister 3
+Pop
+Push register3
+Not
+If loc129a
+Push register2, register2, "symbolOwner"
+GetMember
+Push "symbolName"
+GetMember
+Push 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+loc129a:Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push register6, register7, register5, register2, "symbolOwner"
+GetMember
+Push "symbolName"
+GetMember
+Push 4, register1, "createObject"
+CallMethod
+CastOp
+StoreRegister 4
+Pop
+Push register3
+Not
+If loc1306
+Push register2, "symbolOwner"
+GetMember
+Push register2, "symbolOwner"
+GetMember
+Push "symbolName"
+GetMember
+Push 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+loc1306:Push register4
+Return
+}
+SetMember
+Push register2, "createEmptyObject"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 2, "id", 3, "depth" {
+Push register3, register2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push 3, register1, "createClassObject"
+CallMethod
+Return
+}
+SetMember
+Push register2, "destroyObject"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 6, "id" {
+Push register1, register6
+GetMember
+StoreRegister 2
+Pop
+Push 0.0, register2, "getDepth"
+CallMethod
+Push 0.0
+Less2
+Not
+If loc13e5
+Push 0.0, register1, "buildDepthTable"
+CallMethod
+StoreRegister 4
+Pop
+Push "up", register4, 0.0, 3, register1, "findNextAvailableDepth"
+CallMethod
+StoreRegister 5
+Pop
+Push register5
+StoreRegister 3
+Pop
+Push register3, 1, register2, "swapDepths"
+CallMethod
+Pop
+loc13e5:Push 0.0, register2, "removeMovieClip"
+CallMethod
+Pop
+Push register1, register6
+Delete
+Pop
+}
+SetMember
+Push register2, "getSkinIDName"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "tag" {
+Push register1, "idNames"
+GetMember
+Push register2
+GetMember
+Return
+}
+SetMember
+Push register2, "setSkin"
+DefineFunction2 "", 3, 6, false, false, true, false, true, false, false, true, true, 4, "tag", 3, "linkageName", 5, "initObj" {
+Push register2, "skinRegistry"
+GetMember
+Push register3
+GetMember
+Push undefined
+Equals2
+Not
+If loc14a0
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push register3, 2, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "registerElement"
+CallMethod
+Pop
+loc14a0:Push register5, register4, register4, 1, register1, "getSkinIDName"
+CallMethod
+Push register3, 4, register1, "createObject"
+CallMethod
+Return
+}
+SetMember
+Push register2, "createSkin"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 3, "tag" {
+Push register3, 1, register1, "getSkinIDName"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, register2, 2, register1, "createEmptyObject"
+CallMethod
+Pop
+Push register1, register2
+GetMember
+Return
+}
+SetMember
+Push register2, "createChildren"
+DefineFunction "", 1, "Void"  {
+}
+SetMember
+Push register2, "_createChildren"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "createChildren"
+CallMethod
+Pop
+Push register1, "childrenCreated", true
+SetMember
+}
+SetMember
+Push register2, "constructObject"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_name"
+GetMember
+Push undefined
+Equals2
+Not
+If loc1585
+Push undefined
+Return
+loc1585:Push 0.0, register1, "init"
+CallMethod
+Pop
+Push 0.0, register1, "_createChildren"
+CallMethod
+Pop
+Push 0.0, register1, "createAccessibilityImplementation"
+CallMethod
+Pop
+Push 0.0, register1, "_endInit"
+CallMethod
+Pop
+Push register1, "validateNow"
+GetMember
+Not
+If loc15f0
+Push true, 1, register1, "redraw"
+CallMethod
+Pop
+Jump loc1602
+loc15f0:Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+}
+loc1602:SetMember
+Push register2, "initFromClipParameters"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push false
+StoreRegister 4
+Pop
+Push undefined
+StoreRegister 2
+Pop
+Push register1, "clipParameters"
+GetMember
+Enumerate2
+loc1637:StoreRegister 0
+Push null
+Equals2
+If loc168f
+Push register0
+StoreRegister 2
+Pop
+Push register2, 1, register1, "hasOwnProperty"
+CallMethod
+Not
+If loc168a
+Push true
+StoreRegister 4
+Pop
+Push register1, "def_", register2
+Add2
+Push register1, register2
+GetMember
+SetMember
+Push register1, register2
+Delete
+Pop
+loc168a:Jump loc1637
+loc168f:Push register4
+Not
+If loc16e8
+Push register1, "clipParameters"
+GetMember
+Enumerate2
+loc16a3:StoreRegister 0
+Push null
+Equals2
+If loc16e8
+Push register0
+StoreRegister 2
+Pop
+Push register1, "def_", register2
+Add2
+GetMember
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc16e3
+Push register1, register2, register3
+SetMember
+loc16e3:Jump loc16a3
+}
+loc16e8:SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, true, 0, "Void" {
+Push register1, "__width", register1, "_width"
+GetMember
+SetMember
+Push register1, "__height", register1, "_height"
+GetMember
+SetMember
+Push register1, "initProperties"
+GetMember
+Push undefined
+Equals2
+Not
+If loc1745
+Push 0.0, register1, "initFromClipParameters"
+CallMethod
+Pop
+Jump loc1757
+loc1745:Push 0.0, register1, "initProperties"
+CallMethod
+Pop
+loc1757:Push register2, "cascadingStyles"
+GetMember
+Push true
+Equals2
+Not
+If loc177f
+Push register1, "stylecache", 0.0, "Object"
+NewObject
+SetMember
+}
+loc177f:SetMember
+Push register2, "getClassStyleDeclaration"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, true, 0, "Void" {
+Push register1
+StoreRegister 4
+Pop
+Push register1, "className"
+GetMember
+StoreRegister 3
+Pop
+loc17af:Push register3, undefined
+Equals2
+Not
+Not
+If loc181e
+Push register1, "ignoreClassStyleDeclaration"
+GetMember
+Push register3
+GetMember
+Push undefined
+Equals2
+Not
+If loc17ff
+Push register2, "styles"
+GetMember
+Push register3
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc17ff
+Push register2, "styles"
+GetMember
+Push register3
+GetMember
+Return
+loc17ff:Push register4, "__proto__"
+GetMember
+StoreRegister 4
+Pop
+Push register4, "className"
+GetMember
+StoreRegister 3
+Pop
+Jump loc17af
+}
+loc181e:SetMember
+Push register2, "setColor"
+DefineFunction "", 1, "color"  {
+}
+SetMember
+Push register2, "__getTextFormat"
+DefineFunction2 "", 2, 11, false, false, true, false, true, false, false, true, true, 4, "tf", 7, "bAll" {
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+StoreRegister 8
+Pop
+Push register8, undefined
+Equals2
+Not
+Not
+If loc1907
+Push undefined
+StoreRegister 3
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Enumerate2
+loc1894:StoreRegister 0
+Push null
+Equals2
+If loc1901
+Push register0
+StoreRegister 3
+Pop
+Push register7
+PushDuplicate
+If loc18d6
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Push register3
+GetMember
+loc18d6:Not
+If loc18fc
+Push register4, register3
+GetMember
+Push undefined
+Equals2
+Not
+If loc18fc
+Push register4, register3, register8, register3
+GetMember
+SetMember
+loc18fc:Jump loc1894
+loc1901:Push false
+Return
+loc1907:Push false
+StoreRegister 6
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Enumerate2
+loc192a:StoreRegister 0
+Push null
+Equals2
+If loc1c28
+Push register0
+StoreRegister 3
+Pop
+Push register7
+PushDuplicate
+If loc196c
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Push register3
+GetMember
+loc196c:Not
+If loc1c23
+Push register4, register3
+GetMember
+Push undefined
+Equals2
+Not
+If loc1c23
+Push register1, "_tf"
+GetMember
+Push register3
+GetMember
+StoreRegister 5
+Pop
+Push register5, undefined
+Equals2
+Not
+Not
+If loc19b5
+Push register4, register3, register5
+SetMember
+Jump loc1c23
+loc19b5:Push register3, "font"
+Equals2
+PushDuplicate
+Not
+If loc19d3
+Pop
+Push register1, "fontFamily"
+GetMember
+Push undefined
+Equals2
+Not
+loc19d3:Not
+If loc19eb
+Push register4, register3, register1, "fontFamily"
+GetMember
+SetMember
+Jump loc1c23
+loc19eb:Push register3, "size"
+Equals2
+PushDuplicate
+Not
+If loc1a09
+Pop
+Push register1, "fontSize"
+GetMember
+Push undefined
+Equals2
+Not
+loc1a09:Not
+If loc1a21
+Push register4, register3, register1, "fontSize"
+GetMember
+SetMember
+Jump loc1c23
+loc1a21:Push register3, "color"
+Equals2
+PushDuplicate
+Not
+If loc1a3f
+Pop
+Push register1, "color"
+GetMember
+Push undefined
+Equals2
+Not
+loc1a3f:Not
+If loc1a57
+Push register4, register3, register1, "color"
+GetMember
+SetMember
+Jump loc1c23
+loc1a57:Push register3, "leftMargin"
+Equals2
+PushDuplicate
+Not
+If loc1a75
+Pop
+Push register1, "marginLeft"
+GetMember
+Push undefined
+Equals2
+Not
+loc1a75:Not
+If loc1a8d
+Push register4, register3, register1, "marginLeft"
+GetMember
+SetMember
+Jump loc1c23
+loc1a8d:Push register3, "rightMargin"
+Equals2
+PushDuplicate
+Not
+If loc1aab
+Pop
+Push register1, "marginRight"
+GetMember
+Push undefined
+Equals2
+Not
+loc1aab:Not
+If loc1ac3
+Push register4, register3, register1, "marginRight"
+GetMember
+SetMember
+Jump loc1c23
+loc1ac3:Push register3, "italic"
+Equals2
+PushDuplicate
+Not
+If loc1ae1
+Pop
+Push register1, "fontStyle"
+GetMember
+Push undefined
+Equals2
+Not
+loc1ae1:Not
+If loc1aff
+Push register4, register3, register1, "fontStyle"
+GetMember
+Push register3
+Equals2
+SetMember
+Jump loc1c23
+loc1aff:Push register3, "bold"
+Equals2
+PushDuplicate
+Not
+If loc1b1d
+Pop
+Push register1, "fontWeight"
+GetMember
+Push undefined
+Equals2
+Not
+loc1b1d:Not
+If loc1b3b
+Push register4, register3, register1, "fontWeight"
+GetMember
+Push register3
+Equals2
+SetMember
+Jump loc1c23
+loc1b3b:Push register3, "align"
+Equals2
+PushDuplicate
+Not
+If loc1b59
+Pop
+Push register1, "textAlign"
+GetMember
+Push undefined
+Equals2
+Not
+loc1b59:Not
+If loc1b71
+Push register4, register3, register1, "textAlign"
+GetMember
+SetMember
+Jump loc1c23
+loc1b71:Push register3, "indent"
+Equals2
+PushDuplicate
+Not
+If loc1b8f
+Pop
+Push register1, "textIndent"
+GetMember
+Push undefined
+Equals2
+Not
+loc1b8f:Not
+If loc1ba7
+Push register4, register3, register1, "textIndent"
+GetMember
+SetMember
+Jump loc1c23
+loc1ba7:Push register3, "underline"
+Equals2
+PushDuplicate
+Not
+If loc1bc5
+Pop
+Push register1, "textDecoration"
+GetMember
+Push undefined
+Equals2
+Not
+loc1bc5:Not
+If loc1be3
+Push register4, register3, register1, "textDecoration"
+GetMember
+Push register3
+Equals2
+SetMember
+Jump loc1c23
+loc1be3:Push register3, "embedFonts"
+Equals2
+PushDuplicate
+Not
+If loc1c01
+Pop
+Push register1, "embedFonts"
+GetMember
+Push undefined
+Equals2
+Not
+loc1c01:Not
+If loc1c19
+Push register4, register3, register1, "embedFonts"
+GetMember
+SetMember
+Jump loc1c23
+loc1c19:Push true
+StoreRegister 6
+Pop
+loc1c23:Jump loc192a
+loc1c28:Push register6
+Not
+If loc1cbc
+Push register1, "styleName"
+GetMember
+StoreRegister 9
+Pop
+Push register9, undefined
+Equals2
+Not
+Not
+If loc1cbc
+Push register9
+TypeOf
+Push "string"
+Equals2
+Not
+Not
+If loc1c7e
+Push register1, true, register4, 3, register9, "__getTextFormat"
+CallMethod
+StoreRegister 6
+Pop
+Jump loc1cbc
+loc1c7e:Push register2, "styles"
+GetMember
+Push register9
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1cbc
+Push register1, true, register4, 3, register2, "styles"
+GetMember
+Push register9
+GetMember
+Push "__getTextFormat"
+CallMethod
+StoreRegister 6
+Pop
+loc1cbc:Push register6
+Not
+If loc1d03
+Push 0.0, register1, "getClassStyleDeclaration"
+CallMethod
+StoreRegister 10
+Pop
+Push register10, undefined
+Equals2
+Not
+Not
+If loc1d03
+Push register1, true, register4, 3, register10, "__getTextFormat"
+CallMethod
+StoreRegister 6
+Pop
+loc1d03:Push register6
+Not
+If loc1d4c
+Push register2, "cascadingStyles"
+GetMember
+Not
+If loc1d4c
+Push register1, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1d4c
+Push false, register4, 2, register1, "_parent"
+GetMember
+Push "__getTextFormat"
+CallMethod
+StoreRegister 6
+Pop
+loc1d4c:Push register6
+Not
+If loc1d75
+Push register1, true, register4, 3, register2, "style"
+GetMember
+Push "__getTextFormat"
+CallMethod
+StoreRegister 6
+Pop
+loc1d75:Push register6
+Return
+}
+SetMember
+Push register2, "_getTextFormat"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+StoreRegister 2
+Pop
+Push register2, undefined
+Equals2
+Not
+Not
+If loc1dbb
+Push register2
+Return
+loc1dbb:Push 0.0, "TextFormat"
+NewObject
+StoreRegister 2
+Pop
+Push true, register2, 2, register1, "__getTextFormat"
+CallMethod
+Pop
+Push register1, "stylecache"
+GetMember
+Push "tf", register2
+SetMember
+Push register1, "enabled"
+GetMember
+Push false
+Equals2
+Not
+If loc1e23
+Push "disabledColor", 1, register1, "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+Push register2, "color", register3
+SetMember
+loc1e23:Push register2
+Return
+}
+SetMember
+Push register2, "getStyleName"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "styleName"
+GetMember
+StoreRegister 2
+Pop
+Push register2, undefined
+Equals2
+Not
+Not
+If loc1e88
+Push register2
+TypeOf
+Push "string"
+Equals2
+Not
+Not
+If loc1e82
+Push 0.0, register2, "getStyleName"
+CallMethod
+Return
+loc1e82:Push register2
+Return
+loc1e88:Push register1, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1eb4
+Push 0.0, register1, "_parent"
+GetMember
+Push "getStyleName"
+CallMethod
+Return
+loc1eb4:Push undefined
+Return
+}
+SetMember
+Push register2, "getStyle"
+DefineFunction2 "", 1, 8, false, false, true, false, true, false, false, true, true, 4, "styleProp" {
+Push undefined
+StoreRegister 3
+Pop
+Push register2, "getStyleCounter", register2, "getStyleCounter"
+GetMember
+Increment
+SetMember
+Push register1, register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1f0b
+Push register1, register4
+GetMember
+Return
+loc1f0b:Push register1, "styleName"
+GetMember
+StoreRegister 6
+Pop
+Push register6, undefined
+Equals2
+Not
+Not
+If loc1f79
+Push register6
+TypeOf
+Push "string"
+Equals2
+Not
+Not
+If loc1f52
+Push register4, 1, register6, "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+Jump loc1f79
+loc1f52:Push register2, "styles"
+GetMember
+Push register6
+GetMember
+StoreRegister 7
+Pop
+Push register4, 1, register7, "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+loc1f79:Push register3, undefined
+Equals2
+Not
+Not
+If loc1f8d
+Push register3
+Return
+loc1f8d:Push 0.0, register1, "getClassStyleDeclaration"
+CallMethod
+StoreRegister 7
+Pop
+Push register7, undefined
+Equals2
+Not
+Not
+If loc1fbe
+Push register7, register4
+GetMember
+StoreRegister 3
+Pop
+loc1fbe:Push register3, undefined
+Equals2
+Not
+Not
+If loc1fd2
+Push register3
+Return
+loc1fd2:Push register2, "cascadingStyles"
+GetMember
+Not
+If loc20c7
+Push register4, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "isInheritingStyle"
+CallMethod
+PushDuplicate
+If loc2025
+Pop
+Push register4, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "isColorStyle"
+CallMethod
+loc2025:Not
+If loc20c7
+Push register1, "stylecache"
+GetMember
+StoreRegister 5
+Pop
+Push register5, undefined
+Equals2
+Not
+Not
+If loc2063
+Push register5, register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2063
+Push register5, register4
+GetMember
+Return
+loc2063:Push register1, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2096
+Push register4, 1, register1, "_parent"
+GetMember
+Push "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+Jump loc20a9
+loc2096:Push register2, "style"
+GetMember
+Push register4
+GetMember
+StoreRegister 3
+Pop
+loc20a9:Push register5, undefined
+Equals2
+Not
+Not
+If loc20c1
+Push register5, register4, register3
+SetMember
+loc20c1:Push register3
+Return
+loc20c7:Push register3, undefined
+Equals2
+Not
+If loc20e7
+Push register2, "style"
+GetMember
+Push register4
+GetMember
+StoreRegister 3
+Pop
+loc20e7:Push register3
+Return
+}
+SetMember
+Push register1, "mergeClipParameters"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, true, false, false, 2, "o", 1, "p" {
+Push register1
+Enumerate2
+loc210c:StoreRegister 0
+Push null
+Equals2
+If loc2136
+Push register0
+StoreRegister 3
+Pop
+Push register2, register3, register1, register3
+GetMember
+SetMember
+Jump loc210c
+loc2136:Push true
+Return
+}
+SetMember
+Push register1, "symbolName", "UIObject"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register1, "textColorList", "color", 1, "disabledColor", 1, 2
+InitObject
+SetMember
+Push register2, "invalidateFlag", false
+SetMember
+Push register2, "lineWidth", 1
+SetMember
+Push register2, "lineColor", 0.0
+SetMember
+Push register2, "tabEnabled", false
+SetMember
+Push register2, "clipParameters", "visible", 1, "minHeight", 1, "minWidth", 1, "maxHeight", 1, "maxWidth", 1, "preferredHeight", 1, "preferredWidth", 1, 7
+InitObject
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__bottom"
+GetMember
+Push "bottom", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__left"
+GetMember
+Push "left", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__minHeight"
+GetMember
+Push register2, "__get__minHeight"
+GetMember
+Push "minHeight", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__minWidth"
+GetMember
+Push register2, "__get__minWidth"
+GetMember
+Push "minWidth", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__right"
+GetMember
+Push "right", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__scaleX"
+GetMember
+Push register2, "__get__scaleX"
+GetMember
+Push "scaleX", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__scaleY"
+GetMember
+Push register2, "__get__scaleY"
+GetMember
+Push "scaleY", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__top"
+GetMember
+Push "top", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__visible"
+GetMember
+Push register2, "__get__visible"
+GetMember
+Push "visible", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__x"
+GetMember
+Push "x", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__y"
+GetMember
+Push "y", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc23b1:Pop

@@ -1,0 +1,10 @@
+ConstantPool "_root", "BATTLESCREEN", "filters", "KrinFilterBlur0"
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "filters", "_root"
+GetVariable
+Push "KrinFilterBlur0"
+GetMember
+SetMember

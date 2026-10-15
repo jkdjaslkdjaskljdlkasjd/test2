@@ -1,0 +1,15 @@
+ConstantPool "pN", "_root", "agModeNames", "PIC", "gotoAndStop"
+Push "pN", 4
+SetVariable
+Push "_root"
+GetVariable
+Push "agModeNames"
+GetMember
+Push "pN"
+GetVariable
+GetMember
+Push 1, "PIC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

@@ -1,0 +1,77 @@
+ConstantPool "onEnterFrame", "urlStart", "://", "", "indexOf", "urlEnd", "/", "domain", "substring", "LastDot", ".", "lastIndexOf", "pfixEnd", "length", "armorgames.com", "gameLimited", "this", "_visible"
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "urlStart", "://", 1, "", 15
+GetProperty
+Push "indexOf"
+CallMethod
+Push 3
+Add2
+SetVariable
+Push "urlEnd", "urlStart"
+GetVariable
+Push "/", 2, "", 15
+GetProperty
+Push "indexOf"
+CallMethod
+SetVariable
+Push "domain", "urlEnd"
+GetVariable
+Push "urlStart"
+GetVariable
+Push 2, "", 15
+GetProperty
+Push "substring"
+CallMethod
+SetVariable
+Push "LastDot", ".", 1, "domain"
+GetVariable
+Push "lastIndexOf"
+CallMethod
+Push 1
+Subtract
+SetVariable
+Push "pfixEnd", "LastDot"
+GetVariable
+Push ".", 2, "domain"
+GetVariable
+Push "lastIndexOf"
+CallMethod
+Push 1
+Add2
+SetVariable
+Push "domain", "domain"
+GetVariable
+Push "length"
+GetMember
+Push "pfixEnd"
+GetVariable
+Push 2, "domain"
+GetVariable
+Push "substring"
+CallMethod
+SetVariable
+Push "domain"
+GetVariable
+Push ""
+Equals2
+Not
+PushDuplicate
+Not
+If loc0196
+Pop
+Push "domain"
+GetVariable
+Push "armorgames.com"
+Equals2
+Not
+loc0196:Not
+If loc01a6
+Push register1, "gameLimited", true
+SetMember
+}
+loc01a6:SetVariable
+Push "this"
+GetVariable
+Push "_visible", false
+SetMember

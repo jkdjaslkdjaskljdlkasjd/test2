@@ -1,0 +1,44 @@
+ConstantPool "_root", "thereIsASlotSelected", "KrinToolTipper", "tt", "KrinLang", "KLangChoosen", "SYSTEM", "t", "GO", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 25
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 26
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop

@@ -1,0 +1,27 @@
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2
+Push "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc009a
+Push "this"
+GetVariable
+Push "_parent"
+GetMember
+Push 1
+Push "_root"
+GetVariable
+Push "__a3StatusHover"
+CallMethod
+Pop
+Jump loc009a
+loc009a:

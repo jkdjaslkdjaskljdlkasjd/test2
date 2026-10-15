@@ -1,0 +1,26 @@
+ConstantPool "zoomTime", "zoomRatio", "scaleChange", "zoomStep", "zoomFactor", "zoomPoint"
+Push "zoomTime", 9
+SetVariable
+Push "zoomRatio", 14
+SetVariable
+Push "scaleChange", 30
+SetVariable
+Push "zoomStep", "zoomRatio"
+GetVariable
+Push "zoomTime"
+GetVariable
+Divide
+SetVariable
+Push "zoomFactor", "zoomTime"
+GetVariable
+Push "zoomStep"
+GetVariable
+Push "zoomRatio"
+GetVariable
+Add2
+Multiply
+Push 2
+Divide
+SetVariable
+Push "zoomPoint", 0.0
+SetVariable

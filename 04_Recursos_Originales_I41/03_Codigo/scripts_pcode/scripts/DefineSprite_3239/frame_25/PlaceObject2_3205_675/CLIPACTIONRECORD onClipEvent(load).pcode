@@ -1,0 +1,20 @@
+ConstantPool "_root", "Krin", "skillPoints", "statPoints"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+Add2
+Push 0.0
+Greater
+Not
+If loc0068
+GoToLabel "level"
+loc0068:

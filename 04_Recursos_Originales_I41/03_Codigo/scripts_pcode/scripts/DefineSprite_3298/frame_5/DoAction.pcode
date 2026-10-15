@@ -1,0 +1,31 @@
+ConstantPool "texter2", "_root", "KrinLang", "KLangChoosen", "MENU", "navText2", "", "texter3"
+Push "texter2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 68
+GetMember
+SetVariable
+Push "navText2", ""
+SetVariable
+Push "texter3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 70
+GetMember
+SetVariable

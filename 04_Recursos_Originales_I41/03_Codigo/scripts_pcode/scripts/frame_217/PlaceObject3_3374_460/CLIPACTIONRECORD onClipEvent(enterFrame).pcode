@@ -1,0 +1,73 @@
+ConstantPool "_root", "_ymouse", "_xmouse", "this", "hitter", "hitTest", "", "InBattle", "hitTarget", "HTX", "HTY"
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2, "this"
+GetVariable
+Push "hitter"
+GetMember
+Push "hitTest"
+CallMethod
+Not
+If loc011b
+Push "", 6
+GetProperty
+Push 100
+Less2
+PushDuplicate
+Not
+If loc00ae
+Pop
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+loc00ae:Not
+If loc00d0
+Push "", 6, "", 6
+GetProperty
+Push 20
+Add2
+SetProperty
+loc00d0:Push "_root"
+GetVariable
+Push "hitTarget"
+GetMember
+Push 5, 1
+SetMember
+Push "_root"
+GetVariable
+Push "HTX", "", 0.0
+GetProperty
+SetMember
+Push "_root"
+GetVariable
+Push "HTY", "", 1
+GetProperty
+SetMember
+Jump loc0173
+loc011b:Push "", 6
+GetProperty
+Push 0.0
+Greater
+Not
+If loc0155
+Push "", 6, "", 6
+GetProperty
+Push 5
+Subtract
+SetProperty
+loc0155:Push "_root"
+GetVariable
+Push "hitTarget"
+GetMember
+Push 5, 0.0
+SetMember
+loc0173:

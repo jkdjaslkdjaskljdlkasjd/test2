@@ -1,0 +1,45 @@
+ConstantPool "_root", "focusManager", "mx", "managers", "DepthManager", "highestDepth", "FocusManager", "createClassObject"
+Push "_root"
+GetVariable
+Push "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+If loc00e0
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth"
+GetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth"
+GetMember
+Decrement
+SetMember
+Push "focusManager", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push 3, "_root"
+GetVariable
+Push "createClassObject"
+CallMethod
+Pop
+loc00e0:

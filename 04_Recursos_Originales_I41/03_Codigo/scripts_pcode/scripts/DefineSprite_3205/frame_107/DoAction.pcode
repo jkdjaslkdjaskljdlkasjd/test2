@@ -1,0 +1,29 @@
+ConstantPool "reader", "_root", "KrinLang", "KLangChoosen", "MENU", "clicker"
+Push "reader", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 10
+GetMember
+SetVariable
+Push "clicker", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 11
+GetMember
+SetVariable

@@ -1,0 +1,52 @@
+ConstantPool "_root", "playerToLoadforPvP", "navText2", "loadPvPCode", "PvP_LOAD_SUCCESS", "START", "this", "gotoAndStop", "", "PvPCodeLode", "refreshArenaUI", "KrinLang", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "playerToLoadforPvP"
+GetMember
+Push "navText2"
+GetVariable
+Push 2, "_root"
+GetVariable
+Push "loadPvPCode"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "PvP_LOAD_SUCCESS"
+GetMember
+Not
+If loc011a
+Push "START", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "", 7, false
+SetProperty
+Push "_root"
+GetVariable
+Push "PvPCodeLode", false
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "refreshArenaUI"
+CallMethod
+Pop
+Push "navText2", ""
+SetVariable
+Jump loc0145
+loc011a:Push "navText2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 71
+GetMember
+SetVariable
+loc0145:

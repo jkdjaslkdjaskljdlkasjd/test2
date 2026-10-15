@@ -1,0 +1,9 @@
+ConstantPool "__hdBattleSetup", "_root", "this"
+Stop
+Push "this"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "__hdBattleSetup"
+CallMethod
+Pop

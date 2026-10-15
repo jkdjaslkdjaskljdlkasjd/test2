@@ -1,0 +1,36 @@
+ConstantPool "ach_Plate", "ach_Say", "_root", "KrinLang", "KLangChoosen", "ACHSAY", "ach_Say2", "ACH", "achGlobal"
+Push "ach_Plate"
+GetVariable
+Push "ach_Say", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ACHSAY"
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "ach_Plate"
+GetVariable
+Push "ach_Say2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ACH"
+GetMember
+Push "_root"
+GetVariable
+Push "achGlobal"
+GetMember
+GetMember
+SetMember

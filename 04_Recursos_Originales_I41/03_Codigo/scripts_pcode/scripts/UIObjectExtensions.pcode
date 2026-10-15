@@ -1,0 +1,7 @@
+Push "mx.core.ext.UIObjectExtensions"
+GetVariable
+Push "UIObjectExtensions", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

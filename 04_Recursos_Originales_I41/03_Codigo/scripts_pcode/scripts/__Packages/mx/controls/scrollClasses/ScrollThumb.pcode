@@ -1,0 +1,349 @@
+ConstantPool "_global", "mx", "Object", "controls", "scrollClasses", "ScrollThumb", "skins", "CustomBorder", "prototype", "createChildren", "useHandCursor", "setRange", "ymin", "ymax", "datamin", "datamax", "dragThumb", "scrollMove", "_ymouse", "lastY", "_y", "_parent", "isScrolling", "Math", "round", "scrollPosition", "ThumbTrack", "dispatchScrollEvent", "updateAfterEvent", "stopDragThumb", "ThumbPosition", "dispatchScrollChangedEvent", "onMouseMove", "onPress", "pressFocus", "onRelease", "releaseFocus", "onReleaseOutside", "draw", "grip_mc", "gripSkin", "setSkin", "size", "__get__height", "height", "__get__width", "width", "move", "symbolOwner", "className", "btnOffset", "horizontal", "idNames", "r_mc", "m_mc", "l_mc", "Array", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc026b
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc026b:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc02a3
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc02a3:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Not
+Not
+If loc02e7
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses", 0.0, "Object"
+NewObject
+SetMember
+loc02e7:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollThumb"
+GetMember
+Not
+Not
+If loc0816
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollThumb"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollThumb"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "createChildren"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "createChildren"
+CallMethod
+Pop
+Push register1, "useHandCursor", false
+SetMember
+}
+SetMember
+Push register2, "setRange"
+DefineFunction2 "", 4, 6, false, false, true, false, true, false, false, true, false, 2, "_ymin", 4, "_ymax", 3, "_datamin", 5, "_datamax" {
+Push register1, "ymin", register2
+SetMember
+Push register1, "ymax", register4
+SetMember
+Push register1, "datamin", register3
+SetMember
+Push register1, "datamax", register5
+SetMember
+}
+SetMember
+Push register2, "dragThumb"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "scrollMove", register1, "_ymouse"
+GetMember
+Push register1, "lastY"
+GetMember
+Subtract
+SetMember
+Push register1, "scrollMove", register1, "scrollMove"
+GetMember
+Push register1, "_y"
+GetMember
+Add2
+SetMember
+Push register1, "scrollMove"
+GetMember
+Push register1, "ymin"
+GetMember
+Less2
+Not
+If loc047c
+Push register1, "scrollMove", register1, "ymin"
+GetMember
+SetMember
+Jump loc04a0
+loc047c:Push register1, "scrollMove"
+GetMember
+Push register1, "ymax"
+GetMember
+Greater
+Not
+If loc04a0
+Push register1, "scrollMove", register1, "ymax"
+GetMember
+SetMember
+loc04a0:Push register1, "_parent"
+GetMember
+Push "isScrolling", true
+SetMember
+Push register1, "_y", register1, "scrollMove"
+GetMember
+SetMember
+Push register1, "datamax"
+GetMember
+Push register1, "datamin"
+GetMember
+Subtract
+Push register1, "_y"
+GetMember
+Push register1, "ymin"
+GetMember
+Subtract
+Multiply
+Push register1, "ymax"
+GetMember
+Push register1, "ymin"
+GetMember
+Subtract
+Divide
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Push register1, "datamin"
+GetMember
+Add2
+StoreRegister 2
+Pop
+Push register1, "_parent"
+GetMember
+Push "scrollPosition", register2
+SetMember
+Push "ThumbTrack", 1, register1, "_parent"
+GetMember
+Push "dispatchScrollEvent"
+CallMethod
+Pop
+Push 0.0, "updateAfterEvent"
+CallFunction
+Pop
+}
+SetMember
+Push register2, "stopDragThumb"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_parent"
+GetMember
+Push "isScrolling", false
+SetMember
+Push "ThumbPosition", 1, register1, "_parent"
+GetMember
+Push "dispatchScrollEvent"
+CallMethod
+Pop
+Push 0.0, register1, "_parent"
+GetMember
+Push "dispatchScrollChangedEvent"
+CallMethod
+Pop
+Push register1, "onMouseMove"
+Delete
+Pop
+}
+SetMember
+Push register2, "onPress"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "pressFocus"
+CallMethod
+Pop
+Push register1, "lastY", register1, "_ymouse"
+GetMember
+SetMember
+Push register1, "onMouseMove", register1, "dragThumb"
+GetMember
+SetMember
+Push 0.0, register2, "onPress"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onRelease"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "releaseFocus"
+CallMethod
+Pop
+Push 0.0, register1, "stopDragThumb"
+CallMethod
+Pop
+Push 0.0, register2, "onRelease"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onReleaseOutside"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "releaseFocus"
+CallMethod
+Pop
+Push 0.0, register1, "stopDragThumb"
+CallMethod
+Pop
+Push 0.0, register2, "onReleaseOutside"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 0, 3, false, false, false, true, true, false, false, true, false {
+Push 0.0, register2, "draw"
+CallMethod
+Pop
+Push register1, "grip_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0701
+Push register1, "gripSkin"
+GetMember
+Push 3, 2, register1, "setSkin"
+CallMethod
+Pop
+}
+loc0701:SetMember
+Push register2, "size"
+DefineFunction2 "", 0, 3, false, false, false, true, true, false, false, true, false {
+Push 0.0, register2, "size"
+CallMethod
+Pop
+Push 0.0, register1, "__get__height"
+CallMethod
+Push register1, "grip_mc"
+GetMember
+Push "height"
+GetMember
+Subtract
+Push 2
+Divide
+Push 0.0, register1, "__get__width"
+CallMethod
+Push register1, "grip_mc"
+GetMember
+Push "width"
+GetMember
+Subtract
+Push 2
+Divide
+Push 2, register1, "grip_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "symbolOwner"
+GetMember
+SetMember
+Push register2, "className", "ScrollThumb"
+SetMember
+Push register2, "btnOffset", 0.0
+SetMember
+Push register2, "horizontal", false
+SetMember
+Push register2, "idNames", "grip_mc", "r_mc", "m_mc", "l_mc", 4, "Array"
+NewObject
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollThumb"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0816:Pop

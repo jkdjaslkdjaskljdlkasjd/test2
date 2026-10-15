@@ -1,0 +1,889 @@
+ConstantPool "_root", "krinClassArray", "Krin", "Class", "this", "gotoAndStop", "krinRemakeTree", "thingerDepthK", "krink", "st", "id", "thingoShow", "numShow", "talentMainArray", "numShow2", "abilityXer", "TIER", "Key", "isDown", "_visible", "thing2", "ACD", "", "OKAY", "guessLevel", "LEVELMIN", "LEVELSCALE", "dontHide", "KRINABILITY", "ID", "toolTipTitle", "(", "/", ")  ", "bobJimJohn", "toolTip", "KRINABILITYB", "CLASSIFY", "toolTip4", "KrinLang", "KLangChoosen", "SKILLTALENTTIP", "): ", "BUFFSAY", "BUFFNAME", "SKILLTALENTTIP3", "toolTip3", "SKILLAURA", "elementMainArray", "u", "KNcolor2", "elementColorArray", "bfilter", "_alpha", "SKILLTALENTTIP2", "PRESKILL", "krinRE", "length", "line_mc", "lineMC", "createEmptyMovieClip", "lineStyle", "_y", "_x", "moveTo", "lineTo", "_parent", "KrinCreateAbilityMatrix"
+Push "_root"
+GetVariable
+Push "krinClassArray"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Class"
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "krinRemakeTree"
+DefineFunction2 "", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "thingerDepthK", 0.0
+SetVariable
+Push "krink", 0.0
+SetVariable
+loc02c0:Push "krink"
+GetVariable
+Push 40
+Less2
+Not
+If loc0d5b
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "id", "krink"
+GetVariable
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thingoShow"
+GetMember
+Push "numShow", register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thingoShow"
+GetMember
+Push "numShow2", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "TIER"
+GetMember
+SetMember
+Push 32, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+Not
+If loc037b
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thingoShow"
+GetMember
+Push "_visible", false
+SetMember
+loc037b:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "ACD", ""
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "OKAY", true
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "guessLevel", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "LEVELMIN"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "LEVELSCALE"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Multiply
+Add2
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "dontHide", true
+SetMember
+Push register2, "KRINABILITY", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push 1, register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTipTitle", "(", register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Add2
+Push "/"
+Add2
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "TIER"
+GetMember
+Add2
+Push ")  "
+Add2
+Push register2, "KRINABILITY", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+Add2
+SetMember
+Push "bobJimJohn", register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push 1
+Subtract
+SetVariable
+Push "bobJimJohn"
+GetVariable
+Push 0.0
+Less2
+Not
+If loc0534
+Push "bobJimJohn", 0.0
+SetVariable
+loc0534:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip", register2, "KRINABILITYB", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Push "bobJimJohn"
+GetVariable
+Add2
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "TIER"
+GetMember
+Less2
+Not
+If loc06fa
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "CLASSIFY"
+GetMember
+Push 1
+Equals2
+Not
+If loc066f
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip4", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTALENTTIP"
+GetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "guessLevel"
+GetMember
+Add2
+Push "): "
+Add2
+Push register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "BUFFSAY"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Add2
+GetMember
+Add2
+SetMember
+Jump loc06f5
+loc066f:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip4", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTALENTTIP"
+GetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "guessLevel"
+GetMember
+Add2
+Push "): "
+Add2
+Push register2, "KRINABILITYB", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Add2
+Add2
+GetMember
+Push 17
+GetMember
+Add2
+SetMember
+loc06f5:Jump loc0726
+loc06fa:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip4", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTALENTTIP3"
+GetMember
+SetMember
+loc0726:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip3", register2, "KRINABILITYB", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Push "bobJimJohn"
+GetVariable
+Add2
+Add2
+GetMember
+Push 18
+GetMember
+SetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "CLASSIFY"
+GetMember
+Push 1
+Equals2
+Not
+If loc08d3
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+Push 1, register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTipTitle", "(", register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Add2
+Push "/"
+Add2
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "TIER"
+GetMember
+Add2
+Push ")  "
+Add2
+Push register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "BUFFSAY"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+GetMember
+Add2
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "BUFFSAY"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+Push "bobJimJohn"
+GetVariable
+Add2
+GetMember
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip3", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLAURA"
+GetMember
+SetMember
+loc08d3:Push register2, "elementMainArray"
+GetMember
+Enumerate2
+loc08dc:StoreRegister 0
+Push null
+Equals2
+If loc095f
+Push "u", register0
+SetVariable
+Push register2, "elementMainArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+Push register2, "KRINABILITYB", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Equals2
+Not
+If loc095a
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "KNcolor2", register2, "elementColorArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+SetMember
+loc095a:Jump loc08dc
+loc095f:Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+If loc09fb
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", true
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "bfilter"
+GetMember
+Push "_alpha", 80
+SetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "toolTip", register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTALENTTIP2"
+GetMember
+SetMember
+Jump loc0a1b
+loc09fb:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "thing2"
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", false
+SetMember
+loc0a1b:Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Enumerate2
+loc0a37:StoreRegister 0
+Push null
+Equals2
+If loc0d4c
+Push "krinRE", register0
+SetVariable
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc0d47
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+Push -1
+Equals2
+Not
+Not
+If loc0d47
+Push "thingerDepthK"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+Push 2, "lineMC"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push 100, 0.0, 6, 3, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "moveTo"
+CallMethod
+Pop
+Push register1, "st", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_y"
+GetMember
+Push register1, "st", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineTo"
+CallMethod
+Pop
+Push "thingerDepthK", "thingerDepthK"
+GetVariable
+Increment
+SetVariable
+Push "thingerDepthK"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+Push 2, "lineMC"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push register2, "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+GetMember
+Push 0.0
+Greater
+Not
+If loc0c5a
+Push 100, 16763904, 2, 3, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+Jump loc0c85
+loc0c5a:Push 100, 2829099, 2, 3, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+loc0c85:Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push register1, "st", "krink"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "moveTo"
+CallMethod
+Pop
+Push register1, "st", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_y"
+GetMember
+Push register1, "st", register2, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinRE"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "lineMC"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineTo"
+CallMethod
+Pop
+Push "thingerDepthK", "thingerDepthK"
+GetVariable
+Increment
+SetVariable
+loc0d47:Jump loc0a37
+loc0d4c:Push "krink", "krink"
+GetVariable
+Increment
+SetVariable
+Jump loc02c0
+}
+loc0d5b:SetVariable
+Push 0.0, "krinRemakeTree"
+CallFunction
+Pop
+Push 0.0, "_parent"
+GetVariable
+Push "KrinCreateAbilityMatrix"
+CallMethod
+Pop

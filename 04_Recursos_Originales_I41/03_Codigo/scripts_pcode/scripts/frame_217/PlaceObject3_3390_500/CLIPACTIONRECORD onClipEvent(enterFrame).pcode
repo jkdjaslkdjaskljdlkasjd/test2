@@ -1,0 +1,360 @@
+ConstantPool "clicker", "_root", "arenaMode", "theGuy", "arenaPlayer", "Krin", "playerNumber", "i", "selector", "thing", "bfilter", "_visible", "this", "_alpha", "KRINABILITY", "moveMatrix", "theEnemyToMoveVS2", "abilityCoolDown", "ACD", "", "_ymouse", "_xmouse", "hitTest"
+Push "clicker"
+GetVariable
+Not
+If loc0330
+Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc0101
+Push "theGuy", "arenaPlayer", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+SetVariable
+Jump loc0109
+loc0101:Push "theGuy", "Krin"
+SetVariable
+loc0109:Push "i", 0.0
+SetVariable
+loc0118:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc0284
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", false
+SetMember
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_alpha", 75
+SetMember
+Push "_root"
+GetVariable
+Push "KRINABILITY", "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_root"
+GetVariable
+Push "theEnemyToMoveVS2"
+GetMember
+GetMember
+Push 0.0
+Equals2
+Not
+If loc01da
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", true
+SetMember
+loc01da:Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 0.0
+Greater
+Not
+If loc025d
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", true
+SetMember
+Jump loc0275
+loc025d:Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", ""
+SetMember
+loc0275:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0118
+loc0284:Push "", 6
+GetProperty
+Push 100
+Less2
+Not
+If loc02bf
+Push "", 6, "", 6
+GetProperty
+Push 50
+Add2
+SetProperty
+Jump loc032b
+loc02bf:Push "", 6, 100
+SetProperty
+Push "i", 0.0
+SetVariable
+loc02de:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc0323
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_alpha", 85
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc02de
+loc0323:Push "clicker", false
+SetVariable
+loc032b:Jump loc0583
+loc0330:Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2, "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+Not
+If loc03f8
+Push "", 6, "", 6
+GetProperty
+Push 10
+Subtract
+SetProperty
+Push "i", 0.0
+SetVariable
+loc038b:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc03c7
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", ""
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc038b
+loc03c7:Push "", 6
+GetProperty
+Push 0.0
+Greater
+Not
+Not
+If loc03f3
+Push "", 7, false
+SetProperty
+loc03f3:Jump loc0583
+loc03f8:Push "", 6, 100
+SetProperty
+Push "i", 0.0
+SetVariable
+loc0417:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc0583
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", false
+SetMember
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_alpha", 85
+SetMember
+Push "_root"
+GetVariable
+Push "KRINABILITY", "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "_root"
+GetVariable
+Push "theEnemyToMoveVS2"
+GetMember
+GetMember
+Push 0.0
+Equals2
+Not
+If loc04d9
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", true
+SetMember
+loc04d9:Push "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 0.0
+Greater
+Not
+If loc055c
+Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", "_root"
+GetVariable
+Push "theGuy"
+GetVariable
+GetMember
+Push "abilityCoolDown"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "selector"
+GetMember
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "bfilter"
+GetMember
+Push "_visible", true
+SetMember
+Jump loc0574
+loc055c:Push "this"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", ""
+SetMember
+loc0574:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0417
+loc0583:

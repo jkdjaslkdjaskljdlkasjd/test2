@@ -1,0 +1,63 @@
+ConstantPool "Closing Sonny AS2 Bridge", "Closing Sonny 2 Client Connection", "sendWrapperMessage", "swfBridge", "close", "swiftBridgeAS2", "this", "_sonnyConnect", "com", "gskinner", "utils", "SWFBridgeAS2", "_root", "swf Bridge Made: ", "sendAchievement", "GetAchivementFromClient", "send", "Sending Achivement ", " using swfBridge: ", "MessageFromClient", "isDebugMode"
+DefineFunction2 "onUnload", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "Closing Sonny AS2 Bridge"
+Trace
+Push "Closing Sonny 2 Client Connection", 1, "sendWrapperMessage"
+CallFunction
+Pop
+Push 0.0, register1, "swfBridge"
+GetMember
+Push "close"
+CallMethod
+Pop
+}
+Push "swiftBridgeAS2", "this"
+GetVariable
+Push "_sonnyConnect", 2, "com"
+GetVariable
+Push "gskinner"
+GetMember
+Push "utils"
+GetMember
+Push "SWFBridgeAS2"
+NewMethod
+DefineLocal
+Push "_root"
+GetVariable
+Push "swfBridge", "swiftBridgeAS2"
+GetVariable
+SetMember
+Push "swf Bridge Made: ", "_root"
+GetVariable
+Push "swfBridge"
+GetMember
+Add2
+Trace
+Push "sendAchievement"
+DefineFunction2 "", 1, 3, false, true, true, false, true, false, true, false, false, 2, "key" {
+Push register2, "GetAchivementFromClient", 2, register1, "swfBridge"
+GetMember
+Push "send"
+CallMethod
+Pop
+Push "Sending Achivement ", register2
+Add2
+Push " using swfBridge: "
+Add2
+Push register1, "swiftBridgeAS2"
+GetMember
+Add2
+Trace
+}
+SetVariable
+Push "sendWrapperMessage"
+DefineFunction2 "", 1, 3, false, true, true, false, true, false, true, false, false, 2, "payload" {
+Push register2, "MessageFromClient", 2, register1, "swfBridge"
+GetMember
+Push "send"
+CallMethod
+Pop
+}
+SetVariable
+Push "isDebugMode", false
+SetVariable

@@ -1,0 +1,703 @@
+ConstantPool "i", "this", "fa", "id", "_root", "Krin", "friendArray", "_visible", "mainPlayer", "avIn", "gotoAndStop", "teamChangeCD", "bickerPicker", "friendArrayX", "updateFriends", "wefjnew", "perBarShow", "bar", "saveH", "_height", "my_colorKKCCXX", "inner", "Color", "elementColorArray", "setRGB", "gbar", "ybar", "defBarShow", "yut_lif", "KrinLang", "KLangChoosen", "SYSTEM", ":", "yut_str", "yut_mag", "yut_spd", "yut_foc", "MenuPlayerSelect", "itemArray", "w", "ITEMNAME", "itemSlot", "slotType", "updateEquip", "updateDoll", "updateAvs", "updateStatus", "dumbEuro", "Euro", "shopId", "krinSetShop", "dropArray", "dropSlot", "buy", "vb1", "MENU", "vb2", "SHOP"
+Stop
+Push "i", 0.0
+SetVariable
+loc01f8:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc0306
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "id", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "id"
+GetMember
+Push 0.0
+Less2
+Not
+If loc027f
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc02f7
+loc027f:Push "i"
+GetVariable
+Push 0.0
+Equals2
+Not
+If loc02bc
+Push "mainPlayer", 1, "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "avIn"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc02bc:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "avIn"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc02f7:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc01f8
+loc0306:Push "teamChangeCD", true
+SetVariable
+Push "bickerPicker", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 0.0
+GetMember
+Push 0.0
+Equals2
+Not
+If loc035e
+Push "bickerPicker", 0.0
+SetVariable
+loc035e:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 1
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0397
+Push "bickerPicker", 1
+SetVariable
+loc0397:Push 0.0, "updateFriends"
+CallFunction
+Pop
+Push "wefjnew", 0.0
+SetVariable
+loc03b6:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc050a
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "ybar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push 100
+Divide
+SetMember
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc03b6
+loc050a:Push "wefjnew", 0.0
+SetVariable
+loc0519:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc0612
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "ybar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc0519
+loc0612:Push "yut_lif", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 0.0
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_str", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 1
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_mag", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 2
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_spd", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 3
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_foc", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 4
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Enumerate2
+loc0739:StoreRegister 0
+Push null
+Equals2
+If loc07e0
+Push "w", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "itemSlot"
+SetMember
+Jump loc0739
+loc07e0:Push 0.0, "updateEquip"
+CallFunction
+Pop
+Push 0.0, "updateDoll"
+CallFunction
+Pop
+Push 0.0, "updateAvs"
+CallFunction
+Pop
+Push 0.0, "updateStatus"
+CallFunction
+Pop
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetVariable
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "shopId"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "krinSetShop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Enumerate2
+loc0881:StoreRegister 0
+Push null
+Equals2
+If loc0928
+Push "w", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "itemSlot"
+SetMember
+Jump loc0881
+loc0928:Push "w", 0.0
+SetVariable
+loc0937:Push "w"
+GetVariable
+Push 15
+Less2
+Not
+If loc0a48
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "buy"
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0a21
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc0a39
+loc0a21:Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "_visible", true
+SetMember
+loc0a39:Push "w", "w"
+GetVariable
+Increment
+SetVariable
+Jump loc0937
+loc0a48:Push "vb1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 6
+GetMember
+SetVariable
+Push "vb2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SHOP"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "shopId"
+GetMember
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "__nzShopActive"
+GetMember
+Not
+If loc0afe
+Push "this"
+GetVariable
+Push "vb2"
+Push "NULL ZONE - 1 MONEDA"
+SetMember
+Jump loc0afe
+loc0afe:

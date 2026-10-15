@@ -1,0 +1,23 @@
+ConstantPool "mx.skins.CustomBorder", "CustomBorder", "Object", "registerClass", "mx", "skins", "SkinElement", "registerElement"
+Push "mx.skins.CustomBorder"
+GetVariable
+Push "CustomBorder", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "CustomBorder", 2, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "registerElement"
+CallMethod
+Pop

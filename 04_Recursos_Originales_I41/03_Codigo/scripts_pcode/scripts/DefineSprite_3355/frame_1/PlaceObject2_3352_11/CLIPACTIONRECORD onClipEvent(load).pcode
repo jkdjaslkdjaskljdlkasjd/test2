@@ -1,0 +1,3 @@
+Push "wsaver", "", 8
+GetProperty
+SetVariable

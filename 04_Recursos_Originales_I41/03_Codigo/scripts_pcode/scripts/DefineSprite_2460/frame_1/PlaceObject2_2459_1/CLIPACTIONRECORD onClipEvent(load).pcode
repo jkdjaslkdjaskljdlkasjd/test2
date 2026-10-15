@@ -1,0 +1,19 @@
+ConstantPool "my_color", "this", "Color", "_parent", "colortobe", "setRGB"
+Push "my_color", "this"
+GetVariable
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "colortobe"
+GetMember
+Push 1, "my_color"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop

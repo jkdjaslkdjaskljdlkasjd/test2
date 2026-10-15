@@ -1,0 +1,85 @@
+{
+ "linkage": "M_HAND_ZPCI3",
+ "characterId": 806,
+ "tipo": "DefineSprite",
+ "grupo": "B_C_armadura_ZPCI3_medic",
+ "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+ "archivos": {
+  "svg": "pieza.svg",
+  "png": "pieza_x4.png"
+ },
+ "subelementos": [
+  {
+   "characterId": 805,
+   "tipo": "DefineShape2",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape2_805.svg",
+    "subelementos/DefineShape2_805.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 805,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 805,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "svg_lienzo_px": [
+  8.7,
+  18.4
+ ],
+ "anclaje_svg_px": [
+  4.1,
+  9.2
+ ],
+ "png_tamano": [
+  35,
+  74
+ ],
+ "png_escala": 4.0,
+ "anclaje_png_px": [
+  16.5,
+  37.0
+ ],
+ "lista_visualizacion": [
+  {
+   "f": 1,
+   "depth": 2,
+   "op": "place",
+   "ch": 805,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0
+   ]
+  }
+ ]
+}

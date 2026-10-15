@@ -1,0 +1,485 @@
+ConstantPool "_global", "mx", "Object", "core", "UIComponent", "UIObject", "prototype", "__get__width", "__width", "__get__height", "__height", "setVisible", "enabledChanged", "setEnabled", "invalidate", "stylecache", "tf", "getFocus", "selFocus", "Selection", "setFocus", "getFocusManager", "focusManager", "_parent", "onKillFocus", "keyDown", "removeEventListener", "keyUp", "type", "focusOut", "dispatchEvent", "drawFocus", "onSetFocus", "addEventListener", "focusIn", "bDrawFocus", "findFocusInChildren", "focusTextField", "tabEnabled", "findFocusFromObject", "tabChildren", "pressFocus", "releaseFocus", "isParent", "size", "init", "_xscale", "_yscale", "_focusrect", "useFocusRect", "enabled", "watch", "dispatchValueChangedEvent", "valueChanged", "value", "symbolName", "symbolOwner", "version", "2.0.2.127", "kStretch", "focusEnabled", "origBorderStyles", "themeColor", "clipParameters", "mergedClipParameters", "mergeClipParameters", "height", "addProperty", "width", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0334
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0334:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Not
+Not
+If loc036c
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core", 0.0, "Object"
+NewObject
+SetMember
+loc036c:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Not
+Not
+If loc0b0b
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__width"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__width"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__height"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__height"
+GetMember
+Return
+}
+SetMember
+Push register2, "setVisible"
+DefineFunction2 "", 2, 4, false, false, false, true, true, false, true, false, false, 3, "x", 2, "noEvent" {
+Push register2, register3, 2, register1, "setVisible"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "enabledChanged"
+DefineFunction2 "", 3, 3, false, false, true, false, true, false, false, true, false, 0, "id", 0, "oldValue", 2, "newValue" {
+Push register2, 1, register1, "setEnabled"
+CallMethod
+Pop
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+Push register1, "stylecache"
+GetMember
+Push "tf"
+Delete
+Pop
+Push register2
+Return
+}
+SetMember
+Push register2, "setEnabled"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "enabled" {
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getFocus"
+DefineFunction "", 0 {
+Push "selFocus", 0.0, "Selection"
+GetVariable
+Push "getFocus"
+CallMethod
+DefineLocal
+Push "selFocus"
+GetVariable
+Push null
+StrictEquals
+If loc052c
+Push "selFocus"
+GetVariable
+GetVariable
+Jump loc0530
+loc052c:Push null
+loc0530:Return
+}
+SetMember
+Push register2, "setFocus"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, 1, "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getFocusManager"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push register1
+StoreRegister 2
+Pop
+loc0575:Push register2, undefined
+Equals2
+Not
+Not
+If loc05b2
+Push register2, "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc05a0
+Push register2, "focusManager"
+GetMember
+Return
+loc05a0:Push register2, "_parent"
+GetMember
+StoreRegister 2
+Pop
+Jump loc0575
+loc05b2:Push undefined
+Return
+}
+SetMember
+Push register2, "onKillFocus"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "newFocus" {
+Push register1, "keyDown", 2, register1, "removeEventListener"
+CallMethod
+Pop
+Push register1, "keyUp", 2, register1, "removeEventListener"
+CallMethod
+Pop
+Push "type", "focusOut", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+Push false, 1, register1, "drawFocus"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onSetFocus"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "oldFocus" {
+Push register1, "keyDown", 2, register1, "addEventListener"
+CallMethod
+Pop
+Push register1, "keyUp", 2, register1, "addEventListener"
+CallMethod
+Pop
+Push "type", "focusIn", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+Push 0.0, register1, "getFocusManager"
+CallMethod
+Push "bDrawFocus"
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc06b3
+Push true, 1, register1, "drawFocus"
+CallMethod
+Pop
+}
+loc06b3:SetMember
+Push register2, "findFocusInChildren"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "o" {
+Push register1, "focusTextField"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc06e6
+Push register1, "focusTextField"
+GetMember
+Return
+loc06e6:Push register1, "tabEnabled"
+GetMember
+Push true
+Equals2
+Not
+If loc0700
+Push register1
+Return
+loc0700:Push undefined
+Return
+}
+SetMember
+Push register2, "findFocusFromObject"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "o" {
+Push register2, "tabEnabled"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc07c1
+Push register2, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0748
+Push undefined
+Return
+loc0748:Push register2, "_parent"
+GetMember
+Push "tabEnabled"
+GetMember
+Push true
+Equals2
+Not
+If loc0774
+Push register2, "_parent"
+GetMember
+StoreRegister 2
+Pop
+Jump loc07c1
+loc0774:Push register2, "_parent"
+GetMember
+Push "tabChildren"
+GetMember
+Not
+If loc07a7
+Push register2, "_parent"
+GetMember
+Push 1, register1, "findFocusInChildren"
+CallMethod
+StoreRegister 2
+Pop
+Jump loc07c1
+loc07a7:Push register2, "_parent"
+GetMember
+Push 1, register1, "findFocusFromObject"
+CallMethod
+StoreRegister 2
+Pop
+loc07c1:Push register2
+Return
+}
+SetMember
+Push register2, "pressFocus"
+DefineFunction2 "", 0, 4, false, false, true, false, true, false, false, true, false {
+Push register1, 1, register1, "findFocusFromObject"
+CallMethod
+StoreRegister 3
+Pop
+Push 0.0, register1, "getFocus"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, register2
+Equals2
+Not
+Not
+If loc0857
+Push false, 1, register2, "drawFocus"
+CallMethod
+Pop
+Push 0.0, register1, "getFocusManager"
+CallMethod
+Push "bDrawFocus"
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc0857
+Push true, 1, register3, "drawFocus"
+CallMethod
+Pop
+}
+loc0857:SetMember
+Push register2, "releaseFocus"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push register1, 1, register1, "findFocusFromObject"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, 0.0, register1, "getFocus"
+CallMethod
+Equals2
+Not
+Not
+If loc08ab
+Push 0.0, register2, "setFocus"
+CallMethod
+Pop
+}
+loc08ab:SetMember
+Push register2, "isParent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "o" {
+loc08c1:Push register2, undefined
+Equals2
+Not
+Not
+If loc08f5
+Push register2, register1
+Equals2
+Not
+If loc08e3
+Push true
+Return
+loc08e3:Push register2, "_parent"
+GetMember
+StoreRegister 2
+Pop
+Jump loc08c1
+loc08f5:Push false
+Return
+}
+SetMember
+Push register2, "size"
+DefineFunction "", 0 {
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 0, 4, false, false, false, true, true, false, false, true, true {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "_xscale", 100
+SetMember
+Push register1, "_yscale", 100
+SetMember
+Push register1, "_focusrect", register3, "useFocusRect"
+GetMember
+Push false
+Equals2
+SetMember
+Push register1, "enabledChanged"
+GetMember
+Push "enabled", 2, register1, "watch"
+CallMethod
+Pop
+Push register1, "enabled"
+GetMember
+Push false
+Equals2
+Not
+If loc0999
+Push false, 1, register1, "setEnabled"
+CallMethod
+Pop
+}
+loc0999:SetMember
+Push register2, "dispatchValueChangedEvent"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 2, "value" {
+Push "type", "valueChanged", "value", register2, 2
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolName", "UIComponent"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register1, "kStretch", 5000
+SetMember
+Push register2, "focusEnabled", true
+SetMember
+Push register2, "tabEnabled", true
+SetMember
+Push register2, "origBorderStyles", "themeColor", 16711680, 1
+InitObject
+SetMember
+Push register2, "clipParameters", 0.0
+InitObject
+SetMember
+Push register1, "mergedClipParameters", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "prototype"
+GetMember
+Push "clipParameters"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "prototype"
+GetMember
+Push "clipParameters"
+GetMember
+Push 2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "mergeClipParameters"
+CallMethod
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0b0b:Pop

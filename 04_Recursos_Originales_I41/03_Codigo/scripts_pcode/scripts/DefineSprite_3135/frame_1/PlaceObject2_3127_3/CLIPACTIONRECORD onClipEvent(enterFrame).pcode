@@ -1,0 +1,45 @@
+ConstantPool "", "_xmove", "maxH", "this", "_y"
+Push "", 1
+GetProperty
+Push 0.0
+Greater
+Not
+PushDuplicate
+Not
+If loc004e
+Pop
+Push "_xmove"
+GetVariable
+Push 0.0
+Greater
+loc004e:PushDuplicate
+If loc008d
+Pop
+Push "", 1
+GetProperty
+Push 0.0, "maxH"
+GetVariable
+Subtract
+Less2
+Not
+PushDuplicate
+Not
+If loc008d
+Pop
+Push "_xmove"
+GetVariable
+Push 0.0
+Less2
+loc008d:Not
+If loc00af
+Push "this"
+GetVariable
+Push "_y", "this"
+GetVariable
+Push "_y"
+GetMember
+Push "_xmove"
+GetVariable
+Add2
+SetMember
+loc00af:

@@ -1,0 +1,49 @@
+Push "this"
+GetVariable
+Push "onEnterFrame"
+DefineFunction "", 0 {
+Push "target"
+Push 822
+Push 1
+Push "_root"
+GetVariable
+Push "__i18Mastered"
+CallMethod
+Not
+If loc006f
+Push 2
+Jump loc0077
+loc006f:Push 1
+loc0077:DefineLocal
+Push "this"
+GetVariable
+Push "_currentframe"
+GetMember
+Push "target"
+GetVariable
+Equals2
+Not
+Not
+If loc00d9
+Push "target"
+GetVariable
+Push 1
+Push "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+}
+loc00d9:SetMember
+Push 0
+Push "this"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 0
+Push "this"
+GetVariable
+Push "onEnterFrame"
+CallMethod
+Pop

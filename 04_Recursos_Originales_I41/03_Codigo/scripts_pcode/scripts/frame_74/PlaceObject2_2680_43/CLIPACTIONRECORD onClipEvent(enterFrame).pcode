@@ -1,0 +1,16 @@
+ConstantPool "this", "startDrag", "", "inner", "inner2"
+Push true, 1, "this"
+GetVariable
+Push "startDrag"
+CallMethod
+Pop
+Push "", "this"
+GetVariable
+Push "inner"
+GetMember
+GetURL2 false, true, 0
+Push "", "this"
+GetVariable
+Push "inner2"
+GetMember
+GetURL2 false, true, 0

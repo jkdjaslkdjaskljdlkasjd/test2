@@ -1,0 +1,174 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "bossFight", "BattlePick", "sectionIn", "questProgress", "progressFight", "questHub", "progressMax", "usedTraining", "progressMax1", "LOADBATTLESCENE", "gotoAndPlay", "KrinScreen", "_visible"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc02c3
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", false
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+Push 100
+Multiply
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "questProgress"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressFight", true
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "questProgress"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "questHub"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "progressMax"
+GetMember
+Greater
+Not
+If loc0236
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+Push 100
+Multiply
+Push "_root"
+GetVariable
+Push "questHub"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "progressMax"
+GetMember
+Add2
+Push 1
+Subtract
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressFight", false
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", true
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "usedTraining", true
+SetMember
+loc0236:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "questProgress"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "questHub"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "progressMax1"
+GetMember
+Equals2
+Not
+If loc029b
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossFight", true
+SetMember
+loc029b:Push "LOADBATTLESCENE", 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", false
+SetMember
+loc02c3:

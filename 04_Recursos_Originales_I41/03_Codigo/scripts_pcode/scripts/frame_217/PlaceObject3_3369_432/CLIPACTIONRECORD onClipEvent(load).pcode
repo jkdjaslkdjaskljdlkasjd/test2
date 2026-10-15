@@ -1,0 +1,14 @@
+ConstantPool "second", "this", "inner", "gotoAndStop", "inner2", "_xscale"
+Push "second", 1, "this"
+GetVariable
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "inner2"
+GetMember
+Push "_xscale", -100
+SetMember

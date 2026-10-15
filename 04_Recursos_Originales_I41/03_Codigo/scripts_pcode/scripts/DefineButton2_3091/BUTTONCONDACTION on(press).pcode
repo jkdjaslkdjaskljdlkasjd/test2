@@ -1,0 +1,415 @@
+ConstantPool "thereIsSlot", "_root", "Krin", "itemArray", "krinp", "slotType", "drop", "dropArray", "id", "KrinLang", "ENGLISH", "ITEMNAME", "_parent", "itemSlot", "inner", "gotoAndStop", "KrinToolTipper", "colorChange", "KRINITEM", "fontBacker2", "krinChangeColor", "tt", "t", "toolTip", "my_txt2", "text", "my_txt", "my_fmt2", "setTextFormat", "my_fmt", "GO", "Euro", "dumbEuro"
+Push "thereIsSlot", -1
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Enumerate2
+loc0131:StoreRegister 0
+Push null
+Equals2
+If loc0181
+Push "krinp", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "krinp"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+If loc017c
+Push "thereIsSlot", "krinp"
+GetVariable
+SetVariable
+loc017c:Jump loc0131
+loc0181:Push "thereIsSlot"
+GetVariable
+Push -1
+Equals2
+Not
+Not
+If loc0618
+Push "slotType"
+GetVariable
+Push "drop"
+Equals2
+Not
+If loc04b1
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "thereIsSlot"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+GetMember
+Push 1, "_parent"
+GetVariable
+Push "itemSlot", "thereIsSlot"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+Push 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+GetMember
+Push 1, "inner"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+StoreRegister 0
+SetMember
+Push register0, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "fontBacker2"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt2"
+GetMember
+Push "text", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt"
+GetMember
+Push "text", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_fmt2"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt2"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_fmt"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0618
+loc04b1:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 1
+Push "_root"
+GetVariable
+Push "__nzPrice"
+CallMethod
+Less2
+Not
+Not
+If loc0618
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "thereIsSlot"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+GetMember
+Push 1, "_parent"
+GetVariable
+Push "itemSlot", "thereIsSlot"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 1
+Push "_root"
+GetVariable
+Push "__nzPrice"
+CallMethod
+Subtract
+SetMember
+Push "_parent"
+GetVariable
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetMember
+loc0618:

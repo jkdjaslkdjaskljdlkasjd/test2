@@ -1,0 +1,105 @@
+ConstantPool "_global", "mx", "Object", "skins", "Border", "core", "UIObject", "prototype", "init", "symbolName", "symbolOwner", "className", "tagBorder", "idNames", "border_mc", "Array", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc00be
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc00be:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc00f6
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc00f6:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+Not
+Not
+If loc021c
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "init"
+DefineFunction2 "", 1, 2, false, false, false, true, true, false, true, false, false, 0, "Void" {
+Push 0.0, register1, "init"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolName", "Border"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+SetMember
+Push register2, "className", "Border"
+SetMember
+Push register2, "tagBorder", 0.0
+SetMember
+Push register2, "idNames", "border_mc", 1, "Array"
+NewObject
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc021c:Pop

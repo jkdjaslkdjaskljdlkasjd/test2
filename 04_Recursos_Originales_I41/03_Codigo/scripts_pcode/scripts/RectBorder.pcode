@@ -1,0 +1,33 @@
+ConstantPool "mx", "skins", "RectBorder", "Object", "symbolName", "SkinElement", "registerElement"
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Push 1, "Object"
+CallFunction
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Push "symbolName"
+GetMember
+Push 2, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "registerElement"
+CallMethod
+Pop
+Push "mx.skins.halo.RectBorder"
+GetVariable
+Push "RectBorder", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

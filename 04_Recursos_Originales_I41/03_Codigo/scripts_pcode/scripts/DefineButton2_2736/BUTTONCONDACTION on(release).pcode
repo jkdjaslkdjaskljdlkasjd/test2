@@ -1,0 +1,47 @@
+ConstantPool "Krin", "tutorOn", "t_tut2", "_root", "KrinLang", "KLangChoosen", "MENU"
+Push "Krin"
+GetVariable
+Push "tutorOn"
+GetMember
+Push false
+Equals2
+Not
+If loc0090
+Push "t_tut2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 84
+GetMember
+SetVariable
+Push "Krin"
+GetVariable
+Push "tutorOn", true
+SetMember
+Jump loc00c9
+loc0090:Push "t_tut2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 83
+GetMember
+SetVariable
+Push "Krin"
+GetVariable
+Push "tutorOn", false
+SetMember
+loc00c9:

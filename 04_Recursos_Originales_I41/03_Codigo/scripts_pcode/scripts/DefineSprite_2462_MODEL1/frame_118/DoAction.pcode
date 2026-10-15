@@ -1,0 +1,5 @@
+Push "sfx_swing", "Effects", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop

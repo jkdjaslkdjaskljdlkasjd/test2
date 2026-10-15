@@ -1,0 +1,92 @@
+ConstantPool "_root", "Krin", "PauseForScreen2", "autoSaver", "slotInUse", "krinHandleData", "afterCut", "None", "gotoAndStop", "bossJustPwned2", "overMap", "PauseForScreen", "playerLeveled", "krinNavTutSpeech", "KrinScreen", "_visible"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen2"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc01e6
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "autoSaver"
+GetMember
+Not
+If loc0111
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "krinHandleData"
+CallMethod
+Pop
+loc0111:Push "_root"
+GetVariable
+Push "afterCut"
+GetMember
+Push "None"
+Equals2
+Not
+Not
+If loc014e
+StopSounds
+Push "_root"
+GetVariable
+Push "afterCut"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc01e6
+loc014e:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossJustPwned2"
+GetMember
+Not
+If loc017f
+Push "overMap", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc01e6
+loc017f:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen", false
+SetMember
+Push "playerLeveled"
+GetVariable
+Push true
+Equals2
+Not
+If loc01b4
+GoToLabel "skills"
+Jump loc01e6
+loc01b4:GoToLabel "hide"
+Push 0.0, "_root"
+GetVariable
+Push "krinNavTutSpeech"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", true
+SetMember
+loc01e6:

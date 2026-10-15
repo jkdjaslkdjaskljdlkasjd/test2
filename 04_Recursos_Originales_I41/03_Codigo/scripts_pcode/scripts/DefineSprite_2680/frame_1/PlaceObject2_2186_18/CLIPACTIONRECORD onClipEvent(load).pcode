@@ -1,0 +1,4 @@
+Push "", "bfilter"
+GetVariable
+GetURL2 false, true, 0
+Stop

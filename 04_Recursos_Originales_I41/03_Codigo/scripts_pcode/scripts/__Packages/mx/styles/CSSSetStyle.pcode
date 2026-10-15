@@ -1,0 +1,947 @@
+ConstantPool "_global", "mx", "Object", "styles", "CSSSetStyle", "prototype", "_setStyle", "StyleManager", "TextStyleMap", "color", "isNaN", "getColorName", "_level0", "changeTextStyleInChildren", "isColorStyle", "themeColor", "colorNames", "haloBlue", "haloGreen", "haloOrange", "selectionColor", "setStyle", "rollOverColor", "styleName", "changeColorStyleInChildren", "backgroundColor", "notifyStyleChangeInChildren", "_parent", "searchKey", "stylecache", "tf", "invalidateStyle", "getStyleName", "_color", "string", "getStyle", "setColor", "movieclip", "enabledColor", "isInheritingStyle", "enableRunTimeCSS", "classConstruct", "MovieClip", "CSSStyleDeclaration", "ASSetPropFlags", "TextField", "classConstructed", "CSSStyleDeclarationDependency"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0282
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0282:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Not
+Not
+If loc02ba
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles", 0.0, "Object"
+NewObject
+SetMember
+loc02ba:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+GetMember
+Not
+Not
+If loc1053
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_setStyle"
+DefineFunction2 "", 2, 11, false, false, true, false, true, false, false, true, false, 3, "styleProp", 2, "newValue" {
+Push register1, register3, register2
+SetMember
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextStyleMap"
+GetMember
+Push register3
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc03da
+Push register3, "color"
+Equals2
+Not
+If loc03c1
+Push register2, 1, "isNaN"
+CallFunction
+Not
+If loc03c1
+Push register2, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, register3, register2
+SetMember
+Push register2, undefined
+Equals2
+Not
+If loc03c1
+Push undefined
+Return
+loc03c1:Push register3, 1, "_level0"
+GetVariable
+Push "changeTextStyleInChildren"
+CallMethod
+Pop
+Push undefined
+Return
+loc03da:Push register3, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "isColorStyle"
+CallMethod
+Not
+If loc05ca
+Push register2, 1, "isNaN"
+CallFunction
+Not
+If loc0452
+Push register2, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, register3, register2
+SetMember
+Push register2, undefined
+Equals2
+Not
+If loc0452
+Push undefined
+Return
+loc0452:Push register3, "themeColor"
+Equals2
+Not
+If loc05a7
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloBlue"
+GetMember
+StoreRegister 7
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloGreen"
+GetMember
+StoreRegister 6
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloOrange"
+GetMember
+StoreRegister 8
+Pop
+Push 0.0
+InitObject
+StoreRegister 4
+Pop
+Push register4, register7, 12188666
+SetMember
+Push register4, register6, 13500353
+SetMember
+Push register4, register8, 16766319
+SetMember
+Push 0.0
+InitObject
+StoreRegister 5
+Pop
+Push register5, register7, 13958653
+SetMember
+Push register5, register6, 14942166
+SetMember
+Push register5, register8, 16772787
+SetMember
+Push register4, register2
+GetMember
+StoreRegister 9
+Pop
+Push register5, register2
+GetMember
+StoreRegister 10
+Pop
+Push register9, undefined
+Equals2
+Not
+If loc056c
+Push register2
+StoreRegister 9
+Pop
+loc056c:Push register10, undefined
+Equals2
+Not
+If loc0583
+Push register2
+StoreRegister 10
+Pop
+loc0583:Push register9, "selectionColor", 2, register1, "setStyle"
+CallMethod
+Pop
+Push register10, "rollOverColor", 2, register1, "setStyle"
+CallMethod
+Pop
+loc05a7:Push register2, register3, register1, "styleName"
+GetMember
+Push 3, "_level0"
+GetVariable
+Push "changeColorStyleInChildren"
+CallMethod
+Pop
+Jump loc064b
+loc05ca:Push register3, "backgroundColor"
+Equals2
+PushDuplicate
+Not
+If loc05e7
+Pop
+Push register2, 1, "isNaN"
+CallFunction
+loc05e7:Not
+If loc062d
+Push register2, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, register3, register2
+SetMember
+Push register2, undefined
+Equals2
+Not
+If loc062d
+Push undefined
+Return
+loc062d:Push register2, register3, register1, "styleName"
+GetMember
+Push 3, "_level0"
+GetVariable
+Push "notifyStyleChangeInChildren"
+CallMethod
+Pop
+}
+loc064b:SetMember
+Push register2, "changeTextStyleInChildren"
+DefineFunction2 "", 1, 6, false, false, true, false, true, false, false, true, false, 3, "styleProp" {
+GetTime
+StoreRegister 4
+Pop
+Push undefined
+StoreRegister 5
+Pop
+Push register1
+Enumerate2
+loc067e:StoreRegister 0
+Push null
+Equals2
+If loc072d
+Push register0
+StoreRegister 5
+Pop
+Push register1, register5
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+Push register1
+Equals2
+Not
+If loc0728
+Push register2, "searchKey"
+GetMember
+Push register4
+Equals2
+Not
+Not
+If loc0728
+Push register2, "stylecache"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc06fe
+Push register2, "stylecache"
+GetMember
+Push "tf"
+Delete
+Pop
+Push register2, "stylecache"
+GetMember
+Push register3
+Delete
+Pop
+loc06fe:Push register3, 1, register2, "invalidateStyle"
+CallMethod
+Pop
+Push register3, 1, register2, "changeTextStyleInChildren"
+CallMethod
+Pop
+Push register2, "searchKey", register4
+SetMember
+loc0728:Jump loc067e
+}
+loc072d:SetMember
+Push register2, "changeColorStyleInChildren"
+DefineFunction2 "", 3, 9, false, false, true, false, true, false, false, true, false, 5, "sheetName", 3, "colorStyle", 8, "newValue" {
+GetTime
+StoreRegister 6
+Pop
+Push undefined
+StoreRegister 7
+Pop
+Push register1
+Enumerate2
+loc0776:StoreRegister 0
+Push null
+Equals2
+If loc0934
+Push register0
+StoreRegister 7
+Pop
+Push register1, register7
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+Push register1
+Equals2
+Not
+If loc092f
+Push register2, "searchKey"
+GetMember
+Push register6
+Equals2
+Not
+Not
+If loc092f
+Push 0.0, register2, "getStyleName"
+CallMethod
+Push register5
+Equals2
+PushDuplicate
+If loc07e9
+Pop
+Push register5, undefined
+Equals2
+loc07e9:PushDuplicate
+If loc07f8
+Pop
+Push register5, "_global"
+Equals2
+loc07f8:Not
+If loc0911
+Push register2, "stylecache"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0821
+Push register2, "stylecache"
+GetMember
+Push register3
+Delete
+Pop
+loc0821:Push register2, "_color"
+GetMember
+TypeOf
+Push "string"
+Equals2
+Not
+If loc08b7
+Push register2, "_color"
+GetMember
+Push register3
+Equals2
+Not
+If loc08b2
+Push register3, 1, register2, "getStyle"
+CallMethod
+StoreRegister 4
+Pop
+Push register3, "color"
+Equals2
+Not
+If loc08a2
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+Push "color"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc08a2
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+Push "color", register4
+SetMember
+loc08a2:Push register4, 1, register2, "setColor"
+CallMethod
+Pop
+loc08b2:Jump loc0911
+loc08b7:Push register2, "_color"
+GetMember
+Push register3
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0911
+Push register2
+TypeOf
+Push "movieclip"
+Equals2
+Not
+Not
+If loc0901
+Push 0.0, register2, "_parent"
+GetMember
+Push "invalidateStyle"
+CallMethod
+Pop
+Jump loc0911
+loc0901:Push register3, 1, register2, "invalidateStyle"
+CallMethod
+Pop
+loc0911:Push register8, register3, register5, 3, register2, "changeColorStyleInChildren"
+CallMethod
+Pop
+Push register2, "searchKey", register6
+SetMember
+loc092f:Jump loc0776
+}
+loc0934:SetMember
+Push register2, "notifyStyleChangeInChildren"
+DefineFunction2 "", 3, 8, false, false, true, false, true, false, false, true, false, 3, "sheetName", 4, "styleProp", 7, "newValue" {
+GetTime
+StoreRegister 5
+Pop
+Push undefined
+StoreRegister 6
+Pop
+Push register1
+Enumerate2
+loc097c:StoreRegister 0
+Push null
+Equals2
+If loc0a86
+Push register0
+StoreRegister 6
+Pop
+Push register1, register6
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+Push register1
+Equals2
+Not
+If loc0a81
+Push register2, "searchKey"
+GetMember
+Push register5
+Equals2
+Not
+Not
+If loc0a81
+Push register2, "styleName"
+GetMember
+Push register3
+Equals2
+PushDuplicate
+If loc0a04
+Pop
+Push register2, "styleName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc0a04
+Pop
+Push register2, "styleName"
+GetMember
+TypeOf
+Push "movieclip"
+Equals2
+loc0a04:PushDuplicate
+If loc0a12
+Pop
+Push register3, undefined
+Equals2
+loc0a12:Not
+If loc0a63
+Push register2, "stylecache"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0a4a
+Push register2, "stylecache"
+GetMember
+Push register4
+Delete
+Pop
+Push register2, "stylecache"
+GetMember
+Push "tf"
+Delete
+Pop
+loc0a4a:Push register2, "enabledColor"
+Delete
+Pop
+Push register4, 1, register2, "invalidateStyle"
+CallMethod
+Pop
+loc0a63:Push register7, register4, register3, 3, register2, "notifyStyleChangeInChildren"
+CallMethod
+Pop
+Push register2, "searchKey", register5
+SetMember
+loc0a81:Jump loc097c
+}
+loc0a86:SetMember
+Push register2, "setStyle"
+DefineFunction2 "", 2, 14, false, false, true, false, true, false, false, true, true, 4, "styleProp", 3, "newValue" {
+Push register1, "stylecache"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0ae0
+Push register1, "stylecache"
+GetMember
+Push register4
+Delete
+Pop
+Push register1, "stylecache"
+GetMember
+Push "tf"
+Delete
+Pop
+loc0ae0:Push register1, register4, register3
+SetMember
+Push register4, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "isColorStyle"
+CallMethod
+Not
+If loc0d7b
+Push register3, 1, "isNaN"
+CallFunction
+Not
+If loc0b62
+Push register3, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 3
+Pop
+Push register1, register4, register3
+SetMember
+Push register3, undefined
+Equals2
+Not
+If loc0b62
+Push undefined
+Return
+loc0b62:Push register4, "themeColor"
+Equals2
+Not
+If loc0cb7
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloBlue"
+GetMember
+StoreRegister 10
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloGreen"
+GetMember
+StoreRegister 9
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push "haloOrange"
+GetMember
+StoreRegister 11
+Pop
+Push 0.0
+InitObject
+StoreRegister 6
+Pop
+Push register6, register10, 12188666
+SetMember
+Push register6, register9, 13500353
+SetMember
+Push register6, register11, 16766319
+SetMember
+Push 0.0
+InitObject
+StoreRegister 7
+Pop
+Push register7, register10, 13958653
+SetMember
+Push register7, register9, 14942166
+SetMember
+Push register7, register11, 16772787
+SetMember
+Push register6, register3
+GetMember
+StoreRegister 12
+Pop
+Push register7, register3
+GetMember
+StoreRegister 13
+Pop
+Push register12, undefined
+Equals2
+Not
+If loc0c7c
+Push register3
+StoreRegister 12
+Pop
+loc0c7c:Push register13, undefined
+Equals2
+Not
+If loc0c93
+Push register3
+StoreRegister 13
+Pop
+loc0c93:Push register12, "selectionColor", 2, register1, "setStyle"
+CallMethod
+Pop
+Push register13, "rollOverColor", 2, register1, "setStyle"
+CallMethod
+Pop
+loc0cb7:Push register1, "_color"
+GetMember
+TypeOf
+Push "string"
+Equals2
+Not
+If loc0d39
+Push register1, "_color"
+GetMember
+Push register4
+Equals2
+Not
+If loc0d34
+Push register4, "color"
+Equals2
+Not
+If loc0d24
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+Push "color"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0d24
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+Push "color", register3
+SetMember
+loc0d24:Push register3, 1, register1, "setColor"
+CallMethod
+Pop
+loc0d34:Jump loc0d63
+loc0d39:Push register1, "_color"
+GetMember
+Push register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0d63
+Push register4, 1, register1, "invalidateStyle"
+CallMethod
+Pop
+loc0d63:Push register3, register4, undefined, 3, register1, "changeColorStyleInChildren"
+CallMethod
+Pop
+Jump loc0dee
+loc0d7b:Push register4, "backgroundColor"
+Equals2
+PushDuplicate
+Not
+If loc0d98
+Pop
+Push register3, 1, "isNaN"
+CallFunction
+loc0d98:Not
+If loc0dde
+Push register3, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 3
+Pop
+Push register1, register4, register3
+SetMember
+Push register3, undefined
+Equals2
+Not
+If loc0dde
+Push undefined
+Return
+loc0dde:Push register4, 1, register1, "invalidateStyle"
+CallMethod
+Pop
+loc0dee:Push register4, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "isInheritingStyle"
+CallMethod
+PushDuplicate
+If loc0e1c
+Pop
+Push register4, "styleName"
+Equals2
+loc0e1c:Not
+If loc0eb7
+Push undefined
+StoreRegister 8
+Pop
+Push register3
+StoreRegister 5
+Pop
+Push register4, "styleName"
+Equals2
+Not
+If loc0ea4
+Push register3
+TypeOf
+Push "string"
+Equals2
+If loc0e5e
+Push register5
+Jump loc0e6c
+loc0e5e:Push register2, "styles"
+GetMember
+Push register3
+GetMember
+loc0e6c:StoreRegister 8
+Pop
+Push register8, "themeColor"
+GetMember
+StoreRegister 5
+Pop
+Push register5, undefined
+Equals2
+Not
+Not
+If loc0ea4
+Push register8, "rollOverColor", register8, "selectionColor", register5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0ea4:Push register3, register4, undefined, 3, register1, "notifyStyleChangeInChildren"
+CallMethod
+Pop
+}
+loc0eb7:SetMember
+Push register1, "enableRunTimeCSS"
+DefineFunction "", 0 {
+}
+SetMember
+Push register1, "classConstruct"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, true, false, true {
+Push "MovieClip"
+GetVariable
+Push "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+GetMember
+Push "prototype"
+GetMember
+StoreRegister 3
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+Push "prototype"
+GetMember
+Push "setStyle", register3, "_setStyle"
+GetMember
+SetMember
+Push register2, "changeTextStyleInChildren", register3, "changeTextStyleInChildren"
+GetMember
+SetMember
+Push register2, "changeColorStyleInChildren", register3, "changeColorStyleInChildren"
+GetMember
+SetMember
+Push register2, "notifyStyleChangeInChildren", register3, "notifyStyleChangeInChildren"
+GetMember
+SetMember
+Push register2, "setStyle", register3, "setStyle"
+GetMember
+SetMember
+Push 1, "changeTextStyleInChildren", register2, 3, register1, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "changeColorStyleInChildren", register2, 3, register1, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "notifyStyleChangeInChildren", register2, 3, register1, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "setStyle", register2, 3, register1, "ASSetPropFlags"
+CallMethod
+Pop
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+StoreRegister 4
+Pop
+Push register4, "setStyle", register2, "setStyle"
+GetMember
+SetMember
+Push register4, "changeTextStyleInChildren", register3, "changeTextStyleInChildren"
+GetMember
+SetMember
+Push true
+Return
+}
+SetMember
+Push register1, "classConstructed", 0.0, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+GetMember
+Push "classConstruct"
+CallMethod
+SetMember
+Push register1, "CSSStyleDeclarationDependency", "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSSetStyle"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc1053:Pop

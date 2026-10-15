@@ -1,0 +1,421 @@
+ConstantPool "navTitle", "", "navText", "Krin", "PauseForScreen", "wSaver", "krinXbarPro", "bar", "_width", "levelMaxProgress", "questHub", "sectionIn", "progressMax", "parseInt", "levelMinProgress", "questProgress", "klt1", "_root", "KrinLang", "KLangChoosen", "SYSTEM", "klt2", "ZONES", ": ", "ZONES2", "klt3", "Music", "addSound", "slotSaveGO", "slotInUse", "menuMode", "Pause", "mouseItem", "ENGLISH", "ITEMNAME", "KrinToolTipper", "inner", "gotoAndStop", "thereIsASlotSelected", "whatToSay3", "MENU", "onMouseDown", "UITmouseHold", "UITdrop", "Empty2", "inner2", "itemReturned", "previousItemSlot", "slotType", "itemSlot", "itemArray", "id", "by", "length", "KRINMENU", "None", "KrinCombatText", "play", "combatTexter", "No more empty slots to return item to.", "BATNUMO", "Number"
+Push "navTitle", ""
+SetVariable
+Push "navText", ""
+SetVariable
+Push "Krin"
+GetVariable
+Push "PauseForScreen", false
+SetMember
+Push "Krin"
+GetVariable
+Push "wSaver", "krinXbarPro"
+GetVariable
+Push "bar"
+GetMember
+Push "_width"
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "levelMaxProgress", "questHub"
+GetVariable
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Push "progressMax"
+GetMember
+Push 1, "parseInt"
+CallFunction
+SetMember
+Push "Krin"
+GetVariable
+Push "levelMinProgress", "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Push 1, "parseInt"
+CallFunction
+SetMember
+Push "Krin"
+GetVariable
+Push "levelMinProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "levelMaxProgress"
+GetMember
+Greater
+Not
+If loc0319
+Push "Krin"
+GetVariable
+Push "levelMinProgress", "Krin"
+GetVariable
+Push "levelMaxProgress"
+GetMember
+SetMember
+loc0319:Push "krinXbarPro"
+GetVariable
+Push "bar"
+GetMember
+Push "_width", "Krin"
+GetVariable
+Push "levelMinProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "levelMaxProgress"
+GetMember
+Divide
+Push "Krin"
+GetVariable
+Push "wSaver"
+GetMember
+Multiply
+SetMember
+Push "klt1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 9
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+Add2
+SetVariable
+Push "klt2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "ZONES"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Push ": "
+Add2
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "ZONES2"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Add2
+SetVariable
+Push "klt3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 10
+GetMember
+Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Push 1, "parseInt"
+CallFunction
+Push 1
+Add2
+Add2
+SetVariable
+Push 1, "Music", 2, "addSound"
+CallFunction
+Pop
+Push "_root"
+GetVariable
+Push "slotSaveGO", "Krin"
+GetVariable
+Push "slotInUse"
+GetMember
+SetMember
+Stop
+Push "menuMode", true
+SetVariable
+Push "Krin"
+GetVariable
+Push "Pause", false
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+GetMember
+Push 1, "KrinToolTipper"
+GetVariable
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", false
+SetMember
+Push "whatToSay3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 19
+GetMember
+SetVariable
+Push "onMouseDown"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "UITmouseHold"
+GetVariable
+Push 0.0
+Greater
+Not
+If loc0560
+Push "UITdrop"
+GetVariable
+Push true
+Equals2
+Not
+Not
+If loc0560
+Push "UITmouseHold", 0.0
+SetVariable
+Push "Empty2", 1, register1, "KrinToolTipper"
+GetMember
+Push "inner2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0560:Push register1, "thereIsASlotSelected"
+GetMember
+Not
+Not
+If loc07b5
+Push "itemReturned", false
+SetVariable
+Push register1, "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc07b5
+Push register1, "Krin"
+GetMember
+Push "previousItemSlot"
+GetMember
+Push "slotType"
+GetMember
+Push "itemSlot"
+Equals2
+Not
+If loc064f
+Push "itemReturned", true
+SetVariable
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "previousItemSlot"
+GetMember
+Push "id"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+SetMember
+Push register1, "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "previousItemSlot"
+GetMember
+Push "id"
+GetMember
+GetMember
+GetMember
+Push 1, register1, "Krin"
+GetMember
+Push "previousItemSlot"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0743
+loc064f:Push "by", 0.0
+SetVariable
+loc065e:Push "by"
+GetVariable
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "length"
+GetMember
+Less2
+Not
+If loc0743
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "by"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+PushDuplicate
+Not
+If loc06b5
+Pop
+Push "itemReturned"
+GetVariable
+Push false
+Equals2
+loc06b5:Not
+If loc0734
+Push "itemReturned", true
+SetVariable
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "by"
+GetVariable
+Push register1, "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+SetMember
+Push register1, "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "by"
+GetVariable
+GetMember
+GetMember
+Push 1, register1, "KRINMENU"
+GetMember
+Push "itemSlot", "by"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0734:Push "by", "by"
+GetVariable
+Increment
+SetVariable
+Jump loc065e
+loc0743:Push "itemReturned"
+GetVariable
+Push true
+Equals2
+Not
+If loc078d
+Push register1, "Krin"
+GetMember
+Push "mouseItem", 0.0
+SetMember
+Push "None", 1, register1, "KrinToolTipper"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc07b5
+loc078d:Push 0.0, register1, "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push register1, "KrinCombatText"
+GetMember
+Push "combatTexter", "No more empty slots to return item to."
+SetMember
+}
+loc07b5:SetVariable
+Push "BATNUMO", 600, 1, "Number"
+NewObject
+DefineLocal

@@ -1,0 +1,85 @@
+{
+ "linkage": "M_FOOT_ZPCI3",
+ "characterId": 808,
+ "tipo": "DefineSprite",
+ "grupo": "B_C_armadura_ZPCI3_medic",
+ "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+ "archivos": {
+  "svg": "pieza.svg",
+  "png": "pieza_x4.png"
+ },
+ "subelementos": [
+  {
+   "characterId": 807,
+   "tipo": "DefineShape",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape_807.svg",
+    "subelementos/DefineShape_807.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 807,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 807,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "svg_lienzo_px": [
+  15.6,
+  5.7
+ ],
+ "anclaje_svg_px": [
+  5.85,
+  3.05
+ ],
+ "png_tamano": [
+  63,
+  23
+ ],
+ "png_escala": 4.0,
+ "anclaje_png_px": [
+  23.7,
+  12.3
+ ],
+ "lista_visualizacion": [
+  {
+   "f": 1,
+   "depth": 1,
+   "op": "place",
+   "ch": 807,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0
+   ]
+  }
+ ]
+}

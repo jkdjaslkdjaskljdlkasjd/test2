@@ -1,0 +1,155 @@
+ConstantPool "_root", "Krin", "slotInUse", "dataMode", "save", "nameUser", "krinNameUser", "thereIsASlotSelected", "KrinToolTipper", "tt", "", "t", "gotoAndStop", "slot", "data", "krinHandleData", "flush", "arenaMode", "arenaPlayer", "currentArenaPlayer", "pickText", "KrinLang", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse", 1
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode"
+GetMember
+Push "save"
+Equals2
+Not
+If loc0195
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "nameUser", "_root"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", false
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", ""
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", ""
+SetMember
+Push 1, 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+GoToLabel "classMenu"
+Jump loc02e3
+loc0195:Push "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc02e3
+Push "_root"
+GetVariable
+Push "krinNameUser", "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "krinHandleData"
+CallMethod
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "flush"
+CallMethod
+Pop
+Push "arenaMode"
+GetVariable
+Push true
+Equals2
+Not
+If loc02d5
+Push "_root"
+GetVariable
+Push "arenaPlayer", "currentArenaPlayer"
+GetVariable
+Add2
+GetMember
+Push "krinNameUser", "_root"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "currentArenaPlayer"
+GetVariable
+Push 1
+Equals2
+Not
+If loc02c4
+Push "currentArenaPlayer", "currentArenaPlayer"
+GetVariable
+Increment
+SetVariable
+Push "pickText", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 73
+GetMember
+SetVariable
+Jump loc02d0
+loc02c4:GoToLabel "ArenaNav"
+loc02d0:Jump loc02e3
+loc02d5:GoToLabel "Navigation"
+loc02e3:

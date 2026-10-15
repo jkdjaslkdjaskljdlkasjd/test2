@@ -1,0 +1,94 @@
+ConstantPool "i", "_root", "nameSlot", "slot", "data", "nameUser", "flush", "< Empty Slot >", "slotNamerText", "KrinLang", "KLangChoosen", "MENU", "arenaMode", "currentArenaPlayer", "pickText", ""
+Push "i", 1
+SetVariable
+loc0099:Push "i"
+GetVariable
+Push 5
+Less2
+Not
+If loc0139
+Push "_root"
+GetVariable
+Push "nameSlot", "i"
+GetVariable
+Add2
+Push "_root"
+GetVariable
+Push "slot", "i"
+GetVariable
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "slot", "i"
+GetVariable
+Add2
+GetMember
+Push "flush"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "nameSlot", "i"
+GetVariable
+Add2
+GetMember
+Push undefined
+Equals2
+Not
+If loc012a
+Push "_root"
+GetVariable
+Push "nameSlot", "i"
+GetVariable
+Add2
+Push "< Empty Slot >"
+SetMember
+loc012a:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0099
+loc0139:Push "slotNamerText", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 23
+GetMember
+SetVariable
+Push "arenaMode"
+GetVariable
+Not
+If loc01a9
+Push "currentArenaPlayer"
+GetVariable
+Push 1
+Equals2
+Not
+If loc01a4
+Push "pickText", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 72
+GetMember
+SetVariable
+loc01a4:Jump loc01b1
+loc01a9:Push "pickText", ""
+SetVariable
+loc01b1:

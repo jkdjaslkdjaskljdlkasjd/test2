@@ -1,0 +1,352 @@
+ConstantPool "_global", "mx", "Object", "events", "EventDispatcher", "prototype", "_removeEventListener", "length", "splice", "initialize", "_fEventDispatcher", "addEventListener", "removeEventListener", "dispatchEvent", "dispatchQueue", "__q_", "type", "object", "movieclip", "handleEvent", "exceptions", "apply", "target", "Handler", "Array", "ASSetPropFlags", "push", "move", "draw", "load"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0154
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0154:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events"
+GetMember
+Not
+Not
+If loc018c
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events", 0.0, "Object"
+NewObject
+SetMember
+loc018c:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Not
+Not
+If loc0692
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "_removeEventListener"
+DefineFunction2 "", 3, 6, false, false, true, false, true, false, true, false, false, 3, "queue", 0, "event", 5, "handler" {
+Push register3, undefined
+Equals2
+Not
+Not
+If loc0288
+Push register3, "length"
+GetMember
+StoreRegister 4
+Pop
+Push undefined
+StoreRegister 1
+Pop
+Push 0.0
+StoreRegister 1
+Pop
+loc0235:Push register1, register4
+Less2
+Not
+If loc0288
+Push register3, register1
+GetMember
+StoreRegister 2
+Pop
+Push register2, register5
+Equals2
+Not
+If loc0278
+Push 1, register1, 2, register3, "splice"
+CallMethod
+Pop
+Push undefined
+Return
+loc0278:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc0235
+}
+loc0288:SetMember
+Push register1, "initialize"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "object" {
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push undefined
+Equals2
+Not
+If loc02f6
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher", 0.0, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+NewMethod
+SetMember
+loc02f6:Push register1, "addEventListener", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "addEventListener"
+GetMember
+SetMember
+Push register1, "removeEventListener", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "removeEventListener"
+GetMember
+SetMember
+Push register1, "dispatchEvent", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "dispatchEvent"
+GetMember
+SetMember
+Push register1, "dispatchQueue", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "dispatchQueue"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "dispatchQueue"
+DefineFunction2 "", 2, 8, false, false, true, false, true, false, true, false, false, 6, "queueObj", 2, "eventObj" {
+Push "__q_", register2, "type"
+GetMember
+Add2
+StoreRegister 7
+Pop
+Push register6, register7
+GetMember
+StoreRegister 4
+Pop
+Push register4, undefined
+Equals2
+Not
+Not
+If loc04cf
+Push undefined
+StoreRegister 5
+Pop
+Push register4
+Enumerate2
+loc03e3:StoreRegister 0
+Push null
+Equals2
+If loc04cf
+Push register0
+StoreRegister 5
+Pop
+Push register4, register5
+GetMember
+StoreRegister 1
+Pop
+Push register1
+TypeOf
+StoreRegister 3
+Pop
+Push register3, "object"
+Equals2
+PushDuplicate
+If loc042a
+Pop
+Push register3, "movieclip"
+Equals2
+loc042a:Not
+If loc04af
+Push register1, "handleEvent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0454
+Push register2, 1, register1, "handleEvent"
+CallMethod
+Pop
+loc0454:Push register1, register2, "type"
+GetMember
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc04aa
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "exceptions"
+GetMember
+Push register2, "type"
+GetMember
+GetMember
+Push undefined
+Equals2
+Not
+If loc04aa
+Push register2, 1, register1, register2, "type"
+GetMember
+CallMethod
+Pop
+loc04aa:Jump loc04ca
+loc04af:Push register2, 1
+InitArray
+Push register6, 2, register1, "apply"
+CallMethod
+Pop
+loc04ca:Jump loc03e3
+}
+loc04cf:SetMember
+Push register2, "dispatchEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "eventObj" {
+Push register2, "target"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0509
+Push register2, "target", register1
+SetMember
+loc0509:Push register2, 1, register1, register2, "type"
+GetMember
+Push "Handler"
+Add2
+CallMethod
+Pop
+Push register2, register1, 2, register1, "dispatchQueue"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "addEventListener"
+DefineFunction2 "", 2, 6, false, false, true, false, true, false, false, true, true, 4, "event", 5, "handler" {
+Push "__q_", register4
+Add2
+StoreRegister 3
+Pop
+Push register1, register3
+GetMember
+Push undefined
+Equals2
+Not
+If loc058b
+Push register1, register3, 0.0, "Array"
+NewObject
+SetMember
+loc058b:Push 1, register3, register1, 3, register2, "ASSetPropFlags"
+CallMethod
+Pop
+Push register5, register4, register1, register3
+GetMember
+Push 3, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_removeEventListener"
+CallMethod
+Pop
+Push register5, 1, register1, register3
+GetMember
+Push "push"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "removeEventListener"
+DefineFunction2 "", 2, 5, false, false, true, false, true, false, false, true, false, 3, "event", 4, "handler" {
+Push "__q_", register3
+Add2
+StoreRegister 2
+Pop
+Push register4, register3, register1, register2
+GetMember
+Push 3, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_removeEventListener"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "_fEventDispatcher", undefined
+SetMember
+Push register1, "exceptions", "move", 1, "draw", 1, "load", 1, 3
+InitObject
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0692:Pop

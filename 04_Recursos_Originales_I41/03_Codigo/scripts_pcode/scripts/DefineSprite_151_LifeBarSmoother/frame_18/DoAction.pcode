@@ -1,0 +1,52 @@
+ConstantPool "deadNow", "dead", "this", "gotoAndPlay", "third", "_parent", "inner", "gotoAndStop", "h", "bshr"
+Push "deadNow"
+GetVariable
+Push true
+Equals2
+Not
+If loc00eb
+Push "dead", 1, "this"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "third", 1, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "h", 0.0
+SetVariable
+loc00a5:Push "h"
+GetVariable
+Push 10
+Less2
+Not
+If loc00e6
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "bshr", "h"
+GetVariable
+Add2
+GetMember
+RemoveSprite
+Push "h", "h"
+GetVariable
+Increment
+SetVariable
+Jump loc00a5
+loc00e6:Jump loc00f2
+loc00eb:Push "this"
+GetVariable
+RemoveSprite
+loc00f2:

@@ -1,0 +1,42 @@
+ConstantPool "None", "this", "gotoAndStop", "ACD", "", "_root", "turnBasedKrin", "thinger1", "No ability selected!", "thinger2", "First select your target then choose an ability to use.", "thinger3", "Cannot cancel during action.", "You may click here to skip your turn.", "Cannot skip during action.", "toolTipTitle", "toolTip", "chimney"
+Push "None", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "ACD", ""
+SetMember
+Push "_root"
+GetVariable
+Push "turnBasedKrin"
+GetMember
+Not
+Not
+If loc0169
+Push "thinger1", "No ability selected!"
+SetVariable
+Push "thinger2", "First select your target then choose an ability to use."
+SetVariable
+Push "thinger3", "Cannot cancel during action."
+SetVariable
+Jump loc0181
+loc0169:Push "thinger1", "No ability selected!"
+SetVariable
+Push "thinger2", "You may click here to skip your turn."
+SetVariable
+Push "thinger3", "Cannot skip during action."
+SetVariable
+loc0181:Push "this"
+GetVariable
+Push "toolTipTitle", "thinger1"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "toolTip", "thinger2"
+GetVariable
+SetMember
+Push "chimney", true
+SetVariable

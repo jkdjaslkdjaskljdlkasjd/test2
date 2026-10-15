@@ -1,0 +1,13 @@
+ConstantPool "", "naxTevt2", "selectable", "_root", "PvPCodeLode", "navText2"
+Push "", 7, false
+SetProperty
+Push "naxTevt2"
+GetVariable
+Push "selectable", false
+SetMember
+Push "_root"
+GetVariable
+Push "PvPCodeLode", false
+SetMember
+Push "navText2", ""
+SetVariable

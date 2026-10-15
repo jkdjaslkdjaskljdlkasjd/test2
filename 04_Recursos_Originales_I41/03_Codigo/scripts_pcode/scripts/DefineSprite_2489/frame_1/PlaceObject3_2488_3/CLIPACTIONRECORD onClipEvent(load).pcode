@@ -1,0 +1,7 @@
+ConstantPool "widthkeep", "", "heightkeep"
+Push "widthkeep", "", 8
+GetProperty
+SetVariable
+Push "heightkeep", "", 9
+GetProperty
+SetVariable

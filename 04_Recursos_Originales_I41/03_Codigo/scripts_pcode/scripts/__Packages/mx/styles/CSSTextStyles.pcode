@@ -1,0 +1,393 @@
+ConstantPool "_global", "mx", "Object", "styles", "CSSTextStyles", "prototype", "addTextStyles", "_tf", "TextFormat", "align", "textAlign", "addProperty", "bold", "none", "fontWeight", "color", "font", "fontFamily", "indent", "textIndent", "italic", "fontStyle", "leftMargin", "marginLeft", "rightMargin", "marginRight", "size", "fontSize", "underline", "textDecoration", "embedFonts", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0157
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0157:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Not
+Not
+If loc018f
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles", 0.0, "Object"
+NewObject
+SetMember
+loc018f:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+Not
+Not
+If loc079c
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "addTextStyles"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 2, "o", 3, "bColor" {
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc022c
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc022c:Push register1, "_tf"
+GetMember
+Push "align", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "align"
+GetMember
+Return
+}
+Push "textAlign", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc029b
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc029b:Push register1, "_tf"
+GetMember
+Push "bold", register2, "bold"
+Equals2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "bold"
+GetMember
+Push undefined
+Equals2
+Not
+If loc02db
+Push undefined
+Jump loc02fd
+loc02db:Push register1, "_tf"
+GetMember
+Push "bold"
+GetMember
+If loc02f8
+Push "none"
+Jump loc02fd
+loc02f8:Push "bold"
+loc02fd:Return
+}
+Push "fontWeight", 3, register2, "addProperty"
+CallMethod
+Pop
+Push register3
+Not
+If loc0388
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc034e
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc034e:Push register1, "_tf"
+GetMember
+Push "color", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "color"
+GetMember
+Return
+}
+Push "color", 3, register2, "addProperty"
+CallMethod
+Pop
+loc0388:DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc03bd
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc03bd:Push register1, "_tf"
+GetMember
+Push "font", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "font"
+GetMember
+Return
+}
+Push "fontFamily", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc042c
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc042c:Push register1, "_tf"
+GetMember
+Push "indent", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "indent"
+GetMember
+Return
+}
+Push "textIndent", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc049b
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc049b:Push register1, "_tf"
+GetMember
+Push "italic", register2, "italic"
+Equals2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "italic"
+GetMember
+Push undefined
+Equals2
+Not
+If loc04db
+Push undefined
+Jump loc04fd
+loc04db:Push register1, "_tf"
+GetMember
+Push "italic"
+GetMember
+If loc04f8
+Push "none"
+Jump loc04fd
+loc04f8:Push "italic"
+loc04fd:Return
+}
+Push "fontStyle", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0543
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc0543:Push register1, "_tf"
+GetMember
+Push "leftMargin", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "leftMargin"
+GetMember
+Return
+}
+Push "marginLeft", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc05b2
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc05b2:Push register1, "_tf"
+GetMember
+Push "rightMargin", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "rightMargin"
+GetMember
+Return
+}
+Push "marginRight", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0621
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc0621:Push register1, "_tf"
+GetMember
+Push "size", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "size"
+GetMember
+Return
+}
+Push "fontSize", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0690
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc0690:Push register1, "_tf"
+GetMember
+Push "underline", register2, "underline"
+Equals2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "underline"
+GetMember
+Push undefined
+Equals2
+Not
+If loc06d0
+Push undefined
+Jump loc06f2
+loc06d0:Push register1, "_tf"
+GetMember
+Push "underline"
+GetMember
+If loc06ed
+Push "none"
+Jump loc06f2
+loc06ed:Push "underline"
+loc06f2:Return
+}
+Push "textDecoration", 3, register2, "addProperty"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0738
+Push register1, "_tf", 0.0, "TextFormat"
+NewObject
+SetMember
+loc0738:Push register1, "_tf"
+GetMember
+Push "embedFonts", register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_tf"
+GetMember
+Push "embedFonts"
+GetMember
+Return
+}
+Push "embedFonts", 3, register2, "addProperty"
+CallMethod
+Pop
+}
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc079c:Pop

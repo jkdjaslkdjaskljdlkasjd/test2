@@ -1,0 +1,12 @@
+Push "someListenerKrin"
+GetVariable
+Push 1, "Mouse"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push "arenaNav", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

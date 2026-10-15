@@ -1,0 +1,85 @@
+{
+ "linkage": "M_WEAPON_M4",
+ "characterId": 1740,
+ "tipo": "DefineSprite",
+ "grupo": "B_arma_M4_gun",
+ "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+ "archivos": {
+  "svg": "pieza.svg",
+  "png": "pieza_x4.png"
+ },
+ "subelementos": [
+  {
+   "characterId": 1739,
+   "tipo": "DefineShape",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape_1739.svg",
+    "subelementos/DefineShape_1739.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 1739,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 1739,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "svg_lienzo_px": [
+  44.2,
+  48.55
+ ],
+ "anclaje_svg_px": [
+  15.6,
+  20.4
+ ],
+ "png_tamano": [
+  177,
+  195
+ ],
+ "png_escala": 4.0,
+ "anclaje_png_px": [
+  62.5,
+  82.0
+ ],
+ "lista_visualizacion": [
+  {
+   "f": 1,
+   "depth": 1,
+   "op": "place",
+   "ch": 1739,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0
+   ]
+  }
+ ]
+}

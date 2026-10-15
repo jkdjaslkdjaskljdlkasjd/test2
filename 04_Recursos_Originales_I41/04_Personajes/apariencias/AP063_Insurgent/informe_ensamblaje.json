@@ -1,0 +1,543 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "MAN2TAT",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   "TAT",
+   "TAT2",
+   "TAT",
+   "TAT",
+   "TAT",
+   "AK",
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 29,
+    "nombre": "Insurgent",
+    "linea": 8670,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 25,
+    "nombre": "Insurgent",
+    "linea": 13842
+   }
+  ],
+  "name": "AP063_Insurgent",
+  "nombres": [
+   "Insurgent"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP063_Insurgent",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN2TAT",
+     "characterId": 534
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_TAT2",
+     "characterId": 554
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN2TAT",
+     "characterId": 530
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_TAT",
+     "characterId": 552
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_TAT",
+     "characterId": 550
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN2TAT",
+     "characterId": 534
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_TAT",
+     "characterId": 556
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN2TAT",
+     "characterId": 526
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_TAT",
+     "characterId": 558
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_TAT",
+     "characterId": 550
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN2TAT",
+     "characterId": 534
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_TAT",
+     "characterId": 556
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN2TAT",
+     "characterId": 526
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_TAT",
+     "characterId": 558
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_MAN2TAT",
+     "characterId": 532
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_CHEST_TAT2",
+     "characterId": 1291
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_MAN2TAT",
+     "characterId": 528
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HEAD_TAT",
+     "characterId": 548
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN2TAT",
+     "characterId": 534
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_TAT2",
+     "characterId": 554
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": []
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_AK",
+     "characterId": 1297
+    }
+   ]
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN2TAT",
+     "characterId": 530
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_TAT",
+     "characterId": 552
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 528
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "M_HEAD_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 548
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 532
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_CHEST_TAT2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1291
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 534
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_ARM_TAT2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 554
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 534
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_ARM_TAT2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 554
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 530
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_HAND_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 552
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 530
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_HAND_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 552
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 534
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 556
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 534
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 556
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 526
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 558
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 526
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 558
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 550
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_TAT",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 550
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_AK",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1297
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_AK",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1297
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_MAN2TAT",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SHOULDER_TAT2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 76,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

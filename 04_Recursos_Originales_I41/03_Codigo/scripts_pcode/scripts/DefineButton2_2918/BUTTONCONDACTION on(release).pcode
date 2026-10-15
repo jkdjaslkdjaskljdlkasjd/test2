@@ -1,0 +1,33 @@
+ConstantPool "_root", "Krin", "mouseItem", "PauseForScreen", "betaMode"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc009a
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc009a
+Push "Krin"
+GetVariable
+Push "betaMode"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc009a
+GoToLabel "overMap"
+loc009a:

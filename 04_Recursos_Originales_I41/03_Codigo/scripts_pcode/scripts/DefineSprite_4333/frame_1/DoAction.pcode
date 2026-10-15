@@ -1,0 +1,14 @@
+ConstantPool "__hdHideSuelo", "_visible", "_root", "this"
+Push "_root"
+GetVariable
+Push "__hdHideSuelo"
+GetMember
+Push true
+Equals2
+Not
+If loc004d
+Push "this"
+GetVariable
+Push "_visible", false
+SetMember
+loc004d:

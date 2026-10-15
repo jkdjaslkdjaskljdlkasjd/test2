@@ -1,0 +1,97 @@
+ConstantPool "_root", "Krin", "graphics", "sound", "tit_3", "KrinLang", "KLangChoosen", "MENU", "tit_4"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics"
+GetMember
+Not
+If loc0077
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics", false
+SetMember
+Jump loc008b
+loc0077:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics", true
+SetMember
+loc008b:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound"
+GetMember
+Not
+If loc00d3
+Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 29
+GetMember
+SetVariable
+Jump loc00fe
+loc00d3:Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 30
+GetMember
+SetVariable
+loc00fe:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics"
+GetMember
+Not
+If loc0146
+Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 31
+GetMember
+SetVariable
+Jump loc0171
+loc0146:Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 32
+GetMember
+SetVariable
+loc0171:

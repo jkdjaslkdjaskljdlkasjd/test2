@@ -1,0 +1,19 @@
+ConstantPool "_root", "Krin", "zoneName", "sectionIn", "this", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "zoneName"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

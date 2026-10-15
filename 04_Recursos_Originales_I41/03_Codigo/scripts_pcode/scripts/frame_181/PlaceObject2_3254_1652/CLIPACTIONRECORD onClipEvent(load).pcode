@@ -1,0 +1,4 @@
+Push "", 6, 99
+SetProperty
+Push "frameGo", undefined
+SetVariable

@@ -1,0 +1,37 @@
+ConstantPool "Key", "isDown", "_root", "nextSpeechKKK", "hardSkip", "my_sound1", "stop", "my_sound2", "my_sound3"
+Push 32, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc00dc
+Push "_root"
+GetVariable
+Push "nextSpeechKKK", true
+SetMember
+Push "_root"
+GetVariable
+Push "hardSkip", true
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "my_sound1"
+GetMember
+Push "stop"
+CallMethod
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "my_sound2"
+GetMember
+Push "stop"
+CallMethod
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "my_sound3"
+GetMember
+Push "stop"
+CallMethod
+Pop
+loc00dc:

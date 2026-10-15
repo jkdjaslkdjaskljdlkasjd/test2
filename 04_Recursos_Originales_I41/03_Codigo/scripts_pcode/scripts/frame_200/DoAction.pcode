@@ -1,0 +1,144 @@
+ConstantPool "arenaPlayer1", "krinNameUser", "nameUser", "arenaPlayer2", "title1_1", "title2_1", "title1_2", "KrinLang", "KLangChoosen", "SYSTEM", "Level", "title2_2", "Class", "pvpIcon1", "gotoAndStop", "pvpIcon2", "PvPCodeLode", "refreshArenaUI", "t_export", "_root", "MENU", "t_import", "t_fight", "t_exit", "Music", "addSound"
+DefineFunction2 "refreshArenaUI", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "arenaPlayer1"
+GetVariable
+Push "krinNameUser", "arenaPlayer1"
+GetVariable
+Push "nameUser"
+GetMember
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "krinNameUser", "arenaPlayer2"
+GetVariable
+Push "nameUser"
+GetMember
+SetMember
+Push "title1_1", "arenaPlayer1"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetVariable
+Push "title2_1", "arenaPlayer2"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetVariable
+Push "title1_2", register1, "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 41
+GetMember
+Push "arenaPlayer1"
+GetVariable
+Push "Level"
+GetMember
+Add2
+SetVariable
+Push "title2_2", register1, "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 41
+GetMember
+Push "arenaPlayer2"
+GetVariable
+Push "Level"
+GetMember
+Add2
+SetVariable
+Push "arenaPlayer1"
+GetVariable
+Push "Class"
+GetMember
+Push 1
+Add2
+Push 1, "pvpIcon1"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "arenaPlayer2"
+GetVariable
+Push "Class"
+GetMember
+Push 1
+Add2
+Push 1, "pvpIcon2"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "PvPCodeLode", false
+SetVariable
+}
+Stop
+Push 0.0, "refreshArenaUI"
+CallFunction
+Pop
+Push "t_export", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 74
+GetMember
+SetVariable
+Push "t_import", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 75
+GetMember
+SetVariable
+Push "t_fight", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 76
+GetMember
+SetVariable
+Push "t_exit", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 77
+GetMember
+SetVariable
+Push 1, "Music", 2, "addSound"
+CallFunction
+Pop

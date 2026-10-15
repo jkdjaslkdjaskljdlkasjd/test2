@@ -1,0 +1,7 @@
+Push "mx.controls.HScrollBar"
+GetVariable
+Push "HScrollBar", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

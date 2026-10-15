@@ -1,0 +1,5 @@
+Push true, 1, "this"
+GetVariable
+Push "startDrag"
+CallMethod
+Pop

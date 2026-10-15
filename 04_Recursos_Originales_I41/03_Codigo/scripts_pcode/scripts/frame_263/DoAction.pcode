@@ -1,0 +1,50 @@
+ConstantPool "introText1", "_root", "KrinLang", "KLangChoosen", "MENU", "introText2", "introText3", "introText4"
+Stop
+Push "introText1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 86
+GetMember
+SetVariable
+Push "introText2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 87
+GetMember
+SetVariable
+Push "introText3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 88
+GetMember
+SetVariable
+Push "introText4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 89
+GetMember
+SetVariable

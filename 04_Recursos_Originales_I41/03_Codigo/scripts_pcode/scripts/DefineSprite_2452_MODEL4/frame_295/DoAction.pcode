@@ -1,0 +1,6 @@
+Push "_parent"
+GetVariable
+Push "shadower"
+GetMember
+Push "_visible", false
+SetMember

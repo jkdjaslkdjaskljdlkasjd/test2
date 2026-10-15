@@ -1,0 +1,141 @@
+ConstantPool "prx", "avIn", "gotoAndStop", "setLimiter", "_root", "Krin", "LevelStats", "exp", "adderPer", "exp2", "Math", "round", "%", "bar", "_width", "100%", "level", "levelI", "KrinLang", "KLangChoosen", "MENU", "ExpSets"
+Push "prx"
+GetVariable
+Push undefined
+Equals2
+Not
+Not
+If loc025d
+Push "prx"
+GetVariable
+Push 1, "avIn"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "setLimiter"
+GetVariable
+Push 0.0
+Greater
+Not
+If loc023e
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+Push 30
+Less2
+Not
+If loc0239
+Push "setLimiter", "setLimiter"
+GetVariable
+Decrement
+SetVariable
+Push "exp", "exp"
+GetVariable
+Push "adderPer"
+GetVariable
+Add2
+SetVariable
+Push "exp2", "exp"
+GetVariable
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Push "%"
+Add2
+SetVariable
+Push "bar"
+GetVariable
+Push "_width", "exp"
+GetVariable
+Push 100
+Divide
+Push 95.10000000000001
+Multiply
+SetMember
+Push "exp"
+GetVariable
+Push 100
+Less2
+Not
+Not
+If loc0239
+Push "exp", "exp"
+GetVariable
+Push 100
+Subtract
+SetVariable
+Push "exp2", "100%"
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+Increment
+SetMember
+Push "level", 1, "bar"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "bar"
+GetVariable
+Push "_width", 95.10000000000001
+SetMember
+Push "levelI", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+Add2
+SetVariable
+loc0239:Jump loc025d
+loc023e:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ExpSets"
+GetMember
+Push "prx"
+GetVariable
+Push "exp"
+GetVariable
+SetMember
+loc025d:

@@ -1,0 +1,4 @@
+Push "adBox"
+GetVariable
+RemoveSprite
+Play

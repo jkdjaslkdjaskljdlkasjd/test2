@@ -1,0 +1,89 @@
+ConstantPool "_root", "UITmouseHold", "talent", "KRINABILITY", "KrinToolTipper", "inner2", "gotoAndStop", "ACD", "", "bfilter", "elementMainArray", "u", "KRINABILITYB", "KNcolor2", "elementColorArray"
+Push "_root"
+GetVariable
+Push "UITmouseHold", "talent"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "KRINABILITY", "_root"
+GetVariable
+Push "UITmouseHold"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner2"
+GetMember
+Push "ACD", ""
+SetMember
+Push "", "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner2"
+GetMember
+Push "bfilter"
+GetMember
+GetURL2 false, true, 0
+Push "_root"
+GetVariable
+Push "elementMainArray"
+GetMember
+Enumerate2
+loc012a:StoreRegister 0
+Push null
+Equals2
+If loc01aa
+Push "u", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "elementMainArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINABILITYB", "_root"
+GetVariable
+Push "UITmouseHold"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Equals2
+Not
+If loc01a5
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner2"
+GetMember
+Push "KNcolor2", "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+SetMember
+loc01a5:Jump loc012a
+loc01aa:

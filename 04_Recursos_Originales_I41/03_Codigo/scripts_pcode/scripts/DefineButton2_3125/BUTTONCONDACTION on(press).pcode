@@ -1,0 +1,98 @@
+ConstantPool "_root", "Krin", "mouseItem", "Euro", "KRINITEM", "Math", "ceil", "dumbEuro", "KrinLang", "ENGLISH", "ITEMNAME", "KrinToolTipper", "inner", "gotoAndStop", "t", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc01c5
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 5
+GetMember
+Push 0.15
+Multiply
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 5
+GetMember
+SetMember
+loc01c5:

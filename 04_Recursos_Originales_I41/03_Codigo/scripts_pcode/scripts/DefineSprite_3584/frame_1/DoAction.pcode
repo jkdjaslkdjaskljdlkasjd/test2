@@ -1,0 +1,116 @@
+ConstantPool "camColor", "getTransform", "parentColor", "setTransform", "sX", "_width", "sY", "_height", "_x", "cX", "_y", "cY", "_xscale", "_yscale", "ra", "rb", "ga", "gb", "ba", "bb", "aa", "ab", "this", "_visible", "oldMode", "Stage", "scaleMode", "exactFit", "Color", "_parent", "onEnterFrame", "camControl", "onUnload", "resetStage"
+DefineFunction2 "camControl", 0, 5, true, false, true, false, true, false, false, true, false {
+Push 0.0, "camColor"
+GetVariable
+Push "getTransform"
+CallMethod
+Push 1, "parentColor"
+GetVariable
+Push "setTransform"
+CallMethod
+Pop
+Push "sX"
+GetVariable
+Push register1, "_width"
+GetMember
+Divide
+StoreRegister 3
+Pop
+Push "sY"
+GetVariable
+Push register1, "_height"
+GetMember
+Divide
+StoreRegister 4
+Pop
+Push register2, "_x", "cX"
+GetVariable
+Push register1, "_x"
+GetMember
+Push register3
+Multiply
+Subtract
+SetMember
+Push register2, "_y", "cY"
+GetVariable
+Push register1, "_y"
+GetMember
+Push register4
+Multiply
+Subtract
+SetMember
+Push register2, "_xscale", 100, register3
+Multiply
+SetMember
+Push register2, "_yscale", 100, register4
+Multiply
+SetMember
+}
+DefineFunction2 "resetStage", 0, 11, true, false, true, false, true, false, true, false, false {
+Push "ra", 100, "rb", 0.0, "ga", 100, "gb", 0.0, "ba", 100, "bb", 0.0, "aa", 100, "ab", 0.0, 8
+InitObject
+StoreRegister 2
+Pop
+Push register2, 1, "parentColor"
+GetVariable
+Push "setTransform"
+CallMethod
+Pop
+Push register1, "_xscale", 100
+SetMember
+Push register1, "_yscale", 100
+SetMember
+Push register1, "_x", 0.0
+SetMember
+Push register1, "_y", 0.0
+SetMember
+}
+Push "this"
+GetVariable
+Push "_visible", false
+SetMember
+Push "oldMode", "Stage"
+GetVariable
+Push "scaleMode"
+GetMember
+DefineLocal
+Push "Stage"
+GetVariable
+Push "scaleMode", "exactFit"
+SetMember
+Push "cX", 266.5
+DefineLocal
+Push "cY", 150
+DefineLocal
+Push "sX", 533
+DefineLocal
+Push "sY", 300
+DefineLocal
+Push "Stage"
+GetVariable
+Push "scaleMode", "oldMode"
+GetVariable
+SetMember
+Push "camColor", "this"
+GetVariable
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "parentColor", "_parent"
+GetVariable
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "this"
+GetVariable
+Push "onEnterFrame", "camControl"
+GetVariable
+SetMember
+Push 0.0, "camControl"
+CallFunction
+Pop
+Push "this"
+GetVariable
+Push "onUnload", "resetStage"
+GetVariable
+SetMember

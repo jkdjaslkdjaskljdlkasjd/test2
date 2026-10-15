@@ -1,0 +1,14 @@
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc0044
+GoToLabel "resetHere"
+Play
+loc0044:

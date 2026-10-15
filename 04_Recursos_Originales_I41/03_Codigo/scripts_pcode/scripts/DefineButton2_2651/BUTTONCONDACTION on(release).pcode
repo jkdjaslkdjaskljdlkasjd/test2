@@ -1,0 +1,7 @@
+GoToLabel "dataMenu"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode", "load"
+SetMember

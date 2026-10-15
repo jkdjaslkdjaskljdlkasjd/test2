@@ -1,0 +1,52 @@
+ConstantPool "_root", "arenaMode", "arenaEnd", "gotoAndStop", "winCondition", "loseCombat", "winCombat", "drawCombat"
+Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc007d
+Push "arenaEnd", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc007d:Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc00b0
+Push "loseCombat", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc00b0:Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 1
+Equals2
+Not
+If loc00df
+Push "winCombat", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc00df:Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 2
+Equals2
+Not
+If loc010e
+Push "drawCombat", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc010e:

@@ -1,0 +1,55 @@
+ConstantPool "_root", "Krin", "dataMode", "save", "thereIsASlotSelected", "KrinToolTipper", "tt", "KrinLang", "KLangChoosen", "MENU", "t", "GO", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode"
+GetMember
+Push "save"
+Equals2
+Not
+If loc0119
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 21
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 25
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0119:

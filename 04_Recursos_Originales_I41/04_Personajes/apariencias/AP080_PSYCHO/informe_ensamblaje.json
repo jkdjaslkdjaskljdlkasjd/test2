@@ -1,0 +1,476 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "PSYCHO",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "standard": "",
+  "weapon1": "NONE",
+  "weapon2": "NONE",
+  "fuentes": [
+   {
+    "tipo": "forma_estado",
+    "forma": "PSYCHO",
+    "linea": 1769,
+    "condicion": "else if(changeTo == \"PSYCHO\")"
+   }
+  ],
+  "name": "AP080_PSYCHO",
+  "nombres": [
+   "PSYCHO"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP080_PSYCHO",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PSYCHO",
+     "characterId": 615
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_PSYCHO",
+     "characterId": 608
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_PSYCHO",
+     "characterId": 610
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PSYCHO",
+     "characterId": 615
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_PSYCHO",
+     "characterId": 603
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_PSYCHO",
+     "characterId": 610
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PSYCHO",
+     "characterId": 615
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_PSYCHO",
+     "characterId": 603
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_PSYCHO",
+     "characterId": 613
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_PSYCHO",
+     "characterId": 605
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PSYCHO",
+     "characterId": 615
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SSHOULDER_PSYCHO",
+     "characterId": 601
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": []
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_PSYCHO",
+     "characterId": 608
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 605
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "M_HEAD_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 613
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_CHEST_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 615
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_ARM_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 615
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_ARM_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 608
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_HAND_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 608
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_HAND_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 615
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 615
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 603
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 603
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 610
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 610
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_NONE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_NONE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_PSYCHO",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 601
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SHOULDER_",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 68,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

@@ -1,0 +1,80 @@
+ConstantPool "", "_root", "music", "musicCounter2", "setVolume", "nextSpeechKKK", "timeX", "frameRateNowKrin", "timeSpeechKKKUP", "hardSkip"
+Push 100, "", 6
+GetProperty
+Push 1.2
+Divide
+Subtract
+Push 1, "_root"
+GetVariable
+Push "music", "_root"
+GetVariable
+Push "musicCounter2"
+GetMember
+Add2
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "nextSpeechKKK"
+GetMember
+Push false
+Equals2
+Not
+If loc0154
+Push "", 6
+GetProperty
+Push 100
+Less2
+Not
+If loc00fb
+Push "", 6, "", 6
+GetProperty
+Push 5
+Add2
+SetProperty
+Jump loc010b
+loc00fb:Push "", 6, 100
+SetProperty
+loc010b:Push "timeX", "timeX"
+GetVariable
+Push 30, "_root"
+GetVariable
+Push "frameRateNowKrin"
+GetMember
+Divide
+Add2
+SetVariable
+Push "timeX"
+GetVariable
+Push "_root"
+GetVariable
+Push "timeSpeechKKKUP"
+GetMember
+Less2
+Not
+Not
+If loc014f
+Push "_root"
+GetVariable
+Push "nextSpeechKKK", true
+SetMember
+loc014f:Jump loc01a1
+loc0154:Push "", 6
+GetProperty
+Push 0.0
+Greater
+Not
+If loc0193
+Push "", 6, "", 6
+GetProperty
+Push 5
+Subtract
+SetProperty
+Jump loc01a1
+loc0193:Push "_root"
+GetVariable
+Push "hardSkip", false
+SetMember
+loc01a1:

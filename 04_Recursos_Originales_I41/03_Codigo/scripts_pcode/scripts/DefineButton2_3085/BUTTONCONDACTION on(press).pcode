@@ -1,0 +1,43 @@
+ConstantPool "_root", "Krin", "mouseItem", "KrinLang", "ENGLISH", "ITEMNAME", "KrinToolTipper", "inner", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc00df
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc00df:

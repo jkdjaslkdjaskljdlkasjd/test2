@@ -1,0 +1,209 @@
+ConstantPool "_global", "mx", "Object", "styles", "CSSStyleDeclaration", "prototype", "__getTextFormat", "_tf", "StyleManager", "TextFormatStyleProps", "getStyle", "getColorName", "classConstruct", "CSSTextStyles", "addTextStyles", "classConstructed", "CSSTextStylesDependency", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0116
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0116:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Not
+Not
+If loc014e
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles", 0.0, "Object"
+NewObject
+SetMember
+loc014e:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+Not
+Not
+If loc03c4
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__getTextFormat"
+DefineFunction2 "", 2, 7, false, false, true, false, true, false, false, true, false, 4, "tf", 6, "bAll" {
+Push false
+StoreRegister 5
+Pop
+Push register1, "_tf"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0294
+Push undefined
+StoreRegister 2
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Enumerate2
+loc01f5:StoreRegister 0
+Push null
+Equals2
+If loc028f
+Push register0
+StoreRegister 2
+Pop
+Push register6
+PushDuplicate
+If loc0237
+Pop
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "TextFormatStyleProps"
+GetMember
+Push register2
+GetMember
+loc0237:Not
+If loc028a
+Push register4, register2
+GetMember
+Push undefined
+Equals2
+Not
+If loc028a
+Push register1, "_tf"
+GetMember
+Push register2
+GetMember
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc0280
+Push register4, register2, register3
+SetMember
+Jump loc028a
+loc0280:Push true
+StoreRegister 5
+Pop
+loc028a:Jump loc01f5
+loc028f:Jump loc029e
+loc0294:Push true
+StoreRegister 5
+Pop
+loc029e:Push register5
+Return
+}
+SetMember
+Push register2, "getStyle"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "styleProp" {
+Push register1, register4
+GetMember
+StoreRegister 2
+Pop
+Push register2, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "getColorName"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+If loc0309
+Push register3
+Jump loc030e
+loc0309:Push register2
+loc030e:Return
+}
+SetMember
+Push register1, "classConstruct"
+DefineFunction "", 0 {
+Push true, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+Push "prototype"
+GetMember
+Push 2, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+Push "addTextStyles"
+CallMethod
+Pop
+Push true
+Return
+}
+SetMember
+Push register1, "classConstructed", 0.0, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+Push "classConstruct"
+CallMethod
+SetMember
+Push register1, "CSSTextStylesDependency", "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc03c4:Pop

@@ -1,0 +1,8 @@
+Push "dontDoMe", true
+SetVariable
+Push "bobbybobby", 0.0
+SetVariable
+Push "blacker"
+GetVariable
+Push "_visible", false
+SetMember

@@ -1,0 +1,168 @@
+ConstantPool "_global", "mx", "Object", "controls", "HScrollBar", "scrollClasses", "ScrollBar", "prototype", "getMinWidth", "_minHeight", "getMinHeight", "_minWidth", "init", "_xscale", "_rotation", "__get__virtualHeight", "__width", "isScrollBarKey", "Line", "scrollIt", "symbolName", "symbolOwner", "core", "UIComponent", "version", "2.0.2.127", "className", "minusMode", "Left", "plusMode", "Right", "minMode", "AtLeft", "maxMode", "AtRight", "virtualHeight", "addProperty", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc01a1
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc01a1:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc01d9
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc01d9:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "HScrollBar"
+GetMember
+Not
+Not
+If loc042b
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "HScrollBar"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "HScrollBar"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "getMinWidth"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_minHeight"
+GetMember
+Return
+}
+SetMember
+Push register2, "getMinHeight"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_minWidth"
+GetMember
+Return
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "_xscale", -100
+SetMember
+Push register1, "_rotation", -90
+SetMember
+}
+SetMember
+Push register2, "__get__virtualHeight"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__width"
+GetMember
+Return
+}
+SetMember
+Push register2, "isScrollBarKey"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "k" {
+Push register3, 37
+Equals2
+Not
+If loc0349
+Push -1, "Line", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc0349:Push register3, 39
+Equals2
+Not
+If loc0375
+Push 1, "Line", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc0375:Push register3, 1, register2, "isScrollBarKey"
+CallMethod
+Return
+}
+SetMember
+Push register1, "symbolName", "HScrollBar"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "HScrollBar"
+SetMember
+Push register2, "minusMode", "Left"
+SetMember
+Push register2, "plusMode", "Right"
+SetMember
+Push register2, "minMode", "AtLeft"
+SetMember
+Push register2, "maxMode", "AtRight"
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__virtualHeight"
+GetMember
+Push "virtualHeight", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "HScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc042b:Pop

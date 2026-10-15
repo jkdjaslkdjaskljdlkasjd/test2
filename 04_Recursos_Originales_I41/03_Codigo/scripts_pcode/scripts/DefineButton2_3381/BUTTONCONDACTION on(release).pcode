@@ -1,0 +1,88 @@
+ConstantPool "_root", "InBattle", "Krin", "playerNumber", "krinAddMove", "battleClocker", "timerWait", "winCondition", "speechDone", "moveChoosen", "HIDE", "UI_BAR", "subAI_BAR", "gotoAndStop", "turnBasedKrin", "BattleTimeNow", "BattleTimeLimit"
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+Not
+If loc01d4
+Push 0.0, "Krin"
+GetVariable
+Push "playerNumber"
+GetMember
+Push "Krin"
+GetVariable
+Push "playerNumber"
+GetMember
+Push 3, "_root"
+GetVariable
+Push "krinAddMove"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "InBattle"
+GetMember
+Push false
+Equals2
+PushDuplicate
+Not
+If loc013a
+Pop
+Push "battleClocker"
+GetVariable
+Push "timerWait"
+GetMember
+Push 0.0
+Equals2
+loc013a:PushDuplicate
+Not
+If loc015b
+Pop
+Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 0.0
+Less2
+loc015b:PushDuplicate
+Not
+If loc0175
+Pop
+Push "_root"
+GetVariable
+Push "speechDone"
+GetMember
+Push true
+Equals2
+loc0175:Not
+If loc01d4
+Push "_root"
+GetVariable
+Push "moveChoosen", true
+SetMember
+Push "HIDE", 1, "_root"
+GetVariable
+Push "UI_BAR"
+GetMember
+Push "subAI_BAR"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "turnBasedKrin"
+GetVariable
+Not
+Not
+If loc01d4
+Push "_root"
+GetVariable
+Push "BattleTimeNow", "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+Push 5
+Subtract
+SetMember
+loc01d4:

@@ -1,0 +1,155 @@
+ConstantPool "_global", "mx", "Object", "controls", "VScrollBar", "scrollClasses", "ScrollBar", "prototype", "init", "isScrollBarKey", "Line", "scrollIt", "Page", "symbolName", "symbolOwner", "core", "UIComponent", "version", "2.0.2.127", "className", "minusMode", "Up", "plusMode", "Down", "minMode", "AtTop", "maxMode", "AtBottom", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc012c
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc012c:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc0164
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc0164:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "VScrollBar"
+GetMember
+Not
+Not
+If loc0375
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "VScrollBar"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "VScrollBar"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "init"
+DefineFunction2 "", 1, 2, false, false, false, true, true, false, true, false, false, 0, "Void" {
+Push 0.0, register1, "init"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "isScrollBarKey"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "k" {
+Push register3, 38
+Equals2
+Not
+If loc025a
+Push -1, "Line", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc025a:Push register3, 40
+Equals2
+Not
+If loc0286
+Push 1, "Line", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc0286:Push register3, 33
+Equals2
+Not
+If loc02b2
+Push -1, "Page", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc02b2:Push register3, 34
+Equals2
+Not
+If loc02de
+Push 1, "Page", 2, register1, "scrollIt"
+CallMethod
+Pop
+Push true
+Return
+loc02de:Push register3, 1, register2, "isScrollBarKey"
+CallMethod
+Return
+}
+SetMember
+Push register1, "symbolName", "VScrollBar"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "VScrollBar"
+SetMember
+Push register2, "minusMode", "Up"
+SetMember
+Push register2, "plusMode", "Down"
+SetMember
+Push register2, "minMode", "AtTop"
+SetMember
+Push register2, "maxMode", "AtBottom"
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "VScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0375:Pop

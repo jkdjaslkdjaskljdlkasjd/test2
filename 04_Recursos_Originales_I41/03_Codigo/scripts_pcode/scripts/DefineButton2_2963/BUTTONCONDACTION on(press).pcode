@@ -1,0 +1,1376 @@
+ConstantPool "hivhbwerhvgwr", "vniwbovdnb", "ewfewgrvd", "_root", "KRINITEM", "Krin", "mouseItem", "IPS", "equipArray", "MenuPlayerSelect", "ClassStats", "LevelStats", "previousItemSlot", "this", "itemHolder", "id", "StatSets", "p", "statUpdater", "PerSets", "statUpdaterP", "DefSets", "statUpdaterD", "KrinLang", "ENGLISH", "ITEMNAME", "KrinToolTipper", "inner", "gotoAndStop", "_parent", "updateStatus", "colorChange", "fontBacker2", "krinChangeColor", "GO", "tt", "t", "toolTip", "my_txt2", "text", "my_txt", "my_fmt2", "setTextFormat", "my_fmt", "rubyCount", "t3", "req", "TX", "Array", "toolTipAlt", "ttx", "GO5", "gotoAndPlay", "updateDoll", "KrinCombatText", "play", "combatTexter", "KLangChoosen", "ITEMERROR1", "ITEMERROR2", "ITEMERROR4", "ITEMERROR5", "ITEMERROR3"
+Push "hivhbwerhvgwr", 0.0
+SetVariable
+Push "vniwbovdnb", 0.0
+SetVariable
+Push "ewfewgrvd", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push "IPS"
+GetVariable
+Equals2
+Not
+If loc031a
+Push "vniwbovdnb", 1
+SetVariable
+Push "IPS"
+GetVariable
+Push 8
+Equals2
+Not
+If loc031a
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 5
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 9
+Equals2
+Not
+If loc031a
+Push "ewfewgrvd", 2
+SetVariable
+loc031a:Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 9
+Equals2
+PushDuplicate
+Not
+If loc035f
+Pop
+Push "IPS"
+GetVariable
+Push 7
+Equals2
+loc035f:Not
+If loc03ba
+Push "vniwbovdnb", 1
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 6
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc03ba
+Push "ewfewgrvd", 1
+SetVariable
+loc03ba:Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Equals2
+Not
+If loc0416
+Push "hivhbwerhvgwr", 1
+SetVariable
+loc0416:Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0459
+Push "hivhbwerhvgwr", 1
+SetVariable
+loc0459:Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Greater
+Not
+PushDuplicate
+Not
+If loc04c3
+Pop
+Push "hivhbwerhvgwr"
+GetVariable
+Push "vniwbovdnb"
+GetVariable
+Add2
+Push 2
+Equals2
+loc04c3:PushDuplicate
+Not
+If loc04de
+Pop
+Push "ewfewgrvd"
+GetVariable
+Push 0.0
+Equals2
+loc04de:PushDuplicate
+If loc0504
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+loc0504:Not
+If loc10c1
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0544
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "previousItemSlot", "this"
+GetVariable
+SetMember
+loc0544:Push "itemHolder", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+SetVariable
+Push "itemHolder"
+GetVariable
+Push 0.0
+Equals2
+Not
+Not
+If loc07fd
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc05ad:StoreRegister 0
+Push null
+Equals2
+If loc065b
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdater"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Subtract
+SetMember
+Jump loc05ad
+loc065b:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc067e:StoreRegister 0
+Push null
+Equals2
+If loc072c
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdaterP"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Subtract
+SetMember
+Jump loc067e
+loc072c:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc074f:StoreRegister 0
+Push null
+Equals2
+If loc07fd
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdaterD"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Subtract
+SetMember
+Jump loc074f
+loc07fd:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem", "itemHolder"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+GetMember
+Push 1, "inner"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc0b9a
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc094a:StoreRegister 0
+Push null
+Equals2
+If loc09f8
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdater"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Add2
+SetMember
+Jump loc094a
+loc09f8:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc0a1b:StoreRegister 0
+Push null
+Equals2
+If loc0ac9
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PerSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdaterP"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Add2
+SetMember
+Jump loc0a1b
+loc0ac9:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Enumerate2
+loc0aec:StoreRegister 0
+Push null
+Equals2
+If loc0b9a
+Push "p", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "DefSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "p"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "statUpdaterD"
+GetMember
+Push "p"
+GetVariable
+GetMember
+Add2
+SetMember
+Jump loc0aec
+loc0b9a:Push 0.0, "_parent"
+GetVariable
+Push "updateStatus"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+StoreRegister 0
+SetMember
+Push register0, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "fontBacker2"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 2
+Less2
+Not
+If loc0e74
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt2"
+GetMember
+Push "text", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt"
+GetMember
+Push "text", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_fmt2"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt2"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_fmt"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "my_txt"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop
+Jump loc10a6
+loc0e74:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "rubyCount", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t3", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "req"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "TX", 0.0, "Array"
+NewObject
+SetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Enumerate2
+loc0f72:StoreRegister 0
+Push null
+Equals2
+If loc1044
+Push "t", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Push "t"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc103f
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "TX"
+GetMember
+Push "rubyCount"
+GetVariable
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Push "t"
+GetVariable
+GetMember
+SetMember
+Push "rubyCount", "rubyCount"
+GetVariable
+Increment
+SetVariable
+loc103f:Jump loc0f72
+loc1044:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "ttx", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "GO5", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc10a6:Push 0.0, "_parent"
+GetVariable
+Push "updateDoll"
+CallMethod
+Pop
+Jump loc1264
+loc10c1:Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "mouseItem"
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Greater
+Not
+If loc1161
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMERROR1"
+GetMember
+SetMember
+Jump loc1264
+loc1161:Push "hivhbwerhvgwr"
+GetVariable
+Push false
+Equals2
+Not
+If loc11a6
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMERROR2"
+GetMember
+SetMember
+Jump loc1264
+loc11a6:Push "ewfewgrvd"
+GetVariable
+Push 1
+Equals2
+Not
+If loc11ee
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMERROR4"
+GetMember
+SetMember
+Jump loc1264
+loc11ee:Push "ewfewgrvd"
+GetVariable
+Push 2
+Equals2
+Not
+If loc1236
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMERROR5"
+GetMember
+SetMember
+Jump loc1264
+loc1236:Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMERROR3"
+GetMember
+SetMember
+loc1264:

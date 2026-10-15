@@ -1,0 +1,1119 @@
+ConstantPool "_root", "UITmouseHold", "yut_lif", "KrinLang", "KLangChoosen", "SYSTEM", ":", "yut_str", "yut_mag", "yut_spd", "yut_foc", "Krin", "MenuPlayerSelect", "skillPoints", "statPoints", "k_title1", "K_TITLE1", "k_title2", "K_TITLE2", "k_title3", "K_TITLE3", "k_title4", "MENU", "skLoadKrin", "SKLOAD", "spLoadKrin", "SPLOAD", "yut_name", "NameSets", "yut_info", "LevelStats", " ", "CLASS", "ClassStats", "yut_lif2", "StatSets", "KNU", "getStat", "Math", "ceil", "yut_str2", "yut_mag2", "yut_spd2", "yut_foc2", "talentPool", "talentPool2", "_y", "KrinCreateAbilityMatrix", "now", "now2", "spacey", "starty", "maxH", "krinv", "t", "moveMatrix2", "krini", "talenter", "attachMovie", "_x", "pow", "talent", "KRINABILITY", "inner", "gotoAndStop", "abilityXer", "CLASSIFY", "krink", "BUFFNAME", "toolTipTitle", "toolTip", "KRINABILITYB", "SKILLTHRS1", "SKILLTHRS2", "toolTip3", "useNum", "elementMainArray", "u", "KNcolor2", "elementColorArray", "i", "moveMatrix", "selector", "thing", "None", "Empty", "SKILLNONE", "SKILLTUT", "SKILLTUT2", "assignedThing", "ACD", ""
+Push "_root"
+GetVariable
+Push "UITmouseHold", 0.0
+SetMember
+Push "yut_lif", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 0.0
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_str", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 1
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_mag", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 2
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_spd", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 3
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_foc", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 4
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect", 0.0
+SetMember
+Push "skillPoints", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints"
+GetMember
+SetVariable
+Push "statPoints", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+SetVariable
+Push "k_title1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "K_TITLE1"
+GetMember
+SetVariable
+Push "k_title2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "K_TITLE2"
+GetMember
+SetVariable
+Push "k_title3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "K_TITLE3"
+GetMember
+SetVariable
+Push "k_title4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 16
+GetMember
+SetVariable
+Push "skLoadKrin", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SKLOAD"
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "spLoadKrin", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SPLOAD"
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_name", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "NameSets"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+SetVariable
+Push "yut_info", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+Push " "
+Add2
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "CLASS"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push 1
+Subtract
+GetMember
+Add2
+SetVariable
+Push "yut_lif2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_str2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_mag2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_spd2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_foc2", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push true, "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 5
+GetMember
+Push 2, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "_y", 0.0
+SetMember
+Push "KrinCreateAbilityMatrix"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push 0
+Push "_root"
+GetVariable
+Push "__v8Sync"
+CallMethod
+Pop
+Push "now", 0.0
+SetVariable
+Push "now2", 0.0
+SetVariable
+Push "spacey", 35
+SetVariable
+Push "starty", 25
+SetVariable
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "maxH", "starty"
+GetVariable
+Push 140
+Subtract
+SetMember
+Push "krinv", 0.0
+SetVariable
+loc0a04:Push "krinv"
+GetVariable
+Push 70
+Less2
+Not
+If loc0a3f
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "krinv"
+GetVariable
+Add2
+GetMember
+RemoveSprite
+Push "krinv", "krinv"
+GetVariable
+Increment
+SetVariable
+Jump loc0a04
+loc0a3f:Push register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Enumerate2
+loc0a4e:StoreRegister 0
+Push null
+Equals2
+If loc0e5b
+Push "krini", register0
+SetVariable
+Push "now"
+GetVariable
+Push "t", "now"
+GetVariable
+Add2
+Push "talenter", 3, "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "_y", "now2"
+GetVariable
+Push "spacey"
+GetVariable
+Multiply
+Push "starty"
+GetVariable
+Add2
+SetMember
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "_x", "now"
+GetVariable
+Push -1, 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Push -40
+Multiply
+Push 45
+Add2
+SetMember
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "talent", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+SetMember
+Push register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push 1, "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+GetMember
+Push "CLASSIFY"
+GetMember
+Push 1
+Equals2
+Not
+If loc0bfb
+Push register1, "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "krink"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+Push 1, "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0bfb:Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "toolTipTitle", register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "toolTip", register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTHRS1"
+GetMember
+Add2
+Push register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 8
+GetMember
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTHRS2"
+GetMember
+Add2
+SetMember
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "toolTip3", register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 18
+GetMember
+SetMember
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "useNum", register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 8
+GetMember
+SetMember
+Push register1, "elementMainArray"
+GetMember
+Enumerate2
+loc0d5f:StoreRegister 0
+Push null
+Equals2
+If loc0de6
+Push "u", register0
+SetVariable
+Push register1, "elementMainArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+Push register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "krini"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Equals2
+Not
+If loc0de1
+Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "t", "now"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "KNcolor2", register1, "elementColorArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+SetMember
+loc0de1:Jump loc0d5f
+loc0de6:Push "now", "now"
+GetVariable
+Increment
+SetVariable
+Push "now"
+GetVariable
+Push -1, 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Push 0.0
+Greater
+Not
+If loc0e2e
+Push "now2", "now2"
+GetVariable
+Increment
+SetVariable
+Jump loc0e56
+loc0e2e:Push "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "maxH", "talentPool"
+GetVariable
+Push "talentPool2"
+GetMember
+Push "maxH"
+GetMember
+Push "spacey"
+GetVariable
+Add2
+SetMember
+loc0e56:Jump loc0a4e
+loc0e5b:Push "i", 0.0
+SetVariable
+loc0e6a:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc10fc
+Push register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push 1, "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTipTitle", register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip", register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip3", register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 18
+GetMember
+SetMember
+Push register1, "elementMainArray"
+GetMember
+Enumerate2
+loc0f71:StoreRegister 0
+Push null
+Equals2
+If loc0fec
+Push "u", register0
+SetVariable
+Push register1, "elementMainArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+Push register1, "KRINABILITYB", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Equals2
+Not
+If loc0fe7
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "KNcolor2", register1, "elementColorArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+SetMember
+loc0fe7:Jump loc0f71
+loc0fec:Push register1, "KRINABILITY", register1, "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push "None"
+Equals2
+Not
+If loc10bc
+Push "Empty", 1, "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTipTitle", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLNONE"
+GetMember
+SetMember
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTUT"
+GetMember
+SetMember
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip3", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SKILLTUT2"
+GetMember
+SetMember
+loc10bc:Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "assignedThing", "i"
+GetVariable
+SetMember
+Push "selector"
+GetVariable
+Push "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", ""
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0e6a
+}
+loc10fc:SetVariable
+Push 0.0, "KrinCreateAbilityMatrix"
+CallFunction
+Pop

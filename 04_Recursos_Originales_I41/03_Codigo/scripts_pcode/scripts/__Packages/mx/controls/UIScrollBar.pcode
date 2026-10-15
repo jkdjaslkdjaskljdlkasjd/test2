@@ -1,0 +1,771 @@
+ConstantPool "_global", "mx", "Object", "controls", "UIScrollBar", "scrollClasses", "ScrollBar", "prototype", "init", "textField", "owner", "wasHorizontal", "__set__horizontal", "__get__horizontal", "__height", "__width", "setSize", "_width", "_height", "width", "onScroller", "hPosition", "hscroll", "vPosition", "scroll", "__get___targetInstanceName", "setScrollTarget", "addListener", "__get__height", "__get__width", "size", "onTextChanged", "draw", "__set___targetInstanceName", "removeListener", "vScroller", "hScroller", "text", "unwatch", "htmltext", "_parent", "synchScroll", "clearInterval", "maxhscroll", "setScrollProperties", "Math", "min", "__set__scrollPosition", "bottomScroll", "maxscroll", "initializing", "_rotation", "_xscale", "callback", "setInterval", "TextField", "lineScrollSize", "onChanged", "isScrolling", "horizontal", "scrollPosition", "watch", "htmlText", "scrollHandler", "background", "setEnabled", "dispatchScrollEvent", "type", "dispatchEvent", "symbolName", "symbolOwner", "className", "clipParameters", "_targetInstanceName", "mergedClipParameters", "core", "UIObject", "mergeClipParameters", "version", "2.0.2.127", "addProperty", "height", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc03d7
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc03d7:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc040f
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc040f:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "UIScrollBar"
+GetMember
+Not
+Not
+If loc10af
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "UIScrollBar"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "UIScrollBar"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "init"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "textField"
+GetMember
+Push "owner", register1
+SetMember
+Push register1, "wasHorizontal"
+GetMember
+Push 1, register1, "__set__horizontal"
+CallMethod
+Pop
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc055b
+Push register1, "textField"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0535
+Push register1, "__height"
+GetMember
+Push register1, "__width"
+GetMember
+Push 2, register2, "setSize"
+CallMethod
+Jump loc0555
+loc0535:Push 16, register1, "textField"
+GetMember
+Push "_width"
+GetMember
+Push 2, register2, "setSize"
+CallMethod
+loc0555:Pop
+Jump loc05b1
+loc055b:Push register1, "textField"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0590
+Push register1, "__height"
+GetMember
+Push register1, "__width"
+GetMember
+Push 2, register2, "setSize"
+CallMethod
+Jump loc05b0
+loc0590:Push register1, "textField"
+GetMember
+Push "_height"
+GetMember
+Push 16, 2, register2, "setSize"
+CallMethod
+loc05b0:Pop
+loc05b1:Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc05f9
+Push register1, "__width"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "__height", register1, "__width"
+GetMember
+SetMember
+Push register1, "width", register3
+SetMember
+Push register1, "__width", 16
+SetMember
+loc05f9:Push register1, "textField"
+GetMember
+Push "onScroller"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "hPosition", register1, "hscroll"
+GetMember
+SetMember
+Push register1, "vPosition", register1, "scroll"
+GetMember
+Push 1
+Subtract
+SetMember
+}
+SetMember
+Push 0.0, register1, "__get___targetInstanceName"
+CallMethod
+Push undefined
+Equals2
+Not
+Not
+If loc0690
+Push 0.0, register1, "__get___targetInstanceName"
+CallMethod
+Push 1, register1, "setScrollTarget"
+CallMethod
+Pop
+Push register1, 1, 0.0, register1, "__get___targetInstanceName"
+CallMethod
+Push "addListener"
+CallMethod
+Pop
+}
+loc0690:SetMember
+Push register2, "__get___targetInstanceName"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "textField"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__height"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "wasHorizontal"
+GetMember
+Not
+If loc06d6
+Push register1, "__width"
+GetMember
+Return
+loc06d6:Push register1, "__height"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__width"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "wasHorizontal"
+GetMember
+Not
+If loc0709
+Push register1, "__height"
+GetMember
+Return
+loc0709:Push register1, "__width"
+GetMember
+Return
+}
+SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "size"
+CallMethod
+Pop
+Push 0.0, register1, "onTextChanged"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, "draw"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "__set___targetInstanceName"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 2, "t" {
+Push register2, undefined
+Equals2
+Not
+If loc083e
+Push register1, 1, register1, "textField"
+GetMember
+Push "removeListener"
+CallMethod
+Pop
+Push register1, "textField"
+GetMember
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+If loc07d5
+Push "vScroller"
+Jump loc07da
+loc07d5:Push "hScroller"
+loc07da:Delete
+Pop
+Push register1, "textField"
+GetMember
+Push "hScroller"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc080c
+Pop
+Push register1, "textField"
+GetMember
+Push "vScroller"
+GetMember
+Push undefined
+Equals2
+Not
+loc080c:Not
+If loc083e
+Push "text", 1, register1, "textField"
+GetMember
+Push "unwatch"
+CallMethod
+Pop
+Push "htmltext", 1, register1, "textField"
+GetMember
+Push "unwatch"
+CallMethod
+Pop
+loc083e:Push register1, "_parent"
+GetMember
+Push register2
+GetMember
+StoreRegister 3
+Pop
+Push register1, "textField", register1, "_parent"
+GetMember
+Push register2
+GetMember
+SetMember
+Push 0.0, register1, "onTextChanged"
+CallMethod
+Pop
+Push 0.0, register1, "__get___targetInstanceName"
+CallMethod
+Return
+}
+SetMember
+Push register2, "setSize"
+DefineFunction2 "", 2, 5, false, false, false, true, true, false, false, true, false, 4, "w", 3, "h" {
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc08cf
+Push register4, register3, 2, register2, "setSize"
+CallMethod
+Pop
+Jump loc08e1
+loc08cf:Push register3, register4, 2, register2, "setSize"
+CallMethod
+Pop
+}
+loc08e1:SetMember
+Push register2, "onTextChanged"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "textField"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0912
+Push undefined
+Return
+loc0912:Push register1, "synchScroll"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc09b7
+Push register1, "textField"
+GetMember
+Push "hscroll"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "textField"
+GetMember
+Push "maxhscroll"
+GetMember
+Push 0.0, register1, "textField"
+GetMember
+Push "_width"
+GetMember
+Push 3, register1, "setScrollProperties"
+CallMethod
+Pop
+Push register1, "textField"
+GetMember
+Push "maxhscroll"
+GetMember
+Push register3, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+Jump loc0a3e
+loc09b7:Push register1, "textField"
+GetMember
+Push "scroll"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "textField"
+GetMember
+Push "bottomScroll"
+GetMember
+Push register1, "textField"
+GetMember
+Push "scroll"
+GetMember
+Subtract
+StoreRegister 2
+Pop
+Push register1, "textField"
+GetMember
+Push "maxscroll"
+GetMember
+Push 1, register2, 3, register1, "setScrollProperties"
+CallMethod
+Pop
+Push register1, "textField"
+GetMember
+Push "maxscroll"
+GetMember
+Push register3, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+}
+loc0a3e:SetMember
+Push register2, "__get__horizontal"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "wasHorizontal"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__horizontal"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "v" {
+Push register1, "wasHorizontal", register2
+SetMember
+Push register2, register1, "initializing"
+GetMember
+And
+Not
+If loc0ac1
+Push register1, "_rotation"
+GetMember
+Push 90
+Equals2
+Not
+If loc0aa7
+Push undefined
+Return
+loc0aa7:Push register1, "_xscale", -100
+SetMember
+Push register1, "_rotation", -90
+SetMember
+loc0ac1:Push register1, "initializing"
+GetMember
+Not
+Not
+If loc0b4a
+Push register2
+Not
+If loc0b15
+Push register1, "_rotation"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0b10
+Push register1, "_rotation", -90
+SetMember
+Push register1, "_xscale", -100
+SetMember
+loc0b10:Jump loc0b4a
+loc0b15:Push register1, "_rotation"
+GetMember
+Push -90
+Equals2
+Not
+If loc0b4a
+Push register1, "_rotation", 0.0
+SetMember
+Push register1, "_xscale", 100
+SetMember
+loc0b4a:Push 0.0, register1, "__get__horizontal"
+CallMethod
+Return
+}
+SetMember
+Push register2, "callback"
+DefineFunction2 "", 3, 3, false, false, true, false, true, false, false, true, false, 0, "prop", 0, "oldval", 2, "newval" {
+Push register1, "hScroller"
+GetMember
+Push "synchScroll"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "vScroller"
+GetMember
+Push "synchScroll"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "hScroller"
+GetMember
+Push "synchScroll", 50, "onTextChanged", register1, "hScroller"
+GetMember
+Push 3, "setInterval"
+CallFunction
+SetMember
+Push register1, "vScroller"
+GetMember
+Push "synchScroll", 50, "onTextChanged", register1, "vScroller"
+GetMember
+Push 3, "setInterval"
+CallFunction
+SetMember
+Push register2
+Return
+}
+SetMember
+Push register2, "setScrollTarget"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "tF" {
+Push register2, undefined
+Equals2
+Not
+If loc0cd4
+Push register1, 1, register1, "textField"
+GetMember
+Push "removeListener"
+CallMethod
+Pop
+Push register1, "textField"
+GetMember
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+If loc0c6b
+Push "vScroller"
+Jump loc0c70
+loc0c6b:Push "hScroller"
+loc0c70:Delete
+Pop
+Push register1, "textField"
+GetMember
+Push "hScroller"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc0ca2
+Pop
+Push register1, "textField"
+GetMember
+Push "vScroller"
+GetMember
+Push undefined
+Equals2
+Not
+loc0ca2:Not
+If loc0cd4
+Push "text", 1, register1, "textField"
+GetMember
+Push "unwatch"
+CallMethod
+Pop
+Push "htmltext", 1, register1, "textField"
+GetMember
+Push "unwatch"
+CallMethod
+Pop
+loc0cd4:Push register1, "textField", undefined
+SetMember
+Push register2, "TextField"
+GetVariable
+InstanceOf
+Not
+Not
+If loc0cf2
+Push undefined
+Return
+loc0cf2:Push register1, "textField", register2
+SetMember
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc0d41
+Push register1, "textField"
+GetMember
+Push "hScroller", register1
+SetMember
+Push register1, "textField"
+GetMember
+Push "hScroller"
+GetMember
+Push "lineScrollSize", 5
+SetMember
+Jump loc0d6a
+loc0d41:Push register1, "textField"
+GetMember
+Push "vScroller", register1
+SetMember
+Push register1, "textField"
+GetMember
+Push "vScroller"
+GetMember
+Push "lineScrollSize", 1
+SetMember
+loc0d6a:Push 0.0, register1, "onTextChanged"
+CallMethod
+Pop
+Push register1, "onChanged"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "onTextChanged"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "onScroller"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "isScrolling"
+GetMember
+Not
+Not
+If loc0e08
+Push register1, "horizontal"
+GetMember
+Not
+Not
+If loc0df5
+Push register1, "scrollPosition", register1, "textField"
+GetMember
+Push "scroll"
+GetMember
+SetMember
+Jump loc0e08
+loc0df5:Push register1, "scrollPosition", register1, "textField"
+GetMember
+Push "hscroll"
+GetMember
+SetMember
+}
+loc0e08:SetMember
+Push register1, 1, register1, "textField"
+GetMember
+Push "addListener"
+CallMethod
+Pop
+Push register1, "callback"
+GetMember
+Push "text", 2, register1, "textField"
+GetMember
+Push "watch"
+CallMethod
+Pop
+Push register1, "callback"
+GetMember
+Push "htmlText", 2, register1, "textField"
+GetMember
+Push "watch"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "scrollHandler"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "__get__horizontal"
+CallMethod
+Not
+If loc0ec6
+Push register1, "textField"
+GetMember
+Push "background"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "textField"
+GetMember
+Push "hscroll", register1, "scrollPosition"
+GetMember
+SetMember
+Push register1, "textField"
+GetMember
+Push "background", register2
+SetMember
+Jump loc0ed9
+loc0ec6:Push register1, "textField"
+GetMember
+Push "scroll", register1, "scrollPosition"
+GetMember
+SetMember
+}
+loc0ed9:SetMember
+Push register2, "setEnabled"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "enable" {
+Push register3, 1, register2, "setEnabled"
+CallMethod
+Pop
+Push register3
+Not
+If loc0f2a
+Push register1, 1, register1, "textField"
+GetMember
+Push "addListener"
+CallMethod
+Pop
+Jump loc0f42
+loc0f2a:Push 0.0, register1, "textField"
+GetMember
+Push "removeListener"
+CallMethod
+Pop
+}
+loc0f42:SetMember
+Push register2, "dispatchScrollEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "detail" {
+Push "type", "scroll", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolName", "UIScrollBar"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "UIScrollBar"
+GetMember
+SetMember
+Push register2, "className", "UIScrollBar"
+SetMember
+Push register2, "clipParameters", "_targetInstanceName", 1, "horizontal", 1, 2
+InitObject
+SetMember
+Push register1, "mergedClipParameters", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "UIScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push "clipParameters"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "mergeClipParameters"
+CallMethod
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "__set___targetInstanceName"
+GetMember
+Push register2, "__get___targetInstanceName"
+GetMember
+Push "_targetInstanceName", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__horizontal"
+GetMember
+Push register2, "__get__horizontal"
+GetMember
+Push "horizontal", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "UIScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc10af:Pop

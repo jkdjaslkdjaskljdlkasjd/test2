@@ -1,0 +1,6 @@
+Push 0
+Push "_root"
+GetVariable
+Push "__v92Cleanup"
+CallMethod
+Pop

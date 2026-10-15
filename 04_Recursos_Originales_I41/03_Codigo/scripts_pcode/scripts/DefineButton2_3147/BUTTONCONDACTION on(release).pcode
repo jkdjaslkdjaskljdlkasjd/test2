@@ -1,0 +1,492 @@
+ConstantPool "checker", "_root", "Krin", "skillPoints", "KrinCombatText", "combatTexter", "KrinLang", "KLangChoosen", "TALENTERROR1", "play", "talentMainArray", "id", "abilityXer", "TIER", "TALENTERROR2", "Level", "guessLevel", "TALENTERROR3", "PRESKILL", "krinu", "TALENTERROR4", "_parent", "CLASSIFY", "moveMatrix", "krinp", "skillAdderMatrix", "ID", "moveMatrix2", "Array", "startSkill1", "push", "startSkill2", "KrinCreateAbilityMatrix", "buffAdderMatrix", "BUFFNAME", "krinRemakeTree"
+Push "checker", true
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc01f6
+Push "checker", false
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "TALENTERROR1"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc01f6:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "TIER"
+GetMember
+Equals2
+Not
+If loc0287
+Push "checker", false
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "TALENTERROR2"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc0287:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Level"
+GetMember
+Push "guessLevel"
+GetVariable
+Less2
+Not
+If loc02f8
+Push "checker", false
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "TALENTERROR3"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc02f8:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Enumerate2
+loc0318:StoreRegister 0
+Push null
+Equals2
+If loc03d1
+Push "krinu", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "PRESKILL"
+GetMember
+Push "krinu"
+GetVariable
+GetMember
+GetMember
+Push 0.0
+Equals2
+Not
+If loc03cc
+Push "checker", false
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "combatTexter", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "TALENTERROR4"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "KrinCombatText"
+GetMember
+Push "play"
+CallMethod
+Pop
+loc03cc:Jump loc0318
+loc03d1:Push "checker"
+GetVariable
+Not
+If loc0768
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints"
+GetMember
+Decrement
+SetMember
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "skillPoints", "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "skillPoints"
+GetMember
+Decrement
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Increment
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "CLASSIFY"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0700
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Enumerate2
+loc0499:StoreRegister 0
+Push null
+Equals2
+If loc0575
+Push "krinp", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "krinp"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillAdderMatrix"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Equals2
+Not
+If loc0570
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "krinp"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc0570
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push "krinp"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push 1
+Subtract
+Add2
+SetMember
+loc0570:Jump loc0499
+loc0575:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillAdderMatrix"
+GetMember
+Push "id"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push 1
+Subtract
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2", 0.0, "Array"
+NewObject
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill1"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill2"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillAdderMatrix"
+GetMember
+Enumerate2
+loc0661:StoreRegister 0
+Push null
+Equals2
+If loc06fb
+Push "krinu", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillAdderMatrix"
+GetMember
+Push "krinu"
+GetVariable
+GetMember
+Push 0.0
+Greater
+Not
+If loc06f6
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillAdderMatrix"
+GetMember
+Push "krinu"
+GetVariable
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push 0.0, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "KrinCreateAbilityMatrix"
+CallMethod
+Pop
+loc06f6:Jump loc0661
+loc06fb:Jump loc0752
+loc0700:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "buffAdderMatrix"
+GetMember
+Push "id"
+GetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "abilityXer"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Push "BUFFNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "talentMainArray"
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+SetMember
+loc0752:Push 0.0, "_parent"
+GetVariable
+Push "krinRemakeTree"
+CallMethod
+Pop
+loc0768:

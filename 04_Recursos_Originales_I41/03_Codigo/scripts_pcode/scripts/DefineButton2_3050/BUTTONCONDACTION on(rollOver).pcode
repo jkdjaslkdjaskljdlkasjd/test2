@@ -1,0 +1,93 @@
+ConstantPool "_root", "thereIsASlotSelected", "KrinToolTipper", "colorChange", "Common", "fontBacker2", "krinChangeColor", "id", "t", "KrinLang", "KLangChoosen", "MENU", "tt", "Krin", "NameSets", "GO", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "Common"
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange"
+GetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "fontBacker2"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "id"
+GetVariable
+Push 0.0
+Equals2
+Not
+Not
+If loc014c
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 48
+GetMember
+SetMember
+Jump loc0183
+loc014c:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 49
+GetMember
+SetMember
+loc0183:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "NameSets"
+GetMember
+Push "id"
+GetVariable
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop

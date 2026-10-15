@@ -1,0 +1,28 @@
+ConstantPool "gameoverKrin", "Krin", "bossMusic", "_root", "slotSaveGO", "slotInUse", "someListenerKrin", "Mouse", "removeListener", "resetHere", "gotoAndPlay"
+Push "gameoverKrin", true
+SetVariable
+Push "Krin"
+GetVariable
+Push "bossMusic", false
+SetMember
+Push "_root"
+GetVariable
+Push "slotSaveGO", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+SetMember
+Push "someListenerKrin"
+GetVariable
+Push 1, "Mouse"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push "resetHere", 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop

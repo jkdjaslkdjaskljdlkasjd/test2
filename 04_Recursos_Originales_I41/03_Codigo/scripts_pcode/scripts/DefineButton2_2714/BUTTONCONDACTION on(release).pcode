@@ -1,0 +1,83 @@
+ConstantPool "_root", "Krin", "Class", "loadTalents", "assignPointsStart", "moveMatrix", "startSkill1", "startSkill2", "moveMatrix2"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Class", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Class"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "loadTalents"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Class"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "assignPointsStart"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push 0.0, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill1"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill2"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push 0.0, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill1"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "moveMatrix2"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "startSkill2"
+GetMember
+SetMember
+GoToLabel "optionsMenu"
+Play

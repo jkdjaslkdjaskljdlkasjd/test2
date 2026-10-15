@@ -1,0 +1,9 @@
+Push "stance"
+GetVariable
+Push 1, "player6"
+GetVariable
+Push "inner"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop

@@ -1,0 +1,59 @@
+ConstantPool "_root", "shakeValue", "BATTLESCREEN", "_y", "__hdCamSync", "shakeOriginal", "shakeMinus"
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Push "shakeValue"
+GetVariable
+Add2
+SetMember
+Push "shakeValue", "shakeValue"
+GetVariable
+Push "shakeMinus"
+GetVariable
+Subtract
+SetVariable
+Push "shakeValue"
+GetVariable
+Push 0
+Greater
+Not
+If loc00b3
+GoToLabel "KrinShakeplayHere"
+Play
+Jump loc00ff
+loc00b3:Push "shakeValue", "shakeOriginal"
+GetVariable
+SetVariable
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Push 0.9000000000000002
+Add2
+SetMember
+GoToLabel "KrinShakestopHere"
+loc00ff:Push "_root"
+GetVariable
+Push "__hdCamSync"
+GetMember
+Not
+If loc0123
+Push 0, "_root"
+GetVariable
+Push "__hdCamSync"
+CallMethod
+Pop
+loc0123:

@@ -1,0 +1,330 @@
+{
+ "spec": {
+  "model": "MODEL9",
+  "skin": "",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 74,
+    "nombre": "The Bomb",
+    "linea": 9113,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 65,
+    "nombre": "The Bomb",
+    "linea": 13882
+   }
+  ],
+  "name": "AP111_The_Bomb",
+  "nombres": [
+   "The Bomb"
+  ]
+ },
+ "model_id_original": 2219,
+ "model_reconstruido_id": 4407,
+ "export_reconstruido": "RECON_AP111_The_Bomb",
+ "huesos": {},
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "chest",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "arm1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "arm2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "hand1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "hand2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg3",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg4",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "foot1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "foot2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "weapon1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "weapon2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "shoulder",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  }
+ ],
+ "placeobject_parcheados": 0,
+ "notas": [],
+ "definiciones_copiadas": 52,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

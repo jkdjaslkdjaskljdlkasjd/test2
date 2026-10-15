@@ -1,0 +1,26 @@
+ConstantPool "_parent", "teamChangeCD", "bobbybobby"
+Push "_parent"
+GetVariable
+Push "teamChangeCD"
+GetMember
+Push false
+Equals2
+Not
+If loc0079
+Push "bobbybobby", "bobbybobby"
+GetVariable
+Increment
+SetVariable
+Push "bobbybobby"
+GetVariable
+Push 5
+Equals2
+Not
+If loc0079
+Push "_parent"
+GetVariable
+Push "teamChangeCD", true
+SetMember
+Push "bobbybobby", 0.0
+SetVariable
+loc0079:

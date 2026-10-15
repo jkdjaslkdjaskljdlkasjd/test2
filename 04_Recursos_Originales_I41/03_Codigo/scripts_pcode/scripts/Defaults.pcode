@@ -1,0 +1,7 @@
+Push "mx.skins.halo.Defaults"
+GetVariable
+Push "Defaults", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

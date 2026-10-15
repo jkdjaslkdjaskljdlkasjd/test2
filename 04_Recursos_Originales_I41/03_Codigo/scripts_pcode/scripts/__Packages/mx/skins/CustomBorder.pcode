@@ -1,0 +1,393 @@
+ConstantPool "_global", "mx", "Object", "skins", "CustomBorder", "Border", "prototype", "__get__width", "__width", "__get__height", "__height", "init", "createChildren", "draw", "l_mc", "leftSkin", "tagL", "setSkin", "horizontal", "minHeight", "_height", "minWidth", "_width", "m_mc", "middleSkin", "tagM", "r_mc", "rightSkin", "tagR", "size", "move", "width", "height", "x", "setSize", "y", "symbolName", "symbolOwner", "version", "2.0.2.127", "className", "idNames", "Array", "F3PieceLeft", "F3PieceMiddle", "F3PieceRight", "addProperty", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc01c2
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc01c2:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc01fa
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc01fa:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Not
+Not
+If loc07d7
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__width"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__width"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__height"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__height"
+GetMember
+Return
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 2, false, false, false, true, true, false, true, false, false, 0, "Void" {
+Push 0.0, register1, "init"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "createChildren"
+DefineFunction "", 1, "Void"  {
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "l_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc03b2
+Push register1, "leftSkin"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "tagL"
+GetMember
+Push 2, register1, "setSkin"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, "horizontal"
+GetMember
+Not
+If loc038c
+Push register1, "minHeight", register1, "l_mc"
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push register1, "minWidth", register1, "l_mc"
+GetMember
+Push "_width"
+GetMember
+SetMember
+Jump loc03b2
+loc038c:Push register1, "minHeight", register1, "l_mc"
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push register1, "minWidth", register1, "l_mc"
+GetMember
+Push "_width"
+GetMember
+SetMember
+loc03b2:Push register1, "m_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0464
+Push register1, "middleSkin"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "tagM"
+GetMember
+Push 2, register1, "setSkin"
+CallMethod
+Pop
+Push register1, "horizontal"
+GetMember
+Not
+If loc0435
+Push register1, "minHeight", register1, "m_mc"
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push register1, "minWidth", register1, "minWidth"
+GetMember
+Push register1, "m_mc"
+GetMember
+Push "_width"
+GetMember
+Add2
+SetMember
+Jump loc0464
+loc0435:Push register1, "minHeight", register1, "minHeight"
+GetMember
+Push register1, "m_mc"
+GetMember
+Push "_height"
+GetMember
+Add2
+SetMember
+Push register1, "minWidth", register1, "m_mc"
+GetMember
+Push "_width"
+GetMember
+SetMember
+loc0464:Push register1, "r_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0516
+Push register1, "rightSkin"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "tagR"
+GetMember
+Push 2, register1, "setSkin"
+CallMethod
+Pop
+Push register1, "horizontal"
+GetMember
+Not
+If loc04e7
+Push register1, "minHeight", register1, "r_mc"
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push register1, "minWidth", register1, "minWidth"
+GetMember
+Push register1, "r_mc"
+GetMember
+Push "_width"
+GetMember
+Add2
+SetMember
+Jump loc0516
+loc04e7:Push register1, "minHeight", register1, "minHeight"
+GetMember
+Push register1, "r_mc"
+GetMember
+Push "_height"
+GetMember
+Add2
+SetMember
+Push register1, "minWidth", register1, "r_mc"
+GetMember
+Push "_width"
+GetMember
+SetMember
+loc0516:Push 0.0, register1, "size"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, 0.0, 2, register1, "l_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "horizontal"
+GetMember
+Not
+If loc0621
+Push 0.0, 0.0, register1, "__get__width"
+CallMethod
+Push register1, "r_mc"
+GetMember
+Push "width"
+GetMember
+Subtract
+Push 2, register1, "r_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push 0.0, register1, "l_mc"
+GetMember
+Push "width"
+GetMember
+Push 2, register1, "m_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "m_mc"
+GetMember
+Push "height"
+GetMember
+Push register1, "r_mc"
+GetMember
+Push "x"
+GetMember
+Push register1, "m_mc"
+GetMember
+Push "x"
+GetMember
+Subtract
+Push 2, register1, "m_mc"
+GetMember
+Push "setSize"
+CallMethod
+Pop
+Jump loc06d1
+loc0621:Push 0.0, 0.0, register1, "__get__height"
+CallMethod
+Push register1, "r_mc"
+GetMember
+Push "height"
+GetMember
+Subtract
+Push 0.0, 3, register1, "r_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "l_mc"
+GetMember
+Push "height"
+GetMember
+Push 0.0, 2, register1, "m_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "r_mc"
+GetMember
+Push "y"
+GetMember
+Push register1, "m_mc"
+GetMember
+Push "y"
+GetMember
+Subtract
+Push register1, "m_mc"
+GetMember
+Push "width"
+GetMember
+Push 2, register1, "m_mc"
+GetMember
+Push "setSize"
+CallMethod
+Pop
+}
+loc06d1:SetMember
+Push register1, "symbolName", "CustomBorder"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "CustomBorder"
+SetMember
+Push register1, "tagL", 0.0
+SetMember
+Push register1, "tagM", 1
+SetMember
+Push register1, "tagR", 2
+SetMember
+Push register2, "idNames", "r_mc", "m_mc", "l_mc", 3, "Array"
+NewObject
+SetMember
+Push register2, "leftSkin", "F3PieceLeft"
+SetMember
+Push register2, "middleSkin", "F3PieceMiddle"
+SetMember
+Push register2, "rightSkin", "F3PieceRight"
+SetMember
+Push register2, "horizontal", true
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "CustomBorder"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc07d7:Pop

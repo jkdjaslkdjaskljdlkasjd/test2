@@ -1,0 +1,54 @@
+ConstantPool "PvPCodeLode", "Krin", "singlePlayer", "playerNumber", "turnBasedKrin", "BattlePick", "_root", "KRS", "Array", "r", "KRSC"
+Push "PvPCodeLode"
+GetVariable
+Not
+Not
+If loc0135
+Push "Krin"
+GetVariable
+Push "singlePlayer", false
+SetMember
+Push "Krin"
+GetVariable
+Push "playerNumber", 1
+SetMember
+Push "turnBasedKrin", true
+SetVariable
+Push "Krin"
+GetVariable
+Push "BattlePick", 1
+SetMember
+Push "_root"
+GetVariable
+Push "KRS", 0.0, "Array"
+NewObject
+SetMember
+Push "r", 0.0
+SetVariable
+loc00cc:Push "r"
+GetVariable
+Push 100
+Less2
+Not
+If loc010c
+Push "_root"
+GetVariable
+Push "KRS"
+GetMember
+Push "r"
+GetVariable
+Push 100
+RandomNumber
+SetMember
+Push "r", "r"
+GetVariable
+Increment
+SetVariable
+Jump loc00cc
+loc010c:Push "_root"
+GetVariable
+Push "KRSC", 0.0
+SetMember
+GoToLabel "LOADBATTLESCENE"
+Play
+loc0135:

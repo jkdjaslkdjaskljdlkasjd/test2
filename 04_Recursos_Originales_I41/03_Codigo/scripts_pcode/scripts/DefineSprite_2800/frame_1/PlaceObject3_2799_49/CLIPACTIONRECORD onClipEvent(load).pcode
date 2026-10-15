@@ -1,0 +1,63 @@
+ConstantPool "pN", "nameText", "playerKrin", "playerName", "i", "BLACK", "b", "COVER", "gotoAndStop", "agMode", "WHITE", "setAG"
+DefineFunction2 "setAG", 1, 4, false, true, true, false, true, false, false, true, false, 3, "num" {
+Push "pN", register3
+SetVariable
+Push "nameText", register2, "playerKrin", "pN"
+GetVariable
+Add2
+GetMember
+Push "playerName"
+GetMember
+SetVariable
+Push "i", 1
+SetVariable
+loc0093:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc00d7
+Push "BLACK", 1, register1, "b", "i"
+GetVariable
+Add2
+GetMember
+Push "COVER"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0093
+loc00d7:Push register2, "playerKrin", "pN"
+GetVariable
+Add2
+GetMember
+Push "agMode"
+GetMember
+Push 0.0
+Less2
+Not
+Not
+If loc0132
+Push "WHITE", 1, register1, "b", register2, "playerKrin", "pN"
+GetVariable
+Add2
+GetMember
+Push "agMode"
+GetMember
+Push 1
+Add2
+Add2
+GetMember
+Push "COVER"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+}
+loc0132:Push 3, 1, "setAG"
+CallFunction
+Pop

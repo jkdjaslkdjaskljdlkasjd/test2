@@ -1,0 +1,227 @@
+ConstantPool "_root", "Krin", "slotInUse", "dataMode", "save", "nameUser", "krinNameUser", "thereIsASlotSelected", "KrinToolTipper", "tt", "", "t", "gotoAndStop", "isDebugMode", "debugLevel", "Level", "LevelStats", "skillPoints", "statPoints", "Euro", "questProgress", "EMPTY", "slot", "data", "krinHandleData", "flush", "arenaMode", "arenaPlayer", "currentArenaPlayer", "pickText", "KrinLang", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse", 4
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode"
+GetMember
+Push "save"
+Equals2
+Not
+If loc0342
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "nameUser", "_root"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", false
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", ""
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", ""
+SetMember
+Push 1, 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "isDebugMode"
+GetMember
+Not
+If loc0330
+Push "debugLevel", 50
+DefineLocal
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Level", "debugLevel"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push 0.0, "debugLevel"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "skillPoints", "debugLevel"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints", "debugLevel"
+GetVariable
+Push 20
+Multiply
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro", 1000000
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "questProgress", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13, 10, 9, 13, 10, "EMPTY", 14
+InitArray
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats", "debugLevel"
+GetVariable
+Push "debugLevel"
+GetVariable
+Push "debugLevel"
+GetVariable
+Push "debugLevel"
+GetVariable
+Push "debugLevel"
+GetVariable
+Push "debugLevel"
+GetVariable
+Push 6
+InitArray
+SetMember
+loc0330:GoToLabel "classMenu"
+Jump loc0490
+loc0342:Push "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0490
+Push "_root"
+GetVariable
+Push "krinNameUser", "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "krinHandleData"
+CallMethod
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse"
+GetMember
+Add2
+GetMember
+Push "flush"
+CallMethod
+Pop
+Push "arenaMode"
+GetVariable
+Push true
+Equals2
+Not
+If loc0482
+Push "_root"
+GetVariable
+Push "arenaPlayer", "currentArenaPlayer"
+GetVariable
+Add2
+GetMember
+Push "krinNameUser", "_root"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "currentArenaPlayer"
+GetVariable
+Push 1
+Equals2
+Not
+If loc0471
+Push "currentArenaPlayer", "currentArenaPlayer"
+GetVariable
+Increment
+SetVariable
+Push "pickText", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 73
+GetMember
+SetVariable
+Jump loc047d
+loc0471:GoToLabel "ArenaNav"
+loc047d:Jump loc0490
+loc0482:GoToLabel "Navigation"
+loc0490:

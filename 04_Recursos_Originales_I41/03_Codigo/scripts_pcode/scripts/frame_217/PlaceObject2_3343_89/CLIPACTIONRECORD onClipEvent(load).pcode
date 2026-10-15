@@ -1,0 +1,18 @@
+ConstantPool "saverX", "", "saverY", "_root", "Krin", "ZoneBG", "this", "gotoAndStop"
+Push "saverX", "", 0.0
+GetProperty
+SetVariable
+Push "saverY", "", 1
+GetProperty
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ZoneBG"
+GetMember
+Push 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

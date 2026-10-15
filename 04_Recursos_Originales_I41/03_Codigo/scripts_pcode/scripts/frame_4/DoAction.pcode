@@ -1,0 +1,13 @@
+Push "whatToSay", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 11
+GetMember
+SetVariable
+Stop

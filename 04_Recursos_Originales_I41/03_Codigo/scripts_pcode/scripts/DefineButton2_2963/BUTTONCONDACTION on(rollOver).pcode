@@ -1,0 +1,298 @@
+ConstantPool "_root", "thereIsASlotSelected", "KrinToolTipper", "colorChange", "KRINITEM", "Krin", "equipArray", "MenuPlayerSelect", "id", "tt", "t", "KrinLang", "ENGLISH", "ITEMSS", "IPS", "GO", "gotoAndStop", "rubyCount", "t3", "req", "TX", "Array", "toolTipAlt", "ttx", "toolTip", "GO4"
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", true
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 2
+Less2
+Not
+If loc0216
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "ENGLISH"
+GetMember
+Push "ITEMSS"
+GetMember
+Push "IPS"
+GetVariable
+Push 2
+Subtract
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0448
+loc0216:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "rubyCount", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t3", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "req"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "TX", 0.0, "Array"
+NewObject
+SetMember
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Enumerate2
+loc0314:StoreRegister 0
+Push null
+Equals2
+If loc03e6
+Push "t", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Push "t"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc03e1
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "TX"
+GetMember
+Push "rubyCount"
+GetVariable
+Push "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTipAlt"
+GetMember
+Push "t"
+GetVariable
+GetMember
+SetMember
+Push "rubyCount", "rubyCount"
+GetVariable
+Increment
+SetVariable
+loc03e1:Jump loc0314
+loc03e6:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "ttx", "_root"
+GetVariable
+Push "KRINITEM", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "equipArray", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "id"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "toolTip"
+GetMember
+SetMember
+Push "GO4", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0448:

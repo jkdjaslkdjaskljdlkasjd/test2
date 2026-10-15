@@ -1,0 +1,85 @@
+{
+ "linkage": "M_SCHEST_TWO",
+ "characterId": 1840,
+ "tipo": "DefineSprite",
+ "grupo": "A_B_piel_TWO_veradux_equipo",
+ "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+ "archivos": {
+  "svg": "pieza.svg",
+  "png": "pieza_x4.png"
+ },
+ "subelementos": [
+  {
+   "characterId": 1839,
+   "tipo": "DefineShape3",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape3_1839.svg",
+    "subelementos/DefineShape3_1839.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 1839,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 1839,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "svg_lienzo_px": [
+  19.85,
+  32.85
+ ],
+ "anclaje_svg_px": [
+  9.9,
+  16.4
+ ],
+ "png_tamano": [
+  80,
+  132
+ ],
+ "png_escala": 4.0,
+ "anclaje_png_px": [
+  39.9,
+  65.9
+ ],
+ "lista_visualizacion": [
+  {
+   "f": 1,
+   "depth": 2,
+   "op": "place",
+   "ch": 1839,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0
+   ]
+  }
+ ]
+}

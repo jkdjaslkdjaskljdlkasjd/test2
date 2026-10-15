@@ -1,0 +1,6 @@
+Push 0.0, "my_txt3"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+GoToLabel "none"

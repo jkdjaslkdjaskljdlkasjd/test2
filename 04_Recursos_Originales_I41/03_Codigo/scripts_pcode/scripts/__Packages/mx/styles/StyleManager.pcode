@@ -1,0 +1,190 @@
+ConstantPool "_global", "mx", "Object", "styles", "StyleManager", "prototype", "registerInheritingStyle", "inheritingStyles", "isInheritingStyle", "registerColorStyle", "colorStyles", "isColorStyle", "registerColorName", "colorNames", "isColorName", "getColorName", "color", "direction", "fontFamily", "fontSize", "fontStyle", "fontWeight", "textAlign", "textIndent", "barColor", "trackColor", "borderColor", "buttonColor", "dateHeaderColor", "dateRollOverColor", "disabledColor", "fillColor", "highlightColor", "scrollTrackColor", "selectedDateColor", "shadowColor", "strokeColor", "symbolBackgroundColor", "symbolBackgroundDisabledColor", "symbolBackgroundPressedColor", "symbolColor", "symbolDisabledColor", "themeColor", "todayIndicatorColor", "shadowCapColor", "borderCapColor", "focusColor", "black", "white", "red", "green", "blue", "magenta", "yellow", "cyan", "haloGreen", "haloBlue", "haloOrange", "TextFormatStyleProps", "font", "size", "leftMargin", "rightMargin", "italic", "bold", "align", "indent", "underline", "embedFonts", "TextStyleMap", "lineHeight", "marginLeft", "marginRight", "textDecoration", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc03b2
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc03b2:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Not
+Not
+If loc03ea
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles", 0.0, "Object"
+NewObject
+SetMember
+loc03ea:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Not
+Not
+If loc079d
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "registerInheritingStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "styleName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "inheritingStyles"
+GetMember
+Push register1, true
+SetMember
+}
+SetMember
+Push register1, "isInheritingStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "styleName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "inheritingStyles"
+GetMember
+Push register1
+GetMember
+Push true
+Equals2
+Return
+}
+SetMember
+Push register1, "registerColorStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "styleName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorStyles"
+GetMember
+Push register1, true
+SetMember
+}
+SetMember
+Push register1, "isColorStyle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "styleName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorStyles"
+GetMember
+Push register1
+GetMember
+Push true
+Equals2
+Return
+}
+SetMember
+Push register1, "registerColorName"
+DefineFunction2 "", 2, 3, false, false, true, false, true, false, true, false, false, 2, "colorName", 1, "colorValue" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push register2, register1
+SetMember
+}
+SetMember
+Push register1, "isColorName"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "colorName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push register1
+GetMember
+Push undefined
+Equals2
+Not
+Return
+}
+SetMember
+Push register1, "getColorName"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "colorName" {
+Push "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "colorNames"
+GetMember
+Push register1
+GetMember
+Return
+}
+SetMember
+Push register1, "inheritingStyles", "color", true, "direction", true, "fontFamily", true, "fontSize", true, "fontStyle", true, "fontWeight", true, "textAlign", true, "textIndent", true, 8
+InitObject
+SetMember
+Push register1, "colorStyles", "barColor", true, "trackColor", true, "borderColor", true, "buttonColor", true, "color", true, "dateHeaderColor", true, "dateRollOverColor", true, "disabledColor", true, "fillColor", true, "highlightColor", true, "scrollTrackColor", true, "selectedDateColor", true, "shadowColor", true, "strokeColor", true, "symbolBackgroundColor", true, "symbolBackgroundDisabledColor", true, "symbolBackgroundPressedColor", true, "symbolColor", true, "symbolDisabledColor", true, "themeColor", true, "todayIndicatorColor", true, "shadowCapColor", true, "borderCapColor", true, "focusColor", true, 24
+InitObject
+SetMember
+Push register1, "colorNames", "black", 0.0, "white", 16777215, "red", 16711680, "green", 65280, "blue", 255, "magenta", 16711935, "yellow", 16776960, "cyan", 65535, "haloGreen", 8453965, "haloBlue", 2881013, "haloOrange", 16761344, 11
+InitObject
+SetMember
+Push register1, "TextFormatStyleProps", "font", true, "size", true, "color", true, "leftMargin", false, "rightMargin", false, "italic", true, "bold", true, "align", true, "indent", true, "underline", false, "embedFonts", false, 11
+InitObject
+SetMember
+Push register1, "TextStyleMap", "textAlign", true, "fontWeight", true, "color", true, "fontFamily", true, "textIndent", true, "fontStyle", true, "lineHeight", true, "marginLeft", true, "marginRight", true, "fontSize", true, "textDecoration", true, "embedFonts", true, 12
+InitObject
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "StyleManager"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc079d:Pop

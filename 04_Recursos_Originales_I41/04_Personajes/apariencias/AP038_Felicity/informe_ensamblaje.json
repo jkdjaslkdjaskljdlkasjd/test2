@@ -1,0 +1,515 @@
+{
+ "spec": {
+  "model": "MODEL4",
+  "skin": "FEL",
+  "hair": "",
+  "gender": "F",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   "FELKNIFE",
+   "FELKNIFE"
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 11,
+    "nombre": "Felicity",
+    "linea": 8513,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 71,
+    "nombre": "Felicity",
+    "linea": 9079,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 11,
+    "nombre": "Felicity",
+    "linea": 13828
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 62,
+    "nombre": "Felicity",
+    "linea": 13879
+   }
+  ],
+  "name": "AP038_Felicity",
+  "nombres": [
+   "Felicity"
+  ]
+ },
+ "model_id_original": 2452,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP038_Felicity",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_FEL",
+     "characterId": 770
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHAND_FEL",
+     "characterId": 764
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_FELKNIFE",
+     "characterId": 1310
+    }
+   ]
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SFOOT_FEL",
+     "characterId": 766
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_FEL",
+     "characterId": 770
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SLEG2_FEL",
+     "characterId": 760
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SFOOT_FEL",
+     "characterId": 766
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_FEL",
+     "characterId": 770
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SLEG2_FEL",
+     "characterId": 760
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SCHEST_FEL",
+     "characterId": 768
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_FEL",
+     "characterId": 770
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHEAD_FEL",
+     "characterId": 762
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": []
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_FELKNIFE",
+     "characterId": 1310
+    }
+   ]
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHAND_FEL",
+     "characterId": 764
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "F_SHEAD_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 762
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "F_SCHEST_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 768
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "F_SARM_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 770
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "F_SARM_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 770
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "F_SHAND_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 764
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "F_SHAND_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 764
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "F_SARM_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 770
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "F_SARM_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 770
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "F_SLEG2_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 760
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "F_SLEG2_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 760
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "F_SFOOT_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 766
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "F_SFOOT_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 766
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "F_SWEAPON_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "F_WEAPON_FELKNIFE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_FELKNIFE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1310
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "F_SWEAPON_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "F_WEAPON_FELKNIFE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_FELKNIFE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1310
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "F_SSHOULDER_FEL",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 54,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

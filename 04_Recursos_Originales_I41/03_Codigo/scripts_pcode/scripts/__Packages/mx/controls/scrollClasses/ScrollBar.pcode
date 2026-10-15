@@ -1,0 +1,1368 @@
+ConstantPool "_global", "mx", "Object", "controls", "scrollClasses", "ScrollBar", "core", "UIComponent", "prototype", "__get__scrollPosition", "_scrollPosition", "__set__scrollPosition", "isScrolling", "maxPos", "Math", "min", "minPos", "max", "scrollTrack_mc", "height", "scrollThumb_mc", "_height", "top", "move", "__get__pageScrollSize", "largeScroll", "__set__pageScrollSize", "__set__lineScrollSize", "smallScroll", "__get__lineScrollSize", "__get__virtualHeight", "__height", "init", "tabEnabled", "focusEnabled", "boundingBox_mc", "_visible", "_width", "createChildren", "scrollTrackName", "skinIDTrack", "setSkin", "visible", "enabled", "preset", "SimpleButton", "falseDisabled", "initProperties", "autoRepeat", "upArrow_mc", "skinIDUpArrow", "upArrowName", "createButton", "buttonDownHandler", "onUpArrow", "clickHandler", "onScrollChanged", "_minHeight", "_minWidth", "width", "downArrow_mc", "skinIDDownArrow", "downArrowName", "onDownArrow", "falseUpSkin", "upArrowUpName", "falseDownSkin", "upArrowDownName", "falseOverSkin", "upArrowOverName", "downArrowUpName", "downArrowDownName", "downArrowOverName", "createObject", "useHandCursor", "createThumb", "validateNow", "leftSkin", "thumbTopName", "middleSkin", "thumbMiddleName", "rightSkin", "thumbBottomName", "gripSkin", "thumbGripName", "skinIDThumb", "ScrollThumb", "createClassObject", "setScrollProperties", "pageSize", "initializing", "onPress", "onDragOver", "startTrackScroller", "onRelease", "releaseScrolling", "onDragOut", "stopScrolling", "onReleaseOutside", "scrollTrackOverName", "length", "onRollOver", "trackOver", "onRollOut", "trackOut", "minHeight", "__set__visible", "setSize", "__get__height", "setRange", "setEnabled", "draw", "size", "_y", "dispatchScrollEvent", "type", "scroll", "detail", "dispatchEvent", "isScrollBarKey", "minMode", "maxMode", "scrollIt", "Line", "plusMode", "minusMode", "_parent", "pressFocus", "scrollTrackDownName", "scrollTrackDown_mc", "skinIDTrackDown", "trackScroller", "scrolling", "Page", "repeatDelay", "getStyle", "scrollInterval", "setInterval", "clearInterval", "repeatInterval", "_ymouse", "dispatchScrollChangedEvent", "scrollChanged", "releaseFocus", "scrollTrackOver_mc", "skinIDTrackOver", "symbolOwner", "className", "ScrollTrack", "", "BtnUpArrow", "ScrollUpArrowUp", "ScrollUpArrowOver", "ScrollUpArrowDown", "BtnDownArrow", "ScrollDownArrowUp", "ScrollDownArrowOver", "ScrollDownArrowDown", "ScrollThumbTopUp", "ScrollThumbMiddleUp", "ScrollThumbBottomUp", "ScrollThumbGripUp", "idNames", "Array", "clipParameters", "scrollPosition", "lineScrollSize", "pageScrollSize", "mergedClipParameters", "UIObject", "mergeClipParameters", "addProperty", "virtualHeight", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc08b0
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc08b0:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc08e8
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc08e8:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Not
+Not
+If loc092c
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses", 0.0, "Object"
+NewObject
+SetMember
+loc092c:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Not
+Not
+If loc2030
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__scrollPosition"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_scrollPosition"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__scrollPosition"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 2, "pos" {
+Push register1, "_scrollPosition", register2
+SetMember
+Push register1, "isScrolling"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc0ac2
+Push register1, "maxPos"
+GetMember
+Push register2, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, "minPos"
+GetMember
+Push register2, 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, register1, "minPos"
+GetMember
+Subtract
+Push register1, "scrollTrack_mc"
+GetMember
+Push "height"
+GetMember
+Push register1, "scrollThumb_mc"
+GetMember
+Push "_height"
+GetMember
+Subtract
+Multiply
+Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Subtract
+Divide
+Push register1, "scrollTrack_mc"
+GetMember
+Push "top"
+GetMember
+Add2
+StoreRegister 3
+Pop
+Push register3, 0.0, 2, register1, "scrollThumb_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+loc0ac2:Push 0.0, register1, "__get__scrollPosition"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__pageScrollSize"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "largeScroll"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__pageScrollSize"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "lScroll" {
+Push register1, "largeScroll", register2
+SetMember
+Push 0.0, register1, "__get__pageScrollSize"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__set__lineScrollSize"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "sScroll" {
+Push register1, "smallScroll", register2
+SetMember
+Push 0.0, register1, "__get__lineScrollSize"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__lineScrollSize"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "smallScroll"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__virtualHeight"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__height"
+GetMember
+Return
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "_scrollPosition", 0.0
+SetMember
+Push register1, "tabEnabled", false
+SetMember
+Push register1, "focusEnabled", false
+SetMember
+Push register1, "boundingBox_mc"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "boundingBox_mc"
+GetMember
+Push "_width", register1, "boundingBox_mc"
+GetMember
+Push "_height", 0.0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+SetMember
+Push register2, "createChildren"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "scrollTrack_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0c83
+Push register1, "scrollTrackName"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDTrack"
+GetMember
+Push 2, register1, "setSkin"
+CallMethod
+Pop
+loc0c83:Push register1, "scrollTrack_mc"
+GetMember
+Push "visible", false
+SetMember
+Push 0.0, "Object"
+NewObject
+StoreRegister 3
+Pop
+Push register3, "enabled", false
+SetMember
+Push register3, "preset", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "falseDisabled"
+GetMember
+SetMember
+Push register3, "initProperties", 0.0
+SetMember
+Push register3, "autoRepeat", true
+SetMember
+Push register3, "tabEnabled", false
+SetMember
+Push undefined
+StoreRegister 2
+Pop
+Push register1, "upArrow_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0d4b
+Push register3, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDUpArrow"
+GetMember
+Push "upArrow_mc", register1, "upArrowName"
+GetMember
+Push 4, register1, "createButton"
+CallMethod
+StoreRegister 2
+Pop
+loc0d4b:Push register2, "buttonDownHandler", register1, "onUpArrow"
+GetMember
+SetMember
+Push register2, "clickHandler", register1, "onScrollChanged"
+GetMember
+SetMember
+Push register1, "_minHeight", register2, "height"
+GetMember
+SetMember
+Push register1, "_minWidth", register2, "width"
+GetMember
+SetMember
+Push register1, "downArrow_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0dce
+Push register3, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDDownArrow"
+GetMember
+Push "downArrow_mc", register1, "downArrowName"
+GetMember
+Push 4, register1, "createButton"
+CallMethod
+StoreRegister 2
+Pop
+loc0dce:Push register2, "buttonDownHandler", register1, "onDownArrow"
+GetMember
+SetMember
+Push register2, "clickHandler", register1, "onScrollChanged"
+GetMember
+SetMember
+Push register1, "_minHeight", register1, "_minHeight"
+GetMember
+Push register2, "height"
+GetMember
+Add2
+SetMember
+}
+SetMember
+Push register2, "createButton"
+DefineFunction2 "", 4, 7, false, false, true, false, true, false, false, true, false, 6, "linkageName", 4, "id", 5, "skinID", 2, "o" {
+Push register5, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDUpArrow"
+GetMember
+Equals2
+Not
+If loc0e80
+Push register2, "falseUpSkin", register1, "upArrowUpName"
+GetMember
+SetMember
+Push register2, "falseDownSkin", register1, "upArrowDownName"
+GetMember
+SetMember
+Push register2, "falseOverSkin", register1, "upArrowOverName"
+GetMember
+SetMember
+Jump loc0ea7
+loc0e80:Push register2, "falseUpSkin", register1, "downArrowUpName"
+GetMember
+SetMember
+Push register2, "falseDownSkin", register1, "downArrowDownName"
+GetMember
+SetMember
+Push register2, "falseOverSkin", register1, "downArrowOverName"
+GetMember
+SetMember
+loc0ea7:Push register2, register5, register4, register6, 4, register1, "createObject"
+CallMethod
+StoreRegister 3
+Pop
+Push register1, register4
+GetMember
+Push "visible", false
+SetMember
+Push register1, register4
+GetMember
+Push "useHandCursor", false
+SetMember
+Push register3
+Return
+}
+SetMember
+Push register2, "createThumb"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, "Object"
+NewObject
+StoreRegister 2
+Pop
+Push register2, "validateNow", true
+SetMember
+Push register2, "tabEnabled", false
+SetMember
+Push register2, "leftSkin", register1, "thumbTopName"
+GetMember
+SetMember
+Push register2, "middleSkin", register1, "thumbMiddleName"
+GetMember
+SetMember
+Push register2, "rightSkin", register1, "thumbBottomName"
+GetMember
+SetMember
+Push register2, "gripSkin", register1, "thumbGripName"
+GetMember
+SetMember
+Push register2, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDThumb"
+GetMember
+Push "scrollThumb_mc", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollThumb"
+GetMember
+Push 4, register1, "createClassObject"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "setScrollProperties"
+DefineFunction2 "", 4, 10, false, false, true, false, true, false, false, true, false, 7, "pSize", 8, "mnPos", 9, "mxPos", 6, "ls" {
+Push undefined
+StoreRegister 4
+Pop
+Push register1, "scrollTrack_mc"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "pageSize", register7
+SetMember
+Push register1, "largeScroll", register6, undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc1013
+Pop
+Push register6, 0.0
+Greater
+loc1013:If loc1022
+Push register7
+Jump loc1027
+loc1022:Push register6
+loc1027:SetMember
+Push register1, "minPos", 0.0, register8, 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetMember
+Push register1, "maxPos", 0.0, register9, 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetMember
+Push register1, "_scrollPosition", register1, "_scrollPosition"
+GetMember
+Push register1, "minPos"
+GetMember
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetMember
+Push register1, "_scrollPosition", register1, "_scrollPosition"
+GetMember
+Push register1, "maxPos"
+GetMember
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetMember
+Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Subtract
+Push 0.0
+Greater
+PushDuplicate
+Not
+If loc10e4
+Pop
+Push register1, "enabled"
+GetMember
+loc10e4:Not
+If loc139b
+Push register1, "_scrollPosition"
+GetMember
+StoreRegister 5
+Pop
+Push register1, "initializing"
+GetMember
+Not
+Not
+If loc1126
+Push register1, "upArrow_mc"
+GetMember
+Push "enabled", true
+SetMember
+Push register1, "downArrow_mc"
+GetMember
+Push "enabled", true
+SetMember
+loc1126:Push register2, "onPress", register2, "onDragOver", register1, "startTrackScroller"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "onRelease", register1, "releaseScrolling"
+GetMember
+SetMember
+Push register2, "onDragOut", register2, "stopScrolling", register1, "stopScrolling"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "onReleaseOutside", register1, "releaseScrolling"
+GetMember
+SetMember
+Push register2, "useHandCursor", false
+SetMember
+Push register1, "scrollThumb_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc11a5
+Push 0.0, register1, "createThumb"
+CallMethod
+Pop
+loc11a5:Push register1, "scrollThumb_mc"
+GetMember
+StoreRegister 3
+Pop
+Push register1, "scrollTrackOverName"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc11ed
+Push register2, "onRollOver", register1, "trackOver"
+GetMember
+SetMember
+Push register2, "onRollOut", register1, "trackOut"
+GetMember
+SetMember
+loc11ed:Push register1, "pageSize"
+GetMember
+Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Subtract
+Push register1, "pageSize"
+GetMember
+Add2
+Divide
+Push register2, "height"
+GetMember
+Multiply
+StoreRegister 4
+Pop
+Push register4, register3, "minHeight"
+GetMember
+Less2
+Not
+If loc12a8
+Push register2, "height"
+GetMember
+Push register3, "minHeight"
+GetMember
+Less2
+Not
+If loc125b
+Push false, 1, register3, "__set__visible"
+CallMethod
+Pop
+Jump loc12a3
+loc125b:Push register3, "minHeight"
+GetMember
+StoreRegister 4
+Pop
+Push true, 1, register3, "__set__visible"
+CallMethod
+Pop
+Push register3, "minHeight"
+GetMember
+Push 0.0
+Add2
+Push register1, "_minWidth"
+GetMember
+Push 2, register3, "setSize"
+CallMethod
+Pop
+loc12a3:Jump loc12d0
+loc12a8:Push true, 1, register3, "__set__visible"
+CallMethod
+Pop
+Push register4, register1, "_minWidth"
+GetMember
+Push 2, register3, "setSize"
+CallMethod
+Pop
+loc12d0:Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Push 0.0, register1, "__get__virtualHeight"
+CallMethod
+Push 0.0, register1, "downArrow_mc"
+GetMember
+Push "__get__height"
+CallMethod
+Subtract
+Push 0.0, register3, "__get__height"
+CallMethod
+Subtract
+Push 0.0, register1, "upArrow_mc"
+GetMember
+Push "__get__height"
+CallMethod
+Push 0.0
+Add2
+Push 4, register3, "setRange"
+CallMethod
+Pop
+Push register1, "maxPos"
+GetMember
+Push register5, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+StoreRegister 5
+Pop
+Push register1, "minPos"
+GetMember
+Push register5, 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+Jump loc141f
+loc139b:Push false, 1, register1, "scrollThumb_mc"
+GetMember
+Push "__set__visible"
+CallMethod
+Pop
+Push register1, "initializing"
+GetMember
+Not
+Not
+If loc13e0
+Push register1, "upArrow_mc"
+GetMember
+Push "enabled", false
+SetMember
+Push register1, "downArrow_mc"
+GetMember
+Push "enabled", false
+SetMember
+loc13e0:Push register2, "onPress"
+Delete
+Pop
+Push register2, "onDragOver"
+Delete
+Pop
+Push register2, "onRelease"
+Delete
+Pop
+Push register2, "onDragOut"
+Delete
+Pop
+Push register2, "onRollOver"
+Delete
+Pop
+Push register2, "onRollOut"
+Delete
+Pop
+Push register2, "onReleaseOutside"
+Delete
+Pop
+loc141f:Push register1, "initializing"
+GetMember
+Not
+If loc1443
+Push false, 1, register1, "scrollThumb_mc"
+GetMember
+Push "__set__visible"
+CallMethod
+Pop
+}
+loc1443:SetMember
+Push register2, "setEnabled"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "enabledFlag" {
+Push register3, 1, register2, "setEnabled"
+CallMethod
+Pop
+Push register1, "largeScroll"
+GetMember
+Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Push register1, "pageSize"
+GetMember
+Push 4, register1, "setScrollProperties"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "initializing"
+GetMember
+Not
+If loc150e
+Push register1, "initializing", false
+SetMember
+Push register1, "scrollTrack_mc"
+GetMember
+Push "visible", true
+SetMember
+Push true, 1, register1, "upArrow_mc"
+GetMember
+Push "__set__visible"
+CallMethod
+Pop
+Push true, 1, register1, "downArrow_mc"
+GetMember
+Push "__set__visible"
+CallMethod
+Pop
+loc150e:Push 0.0, register1, "size"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_height"
+GetMember
+Push 1
+Equals2
+Not
+If loc1555
+Push undefined
+Return
+loc1555:Push register1, "upArrow_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc156d
+Push undefined
+Return
+loc156d:Push 0.0, register1, "upArrow_mc"
+GetMember
+Push "__get__height"
+CallMethod
+StoreRegister 3
+Pop
+Push 0.0, register1, "downArrow_mc"
+GetMember
+Push "__get__height"
+CallMethod
+StoreRegister 2
+Pop
+Push 0.0, 0.0, 2, register1, "upArrow_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "scrollTrack_mc"
+GetMember
+StoreRegister 4
+Pop
+Push register4, "_y", register3
+SetMember
+Push register4, "_height", 0.0, register1, "__get__virtualHeight"
+CallMethod
+Push register3
+Subtract
+Push register2
+Subtract
+SetMember
+Push 0.0, register1, "__get__virtualHeight"
+CallMethod
+Push register2
+Subtract
+Push 0.0, 2, register1, "downArrow_mc"
+GetMember
+Push "move"
+CallMethod
+Pop
+Push register1, "largeScroll"
+GetMember
+Push register1, "maxPos"
+GetMember
+Push register1, "minPos"
+GetMember
+Push register1, "pageSize"
+GetMember
+Push 4, register1, "setScrollProperties"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "dispatchScrollEvent"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 2, "detail" {
+Push "type", "scroll", "detail", register2, 2
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "isScrollBarKey"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "k" {
+Push register2, 36
+Equals2
+Not
+If loc171f
+Push 0.0, register1, "__get__scrollPosition"
+CallMethod
+Push 0.0
+Equals2
+Not
+Not
+If loc1719
+Push 0.0, 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+Push register1, "minMode"
+GetMember
+Push 1, register1, "dispatchScrollEvent"
+CallMethod
+Pop
+loc1719:Push true
+Return
+loc171f:Push register2, 35
+Equals2
+Not
+If loc1782
+Push 0.0, register1, "__get__scrollPosition"
+CallMethod
+Push register1, "maxPos"
+GetMember
+Less2
+Not
+If loc177c
+Push register1, "maxPos"
+GetMember
+Push 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+Push register1, "maxMode"
+GetMember
+Push 1, register1, "dispatchScrollEvent"
+CallMethod
+Pop
+loc177c:Push true
+Return
+loc1782:Push false
+Return
+}
+SetMember
+Push register2, "scrollIt"
+DefineFunction2 "", 2, 7, false, false, true, false, true, false, false, true, false, 6, "inc", 5, "mode" {
+Push register1, "smallScroll"
+GetMember
+StoreRegister 3
+Pop
+Push register6, "Line"
+Equals2
+Not
+Not
+If loc17f6
+Push register1, "largeScroll"
+GetMember
+Push 0.0
+Equals2
+If loc17e9
+Push register1, "largeScroll"
+GetMember
+Jump loc17f1
+loc17e9:Push register1, "pageSize"
+GetMember
+loc17f1:StoreRegister 3
+Pop
+loc17f6:Push register1, "_scrollPosition"
+GetMember
+Push register5, register3
+Multiply
+Add2
+StoreRegister 2
+Pop
+Push register2, register1, "maxPos"
+GetMember
+Greater
+Not
+If loc182f
+Push register1, "maxPos"
+GetMember
+StoreRegister 2
+Pop
+Jump loc184d
+loc182f:Push register2, register1, "minPos"
+GetMember
+Less2
+Not
+If loc184d
+Push register1, "minPos"
+GetMember
+StoreRegister 2
+Pop
+loc184d:Push 0.0, register1, "__get__scrollPosition"
+CallMethod
+Push register2
+Equals2
+Not
+Not
+If loc18bf
+Push register2, 1, register1, "__set__scrollPosition"
+CallMethod
+Pop
+Push register5, 0.0
+Less2
+If loc189c
+Push register1, "plusMode"
+GetMember
+Jump loc18a4
+loc189c:Push register1, "minusMode"
+GetMember
+loc18a4:StoreRegister 4
+Pop
+Push register6, register4
+Add2
+Push 1, register1, "dispatchScrollEvent"
+CallMethod
+Pop
+}
+loc18bf:SetMember
+Push register2, "startTrackScroller"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "pressFocus"
+CallMethod
+Pop
+Push register1, "_parent"
+GetMember
+Push "scrollTrackDownName"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc1985
+Push register1, "_parent"
+GetMember
+Push "scrollTrackDown_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc196f
+Push register1, "scrollTrackDownName"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDTrackDown"
+GetMember
+Push 2, register1, "_parent"
+GetMember
+Push "setSkin"
+CallMethod
+Pop
+Jump loc1985
+loc196f:Push register1, "_parent"
+GetMember
+Push "scrollTrackDown_mc"
+GetMember
+Push "visible", true
+SetMember
+loc1985:Push 0.0, register1, "_parent"
+GetMember
+Push "trackScroller"
+CallMethod
+Pop
+Push register1, "_parent"
+GetMember
+Push "scrolling", -1, "Page", "repeatDelay", 1, register1, "getStyle"
+CallMethod
+Push "scrollInterval", register1, "_parent"
+GetMember
+Push 5, "setInterval"
+CallFunction
+SetMember
+}
+SetMember
+Push register2, "scrollInterval"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 2, "inc", 3, "mode" {
+Push register1, "scrolling"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register2, "Page"
+Equals2
+Not
+If loc1a2a
+Push 0.0, register1, "trackScroller"
+CallMethod
+Pop
+Jump loc1a3c
+loc1a2a:Push register3, register2, 2, register1, "scrollIt"
+CallMethod
+Pop
+loc1a3c:Push register1, "scrolling", register3, register2, "repeatInterval", 1, register1, "getStyle"
+CallMethod
+Push "scrollInterval", register1, 5, "setInterval"
+CallFunction
+SetMember
+}
+SetMember
+Push register2, "trackScroller"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "scrollThumb_mc"
+GetMember
+Push "_y"
+GetMember
+Push 0.0, register1, "scrollThumb_mc"
+GetMember
+Push "__get__height"
+CallMethod
+Add2
+Push register1, "_ymouse"
+GetMember
+Less2
+Not
+If loc1acb
+Push 1, "Page", 2, register1, "scrollIt"
+CallMethod
+Pop
+Jump loc1afd
+loc1acb:Push register1, "scrollThumb_mc"
+GetMember
+Push "_y"
+GetMember
+Push register1, "_ymouse"
+GetMember
+Greater
+Not
+If loc1afd
+Push -1, "Page", 2, register1, "scrollIt"
+CallMethod
+Pop
+}
+loc1afd:SetMember
+Push register2, "dispatchScrollChangedEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "scrollChanged", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "stopScrolling"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_parent"
+GetMember
+Push "scrolling"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "_parent"
+GetMember
+Push "scrollTrackDown_mc"
+GetMember
+Push "visible", false
+SetMember
+}
+SetMember
+Push register2, "releaseScrolling"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "releaseFocus"
+CallMethod
+Pop
+Push 0.0, register1, "stopScrolling"
+CallMethod
+Pop
+Push 0.0, register1, "_parent"
+GetMember
+Push "dispatchScrollChangedEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "trackOver"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_parent"
+GetMember
+Push "scrollTrackOverName"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc1c83
+Push register1, "_parent"
+GetMember
+Push "scrollTrackOver_mc"
+GetMember
+Push undefined
+Equals2
+Not
+If loc1c6d
+Push register1, "scrollTrackOverName"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "skinIDTrackOver"
+GetMember
+Push 2, register1, "_parent"
+GetMember
+Push "setSkin"
+CallMethod
+Pop
+Jump loc1c83
+loc1c6d:Push register1, "_parent"
+GetMember
+Push "scrollTrackOver_mc"
+GetMember
+Push "visible", true
+SetMember
+}
+loc1c83:SetMember
+Push register2, "trackOut"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_parent"
+GetMember
+Push "scrollTrackOver_mc"
+GetMember
+Push "visible", false
+SetMember
+}
+SetMember
+Push register2, "onUpArrow"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push -1, "Line", 2, register1, "_parent"
+GetMember
+Push "scrollIt"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onDownArrow"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 1, "Line", 2, register1, "_parent"
+GetMember
+Push "scrollIt"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onScrollChanged"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "_parent"
+GetMember
+Push "dispatchScrollChangedEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+SetMember
+Push register2, "className", "ScrollBar"
+SetMember
+Push register2, "minPos", 0.0
+SetMember
+Push register2, "maxPos", 0.0
+SetMember
+Push register2, "pageSize", 0.0
+SetMember
+Push register2, "largeScroll", 0.0
+SetMember
+Push register2, "smallScroll", 1
+SetMember
+Push register2, "_scrollPosition", 0.0
+SetMember
+Push register2, "scrollTrackName", "ScrollTrack"
+SetMember
+Push register2, "scrollTrackOverName", ""
+SetMember
+Push register2, "scrollTrackDownName", ""
+SetMember
+Push register2, "upArrowName", "BtnUpArrow"
+SetMember
+Push register2, "upArrowUpName", "ScrollUpArrowUp"
+SetMember
+Push register2, "upArrowOverName", "ScrollUpArrowOver"
+SetMember
+Push register2, "upArrowDownName", "ScrollUpArrowDown"
+SetMember
+Push register2, "downArrowName", "BtnDownArrow"
+SetMember
+Push register2, "downArrowUpName", "ScrollDownArrowUp"
+SetMember
+Push register2, "downArrowOverName", "ScrollDownArrowOver"
+SetMember
+Push register2, "downArrowDownName", "ScrollDownArrowDown"
+SetMember
+Push register2, "thumbTopName", "ScrollThumbTopUp"
+SetMember
+Push register2, "thumbMiddleName", "ScrollThumbMiddleUp"
+SetMember
+Push register2, "thumbBottomName", "ScrollThumbBottomUp"
+SetMember
+Push register2, "thumbGripName", "ScrollThumbGripUp"
+SetMember
+Push register1, "skinIDTrack", 0.0
+SetMember
+Push register1, "skinIDTrackOver", 1
+SetMember
+Push register1, "skinIDTrackDown", 2
+SetMember
+Push register1, "skinIDUpArrow", 3
+SetMember
+Push register1, "skinIDDownArrow", 4
+SetMember
+Push register1, "skinIDThumb", 5
+SetMember
+Push register2, "idNames", "downArrow_mc", "upArrow_mc", "scrollTrackDown_mc", "scrollTrackOver_mc", "scrollTrack_mc", 5, "Array"
+NewObject
+SetMember
+Push register2, "clipParameters", "minPos", 1, "maxPos", 1, "pageSize", 1, "scrollPosition", 1, "lineScrollSize", 1, "pageScrollSize", 1, "visible", 1, "enabled", 1, 8
+InitObject
+SetMember
+Push register1, "mergedClipParameters", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Push "prototype"
+GetMember
+Push "clipParameters"
+GetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push "clipParameters"
+GetMember
+Push 2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "mergeClipParameters"
+CallMethod
+SetMember
+Push register2, "initializing", true
+SetMember
+Push register2, "__set__lineScrollSize"
+GetMember
+Push register2, "__get__lineScrollSize"
+GetMember
+Push "lineScrollSize", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__pageScrollSize"
+GetMember
+Push register2, "__get__pageScrollSize"
+GetMember
+Push "pageScrollSize", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__scrollPosition"
+GetMember
+Push register2, "__get__scrollPosition"
+GetMember
+Push "scrollPosition", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__virtualHeight"
+GetMember
+Push "virtualHeight", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "scrollClasses"
+GetMember
+Push "ScrollBar"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc2030:Pop

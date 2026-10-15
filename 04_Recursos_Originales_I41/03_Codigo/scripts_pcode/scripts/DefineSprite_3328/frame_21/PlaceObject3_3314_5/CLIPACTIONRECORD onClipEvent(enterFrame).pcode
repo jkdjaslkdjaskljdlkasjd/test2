@@ -1,0 +1,15 @@
+ConstantPool ""
+Push "", 0.0, "", 0.0
+GetProperty
+Push 0.2
+Subtract
+SetProperty
+Push "", 0.0
+GetProperty
+Push -600
+Less2
+Not
+If loc0060
+Push "", 0.0, 600
+SetProperty
+loc0060:

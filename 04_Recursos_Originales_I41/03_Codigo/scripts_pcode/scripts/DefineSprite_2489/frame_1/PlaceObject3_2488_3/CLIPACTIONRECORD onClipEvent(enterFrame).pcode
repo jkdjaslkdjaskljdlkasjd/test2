@@ -1,0 +1,17 @@
+ConstantPool "", "widthkeep", "_root", "getBytesLoaded", "getBytesTotal", "heightkeep"
+Push "", 8, "widthkeep"
+GetVariable
+Push 0.0, "_root"
+GetVariable
+Push "getBytesLoaded"
+CallMethod
+Push 0.0, "_root"
+GetVariable
+Push "getBytesTotal"
+CallMethod
+Divide
+Multiply
+SetProperty
+Push "", 9, "heightkeep"
+GetVariable
+SetProperty

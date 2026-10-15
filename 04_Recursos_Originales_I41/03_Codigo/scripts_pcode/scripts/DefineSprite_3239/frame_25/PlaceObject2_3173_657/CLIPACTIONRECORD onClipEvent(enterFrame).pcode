@@ -1,0 +1,23 @@
+ConstantPool "_root", "Krin", "statPoints", "dead", "this", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc006f
+Push "dead", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0086
+loc006f:Push 1, 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0086:

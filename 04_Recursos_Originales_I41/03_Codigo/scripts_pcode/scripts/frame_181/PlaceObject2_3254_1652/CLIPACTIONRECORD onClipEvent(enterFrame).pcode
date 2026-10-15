@@ -1,0 +1,39 @@
+ConstantPool "frameGo", "", "_root", "gotoAndStop"
+Push "frameGo"
+GetVariable
+Push undefined
+Equals2
+Not
+If loc0070
+Push "", 6
+GetProperty
+Push 0.0
+Greater
+Not
+If loc006b
+Push "", 6, "", 6
+GetProperty
+Push 15
+Subtract
+SetProperty
+loc006b:Jump loc00c3
+loc0070:Push "", 6
+GetProperty
+Push 100
+Less2
+Not
+If loc00ab
+Push "", 6, "", 6
+GetProperty
+Push 15
+Add2
+SetProperty
+Jump loc00c3
+loc00ab:Push "frameGo"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc00c3:

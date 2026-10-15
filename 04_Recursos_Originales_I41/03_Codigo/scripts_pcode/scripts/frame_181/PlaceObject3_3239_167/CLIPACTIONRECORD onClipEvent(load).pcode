@@ -1,0 +1,45 @@
+ConstantPool "vbbc0", "_root", "KrinLang", "KLangChoosen", "MENU", "winCondition", "win", "this", "gotoAndStop", "Krin", "Pause", "hide"
+Push "vbbc0", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 14
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push 1
+Equals2
+Not
+If loc00e2
+Push "_root"
+GetVariable
+Push "winCondition", -1
+SetMember
+Push "win", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Pause", true
+SetMember
+Jump loc00f6
+loc00e2:Push "hide", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc00f6:

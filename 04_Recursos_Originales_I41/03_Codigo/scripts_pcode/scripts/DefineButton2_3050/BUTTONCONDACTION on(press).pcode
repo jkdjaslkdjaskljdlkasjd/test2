@@ -1,0 +1,117 @@
+ConstantPool "Key", "isDown", "_parent", "teamChangeCD", "dontDoMe", "inTheTeam", "_root", "Krin", "friendArrayX", "inTheTeam2", "bickerPicker", "id", "updateFriends", "MenuPlayerSelect", "updateEquip", "updateDoll", "updateAvs", "updateStatus"
+Push 16, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc01dc
+Push "_parent"
+GetVariable
+Push "teamChangeCD"
+GetMember
+Push true
+Equals2
+Not
+If loc01c1
+Push "dontDoMe"
+GetVariable
+Push true
+Equals2
+Not
+Not
+If loc01c1
+Push "_parent"
+GetVariable
+Push "teamChangeCD", false
+SetMember
+Push "inTheTeam"
+GetVariable
+Not
+If loc0152
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push "inTheTeam2"
+GetVariable
+Push 0.0
+SetMember
+Push "_parent"
+GetVariable
+Push "bickerPicker", "inTheTeam2"
+GetVariable
+SetMember
+Jump loc01c1
+loc0152:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push "_parent"
+GetVariable
+Push "bickerPicker"
+GetMember
+Push "id"
+GetVariable
+SetMember
+Push "_parent"
+GetVariable
+Push "bickerPicker"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc01ac
+Push "_parent"
+GetVariable
+Push "bickerPicker", 1
+SetMember
+Jump loc01c1
+loc01ac:Push "_parent"
+GetVariable
+Push "bickerPicker", 0.0
+SetMember
+loc01c1:Push 0.0, "_parent"
+GetVariable
+Push "updateFriends"
+CallMethod
+Pop
+Jump loc0263
+loc01dc:Push "id"
+GetVariable
+Push 0.0
+Less2
+Not
+Not
+If loc0263
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect", "id"
+GetVariable
+SetMember
+Push 0.0, "_parent"
+GetVariable
+Push "updateEquip"
+CallMethod
+Pop
+Push 0.0, "_parent"
+GetVariable
+Push "updateDoll"
+CallMethod
+Pop
+Push 0.0, "_parent"
+GetVariable
+Push "updateAvs"
+CallMethod
+Pop
+Push 0.0, "_parent"
+GetVariable
+Push "updateStatus"
+CallMethod
+Pop
+loc0263:

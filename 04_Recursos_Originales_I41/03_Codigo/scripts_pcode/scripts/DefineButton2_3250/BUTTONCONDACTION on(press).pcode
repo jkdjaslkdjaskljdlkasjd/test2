@@ -1,0 +1,5 @@
+Push 0.0, "_root"
+GetVariable
+Push "krinNavHideUI"
+CallMethod
+Pop

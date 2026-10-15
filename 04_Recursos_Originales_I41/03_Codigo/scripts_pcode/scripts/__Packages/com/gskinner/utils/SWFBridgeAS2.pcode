@@ -1,0 +1,317 @@
+ConstantPool "_global", "com", "Object", "gskinner", "utils", "SWFBridgeAS2", "mx", "events", "EventDispatcher", "initialize", "baseID", "", ":", "split", "join", "lc", "LocalConnection", "_this", "com_gskinner_utils_SWFBridge_init", "com_gskinner_utils_SWFBridge_receive", "apply", "clientObj", "host", "_host", "connect", "myID", "_guest", "extID", "send", "prototype", "close", "_connected", "slice", "unshift", "__get__id", "__get__connected", "shift", "SWFBridge (AS2) connected as ", "client", "type", "dispatchEvent", "connected", "addProperty", "id", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Not
+Not
+If loc01dd
+Push "_global"
+GetVariable
+Push "com", 0.0, "Object"
+NewObject
+SetMember
+loc01dd:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "gskinner"
+GetMember
+Not
+Not
+If loc0215
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "gskinner", 0.0, "Object"
+NewObject
+SetMember
+loc0215:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "gskinner"
+GetMember
+Push "utils"
+GetMember
+Not
+Not
+If loc0259
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "gskinner"
+GetMember
+Push "utils", 0.0, "Object"
+NewObject
+SetMember
+loc0259:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "gskinner"
+GetMember
+Push "utils"
+GetMember
+Push "SWFBridgeAS2"
+GetMember
+Not
+Not
+If loc06c4
+Push "com"
+GetVariable
+Push "gskinner"
+GetMember
+Push "utils"
+GetMember
+Push "SWFBridgeAS2"
+DefineFunction2 "", 2, 5, false, false, true, false, false, true, false, true, false, 4, "p_id", 3, "p_clientObj" {
+Push register1, 1, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "initialize"
+CallMethod
+Pop
+Push register1, "baseID", "", 1, ":", 1, register4, "split"
+CallMethod
+Push "join"
+CallMethod
+SetMember
+Push register1, "lc", 0.0, "LocalConnection"
+NewObject
+SetMember
+Push "_this", register1
+DefineLocal
+Push register1, "lc"
+GetMember
+Push "com_gskinner_utils_SWFBridge_init"
+DefineFunction "", 0 {
+Push 0.0, "_this"
+GetVariable
+Push "com_gskinner_utils_SWFBridge_init"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "lc"
+GetMember
+Push "com_gskinner_utils_SWFBridge_receive"
+DefineFunction2 "", 0, 2, false, false, true, false, false, true, true, false, false {
+Push register1, "_this"
+GetVariable
+Push 2, "_this"
+GetVariable
+Push "com_gskinner_utils_SWFBridge_receive"
+GetMember
+Push "apply"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "clientObj", register3
+SetMember
+Push register1, "host", register1, "baseID"
+GetMember
+Push "_host"
+Add2
+Push 1, register1, "lc"
+GetMember
+Push "connect"
+CallMethod
+SetMember
+Push register1, "myID", register1, "baseID"
+GetMember
+Push register1, "host"
+GetMember
+If loc03c9
+Push "_guest"
+Jump loc03ce
+loc03c9:Push "_host"
+loc03ce:Add2
+SetMember
+Push register1, "extID", register1, "baseID"
+GetMember
+Push register1, "host"
+GetMember
+If loc03f3
+Push "_host"
+Jump loc03f8
+loc03f3:Push "_guest"
+loc03f8:Add2
+SetMember
+Push register1, "host"
+GetMember
+Not
+Not
+If loc0443
+Push register1, "myID"
+GetMember
+Push 1, register1, "lc"
+GetMember
+Push "connect"
+CallMethod
+Pop
+Push "com_gskinner_utils_SWFBridge_init", register1, "extID"
+GetMember
+Push 2, register1, "lc"
+GetMember
+Push "send"
+CallMethod
+Pop
+}
+loc0443:StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "close"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "lc"
+GetMember
+Push "close"
+CallMethod
+Pop
+Push register1, "clientObj"
+Delete
+Pop
+Push register1, "lc"
+Delete
+Pop
+Push register1, "_connected", false
+SetMember
+}
+SetMember
+Push register2, "send"
+DefineFunction2 "", 0, 4, false, false, true, false, false, true, false, true, false {
+Push register1, "_connected"
+GetMember
+Not
+Not
+If loc04c2
+Push undefined
+Return
+loc04c2:Push 0.0, 1, register2, "slice"
+CallMethod
+StoreRegister 3
+Pop
+Push "com_gskinner_utils_SWFBridge_receive", 1, register3, "unshift"
+CallMethod
+Pop
+Push register1, "extID"
+GetMember
+Push 1, register3, "unshift"
+CallMethod
+Pop
+Push register3, register1, "lc"
+GetMember
+Push 2, register1, "lc"
+GetMember
+Push "send"
+GetMember
+Push "apply"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "__get__id"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "baseID"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__connected"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "_connected"
+GetMember
+Return
+}
+SetMember
+Push register2, "com_gskinner_utils_SWFBridge_receive"
+DefineFunction2 "", 0, 5, false, false, true, false, false, true, false, true, false {
+Push 0.0, 1, register2, "slice"
+CallMethod
+StoreRegister 3
+Pop
+Push 0.0, register3, "shift"
+CallMethod
+ToString
+StoreRegister 4
+Pop
+Push register3, register1, "clientObj"
+GetMember
+Push 2, register1, "clientObj"
+GetMember
+Push register4
+GetMember
+Push "apply"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "com_gskinner_utils_SWFBridge_init"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push "SWFBridge (AS2) connected as ", register1, "host"
+GetMember
+If loc05f4
+Push "client"
+Jump loc05f9
+loc05f4:Push "host"
+loc05f9:Add2
+Trace
+Push register1, "host"
+GetMember
+Not
+If loc0627
+Push "com_gskinner_utils_SWFBridge_init", register1, "extID"
+GetMember
+Push 2, register1, "lc"
+GetMember
+Push "send"
+CallMethod
+Pop
+loc0627:Push register1, "_connected", true
+SetMember
+Push "type", "connect", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "_connected", false
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__connected"
+GetMember
+Push "connected", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__id"
+GetMember
+Push "id", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "com"
+GetVariable
+Push "gskinner"
+GetMember
+Push "utils"
+GetMember
+Push "SWFBridgeAS2"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc06c4:Pop

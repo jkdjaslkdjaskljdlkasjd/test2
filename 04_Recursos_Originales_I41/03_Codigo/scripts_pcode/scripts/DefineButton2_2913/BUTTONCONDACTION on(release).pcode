@@ -1,0 +1,33 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "shopId", "data", "KRINMENU", "gotoAndStop", "dataMode", "save", "krinHandleData"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc00d0
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "shopId", 0.0
+SetMember
+Push "data", 1, "KRINMENU"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "Krin"
+GetVariable
+Push "dataMode", "save"
+SetMember
+Push 1, 1, "_root"
+GetVariable
+Push "krinHandleData"
+CallMethod
+Pop
+loc00d0:

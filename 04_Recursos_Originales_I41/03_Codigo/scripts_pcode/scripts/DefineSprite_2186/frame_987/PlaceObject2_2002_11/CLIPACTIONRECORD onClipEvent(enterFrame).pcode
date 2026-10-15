@@ -1,0 +1,367 @@
+Push "n"
+Push "this"
+GetVariable
+Push "_parent"
+GetMember
+DefineLocal
+Push "_root"
+GetVariable
+Push "__v9Tree"
+GetMember
+PushDuplicate
+Not
+If loc0053
+Pop
+Push "n"
+GetVariable
+Push "_parent"
+GetMember
+loc0053:PushDuplicate
+Not
+If loc0096
+Pop
+Push "n"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_root"
+GetVariable
+Push "__v9Tree"
+GetMember
+Equals2
+loc0096:Not
+If loc012b
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2
+Push "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc0126
+Push 0
+Push "_root"
+GetVariable
+Push "__handoffReleaseCustom"
+CallMethod
+Pop
+Jump loc0126
+loc0126:Jump loc0474
+loc012b:Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2
+Push "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc0474
+Push "id"
+Push "_root"
+GetVariable
+Push "__uiFrameIds"
+GetMember
+Push "n"
+GetVariable
+Push "_currentframe"
+GetMember
+GetMember
+DefineLocal
+Push "d"
+Push "_root"
+GetVariable
+Push "__v10ById"
+GetMember
+Push "id"
+GetVariable
+GetMember
+DefineLocal
+Push "d"
+GetVariable
+Not
+If loc046f
+Push 0
+Push "_root"
+GetVariable
+Push "__handoffReleaseCustom"
+CallMethod
+Pop
+Push "r"
+Push "id"
+GetVariable
+Push 1
+Push "_root"
+GetVariable
+Push "__v55Rank"
+CallMethod
+Push 1
+Push 2
+Push "Math"
+GetVariable
+Push "max"
+CallMethod
+DefineLocal
+Push "a"
+Push "_root"
+GetVariable
+Push "KRINABILITY"
+Push "id"
+GetVariable
+Add2
+GetMember
+DefineLocal
+Push "b"
+Push "_root"
+GetVariable
+Push "KRINABILITYB"
+Push "id"
+GetVariable
+Add2
+GetMember
+DefineLocal
+Push "n"
+GetVariable
+Push "toolTipTitle"
+Push "d"
+GetVariable
+Push "name"
+GetMember
+SetMember
+Push "n"
+GetVariable
+Push "toolTip"
+Push "r"
+GetVariable
+Push "id"
+GetVariable
+Push 2
+Push "_root"
+GetVariable
+Push "__v55Desc"
+CallMethod
+SetMember
+Push "b"
+GetVariable
+PushDuplicate
+Not
+If loc036f
+Pop
+Push "b"
+GetVariable
+Push 18
+GetMember
+TypeOf
+Push "string"
+Equals2
+loc036f:Not
+If loc039f
+Push "n"
+GetVariable
+Push "toolTip3"
+Push "b"
+GetVariable
+Push 18
+GetMember
+SetMember
+Jump loc0451
+loc039f:Push "a"
+GetVariable
+Not
+If loc0451
+Push "n"
+GetVariable
+Push "toolTip3"
+Push "d"
+GetVariable
+Push "passive"
+GetMember
+Not
+If loc03f9
+Push "Passive Combat Effect"
+Jump loc044b
+loc03f9:Push "Costs "
+Push "a"
+GetVariable
+Push 5
+GetMember
+Add2
+Push " Focus. Cooldown: "
+Add2
+Push "a"
+GetVariable
+Push 7
+GetMember
+Add2
+Push " turns."
+Add2
+loc044b:SetMember
+Jump loc0451
+loc0451:Push "n"
+GetVariable
+Push "chimney"
+Push false
+SetMember
+Jump loc046f
+loc046f:Jump loc0474
+loc0474:ConstantPool "_root", "_ymouse", "_xmouse", "this", "hitTest", "_parent", "_visible", "zero", "chimney", "KrinToolTipper", "tt", "toolTipTitle", "t", "toolTip", "GO", "gotoAndPlay", "t3", "toolTip3", "hitter", "OKAY", "tyut", "toolTip4", "GO7", "GO2", "GO3"
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2, "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc06ed
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_visible"
+GetMember
+PushDuplicate
+Not
+If loc057a
+Pop
+Push "_parent"
+GetVariable
+Push "zero"
+GetMember
+Not
+loc057a:Not
+If loc06e8
+Push "_parent"
+GetVariable
+Push "chimney"
+GetMember
+Not
+If loc05e7
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_parent"
+GetVariable
+Push "toolTipTitle"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_parent"
+GetVariable
+Push "toolTip"
+GetMember
+SetMember
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Jump loc06e8
+loc05e7:Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_parent"
+GetVariable
+Push "toolTipTitle"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_parent"
+GetVariable
+Push "toolTip"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t3", "_parent"
+GetVariable
+Push "toolTip3"
+GetMember
+SetMember
+Push "hitter"
+GetVariable
+Push 5
+Equals2
+Not
+If loc06c4
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "OKAY"
+GetMember
+Push true
+Equals2
+Not
+If loc06a5
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tyut", "_parent"
+GetVariable
+Push "toolTip4"
+GetMember
+SetMember
+Push "GO7", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Jump loc06bf
+loc06a5:Push "GO2", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc06bf:Jump loc06e8
+loc06c4:Push "hitter", "hitter"
+GetVariable
+Increment
+SetVariable
+Push "GO3", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc06e8:Jump loc06fc
+loc06ed:Push "hitter", 0.0
+SetVariable
+loc06fc:

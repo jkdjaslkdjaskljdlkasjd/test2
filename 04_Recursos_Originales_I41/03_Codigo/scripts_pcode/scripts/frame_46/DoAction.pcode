@@ -1,0 +1,226 @@
+ConstantPool "updateSonny2AchByIndex", "achGet", "achSlot", "data", "flush", "ach_Display", "play", "achGlobal", "whatToSayX", "_root", "KrinLang", "KLangChoosen", "MENU", "arenaMode", "winCondition", "Krin", "bossMusic", "Array", "SharedObject", "getLocal", "achState", "i", "whatToSay1", "whatToSay2", "whatToSay3", "whatToSay4", "whatToSay5"
+DefineFunction2 "awardAch", 1, 2, false, false, true, false, true, false, true, false, false, 1, "achNum" {
+Push register1, 1, "updateSonny2AchByIndex"
+CallFunction
+Pop
+Push "achGet"
+GetVariable
+Push register1
+GetMember
+Push 1
+Equals2
+Not
+Not
+If loc01a8
+Push "achGet"
+GetVariable
+Push register1, 1
+SetMember
+Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achGet"
+GetMember
+Push register1, 1
+SetMember
+Push 0.0, "achSlot"
+GetVariable
+Push "flush"
+CallMethod
+Pop
+Push 0.0, "ach_Display"
+GetVariable
+Push "play"
+CallMethod
+Pop
+Push "achGlobal", register1
+SetVariable
+}
+loc01a8:Push "whatToSayX", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 26
+GetMember
+SetVariable
+Push "arenaMode", false
+SetVariable
+Push "_root"
+GetVariable
+Push "winCondition", -1
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "bossMusic", false
+SetMember
+Push "achGet", 0.0, "Array"
+NewObject
+SetVariable
+Push "achGet", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15
+InitArray
+SetVariable
+Push "achSlot", "achSlot", 1, "SharedObject"
+GetVariable
+Push "getLocal"
+CallMethod
+DefineLocal
+Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achState"
+GetMember
+Push true
+Equals2
+Not
+If loc034e
+Push "achGet"
+GetVariable
+Enumerate2
+loc02da:StoreRegister 0
+Push null
+Equals2
+If loc0349
+Push "i", register0
+SetVariable
+Push "achGet"
+GetVariable
+Push "i"
+GetVariable
+Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achGet"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "achGet"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+Equals2
+Not
+If loc0344
+Push "i"
+GetVariable
+Push 1, "updateSonny2AchByIndex"
+CallFunction
+Pop
+loc0344:Jump loc02da
+loc0349:Jump loc03c8
+loc034e:Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achState", true
+SetMember
+Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achGet", 0.0, "Array"
+NewObject
+SetMember
+Push "achGet"
+GetVariable
+Enumerate2
+loc0387:StoreRegister 0
+Push null
+Equals2
+If loc03c8
+Push "i", register0
+SetVariable
+Push "achSlot"
+GetVariable
+Push "data"
+GetMember
+Push "achGet"
+GetMember
+Push "i"
+GetVariable
+Push "achGet"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+SetMember
+Jump loc0387
+loc03c8:Push 0.0, "achSlot"
+GetVariable
+Push "flush"
+CallMethod
+Pop
+Stop
+Push "whatToSay1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 18
+GetMember
+SetVariable
+Push "whatToSay2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 20
+GetMember
+SetVariable
+Push "whatToSay3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 19
+GetMember
+SetVariable
+Push "whatToSay4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 90
+GetMember
+SetVariable
+Push "whatToSay5", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 91
+GetMember
+SetVariable

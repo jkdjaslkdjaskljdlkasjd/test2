@@ -1,0 +1,82 @@
+ConstantPool "_root", "KrinSettings", "zoomPauseCounter", "_quality", "SFX3", "QUALITY", "__hdBattleOn", "zoomPause", "LOW"
+Push "zoomPauseCounter", "zoomPauseCounter"
+GetVariable
+Increment
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+Not
+If loc009d
+Push "_root"
+GetVariable
+Push "_quality", "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "QUALITY"
+GetMember
+SetMember
+loc009d:Push "zoomPauseCounter"
+GetVariable
+Push "_root"
+GetVariable
+Push "zoomPause"
+GetMember
+Equals2
+Not
+If loc00f8
+GoToLabel "KrinZoomPlay"
+Play
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+Not
+If loc00f3
+Push "_root"
+GetVariable
+Push "_quality", "LOW"
+SetMember
+loc00f3:Jump loc010a
+loc00f8:GoToLabel "KrinZoomPause"
+Play
+loc010a:Push "_root"
+GetVariable
+Push "__hdBattleOn"
+GetMember
+Push true
+Equals2
+PushDuplicate
+Not
+If loc013c
+Pop
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+loc013c:Not
+If loc015d
+Push "_root"
+GetVariable
+Push "_quality", "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "QUALITY"
+GetMember
+SetMember
+loc015d:

@@ -1,0 +1,158 @@
+ConstantPool "_root", "__hdZoomF", "KrinSettings", "zoomPointX", "zoomFactor", "zoomPointY", "zoomScaleX", "zoomScaleY", "BATTLESCREEN", "__hdBattleOn", "scaleChange", "_quality", "SFX3", "zoomReverse", "gotoAndPlay", "BATTLEBLUR", "zoomPoint", "zoomTime", "QUALITY", "saverX", "saverY", "SFX2", "LOW"
+Push "zoomPointX", "_root"
+GetVariable
+Push "zoomPointX"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "saverX"
+GetMember
+Subtract
+Push "zoomFactor"
+GetVariable
+Divide
+SetVariable
+Push "zoomPointY", "_root"
+GetVariable
+Push "zoomPointY"
+GetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "saverY"
+GetMember
+Subtract
+Push "zoomFactor"
+GetVariable
+Divide
+SetVariable
+Push "zoomScaleX", "scaleChange"
+GetVariable
+Push "zoomFactor"
+GetVariable
+Divide
+SetVariable
+Push "zoomScaleY", "scaleChange"
+GetVariable
+Push "zoomFactor"
+GetVariable
+Divide
+SetVariable
+Push "zoomPoint", "zoomTime"
+GetVariable
+SetVariable
+Push "zoomReverse", 1
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX2"
+GetMember
+Not
+If loc019d
+Push 2, 1, "_root"
+GetVariable
+Push "BATTLEBLUR"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc019d:Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+Not
+If loc01c9
+Push "_root"
+GetVariable
+Push "_quality", "LOW"
+SetMember
+loc01c9:Push "_root"
+GetVariable
+Push "__hdBattleOn"
+GetMember
+Push true
+Equals2
+PushDuplicate
+Not
+If loc01f5
+Pop
+Push "_root"
+GetVariable
+Push "__hdZoomF"
+GetMember
+Push undefined
+Equals2
+Not
+loc01f5:Not
+If loc0253
+Push "zoomPointX", "zoomPointX"
+GetVariable
+Push "_root"
+GetVariable
+Push "__hdZoomF"
+GetMember
+Multiply
+SetVariable
+Push "zoomPointY", "zoomPointY"
+GetVariable
+Push "_root"
+GetVariable
+Push "__hdZoomF"
+GetMember
+Multiply
+SetVariable
+Push "zoomScaleX", "zoomScaleX"
+GetVariable
+Push "_root"
+GetVariable
+Push "__hdZoomF"
+GetMember
+Multiply
+SetVariable
+Push "zoomScaleY", "zoomScaleY"
+GetVariable
+Push "_root"
+GetVariable
+Push "__hdZoomF"
+GetMember
+Multiply
+SetVariable
+loc0253:Push "_root"
+GetVariable
+Push "__hdBattleOn"
+GetMember
+Push true
+Equals2
+PushDuplicate
+Not
+If loc0285
+Pop
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+loc0285:Not
+If loc02a6
+Push "_root"
+GetVariable
+Push "_quality", "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "QUALITY"
+GetMember
+SetMember
+loc02a6:

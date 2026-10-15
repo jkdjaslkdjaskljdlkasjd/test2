@@ -1,0 +1,12 @@
+Push "krinNameUser", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "SYSTEM"
+GetMember
+Push 34
+GetMember
+SetVariable

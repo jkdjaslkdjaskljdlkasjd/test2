@@ -1,0 +1,12 @@
+JPEXS Free Flash Decompiler v.0.0.0
+-----------------------------------
+Exporting sprite...
+FAIL: Exporting Failed on Exception - Oct 15, 2026 4:46:02 AM com.jpexs.decompiler.flash.console.CommandLineArgumentParser parseExport
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "<local5>.prefix" is null
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser$Selection.contains(CommandLineArgumentParser.java:1650)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseExport(CommandLineArgumentParser.java:2420)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArgumentsInternal(CommandLineArgumentParser.java:690)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArguments(CommandLineArgumentParser.java:476)
+	at com.jpexs.decompiler.flash.gui.Main.main(Main.java:3633)
+

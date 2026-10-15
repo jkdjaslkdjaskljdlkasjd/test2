@@ -1,0 +1,36 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "BattlePick", "progressFight", "LOADBATTLESCENE", "gotoAndPlay", "KrinScreen", "_visible"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc00da
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", 52
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressFight", false
+SetMember
+Push "LOADBATTLESCENE", 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", false
+SetMember
+loc00da:

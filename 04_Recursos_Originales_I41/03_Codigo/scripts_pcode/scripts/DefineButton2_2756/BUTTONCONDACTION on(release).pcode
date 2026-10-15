@@ -1,0 +1,12 @@
+Push "xRx6", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUALEX"
+GetMember
+Push 0.0
+GetMember
+SetVariable

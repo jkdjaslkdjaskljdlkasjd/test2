@@ -1,0 +1,7 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-24.04.4-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-24.04.4-Ubuntu, mixed mode, sharing)
+Python 3.13.16
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+Pillow 12.3.0
+JPEXS commit de7efbf4754865f46c1c5bd36c9db9cc4ef2fa0b (Sat Sep 19 20:40:08 2026 +0200) chore(deps): bump org.bouncycastle:bcprov-jdk18on in /altsigner

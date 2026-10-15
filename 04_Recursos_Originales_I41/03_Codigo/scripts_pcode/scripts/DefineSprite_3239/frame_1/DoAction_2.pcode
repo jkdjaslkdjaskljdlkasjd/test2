@@ -1,0 +1,2134 @@
+ConstantPool "i", "fa", "blacker", "_visible", "inTheTeam", "Krin", "friendArrayX", "inTheTeam2", "equipArray0", "w", "KrinLang", "KLangChoosen", "ITEMNAME", "equipArray", "MenuPlayerSelect", "playerSlot", "inner", "gotoAndStop", "id", "slotType", "gArray", "GSet", "M", "modelchooser", "", "dollPartsArray", "h", "_f", "innerX", "_S", "dollPartsCores2", "_", "skinArray", "SkinSet", "attachMovie", "KRINITEM", "dollPartsCores", "looks", "M_", "head", "hair", "HAIR_", "hairArray", "HairSet", "borderFrame", "yut_name", "NameSets", "yut_per", "SYSTEM", "yut_def", "yut_info51", "MENU", "yut_info", "LevelStats", " ", "CLASS", "ClassStats", "yut_def2", "Array", "yut_per2", "yut_lif2", "StatSets", "KNU", "getStat", "Math", "ceil", "yut_str2", "yut_mag2", "yut_spd2", "yut_foc2", "wefjnew", "PerSets", "DefSets", "AVGNUMC", "CRITCALC_X", "nT1", "pow", "nT2", "nT3", "nT1_x", "round", "nT2_x", "nT3_x", "perBarShow", "bar", "_height", "saveH", "gbar", "xbar", "tt_", "toolTipTitle", "ELEMENTS", ": ", "toolTip", "% ", "DEF_FACTOR", "DEF_CALC_ER", "nT4", "nT5", "nT6", "nT4_x", "nT5_x", "nT6_x", "defBarShow", "DEFTIP", "LIFE", "STRENGTH", "MAGIC", "SPEED", "FOCUS", "PER", "elementMainArray", "DEF", "this", "_root", "friendArray", "mainPlayer", "avIn", "teamChangeCD", "bickerPicker", "updateFriends", "my_colorKKCCXX", "Color", "elementColorArray", "setRGB", "ybar", "yut_lif", ":", "yut_str", "yut_mag", "yut_spd", "yut_foc", "itemArray", "itemSlot", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "SHOULDER", "WEAPON", "FOOT", "LEG2", "ARM", "HAND", "CHEST", "HEAD", "updateEquip", "updateDoll", "updateAvs", "updateStatus", "dumbEuro", "Euro"
+DefineFunction2 "updateFriends", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "i", 1
+SetVariable
+loc04f4:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc0620
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "blacker"
+GetMember
+Push "_visible", true
+SetMember
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "inTheTeam", false
+SetMember
+Push register2, "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 0.0
+GetMember
+Push "i"
+GetVariable
+Equals2
+Not
+If loc05a8
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "blacker"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "inTheTeam", true
+SetMember
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "inTheTeam2", 0.0
+SetMember
+loc05a8:Push register2, "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 1
+GetMember
+Push "i"
+GetVariable
+Equals2
+Not
+If loc0611
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "blacker"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "inTheTeam", true
+SetMember
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "inTheTeam2", 1
+SetMember
+loc0611:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc04f4
+}
+loc0620:DefineFunction2 "updateEquip", 0, 3, false, true, true, false, true, false, false, true, false {
+Push register2, "Krin"
+GetMember
+Push "equipArray0"
+GetMember
+Enumerate2
+loc0645:StoreRegister 0
+Push null
+Equals2
+If loc06e0
+Push "w", register0
+SetVariable
+Push register2, "KrinLang"
+GetMember
+Push register2, "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "equipArray", register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, register1, "playerSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1, "playerSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push register1, "playerSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "playerSlot"
+SetMember
+Jump loc0645
+}
+loc06e0:DefineFunction2 "updateDoll", 0, 3, false, true, true, false, true, false, false, true, false {
+Push register2, "Krin"
+GetMember
+Push "gArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "GSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+GetMember
+Push "M"
+Equals2
+Not
+If loc0792
+Push "modelchooser", ""
+SetVariable
+Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc073c:StoreRegister 0
+Push null
+Equals2
+If loc078d
+Push "h", register0
+SetVariable
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "_visible", true
+SetMember
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "_f"
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc073c
+loc078d:Jump loc07f2
+loc0792:Push "modelchooser", "_f"
+SetVariable
+Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc07a1:StoreRegister 0
+Push null
+Equals2
+If loc07f2
+Push "h", register0
+SetVariable
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "_f"
+Add2
+GetMember
+Push "_visible", true
+SetMember
+Jump loc07a1
+loc07f2:Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc07f9:StoreRegister 0
+Push null
+Equals2
+If loc087c
+Push "h", register0
+SetVariable
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "inner"
+GetMember
+RemoveSprite
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push "innerX"
+GetMember
+RemoveSprite
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "_f"
+Add2
+GetMember
+Push "inner"
+GetMember
+RemoveSprite
+Push register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "_f"
+Add2
+GetMember
+Push "innerX"
+GetMember
+RemoveSprite
+Jump loc07f9
+loc087c:Push "dollPartsArray"
+GetVariable
+Enumerate2
+loc0883:StoreRegister 0
+Push null
+Equals2
+If loc0a88
+Push "h", register0
+SetVariable
+Push -1, "innerX", register2, "Krin"
+GetMember
+Push "gArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "GSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+GetMember
+Push "_S"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register2, "Krin"
+GetMember
+Push "skinArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "SkinSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+GetMember
+Add2
+Push 3, register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "modelchooser"
+GetVariable
+Add2
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push 0.0, "inner", register2, "Krin"
+GetMember
+Push "gArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "GSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+GetMember
+Push "_"
+Add2
+Push "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register2, "KRINITEM", register2, "Krin"
+GetMember
+Push "equipArray", register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+GetMember
+Push "looks"
+GetMember
+Add2
+Push 3, register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "modelchooser"
+GetVariable
+Add2
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push "h"
+GetVariable
+Push 12
+Equals2
+PushDuplicate
+If loc0a04
+Pop
+Push "h"
+GetVariable
+Push 13
+Equals2
+loc0a04:Not
+If loc0a83
+Push 0.0, "inner", "M_", "dollPartsCores2"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Add2
+Push "_"
+Add2
+Push register2, "KRINITEM", register2, "Krin"
+GetMember
+Push "equipArray", register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Add2
+GetMember
+Push "looks"
+GetMember
+Add2
+Push 3, register1, "dollPartsArray"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+Push "modelchooser"
+GetVariable
+Add2
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+loc0a83:Jump loc0883
+loc0a88:Push register1, "head"
+GetMember
+Push "hair"
+GetMember
+RemoveSprite
+Push register2, "Krin"
+GetMember
+Push "equipArray", register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "dollPartsCores"
+GetVariable
+Push "h"
+GetVariable
+GetMember
+GetMember
+Push 0.0
+Equals2
+PushDuplicate
+If loc0af9
+Pop
+Push register2, "Krin"
+GetMember
+Push "GSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push 1
+Equals2
+loc0af9:Not
+If loc0b49
+Push 2, "hair", "HAIR_", register2, "Krin"
+GetMember
+Push "hairArray"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "HairSet"
+GetMember
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+GetMember
+Add2
+Push 3, register1, "head"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+}
+loc0b49:DefineFunction2 "updateAvs", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "i", 0.0
+SetVariable
+loc0b6c:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc0bdf
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "borderFrame"
+GetMember
+Push "_visible", false
+SetMember
+Push "i"
+GetVariable
+Push register2, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Equals2
+Not
+If loc0bd0
+Push register1, "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "borderFrame"
+GetMember
+Push "_visible", true
+SetMember
+loc0bd0:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0b6c
+}
+loc0bdf:DefineFunction2 "updateStatus", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "yut_name", register1, "Krin"
+GetMember
+Push "NameSets"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+SetVariable
+Push "yut_per", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 5
+GetMember
+SetVariable
+Push "yut_def", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 6
+GetMember
+SetVariable
+Push "yut_info51", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 17
+GetMember
+SetVariable
+Push "yut_info", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+Push " "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "CLASS"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push 1
+Subtract
+GetMember
+Add2
+SetVariable
+Push "yut_def2", 0.0, "Array"
+NewObject
+SetVariable
+Push "yut_per2", 0.0, "Array"
+NewObject
+SetVariable
+Push "yut_lif2", register1, "Krin"
+GetMember
+Push "StatSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push true, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push register1, "KNU", register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 3, register1, "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_str2", register1, "Krin"
+GetMember
+Push "StatSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push true, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push register1, "KNU", register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push 3, register1, "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_mag2", register1, "Krin"
+GetMember
+Push "StatSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push true, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push register1, "KNU", register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push 3, register1, "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_spd2", register1, "Krin"
+GetMember
+Push "StatSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push true, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push register1, "KNU", register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push 3, register1, "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "yut_foc2", register1, "Krin"
+GetMember
+Push "StatSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push register1, "KNU", register1, "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 5
+GetMember
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetVariable
+Push "wefjnew", 0.0
+SetVariable
+loc0fe4:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc1963
+Push "yut_per2"
+GetVariable
+Push "wefjnew"
+GetVariable
+Push register1, "Krin"
+GetMember
+Push "PerSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 100, 15, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Multiply
+Add2
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "yut_def2"
+GetVariable
+Push "wefjnew"
+GetVariable
+Push register1, "Krin"
+GetMember
+Push "DefSets", register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 100, 15, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Multiply
+Add2
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "AVGNUMC", 100, 15, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Multiply
+Add2
+SetVariable
+Push "CRITCALC_X", "yut_per2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Push "AVGNUMC"
+GetVariable
+Divide
+SetVariable
+Push "nT1", 0.016666667, 4, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Push 0.25, 3, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Subtract
+Push 1.233333, 2, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Add2
+Push 1.9000000000000001, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Multiply
+Subtract
+Push 0.9000000000000002
+Add2
+SetVariable
+Push "nT2", 15, "yut_per2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Push 100, 15, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Multiply
+Add2
+Divide
+Multiply
+SetVariable
+Push "nT3", 0.07, "CRITCALC_X"
+GetVariable
+Push 1
+Subtract
+Multiply
+SetVariable
+Push "nT1_x", "nT1"
+GetVariable
+Push 100
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "nT2_x", "nT2"
+GetVariable
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "nT3_x", "nT3"
+GetVariable
+Push 100
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT1"
+GetVariable
+Multiply
+SetMember
+Push "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT2"
+GetVariable
+Multiply
+SetMember
+Push "perBarShow"
+GetVariable
+Push "xbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT3"
+GetVariable
+Multiply
+SetMember
+Push "perBarShow"
+GetVariable
+Push "tt_", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "toolTipTitle", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "ELEMENTS"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push " "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 5
+GetMember
+Add2
+Push ": "
+Add2
+Push "yut_per2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Add2
+SetMember
+Push "perBarShow"
+GetVariable
+Push "tt_", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "toolTip", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 38
+GetMember
+Push " "
+Add2
+Push "nT2_x"
+GetVariable
+Add2
+Push "% "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 37
+GetMember
+Add2
+Push " "
+Add2
+Push "nT1_x"
+GetVariable
+Add2
+Push "% "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 39
+GetMember
+Add2
+Push " "
+Add2
+Push "nT3_x"
+GetVariable
+Add2
+Push "% "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 40
+GetMember
+Add2
+SetMember
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Greater
+Not
+If loc14aa
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+SetMember
+loc14aa:Push "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Greater
+Not
+If loc1506
+Push "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+SetMember
+loc1506:Push "CRITCALC_X", "yut_def2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Push "AVGNUMC"
+GetVariable
+Divide
+SetVariable
+Push "DEF_FACTOR", 1
+SetVariable
+Push "DEF_CALC_ER", 1, "CRITCALC_X"
+GetVariable
+Divide
+SetVariable
+Push "DEF_CALC_ER"
+GetVariable
+Push 1
+Greater
+Not
+If loc155b
+Push "DEF_FACTOR", 0.0
+SetVariable
+loc155b:Push "DEF_CALC_ER"
+GetVariable
+Push 1
+Less2
+Not
+If loc157b
+Push "DEF_FACTOR", 2
+SetVariable
+loc157b:Push "DEF_CALC_ER"
+GetVariable
+Push 0.81
+Less2
+Not
+If loc159f
+Push "DEF_FACTOR", 3
+SetVariable
+loc159f:Push "DEF_CALC_ER"
+GetVariable
+Push 0.6100000000000001
+Less2
+Not
+If loc15c3
+Push "DEF_FACTOR", 4
+SetVariable
+loc15c3:Push "DEF_CALC_ER"
+GetVariable
+Push 0.41000000000000014
+Less2
+Not
+If loc15e7
+Push "DEF_FACTOR", 5
+SetVariable
+loc15e7:Push "DEF_CALC_ER"
+GetVariable
+Push 0.31000000000000005
+Less2
+Not
+If loc160b
+Push "DEF_FACTOR", 6
+SetVariable
+loc160b:Push "nT4", 0.016666667, 4, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Push 0.25, 3, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Subtract
+Push 1.233333, 2, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Push 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Multiply
+Add2
+Push 1.9000000000000001, "CRITCALC_X"
+GetVariable
+Push 1
+Add2
+Multiply
+Subtract
+Push 0.9000000000000002
+Add2
+SetVariable
+Push "nT5", 15, "yut_def2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Push 100, 15, register1, "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Multiply
+Add2
+Divide
+Multiply
+SetVariable
+Push "nT6", 0.07, "CRITCALC_X"
+GetVariable
+Push 1
+Subtract
+Multiply
+SetVariable
+Push "nT4_x", "nT4"
+GetVariable
+Push 100
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "nT5_x", "nT5"
+GetVariable
+SetVariable
+Push "nT6_x", "nT6"
+GetVariable
+Push 100
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "defBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT4"
+GetVariable
+Multiply
+SetMember
+Push "defBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT5"
+GetVariable
+Multiply
+SetMember
+Push "defBarShow"
+GetVariable
+Push "xbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Push "nT6"
+GetVariable
+Multiply
+SetMember
+Push "defBarShow"
+GetVariable
+Push "tt_", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "toolTipTitle", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "ELEMENTS"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push " "
+Add2
+Push register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 6
+GetMember
+Add2
+Push ": "
+Add2
+Push "yut_def2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+Add2
+SetMember
+Push "defBarShow"
+GetVariable
+Push "tt_", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "toolTip", register1, "KrinLang"
+GetMember
+Push register1, "KLangChoosen"
+GetMember
+GetMember
+Push "DEFTIP"
+GetMember
+Push "DEF_FACTOR"
+GetVariable
+GetMember
+SetMember
+Push "defBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Greater
+Not
+If loc18f8
+Push "defBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+SetMember
+loc18f8:Push "defBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+Greater
+Not
+If loc1954
+Push "defBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH"
+GetMember
+SetMember
+loc1954:Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc0fe4
+loc1963:Push register1, "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc1a62
+Push register1, "Krin"
+GetMember
+Push "LIFE", "yut_lif2"
+GetVariable
+SetMember
+Push register1, "Krin"
+GetMember
+Push "STRENGTH", "yut_str2"
+GetVariable
+SetMember
+Push register1, "Krin"
+GetMember
+Push "MAGIC", "yut_mag2"
+GetVariable
+SetMember
+Push register1, "Krin"
+GetMember
+Push "SPEED", "yut_spd2"
+GetVariable
+SetMember
+Push register1, "Krin"
+GetMember
+Push "FOCUS", "yut_foc2"
+GetVariable
+SetMember
+Push "wefjnew", 0.0
+SetVariable
+loc19e8:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc1a62
+Push register1, "Krin"
+GetMember
+Push "PER"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push "yut_per2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+SetMember
+Push register1, "Krin"
+GetMember
+Push "DEF"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push "yut_def2"
+GetVariable
+Push "wefjnew"
+GetVariable
+GetMember
+SetMember
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc19e8
+}
+loc1a62:Stop
+Push "i", 0.0
+SetVariable
+loc1a72:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc1b80
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "id", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "id"
+GetMember
+Push 0.0
+Less2
+Not
+If loc1af9
+Push "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc1b71
+loc1af9:Push "i"
+GetVariable
+Push 0.0
+Equals2
+Not
+If loc1b36
+Push "mainPlayer", 1, "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "avIn"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1b36:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1, "this"
+GetVariable
+Push "fa", "i"
+GetVariable
+Add2
+GetMember
+Push "avIn"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1b71:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1a72
+loc1b80:Push "teamChangeCD", true
+SetVariable
+Push "bickerPicker", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 0.0
+GetMember
+Push 0.0
+Equals2
+Not
+If loc1bd8
+Push "bickerPicker", 0.0
+SetVariable
+loc1bd8:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArrayX"
+GetMember
+Push 1
+GetMember
+Push 0.0
+Equals2
+Not
+If loc1c11
+Push "bickerPicker", 1
+SetVariable
+loc1c11:Push 0.0, "updateFriends"
+CallFunction
+Pop
+Push "wefjnew", 0.0
+SetVariable
+loc1c30:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc1d84
+Push "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+SetMember
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "perBarShow"
+GetVariable
+Push "ybar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "perBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "saveH", "perBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "_height"
+GetMember
+Push 100
+Divide
+SetMember
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc1c30
+loc1d84:Push "wefjnew", 0.0
+SetVariable
+loc1d93:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc1e8c
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "bar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "gbar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "my_colorKKCCXX", "defBarShow"
+GetVariable
+Push "ybar", "wefjnew"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push 1, "Color"
+NewObject
+DefineLocal
+Push "_root"
+GetVariable
+Push "elementColorArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push 1, "my_colorKKCCXX"
+GetVariable
+Push "setRGB"
+CallMethod
+Pop
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc1d93
+loc1e8c:Push "yut_lif", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 0.0
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_str", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 1
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_mag", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 2
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_spd", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 3
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "yut_foc", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "SYSTEM"
+GetMember
+Push 4
+GetMember
+Push ":"
+Add2
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Enumerate2
+loc1fb3:StoreRegister 0
+Push null
+Equals2
+If loc205a
+Push "w", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "itemSlot"
+SetMember
+Jump loc1fb3
+loc205a:Push "dollPartsArray", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsArray", "shoulder", "weapon2", "weapon1", "foot2", "foot1", "leg4", "leg3", "leg2", "leg1", "hand2", "hand1", "arm2", "arm1", "chest", "head", 15
+InitArray
+SetVariable
+Push "dollPartsCores", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores", 1, 6, 5, 4, 4, 4, 4, 3, 3, 2, 2, 1, 1, 1, 0.0, 15
+InitArray
+SetVariable
+Push "dollPartsCores2", 0.0, "Array"
+NewObject
+SetVariable
+Push "dollPartsCores2", "SHOULDER", "WEAPON", "WEAPON", "FOOT", "FOOT", "LEG2", "LEG2", "ARM", "ARM", "HAND", "HAND", "ARM", "ARM", "CHEST", "HEAD", 15
+InitArray
+SetVariable
+Push 0.0, "updateEquip"
+CallFunction
+Pop
+Push 0.0, "updateDoll"
+CallFunction
+Pop
+Push 0.0, "updateAvs"
+CallFunction
+Pop
+Push 0.0, "updateStatus"
+CallFunction
+Pop
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetVariable

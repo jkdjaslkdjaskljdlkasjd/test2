@@ -1,0 +1,32 @@
+ConstantPool "PvPCodeLode", "exportPvPCode", "START", "krinNavFadeSpeech", "gotoAndStop", "_visible", "navText", "exportPvPArray", "naxTevt", "selectable"
+Push "PvPCodeLode"
+GetVariable
+Not
+Not
+If loc00e1
+Push 1, 1, "exportPvPCode"
+CallFunction
+Pop
+Push "START", 1, "krinNavFadeSpeech"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "krinNavFadeSpeech"
+GetVariable
+Push "_visible", true
+SetMember
+Push "krinNavFadeSpeech"
+GetVariable
+Push "navText", "exportPvPArray"
+GetVariable
+SetMember
+Push "krinNavFadeSpeech"
+GetVariable
+Push "naxTevt"
+GetMember
+Push "selectable", true
+SetMember
+Push "PvPCodeLode", true
+SetVariable
+loc00e1:

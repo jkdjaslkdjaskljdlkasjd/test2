@@ -1,0 +1,4 @@
+Push "_root"
+GetVariable
+Push "gotoSceneKrin", "IntroSeq2"
+SetMember

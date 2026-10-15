@@ -1,0 +1,215 @@
+ConstantPool "_global", "mx", "Object", "skins", "RectBorder", "Border", "prototype", "__get__width", "__width", "__get__height", "__height", "init", "draw", "size", "getBorderMetrics", "offset", "__borderMetrics", "left", "top", "right", "bottom", "__get__borderMetrics", "drawBorder", "setColor", "symbolName", "symbolOwner", "version", "2.0.2.127", "className", "borderStyleName", "borderStyle", "borderColorName", "borderColor", "shadowColorName", "shadowColor", "highlightColorName", "highlightColor", "buttonColorName", "buttonColor", "backgroundColorName", "backgroundColor", "borderMetrics", "addProperty", "height", "width", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0225
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0225:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc025d
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc025d:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Not
+Not
+If loc059b
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "Border"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__width"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__width"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__height"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__height"
+GetMember
+Return
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 2, false, false, false, true, true, false, true, false, false, 0, "Void" {
+Push 0.0, register1, "init"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "size"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getBorderMetrics"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "offset"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "__borderMetrics"
+GetMember
+Push undefined
+Equals2
+Not
+If loc03ca
+Push register1, "__borderMetrics", "left", register2, "top", register2, "right", register2, "bottom", register2, 4
+InitObject
+SetMember
+Jump loc040a
+loc03ca:Push register1, "__borderMetrics"
+GetMember
+Push "left", register2
+SetMember
+Push register1, "__borderMetrics"
+GetMember
+Push "top", register2
+SetMember
+Push register1, "__borderMetrics"
+GetMember
+Push "right", register2
+SetMember
+Push register1, "__borderMetrics"
+GetMember
+Push "bottom", register2
+SetMember
+loc040a:Push register1, "__borderMetrics"
+GetMember
+Return
+}
+SetMember
+Push register2, "__get__borderMetrics"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getBorderMetrics"
+CallMethod
+Return
+}
+SetMember
+Push register2, "drawBorder"
+DefineFunction "", 1, "Void"  {
+}
+SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "drawBorder"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "setColor"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "drawBorder"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "symbolName", "RectBorder"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "RectBorder"
+SetMember
+Push register2, "borderStyleName", "borderStyle"
+SetMember
+Push register2, "borderColorName", "borderColor"
+SetMember
+Push register2, "shadowColorName", "shadowColor"
+SetMember
+Push register2, "highlightColorName", "highlightColor"
+SetMember
+Push register2, "buttonColorName", "buttonColor"
+SetMember
+Push register2, "backgroundColorName", "backgroundColor"
+SetMember
+DefineFunction "", 0 {
+}
+Push register2, "__get__borderMetrics"
+GetMember
+Push "borderMetrics", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc059b:Pop

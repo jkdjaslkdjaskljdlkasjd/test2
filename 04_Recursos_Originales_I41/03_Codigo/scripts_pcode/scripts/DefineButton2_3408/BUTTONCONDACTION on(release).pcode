@@ -1,0 +1,30 @@
+ConstantPool "_root", "winCondition", "Krin", "PauseForScreen", "someListenerKrin", "Mouse", "removeListener"
+Push "_root"
+GetVariable
+Push "winCondition"
+GetMember
+Push -1
+Equals2
+Not
+If loc00b2
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc00b2
+Push "someListenerKrin"
+GetVariable
+Push 1, "Mouse"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+GoToLabel "resetHere"
+Play
+loc00b2:

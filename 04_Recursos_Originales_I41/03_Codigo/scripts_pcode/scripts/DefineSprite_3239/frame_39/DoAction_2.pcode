@@ -1,0 +1,348 @@
+ConstantPool "tit_1", "_root", "KrinLang", "KLangChoosen", "MENU", "tit_2", "tit_8", "tit_9", "Krin", "sound", "tit_3", "graphics", "tit_4", "qual", "LOW", "tit_11", "autoSaver", "tit_7", "TitLOL1", "whatToSayY", "t_dif", "difficulty", "t_dif2", "gs_zone_cleared", "highestZoneDefeated", "gs_respec_used", "numberOfRespecUsed", "gs_training_used", "numberOfTrainingUsed", "gs_top_dmg_physical", "topDamagePhysical", "gs_top_dmg_elemental", "topDamageElemental"
+Push "tit_1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 27
+GetMember
+SetVariable
+Push "tit_2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 28
+GetMember
+SetVariable
+Push "tit_8", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 35
+GetMember
+SetVariable
+Push "tit_9", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 38
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound"
+GetMember
+Not
+If loc0257
+Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 29
+GetMember
+SetVariable
+Jump loc0282
+loc0257:Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 30
+GetMember
+SetVariable
+loc0282:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics"
+GetMember
+Not
+If loc02ca
+Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 31
+GetMember
+SetVariable
+Jump loc02f5
+loc02ca:Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 32
+GetMember
+SetVariable
+loc02f5:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual"
+GetMember
+Push "LOW"
+Equals2
+Not
+If loc0343
+Push "tit_11", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 32
+GetMember
+SetVariable
+Jump loc036e
+loc0343:Push "tit_11", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 31
+GetMember
+SetVariable
+loc036e:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "autoSaver"
+GetMember
+Not
+If loc03b6
+Push "tit_7", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 29
+GetMember
+SetVariable
+Jump loc03e1
+loc03b6:Push "tit_7", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 30
+GetMember
+SetVariable
+loc03e1:Push "TitLOL1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 33
+GetMember
+SetVariable
+Push "whatToSayY", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 36
+GetMember
+SetVariable
+Push "t_dif", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 78
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc04b7
+Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 79
+GetMember
+SetVariable
+Jump loc0533
+loc04b7:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 1
+Equals2
+Not
+If loc0508
+Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 80
+GetMember
+SetVariable
+Jump loc0533
+loc0508:Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 81
+GetMember
+SetVariable
+loc0533:Push "gs_zone_cleared", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "highestZoneDefeated"
+GetMember
+SetVariable
+Push "gs_respec_used", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "numberOfRespecUsed"
+GetMember
+SetVariable
+Push "gs_training_used", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "numberOfTrainingUsed"
+GetMember
+SetVariable
+Push "gs_top_dmg_physical", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "topDamagePhysical"
+GetMember
+SetVariable
+Push "gs_top_dmg_elemental", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "topDamageElemental"
+GetMember
+SetVariable

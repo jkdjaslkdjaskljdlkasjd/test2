@@ -1,0 +1,565 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "MAN",
+  "hair": "MAD",
+  "gender": "M",
+  "equip": [
+   "FIRESAM",
+   "FIRESAM",
+   "FIRESAM",
+   "FIRESAM",
+   "FIRESAM",
+   "KATANA2",
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 81,
+    "nombre": "Yosuke",
+    "linea": 9194,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 72,
+    "nombre": "Yosuke",
+    "linea": 13889
+   }
+  ],
+  "name": "AP141_Yosuke",
+  "nombres": [
+   "Yosuke"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP141_Yosuke",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_FIRESAM",
+     "characterId": 334
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN",
+     "characterId": 1752
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_FIRESAM",
+     "characterId": 1546
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_MAN",
+     "characterId": 1754
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_FIRESAM",
+     "characterId": 1611
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_FIRESAM",
+     "characterId": 334
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN",
+     "characterId": 1749
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_FIRESAM",
+     "characterId": 1609
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_MAN",
+     "characterId": 1754
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_FIRESAM",
+     "characterId": 1611
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_FIRESAM",
+     "characterId": 334
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_MAN",
+     "characterId": 1749
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_FIRESAM",
+     "characterId": 1609
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_MAN",
+     "characterId": 1756
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_CHEST_FIRESAM",
+     "characterId": 1324
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_MAN",
+     "characterId": 1750
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HEAD_FIRESAM",
+     "characterId": 1496
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_MAN",
+     "characterId": 1758
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_FIRESAM",
+     "characterId": 334
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_SHOULDER_FIRESAM",
+     "characterId": 1322
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_KATANA2",
+     "characterId": 1205
+    }
+   ]
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_MAN",
+     "characterId": 1752
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_HAND_FIRESAM",
+     "characterId": 1546
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1750
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "M_HEAD_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1496
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1756
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_CHEST_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1324
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_ARM_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 334
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_ARM_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 334
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1752
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_HAND_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1546
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1752
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_HAND_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1546
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 334
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1758
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 334
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1749
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1609
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1749
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1609
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1754
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1611
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 1754
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1611
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_KATANA2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1205
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_KATANA2",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1205
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_MAN",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SHOULDER_FIRESAM",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1322
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 79,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

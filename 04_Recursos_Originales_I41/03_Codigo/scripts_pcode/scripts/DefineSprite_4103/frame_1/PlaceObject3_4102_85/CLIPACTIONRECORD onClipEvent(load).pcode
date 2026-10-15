@@ -1,0 +1,13 @@
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0045
+Push "", 7, false
+SetProperty
+loc0045:

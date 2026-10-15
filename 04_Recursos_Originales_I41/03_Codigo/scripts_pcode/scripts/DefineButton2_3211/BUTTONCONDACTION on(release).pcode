@@ -1,0 +1,115 @@
+ConstantPool "_root", "Krin", "sound", "soundModeKrin", "soundPlayCounter", "Music", "addSound", "tit_3", "KrinLang", "KLangChoosen", "MENU", "graphics", "tit_4"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound"
+GetMember
+Not
+If loc00bb
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound", false
+SetMember
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+StopSounds
+Jump loc0112
+loc00bb:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound", true
+SetMember
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "soundPlayCounter", 0.0
+SetMember
+Push 1, "Music", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+loc0112:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sound"
+GetMember
+Not
+If loc015a
+Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 29
+GetMember
+SetVariable
+Jump loc0185
+loc015a:Push "tit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 30
+GetMember
+SetVariable
+loc0185:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "graphics"
+GetMember
+Not
+If loc01cd
+Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 31
+GetMember
+SetVariable
+Jump loc01f8
+loc01cd:Push "tit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 32
+GetMember
+SetVariable
+loc01f8:

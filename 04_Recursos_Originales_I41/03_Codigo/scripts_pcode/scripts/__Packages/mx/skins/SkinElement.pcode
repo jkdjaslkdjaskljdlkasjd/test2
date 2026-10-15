@@ -1,0 +1,124 @@
+ConstantPool "_global", "mx", "Object", "skins", "SkinElement", "MovieClip", "prototype", "registerElement", "registerClass", "skinRegistry", "__set__visible", "_visible", "move", "_x", "_y", "setSize", "_width", "_height", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc00dc
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc00dc:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc0114
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc0114:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Not
+Not
+If loc02a5
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "MovieClip"
+GetVariable
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "registerElement"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, true, false, true, 2, "name", 3, "className" {
+Push register3, undefined
+Equals2
+If loc01c5
+Push register3
+Jump loc01d7
+loc01c5:Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+loc01d7:Push register2, 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+Push register1, "skinRegistry"
+GetMember
+Push register2, true
+SetMember
+}
+SetMember
+Push register2, "__set__visible"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "visible" {
+Push register1, "_visible", register2
+SetMember
+}
+SetMember
+Push register2, "move"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 3, "x", 2, "y" {
+Push register1, "_x", register3
+SetMember
+Push register1, "_y", register2
+SetMember
+}
+SetMember
+Push register2, "setSize"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 3, "w", 2, "h" {
+Push register1, "_width", register3
+SetMember
+Push register1, "_height", register2
+SetMember
+}
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc02a5:Pop

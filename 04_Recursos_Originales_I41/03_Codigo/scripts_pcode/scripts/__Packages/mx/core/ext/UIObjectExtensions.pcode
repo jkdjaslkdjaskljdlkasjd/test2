@@ -1,0 +1,693 @@
+ConstantPool "_global", "mx", "Object", "core", "ext", "UIObjectExtensions", "prototype", "addGeometry", "__get__width", "width", "addProperty", "__get__height", "height", "__get__left", "left", "__get__x", "x", "__get__top", "top", "__get__y", "y", "__get__right", "right", "__get__bottom", "bottom", "__set__visible", "__get__visible", "visible", "Extensions", "bExtended", "UIObject", "skins", "SkinElement", "events", "UIEventDispatcher", "initialize", "ColoredSkinElement", "styles", "CSSTextStyles", "addTextStyles", "MovieClip", "getTopLevel", "createLabel", "createObject", "createClassObject", "createEmptyObject", "destroyObject", "ASSetPropFlags", "__getTextFormat", "_getTextFormat", "getStyleName", "getStyle", "TextField", "__enabled", "invalidateStyle", "enabled", "move", "setSize", "invalidateFlag", "draw", "setTextFormat", "setNewTextFormat", "embedFonts", "__text", "text", "", "_visible", "setColor", "textColor", "setValue", "getValue", "value", "stylecache", "tf", "TextFormat", "enabledColor", "getTextFormat", "color", "disabledColor", "getPreferredWidth", "textWidth", "getPreferredHeight", "textHeight", "getTextExtent2", "_getTextExtent", "createTextField", "align", "style", "CSSStyleDeclaration", "cascadingStyles", "skinRegistry", "_origWidth", "origWidth", "Stage", "origHeight", "_parent", "UIObjectExtended", "UIObjectDependency", "SkinElementDependency", "CSSTextStylesDependency", "UIEventDispatcherDependency"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc049c
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc049c:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Not
+Not
+If loc04d4
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core", 0.0, "Object"
+NewObject
+SetMember
+loc04d4:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Not
+Not
+If loc0518
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext", 0.0, "Object"
+NewObject
+SetMember
+loc0518:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Not
+Not
+If loc0fc1
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "addGeometry"
+DefineFunction2 "", 2, 3, false, false, true, false, true, false, true, false, false, 2, "tf", 1, "ui" {
+Push null, register1, "__get__width"
+GetMember
+Push "width", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__height"
+GetMember
+Push "height", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__left"
+GetMember
+Push "left", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__x"
+GetMember
+Push "x", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__top"
+GetMember
+Push "top", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__y"
+GetMember
+Push "y", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__right"
+GetMember
+Push "right", 3, register2, "addProperty"
+CallMethod
+Pop
+Push null, register1, "__get__bottom"
+GetMember
+Push "bottom", 3, register2, "addProperty"
+CallMethod
+Pop
+Push register1, "__set__visible"
+GetMember
+Push register1, "__get__visible"
+GetMember
+Push "visible", 3, register2, "addProperty"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "Extensions"
+DefineFunction2 "", 0, 16, false, true, true, false, true, false, false, true, true {
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "bExtended"
+GetMember
+Push true
+Equals2
+Not
+If loc06b4
+Push true
+Return
+loc06b4:Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "bExtended", true
+SetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+Push "prototype"
+GetMember
+StoreRegister 6
+Pop
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+Push "prototype"
+GetMember
+StoreRegister 9
+Pop
+Push register6, register9, 2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "addGeometry"
+CallMethod
+Pop
+Push register6, 1, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "initialize"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+StoreRegister 13
+Pop
+Push register6, 1, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+Push "addTextStyles"
+CallMethod
+Pop
+Push "MovieClip"
+GetVariable
+Push "prototype"
+GetMember
+StoreRegister 5
+Pop
+Push register5, "getTopLevel", register6, "getTopLevel"
+GetMember
+SetMember
+Push register5, "createLabel", register6, "createLabel"
+GetMember
+SetMember
+Push register5, "createObject", register6, "createObject"
+GetMember
+SetMember
+Push register5, "createClassObject", register6, "createClassObject"
+GetMember
+SetMember
+Push register5, "createEmptyObject", register6, "createEmptyObject"
+GetMember
+SetMember
+Push register5, "destroyObject", register6, "destroyObject"
+GetMember
+SetMember
+Push 1, "getTopLevel", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "createLabel", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "createObject", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "createClassObject", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "createEmptyObject", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "destroyObject", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push register5, "__getTextFormat", register6, "__getTextFormat"
+GetMember
+SetMember
+Push register5, "_getTextFormat", register6, "_getTextFormat"
+GetMember
+SetMember
+Push register5, "getStyleName", register6, "getStyleName"
+GetMember
+SetMember
+Push register5, "getStyle", register6, "getStyle"
+GetMember
+SetMember
+Push 1, "__getTextFormat", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "_getTextFormat", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "getStyleName", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "getStyle", register5, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push "TextField"
+GetVariable
+Push "prototype"
+GetMember
+StoreRegister 7
+Pop
+Push register6, register7, 2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "addGeometry"
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, "__enabled", register2
+SetMember
+Push 0.0, register1, "invalidateStyle"
+CallMethod
+Pop
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__enabled"
+GetMember
+Return
+}
+Push "enabled", 3, register7, "addProperty"
+CallMethod
+Pop
+Push register7, "move", register9, "move"
+GetMember
+SetMember
+Push register7, "setSize", register9, "setSize"
+GetMember
+SetMember
+Push register7, "invalidateStyle"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "invalidateFlag", true
+SetMember
+}
+SetMember
+Push register7, "draw"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push register1, "invalidateFlag"
+GetMember
+Not
+If loc0a7f
+Push register1, "invalidateFlag", false
+SetMember
+Push 0.0, register1, "_getTextFormat"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, 1, register1, "setTextFormat"
+CallMethod
+Pop
+Push register2, 1, register1, "setNewTextFormat"
+CallMethod
+Pop
+Push register1, "embedFonts", register2, "embedFonts"
+GetMember
+Push true
+Equals2
+SetMember
+Push register1, "__text"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0a75
+Push register1, "text"
+GetMember
+Push ""
+Equals2
+Not
+If loc0a6c
+Push register1, "text", register1, "__text"
+GetMember
+SetMember
+loc0a6c:Push register1, "__text"
+Delete
+Pop
+loc0a75:Push register1, "_visible", true
+SetMember
+}
+loc0a7f:SetMember
+Push register7, "setColor"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "color" {
+Push register1, "textColor", register2
+SetMember
+}
+SetMember
+Push register7, "getStyle", register5, "getStyle"
+GetMember
+SetMember
+Push register7, "__getTextFormat", register6, "__getTextFormat"
+GetMember
+SetMember
+Push register7, "setValue"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "v" {
+Push register1, "text", register2
+SetMember
+}
+SetMember
+Push register7, "getValue"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "text"
+GetMember
+Return
+}
+SetMember
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "v" {
+Push register2, 1, register1, "setValue"
+CallMethod
+Pop
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getValue"
+CallMethod
+Return
+}
+Push "value", 3, register7, "addProperty"
+CallMethod
+Pop
+Push register7, "_getTextFormat"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push register1, "stylecache"
+GetMember
+Push "tf"
+GetMember
+StoreRegister 2
+Pop
+Push register2, undefined
+Equals2
+Not
+Not
+If loc0b7e
+Push register2
+Return
+loc0b7e:Push 0.0, "TextFormat"
+NewObject
+StoreRegister 2
+Pop
+Push register2, 1, register1, "__getTextFormat"
+CallMethod
+Pop
+Push register1, "stylecache"
+GetMember
+Push "tf", register2
+SetMember
+Push register1, "__enabled"
+GetMember
+Push false
+Equals2
+Not
+If loc0c1f
+Push register1, "enabledColor"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0bfc
+Push 0.0, register1, "getTextFormat"
+CallMethod
+StoreRegister 4
+Pop
+Push register1, "enabledColor", register4, "color"
+GetMember
+SetMember
+loc0bfc:Push "disabledColor", 1, register1, "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+Push register2, "color", register3
+SetMember
+Jump loc0c53
+loc0c1f:Push register1, "enabledColor"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0c53
+Push register2, "color"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0c53
+Push register2, "color", register1, "enabledColor"
+GetMember
+SetMember
+loc0c53:Push register2
+Return
+}
+SetMember
+Push register7, "getPreferredWidth"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "draw"
+CallMethod
+Pop
+Push register1, "textWidth"
+GetMember
+Push 4
+Add2
+Return
+}
+SetMember
+Push register7, "getPreferredHeight"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "draw"
+CallMethod
+Pop
+Push register1, "textHeight"
+GetMember
+Push 4
+Add2
+Return
+}
+SetMember
+Push "TextFormat"
+GetVariable
+Push "prototype"
+GetMember
+Push "getTextExtent2"
+DefineFunction2 "", 1, 8, false, true, true, false, true, false, false, true, false, 7, "s" {
+Push register2, "_getTextExtent"
+GetMember
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+If loc0d49
+Push 100, 1000, 0.0, 0.0, -2, "_getTextExtent", 6, register2, "createTextField"
+CallMethod
+Pop
+Push register2, "_getTextExtent"
+GetMember
+StoreRegister 3
+Pop
+Push register3, "_visible", false
+SetMember
+loc0d49:Push register2, "_getTextExtent"
+GetMember
+Push "text", register7
+SetMember
+Push register1, "align"
+GetMember
+StoreRegister 4
+Pop
+Push register1, "align", "left"
+SetMember
+Push register1, 1, register2, "_getTextExtent"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop
+Push register1, "align", register4
+SetMember
+Push "width", register3, "textWidth"
+GetMember
+Push "height", register3, "textHeight"
+GetMember
+Push 2
+InitObject
+Return
+}
+SetMember
+Push register3, "style"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0e49
+Push register3, "style", 0.0, "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSStyleDeclaration"
+NewMethod
+SetMember
+Push register3, "cascadingStyles", true
+SetMember
+Push register3, "styles", 0.0, "Object"
+NewObject
+SetMember
+Push register3, "skinRegistry", 0.0, "Object"
+NewObject
+SetMember
+Push register3, "_origWidth"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0e49
+Push register3, "origWidth", "Stage"
+GetVariable
+Push "width"
+GetMember
+SetMember
+Push register3, "origHeight", "Stage"
+GetVariable
+Push "height"
+GetMember
+SetMember
+loc0e49:Push register2
+StoreRegister 4
+Pop
+loc0e53:Push register4, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0e79
+Push register4, "_parent"
+GetMember
+StoreRegister 4
+Pop
+Jump loc0e53
+loc0e79:Push null
+DefineFunction "", 0 {
+Push "Stage"
+GetVariable
+Push "width"
+GetMember
+Return
+}
+Push "width", 3, register4, "addProperty"
+CallMethod
+Pop
+Push null
+DefineFunction "", 0 {
+Push "Stage"
+GetVariable
+Push "height"
+GetMember
+Return
+}
+Push "height", 3, register4, "addProperty"
+CallMethod
+Pop
+Push 1, "width", register4, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "height", register4, 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push true
+Return
+}
+SetMember
+Push register1, "bExtended", false
+SetMember
+Push register1, "UIObjectExtended", 0.0, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "Extensions"
+CallMethod
+SetMember
+Push register1, "UIObjectDependency", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIObject"
+GetMember
+SetMember
+Push register1, "SkinElementDependency", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "SkinElement"
+GetMember
+SetMember
+Push register1, "CSSTextStylesDependency", "mx"
+GetVariable
+Push "styles"
+GetMember
+Push "CSSTextStyles"
+GetMember
+SetMember
+Push register1, "UIEventDispatcherDependency", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0fc1:Pop

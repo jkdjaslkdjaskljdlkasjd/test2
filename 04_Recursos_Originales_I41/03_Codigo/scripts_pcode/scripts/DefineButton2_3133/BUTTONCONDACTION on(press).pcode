@@ -1,0 +1,4 @@
+Push "talentPool2"
+GetVariable
+Push "_xmove", 5
+SetMember

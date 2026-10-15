@@ -1,0 +1,297 @@
+ConstantPool "Krin", "bossFight", "progressFight", "bossJustPwned", "sectionIn", "_root", "updateZoneDefeated", "bossJustPwned2", "achProgF", "Sonny attacked = ", "AchVal1", "Sonny has team = ", "AchVal2", "team member count = ", "AchVal3", "turns to win = ", "AchVal4", "bossMusic", "afterCut", "None", "questProgress", "BattlePick", "CS_CUT2", "gotoSceneKrin", "overMap", "CS_CUT3", "Navigation", "CS_CUT4", "CS_CUT5", "endMenu", "checkAndUpdateZoneAchievements", "checkIfAllStar", "awardAch", "friendArray", "moveMatrix", "startSkill1", "startSkill2", "tutSpeecher", "previousBattleSp", "someListenerKrin", "Mouse", "removeListener", "cutsceneSequence", "gotoAndStop"
+Push "Krin"
+GetVariable
+Push "bossFight"
+GetMember
+Push true
+Equals2
+PushDuplicate
+Not
+If loc0240
+Pop
+Push "Krin"
+GetVariable
+Push "progressFight"
+GetMember
+Push true
+Equals2
+loc0240:Not
+If loc0277
+Push "Krin"
+GetVariable
+Push "bossJustPwned", true
+SetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "updateZoneDefeated"
+CallMethod
+Pop
+Jump loc0285
+loc0277:Push "Krin"
+GetVariable
+Push "bossJustPwned", false
+SetMember
+loc0285:Push "Krin"
+GetVariable
+Push "bossFight"
+GetMember
+Push true
+Equals2
+Not
+If loc02b0
+Push "Krin"
+GetVariable
+Push "bossJustPwned2", true
+SetMember
+Jump loc02be
+loc02b0:Push "Krin"
+GetVariable
+Push "bossJustPwned2", false
+SetMember
+loc02be:Push "Krin"
+GetVariable
+Push "progressFight"
+GetMember
+Push true
+Equals2
+Not
+If loc02e3
+Push "achProgF", true
+SetVariable
+Jump loc02eb
+loc02e3:Push "achProgF", false
+SetVariable
+loc02eb:Push "Sonny attacked = ", "AchVal1"
+GetVariable
+Add2
+Trace
+Push "Sonny has team = ", "AchVal2"
+GetVariable
+Add2
+Trace
+Push "team member count = ", "AchVal3"
+GetVariable
+Add2
+Trace
+Push "turns to win = ", "AchVal4"
+GetVariable
+Add2
+Trace
+Push "Krin"
+GetVariable
+Push "bossMusic", false
+SetMember
+Push "Krin"
+GetVariable
+Push "bossFight", false
+SetMember
+Push "afterCut", "None"
+SetVariable
+Push "Krin"
+GetVariable
+Push "progressFight"
+GetMember
+Not
+If loc0454
+Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+GetMember
+Increment
+SetMember
+Push "Krin"
+GetVariable
+Push "progressFight", false
+SetMember
+Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 109
+Equals2
+Not
+If loc03b5
+Push "afterCut", "CS_CUT2"
+SetVariable
+Push "gotoSceneKrin", "overMap"
+SetVariable
+loc03b5:Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 210
+Equals2
+Not
+If loc03e0
+Push "afterCut", "CS_CUT3"
+SetVariable
+Push "gotoSceneKrin", "Navigation"
+SetVariable
+loc03e0:Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 409
+Equals2
+Not
+If loc0429
+Push "afterCut", "CS_CUT4"
+SetVariable
+Push "gotoSceneKrin", "overMap"
+SetVariable
+Push "Krin"
+GetVariable
+Push "sectionIn"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "updateZoneDefeated"
+CallMethod
+Pop
+loc0429:Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 513
+Equals2
+Not
+If loc0454
+Push "afterCut", "CS_CUT5"
+SetVariable
+Push "gotoSceneKrin", "endMenu"
+SetVariable
+loc0454:Push 0.0, "checkAndUpdateZoneAchievements"
+CallFunction
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "checkIfAllStar"
+CallMethod
+Not
+If loc0496
+Push 5, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0496:Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push 2
+GetMember
+Push 1
+Greater
+Not
+If loc04f4
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray", -1, -1, -1, 2, 1, 0.0, 6
+InitArray
+SetMember
+loc04f4:Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push 5
+GetMember
+Push 4
+Greater
+Not
+If loc0552
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendArray", -1, -1, 3, 2, 1, 0.0, 6
+InitArray
+SetMember
+loc0552:Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 2
+Equals2
+Not
+If loc05ad
+Push "Krin"
+GetVariable
+Push "moveMatrix"
+GetMember
+Push 0.0, "Krin"
+GetVariable
+Push "startSkill1"
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "moveMatrix"
+GetMember
+Push 1, "Krin"
+GetVariable
+Push "startSkill2"
+GetMember
+SetMember
+loc05ad:Push "Krin"
+GetVariable
+Push "tutSpeecher", false
+SetMember
+Push "Krin"
+GetVariable
+Push "previousBattleSp", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+SetMember
+Push "someListenerKrin"
+GetVariable
+Push 1, "Mouse"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push "Krin"
+GetVariable
+Push "cutsceneSequence"
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc062c
+StopSounds
+Push "Krin"
+GetVariable
+Push "cutsceneSequence"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0640
+loc062c:Push "Navigation", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0640:

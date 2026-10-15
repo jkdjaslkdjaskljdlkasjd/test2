@@ -1,0 +1,40 @@
+ConstantPool "Krin", "ClassStats", "Class", "BattlePick", "progressFight", "soundPlayCounter", "_root", "soundModeKrin", "bangStart", "equipArray0", "StatSets0"
+Push "Krin"
+GetVariable
+Push "ClassStats"
+GetMember
+Push 0.0, "Krin"
+GetVariable
+Push "Class"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "BattlePick", 100
+SetMember
+Push "Krin"
+GetVariable
+Push "progressFight", true
+SetMember
+Push "soundPlayCounter", 3
+SetVariable
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+Push "bangStart", true
+SetVariable
+Push "Krin"
+GetVariable
+Push "equipArray0", 0.0, 5, 8, 4, 0.0, 11, 0.0, 7
+InitArray
+SetMember
+Push "Krin"
+GetVariable
+Push "StatSets0", 0.0, 3, 5, 6, 5, 5
+InitArray
+SetMember
+GoToLabel "LOADBATTLESCENE"
+Play

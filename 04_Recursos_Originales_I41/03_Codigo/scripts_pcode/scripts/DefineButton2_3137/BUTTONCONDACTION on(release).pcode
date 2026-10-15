@@ -1,0 +1,9 @@
+Push "thing6"
+GetVariable
+Push "assignedThing"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "addMoveForPlayer"
+CallMethod
+Pop

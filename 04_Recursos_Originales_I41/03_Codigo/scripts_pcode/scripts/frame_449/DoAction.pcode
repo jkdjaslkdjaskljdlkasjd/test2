@@ -1,0 +1,706 @@
+ConstantPool "thingerDepthK", "toGive", "questHub", "length", "achGet", "Krin", "difficulty", "i", "krinMapper", "mb", "sectionID", "line_mc", "lineMC", "createEmptyMovieClip", "lineStyle", "_y", "_x", "moveTo", "linked", "lineTo", "progressMax", "questProgress", "canUse", "blank", "underGF", "gotoAndStop"
+Push "thingerDepthK", 0.0
+SetVariable
+Stop
+Push "toGive", 0.0
+SetVariable
+Push "toGive", "questHub"
+GetVariable
+Push "length"
+GetMember
+SetVariable
+Push "achGet"
+GetVariable
+Push 4
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0147
+Push "toGive", "questHub"
+GetVariable
+Push "length"
+GetMember
+Push 1
+Subtract
+SetVariable
+loc0147:Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 1
+Equals2
+Not
+If loc017a
+Push "toGive", "questHub"
+GetVariable
+Push "length"
+GetMember
+Push 1
+Subtract
+SetVariable
+loc017a:Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc01b1
+Push "toGive", "questHub"
+GetVariable
+Push "length"
+GetMember
+Push 2
+Subtract
+SetVariable
+loc01b1:Push "i", 1
+SetVariable
+loc01bc:Push "i"
+GetVariable
+Push "toGive"
+GetVariable
+Less2
+Not
+If loc0638
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "sectionID", "i"
+GetVariable
+SetMember
+Push "i"
+GetVariable
+Push 1
+Greater
+Not
+If loc0319
+Push "thingerDepthK"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push 100, 0.0, 6, 3, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "moveTo"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineTo"
+CallMethod
+Pop
+Push "thingerDepthK", "thingerDepthK"
+GetVariable
+Increment
+SetVariable
+loc0319:Push "i"
+GetVariable
+Push 1
+Equals2
+PushDuplicate
+If loc0370
+Pop
+Push "questHub"
+GetVariable
+Push "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+GetMember
+Push "progressMax"
+GetMember
+Push "Krin"
+GetVariable
+Push "questProgress"
+GetMember
+Push "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+GetMember
+Less2
+loc0370:Not
+If loc04c0
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "canUse", true
+SetMember
+Push "i"
+GetVariable
+Push 1
+Greater
+Not
+If loc04bb
+Push "thingerDepthK"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push 100, 3246559, 2, 3, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "moveTo"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineTo"
+CallMethod
+Pop
+Push "thingerDepthK", "thingerDepthK"
+GetVariable
+Increment
+SetVariable
+loc04bb:Jump loc0629
+loc04c0:Push "i"
+GetVariable
+Push 1
+Greater
+Not
+If loc05ed
+Push "thingerDepthK"
+GetVariable
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push 100, 3355443, 2, 3, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineStyle"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "moveTo"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_y"
+GetMember
+Push "krinMapper"
+GetVariable
+Push "mb", "questHub"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "linked"
+GetMember
+Add2
+GetMember
+Push "_x"
+GetMember
+Push 2, "krinMapper"
+GetVariable
+Push "lineMC"
+GetMember
+Push "line_mc", "thingerDepthK"
+GetVariable
+Add2
+GetMember
+Push "lineTo"
+CallMethod
+Pop
+Push "thingerDepthK", "thingerDepthK"
+GetVariable
+Increment
+SetVariable
+loc05ed:Push "blank", 1, "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "underGF"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "krinMapper"
+GetVariable
+Push "mb", "i"
+GetVariable
+Add2
+GetMember
+Push "canUse", false
+SetMember
+loc0629:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc01bc
+loc0638:Push "_root"
+GetVariable
+Push "__nzCatalog"
+GetMember
+Not
+Not
+If loc068a
+Push 0
+Push "_root"
+GetVariable
+Push "__nzBuildCatalog"
+CallMethod
+Pop
+Jump loc068a
+loc068a:Push 0
+Push "_root"
+GetVariable
+Push "__nzController"
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 100020
+Push "__nzController"
+Push 2
+Push "_root"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "__nzController"
+GetMember
+Push "onEnterFrame"
+DefineFunction "", 0 {
+Push 0
+Push "_root"
+GetVariable
+Push "__nzTick"
+CallMethod
+Pop
+}
+SetMember
+Push 100000
+Push "__nzGate"
+Push 2
+Push "_root"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "_x"
+Push 400
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "_y"
+Push 285
+SetMember
+Push 1
+Push "icon"
+Push "__nzMapMarker"
+Push 3
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "icon"
+GetMember
+Push "_width"
+Push 44
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "icon"
+GetMember
+Push "_height"
+Push 44
+SetMember
+Push "bounds"
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push 1
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "icon"
+GetMember
+Push "getBounds"
+CallMethod
+DefineLocal
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "icon"
+GetMember
+Push "_x"
+Push -22
+Push "bounds"
+GetVariable
+Push "xMin"
+GetMember
+Subtract
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "icon"
+GetMember
+Push "_y"
+Push -22
+Push "bounds"
+GetVariable
+Push "yMin"
+GetMember
+Subtract
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "onRelease"
+DefineFunction "", 0 {
+Push "_root"
+GetVariable
+Push "__nzActive"
+Push true
+SetMember
+Push 0
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "Navigation"
+Push 1
+Push "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+}
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "onRollOver"
+DefineFunction "", 0 {
+Push "_root"
+GetVariable
+Push "navTitle"
+Push "NULL ZONE"
+SetMember
+}
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "onEnterFrame"
+DefineFunction "", 0 {
+Push "_root"
+GetVariable
+Push "_currentframe"
+GetMember
+Push 449
+Equals2
+If loc0b51
+Push 0
+Push "this"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+}
+loc0b51:SetMember
+Push 24
+Push 140
+Push 29
+Push -59
+Push 100
+Push "label"
+Push 6
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "createTextField"
+CallMethod
+Pop
+Push 14931404, 14, "Rockwell", 3, "TextFormat"
+NewObject
+Push 1
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "label"
+GetMember
+Push "setNewTextFormat"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "label"
+GetMember
+Push "selectable"
+Push false
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "label"
+GetMember
+Push "text"
+Push "NULL ZONE"
+SetMember
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "label"
+GetMember
+Push "embedFonts"
+Push true
+SetMember
+Push "fmt"
+Push 14931404, 14, "Rockwell", 3, "TextFormat"
+NewObject
+DefineLocal
+Push "fmt"
+GetVariable
+Push "bold"
+Push true
+SetMember
+Push "fmt"
+GetVariable
+Push 1
+Push "_root"
+GetVariable
+Push "__nzGate"
+GetMember
+Push "label"
+GetMember
+Push "setTextFormat"
+CallMethod
+Pop

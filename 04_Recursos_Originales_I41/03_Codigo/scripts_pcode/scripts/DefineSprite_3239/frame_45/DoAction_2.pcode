@@ -1,0 +1,78 @@
+ConstantPool "achTit", "_root", "KrinLang", "KLangChoosen", "ACHSAY", "achGet", "i", "this", "achPlate", "achNum", "ACH", "gotoAndStop"
+Push "achTit", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ACHSAY"
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "achGet"
+GetMember
+Enumerate2
+loc0095:StoreRegister 0
+Push null
+Equals2
+If loc0145
+Push "i", register0
+SetVariable
+Push "this"
+GetVariable
+Push "achPlate", "i"
+GetVariable
+Add2
+GetMember
+Push "achNum", "i"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "achPlate", "i"
+GetVariable
+Add2
+GetMember
+Push "achTit", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ACH"
+GetMember
+Push "i"
+GetVariable
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "achGet"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1
+Equals2
+Not
+If loc0140
+Push 2, 1, "this"
+GetVariable
+Push "achPlate", "i"
+GetVariable
+Add2
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0140:Jump loc0095
+loc0145:

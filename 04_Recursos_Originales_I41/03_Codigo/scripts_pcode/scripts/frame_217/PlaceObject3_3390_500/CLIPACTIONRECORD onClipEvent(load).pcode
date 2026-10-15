@@ -1,0 +1,192 @@
+ConstantPool "i", "KRINABILITY", "moveMatrix", "thing", "gotoAndStop", "toolTipTitle", "toolTip", "KRINABILITYB", "toolTip3", "elementMainArray", "u", "KNcolor2", "elementColorArray", "None", "thingo", "_visible", "zero", "assignedThing", "ACD", "", "clicker", "Krin", "refreshOrbs", "_root", "arenaMode", "arenaPlayer", "playerNumber"
+DefineFunction2 "refreshOrbs", 1, 4, false, true, true, false, true, false, false, true, false, 3, "theGuy" {
+Push "i", 0.0
+SetVariable
+loc0125:Push "i"
+GetVariable
+Push 8
+Less2
+Not
+If loc0340
+Push register2, "KRINABILITY", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push 1, register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTipTitle", register2, "KRINABILITY", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip", register2, "KRINABILITYB", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 17
+GetMember
+SetMember
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "toolTip3", register2, "KRINABILITYB", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 18
+GetMember
+SetMember
+Push register2, "elementMainArray"
+GetMember
+Enumerate2
+loc021c:StoreRegister 0
+Push null
+Equals2
+If loc0293
+Push "u", register0
+SetVariable
+Push register2, "elementMainArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+Push register2, "KRINABILITYB", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Equals2
+Not
+If loc028e
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "KNcolor2", register2, "elementColorArray"
+GetMember
+Push "u"
+GetVariable
+GetMember
+SetMember
+loc028e:Jump loc021c
+loc0293:Push register2, "KRINABILITY", register2, register3
+GetMember
+Push "moveMatrix"
+GetMember
+Push "i"
+GetVariable
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push "None"
+Equals2
+Not
+If loc02f4
+Push register1, "thingo", "i"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "zero", true
+SetMember
+Jump loc0308
+loc02f4:Push register1, "thingo", "i"
+GetVariable
+Add2
+GetMember
+Push "_visible", true
+SetMember
+loc0308:Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "assignedThing", "i"
+GetVariable
+SetMember
+Push register1, "thing", "i"
+GetVariable
+Add2
+GetMember
+Push "ACD", ""
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0125
+}
+loc0340:Push "clicker", false
+SetVariable
+Push "", 7, false
+SetProperty
+Push "Krin", 1, "refreshOrbs"
+CallFunction
+Pop
+Push "_root"
+GetVariable
+Push "arenaMode"
+GetMember
+Not
+If loc0396
+Push "arenaPlayer", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "playerNumber"
+GetMember
+Add2
+Push 1, "refreshOrbs"
+CallFunction
+Pop
+loc0396:

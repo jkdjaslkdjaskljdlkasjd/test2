@@ -1,0 +1,21 @@
+DefineFunction "__f_construct", 1, "eventObj"  {
+Push "_targetInstanceName", "naxTevt"
+SetVariable
+Push "horizontal", false
+SetVariable
+Push "enabled", true
+SetVariable
+Push "visible", true
+SetVariable
+Push "minHeight", 0.0
+SetVariable
+Push "minWidth", 0.0
+SetVariable
+}
+Push "__f_construct"
+GetVariable
+Push "construct", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop

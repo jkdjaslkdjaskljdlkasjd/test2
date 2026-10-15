@@ -1,0 +1,33 @@
+ConstantPool "_root", "shakeValue", "BATTLESCREEN", "__hdCamSync", "_y", "shakeMinus"
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Push "shakeValue"
+GetVariable
+Subtract
+SetMember
+Push "shakeValue", "shakeValue"
+GetVariable
+Push "shakeMinus"
+GetVariable
+Subtract
+SetVariable
+Push "_root"
+GetVariable
+Push "__hdCamSync"
+GetMember
+Not
+If loc0099
+Push 0, "_root"
+GetVariable
+Push "__hdCamSync"
+CallMethod
+Pop
+loc0099:

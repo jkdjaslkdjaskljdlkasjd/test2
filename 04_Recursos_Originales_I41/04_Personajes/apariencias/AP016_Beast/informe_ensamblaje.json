@@ -1,0 +1,473 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "PREDATOR",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "catalogo_mod",
+    "indice": 33,
+    "nombre": "Beast",
+    "linea": 13850
+   }
+  ],
+  "name": "AP016_Beast",
+  "nombres": [
+   "Beast"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP016_Beast",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PREDATOR",
+     "characterId": 695
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_PREDATOR",
+     "characterId": 690
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_PREDATOR",
+     "characterId": 692
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PREDATOR",
+     "characterId": 695
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_PREDATOR",
+     "characterId": 687
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_PREDATOR",
+     "characterId": 692
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PREDATOR",
+     "characterId": 695
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_PREDATOR",
+     "characterId": 687
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_PREDATOR",
+     "characterId": 694
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_PREDATOR",
+     "characterId": 688
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_PREDATOR",
+     "characterId": 695
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SSHOULDER_PREDATOR",
+     "characterId": 686
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": []
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_PREDATOR",
+     "characterId": 690
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 688
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 694
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 695
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 695
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 690
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 690
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 695
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 695
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 687
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 687
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 692
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 692
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_PREDATOR",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 686
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 68,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

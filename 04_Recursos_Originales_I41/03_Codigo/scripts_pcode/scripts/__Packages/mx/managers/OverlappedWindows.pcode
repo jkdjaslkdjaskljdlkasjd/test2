@@ -1,0 +1,954 @@
+ConstantPool "_global", "mx", "Object", "managers", "OverlappedWindows", "prototype", "checkIdle", "SystemManager", "idleFrames", "type", "idle", "dispatchEvent", "__addEventListener", "interval", "setInterval", "_xAddEventListener", "__removeEventListener", "_xRemoveEventListener", "clearInterval", "onMouseDown", "isMouseDown", "_xmouse", "_ymouse", "form", "modalWindow", "forms", "length", "_visible", "hitTest", "getDepth", "activate", "focusManager", "_onMouseDown", "onMouseMove", "onMouseUp", "deactivate", "addFocusManager", "push", "removeFocusManager", "splice", "enableOverlappedWindows", "initialized", "SystemManagerDependency", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0235
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0235:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Not
+Not
+If loc026d
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers", 0.0, "Object"
+NewObject
+SetMember
+loc026d:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Not
+Not
+If loc0ec1
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "checkIdle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 0, "Void" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames"
+GetMember
+Push 10
+Greater
+Not
+If loc0327
+Push "type", "idle", 1
+InitObject
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "dispatchEvent"
+CallMethod
+Pop
+Jump loc0355
+loc0327:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames"
+GetMember
+Increment
+SetMember
+}
+loc0355:SetMember
+Push register1, "__addEventListener"
+DefineFunction2 "", 3, 4, false, false, true, false, true, false, true, false, false, 1, "e", 2, "o", 3, "l" {
+Push register1, "idle"
+Equals2
+Not
+If loc03df
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "interval"
+GetMember
+Push undefined
+Equals2
+Not
+If loc03df
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "interval", 100, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "checkIdle"
+GetMember
+Push 2, "setInterval"
+CallFunction
+SetMember
+loc03df:Push register3, register2, register1, 3, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_xAddEventListener"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "__removeEventListener"
+DefineFunction2 "", 3, 4, false, false, true, false, true, false, true, false, false, 1, "e", 2, "o", 3, "l" {
+Push register1, "idle"
+Equals2
+Not
+If loc048c
+Push register3, register2, register1, 3, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_xRemoveEventListener"
+CallMethod
+Push 0.0
+Equals2
+Not
+If loc0487
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "interval"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+loc0487:Jump loc04b0
+loc048c:Push register3, register2, register1, 3, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "_xRemoveEventListener"
+CallMethod
+Pop
+}
+loc04b0:SetMember
+Push register1, "onMouseDown"
+DefineFunction2 "", 1, 10, false, true, true, false, true, false, true, false, false, 0, "Void" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", 0.0
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "isMouseDown", true
+SetMember
+Push register1
+StoreRegister 5
+Pop
+Push undefined
+StoreRegister 3
+Pop
+Push register1, "_xmouse"
+GetMember
+StoreRegister 8
+Pop
+Push register1, "_ymouse"
+GetMember
+StoreRegister 7
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push "modalWindow"
+GetMember
+Push undefined
+Equals2
+Not
+If loc06d8
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+Push 1
+Greater
+Not
+If loc06d8
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+StoreRegister 6
+Pop
+Push undefined
+StoreRegister 4
+Pop
+Push 0.0
+StoreRegister 4
+Pop
+loc05c4:Push register4, register6
+Less2
+Not
+If loc0696
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register4
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_visible"
+GetMember
+Not
+If loc0686
+Push register7, register8, 2, register2, "hitTest"
+CallMethod
+Not
+If loc0686
+Push register3, undefined
+Equals2
+Not
+If loc064c
+Push 0.0, register2, "getDepth"
+CallMethod
+StoreRegister 3
+Pop
+Push register2
+StoreRegister 5
+Pop
+Jump loc0686
+loc064c:Push register3, 0.0, register2, "getDepth"
+CallMethod
+Less2
+Not
+If loc0686
+Push 0.0, register2, "getDepth"
+CallMethod
+StoreRegister 3
+Pop
+Push register2
+StoreRegister 5
+Pop
+loc0686:Push register4
+Increment
+StoreRegister 4
+Pop
+Jump loc05c4
+loc0696:Push register5, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Equals2
+Not
+Not
+If loc06d8
+Push register5, 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+loc06d8:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+StoreRegister 9
+Pop
+Push 0.0, register9, "focusManager"
+GetMember
+Push "_onMouseDown"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "onMouseMove"
+DefineFunction "", 1, "Void"  {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", 0.0
+SetMember
+}
+SetMember
+Push register1, "onMouseUp"
+DefineFunction "", 1, "Void"  {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "isMouseDown", false
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", 0.0
+SetMember
+}
+SetMember
+Push register1, "activate"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, true, false, false, 2, "f" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0856
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push register2
+Equals2
+Not
+PushDuplicate
+Not
+If loc081b
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+Push 1
+Greater
+loc081b:Not
+If loc0856
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+StoreRegister 1
+Pop
+Push 0.0, register1, "focusManager"
+GetMember
+Push "deactivate"
+CallMethod
+Pop
+loc0856:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form", register2
+SetMember
+Push 0.0, register2, "focusManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "deactivate"
+DefineFunction2 "", 1, 6, false, false, true, false, true, false, true, false, false, 4, "f" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0b00
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push register4
+Equals2
+PushDuplicate
+Not
+If loc090f
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+Push 1
+Greater
+loc090f:Not
+If loc0b00
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+StoreRegister 5
+Pop
+Push 0.0, register5, "focusManager"
+GetMember
+Push "deactivate"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+StoreRegister 3
+Pop
+Push undefined
+StoreRegister 1
+Pop
+Push undefined
+StoreRegister 2
+Pop
+Push 0.0
+StoreRegister 1
+Pop
+loc0990:Push register1, register3
+Less2
+Not
+If loc0acb
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+Push register4
+Equals2
+Not
+If loc0a68
+Push register1, 1
+Add2
+StoreRegister 1
+Pop
+loc09d8:Push register1, register3
+Less2
+Not
+If loc0a49
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+Push "_visible"
+GetMember
+Push true
+Equals2
+Not
+If loc0a39
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+StoreRegister 2
+Pop
+loc0a39:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc09d8
+loc0a49:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form", register2
+SetMember
+Jump loc0acb
+loc0a68:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+Push "_visible"
+GetMember
+Push true
+Equals2
+Not
+If loc0abb
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+StoreRegister 2
+Pop
+loc0abb:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc0990
+loc0acb:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+StoreRegister 5
+Pop
+Push 0.0, register5, "focusManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+}
+loc0b00:SetMember
+Push register1, "addFocusManager"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "f" {
+Push register1, 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push register1, 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "removeFocusManager"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, true, false, false, 2, "f" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "length"
+GetMember
+StoreRegister 3
+Pop
+Push undefined
+StoreRegister 1
+Pop
+Push 0.0
+StoreRegister 1
+Pop
+loc0baf:Push register1, register3
+Less2
+Not
+If loc0c6b
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push register1
+GetMember
+Push register2
+Equals2
+Not
+If loc0c5b
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "form"
+GetMember
+Push register2
+Equals2
+Not
+If loc0c2b
+Push register2, 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "deactivate"
+CallMethod
+Pop
+loc0c2b:Push 1, register1, 2, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "forms"
+GetMember
+Push "splice"
+CallMethod
+Pop
+Push undefined
+Return
+loc0c5b:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc0baf
+}
+loc0c6b:SetMember
+Push register1, "enableOverlappedWindows"
+DefineFunction "", 0 {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "initialized"
+GetMember
+Not
+Not
+If loc0e76
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "initialized", true
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "checkIdle", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "checkIdle"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__addEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "__addEventListener"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__removeEventListener", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "__removeEventListener"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "onMouseDown", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "onMouseDown"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "onMouseMove", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "onMouseMove"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "onMouseUp", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "onMouseUp"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "activate", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "activate"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "deactivate", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "deactivate"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "addFocusManager", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "addFocusManager"
+GetMember
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "removeFocusManager", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "removeFocusManager"
+GetMember
+SetMember
+}
+loc0e76:SetMember
+Push register1, "initialized", false
+SetMember
+Push register1, "SystemManagerDependency", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "OverlappedWindows"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0ec1:Pop

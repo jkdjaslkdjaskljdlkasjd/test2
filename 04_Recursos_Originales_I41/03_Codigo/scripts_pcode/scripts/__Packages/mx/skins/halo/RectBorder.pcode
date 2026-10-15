@@ -1,0 +1,732 @@
+ConstantPool "_global", "mx", "Object", "skins", "halo", "RectBorder", "prototype", "init", "borderWidths", "default", "getBorderMetrics", "offset", "borderStyleName", "getStyle", "alert", "__borderMetrics", "left", "top", "right", "bottom", "drawBorder", "styles", "className", "borderColorName", "backgroundColorName", "backgroundImage", "none", "shadowColorName", "highlightColorName", "buttonColorName", "borderCapColorName", "shadowCapColorName", "__get__width", "__get__height", "clear", "_color", "inset", "colorList", "draw3dBorder", "outset", "themeColor", "drawRoundRect", "radial", "tl", "tr", "br", "bl", "dropDown", "linear", "menuBorder", "comboNonEdit", "beginFill", "drawRect", "endFill", "classConstruct", "core", "ext", "UIObjectExtensions", "Extensions", "rectBorderClass", "skinRegistry", "symbolName", "symbolOwner", "version", "2.0.2.127", "borderCapColor", "shadowCapColor", "highlightColor", "borderColor", "buttonColor", "shadowColor", "solid", "classConstructed", "UIObjectExtensionsDependency", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0352
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0352:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Not
+Not
+If loc038a
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins", 0.0, "Object"
+NewObject
+SetMember
+loc038a:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Not
+Not
+If loc03ce
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "halo", 0.0, "Object"
+NewObject
+SetMember
+loc03ce:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+Not
+Not
+If loc13bc
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+Push "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "RectBorder"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "init"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push register1, "borderWidths"
+GetMember
+Push "default", 3
+SetMember
+Push 0.0, register2, "init"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getBorderMetrics"
+DefineFunction2 "", 1, 8, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push register1, "offset"
+GetMember
+Push undefined
+Equals2
+Not
+If loc04fa
+Push register1, "borderStyleName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 3
+Pop
+Push register1, "offset", register1, "borderWidths"
+GetMember
+Push register3
+GetMember
+SetMember
+loc04fa:Push register1, "borderStyleName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+Push "default"
+Equals2
+PushDuplicate
+If loc0537
+Pop
+Push register1, "borderStyleName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+Push "alert"
+Equals2
+loc0537:Not
+If loc0570
+Push register1, "__borderMetrics", "left", 3, "top", 1, "right", 3, "bottom", 3, 4
+InitObject
+SetMember
+Push register1, "__borderMetrics"
+GetMember
+Return
+loc0570:Push 0.0, register2, "getBorderMetrics"
+CallMethod
+Return
+}
+SetMember
+Push register2, "drawBorder"
+DefineFunction2 "", 1, 21, false, false, true, false, true, false, false, true, true, 0, "Void" {
+Push register2, "styles"
+GetMember
+Push register1, "className"
+GetMember
+GetMember
+StoreRegister 6
+Pop
+Push register6, undefined
+Equals2
+Not
+If loc05d1
+Push register2, "styles"
+GetMember
+Push "RectBorder"
+GetMember
+StoreRegister 6
+Pop
+loc05d1:Push register1, "borderStyleName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 5
+Pop
+Push register1, "borderColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 7
+Pop
+Push register7, undefined
+Equals2
+Not
+If loc0622
+Push register6, register1, "borderColorName"
+GetMember
+GetMember
+StoreRegister 7
+Pop
+loc0622:Push register1, "backgroundColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 8
+Pop
+Push register8, undefined
+Equals2
+Not
+If loc0659
+Push register6, register1, "backgroundColorName"
+GetMember
+GetMember
+StoreRegister 8
+Pop
+loc0659:Push "backgroundImage", 1, register1, "getStyle"
+CallMethod
+StoreRegister 16
+Pop
+Push register5, "none"
+Equals2
+Not
+Not
+If loc078f
+Push register1, "shadowColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 14
+Pop
+Push register14, undefined
+Equals2
+Not
+If loc06b3
+Push register6, register1, "shadowColorName"
+GetMember
+GetMember
+StoreRegister 14
+Pop
+loc06b3:Push register1, "highlightColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 13
+Pop
+Push register13, undefined
+Equals2
+Not
+If loc06ea
+Push register6, register1, "highlightColorName"
+GetMember
+GetMember
+StoreRegister 13
+Pop
+loc06ea:Push register1, "buttonColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 12
+Pop
+Push register12, undefined
+Equals2
+Not
+If loc0721
+Push register6, register1, "buttonColorName"
+GetMember
+GetMember
+StoreRegister 12
+Pop
+loc0721:Push register1, "borderCapColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 11
+Pop
+Push register11, undefined
+Equals2
+Not
+If loc0758
+Push register6, register1, "borderCapColorName"
+GetMember
+GetMember
+StoreRegister 11
+Pop
+loc0758:Push register1, "shadowCapColorName"
+GetMember
+Push 1, register1, "getStyle"
+CallMethod
+StoreRegister 10
+Pop
+Push register10, undefined
+Equals2
+Not
+If loc078f
+Push register6, register1, "shadowCapColorName"
+GetMember
+GetMember
+StoreRegister 10
+Pop
+loc078f:Push register1, "offset", register1, "borderWidths"
+GetMember
+Push register5
+GetMember
+SetMember
+Push register1, "offset"
+GetMember
+StoreRegister 9
+Pop
+Push 0.0, register1, "__get__width"
+CallMethod
+StoreRegister 3
+Pop
+Push 0.0, register1, "__get__height"
+CallMethod
+StoreRegister 4
+Pop
+Push 0.0, register1, "clear"
+CallMethod
+Pop
+Push register1, "_color", undefined
+SetMember
+Push register5, "none"
+Equals2
+Not
+If loc0809
+Jump loc0f01
+loc0809:Push register5, "inset"
+Equals2
+Not
+If loc0843
+Push register1, "_color", register1, "colorList"
+GetMember
+SetMember
+Push register10, register14, register13, register7, register12, register11, 6, register1, "draw3dBorder"
+CallMethod
+Pop
+Jump loc0f01
+loc0843:Push register5, "outset"
+Equals2
+Not
+If loc087d
+Push register1, "_color", register1, "colorList"
+GetMember
+SetMember
+Push register10, register13, register14, register12, register7, register11, 6, register1, "draw3dBorder"
+CallMethod
+Pop
+Jump loc0f01
+loc087d:Push register5, "alert"
+Equals2
+Not
+If loc0a0b
+Push "themeColor", 1, register1, "getStyle"
+CallMethod
+StoreRegister 15
+Pop
+Push 10, 6184542, 5, register4, 5
+Subtract
+Push register3, 5, 0.0, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Push "radial", 0.0, 10, 6184542, 6184542, 2
+InitArray
+Push 4, register4, 5
+Subtract
+Push register3, 2
+Subtract
+Push 4, 1, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push "radial", 0.0, 100, 14342874, 0.0, 2
+InitArray
+Push 3, register4, 2
+Subtract
+Push register3, 4
+Subtract
+Push 0.0, 2, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 50, register15, 3, register4, 2
+Subtract
+Push register3, 4
+Subtract
+Push 0.0, 2, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 100, 16777215, 2, register4, 4
+Subtract
+Push register3, 6
+Subtract
+Push 1, 3, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Jump loc0f01
+loc0a0b:Push register5, "default"
+Equals2
+Not
+If loc0be3
+Push 10, 6184542, "tl", 5, "tr", 5, "br", 0.0, "bl", 0.0, 4
+InitObject
+Push register4, 5
+Subtract
+Push register3, 5, 0.0, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Push "radial", 0.0, 10, 6184542, 6184542, 2
+InitArray
+Push "tl", 4, "tr", 4, "br", 0.0, "bl", 0.0, 4
+InitObject
+Push register4, 5
+Subtract
+Push register3, 2
+Subtract
+Push 4, 1, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push "radial", 0.0, 100, 11844796, 12897484, 2
+InitArray
+Push "tl", 3, "tr", 3, "br", 0.0, "bl", 0.0, 4
+InitObject
+Push register4, 2
+Subtract
+Push register3, 4
+Subtract
+Push 0.0, 2, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 100, 16777215, "tl", 2, "tr", 2, "br", 0.0, "bl", 0.0, 4
+InitObject
+Push register4, 4
+Subtract
+Push register3, 6
+Subtract
+Push 1, 3, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Jump loc0f01
+loc0be3:Push register5, "dropDown"
+Equals2
+Not
+If loc0cd4
+Push "linear", -10, 100, 7895160, 13290186, 2
+InitArray
+Push "tl", 4, "tr", 0.0, "br", 0.0, "bl", 4, 4
+InitObject
+Push register4, register3, 1
+Add2
+Push 0.0, 0.0, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 100, 16777215, "tl", 3, "tr", 0.0, "br", 0.0, "bl", 3, 4
+InitObject
+Push register4, 2
+Subtract
+Push register3, 1
+Subtract
+Push 1, 1, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Jump loc0f01
+loc0cd4:Push register5, "menuBorder"
+Equals2
+Not
+If loc0e6d
+Push "themeColor", 1, register1, "getStyle"
+CallMethod
+StoreRegister 15
+Pop
+Push "radial", 0.0, 10, 6184542, 6184542, 2
+InitArray
+Push 0.0, register4, 3
+Subtract
+Push register3, 2
+Subtract
+Push 4, 4, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 10, 6184542, 0.0, register4, 2
+Subtract
+Push register3, 1
+Subtract
+Push 4, 4, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Push "linear", 250, 100, 14342874, 0.0, 2
+InitArray
+Push 0.0, register4, register3, 1
+Add2
+Push 0.0, 0.0, 9, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 50, register15, 0.0, register4, register3, 1
+Add2
+Push 0.0, 0.0, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Push 100, 16777215, 0.0, register4, 4
+Subtract
+Push register3, 3
+Subtract
+Push 2, 2, 7, register1, "drawRoundRect"
+CallMethod
+Pop
+Jump loc0f01
+loc0e6d:Push register5, "comboNonEdit"
+Equals2
+Not
+If loc0e80
+Jump loc0f01
+loc0e80:Push register7, 1, register1, "beginFill"
+CallMethod
+Pop
+Push register4, register3, 0.0, 0.0, 4, register1, "drawRect"
+CallMethod
+Pop
+Push register4, 1
+Subtract
+Push register3, 1
+Subtract
+Push 1, 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register1, "_color", register1, "borderColorName"
+GetMember
+SetMember
+loc0f01:Push register8, undefined
+Equals2
+Not
+Not
+If loc0f71
+Push register8, 1, register1, "beginFill"
+CallMethod
+Pop
+Push 0.0, register1, "__get__height"
+CallMethod
+Push register9
+Subtract
+Push 0.0, register1, "__get__width"
+CallMethod
+Push register9
+Subtract
+Push register9, register9, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+}
+loc0f71:SetMember
+Push register2, "draw3dBorder"
+DefineFunction2 "", 6, 10, false, false, true, false, true, false, false, true, false, 9, "c1", 8, "c2", 7, "c3", 6, "c4", 5, "c5", 4, "c6" {
+Push 0.0, register1, "__get__width"
+CallMethod
+StoreRegister 3
+Pop
+Push 0.0, register1, "__get__height"
+CallMethod
+StoreRegister 2
+Pop
+Push register9, 1, register1, "beginFill"
+CallMethod
+Pop
+Push register2, register3, 0.0, 0.0, 4, register1, "drawRect"
+CallMethod
+Pop
+Push register2, register3, 1
+Subtract
+Push 0.0, 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register8, 1, register1, "beginFill"
+CallMethod
+Pop
+Push 1, register3, 1
+Subtract
+Push 0.0, 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register7, 1, register1, "beginFill"
+CallMethod
+Pop
+Push register2, register3, 1
+Subtract
+Push register2, 1
+Subtract
+Push 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register6, 1, register1, "beginFill"
+CallMethod
+Pop
+Push 2, register3, 1
+Subtract
+Push 1, 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register5, 1, register1, "beginFill"
+CallMethod
+Pop
+Push register2, 1
+Subtract
+Push register3, 1
+Subtract
+Push register2, 2
+Subtract
+Push 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+Push register4, 1, register1, "beginFill"
+CallMethod
+Pop
+Push register2, 2
+Subtract
+Push register3, 1
+Subtract
+Push 2, 1, 4, register1, "drawRect"
+CallMethod
+Pop
+Push register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 2, 2, 4, register1, "drawRect"
+CallMethod
+Pop
+Push 0.0, register1, "endFill"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "classConstruct"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, true, false, true {
+Push 0.0, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+Push "Extensions"
+CallMethod
+Pop
+Push register1, "styles"
+GetMember
+Push "rectBorderClass", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+SetMember
+Push register1, "skinRegistry"
+GetMember
+Push "RectBorder", true
+SetMember
+Push true
+Return
+}
+SetMember
+Push register1, "symbolName", "RectBorder"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "borderCapColorName", "borderCapColor"
+SetMember
+Push register2, "shadowCapColorName", "shadowCapColor"
+SetMember
+Push register2, "colorList", "highlightColor", 0.0, "borderColor", 0.0, "buttonColor", 0.0, "shadowColor", 0.0, "borderCapColor", 0.0, "shadowCapColor", 0.0, 6
+InitObject
+SetMember
+Push register2, "borderWidths", "none", 0.0, "solid", 1, "inset", 2, "outset", 2, "alert", 3, "dropDown", 2, "menuBorder", 2, "comboNonEdit", 2, 8
+InitObject
+SetMember
+Push register1, "classConstructed", 0.0, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+Push "classConstruct"
+CallMethod
+SetMember
+Push register1, "UIObjectExtensionsDependency", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "halo"
+GetMember
+Push "RectBorder"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc13bc:Pop

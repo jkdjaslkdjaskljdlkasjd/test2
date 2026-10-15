@@ -1,0 +1,19 @@
+ConstantPool "DFTC", "hitTarget", "inner", "_root", "krinChangeColor", "filters", "DFTF"
+Push "DFTC"
+GetVariable
+Push "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push "filters", "DFTF"
+GetVariable
+SetMember

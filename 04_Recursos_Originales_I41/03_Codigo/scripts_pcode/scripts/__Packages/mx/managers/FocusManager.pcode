@@ -1,0 +1,2520 @@
+ConstantPool "_global", "mx", "Object", "managers", "FocusManager", "core", "UIComponent", "prototype", "__get__defaultPushButton", "__defaultPushButton", "__set__defaultPushButton", "__set__emphasized", "defPushButton", "getMaxTabIndex", "_parent", "tabIndex", "tabChildren", "getNextTabIndex", "form", "__get__nextTabIndex", "relocate", "SystemManager", "__get__screen", "y", "x", "move", "init", "tabEnabled", "_width", "_height", "_x", "_y", "_alpha", "focusManager", "hide", "addEventListener", "reveal", "addFocusManager", "tabCapture", "enabledChanged", "enabled", "watch", "Selection", "addListener", "lastMouse", "ASSetPropFlags", "_visible", "activate", "Key", "activated", "lastFocus", "bNeedFocus", "isMouseDown", "restoreFocus", "doLater", "deactivate", "removeListener", "getSelectionFocus", "getActualFocus", "isOurFocus", "lastSelFocus", "cancelAllDoLaters", "onSetFocus", "getFocus", "hscroll", "scroll", "background", "setFocus", "lastEndIndex", "lastBeginIndex", "setSelection", "onUnload", "removeFocusManager", "focusTextField", "m", "o", "walkTree", "onPress", "onRelease", "onReleaseOutside", "onDragOut", "onDragOver", "onRollOver", "onRollOut", "TextField", "_searchKey", "_lastTarget", "groupName", "selectable", "_firstNode", "selected", "_nextIsNext", "_nextNode", "_lastx", "_prevNode", "_needPrev", "_foundList", "_name", "_prevObj", "_nextObj", "_firstObj", "_lastObj", "getTabCandidateFromChildren", "_lastNode", "getTabCandidate", "getFocusManagerFromObject", "tabHandler", "bDrawFocus", "isDown", "lastTabFocus", "emphasized", "controls", "SimpleButton", "onKeyDown", "idleFrames", "defaultPushButtonEnabled", "getCode", "sendDefaultPushButtonEvent", "type", "click", "dispatchEvent", "getMousedComponentFromChildren", "hitTest", "mouseActivate", "findFocusFromObject", "_onMouseDown", "drawFocus", "getBeginIndex", "getEndIndex", "_xmouse", "_ymouse", "localToGlobal", "onMouseUp", "handleEvent", "enableFocusManagement", "initialized", "registerClass", "DepthManager", "highestDepth", "createClassObject", "symbolName", "symbolOwner", "version", "2.0.2.127", "className", "UIObjectExtensionsDependency", "ext", "UIObjectExtensions", "defaultPushButton", "addProperty", "nextTabIndex"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc070b
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc070b:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Not
+Not
+If loc0743
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers", 0.0, "Object"
+NewObject
+SetMember
+loc0743:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Not
+Not
+If loc2a9f
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "__get__defaultPushButton"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__defaultPushButton"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__defaultPushButton"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register2, register1, "__defaultPushButton"
+GetMember
+Equals2
+Not
+Not
+If loc0844
+Push false, 1, register1, "__defaultPushButton"
+GetMember
+Push "__set__emphasized"
+CallMethod
+Pop
+Push register1, "__defaultPushButton", register2
+SetMember
+Push register1, "defPushButton", register2
+SetMember
+Push true, 1, register2, "__set__emphasized"
+CallMethod
+Pop
+loc0844:Push 0.0, register1, "__get__defaultPushButton"
+CallMethod
+Return
+}
+SetMember
+Push register2, "getMaxTabIndex"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 5, "o" {
+Push 0.0
+StoreRegister 3
+Pop
+Push undefined
+StoreRegister 6
+Pop
+Push register5
+Enumerate2
+loc088c:StoreRegister 0
+Push null
+Equals2
+If loc093f
+Push register0
+StoreRegister 6
+Pop
+Push register5, register6
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+Push register5
+Equals2
+Not
+If loc093a
+Push register2, "tabIndex"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc08fa
+Push register2, "tabIndex"
+GetMember
+Push register3
+Greater
+Not
+If loc08fa
+Push register2, "tabIndex"
+GetMember
+StoreRegister 3
+Pop
+loc08fa:Push register2, "tabChildren"
+GetMember
+Push true
+Equals2
+Not
+If loc093a
+Push register2, 1, register1, "getMaxTabIndex"
+CallMethod
+StoreRegister 4
+Pop
+Push register4, register3
+Greater
+Not
+If loc093a
+Push register4
+StoreRegister 3
+Pop
+loc093a:Jump loc088c
+loc093f:Push register3
+Return
+}
+SetMember
+Push register2, "getNextTabIndex"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "form"
+GetMember
+Push 1, register1, "getMaxTabIndex"
+CallMethod
+Push 1
+Add2
+Return
+}
+SetMember
+Push register2, "__get__nextTabIndex"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getNextTabIndex"
+CallMethod
+Return
+}
+SetMember
+Push register2, "relocate"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "__get__screen"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, "y"
+GetMember
+Push 1
+Subtract
+Push register2, "x"
+GetMember
+Push 1
+Subtract
+Push 2, register1, "move"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "init"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, true, 0, "Void" {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "tabEnabled", false
+SetMember
+Push register1, "_width", register1, "_height", 1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, "_x", register1, "_y", -1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, "_alpha", 0.0
+SetMember
+Push register1, "_parent"
+GetMember
+Push "focusManager", register1
+SetMember
+Push register1, "_parent"
+GetMember
+Push "tabChildren", true
+SetMember
+Push register1, "_parent"
+GetMember
+Push "tabEnabled", false
+SetMember
+Push register1, "form", register1, "_parent"
+GetMember
+SetMember
+Push register1, "hide", 2, register1, "_parent"
+GetMember
+Push "addEventListener"
+CallMethod
+Pop
+Push register1, "reveal", 2, register1, "_parent"
+GetMember
+Push "addEventListener"
+CallMethod
+Pop
+Push 0.0, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "init"
+CallMethod
+Pop
+Push register1, "form"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "addFocusManager"
+CallMethod
+Pop
+Push register1, "tabCapture"
+GetMember
+Push "tabIndex", 0.0
+SetMember
+Push register1, "enabledChanged"
+GetMember
+Push "enabled", 2, register1, "watch"
+CallMethod
+Pop
+Push register1, 1, "Selection"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push register1, "lastMouse", 0.0, "Object"
+NewObject
+SetMember
+Push 1, "focusManager", register1, "_parent"
+GetMember
+Push 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "tabChildren", register1, "_parent"
+GetMember
+Push 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+Push 1, "tabEnabled", register1, "_parent"
+GetMember
+Push 3, register3, "ASSetPropFlags"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "enabledChanged"
+DefineFunction2 "", 3, 3, false, false, true, false, true, false, false, true, false, 0, "id", 0, "oldValue", 2, "newValue" {
+Push register1, "_visible", register2
+SetMember
+Push register2
+Return
+}
+SetMember
+Push register2, "activate"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push register1, "activated", register1, "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, "lastFocus"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0cbf
+Push register1, "bNeedFocus", true
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "isMouseDown"
+GetMember
+Not
+Not
+If loc0cbf
+Push "restoreFocus", register1, 2, register1, "doLater"
+CallMethod
+Pop
+}
+loc0cbf:SetMember
+Push register2, "deactivate"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, 1, "Key"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push register1, "activated", register1, "_visible", false
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0.0, register1, "getSelectionFocus"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, 1, register1, "getActualFocus"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, 1, register1, "isOurFocus"
+CallMethod
+Not
+If loc0d57
+Push register1, "lastSelFocus", register2
+SetMember
+Push register1, "lastFocus", register3
+SetMember
+loc0d57:Push 0.0, register1, "cancelAllDoLaters"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "isOurFocus"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "o" {
+Push register2, "focusManager"
+GetMember
+Push register1
+Equals2
+Not
+If loc0d99
+Push true
+Return
+loc0d99:Push register2, undefined
+Equals2
+Not
+Not
+If loc0df0
+Push register2, "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0dc1
+Push false
+Return
+loc0dc1:Push register2, "_parent"
+GetMember
+Push register1, "_parent"
+GetMember
+Equals2
+Not
+If loc0dde
+Push true
+Return
+loc0dde:Push register2, "_parent"
+GetMember
+StoreRegister 2
+Pop
+Jump loc0d99
+loc0df0:Push false
+Return
+}
+SetMember
+Push register2, "onSetFocus"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 0, "o", 3, "n" {
+Push register3, null
+Equals2
+Not
+If loc0e39
+Push register1, "activated"
+GetMember
+Not
+If loc0e34
+Push register1, "bNeedFocus", true
+SetMember
+loc0e34:Jump loc0e82
+loc0e39:Push 0.0, register1, "getFocus"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, 1, register1, "isOurFocus"
+CallMethod
+Not
+If loc0e82
+Push register1, "bNeedFocus", false
+SetMember
+Push register1, "lastFocus", register2
+SetMember
+Push register1, "lastSelFocus", register3
+SetMember
+}
+loc0e82:SetMember
+Push register2, "restoreFocus"
+DefineFunction2 "", 1, 6, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "lastSelFocus"
+GetMember
+Push "hscroll"
+GetMember
+StoreRegister 2
+Pop
+Push register2, undefined
+Equals2
+Not
+Not
+If loc0ee2
+Push register1, "lastSelFocus"
+GetMember
+Push "scroll"
+GetMember
+StoreRegister 5
+Pop
+Push register1, "lastSelFocus"
+GetMember
+Push "background"
+GetMember
+StoreRegister 4
+Pop
+loc0ee2:Push 0.0, register1, "lastFocus"
+GetMember
+Push "setFocus"
+CallMethod
+Pop
+Push "Selection"
+GetVariable
+StoreRegister 3
+Pop
+Push register3, "lastEndIndex"
+GetMember
+Push register3, "lastBeginIndex"
+GetMember
+Push 2, "Selection"
+GetVariable
+Push "setSelection"
+CallMethod
+Pop
+Push register2, undefined
+Equals2
+Not
+Not
+If loc0f65
+Push register1, "lastSelFocus"
+GetMember
+Push "scroll", register5
+SetMember
+Push register1, "lastSelFocus"
+GetMember
+Push "hscroll", register2
+SetMember
+Push register1, "lastSelFocus"
+GetMember
+Push "background", register4
+SetMember
+}
+loc0f65:SetMember
+Push register2, "onUnload"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "form"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "removeFocusManager"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "setFocus"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "o" {
+Push register1, null
+Equals2
+Not
+If loc0fdf
+Push null, 1, "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+Jump loc101d
+loc0fdf:Push register1, "setFocus"
+GetMember
+Push undefined
+Equals2
+Not
+If loc100b
+Push register1, 1, "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+Jump loc101d
+loc100b:Push 0.0, register1, "setFocus"
+CallMethod
+Pop
+}
+loc101d:SetMember
+Push register2, "getActualFocus"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, true, false, false, 2, "o" {
+Push register2, "_parent"
+GetMember
+StoreRegister 1
+Pop
+loc1040:Push register1, undefined
+Equals2
+Not
+Not
+If loc10f4
+Push register1, "focusTextField"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc10bd
+loc1062:Push register1, "focusTextField"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc10bd
+Push register1
+StoreRegister 2
+Pop
+Push register1, "_parent"
+GetMember
+StoreRegister 1
+Pop
+Push register1, undefined
+Equals2
+Not
+If loc109f
+Push undefined
+Return
+loc109f:Push register1, "focusTextField"
+GetMember
+Push undefined
+Equals2
+Not
+If loc10b8
+Push register2
+Return
+loc10b8:Jump loc1062
+loc10bd:Push register1, "tabEnabled"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc10d8
+Push register2
+Return
+loc10d8:Push register1
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+StoreRegister 1
+Pop
+Jump loc1040
+loc10f4:Push undefined
+Return
+}
+SetMember
+Push register2, "getSelectionFocus"
+DefineFunction "", 0 {
+Push "m", 0.0, "Selection"
+GetVariable
+Push "getFocus"
+CallMethod
+DefineLocal
+Push "o", "m"
+GetVariable
+GetVariable
+DefineLocal
+Push "o"
+GetVariable
+Return
+}
+SetMember
+Push register2, "getFocus"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "getSelectionFocus"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, 1, register1, "getActualFocus"
+CallMethod
+Return
+}
+SetMember
+Push register2, "walkTree"
+DefineFunction2 "", 6, 13, false, false, true, false, true, false, false, true, false, 8, "p", 6, "index", 4, "groupName", 9, "dir", 12, "lookup", 10, "firstChild" {
+Push true
+StoreRegister 5
+Pop
+Push undefined
+StoreRegister 11
+Pop
+Push register8
+Enumerate2
+loc11cb:StoreRegister 0
+Push null
+Equals2
+If loc1c8c
+Push register0
+StoreRegister 11
+Pop
+Push register8, register11
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_parent"
+GetMember
+Push register8
+Equals2
+PushDuplicate
+Not
+If loc1215
+Pop
+Push register2, "enabled"
+GetMember
+Push false
+Equals2
+Not
+loc1215:PushDuplicate
+Not
+If loc122c
+Pop
+Push register2, "_visible"
+GetMember
+Push false
+Equals2
+Not
+loc122c:PushDuplicate
+Not
+If loc12fc
+Pop
+Push register2, "tabEnabled"
+GetMember
+Push true
+Equals2
+PushDuplicate
+If loc12fc
+Pop
+Push register2, "tabEnabled"
+GetMember
+Push false
+Equals2
+Not
+PushDuplicate
+Not
+If loc12fc
+Pop
+Push register2, "onPress"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+If loc1283
+Pop
+Push register2, "onRelease"
+GetMember
+Push undefined
+Equals2
+Not
+loc1283:PushDuplicate
+If loc1298
+Pop
+Push register2, "onReleaseOutside"
+GetMember
+Push undefined
+Equals2
+Not
+loc1298:PushDuplicate
+If loc12ad
+Pop
+Push register2, "onDragOut"
+GetMember
+Push undefined
+Equals2
+Not
+loc12ad:PushDuplicate
+If loc12c2
+Pop
+Push register2, "onDragOver"
+GetMember
+Push undefined
+Equals2
+Not
+loc12c2:PushDuplicate
+If loc12d7
+Pop
+Push register2, "onRollOver"
+GetMember
+Push undefined
+Equals2
+Not
+loc12d7:PushDuplicate
+If loc12ec
+Pop
+Push register2, "onRollOut"
+GetMember
+Push undefined
+Equals2
+Not
+loc12ec:PushDuplicate
+If loc12fc
+Pop
+Push register2, "TextField"
+GetVariable
+InstanceOf
+loc12fc:Not
+If loc1ad2
+Push register2, "_searchKey"
+GetMember
+Push register1, "_searchKey"
+GetMember
+Equals2
+Not
+If loc131e
+Jump loc11cb
+loc131e:Push register2, "_searchKey", register1, "_searchKey"
+GetMember
+SetMember
+Push register2, register1, "_lastTarget"
+GetMember
+Equals2
+Not
+Not
+If loc1564
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+If loc135a
+Pop
+Push register4, undefined
+Equals2
+Not
+loc135a:PushDuplicate
+Not
+If loc1370
+Pop
+Push register2, "groupName"
+GetMember
+Push register4
+Equals2
+loc1370:Not
+If loc137b
+Jump loc11cb
+loc137b:Push register2, "TextField"
+GetVariable
+InstanceOf
+PushDuplicate
+Not
+If loc139a
+Pop
+Push register2, "selectable"
+GetMember
+Push false
+Equals2
+loc139a:Not
+If loc13a5
+Jump loc11cb
+loc13a5:Push register5
+PushDuplicate
+If loc13f4
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc13de
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_firstNode"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+loc13de:PushDuplicate
+Not
+If loc13f4
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+loc13f4:Not
+If loc1419
+Push register10
+Not
+If loc1419
+Push register1, "_firstNode", register2
+SetMember
+Push false
+StoreRegister 10
+Pop
+loc1419:Push register1, "_nextIsNext"
+GetMember
+Push true
+Equals2
+Not
+If loc14d5
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc145a
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_nextNode"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+loc145a:PushDuplicate
+Not
+If loc1470
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+loc1470:PushDuplicate
+If loc14c5
+Pop
+Push register1, "_nextNode"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+Not
+If loc14c5
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc14c5
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc14c5
+Pop
+Push register2, "groupName"
+GetMember
+Push register4
+Equals2
+Not
+loc14c5:Not
+If loc14d5
+Push register1, "_nextNode", register2
+SetMember
+loc14d5:Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc14f5
+Pop
+Push register4, register2, "groupName"
+GetMember
+Equals2
+Not
+loc14f5:Not
+If loc155f
+Push register1, "_lastx"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc152e
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_lastx"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+loc152e:PushDuplicate
+Not
+If loc154a
+Pop
+Push register1, "_lastx"
+GetMember
+Push "selected"
+GetMember
+Push true
+Equals2
+loc154a:Not
+If loc1555
+Jump loc155f
+loc1555:Push register1, "_lastx", register2
+SetMember
+loc155f:Jump loc1585
+loc1564:Push register1, "_prevNode", register1, "_lastx"
+GetMember
+SetMember
+Push register1, "_needPrev", false
+SetMember
+Push register1, "_nextIsNext", true
+SetMember
+loc1585:Push register2, "tabIndex"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1a8d
+Push register2, "tabIndex"
+GetMember
+Push register6
+Equals2
+Not
+If loc15f5
+Push register1, "_foundList"
+GetMember
+Push register2, "_name"
+GetMember
+GetMember
+Push undefined
+Equals2
+Not
+If loc15f5
+Push register1, "_needPrev"
+GetMember
+Not
+If loc15eb
+Push register1, "_prevObj", register2
+SetMember
+Push register1, "_needPrev", false
+SetMember
+loc15eb:Push register1, "_nextObj", register2
+SetMember
+loc15f5:Push register9
+PushDuplicate
+Not
+If loc1610
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register6
+Greater
+loc1610:Not
+If loc172f
+Push register1, "_nextObj"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc168f
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "tabIndex"
+GetMember
+Push register2, "tabIndex"
+GetMember
+Greater
+PushDuplicate
+Not
+If loc168f
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc1670
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+loc1670:PushDuplicate
+If loc168f
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_nextObj"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+Not
+loc168f:PushDuplicate
+If loc171a
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc16c9
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "groupName"
+GetMember
+Push register2, "groupName"
+GetMember
+Equals2
+loc16c9:PushDuplicate
+Not
+If loc16e6
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "selected"
+GetMember
+Push true
+Equals2
+Not
+loc16e6:PushDuplicate
+Not
+If loc171a
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+PushDuplicate
+If loc171a
+Pop
+Push register1, "_nextObj"
+GetMember
+Push "tabIndex"
+GetMember
+Push register2, "tabIndex"
+GetMember
+Greater
+loc171a:Not
+If loc172a
+Push register1, "_nextObj", register2
+SetMember
+loc172a:Jump loc1865
+loc172f:Push register9
+Not
+PushDuplicate
+Not
+If loc174b
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register6
+Less2
+loc174b:Not
+If loc1865
+Push register1, "_prevObj"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc17ca
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "tabIndex"
+GetMember
+Push register2, "tabIndex"
+GetMember
+Less2
+PushDuplicate
+Not
+If loc17ca
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc17ab
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+loc17ab:PushDuplicate
+If loc17ca
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_prevObj"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+Not
+loc17ca:PushDuplicate
+If loc1855
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc1804
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "groupName"
+GetMember
+Push register2, "groupName"
+GetMember
+Equals2
+loc1804:PushDuplicate
+Not
+If loc1821
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "selected"
+GetMember
+Push true
+Equals2
+Not
+loc1821:PushDuplicate
+Not
+If loc1855
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+PushDuplicate
+If loc1855
+Pop
+Push register1, "_prevObj"
+GetMember
+Push "tabIndex"
+GetMember
+Push register2, "tabIndex"
+GetMember
+Less2
+loc1855:Not
+If loc1865
+Push register1, "_prevObj", register2
+SetMember
+loc1865:Push register1, "_firstObj"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc18de
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register1, "_firstObj"
+GetMember
+Push "tabIndex"
+GetMember
+Less2
+PushDuplicate
+Not
+If loc18de
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc18bf
+Pop
+Push register1, "_firstObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+loc18bf:PushDuplicate
+If loc18de
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_firstObj"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+Not
+loc18de:PushDuplicate
+If loc1969
+Pop
+Push register1, "_firstObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc1918
+Pop
+Push register1, "_firstObj"
+GetMember
+Push "groupName"
+GetMember
+Push register2, "groupName"
+GetMember
+Equals2
+loc1918:PushDuplicate
+Not
+If loc1935
+Pop
+Push register1, "_firstObj"
+GetMember
+Push "selected"
+GetMember
+Push true
+Equals2
+Not
+loc1935:PushDuplicate
+Not
+If loc1969
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+PushDuplicate
+If loc1969
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register1, "_firstObj"
+GetMember
+Push "tabIndex"
+GetMember
+Less2
+loc1969:Not
+If loc1979
+Push register1, "_firstObj", register2
+SetMember
+loc1979:Push register1, "_lastObj"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc19f2
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register1, "_lastObj"
+GetMember
+Push "tabIndex"
+GetMember
+Greater
+PushDuplicate
+Not
+If loc19f2
+Pop
+Push register2, "groupName"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc19d3
+Pop
+Push register1, "_lastObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+loc19d3:PushDuplicate
+If loc19f2
+Pop
+Push register2, "groupName"
+GetMember
+Push register1, "_lastObj"
+GetMember
+Push "groupName"
+GetMember
+Equals2
+Not
+loc19f2:PushDuplicate
+If loc1a7d
+Pop
+Push register1, "_lastObj"
+GetMember
+Push "groupName"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc1a2c
+Pop
+Push register1, "_lastObj"
+GetMember
+Push "groupName"
+GetMember
+Push register2, "groupName"
+GetMember
+Equals2
+loc1a2c:PushDuplicate
+Not
+If loc1a49
+Pop
+Push register1, "_lastObj"
+GetMember
+Push "selected"
+GetMember
+Push true
+Equals2
+Not
+loc1a49:PushDuplicate
+Not
+If loc1a7d
+Pop
+Push register2, "selected"
+GetMember
+Push true
+Equals2
+PushDuplicate
+If loc1a7d
+Pop
+Push register2, "tabIndex"
+GetMember
+Push register1, "_lastObj"
+GetMember
+Push "tabIndex"
+GetMember
+Greater
+loc1a7d:Not
+If loc1a8d
+Push register1, "_lastObj", register2
+SetMember
+loc1a8d:Push register2, "tabChildren"
+GetMember
+Not
+If loc1ac3
+Push register5
+PushDuplicate
+Not
+If loc1aad
+Pop
+Push register10
+loc1aad:Push register9, register4, register6, register2, 5, register1, "getTabCandidateFromChildren"
+CallMethod
+Pop
+loc1ac3:Push false
+StoreRegister 5
+Pop
+Jump loc1c87
+loc1ad2:Push register2, "_parent"
+GetMember
+Push register8
+Equals2
+PushDuplicate
+Not
+If loc1af6
+Pop
+Push register2, "tabChildren"
+GetMember
+Push true
+Equals2
+loc1af6:PushDuplicate
+Not
+If loc1b0d
+Pop
+Push register2, "_visible"
+GetMember
+Push false
+Equals2
+Not
+loc1b0d:Not
+If loc1c87
+Push register2, register1, "_lastTarget"
+GetMember
+Equals2
+Not
+If loc1bfb
+Push register2, "_searchKey"
+GetMember
+Push register1, "_searchKey"
+GetMember
+Equals2
+Not
+If loc1b40
+Jump loc11cb
+loc1b40:Push register2, "_searchKey", register1, "_searchKey"
+GetMember
+SetMember
+Push register1, "_prevNode"
+GetMember
+Push undefined
+Equals2
+Not
+If loc1bcf
+Push register1, "_lastx"
+GetMember
+StoreRegister 3
+Pop
+Push false
+StoreRegister 7
+Pop
+loc1b77:Push register3, undefined
+Equals2
+Not
+Not
+If loc1bb4
+Push register3, register2
+Equals2
+Not
+If loc1ba2
+Push true
+StoreRegister 7
+Pop
+Jump loc1bb4
+loc1ba2:Push register3, "_parent"
+GetMember
+StoreRegister 3
+Pop
+Jump loc1b77
+loc1bb4:Push register7, false
+Equals2
+Not
+If loc1bcf
+Push register1, "_prevNode", register1, "_lastx"
+GetMember
+SetMember
+loc1bcf:Push register1, "_needPrev", false
+SetMember
+Push register1, "_nextNode"
+GetMember
+Push undefined
+Equals2
+Not
+If loc1bf6
+Push register1, "_nextIsNext", true
+SetMember
+loc1bf6:Jump loc1c7d
+loc1bfb:Push register2, "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc1c25
+Pop
+Push register2, "focusManager"
+GetMember
+Push "_parent"
+GetMember
+Push register2
+Equals2
+loc1c25:Not
+Not
+If loc1c7d
+Push register2, "_searchKey"
+GetMember
+Push register1, "_searchKey"
+GetMember
+Equals2
+Not
+If loc1c48
+Jump loc11cb
+loc1c48:Push register2, "_searchKey", register1, "_searchKey"
+GetMember
+SetMember
+Push register5
+PushDuplicate
+Not
+If loc1c67
+Pop
+Push register10
+loc1c67:Push register9, register4, register6, register2, 5, register1, "getTabCandidateFromChildren"
+CallMethod
+Pop
+loc1c7d:Push false
+StoreRegister 5
+Pop
+loc1c87:Jump loc11cb
+loc1c8c:Push register1, "_lastNode", register1, "_lastx"
+GetMember
+SetMember
+Push register12
+Not
+If loc1d55
+Push register8, "_parent"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1d55
+Push register8, register1, "_parent"
+GetMember
+Equals2
+Not
+Not
+If loc1d55
+Push register1, "_prevNode"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+Not
+If loc1ce4
+Pop
+Push register9
+loc1ce4:Not
+If loc1cf9
+Push register1, "_needPrev", true
+SetMember
+Jump loc1d24
+loc1cf9:Push register1, "_nextNode"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+Not
+If loc1d14
+Pop
+Push register9
+Not
+loc1d14:Not
+If loc1d24
+Push register1, "_nextIsNext", false
+SetMember
+loc1d24:Push register1, "_lastTarget", register1, "_lastTarget"
+GetMember
+Push "_parent"
+GetMember
+SetMember
+Push true, register9, register4, register6, register8, "_parent"
+GetMember
+Push 5, register1, "getTabCandidate"
+CallMethod
+Pop
+}
+loc1d55:SetMember
+Push register2, "getTabCandidate"
+DefineFunction2 "", 5, 9, false, false, true, false, true, false, false, true, false, 4, "o", 6, "index", 5, "groupName", 8, "dir", 7, "firstChild" {
+Push undefined
+StoreRegister 2
+Pop
+Push true
+StoreRegister 3
+Pop
+Push register4, register1, "_parent"
+GetMember
+Equals2
+Not
+If loc1dcb
+Push register4
+StoreRegister 2
+Pop
+Push false
+StoreRegister 3
+Pop
+Jump loc1df9
+loc1dcb:Push register4, "_parent"
+GetMember
+StoreRegister 2
+Pop
+Push register2, undefined
+Equals2
+Not
+If loc1df9
+Push register4
+StoreRegister 2
+Pop
+Push false
+StoreRegister 3
+Pop
+loc1df9:Push register7, register3, register8, register5, register6, register2, 6, register1, "walkTree"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getTabCandidateFromChildren"
+DefineFunction2 "", 5, 7, false, false, true, false, true, false, false, true, false, 3, "o", 4, "index", 2, "groupName", 6, "dir", 5, "firstChild" {
+Push register5, false, register6, register2, register4, register3, 6, register1, "walkTree"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getFocusManagerFromObject"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "o" {
+loc1e7c:Push register1, undefined
+Equals2
+Not
+Not
+If loc1eb9
+Push register1, "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1ea7
+Push register1, "focusManager"
+GetMember
+Return
+loc1ea7:Push register1, "_parent"
+GetMember
+StoreRegister 1
+Pop
+Jump loc1e7c
+loc1eb9:Push undefined
+Return
+}
+SetMember
+Push register2, "tabHandler"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "bDrawFocus", true
+SetMember
+Push 0.0, register1, "getSelectionFocus"
+CallMethod
+StoreRegister 5
+Pop
+Push register5, 1, register1, "getActualFocus"
+CallMethod
+StoreRegister 4
+Pop
+Push register4, register5
+Equals2
+Not
+Not
+If loc1f24
+Push register4
+StoreRegister 5
+Pop
+loc1f24:Push register5, 1, register1, "getFocusManagerFromObject"
+CallMethod
+Push register1
+Equals2
+Not
+Not
+If loc1f48
+Push register5, undefined
+Equals2
+Pop
+loc1f48:Push register5, undefined
+Equals2
+Not
+If loc1f67
+Push register1, "form"
+GetMember
+StoreRegister 5
+Pop
+Jump loc1feb
+loc1f67:Push register5, "tabIndex"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc1feb
+Push register1, "_foundList"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+If loc1fa8
+Pop
+Push register1, "_foundList"
+GetMember
+Push "tabIndex"
+GetMember
+Push register5, "tabIndex"
+GetMember
+Equals2
+Not
+loc1fa8:Not
+If loc1fd5
+Push register1, "_foundList", 0.0, "Object"
+NewObject
+SetMember
+Push register1, "_foundList"
+GetMember
+Push "tabIndex", register5, "tabIndex"
+GetMember
+SetMember
+loc1fd5:Push register1, "_foundList"
+GetMember
+Push register5, "_name"
+GetMember
+Push register5
+SetMember
+loc1feb:Push 16, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Push true
+Equals2
+Not
+StoreRegister 3
+Pop
+Push register1, "_searchKey"
+GetTime
+SetMember
+Push register1, "_needPrev", true
+SetMember
+Push register1, "_nextIsNext", false
+SetMember
+Push register1, "_lastx", undefined
+SetMember
+Push register1, "_firstNode", undefined
+SetMember
+Push register1, "_lastNode", undefined
+SetMember
+Push register1, "_nextNode", undefined
+SetMember
+Push register1, "_prevNode", undefined
+SetMember
+Push register1, "_firstObj", undefined
+SetMember
+Push register1, "_lastObj", undefined
+SetMember
+Push register1, "_nextObj", undefined
+SetMember
+Push register1, "_prevObj", undefined
+SetMember
+Push register1, "_lastTarget", register5
+SetMember
+Push register5
+StoreRegister 6
+Pop
+Push true, register3, register5, "groupName"
+GetMember
+Push register5, "tabIndex"
+GetMember
+Push undefined
+Equals2
+If loc20ba
+Push register5, "tabIndex"
+GetMember
+Jump loc20c6
+loc20ba:Push 0.0
+loc20c6:Push register6, 5, register1, "getTabCandidate"
+CallMethod
+Pop
+Push undefined
+StoreRegister 2
+Pop
+Push register3
+Not
+If loc2122
+Push register1, "_nextObj"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2110
+Push register1, "_nextObj"
+GetMember
+StoreRegister 2
+Pop
+Jump loc211d
+loc2110:Push register1, "_firstObj"
+GetMember
+StoreRegister 2
+Pop
+loc211d:Jump loc2155
+loc2122:Push register1, "_prevObj"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2148
+Push register1, "_prevObj"
+GetMember
+StoreRegister 2
+Pop
+Jump loc2155
+loc2148:Push register1, "_lastObj"
+GetMember
+StoreRegister 2
+Pop
+loc2155:Push register2, "tabIndex"
+GetMember
+Push register5, "tabIndex"
+GetMember
+Equals2
+Not
+Not
+If loc21af
+Push register1, "_foundList", 0.0, "Object"
+NewObject
+SetMember
+Push register1, "_foundList"
+GetMember
+Push "tabIndex", register2, "tabIndex"
+GetMember
+SetMember
+Push register1, "_foundList"
+GetMember
+Push register2, "_name"
+GetMember
+Push register2
+SetMember
+Jump loc21ff
+loc21af:Push register1, "_foundList"
+GetMember
+Push undefined
+Equals2
+Not
+If loc21e9
+Push register1, "_foundList", 0.0, "Object"
+NewObject
+SetMember
+Push register1, "_foundList"
+GetMember
+Push "tabIndex", register2, "tabIndex"
+GetMember
+SetMember
+loc21e9:Push register1, "_foundList"
+GetMember
+Push register2, "_name"
+GetMember
+Push register2
+SetMember
+loc21ff:Push register2, undefined
+Equals2
+Not
+If loc2296
+Push register3, false
+Equals2
+Not
+If loc2252
+Push register1, "_nextNode"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2240
+Push register1, "_nextNode"
+GetMember
+StoreRegister 2
+Pop
+Jump loc224d
+loc2240:Push register1, "_firstNode"
+GetMember
+StoreRegister 2
+Pop
+loc224d:Jump loc2296
+loc2252:Push register1, "_prevNode"
+GetMember
+Push undefined
+Equals2
+PushDuplicate
+If loc2271
+Pop
+Push register5, register1, "form"
+GetMember
+Equals2
+loc2271:Not
+If loc2289
+Push register1, "_lastNode"
+GetMember
+StoreRegister 2
+Pop
+Jump loc2296
+loc2289:Push register1, "_prevNode"
+GetMember
+StoreRegister 2
+Pop
+loc2296:Push register2, undefined
+Equals2
+Not
+If loc22a8
+Push undefined
+Return
+loc22a8:Push register1, "lastTabFocus", register2
+SetMember
+Push register2, 1, register1, "setFocus"
+CallMethod
+Pop
+Push register2, "emphasized"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc232d
+Push register1, "defPushButton"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2328
+Push register1, "defPushButton"
+GetMember
+StoreRegister 5
+Pop
+Push register1, "defPushButton", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push register2
+CastOp
+SetMember
+Push register5, "emphasized", false
+SetMember
+Push register2, "emphasized", true
+SetMember
+loc2328:Jump loc2395
+loc232d:Push register1, "defPushButton"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc2355
+Pop
+Push register1, "defPushButton"
+GetMember
+Push register1, "__defaultPushButton"
+GetMember
+Equals2
+Not
+loc2355:Not
+If loc2395
+Push register1, "defPushButton"
+GetMember
+StoreRegister 5
+Pop
+Push register1, "defPushButton", register1, "__defaultPushButton"
+GetMember
+SetMember
+Push register5, "emphasized", false
+SetMember
+Push true, 1, register1, "__defaultPushButton"
+GetMember
+Push "__set__emphasized"
+CallMethod
+Pop
+}
+loc2395:SetMember
+Push register2, "onKeyDown"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", 0.0
+SetMember
+Push register1, "defaultPushButtonEnabled"
+GetMember
+Not
+If loc2430
+Push 0.0, "Key"
+GetVariable
+Push "getCode"
+CallMethod
+Push 13
+Equals2
+Not
+If loc2430
+Push 0.0, register1, "__get__defaultPushButton"
+CallMethod
+Push undefined
+Equals2
+Not
+Not
+If loc2430
+Push "sendDefaultPushButtonEvent", register1, 2, register1, "doLater"
+CallMethod
+Pop
+}
+loc2430:SetMember
+Push register2, "sendDefaultPushButtonEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "click", 1
+InitObject
+Push 1, register1, "defPushButton"
+GetMember
+Push "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getMousedComponentFromChildren"
+DefineFunction2 "", 3, 8, false, false, true, false, true, false, false, true, false, 6, "x", 5, "y", 4, "o" {
+Push register4
+Enumerate2
+loc248c:StoreRegister 0
+Push null
+Equals2
+If loc25ac
+Push register0
+StoreRegister 7
+Pop
+Push register4, register7
+GetMember
+StoreRegister 2
+Pop
+Push register2, "_visible"
+GetMember
+PushDuplicate
+Not
+If loc24c9
+Pop
+Push register2, "enabled"
+GetMember
+loc24c9:PushDuplicate
+Not
+If loc24df
+Pop
+Push register2, "_parent"
+GetMember
+Push register4
+Equals2
+loc24df:PushDuplicate
+Not
+If loc24f9
+Pop
+Push register2, "_searchKey"
+GetMember
+Push register1, "_searchKey"
+GetMember
+Equals2
+Not
+loc24f9:Not
+If loc25a7
+Push register2, "_searchKey", register1, "_searchKey"
+GetMember
+SetMember
+Push true, register5, register6, 3, register2, "hitTest"
+CallMethod
+Not
+If loc25a7
+Push register2, "onPress"
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+If loc2548
+Pop
+Push register2, "onRelease"
+GetMember
+Push undefined
+Equals2
+Not
+loc2548:Not
+If loc255f
+loc254e:Push null
+Equals2
+Not
+If loc254e
+Push register2
+Return
+loc255f:Push register2, register5, register6, 3, register1, "getMousedComponentFromChildren"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc2596
+loc2585:Push null
+Equals2
+Not
+If loc2585
+Push register3
+Return
+loc2596:Push null
+Equals2
+Not
+If loc2596
+Push register2
+Return
+loc25a7:Jump loc248c
+loc25ac:Push undefined
+Return
+}
+SetMember
+Push register2, "mouseActivate"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "bNeedFocus"
+GetMember
+Not
+Not
+If loc25de
+Push undefined
+Return
+loc25de:Push register1, "_searchKey"
+GetTime
+SetMember
+Push register1, "form"
+GetMember
+Push register1, "lastMouse"
+GetMember
+Push "y"
+GetMember
+Push register1, "lastMouse"
+GetMember
+Push "x"
+GetMember
+Push 3, register1, "getMousedComponentFromChildren"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+InstanceOf
+Not
+If loc263d
+Push undefined
+Return
+loc263d:Push register2, 1, register1, "findFocusFromObject"
+CallMethod
+StoreRegister 2
+Pop
+Push register2, register1, "lastFocus"
+GetMember
+Equals2
+Not
+If loc2667
+Push undefined
+Return
+loc2667:Push register2, undefined
+Equals2
+Not
+If loc268b
+Push "restoreFocus", register1, 2, register1, "doLater"
+CallMethod
+Pop
+Push undefined
+Return
+loc268b:Push register2, "hscroll"
+GetMember
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc26c0
+Push register2, "scroll"
+GetMember
+StoreRegister 6
+Pop
+Push register2, "background"
+GetMember
+StoreRegister 5
+Pop
+loc26c0:Push register2, 1, register1, "setFocus"
+CallMethod
+Pop
+Push "Selection"
+GetVariable
+StoreRegister 4
+Pop
+Push register4, "lastEndIndex"
+GetMember
+Push register4, "lastBeginIndex"
+GetMember
+Push 2, "Selection"
+GetVariable
+Push "setSelection"
+CallMethod
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc2729
+Push register2, "scroll", register6
+SetMember
+Push register2, "hscroll", register3
+SetMember
+Push register2, "background", register5
+SetMember
+}
+loc2729:SetMember
+Push register2, "_onMouseDown"
+DefineFunction2 "", 1, 4, false, true, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "bDrawFocus", false
+SetMember
+Push register1, "lastFocus"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc2776
+Push false, 1, register1, "lastFocus"
+GetMember
+Push "drawFocus"
+CallMethod
+Pop
+loc2776:Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "idleFrames", 0.0
+SetMember
+Push "Selection"
+GetVariable
+StoreRegister 3
+Pop
+Push register3, "lastBeginIndex", 0.0, "Selection"
+GetVariable
+Push "getBeginIndex"
+CallMethod
+SetMember
+Push register3, "lastEndIndex", 0.0, "Selection"
+GetVariable
+Push "getEndIndex"
+CallMethod
+SetMember
+Push register1, "lastMouse"
+GetMember
+Push "x", register2, "_xmouse"
+GetMember
+SetMember
+Push register1, "lastMouse"
+GetMember
+Push "y", register2, "_ymouse"
+GetMember
+SetMember
+Push register1, "lastMouse"
+GetMember
+Push 1, register2, "localToGlobal"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onMouseUp"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "_visible"
+GetMember
+Not
+If loc284b
+Push "mouseActivate", register1, 2, register1, "doLater"
+CallMethod
+Pop
+}
+loc284b:SetMember
+Push register2, "handleEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "e" {
+Push register2, "type"
+GetMember
+Push "reveal"
+Equals2
+Not
+If loc28a0
+Push register1, "form"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "activate"
+CallMethod
+Pop
+Jump loc28c6
+loc28a0:Push register1, "form"
+GetMember
+Push 1, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "SystemManager"
+GetMember
+Push "deactivate"
+CallMethod
+Pop
+}
+loc28c6:SetMember
+Push register1, "enableFocusManagement"
+DefineFunction2 "", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "initialized"
+GetMember
+Not
+Not
+If loc29b3
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "initialized", true
+SetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "FocusManager", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+Push register1, "focusManager"
+GetMember
+Push undefined
+Equals2
+Not
+If loc29b3
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth"
+GetMember
+Push "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "DepthManager"
+GetMember
+Push "highestDepth"
+GetMember
+Decrement
+SetMember
+Push "focusManager", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push 3, register1, "createClassObject"
+CallMethod
+Pop
+}
+loc29b3:SetMember
+Push register1, "symbolName", "FocusManager"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "FocusManager"
+SetMember
+Push register2, "bNeedFocus", false
+SetMember
+Push register2, "bDrawFocus", false
+SetMember
+Push register2, "defaultPushButtonEnabled", true
+SetMember
+Push register2, "activated", true
+SetMember
+Push register1, "initialized", false
+SetMember
+Push register1, "UIObjectExtensionsDependency", "mx"
+GetVariable
+Push "core"
+GetMember
+Push "ext"
+GetMember
+Push "UIObjectExtensions"
+GetMember
+SetMember
+Push register2, "__set__defaultPushButton"
+GetMember
+Push register2, "__get__defaultPushButton"
+GetMember
+Push "defaultPushButton", 3, register2, "addProperty"
+CallMethod
+DefineFunction "", 0 {
+}
+Push register2, "__get__nextTabIndex"
+GetMember
+Push "nextTabIndex", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "managers"
+GetMember
+Push "FocusManager"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc2a9f:Pop

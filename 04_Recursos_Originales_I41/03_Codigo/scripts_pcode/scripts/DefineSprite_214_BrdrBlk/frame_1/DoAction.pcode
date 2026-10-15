@@ -1,0 +1,11 @@
+Push "borderColor", "this"
+GetVariable
+Push 2, "mx"
+GetVariable
+Push "skins"
+GetMember
+Push "ColoredSkinElement"
+GetMember
+Push "setColorStyle"
+CallMethod
+Pop

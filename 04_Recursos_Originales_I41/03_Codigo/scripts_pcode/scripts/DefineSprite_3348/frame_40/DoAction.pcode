@@ -1,0 +1,19 @@
+ConstantPool "Hit", "hitTarget", "inner", "_root", "krinChangeColor", "filters", "KrinFilterFocus"
+Push "Hit", "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push "filters", "_root"
+GetVariable
+Push "KrinFilterFocus"
+GetMember
+SetMember

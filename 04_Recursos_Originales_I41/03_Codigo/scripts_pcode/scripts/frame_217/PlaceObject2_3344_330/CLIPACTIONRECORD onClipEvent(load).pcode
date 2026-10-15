@@ -1,0 +1,11 @@
+ConstantPool "shakeOriginal", "shakeValue", "shakeMinus"
+Push "shakeOriginal", 8
+SetVariable
+Push "shakeValue", "shakeOriginal"
+GetVariable
+SetVariable
+Push "shakeMinus", "shakeValue"
+GetVariable
+Push 10
+Divide
+SetVariable

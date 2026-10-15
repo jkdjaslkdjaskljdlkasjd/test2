@@ -1,0 +1,11460 @@
+{
+ "unidades_KNU": [
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 1,
+   "nombre": "Bio",
+   "args": [
+    "\"Bio\"",
+    "7",
+    "14",
+    "4",
+    "15",
+    "100"
+   ],
+   "linea": 8404,
+   "model": [
+    "MODEL1",
+    "ONE",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": true,
+   "movesA": [
+    2,
+    3,
+    5
+   ],
+   "lineas": {
+    "movesA": 8405,
+    "movesD": 8406,
+    "voiceHit": 8410,
+    "voiceDie": 8411
+   },
+   "movesD": [
+    4,
+    6
+   ],
+   "voiceHit": [
+    "hit_sonny1",
+    "hit_sonny2",
+    "hit_sonny3"
+   ],
+   "voiceDie": "dead_sonny",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 2,
+   "nombre": "Psycho",
+   "args": [
+    "\"Psycho\"",
+    "7",
+    "3",
+    "20",
+    "10",
+    "100"
+   ],
+   "linea": 8412,
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    0
+   ],
+   "skinSetter": "ZPCI",
+   "model_por_defecto": false,
+   "movesA": [],
+   "lineas": {
+    "movesA": 8413,
+    "movesABS": 8414,
+    "movesD": 8415,
+    "model": 8417,
+    "skinSetter": 8418,
+    "equipment": 8421,
+    "voiceHit": 8422,
+    "voiceDie": 8423
+   },
+   "movesABS": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "movesD": [],
+   "voiceHit": [
+    "hit_sonny1",
+    "hit_sonny2",
+    "hit_sonny3"
+   ],
+   "voiceDie": "dead_sonny",
+   "equip_efectivo": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "FIREAXE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "KRINITEM": 6,
+     "nombre": "Fire Axe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 3,
+   "nombre": "Hydro",
+   "args": [
+    "\"Hydro\"",
+    "15",
+    "10",
+    "8",
+    "7",
+    "100"
+   ],
+   "linea": 8424,
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    2
+   ],
+   "lineas": {
+    "movesA": 8425,
+    "movesD": 8426,
+    "model": 8428,
+    "equipment": 8431,
+    "voiceHit": 8432,
+    "voiceDie": 8433
+   },
+   "movesD": [],
+   "voiceHit": [
+    "hit_sonny1",
+    "hit_sonny2",
+    "hit_sonny3"
+   ],
+   "voiceDie": "dead_sonny",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "STICK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 12,
+     "nombre": "Stick"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 4,
+   "nombre": "Veradux",
+   "args": [
+    "\"Veradux\"",
+    "20",
+    "20",
+    "20",
+    "20",
+    "100"
+   ],
+   "linea": 8434,
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "ZPCI3",
+   "model_por_defecto": false,
+   "movesA": [
+    9,
+    10
+   ],
+   "lineas": {
+    "movesA": 8435,
+    "movesD": 8436,
+    "model": 8438,
+    "skinSetter": 8441,
+    "equipment": 8442,
+    "voiceHit": 8443,
+    "voiceDie": 8444
+   },
+   "movesD": [
+    8
+   ],
+   "voiceHit": [
+    "hit_dux1",
+    "hit_dux2",
+    "hit_dux3"
+   ],
+   "voiceDie": "dead_dux",
+   "equip_efectivo": [
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 5,
+   "nombre": "Prison Guard",
+   "args": [
+    "\"Prison Guard\"",
+    "10",
+    "10",
+    "5",
+    "12",
+    "100"
+   ],
+   "linea": 8445,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    14,
+    0
+   ],
+   "skinSetter": "JASON",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     523,
+     0
+    ],
+    [
+     15,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8446,
+    "movesA": 8447,
+    "movesD": 8448,
+    "model": 8450,
+    "skinSetter": 8453,
+    "equipment": 8454,
+    "voiceHit": 8455,
+    "voiceDie": 8456
+   },
+   "movesA": [
+    2
+   ],
+   "movesD": [
+    506
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "JASON",
+    "JASON",
+    "JASON",
+    "JASON",
+    "JASON",
+    "BATON",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "JASON"
+    },
+    {
+     "skinSetter": "JASON"
+    },
+    {
+     "skinSetter": "JASON"
+    },
+    {
+     "skinSetter": "JASON"
+    },
+    {
+     "skinSetter": "JASON"
+    },
+    {
+     "KRINITEM": 14,
+     "nombre": "Metal Baton"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 6,
+   "nombre": "Doctor Leath",
+   "args": [
+    "\"Doctor Leath\"",
+    "8",
+    "11",
+    "11",
+    "10",
+    "100"
+   ],
+   "linea": 8457,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    17,
+    18,
+    4,
+    8,
+    16,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     528,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8458,
+    "movesA": 8459,
+    "movesD": 8460,
+    "model": 8462,
+    "equipment": 8465,
+    "voiceHit": 8466,
+    "voiceDie": 8467
+   },
+   "movesA": [
+    2,
+    526,
+    527
+   ],
+   "movesD": [],
+   "voiceHit": [
+    "hit_doc1",
+    "hit_doc2",
+    "hit_doc3"
+   ],
+   "voiceDie": "dead_doc",
+   "equip_efectivo": [
+    0,
+    "MADSCI",
+    "MADSCI",
+    "JEANS",
+    "JEANS",
+    "DOCKNIFE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 17,
+     "nombre": "Scientist Robe"
+    },
+    {
+     "KRINITEM": 18,
+     "nombre": "Scientist Sleeves"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars"
+    },
+    {
+     "KRINITEM": 16,
+     "nombre": "Surgery Blade"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 7,
+   "nombre": "Frankie",
+   "args": [
+    "\"Frankie\"",
+    "70",
+    "18",
+    "2",
+    "10",
+    "100"
+   ],
+   "linea": 8468,
+   "model": [
+    "MODEL1",
+    "FIVE",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    19,
+    0,
+    20,
+    21,
+    15,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    256,
+    260,
+    267,
+    271
+   ],
+   "lineas": {
+    "movesA": 8469,
+    "movesD": 8470,
+    "model": 8472,
+    "equipment": 8475,
+    "voiceHit": 8476,
+    "voiceDie": 8477
+   },
+   "movesD": [
+    510
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    "FRANKEN",
+    0,
+    "FRANKEN2",
+    "FRANKEN",
+    "FRANKEN",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 19,
+     "nombre": "Frankie Body"
+    },
+    null,
+    {
+     "KRINITEM": 20,
+     "nombre": "Frankie Legs"
+    },
+    {
+     "KRINITEM": 21,
+     "nombre": "Frankie Feet"
+    },
+    {
+     "KRINITEM": 15,
+     "nombre": "Hans the Butcher"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 8,
+   "nombre": "ZPCI Elite",
+   "args": [
+    "\"ZPCI Elite\"",
+    "25",
+    "25",
+    "1",
+    "13",
+    "100"
+   ],
+   "linea": 8478,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    0
+   ],
+   "skinSetter": "ZPCI",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     16,
+     0
+    ],
+    [
+     17,
+     0
+    ],
+    [
+     18,
+     0
+    ],
+    [
+     19,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8479,
+    "movesA": 8480,
+    "movesD": 8481,
+    "model": 8483,
+    "skinSetter": 8486,
+    "equipment": 8487,
+    "voiceHit": 8488,
+    "voiceDie": 8489
+   },
+   "movesA": [
+    9
+   ],
+   "movesD": [
+    20
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "KRINITEM": 13,
+     "nombre": "M4"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 9,
+   "nombre": "The Warden",
+   "args": [
+    "\"The Warden\"",
+    "30",
+    "50",
+    "10",
+    "10",
+    "100"
+   ],
+   "linea": 8490,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    504,
+    0
+   ],
+   "skinSetter": "JASON2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     11,
+     1
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     13,
+     2
+    ],
+    [
+     14,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8491,
+    "movesA": 8492,
+    "movesD": 8493,
+    "model": 8495,
+    "skinSetter": 8498,
+    "equipment": 8499,
+    "voiceHit": 8500,
+    "voiceDie": 8501
+   },
+   "movesA": [
+    15
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "BATON2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "JASON2"
+    },
+    {
+     "skinSetter": "JASON2"
+    },
+    {
+     "skinSetter": "JASON2"
+    },
+    {
+     "skinSetter": "JASON2"
+    },
+    {
+     "skinSetter": "JASON2"
+    },
+    {
+     "KRINITEM": 504,
+     "nombre": "Persecution"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 10,
+   "nombre": "Brutal Convict",
+   "args": [
+    "\"Brutal Convict\"",
+    "12",
+    "19",
+    "1",
+    "8",
+    "100"
+   ],
+   "linea": 8502,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0
+   ],
+   "skinSetter": "PRISON",
+   "model_por_defecto": false,
+   "movesA": [
+    2,
+    267,
+    103
+   ],
+   "lineas": {
+    "movesA": 8503,
+    "movesD": 8504,
+    "model": 8506,
+    "skinSetter": 8509,
+    "equipment": 8510,
+    "voiceHit": 8511,
+    "voiceDie": 8512
+   },
+   "movesD": [
+    506
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 11,
+   "nombre": "Felicity",
+   "args": [
+    "\"Felicity\"",
+    "60",
+    "17",
+    "10",
+    "16",
+    "100"
+   ],
+   "linea": 8513,
+   "model": [
+    "MODEL4",
+    "FEL",
+    "",
+    "F"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    22,
+    22
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     532,
+     1
+    ],
+    [
+     531,
+     1
+    ],
+    [
+     530,
+     2
+    ],
+    [
+     163,
+     3
+    ],
+    [
+     136,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8514,
+    "movesA": 8515,
+    "movesD": 8516,
+    "model": 8518,
+    "equipment": 8521,
+    "voiceHit": 8522,
+    "voiceDie": 8523
+   },
+   "movesA": [
+    533,
+    1
+   ],
+   "movesD": [
+    523,
+    524
+   ],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "FELKNIFE",
+    "FELKNIFE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife"
+    },
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 12,
+   "nombre": "Twisted Experiment",
+   "args": [
+    "\"Twisted Experiment\"",
+    "20",
+    "30",
+    "5",
+    "12",
+    "100"
+   ],
+   "linea": 8524,
+   "model": [
+    "MODEL1",
+    "FIVE",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    503,
+    0
+   ],
+   "skinSetter": "PRISON2",
+   "model_por_defecto": false,
+   "movesA": [
+    149,
+    2,
+    145,
+    136,
+    145,
+    145
+   ],
+   "lineas": {
+    "movesA": 8525,
+    "movesD": 8526,
+    "model": 8528,
+    "skinSetter": 8531,
+    "equipment": 8532,
+    "voiceHit": 8533,
+    "voiceDie": 8534
+   },
+   "movesD": [
+    534,
+    166
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "UBER2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRISON2"
+    },
+    {
+     "skinSetter": "PRISON2"
+    },
+    {
+     "skinSetter": "PRISON2"
+    },
+    {
+     "skinSetter": "PRISON2"
+    },
+    {
+     "skinSetter": "PRISON2"
+    },
+    {
+     "KRINITEM": 503,
+     "nombre": "Terror Blade"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 13,
+   "nombre": "Agile Convict",
+   "args": [
+    "\"Agile Convict\"",
+    "10",
+    "13",
+    "3",
+    "14",
+    "100"
+   ],
+   "linea": 8535,
+   "model": [
+    "MODEL1",
+    "MAN2",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    0
+   ],
+   "skinSetter": "PRISON",
+   "model_por_defecto": false,
+   "movesA": [
+    525,
+    2,
+    275
+   ],
+   "lineas": {
+    "movesA": 8536,
+    "movesD": 8537,
+    "model": 8539,
+    "skinSetter": 8542,
+    "equipment": 8543,
+    "voiceHit": 8544,
+    "voiceDie": 8545
+   },
+   "movesD": [
+    122
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "FIREAXE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "KRINITEM": 6,
+     "nombre": "Fire Axe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 14,
+   "nombre": "Cunning Convict",
+   "args": [
+    "\"Cunning Convict\"",
+    "7",
+    "11",
+    "11",
+    "11",
+    "100"
+   ],
+   "linea": 8546,
+   "model": [
+    "MODEL1",
+    "MAN4",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    0
+   ],
+   "skinSetter": "PRISON",
+   "model_por_defecto": false,
+   "movesA": [
+    256,
+    2
+   ],
+   "lineas": {
+    "movesA": 8547,
+    "movesD": 8548,
+    "model": 8550,
+    "skinSetter": 8553,
+    "equipment": 8554,
+    "voiceHit": 8555,
+    "voiceDie": 8556
+   },
+   "movesD": [
+    8,
+    122
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "CROWBAR",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "skinSetter": "PRISON"
+    },
+    {
+     "KRINITEM": 7,
+     "nombre": "Crow Bar"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 15,
+   "nombre": "Doctor Hedger",
+   "args": [
+    "\"Doctor Hedger\"",
+    "5",
+    "50",
+    "5",
+    "8",
+    "100"
+   ],
+   "linea": 8557,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    17,
+    18,
+    4,
+    8,
+    16,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     529,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8558,
+    "movesA": 8559,
+    "movesD": 8560,
+    "model": 8562,
+    "equipment": 8565,
+    "voiceHit": 8566,
+    "voiceDie": 8567
+   },
+   "movesA": [
+    145,
+    145,
+    145,
+    149,
+    149
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_doc1",
+    "hit_doc2",
+    "hit_doc3"
+   ],
+   "voiceDie": "dead_doc",
+   "equip_efectivo": [
+    0,
+    "MADSCI",
+    "MADSCI",
+    "JEANS",
+    "JEANS",
+    "DOCKNIFE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 17,
+     "nombre": "Scientist Robe"
+    },
+    {
+     "KRINITEM": 18,
+     "nombre": "Scientist Sleeves"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars"
+    },
+    {
+     "KRINITEM": 16,
+     "nombre": "Surgery Blade"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 20,
+   "nombre": "Knight",
+   "args": [
+    "\"Knight\"",
+    "21",
+    "12",
+    "1",
+    "8",
+    "100"
+   ],
+   "linea": 8569,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    515,
+    516
+   ],
+   "skinSetter": "XADER",
+   "model_por_defecto": false,
+   "movesA": [
+    2,
+    507,
+    508,
+    509
+   ],
+   "lineas": {
+    "movesA": 8570,
+    "movesD": 8571,
+    "model": 8573,
+    "skinSetter": 8576,
+    "equipment": 8577,
+    "voiceHit": 8578,
+    "voiceDie": 8579
+   },
+   "movesD": [
+    505,
+    506,
+    510
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "XADER",
+    "XADER",
+    "XADER",
+    "XADER",
+    "XADER",
+    "PALADINSWORD",
+    "SHIELD2"
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "XADER"
+    },
+    {
+     "skinSetter": "XADER"
+    },
+    {
+     "skinSetter": "XADER"
+    },
+    {
+     "skinSetter": "XADER"
+    },
+    {
+     "skinSetter": "XADER"
+    },
+    {
+     "KRINITEM": 515,
+     "nombre": "Light\\'s Blade"
+    },
+    {
+     "KRINITEM": 516,
+     "nombre": "Metal Shield"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 21,
+   "nombre": "Priest",
+   "args": [
+    "\"Priest\"",
+    "15",
+    "1",
+    "15",
+    "13",
+    "150"
+   ],
+   "linea": 8580,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    518,
+    0
+   ],
+   "skinSetter": "PRIEST",
+   "model_por_defecto": false,
+   "movesA": [
+    515,
+    513,
+    514
+   ],
+   "lineas": {
+    "movesA": 8581,
+    "movesD": 8582,
+    "model": 8584,
+    "skinSetter": 8587,
+    "equipment": 8588,
+    "voiceHit": 8589,
+    "voiceDie": 8590
+   },
+   "movesD": [
+    512,
+    511
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIESTSTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRIEST"
+    },
+    {
+     "skinSetter": "PRIEST"
+    },
+    {
+     "skinSetter": "PRIEST"
+    },
+    {
+     "skinSetter": "PRIEST"
+    },
+    {
+     "skinSetter": "PRIEST"
+    },
+    {
+     "KRINITEM": 518,
+     "nombre": "Frosted Light"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 22,
+   "nombre": "Mage",
+   "args": [
+    "\"Mage\"",
+    "13",
+    "1",
+    "16",
+    "13",
+    "100"
+   ],
+   "linea": 8591,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    517,
+    0
+   ],
+   "skinSetter": "PRIEST2",
+   "model_por_defecto": false,
+   "movesA": [
+    516,
+    517,
+    518,
+    520
+   ],
+   "lineas": {
+    "movesA": 8592,
+    "movesD": 8593,
+    "model": 8595,
+    "skinSetter": 8598,
+    "equipment": 8599,
+    "voiceHit": 8600,
+    "voiceDie": 8601
+   },
+   "movesD": [
+    519
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "MAGESTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRIEST2"
+    },
+    {
+     "skinSetter": "PRIEST2"
+    },
+    {
+     "skinSetter": "PRIEST2"
+    },
+    {
+     "skinSetter": "PRIEST2"
+    },
+    {
+     "skinSetter": "PRIEST2"
+    },
+    {
+     "KRINITEM": 517,
+     "nombre": "Fiery Doom"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 23,
+   "nombre": "Frost Zombie",
+   "args": [
+    "\"Frost Zombie\"",
+    "15",
+    "20",
+    "20",
+    "13",
+    "100"
+   ],
+   "linea": 8602,
+   "model": [
+    "MODEL1",
+    "FROST",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    519,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesA": [
+    500,
+    2,
+    207
+   ],
+   "lineas": {
+    "movesA": 8603,
+    "movesD": 8604,
+    "model": 8606,
+    "skinSetter": 8609,
+    "equipment": 8610,
+    "voiceHit": 8611,
+    "voiceDie": 8612
+   },
+   "movesD": [
+    502
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "ICESTICK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "KRINITEM": 519,
+     "nombre": "Icy Maul"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 24,
+   "nombre": "Wolf",
+   "args": [
+    "\"Wolf\"",
+    "10",
+    "10",
+    "10",
+    "10",
+    "100"
+   ],
+   "linea": 8613,
+   "model": [
+    "MODEL5",
+    "WOLF",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    14,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesA": [
+    2,
+    3,
+    5
+   ],
+   "lineas": {
+    "movesA": 8614,
+    "movesD": 8615,
+    "model": 8617,
+    "skinSetter": 8620,
+    "equipment": 8621,
+    "voiceHit": 8622,
+    "voiceDie": 8623
+   },
+   "movesD": [
+    4
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "BATON",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "KRINITEM": 14,
+     "nombre": "Metal Baton"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 25,
+   "nombre": "Frost Terror",
+   "args": [
+    "\"Frost Terror\"",
+    "20",
+    "13",
+    "3",
+    "14",
+    "100"
+   ],
+   "linea": 8624,
+   "model": [
+    "MODEL1",
+    "Frost",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "FROST",
+   "model_por_defecto": false,
+   "movesA": [
+    501,
+    504,
+    503,
+    2,
+    219,
+    521
+   ],
+   "lineas": {
+    "movesA": 8625,
+    "movesD": 8626,
+    "model": 8628,
+    "skinSetter": 8631,
+    "equipment": 8632,
+    "voiceHit": 8633,
+    "voiceDie": 8634
+   },
+   "movesD": [
+    502
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    "FROST",
+    "FROST",
+    "FROST",
+    "FROST",
+    "FROST",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "FROST"
+    },
+    {
+     "skinSetter": "FROST"
+    },
+    {
+     "skinSetter": "FROST"
+    },
+    {
+     "skinSetter": "FROST"
+    },
+    {
+     "skinSetter": "FROST"
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 26,
+   "nombre": "ZPCI Medic",
+   "args": [
+    "\"ZPCI Medic\"",
+    "20",
+    "20",
+    "20",
+    "10",
+    "150"
+   ],
+   "linea": 8635,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    0
+   ],
+   "skinSetter": "ZPCI3",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     544,
+     1
+    ],
+    [
+     550,
+     2
+    ],
+    [
+     551,
+     2
+    ],
+    [
+     550,
+     3
+    ],
+    [
+     551,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8636,
+    "movesA": 8637,
+    "movesD": 8638,
+    "model": 8640,
+    "skinSetter": 8643,
+    "equipment": 8644,
+    "voiceHit": 8645,
+    "voiceDie": 8646
+   },
+   "movesA": [
+    547
+   ],
+   "movesD": [
+    549
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "skinSetter": "ZPCI3"
+    },
+    {
+     "KRINITEM": 13,
+     "nombre": "M4"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 27,
+   "nombre": "Armored Hound",
+   "args": [
+    "\"Armored Hound\"",
+    "10",
+    "20",
+    "20",
+    "40",
+    "100"
+   ],
+   "linea": 8647,
+   "model": [
+    "MODEL5",
+    "WOLF",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesA": [
+    109,
+    543,
+    542
+   ],
+   "lineas": {
+    "movesA": 8648,
+    "movesD": 8649,
+    "model": 8651,
+    "skinSetter": 8654,
+    "equipment": 8655,
+    "voiceHit": 8656,
+    "voiceDie": 8657
+   },
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 28,
+   "nombre": "Captain Hunt",
+   "args": [
+    "\"Captain Hunt\"",
+    "40",
+    "30",
+    "30",
+    "10",
+    "100"
+   ],
+   "linea": 8658,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    523,
+    0
+   ],
+   "skinSetter": "HUNT",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     554,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8659,
+    "movesA": 8660,
+    "movesD": 8661,
+    "model": 8663,
+    "skinSetter": 8666,
+    "equipment": 8667,
+    "voiceHit": 8668,
+    "voiceDie": 8669
+   },
+   "movesA": [
+    545,
+    157
+   ],
+   "movesD": [
+    546
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "HUNT"
+    },
+    {
+     "skinSetter": "HUNT"
+    },
+    {
+     "skinSetter": "HUNT"
+    },
+    {
+     "skinSetter": "HUNT"
+    },
+    {
+     "skinSetter": "HUNT"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 29,
+   "nombre": "Insurgent",
+   "args": [
+    "\"Insurgent\"",
+    "10",
+    "10",
+    "10",
+    "10",
+    "100"
+   ],
+   "linea": 8670,
+   "model": [
+    "MODEL1",
+    "MAN2TAT",
+    "",
+    "M"
+   ],
+   "equipment": [
+    31,
+    27,
+    29,
+    28,
+    30,
+    523,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     17,
+     0
+    ],
+    [
+     18,
+     0
+    ],
+    [
+     19,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8671,
+    "movesA": 8672,
+    "movesD": 8673,
+    "model": 8675,
+    "equipment": 8678,
+    "voiceHit": 8679,
+    "voiceDie": 8680
+   },
+   "movesA": [
+    9
+   ],
+   "movesD": [
+    20
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "TAT",
+    "TAT2",
+    "TAT",
+    "TAT",
+    "TAT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 31,
+     "nombre": "Tat Head"
+    },
+    {
+     "KRINITEM": 27,
+     "nombre": "Tat Shirt"
+    },
+    {
+     "KRINITEM": 29,
+     "nombre": "Tat Glove"
+    },
+    {
+     "KRINITEM": 28,
+     "nombre": "Tat Leggings"
+    },
+    {
+     "KRINITEM": 30,
+     "nombre": "Tat Feet"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 30,
+   "nombre": "Cult Leader",
+   "args": [
+    "\"Cult Leader\"",
+    "60",
+    "20",
+    "20",
+    "10",
+    "300"
+   ],
+   "linea": 8681,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    521,
+    0
+   ],
+   "skinSetter": "XADER2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     475,
+     1
+    ],
+    [
+     537,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8682,
+    "movesA": 8683,
+    "movesD": 8684,
+    "model": 8686,
+    "skinSetter": 8689,
+    "equipment": 8690,
+    "voiceHit": 8691,
+    "voiceDie": 8692
+   },
+   "movesA": [
+    275,
+    271,
+    267
+   ],
+   "movesD": [
+    9
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "XADER2"
+    },
+    {
+     "skinSetter": "XADER2"
+    },
+    {
+     "skinSetter": "XADER2"
+    },
+    {
+     "skinSetter": "XADER2"
+    },
+    {
+     "skinSetter": "XADER2"
+    },
+    {
+     "KRINITEM": 521,
+     "nombre": "Runeblade"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 31,
+   "nombre": "Baron Brixius",
+   "args": [
+    "\"Baron Brixius\"",
+    "600",
+    "40",
+    "40",
+    "10",
+    "100"
+   ],
+   "linea": 8693,
+   "model": [
+    "MODEL1",
+    "ZOMBIE2",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    527,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     538,
+     1
+    ],
+    [
+     539,
+     3
+    ],
+    [
+     541,
+     1
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8694,
+    "movesA": 8695,
+    "movesD": 8696,
+    "model": 8698,
+    "skinSetter": 8701,
+    "equipment": 8702,
+    "voiceHit": 8703,
+    "voiceDie": 8704
+   },
+   "movesA": [
+    540
+   ],
+   "movesD": [
+    403,
+    451,
+    455,
+    459,
+    466
+   ],
+   "voiceHit": [
+    "BaronHit1",
+    "BaronHit2",
+    "BaronHit3"
+   ],
+   "voiceDie": "BaronDie",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "XADER2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "KRINITEM": 527,
+     "nombre": "Unholy Runeblade"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 32,
+   "nombre": "Roald",
+   "args": [
+    "\"Roald\"",
+    "26",
+    "13",
+    "4",
+    "20",
+    "100"
+   ],
+   "linea": 8705,
+   "model": [
+    "MODEL1",
+    "MANTAT",
+    "",
+    "M"
+   ],
+   "equipment": [
+    382,
+    328,
+    327,
+    329,
+    326,
+    523,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    535,
+    19,
+    524,
+    9
+   ],
+   "lineas": {
+    "movesA": 8706,
+    "movesD": 8707,
+    "model": 8709,
+    "equipment": 8712,
+    "voiceHit": 8713,
+    "voiceDie": 8714
+   },
+   "movesD": [
+    536
+   ],
+   "voiceHit": [
+    "hit_roald1",
+    "hit_roald2",
+    "hit_roald3"
+   ],
+   "voiceDie": "dead_roald",
+   "equip_efectivo": [
+    "TAT",
+    "TAT2",
+    "TAT",
+    "TAT",
+    "TAT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 382,
+     "nombre": "Cloaking Helm"
+    },
+    {
+     "KRINITEM": 328,
+     "nombre": "Dissident\\'s Crest"
+    },
+    {
+     "KRINITEM": 327,
+     "nombre": "Rebellious Hands"
+    },
+    {
+     "KRINITEM": 329,
+     "nombre": "Hope\\'s Strength"
+    },
+    {
+     "KRINITEM": 326,
+     "nombre": "Faith Runners"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 33,
+   "nombre": "Frost Lord",
+   "args": [
+    "\"Frost Lord\"",
+    "30",
+    "40",
+    "20",
+    "14",
+    "100"
+   ],
+   "linea": 8715,
+   "model": [
+    "MODEL1",
+    "GUARDIAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     522,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8716,
+    "movesA": 8717,
+    "movesD": 8718,
+    "model": 8720,
+    "equipment": 8723,
+    "voiceHit": 8724,
+    "voiceDie": 8725
+   },
+   "movesA": [
+    500,
+    501,
+    503,
+    504,
+    2,
+    207,
+    219,
+    211
+   ],
+   "movesD": [
+    502,
+    234
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 34,
+   "nombre": "ZPCI Sniper",
+   "args": [
+    "\"ZPCI Sniper\"",
+    "20",
+    "25",
+    "25",
+    "15",
+    "100"
+   ],
+   "linea": 8726,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    522,
+    0
+   ],
+   "skinSetter": "ZPCI2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     544,
+     1
+    ],
+    [
+     552,
+     2
+    ],
+    [
+     553,
+     2
+    ],
+    [
+     552,
+     3
+    ],
+    [
+     553,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8727,
+    "movesA": 8728,
+    "movesD": 8729,
+    "model": 8731,
+    "skinSetter": 8734,
+    "equipment": 8735,
+    "voiceHit": 8736,
+    "voiceDie": 8737
+   },
+   "movesA": [
+    548
+   ],
+   "movesD": [
+    547
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "UBER4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI2"
+    },
+    {
+     "skinSetter": "ZPCI2"
+    },
+    {
+     "skinSetter": "ZPCI2"
+    },
+    {
+     "skinSetter": "ZPCI2"
+    },
+    {
+     "skinSetter": "ZPCI2"
+    },
+    {
+     "KRINITEM": 522,
+     "nombre": "ZPCI Sniper Rifle"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 40,
+   "nombre": "Spectre",
+   "args": [
+    "\"Spectre\"",
+    "20",
+    "25",
+    "25",
+    "10",
+    "100"
+   ],
+   "linea": 8739,
+   "model": [
+    "MODEL1",
+    "GHOST",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     573,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8740,
+    "movesA": 8741,
+    "movesD": 8742,
+    "model": 8744,
+    "skinSetter": 8747,
+    "equipment": 8748,
+    "voiceHit": 8749,
+    "voiceDie": 8750
+   },
+   "movesA": [
+    260,
+    572,
+    574,
+    575
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 41,
+   "nombre": "Phantom",
+   "args": [
+    "\"Phantom\"",
+    "12",
+    "5",
+    "15",
+    "12",
+    "100"
+   ],
+   "linea": 8751,
+   "model": [
+    "MODEL1",
+    "PSYCHO",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     452,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8752,
+    "movesA": 8753,
+    "movesD": 8754,
+    "model": 8756,
+    "skinSetter": 8759,
+    "equipment": 8760,
+    "voiceHit": 8761,
+    "voiceDie": 8762
+   },
+   "movesA": [
+    403,
+    436,
+    2
+   ],
+   "movesD": [
+    576,
+    425
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 42,
+   "nombre": "Beast",
+   "args": [
+    "\"Beast\"",
+    "15",
+    "15",
+    "5",
+    "13",
+    "100"
+   ],
+   "linea": 8763,
+   "model": [
+    "MODEL1",
+    "PREDATOR",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     166,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8764,
+    "movesA": 8765,
+    "movesD": 8766,
+    "model": 8768,
+    "skinSetter": 8771,
+    "equipment": 8772,
+    "voiceHit": 8773,
+    "voiceDie": 8774
+   },
+   "movesA": [
+    103,
+    578,
+    115
+   ],
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 43,
+   "nombre": "Antagonist",
+   "args": [
+    "\"Antagonist\"",
+    "20",
+    "5",
+    "17",
+    "8",
+    "100"
+   ],
+   "linea": 8775,
+   "model": [
+    "MODEL1",
+    "GUARDIAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": "",
+   "model_por_defecto": false,
+   "movesA": [
+    211,
+    219,
+    223,
+    203,
+    207
+   ],
+   "lineas": {
+    "movesA": 8776,
+    "movesD": 8777,
+    "model": 8779,
+    "skinSetter": 8782,
+    "equipment": 8783,
+    "voiceHit": 8784,
+    "voiceDie": 8785
+   },
+   "movesD": [
+    276
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    {
+     "skinSetter": ""
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 44,
+   "nombre": "The Hobo",
+   "args": [
+    "\"The Hobo\"",
+    "60",
+    "30",
+    "25",
+    "8",
+    "100"
+   ],
+   "linea": 8786,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0
+   ],
+   "skinSetter": "HOBO",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     555,
+     0
+    ],
+    [
+     556,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8787,
+    "movesA": 8788,
+    "movesD": 8789,
+    "model": 8791,
+    "skinSetter": 8794,
+    "equipment": 8795,
+    "voiceHit": 8796,
+    "voiceDie": 8797
+   },
+   "movesA": [
+    532
+   ],
+   "movesD": [
+    2,
+    577
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 45,
+   "nombre": "The Real Hobo",
+   "args": [
+    "\"The Real Hobo\"",
+    "300",
+    "100",
+    "100",
+    "15",
+    "100"
+   ],
+   "linea": 8798,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0
+   ],
+   "skinSetter": "HOBO",
+   "model_por_defecto": false,
+   "movesA": [
+    567,
+    568,
+    569,
+    570,
+    571
+   ],
+   "lineas": {
+    "movesA": 8799,
+    "movesD": 8800,
+    "model": 8802,
+    "skinSetter": 8805,
+    "equipment": 8806,
+    "voiceHit": 8807,
+    "voiceDie": 8808
+   },
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_bug1",
+    "hit_bug2",
+    "hit_bug3"
+   ],
+   "voiceDie": "dead_bug",
+   "equip_efectivo": [
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "skinSetter": "HOBO"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 46,
+   "nombre": "The Host",
+   "args": [
+    "\"The Host\"",
+    "40",
+    "25",
+    "25",
+    "10",
+    "100"
+   ],
+   "linea": 8809,
+   "model": [
+    "MODEL1",
+    "",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    563,
+    0
+   ],
+   "skinSetter": "TUX",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     557,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8810,
+    "movesA": 8811,
+    "movesD": 8812,
+    "model": 8814,
+    "skinSetter": 8817,
+    "equipment": 8818,
+    "voiceHit": 8819,
+    "voiceDie": 8820
+   },
+   "movesA": [
+    109,
+    558
+   ],
+   "movesD": [
+    520
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    "TUX",
+    "TUX",
+    "TUX",
+    "TUX",
+    "TUX",
+    "KATANA",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "TUX"
+    },
+    {
+     "skinSetter": "TUX"
+    },
+    {
+     "skinSetter": "TUX"
+    },
+    {
+     "skinSetter": "TUX"
+    },
+    {
+     "skinSetter": "TUX"
+    },
+    {
+     "KRINITEM": 563,
+     "nombre": "Gold Katana"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 47,
+   "nombre": "Clemons The Deceiver",
+   "args": [
+    "\"Clemons The Deceiver\"",
+    "70",
+    "27",
+    "27",
+    "10",
+    "300"
+   ],
+   "linea": 8821,
+   "model": [
+    "MODEL1",
+    "GHOST",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    565,
+    566
+   ],
+   "skinSetter": "CLEMONS",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     559,
+     1
+    ],
+    [
+     563,
+     2
+    ],
+    [
+     564,
+     2
+    ],
+    [
+     562,
+     2
+    ],
+    [
+     566,
+     3
+    ],
+    [
+     578,
+     3
+    ],
+    [
+     565,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8822,
+    "movesA": 8823,
+    "movesD": 8824,
+    "model": 8826,
+    "skinSetter": 8829,
+    "equipment": 8830,
+    "voiceHit": 8831,
+    "voiceDie": 8832
+   },
+   "movesA": [
+    580,
+    459,
+    436
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "SHANK",
+    "SHANK"
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "CLEMONS"
+    },
+    {
+     "skinSetter": "CLEMONS"
+    },
+    {
+     "skinSetter": "CLEMONS"
+    },
+    {
+     "skinSetter": "CLEMONS"
+    },
+    {
+     "skinSetter": "CLEMONS"
+    },
+    {
+     "KRINITEM": 565,
+     "nombre": "Devil Blade"
+    },
+    {
+     "KRINITEM": 566,
+     "nombre": "Demon Blade"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 48,
+   "nombre": "Louis the Blind",
+   "args": [
+    "\"Louis the Blind\"",
+    "100",
+    "10",
+    "10",
+    "16",
+    "100"
+   ],
+   "linea": 8833,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "BART",
+    "M"
+   ],
+   "equipment": [
+    0,
+    11,
+    0,
+    4,
+    8,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    0
+   ],
+   "lineas": {
+    "movesA": 8834,
+    "movesD": 8835,
+    "model": 8839,
+    "equipment": 8840,
+    "voiceHit": 8841,
+    "voiceDie": 8842
+   },
+   "movesD": [
+    0
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    0,
+    "SHIRT",
+    0,
+    "JEANS",
+    "JEANS",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 11,
+     "nombre": "White T-Shirt"
+    },
+    null,
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars"
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 49,
+   "nombre": "Metabii",
+   "args": [
+    "\"Metabii\"",
+    "7",
+    "20",
+    "20",
+    "6",
+    "100"
+   ],
+   "linea": 8843,
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    132
+   ],
+   "lineas": {
+    "movesA": 8844,
+    "movesD": 8845,
+    "model": 8847,
+    "equipment": 8850,
+    "voiceHit": 8851,
+    "voiceDie": 8852
+   },
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_zombie1",
+    "hit_zombie2",
+    "hit_zombie3"
+   ],
+   "voiceDie": "dead_zombie",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "STICK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 12,
+     "nombre": "Stick"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 50,
+   "nombre": "Tunnel Beast",
+   "args": [
+    "\"Tunnel Beast\"",
+    "40",
+    "32",
+    "20",
+    "10",
+    "100"
+   ],
+   "linea": 8853,
+   "model": [
+    "MODEL6",
+    "BEAST",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     600,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8854,
+    "movesA": 8855,
+    "movesD": 8856,
+    "model": 8858,
+    "equipment": 8861,
+    "voiceHit": 8862,
+    "voiceDie": 8863
+   },
+   "movesA": [
+    126,
+    145,
+    542,
+    424
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 51,
+   "nombre": "Vivian Vixen",
+   "args": [
+    "\"Vivian Vixen\"",
+    "2.5",
+    "45",
+    "45",
+    "15",
+    "100"
+   ],
+   "linea": 8864,
+   "model": [
+    "MODEL4",
+    "VIV",
+    "",
+    "F"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    565,
+    566
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     613,
+     1
+    ],
+    [
+     617,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8865,
+    "movesA": 8866,
+    "movesD": 8867,
+    "model": 8869,
+    "equipment": 8872,
+    "voiceHit": 8873,
+    "voiceDie": 8874
+   },
+   "movesA": [
+    616,
+    615,
+    614
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "SHANK",
+    "SHANK"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 565,
+     "nombre": "Devil Blade"
+    },
+    {
+     "KRINITEM": 566,
+     "nombre": "Demon Blade"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 52,
+   "nombre": "Gregor",
+   "args": [
+    "\"Gregor\"",
+    "23",
+    "35",
+    "35",
+    "10",
+    "100"
+   ],
+   "linea": 8875,
+   "model": [
+    "MODEL7",
+    "GREGOR",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     603,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8876,
+    "movesA": 8877,
+    "movesD": 8878,
+    "model": 8880,
+    "equipment": 8883,
+    "voiceHit": 8884,
+    "voiceDie": 8885
+   },
+   "movesA": [
+    601,
+    602,
+    415
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_bug1",
+    "hit_bug2",
+    "hit_bug3"
+   ],
+   "voiceDie": "dead_bug",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 53,
+   "nombre": "Shunny",
+   "args": [
+    "\"Shunny\"",
+    "30",
+    "35",
+    "35",
+    "13",
+    "100"
+   ],
+   "linea": 8886,
+   "model": [
+    "MODEL1",
+    "ONE",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    4,
+    8,
+    5,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    10,
+    145,
+    455,
+    223,
+    542,
+    415,
+    115,
+    578
+   ],
+   "lineas": {
+    "movesA": 8887,
+    "movesD": 8888,
+    "model": 8890,
+    "equipment": 8893,
+    "voiceHit": 8894,
+    "voiceDie": 8895
+   },
+   "movesD": [
+    125,
+    534,
+    1
+   ],
+   "voiceHit": [
+    "hit_sonny1",
+    "hit_sonny2",
+    "hit_sonny3"
+   ],
+   "voiceDie": "dead_sonny",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    "JEANS",
+    "JEANS",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 54,
+   "nombre": "The Magical Monkey",
+   "args": [
+    "\"The Magical Monkey\"",
+    "30",
+    "50",
+    "50",
+    "8",
+    "100"
+   ],
+   "linea": 8896,
+   "model": [
+    "MODEL6",
+    "APE",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    611,
+    612,
+    547,
+    10
+   ],
+   "lineas": {
+    "movesA": 8897,
+    "movesD": 8898,
+    "model": 8900,
+    "equipment": 8903,
+    "voiceHit": 8904,
+    "voiceDie": 8905
+   },
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 55,
+   "nombre": "Mokoshotar",
+   "args": [
+    "\"Mokoshotar\"",
+    "210",
+    "37",
+    "37",
+    "15",
+    "100"
+   ],
+   "linea": 8906,
+   "model": [
+    "MODEL5",
+    "MOKO",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     623,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8907,
+    "movesA": 8908,
+    "movesD": 8909,
+    "model": 8911,
+    "equipment": 8914,
+    "voiceHit": 8915,
+    "voiceDie": 8916
+   },
+   "movesA": [
+    628,
+    624,
+    625,
+    626,
+    627
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 56,
+   "nombre": "Bunny",
+   "args": [
+    "\"Bunny\"",
+    "150",
+    "65",
+    "65",
+    "17",
+    "100"
+   ],
+   "linea": 8917,
+   "model": [
+    "MODEL7",
+    "BUNNY",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     618,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8918,
+    "movesA": 8919,
+    "movesD": 8920,
+    "model": 8922,
+    "equipment": 8925
+   },
+   "movesA": [
+    619,
+    620,
+    621,
+    622
+   ],
+   "movesD": [
+    2
+   ],
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 57,
+   "nombre": "Flower Zombie",
+   "args": [
+    "\"Flower Zombie\"",
+    "30",
+    "35",
+    "35",
+    "13",
+    "100"
+   ],
+   "linea": 8926,
+   "model": [
+    "MODEL1",
+    "ZOMBIE1",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    33,
+    26,
+    0,
+    32,
+    32,
+    5,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610
+   ],
+   "lineas": {
+    "movesA": 8927,
+    "movesD": 8928,
+    "model": 8930,
+    "equipment": 8933,
+    "voiceHit": 8934,
+    "voiceDie": 8935
+   },
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_sonny1",
+    "hit_sonny2",
+    "hit_sonny3"
+   ],
+   "voiceDie": "dead_sonny",
+   "equip_efectivo": [
+    "TUX",
+    "SHIRT5",
+    0,
+    "GAY",
+    "GAY",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 33,
+     "nombre": "Gay Hat"
+    },
+    {
+     "KRINITEM": 26,
+     "nombre": "Piercing"
+    },
+    null,
+    {
+     "KRINITEM": 32,
+     "nombre": "Gay Pants/Feet"
+    },
+    {
+     "KRINITEM": 32,
+     "nombre": "Gay Pants/Feet"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 58,
+   "nombre": "The Hydra",
+   "args": [
+    "\"The Hydra\"",
+    "52",
+    "32",
+    "32",
+    "13",
+    "130"
+   ],
+   "linea": 8936,
+   "model": [
+    "MODEL8",
+    "HYDRA",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     630,
+     1
+    ],
+    [
+     631,
+     2
+    ],
+    [
+     632,
+     3
+    ],
+    [
+     633,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8937,
+    "movesA": 8938,
+    "movesD": 8939,
+    "model": 8941,
+    "voiceHit": 8944,
+    "voiceDie": 8945
+   },
+   "movesA": [
+    141,
+    145,
+    635,
+    145
+   ],
+   "movesD": [
+    634
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 59,
+   "nombre": "Fire Claw",
+   "args": [
+    "\"Fire Claw\"",
+    "15",
+    "8",
+    "8",
+    "10",
+    "100"
+   ],
+   "linea": 8946,
+   "model": [
+    "MODEL8",
+    "HYDRA2",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    629
+   ],
+   "lineas": {
+    "movesA": 8947,
+    "movesD": 8948,
+    "model": 8950,
+    "voiceHit": 8953,
+    "voiceDie": 8954
+   },
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 60,
+   "nombre": "Tunnel Worker",
+   "args": [
+    "\"Tunnel Worker\"",
+    "10",
+    "10",
+    "10",
+    "10",
+    "100"
+   ],
+   "linea": 8955,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    380,
+    381,
+    9,
+    4,
+    10,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    1
+   ],
+   "lineas": {
+    "movesA": 8956,
+    "movesD": 8957,
+    "model": 8959,
+    "equipment": 8962,
+    "voiceHit": 8963,
+    "voiceDie": 8964
+   },
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "WORKER",
+    "WORKERSHIRT",
+    "ENGINEERINGGLOVES",
+    "JEANS",
+    "NAVY",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 380,
+     "nombre": "Mining Helmet"
+    },
+    {
+     "KRINITEM": 381,
+     "nombre": "Mining Shirt"
+    },
+    {
+     "KRINITEM": 9,
+     "nombre": "Engineering Gloves"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 10,
+     "nombre": "Navy Boots"
+    },
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 61,
+   "nombre": "Police Colonel",
+   "args": [
+    "\"Police Colonel\"",
+    "210",
+    "13",
+    "6",
+    "10",
+    "100"
+   ],
+   "linea": 8965,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    649,
+    0
+   ],
+   "skinSetter": "IMPERIAL2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     764,
+     1
+    ],
+    [
+     763,
+     2
+    ],
+    [
+     19,
+     2
+    ],
+    [
+     766,
+     2
+    ],
+    [
+     755,
+     2
+    ],
+    [
+     762,
+     2
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     759,
+     2
+    ],
+    [
+     764,
+     4
+    ]
+   ],
+   "lineas": {
+    "movesABS": 8966,
+    "movesA": 8967,
+    "movesD": 8968,
+    "model": 8970,
+    "skinSetter": 8973,
+    "equipment": 8974,
+    "voiceHit": 8975,
+    "voiceDie": 8976
+   },
+   "movesA": [
+    765
+   ],
+   "movesD": [
+    759,
+    19,
+    762,
+    760,
+    767,
+    766,
+    755,
+    2
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "AK3",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "IMPERIAL2"
+    },
+    {
+     "skinSetter": "IMPERIAL2"
+    },
+    {
+     "skinSetter": "IMPERIAL2"
+    },
+    {
+     "skinSetter": "IMPERIAL2"
+    },
+    {
+     "skinSetter": "IMPERIAL2"
+    },
+    {
+     "KRINITEM": 649,
+     "nombre": "COLONEL GUN"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 62,
+   "nombre": "Secret Police",
+   "args": [
+    "\"Secret Police\"",
+    "30",
+    "27",
+    "15",
+    "8",
+    "100"
+   ],
+   "linea": 8977,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    648,
+    0
+   ],
+   "skinSetter": "IMPERIAL",
+   "model_por_defecto": false,
+   "movesA": [
+    723,
+    725,
+    726,
+    728,
+    734,
+    9
+   ],
+   "lineas": {
+    "movesA": 8978,
+    "movesD": 8979,
+    "model": 8981,
+    "skinSetter": 8984,
+    "equipment": 8985,
+    "voiceHit": 8986,
+    "voiceDie": 8987
+   },
+   "movesD": [
+    722,
+    735
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "IMPERIAL"
+    },
+    {
+     "skinSetter": "IMPERIAL"
+    },
+    {
+     "skinSetter": "IMPERIAL"
+    },
+    {
+     "skinSetter": "IMPERIAL"
+    },
+    {
+     "skinSetter": "IMPERIAL"
+    },
+    {
+     "KRINITEM": 648,
+     "nombre": "IMPERIAL GUN"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 63,
+   "nombre": "Riot Police",
+   "args": [
+    "\"Riot Police\"",
+    "25",
+    "28",
+    "20",
+    "10",
+    "100"
+   ],
+   "linea": 8988,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    647,
+    0
+   ],
+   "skinSetter": "POLICE",
+   "model_por_defecto": false,
+   "movesA": [
+    732,
+    733,
+    736,
+    731,
+    730,
+    729,
+    19,
+    9
+   ],
+   "lineas": {
+    "movesA": 8989,
+    "movesD": 8990,
+    "model": 8992,
+    "skinSetter": 8995,
+    "equipment": 8996,
+    "voiceHit": 8997,
+    "voiceDie": 8998
+   },
+   "movesD": [
+    727
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 64,
+   "nombre": "Specialist",
+   "args": [
+    "\"Specialist\"",
+    "20",
+    "10",
+    "10",
+    "15",
+    "100"
+   ],
+   "linea": 8999,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    651,
+    651
+   ],
+   "skinSetter": "SINJID",
+   "model_por_defecto": false,
+   "movesA": [
+    716,
+    717,
+    718,
+    719,
+    720,
+    532,
+    524,
+    523,
+    721
+   ],
+   "lineas": {
+    "movesA": 9000,
+    "movesD": 9001,
+    "model": 9003,
+    "skinSetter": 9006,
+    "equipment": 9007,
+    "voiceHit": 9008,
+    "voiceDie": 9009
+   },
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "FELKNIFE3",
+    "FELKNIFE3"
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "SINJID"
+    },
+    {
+     "skinSetter": "SINJID"
+    },
+    {
+     "skinSetter": "SINJID"
+    },
+    {
+     "skinSetter": "SINJID"
+    },
+    {
+     "skinSetter": "SINJID"
+    },
+    {
+     "KRINITEM": 651,
+     "nombre": "SMALL BLADE 1"
+    },
+    {
+     "KRINITEM": 651,
+     "nombre": "SMALL BLADE 1"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 65,
+   "nombre": "Blood Hound",
+   "args": [
+    "\"Blood Hound\"",
+    "20",
+    "33",
+    "30",
+    "15",
+    "100"
+   ],
+   "linea": 9010,
+   "model": [
+    "MODEL5",
+    "DOG",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    701,
+    702,
+    703,
+    107
+   ],
+   "lineas": {
+    "movesA": 9011,
+    "movesD": 9012,
+    "model": 9014,
+    "equipment": 9017,
+    "voiceHit": 9018,
+    "voiceDie": 9019
+   },
+   "movesD": [
+    1,
+    122
+   ],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 66,
+   "nombre": "Care Taker",
+   "args": [
+    "\"Care Taker\"",
+    "20",
+    "12",
+    "12",
+    "10",
+    "120"
+   ],
+   "linea": 9020,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    647,
+    0
+   ],
+   "skinSetter": "POLICE2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     704,
+     0
+    ],
+    [
+     705,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9021,
+    "movesA": 9022,
+    "movesD": 9023,
+    "model": 9025,
+    "skinSetter": 9028,
+    "equipment": 9029,
+    "voiceHit": 9030,
+    "voiceDie": 9031
+   },
+   "movesA": [
+    706,
+    107
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "POLICE2"
+    },
+    {
+     "skinSetter": "POLICE2"
+    },
+    {
+     "skinSetter": "POLICE2"
+    },
+    {
+     "skinSetter": "POLICE2"
+    },
+    {
+     "skinSetter": "POLICE2"
+    },
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 67,
+   "nombre": "Android Guard",
+   "args": [
+    "\"Android Guard\"",
+    "17",
+    "12",
+    "25",
+    "10",
+    "250"
+   ],
+   "linea": 9032,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    656,
+    0
+   ],
+   "skinSetter": "ROBOT",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     710,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9033,
+    "movesA": 9034,
+    "movesD": 9035,
+    "model": 9037,
+    "skinSetter": 9040,
+    "equipment": 9041,
+    "voiceHit": 9042,
+    "voiceDie": 9043
+   },
+   "movesA": [
+    714,
+    713,
+    712,
+    223,
+    514
+   ],
+   "movesD": [
+    510
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "FLATBLADE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ROBOT"
+    },
+    {
+     "skinSetter": "ROBOT"
+    },
+    {
+     "skinSetter": "ROBOT"
+    },
+    {
+     "skinSetter": "ROBOT"
+    },
+    {
+     "skinSetter": "ROBOT"
+    },
+    {
+     "KRINITEM": 656,
+     "nombre": "BLUE SWORD"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 68,
+   "nombre": "City Council",
+   "args": [
+    "\"City Council\"",
+    "15",
+    "19",
+    "28",
+    "10",
+    "2000"
+   ],
+   "linea": 9044,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    650,
+    0
+   ],
+   "skinSetter": "PRIEST3",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     777,
+     1
+    ],
+    [
+     778,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9045,
+    "movesA": 9046,
+    "movesD": 9047,
+    "model": 9049,
+    "skinSetter": 9052,
+    "equipment": 9053,
+    "voiceHit": 9054,
+    "voiceDie": 9055
+   },
+   "movesA": [
+    779
+   ],
+   "movesD": [
+    738,
+    742,
+    743,
+    745,
+    746,
+    747,
+    748,
+    749,
+    1
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "COUNCILSTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRIEST3"
+    },
+    {
+     "skinSetter": "PRIEST3"
+    },
+    {
+     "skinSetter": "PRIEST3"
+    },
+    {
+     "skinSetter": "PRIEST3"
+    },
+    {
+     "skinSetter": "PRIEST3"
+    },
+    {
+     "KRINITEM": 650,
+     "nombre": "STAFF"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 69,
+   "nombre": "Mayor",
+   "args": [
+    "\"Mayor\"",
+    "60",
+    "13",
+    "28",
+    "15",
+    "100"
+   ],
+   "linea": 9056,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    654,
+    0
+   ],
+   "skinSetter": "PRIEST4",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     768,
+     3
+    ],
+    [
+     782,
+     4
+    ],
+    [
+     770,
+     4
+    ],
+    [
+     771,
+     4
+    ],
+    [
+     769,
+     4
+    ],
+    [
+     475,
+     5
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9057,
+    "movesA": 9058,
+    "movesD": 9059,
+    "model": 9061,
+    "skinSetter": 9064,
+    "equipment": 9065,
+    "voiceHit": 9066,
+    "voiceDie": 9067
+   },
+   "movesA": [
+    773,
+    774,
+    775,
+    776
+   ],
+   "movesD": [
+    1,
+    772
+   ],
+   "voiceHit": [
+    "hit_mayor1",
+    "hit_mayor2",
+    "hit_mayor3"
+   ],
+   "voiceDie": "dead_mayor",
+   "equip_efectivo": [
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "TASER3",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "PRIEST4"
+    },
+    {
+     "skinSetter": "PRIEST4"
+    },
+    {
+     "skinSetter": "PRIEST4"
+    },
+    {
+     "skinSetter": "PRIEST4"
+    },
+    {
+     "skinSetter": "PRIEST4"
+    },
+    {
+     "KRINITEM": 654,
+     "nombre": "SPELL BLADE"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 70,
+   "nombre": "Guardian Cannon",
+   "args": [
+    "\"Guardian Cannon\"",
+    "15",
+    "15",
+    "15",
+    "5",
+    "100"
+   ],
+   "linea": 9068,
+   "model": [
+    "MODEL8",
+    "HYDRA3",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     781,
+     1
+    ],
+    [
+     780,
+     2
+    ],
+    [
+     780,
+     3
+    ],
+    [
+     780,
+     4
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9069,
+    "movesA": 9070,
+    "movesD": 9071,
+    "model": 9073,
+    "equipment": 9076,
+    "voiceHit": 9077,
+    "voiceDie": 9078
+   },
+   "movesA": [
+    276
+   ],
+   "movesD": [],
+   "voiceHit": [
+    "hit_monster1",
+    "hit_monster2",
+    "hit_monster3"
+   ],
+   "voiceDie": "dead_monster",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 71,
+   "nombre": "Felicity",
+   "args": [
+    "\"Felicity\"",
+    "15",
+    "25",
+    "15",
+    "25",
+    "100"
+   ],
+   "linea": 9079,
+   "model": [
+    "MODEL4",
+    "FEL",
+    "",
+    "F"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    22,
+    22
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    533,
+    1,
+    763,
+    136,
+    523,
+    524
+   ],
+   "lineas": {
+    "movesA": 9080,
+    "movesD": 9081,
+    "model": 9083,
+    "equipment": 9086,
+    "voiceHit": 9087,
+    "voiceDie": 9088
+   },
+   "movesD": [
+    531
+   ],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "FELKNIFE",
+    "FELKNIFE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife"
+    },
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 72,
+   "nombre": "ZPCI Ambassador",
+   "args": [
+    "\"ZPCI Ambassador\"",
+    "25",
+    "25",
+    "1",
+    "13",
+    "100"
+   ],
+   "linea": 9089,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    0
+   ],
+   "skinSetter": "ZPCI",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     16,
+     0
+    ],
+    [
+     17,
+     0
+    ],
+    [
+     18,
+     0
+    ],
+    [
+     19,
+     0
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9090,
+    "movesA": 9091,
+    "movesD": 9092,
+    "model": 9094,
+    "skinSetter": 9097,
+    "equipment": 9098,
+    "voiceHit": 9099,
+    "voiceDie": 9100
+   },
+   "movesA": [
+    9
+   ],
+   "movesD": [
+    20
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "skinSetter": "ZPCI"
+    },
+    {
+     "KRINITEM": 13,
+     "nombre": "M4"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 73,
+   "nombre": "Metal Warden",
+   "args": [
+    "\"Metal Warden\"",
+    "60",
+    "47",
+    "10",
+    "13",
+    "100"
+   ],
+   "linea": 9101,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    679,
+    0
+   ],
+   "skinSetter": "JASON4",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     11,
+     1
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     785,
+     2
+    ],
+    [
+     14,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9102,
+    "movesA": 9103,
+    "movesD": 9104,
+    "model": 9106,
+    "skinSetter": 9109,
+    "equipment": 9110,
+    "voiceHit": 9111,
+    "voiceDie": 9112
+   },
+   "movesA": [
+    15
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_human1",
+    "hit_human2",
+    "hit_human3"
+   ],
+   "voiceDie": "dead_human",
+   "equip_efectivo": [
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "BATON2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "JASON4"
+    },
+    {
+     "skinSetter": "JASON4"
+    },
+    {
+     "skinSetter": "JASON4"
+    },
+    {
+     "skinSetter": "JASON4"
+    },
+    {
+     "skinSetter": "JASON4"
+    },
+    {
+     "KRINITEM": 679,
+     "nombre": "BATON"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 74,
+   "nombre": "The Bomb",
+   "args": [
+    "\"The Bomb\"",
+    "250",
+    "1",
+    "1",
+    "1",
+    "100"
+   ],
+   "linea": 9113,
+   "model": [
+    "MODEL9",
+    "",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesA": [
+    0
+   ],
+   "lineas": {
+    "movesA": 9114,
+    "movesD": 9115,
+    "model": 9117,
+    "equipment": 9120,
+    "voiceHit": 9121,
+    "voiceDie": 9122
+   },
+   "movesD": [
+    0
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 75,
+   "nombre": "Nostalgia",
+   "args": [
+    "\"Nostalgia\"",
+    "55.38448",
+    "25",
+    "10",
+    "9",
+    "100"
+   ],
+   "linea": 9123,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    675,
+    0
+   ],
+   "skinSetter": "NOS",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     786,
+     1
+    ],
+    [
+     787,
+     2
+    ],
+    [
+     788,
+     3
+    ],
+    [
+     782,
+     4
+    ],
+    [
+     780,
+     5
+    ],
+    [
+     791,
+     6
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9124,
+    "movesA": 9125,
+    "movesD": 9126,
+    "model": 9128,
+    "skinSetter": 9131,
+    "equipment": 9132,
+    "voiceHit": 9133,
+    "voiceDie": 9134
+   },
+   "movesA": [
+    790,
+    789
+   ],
+   "movesD": [
+    9,
+    107,
+    119,
+    110
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "NOS",
+    "NOS",
+    "NOS",
+    "NOS",
+    "NOS",
+    "XADER",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "NOS"
+    },
+    {
+     "skinSetter": "NOS"
+    },
+    {
+     "skinSetter": "NOS"
+    },
+    {
+     "skinSetter": "NOS"
+    },
+    {
+     "skinSetter": "NOS"
+    },
+    {
+     "KRINITEM": 675,
+     "nombre": "SWORD"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 76,
+   "nombre": "The Judge",
+   "args": [
+    "\"The Judge\"",
+    "35",
+    "35",
+    "10",
+    "8",
+    "100"
+   ],
+   "linea": 9135,
+   "model": [
+    "MODEL4",
+    "FIR",
+    "",
+    "F"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    676,
+    676
+   ],
+   "skinSetter": "FIR",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     792,
+     1
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9136,
+    "movesA": 9137,
+    "movesD": 9138,
+    "model": 9140,
+    "skinSetter": 9141,
+    "equipment": 9144,
+    "voiceHit": 9145,
+    "voiceDie": 9146
+   },
+   "movesA": [
+    796,
+    793,
+    794,
+    795
+   ],
+   "movesD": [
+    9,
+    524
+   ],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    "FIR",
+    "FIR",
+    "FIR",
+    "FIR",
+    "FIR",
+    "FELKNIFE5",
+    "FELKNIFE5"
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "FIR"
+    },
+    {
+     "skinSetter": "FIR"
+    },
+    {
+     "skinSetter": "FIR"
+    },
+    {
+     "skinSetter": "FIR"
+    },
+    {
+     "skinSetter": "FIR"
+    },
+    {
+     "KRINITEM": 676,
+     "nombre": "KNIFE"
+    },
+    {
+     "KRINITEM": 676,
+     "nombre": "KNIFE"
+    }
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 77,
+   "nombre": "Peace Keeper",
+   "args": [
+    "\"Peace Keeper\"",
+    "8",
+    "12",
+    "12",
+    "7",
+    "100"
+   ],
+   "linea": 9147,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    647,
+    0
+   ],
+   "skinSetter": "POLICE",
+   "model_por_defecto": false,
+   "movesA": [
+    732,
+    733,
+    736,
+    731,
+    730,
+    729,
+    19,
+    9
+   ],
+   "lineas": {
+    "movesA": 9148,
+    "movesD": 9149,
+    "model": 9151,
+    "skinSetter": 9154,
+    "equipment": 9155,
+    "voiceHit": 9156,
+    "voiceDie": 9157
+   },
+   "movesD": [
+    727
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "skinSetter": "POLICE"
+    },
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 78,
+   "nombre": "Doctor Klima",
+   "args": [
+    "\"Doctor Klima\"",
+    "5000",
+    "90",
+    "90",
+    "10",
+    "100"
+   ],
+   "linea": 9158,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    681,
+    0
+   ],
+   "skinSetter": "KLIMA",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     784,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9159,
+    "movesA": 9160,
+    "movesD": 9161,
+    "model": 9163,
+    "equipment": 9166,
+    "skinSetter": 9167,
+    "voiceHit": 9168,
+    "voiceDie": 9169
+   },
+   "movesA": [
+    455,
+    443,
+    145,
+    149,
+    141,
+    578
+   ],
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_doc1",
+    "hit_doc2",
+    "hit_doc3"
+   ],
+   "voiceDie": "dead_doc",
+   "equip_efectivo": [
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "CROWBAR2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "KLIMA"
+    },
+    {
+     "skinSetter": "KLIMA"
+    },
+    {
+     "skinSetter": "KLIMA"
+    },
+    {
+     "skinSetter": "KLIMA"
+    },
+    {
+     "skinSetter": "KLIMA"
+    },
+    {
+     "KRINITEM": 681,
+     "nombre": "GOLDEN CROWBAR"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 79,
+   "nombre": "North Guardian",
+   "args": [
+    "\"North Guardian\"",
+    "25",
+    "17",
+    "17",
+    "10",
+    "100"
+   ],
+   "linea": 9170,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    719,
+    0
+   ],
+   "skinSetter": "ROBOT2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     800,
+     1
+    ],
+    [
+     798,
+     2
+    ],
+    [
+     799,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9171,
+    "movesA": 9172,
+    "movesD": 9173,
+    "model": 9175,
+    "equipment": 9178,
+    "skinSetter": 9179,
+    "voiceHit": 9180,
+    "voiceDie": 9181
+   },
+   "movesA": [
+    111,
+    524,
+    115
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "FLATBLADE2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "KRINITEM": 719,
+     "nombre": "Guardian Sword"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 80,
+   "nombre": "South Guardian",
+   "args": [
+    "\"South Guardian\"",
+    "25",
+    "17",
+    "17",
+    "10",
+    "100"
+   ],
+   "linea": 9182,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    719,
+    0
+   ],
+   "skinSetter": "ROBOT2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     800,
+     1
+    ],
+    [
+     797,
+     2
+    ],
+    [
+     799,
+     3
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9183,
+    "movesA": 9184,
+    "movesD": 9185,
+    "model": 9187,
+    "equipment": 9190,
+    "skinSetter": 9191,
+    "voiceHit": 9192,
+    "voiceDie": 9193
+   },
+   "movesA": [
+    256,
+    260,
+    132
+   ],
+   "movesD": [
+    9
+   ],
+   "voiceHit": [
+    "hit_zpci1",
+    "hit_zpci2",
+    "hit_zpci3"
+   ],
+   "voiceDie": "dead_zpci",
+   "equip_efectivo": [
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "FLATBLADE2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "skinSetter": "ROBOT2"
+    },
+    {
+     "KRINITEM": 719,
+     "nombre": "Guardian Sword"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 81,
+   "nombre": "Yosuke",
+   "args": [
+    "\"Yosuke\"",
+    "20",
+    "15",
+    "15",
+    "10",
+    "100"
+   ],
+   "linea": 9194,
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    720,
+    0
+   ],
+   "skinSetter": "FIRESAM",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     801,
+     1
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9195,
+    "movesA": 9196,
+    "movesD": 9197,
+    "model": 9199,
+    "equipment": 9202,
+    "skinSetter": 9203,
+    "voiceHit": 9204,
+    "voiceDie": 9205
+   },
+   "movesA": [
+    802
+   ],
+   "movesD": [
+    2
+   ],
+   "voiceHit": [
+    "hit_twisted1",
+    "hit_twisted2",
+    "hit_twisted3"
+   ],
+   "voiceDie": "dead_twisted",
+   "equip_efectivo": [
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "FIRESAM"
+    },
+    {
+     "skinSetter": "FIRESAM"
+    },
+    {
+     "skinSetter": "FIRESAM"
+    },
+    {
+     "skinSetter": "FIRESAM"
+    },
+    {
+     "skinSetter": "FIRESAM"
+    },
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 82,
+   "nombre": "Orb of Restraint",
+   "args": [
+    "\"Orb of Restraint\"",
+    "51.851083700000004",
+    "15",
+    "15",
+    "10",
+    "100"
+   ],
+   "linea": 9206,
+   "model": [
+    "MODEL2",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    720,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     803,
+     1
+    ],
+    [
+     804,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9207,
+    "movesA": 9208,
+    "movesD": 9209,
+    "model": 9211,
+    "equipment": 9214,
+    "voiceHit": 9215,
+    "voiceDie": 9216
+   },
+   "movesA": [
+    798
+   ],
+   "movesD": [],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 83,
+   "nombre": "Orb of Sanctuary",
+   "args": [
+    "\"Orb of Sanctuary\"",
+    "14.5183034",
+    "15",
+    "15",
+    "10",
+    "100"
+   ],
+   "linea": 9217,
+   "model": [
+    "MODEL2",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    720,
+    0
+   ],
+   "skinSetter": 0,
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     805,
+     1
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9218,
+    "movesA": 9219,
+    "movesD": 9220,
+    "model": 9222,
+    "equipment": 9225,
+    "voiceHit": 9226,
+    "voiceDie": 9227
+   },
+   "movesA": [
+    806
+   ],
+   "movesD": [],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword"
+    },
+    null
+   ]
+  },
+  {
+   "fuente": "unidad_KNU",
+   "KNU": 84,
+   "nombre": "Versu the Corruptor",
+   "args": [
+    "\"Versu the Corruptor\"",
+    "40",
+    "10",
+    "5",
+    "10",
+    "100"
+   ],
+   "linea": 9228,
+   "model": [
+    "MODEL4",
+    "FIR2",
+    "",
+    "F"
+   ],
+   "equipment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    721,
+    721
+   ],
+   "skinSetter": "FIR2",
+   "model_por_defecto": false,
+   "movesABS": [
+    [
+     807,
+     2
+    ]
+   ],
+   "lineas": {
+    "movesABS": 9229,
+    "movesA": 9230,
+    "movesD": 9231,
+    "model": 9233,
+    "equipment": 9236,
+    "skinSetter": 9237,
+    "voiceHit": 9238,
+    "voiceDie": 9239
+   },
+   "movesA": [
+    532
+   ],
+   "movesD": [
+    1
+   ],
+   "voiceHit": [
+    "hit_fel1",
+    "hit_fel2",
+    "hit_fel3"
+   ],
+   "voiceDie": "dead_fel",
+   "equip_efectivo": [
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FELKNIFE4",
+    "FELKNIFE4"
+   ],
+   "equip_procedencia": [
+    {
+     "skinSetter": "FIR2"
+    },
+    {
+     "skinSetter": "FIR2"
+    },
+    {
+     "skinSetter": "FIR2"
+    },
+    {
+     "skinSetter": "FIR2"
+    },
+    {
+     "skinSetter": "FIR2"
+    },
+    {
+     "KRINITEM": 721,
+     "nombre": "Fire Sword"
+    },
+    {
+     "KRINITEM": 721,
+     "nombre": "Fire Sword"
+    }
+   ]
+  }
+ ],
+ "miembros_equipo": [
+  {
+   "fuente": "miembro_equipo",
+   "indice": 0,
+   "nombre": "Sonny",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "ONE",
+    "M"
+   ],
+   "ClassStats": 1,
+   "equip_inicial": [
+    0,
+    0,
+    0,
+    "JEANS",
+    "JEANS",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe"
+    },
+    null
+   ],
+   "lineas": {
+    "NameSets": 13229,
+    "ClassStats": 13230,
+    "HairSet": 13233,
+    "equipArray": 13234
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  },
+  {
+   "fuente": "miembro_equipo",
+   "indice": 1,
+   "nombre": "Veradux",
+   "model": [
+    "MODEL1",
+    "TWO",
+    "TWO",
+    "M"
+   ],
+   "ClassStats": 4,
+   "equip_inicial": [
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 38,
+     "nombre": "Medic Head"
+    },
+    {
+     "KRINITEM": 34,
+     "nombre": "Medic Chest"
+    },
+    {
+     "KRINITEM": 36,
+     "nombre": "Medic Hands"
+    },
+    {
+     "KRINITEM": 35,
+     "nombre": "Medic Legs"
+    },
+    {
+     "KRINITEM": 37,
+     "nombre": "Medic Feet"
+    },
+    {
+     "KRINITEM": 39,
+     "nombre": "Gun"
+    },
+    null
+   ],
+   "lineas": {
+    "NameSets": 13236,
+    "ClassStats": 13237,
+    "SkinSet": 13240,
+    "HairSet": 13241,
+    "equipArray": 13242
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  },
+  {
+   "fuente": "miembro_equipo",
+   "indice": 2,
+   "nombre": "Roald",
+   "model": [
+    "MODEL1",
+    "MANTAT",
+    "THURMAN",
+    "M"
+   ],
+   "ClassStats": 32,
+   "equip_inicial": [
+    "TAT",
+    "TAT2",
+    "TAT",
+    "TAT",
+    "TAT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 382,
+     "nombre": "Cloaking Helm"
+    },
+    {
+     "KRINITEM": 328,
+     "nombre": "Dissident\\'s Crest"
+    },
+    {
+     "KRINITEM": 327,
+     "nombre": "Rebellious Hands"
+    },
+    {
+     "KRINITEM": 329,
+     "nombre": "Hope\\'s Strength"
+    },
+    {
+     "KRINITEM": 326,
+     "nombre": "Faith Runners"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker"
+    },
+    null
+   ],
+   "lineas": {
+    "NameSets": 13245,
+    "ClassStats": 13246,
+    "SkinSet": 13249,
+    "HairSet": 13250,
+    "equipArray": 13252
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  },
+  {
+   "fuente": "miembro_equipo",
+   "indice": 3,
+   "nombre": "Felicity",
+   "model": [
+    "MODEL4",
+    "FEL",
+    "FEL",
+    "F"
+   ],
+   "ClassStats": 71,
+   "equip_inicial": [
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "FELKNIFE3",
+    "FELKNIFE3"
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 627,
+     "nombre": "Drop SPECIALIST Head"
+    },
+    {
+     "KRINITEM": 628,
+     "nombre": "Drop SPECIALIST Chest"
+    },
+    {
+     "KRINITEM": 629,
+     "nombre": "Drop SPECIALIST Hands"
+    },
+    {
+     "KRINITEM": 630,
+     "nombre": "Drop SPECIALIST Legs"
+    },
+    {
+     "KRINITEM": 631,
+     "nombre": "Drop SPECIALIST Feet"
+    },
+    {
+     "KRINITEM": 651,
+     "nombre": "SMALL BLADE 1"
+    },
+    {
+     "KRINITEM": 652,
+     "nombre": "SMALL BLADE 2"
+    }
+   ],
+   "lineas": {
+    "NameSets": 13254,
+    "ClassStats": 13255,
+    "SkinSet": 13258,
+    "HairSet": 13259,
+    "equipArray": 13261,
+    "GSet": 13263
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  },
+  {
+   "fuente": "miembro_equipo",
+   "indice": 4,
+   "nombre": "Teco",
+   "model": [
+    "MODEL1",
+    "MANTAT",
+    "THURMAN",
+    "M"
+   ],
+   "ClassStats": 2,
+   "equip_inicial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lineas": {
+    "NameSets": 13264,
+    "ClassStats": 13265,
+    "SkinSet": 13268,
+    "HairSet": 13269
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  },
+  {
+   "fuente": "miembro_equipo",
+   "indice": 5,
+   "nombre": "Catelin",
+   "model": [
+    "MODEL4",
+    "SIX",
+    "THURMAN",
+    "F"
+   ],
+   "ClassStats": 4,
+   "equip_inicial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lineas": {
+    "NameSets": 13270,
+    "ClassStats": 13271,
+    "GSet": 13273,
+    "SkinSet": 13274,
+    "HairSet": 13275
+   },
+   "nota": "SkinSet/HairSet/GSet por defecto 0 si no se asignan (bucle de inicializacion)."
+  }
+ ],
+ "formas_estado": [
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "BARON",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "ZOMBIE2",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "XADER2",
+   "weapon2": "",
+   "linea": 1745,
+   "condicion_cercana": "if(changeTo == \"BARON\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "STANDARD",
+   "standard": "STANDARD",
+   "model": "model",
+   "skin": "skin",
+   "gender": "gender",
+   "hair": "hair",
+   "weapon1": "wep1",
+   "weapon2": "wep2",
+   "linea": 1749,
+   "condicion_cercana": "else if(changeTo == \"STANDARD\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "PREDATOR",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "PREDATOR",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1753,
+   "condicion_cercana": "else if(changeTo == \"PREDATOR\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "TOXICANT",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "TOXICANT",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1757,
+   "condicion_cercana": "else if(changeTo == \"TOXICANT\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "GUARDIAN",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "GUARDIAN",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1761,
+   "condicion_cercana": "else if(changeTo == \"GUARDIAN\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "AVENGER",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "AVENGER",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1765,
+   "condicion_cercana": "else if(changeTo == \"AVENGER\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "PSYCHO",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "PSYCHO",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1769,
+   "condicion_cercana": "else if(changeTo == \"PSYCHO\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "WRAITH",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "WRAITH",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1773,
+   "condicion_cercana": "else if(changeTo == \"WRAITH\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "GHOSTBOSS",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "GHOSTBOSS",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "SHANK",
+   "weapon2": "SHANK",
+   "linea": 1777,
+   "condicion_cercana": "else if(changeTo == \"GHOSTBOSS\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "HOUND",
+   "standard": "",
+   "model": "MODEL5",
+   "skin": "HOUND",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1781,
+   "condicion_cercana": "else if(changeTo == \"HOUND\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "WEREWOLF",
+   "standard": "",
+   "model": "MODEL5",
+   "skin": "WEREWOLF",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "NONE",
+   "weapon2": "NONE",
+   "linea": 1785,
+   "condicion_cercana": "else if(changeTo == \"WEREWOLF\")"
+  },
+  {
+   "fuente": "forma_estado_dressChar",
+   "forma": "GHOSTBOSS2",
+   "standard": "",
+   "model": "MODEL1",
+   "skin": "GHOSTBOSS2",
+   "gender": "M",
+   "hair": "",
+   "weapon1": "FELKNIFE2",
+   "weapon2": "FELKNIFE2",
+   "linea": 1789,
+   "condicion_cercana": "else if(changeTo == \"GHOSTBOSS2\")"
+  }
+ ],
+ "catalogo_mod": [
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 1,
+   "nombre": "Bio",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13818
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 2,
+   "nombre": "Psycho",
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "FIREAXE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 6,
+     "nombre": "Fire Axe",
+     "looks": "FIREAXE"
+    },
+    null
+   ],
+   "linea": 13819
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 3,
+   "nombre": "Hydro",
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "STICK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 12,
+     "nombre": "Stick",
+     "looks": "STICK"
+    },
+    null
+   ],
+   "linea": 13820
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 4,
+   "nombre": "Veradux",
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13821
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 5,
+   "nombre": "Prison Guard",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "JASON",
+    "JASON",
+    "JASON",
+    "JASON",
+    "JASON",
+    "BATON",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 14,
+     "nombre": "Metal Baton",
+     "looks": "BATON"
+    },
+    null
+   ],
+   "linea": 13822
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 6,
+   "nombre": "Doctor Leath",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    0,
+    "MADSCI",
+    "MADSCI",
+    "JEANS",
+    "JEANS",
+    "DOCKNIFE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 17,
+     "nombre": "Scientist Robe",
+     "looks": "MADSCI"
+    },
+    {
+     "KRINITEM": 18,
+     "nombre": "Scientist Sleeves",
+     "looks": "MADSCI"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 16,
+     "nombre": "Surgery Blade",
+     "looks": "DOCKNIFE"
+    },
+    null
+   ],
+   "linea": 13823
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 7,
+   "nombre": "Frankie",
+   "model": [
+    "MODEL1",
+    "FIVE",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    "FRANKEN",
+    0,
+    "FRANKEN2",
+    "FRANKEN",
+    "FRANKEN",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 19,
+     "nombre": "Frankie Body",
+     "looks": "FRANKEN"
+    },
+    null,
+    {
+     "KRINITEM": 20,
+     "nombre": "Frankie Legs",
+     "looks": "FRANKEN2"
+    },
+    {
+     "KRINITEM": 21,
+     "nombre": "Frankie Feet",
+     "looks": "FRANKEN"
+    },
+    {
+     "KRINITEM": 15,
+     "nombre": "Hans the Butcher",
+     "looks": "FRANKEN"
+    },
+    null
+   ],
+   "linea": 13824
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 8,
+   "nombre": "ZPCI Elite",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 13,
+     "nombre": "M4",
+     "looks": "M4"
+    },
+    null
+   ],
+   "linea": 13825
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 9,
+   "nombre": "The Warden",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "JASON2",
+    "BATON2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 504,
+     "nombre": "Persecution",
+     "looks": "BATON2"
+    },
+    null
+   ],
+   "linea": 13826
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 10,
+   "nombre": "Brutal Convict",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe",
+     "looks": "PIPE"
+    },
+    null
+   ],
+   "linea": 13827
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 11,
+   "nombre": "Felicity",
+   "model": [
+    "MODEL4",
+    "FEL",
+    "",
+    "F"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "FELKNIFE",
+    "FELKNIFE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife",
+     "looks": "FELKNIFE"
+    },
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife",
+     "looks": "FELKNIFE"
+    }
+   ],
+   "linea": 13828
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 12,
+   "nombre": "Twisted Experiment",
+   "model": [
+    "MODEL1",
+    "FIVE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "PRISON2",
+    "UBER2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 503,
+     "nombre": "Terror Blade",
+     "looks": "UBER2"
+    },
+    null
+   ],
+   "linea": 13829
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 13,
+   "nombre": "Agile Convict",
+   "model": [
+    "MODEL1",
+    "MAN2",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "FIREAXE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 6,
+     "nombre": "Fire Axe",
+     "looks": "FIREAXE"
+    },
+    null
+   ],
+   "linea": 13830
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 14,
+   "nombre": "Cunning Convict",
+   "model": [
+    "MODEL1",
+    "MAN4",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "PRISON",
+    "CROWBAR",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 7,
+     "nombre": "Crow Bar",
+     "looks": "CROWBAR"
+    },
+    null
+   ],
+   "linea": 13831
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 15,
+   "nombre": "Doctor Hedger",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    0,
+    "MADSCI",
+    "MADSCI",
+    "JEANS",
+    "JEANS",
+    "DOCKNIFE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 17,
+     "nombre": "Scientist Robe",
+     "looks": "MADSCI"
+    },
+    {
+     "KRINITEM": 18,
+     "nombre": "Scientist Sleeves",
+     "looks": "MADSCI"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 16,
+     "nombre": "Surgery Blade",
+     "looks": "DOCKNIFE"
+    },
+    null
+   ],
+   "linea": 13832
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 16,
+   "nombre": "Knight",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "XADER",
+    "XADER",
+    "XADER",
+    "XADER",
+    "XADER",
+    "PALADINSWORD",
+    "SHIELD2"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 515,
+     "nombre": "Light\\'s Blade",
+     "looks": "PALADINSWORD"
+    },
+    {
+     "KRINITEM": 516,
+     "nombre": "Metal Shield",
+     "looks": "SHIELD2"
+    }
+   ],
+   "linea": 13833
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 17,
+   "nombre": "Priest",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIEST",
+    "PRIESTSTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 518,
+     "nombre": "Frosted Light",
+     "looks": "PRIESTSTAFF"
+    },
+    null
+   ],
+   "linea": 13834
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 18,
+   "nombre": "Mage",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "PRIEST2",
+    "MAGESTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 517,
+     "nombre": "Fiery Doom",
+     "looks": "MAGESTAFF"
+    },
+    null
+   ],
+   "linea": 13835
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 19,
+   "nombre": "Frost Zombie",
+   "model": [
+    "MODEL1",
+    "FROST",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "ICESTICK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 519,
+     "nombre": "Icy Maul",
+     "looks": "ICESTICK"
+    },
+    null
+   ],
+   "linea": 13836
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 20,
+   "nombre": "Wolf",
+   "model": [
+    "MODEL5",
+    "WOLF",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "BATON",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 14,
+     "nombre": "Metal Baton",
+     "looks": "BATON"
+    },
+    null
+   ],
+   "linea": 13837
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 21,
+   "nombre": "Frost Terror",
+   "model": [
+    "MODEL1",
+    "Frost",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FROST",
+    "FROST",
+    "FROST",
+    "FROST",
+    "FROST",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13838
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 22,
+   "nombre": "ZPCI Medic",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "ZPCI3",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 13,
+     "nombre": "M4",
+     "looks": "M4"
+    },
+    null
+   ],
+   "linea": 13839
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 23,
+   "nombre": "Armored Hound",
+   "model": [
+    "MODEL5",
+    "WOLF",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13840
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 24,
+   "nombre": "Captain Hunt",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "HUNT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker",
+     "looks": "AK"
+    },
+    null
+   ],
+   "linea": 13841
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 25,
+   "nombre": "Insurgent",
+   "model": [
+    "MODEL1",
+    "MAN2TAT",
+    "",
+    "M"
+   ],
+   "equip": [
+    "TAT",
+    "TAT2",
+    "TAT",
+    "TAT",
+    "TAT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 31,
+     "nombre": "Tat Head",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 27,
+     "nombre": "Tat Shirt",
+     "looks": "TAT2"
+    },
+    {
+     "KRINITEM": 29,
+     "nombre": "Tat Glove",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 28,
+     "nombre": "Tat Leggings",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 30,
+     "nombre": "Tat Feet",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker",
+     "looks": "AK"
+    },
+    null
+   ],
+   "linea": 13842
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 26,
+   "nombre": "Cult Leader",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER2",
+    "XADER",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 521,
+     "nombre": "Runeblade",
+     "looks": "XADER"
+    },
+    null
+   ],
+   "linea": 13843
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 27,
+   "nombre": "Baron Brixius",
+   "model": [
+    "MODEL1",
+    "ZOMBIE2",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "XADER2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 527,
+     "nombre": "Unholy Runeblade",
+     "looks": "XADER2"
+    },
+    null
+   ],
+   "linea": 13844
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 28,
+   "nombre": "Roald",
+   "model": [
+    "MODEL1",
+    "MANTAT",
+    "",
+    "M"
+   ],
+   "equip": [
+    "TAT",
+    "TAT2",
+    "TAT",
+    "TAT",
+    "TAT",
+    "AK",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 382,
+     "nombre": "Cloaking Helm",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 328,
+     "nombre": "Dissident\\'s Crest",
+     "looks": "TAT2"
+    },
+    {
+     "KRINITEM": 327,
+     "nombre": "Rebellious Hands",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 329,
+     "nombre": "Hope\\'s Strength",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 326,
+     "nombre": "Faith Runners",
+     "looks": "TAT"
+    },
+    {
+     "KRINITEM": 523,
+     "nombre": "Rebellion Striker",
+     "looks": "AK"
+    },
+    null
+   ],
+   "linea": 13845
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 29,
+   "nombre": "Frost Lord",
+   "model": [
+    "MODEL1",
+    "GUARDIAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13846
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 30,
+   "nombre": "ZPCI Sniper",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "ZPCI2",
+    "UBER4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 522,
+     "nombre": "ZPCI Sniper Rifle",
+     "looks": "UBER4"
+    },
+    null
+   ],
+   "linea": 13847
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 31,
+   "nombre": "Spectre",
+   "model": [
+    "MODEL1",
+    "GHOST",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13848
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 32,
+   "nombre": "Phantom",
+   "model": [
+    "MODEL1",
+    "PSYCHO",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13849
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 33,
+   "nombre": "Beast",
+   "model": [
+    "MODEL1",
+    "PREDATOR",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13850
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 34,
+   "nombre": "Antagonist",
+   "model": [
+    "MODEL1",
+    "GUARDIAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13851
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 35,
+   "nombre": "The Hobo",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe",
+     "looks": "PIPE"
+    },
+    null
+   ],
+   "linea": 13852
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 36,
+   "nombre": "The Real Hobo",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "HOBO",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe",
+     "looks": "PIPE"
+    },
+    null
+   ],
+   "linea": 13853
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 37,
+   "nombre": "The Host",
+   "model": [
+    "MODEL1",
+    "",
+    "",
+    "M"
+   ],
+   "equip": [
+    "TUX",
+    "TUX",
+    "TUX",
+    "TUX",
+    "TUX",
+    "KATANA",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 563,
+     "nombre": "Gold Katana",
+     "looks": "KATANA"
+    },
+    null
+   ],
+   "linea": 13854
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 38,
+   "nombre": "Clemons The Deceiver",
+   "model": [
+    "MODEL1",
+    "GHOST",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "CLEMONS",
+    "SHANK",
+    "SHANK"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 565,
+     "nombre": "Devil Blade",
+     "looks": "SHANK"
+    },
+    {
+     "KRINITEM": 566,
+     "nombre": "Demon Blade",
+     "looks": "SHANK"
+    }
+   ],
+   "linea": 13855
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 39,
+   "nombre": "Louis the Blind",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "BART",
+    "M"
+   ],
+   "equip": [
+    0,
+    "SHIRT",
+    0,
+    "JEANS",
+    "JEANS",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    {
+     "KRINITEM": 11,
+     "nombre": "White T-Shirt",
+     "looks": "SHIRT"
+    },
+    null,
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars",
+     "looks": "JEANS"
+    },
+    null,
+    null
+   ],
+   "linea": 13856
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 40,
+   "nombre": "Metabii",
+   "model": [
+    "MODEL1",
+    "METABII",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "STICK",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 12,
+     "nombre": "Stick",
+     "looks": "STICK"
+    },
+    null
+   ],
+   "linea": 13857
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 41,
+   "nombre": "Tunnel Beast",
+   "model": [
+    "MODEL6",
+    "BEAST",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13858
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 42,
+   "nombre": "Vivian Vixen",
+   "model": [
+    "MODEL4",
+    "VIV",
+    "",
+    "F"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "SHANK",
+    "SHANK"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 565,
+     "nombre": "Devil Blade",
+     "looks": "SHANK"
+    },
+    {
+     "KRINITEM": 566,
+     "nombre": "Demon Blade",
+     "looks": "SHANK"
+    }
+   ],
+   "linea": 13859
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 43,
+   "nombre": "Gregor",
+   "model": [
+    "MODEL7",
+    "GREGOR",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13860
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 44,
+   "nombre": "Shunny",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    "JEANS",
+    "JEANS",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 8,
+     "nombre": "Converse All Stars",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe",
+     "looks": "PIPE"
+    },
+    null
+   ],
+   "linea": 13861
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 45,
+   "nombre": "The Magical Monkey",
+   "model": [
+    "MODEL6",
+    "APE",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13862
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 46,
+   "nombre": "Mokoshotar",
+   "model": [
+    "MODEL5",
+    "MOKO",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13863
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 47,
+   "nombre": "Bunny",
+   "model": [
+    "MODEL7",
+    "BUNNY",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13864
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 48,
+   "nombre": "Flower Zombie",
+   "model": [
+    "MODEL1",
+    "ZOMBIE1",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "TUX",
+    "SHIRT5",
+    0,
+    "GAY",
+    "GAY",
+    "PIPE",
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 33,
+     "nombre": "Gay Hat",
+     "looks": "TUX"
+    },
+    {
+     "KRINITEM": 26,
+     "nombre": "Piercing",
+     "looks": "SHIRT5"
+    },
+    null,
+    {
+     "KRINITEM": 32,
+     "nombre": "Gay Pants/Feet",
+     "looks": "GAY"
+    },
+    {
+     "KRINITEM": 32,
+     "nombre": "Gay Pants/Feet",
+     "looks": "GAY"
+    },
+    {
+     "KRINITEM": 5,
+     "nombre": "A Broken Pipe",
+     "looks": "PIPE"
+    },
+    null
+   ],
+   "linea": 13865
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 49,
+   "nombre": "The Hydra",
+   "model": [
+    "MODEL8",
+    "HYDRA",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13866
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 50,
+   "nombre": "Fire Claw",
+   "model": [
+    "MODEL8",
+    "HYDRA2",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13867
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 51,
+   "nombre": "Tunnel Worker",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "WORKER",
+    "WORKERSHIRT",
+    "ENGINEERINGGLOVES",
+    "JEANS",
+    "NAVY",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    {
+     "KRINITEM": 380,
+     "nombre": "Mining Helmet",
+     "looks": "WORKER"
+    },
+    {
+     "KRINITEM": 381,
+     "nombre": "Mining Shirt",
+     "looks": "WORKERSHIRT"
+    },
+    {
+     "KRINITEM": 9,
+     "nombre": "Engineering Gloves",
+     "looks": "ENGINEERINGGLOVES"
+    },
+    {
+     "KRINITEM": 4,
+     "nombre": "Jeans",
+     "looks": "JEANS"
+    },
+    {
+     "KRINITEM": 10,
+     "nombre": "Navy Boots",
+     "looks": "NAVY"
+    },
+    null,
+    null
+   ],
+   "linea": 13868
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 52,
+   "nombre": "Police Colonel",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "IMPERIAL2",
+    "AK3",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 649,
+     "nombre": "COLONEL GUN",
+     "looks": "AK3"
+    },
+    null
+   ],
+   "linea": 13869
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 53,
+   "nombre": "Secret Police",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    "IMPERIAL",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 648,
+     "nombre": "IMPERIAL GUN",
+     "looks": "IMPERIAL"
+    },
+    null
+   ],
+   "linea": 13870
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 54,
+   "nombre": "Riot Police",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN",
+     "looks": "AK4"
+    },
+    null
+   ],
+   "linea": 13871
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 55,
+   "nombre": "Specialist",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "SINJID",
+    "FELKNIFE3",
+    "FELKNIFE3"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 651,
+     "nombre": "SMALL BLADE 1",
+     "looks": "FELKNIFE3"
+    },
+    {
+     "KRINITEM": 651,
+     "nombre": "SMALL BLADE 1",
+     "looks": "FELKNIFE3"
+    }
+   ],
+   "linea": 13872
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 56,
+   "nombre": "Blood Hound",
+   "model": [
+    "MODEL5",
+    "DOG",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13873
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 57,
+   "nombre": "Care Taker",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "POLICE2",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN",
+     "looks": "AK4"
+    },
+    null
+   ],
+   "linea": 13874
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 58,
+   "nombre": "Android Guard",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "ROBOT",
+    "FLATBLADE",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 656,
+     "nombre": "BLUE SWORD",
+     "looks": "FLATBLADE"
+    },
+    null
+   ],
+   "linea": 13875
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 59,
+   "nombre": "City Council",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "PRIEST3",
+    "COUNCILSTAFF",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 650,
+     "nombre": "STAFF",
+     "looks": "COUNCILSTAFF"
+    },
+    null
+   ],
+   "linea": 13876
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 60,
+   "nombre": "Mayor",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "PRIEST4",
+    "TASER3",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 654,
+     "nombre": "SPELL BLADE",
+     "looks": "TASER3"
+    },
+    null
+   ],
+   "linea": 13877
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 61,
+   "nombre": "Guardian Cannon",
+   "model": [
+    "MODEL8",
+    "HYDRA3",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13878
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 62,
+   "nombre": "Felicity",
+   "model": [
+    "MODEL4",
+    "FEL",
+    "",
+    "F"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "FELKNIFE",
+    "FELKNIFE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife",
+     "looks": "FELKNIFE"
+    },
+    {
+     "KRINITEM": 22,
+     "nombre": "Felicity\\'s Knife",
+     "looks": "FELKNIFE"
+    }
+   ],
+   "linea": 13879
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 63,
+   "nombre": "ZPCI Ambassador",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "ZPCI",
+    "M4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 13,
+     "nombre": "M4",
+     "looks": "M4"
+    },
+    null
+   ],
+   "linea": 13880
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 64,
+   "nombre": "Metal Warden",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "JASON4",
+    "BATON2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 679,
+     "nombre": "BATON",
+     "looks": "BATON2"
+    },
+    null
+   ],
+   "linea": 13881
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 65,
+   "nombre": "The Bomb",
+   "model": [
+    "MODEL9",
+    "",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13882
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 66,
+   "nombre": "Nostalgia",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "NOS",
+    "NOS",
+    "NOS",
+    "NOS",
+    "NOS",
+    "XADER",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 675,
+     "nombre": "SWORD",
+     "looks": "XADER"
+    },
+    null
+   ],
+   "linea": 13883
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 67,
+   "nombre": "The Judge",
+   "model": [
+    "MODEL4",
+    "FIR",
+    "",
+    "F"
+   ],
+   "equip": [
+    "FIR",
+    "FIR",
+    "FIR",
+    "FIR",
+    "FIR",
+    "FELKNIFE5",
+    "FELKNIFE5"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 676,
+     "nombre": "KNIFE",
+     "looks": "FELKNIFE5"
+    },
+    {
+     "KRINITEM": 676,
+     "nombre": "KNIFE",
+     "looks": "FELKNIFE5"
+    }
+   ],
+   "linea": 13884
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 68,
+   "nombre": "Peace Keeper",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "ONE",
+    "M"
+   ],
+   "equip": [
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "POLICE",
+    "AK4",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 647,
+     "nombre": "RIOT GUN",
+     "looks": "AK4"
+    },
+    null
+   ],
+   "linea": 13885
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 69,
+   "nombre": "Doctor Klima",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "KLIMA",
+    "CROWBAR2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 681,
+     "nombre": "GOLDEN CROWBAR",
+     "looks": "CROWBAR2"
+    },
+    null
+   ],
+   "linea": 13886
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 70,
+   "nombre": "North Guardian",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "FLATBLADE2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 719,
+     "nombre": "Guardian Sword",
+     "looks": "FLATBLADE2"
+    },
+    null
+   ],
+   "linea": 13887
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 71,
+   "nombre": "South Guardian",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "ROBOT2",
+    "FLATBLADE2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 719,
+     "nombre": "Guardian Sword",
+     "looks": "FLATBLADE2"
+    },
+    null
+   ],
+   "linea": 13888
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 72,
+   "nombre": "Yosuke",
+   "model": [
+    "MODEL1",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "FIRESAM",
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword",
+     "looks": "KATANA2"
+    },
+    null
+   ],
+   "linea": 13889
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 73,
+   "nombre": "Orb of Restraint",
+   "model": [
+    "MODEL2",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword",
+     "looks": "KATANA2"
+    },
+    null
+   ],
+   "linea": 13890
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 74,
+   "nombre": "Orb of Sanctuary",
+   "model": [
+    "MODEL2",
+    "MAN",
+    "MAD",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "KATANA2",
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 720,
+     "nombre": "Fire Sword",
+     "looks": "KATANA2"
+    },
+    null
+   ],
+   "linea": 13891
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 75,
+   "nombre": "Versu the Corruptor",
+   "model": [
+    "MODEL4",
+    "FIR2",
+    "",
+    "F"
+   ],
+   "equip": [
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FIR2",
+    "FELKNIFE4",
+    "FELKNIFE4"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "KRINITEM": 721,
+     "nombre": "Fire Sword",
+     "looks": "FELKNIFE4"
+    },
+    {
+     "KRINITEM": 721,
+     "nombre": "Fire Sword",
+     "looks": "FELKNIFE4"
+    }
+   ],
+   "linea": 13892
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 76,
+   "nombre": "SIX - base",
+   "model": [
+    "MODEL4",
+    "SIX",
+    "",
+    "F"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13893
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 77,
+   "nombre": "THREE - base",
+   "model": [
+    "MODEL4",
+    "THREE",
+    "",
+    "F"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13894
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 78,
+   "nombre": "AVENGER - base",
+   "model": [
+    "MODEL1",
+    "AVENGER",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13895
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 79,
+   "nombre": "FOUR - base",
+   "model": [
+    "MODEL1",
+    "FOUR",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13896
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 80,
+   "nombre": "GHOSTBOSS - base",
+   "model": [
+    "MODEL1",
+    "GHOSTBOSS",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13897
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 81,
+   "nombre": "GHOSTBOSS2 - base",
+   "model": [
+    "MODEL1",
+    "GHOSTBOSS2",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13898
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 82,
+   "nombre": "HOUND - base",
+   "model": [
+    "MODEL5",
+    "HOUND",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13899
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 83,
+   "nombre": "MAN3 - base",
+   "model": [
+    "MODEL1",
+    "MAN3",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13900
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 84,
+   "nombre": "TOXICANT - base",
+   "model": [
+    "MODEL1",
+    "TOXICANT",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13901
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 85,
+   "nombre": "TWO - base",
+   "model": [
+    "MODEL1",
+    "TWO",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13902
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 86,
+   "nombre": "USA1 - base",
+   "model": [
+    "MODEL1",
+    "USA1",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13903
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 87,
+   "nombre": "WEREWOLF - base",
+   "model": [
+    "MODEL5",
+    "WEREWOLF",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13904
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 88,
+   "nombre": "WRAITH - base",
+   "model": [
+    "MODEL1",
+    "WRAITH",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13905
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 89,
+   "nombre": "ZOMBIE - base",
+   "model": [
+    "MODEL1",
+    "ZOMBIE",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13906
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 90,
+   "nombre": "ARCTIC - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ARCTIC",
+    "ARCTIC",
+    "ARCTIC",
+    "ARCTIC",
+    "ARCTIC",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13907
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 91,
+   "nombre": "BLUENIN - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "BLUENIN",
+    "BLUENIN",
+    "BLUENIN",
+    "BLUENIN",
+    "BLUENIN",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13908
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 92,
+   "nombre": "CLEMONS2 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "CLEMONS2",
+    "CLEMONS2",
+    "CLEMONS2",
+    "CLEMONS2",
+    "CLEMONS2",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13909
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 93,
+   "nombre": "FINAL1 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FINAL1",
+    "FINAL1",
+    "FINAL1",
+    "FINAL1",
+    "FINAL1",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13910
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 94,
+   "nombre": "FINAL2 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FINAL2",
+    "FINAL2",
+    "FINAL2",
+    "FINAL2",
+    "FINAL2",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13911
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 95,
+   "nombre": "FINAL3 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FINAL3",
+    "FINAL3",
+    "FINAL3",
+    "FINAL3",
+    "FINAL3",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13912
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 96,
+   "nombre": "FINAL4 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FINAL4",
+    "FINAL4",
+    "FINAL4",
+    "FINAL4",
+    "FINAL4",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13913
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 97,
+   "nombre": "FRANKEN - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FRANKEN",
+    "FRANKEN",
+    "FRANKEN",
+    "FRANKEN",
+    "FRANKEN",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13914
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 98,
+   "nombre": "FROSTPLATE - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "FROSTPLATE",
+    "FROSTPLATE",
+    "FROSTPLATE",
+    "FROSTPLATE",
+    "FROSTPLATE",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13915
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 99,
+   "nombre": "GER - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "GER",
+    "GER",
+    "GER",
+    "GER",
+    "GER",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13916
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 100,
+   "nombre": "JASON3 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "JASON3",
+    "JASON3",
+    "JASON3",
+    "JASON3",
+    "JASON3",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13917
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 101,
+   "nombre": "KNIGHT - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "KNIGHT",
+    "KNIGHT",
+    "KNIGHT",
+    "KNIGHT",
+    "KNIGHT",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13918
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 102,
+   "nombre": "MEDIC - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "MEDIC",
+    "MEDIC",
+    "MEDIC",
+    "MEDIC",
+    "MEDIC",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13919
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 103,
+   "nombre": "NINJA - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "NINJA",
+    "NINJA",
+    "NINJA",
+    "NINJA",
+    "NINJA",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13920
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 104,
+   "nombre": "PURPLENIN - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "PURPLENIN",
+    "PURPLENIN",
+    "PURPLENIN",
+    "PURPLENIN",
+    "PURPLENIN",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13921
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 105,
+   "nombre": "ROCKSTAR - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ROCKSTAR",
+    "ROCKSTAR",
+    "ROCKSTAR",
+    "ROCKSTAR",
+    "ROCKSTAR",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13922
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 106,
+   "nombre": "SAMURAI2 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "SAMURAI2",
+    "SAMURAI2",
+    "SAMURAI2",
+    "SAMURAI2",
+    "SAMURAI2",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13923
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 107,
+   "nombre": "SAMURAI4 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "SAMURAI4",
+    "SAMURAI4",
+    "SAMURAI4",
+    "SAMURAI4",
+    "SAMURAI4",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13924
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 108,
+   "nombre": "SHAMAN1 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "SHAMAN1",
+    "SHAMAN1",
+    "SHAMAN1",
+    "SHAMAN1",
+    "SHAMAN1",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13925
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 109,
+   "nombre": "SURVIVOR - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "SURVIVOR",
+    "SURVIVOR",
+    "SURVIVOR",
+    "SURVIVOR",
+    "SURVIVOR",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13926
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 110,
+   "nombre": "TUNNELSET1 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "TUNNELSET1",
+    "TUNNELSET1",
+    "TUNNELSET1",
+    "TUNNELSET1",
+    "TUNNELSET1",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13927
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 111,
+   "nombre": "TUNNELSET2 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "TUNNELSET2",
+    "TUNNELSET2",
+    "TUNNELSET2",
+    "TUNNELSET2",
+    "TUNNELSET2",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13928
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 112,
+   "nombre": "ULTI - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "ULTI",
+    "ULTI",
+    "ULTI",
+    "ULTI",
+    "ULTI",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13929
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 113,
+   "nombre": "USA1 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "USA1",
+    "USA1",
+    "USA1",
+    "USA1",
+    "USA1",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13930
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 114,
+   "nombre": "USA2 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "USA2",
+    "USA2",
+    "USA2",
+    "USA2",
+    "USA2",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13931
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 115,
+   "nombre": "USA3 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "USA3",
+    "USA3",
+    "USA3",
+    "USA3",
+    "USA3",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13932
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 116,
+   "nombre": "USA4 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "USA4",
+    "USA4",
+    "USA4",
+    "USA4",
+    "USA4",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13933
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 117,
+   "nombre": "USA5 - armadura",
+   "model": [
+    "MODEL1",
+    "ONE",
+    "",
+    "M"
+   ],
+   "equip": [
+    "USA5",
+    "USA5",
+    "USA5",
+    "USA5",
+    "USA5",
+    0,
+    0
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13934
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 118,
+   "nombre": "BARON - forma",
+   "model": [
+    "MODEL1",
+    "ZOMBIE2",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "XADER2",
+    ""
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13935
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 119,
+   "nombre": "PREDATOR - forma",
+   "model": [
+    "MODEL1",
+    "PREDATOR",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13936
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 120,
+   "nombre": "TOXICANT - forma",
+   "model": [
+    "MODEL1",
+    "TOXICANT",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13937
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 121,
+   "nombre": "GUARDIAN - forma",
+   "model": [
+    "MODEL1",
+    "GUARDIAN",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13938
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 122,
+   "nombre": "AVENGER - forma",
+   "model": [
+    "MODEL1",
+    "AVENGER",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13939
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 123,
+   "nombre": "PSYCHO - forma",
+   "model": [
+    "MODEL1",
+    "PSYCHO",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13940
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 124,
+   "nombre": "WRAITH - forma",
+   "model": [
+    "MODEL1",
+    "WRAITH",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13941
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 125,
+   "nombre": "GHOSTBOSS - forma",
+   "model": [
+    "MODEL1",
+    "GHOSTBOSS",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "SHANK",
+    "SHANK"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13942
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 126,
+   "nombre": "HOUND - forma",
+   "model": [
+    "MODEL5",
+    "HOUND",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13943
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 127,
+   "nombre": "WEREWOLF - forma",
+   "model": [
+    "MODEL5",
+    "WEREWOLF",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "NONE",
+    "NONE"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13944
+  },
+  {
+   "fuente": "catalogo_mod___nzCatalog",
+   "indice": 128,
+   "nombre": "GHOSTBOSS2 - forma",
+   "model": [
+    "MODEL1",
+    "GHOSTBOSS2",
+    "",
+    "M"
+   ],
+   "equip": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    "FELKNIFE2",
+    "FELKNIFE2"
+   ],
+   "equip_procedencia": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "linea": 13945
+  }
+ ],
+ "arrays_apariencia": {
+  "skinArray": [
+   "ONE",
+   "TWO",
+   "FEL",
+   "FOUR",
+   "MANTAT",
+   "SIX"
+  ],
+  "hairArray": [
+   "",
+   "ONE",
+   "TWO",
+   "FEL",
+   "THURMAN",
+   "THURMAN",
+   "SIX"
+  ],
+  "gArray": [
+   "M",
+   "F"
+  ]
+ }
+}

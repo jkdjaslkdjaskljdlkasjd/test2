@@ -1,0 +1,64 @@
+ConstantPool "_root", "_ymouse", "_xmouse", "this", "hitTest", "KrinToolTipper", "colorChange", "Common", "fontBacker2", "krinChangeColor", "GO", "gotoAndPlay", "tt", "_parent", "toolTipTitle", "t", "toolTip"
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2, "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc0160
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange", "Common"
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "colorChange"
+GetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "fontBacker2"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_parent"
+GetVariable
+Push "toolTipTitle"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_parent"
+GetVariable
+Push "toolTip"
+GetMember
+SetMember
+loc0160:

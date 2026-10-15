@@ -1,0 +1,540 @@
+ConstantPool "_global", "mx", "Object", "events", "UIEventDispatcher", "EventDispatcher", "prototype", "addKeyEvents", "keyHandler", "owner", "onKeyDown", "_fEventDispatcher", "onKeyUp", "Key", "addListener", "removeKeyEvents", "removeListener", "addLoadEvents", "onLoad", "onUnload", "getBytesTotal", "getBytesLoaded", "doLater", "removeLoadEvents", "initialize", "addEventListener", "__addEventListener", "__origAddEventListener", "removeEventListener", "dispatchEvent", "dispatchQueue", "target", "type", "Handler", "keyDown", "code", "getCode", "ascii", "getAscii", "shiftKey", "isDown", "ctrlKey", "keyUp", "__sentLoadEvent", "load", "unload", "lowLevelEvents", "__q_", "_removeEventListener", "length", "keyEvents", "loadEvents", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0276
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0276:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events"
+GetMember
+Not
+Not
+If loc02ae
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events", 0.0, "Object"
+NewObject
+SetMember
+loc02ae:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Not
+Not
+If loc0adf
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register1, "addKeyEvents"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, true, false, false, 2, "obj" {
+Push register2, "keyHandler"
+GetMember
+Push undefined
+Equals2
+Not
+If loc03ce
+Push register2, "keyHandler", 0.0, "Object"
+NewObject
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 1
+Pop
+Push register1, "owner", register2
+SetMember
+Push register1, "onKeyDown", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "onKeyDown"
+GetMember
+SetMember
+Push register1, "onKeyUp", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "onKeyUp"
+GetMember
+SetMember
+loc03ce:Push register2, "keyHandler"
+GetMember
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "removeKeyEvents"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "obj" {
+Push register1, "keyHandler"
+GetMember
+Push 1, "Key"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+}
+SetMember
+Push register1, "addLoadEvents"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "obj" {
+Push register1, "onLoad"
+GetMember
+Push undefined
+Equals2
+Not
+If loc04c6
+Push register1, "onLoad", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "onLoad"
+GetMember
+SetMember
+Push register1, "onUnload", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "onUnload"
+GetMember
+SetMember
+Push 0.0, register1, "getBytesTotal"
+CallMethod
+Push 0.0, register1, "getBytesLoaded"
+CallMethod
+Equals2
+Not
+If loc04c6
+Push "onLoad", register1, 2, register1, "doLater"
+CallMethod
+Pop
+}
+loc04c6:SetMember
+Push register1, "removeLoadEvents"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "obj" {
+Push register1, "onLoad"
+Delete
+Pop
+Push register1, "onUnload"
+Delete
+Pop
+}
+SetMember
+Push register1, "initialize"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "obj" {
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push undefined
+Equals2
+Not
+If loc055b
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher", 0.0, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+NewMethod
+SetMember
+loc055b:Push register1, "addEventListener", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "__addEventListener"
+GetMember
+SetMember
+Push register1, "__origAddEventListener", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "addEventListener"
+GetMember
+SetMember
+Push register1, "removeEventListener", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "removeEventListener"
+GetMember
+SetMember
+Push register1, "dispatchEvent", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "dispatchEvent"
+GetMember
+SetMember
+Push register1, "dispatchQueue", "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "_fEventDispatcher"
+GetMember
+Push "dispatchQueue"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "dispatchEvent"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "eventObj" {
+Push register2, "target"
+GetMember
+Push undefined
+Equals2
+Not
+If loc0644
+Push register2, "target", register1
+SetMember
+loc0644:Push register2, 1, register1, register2, "type"
+GetMember
+Push "Handler"
+Add2
+CallMethod
+Pop
+Push register2, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push 2, register1, "dispatchQueue"
+CallMethod
+Pop
+Push register2, register1, 2, register1, "dispatchQueue"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onKeyDown"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "keyDown", "code", 0.0, "Key"
+GetVariable
+Push "getCode"
+CallMethod
+Push "ascii", 0.0, "Key"
+GetVariable
+Push "getAscii"
+CallMethod
+Push "shiftKey", 16, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Push "ctrlKey", 17, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Push 5
+InitObject
+Push 1, register1, "owner"
+GetMember
+Push "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onKeyUp"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "keyUp", "code", 0.0, "Key"
+GetVariable
+Push "getCode"
+CallMethod
+Push "ascii", 0.0, "Key"
+GetVariable
+Push "getAscii"
+CallMethod
+Push "shiftKey", 16, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Push "ctrlKey", 17, 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Push 5
+InitObject
+Push 1, register1, "owner"
+GetMember
+Push "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onLoad"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "__sentLoadEvent"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc080a
+Push "type", "load", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+loc080a:Push register1, "__sentLoadEvent", true
+SetMember
+}
+SetMember
+Push register2, "onUnload"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "unload", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "__addEventListener"
+DefineFunction2 "", 2, 7, false, false, true, false, true, false, false, true, false, 4, "event", 6, "handler" {
+Push register6, register4, 2, register1, "__origAddEventListener"
+CallMethod
+Pop
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "lowLevelEvents"
+GetMember
+StoreRegister 3
+Pop
+Push register3
+Enumerate2
+loc08a0:StoreRegister 0
+Push null
+Equals2
+If loc0921
+Push register0
+StoreRegister 5
+Pop
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push register5
+GetMember
+Push register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc091c
+Push register3, register5
+GetMember
+Push 0.0
+GetMember
+StoreRegister 2
+Pop
+Push register1, 1, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push register2
+CallMethod
+Pop
+loc091c:Jump loc08a0
+}
+loc0921:SetMember
+Push register2, "removeEventListener"
+DefineFunction2 "", 2, 8, false, false, true, false, true, false, false, true, false, 4, "event", 7, "handler" {
+Push "__q_", register4
+Add2
+StoreRegister 6
+Pop
+Push register7, register4, register1, register6
+GetMember
+Push 3, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "EventDispatcher"
+GetMember
+Push "_removeEventListener"
+CallMethod
+Pop
+Push register1, register6
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0a48
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "lowLevelEvents"
+GetMember
+StoreRegister 2
+Pop
+Push register2
+Enumerate2
+loc09bf:StoreRegister 0
+Push null
+Equals2
+If loc0a48
+Push register0
+StoreRegister 5
+Pop
+Push "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push register5
+GetMember
+Push register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0a43
+Push register2, register5
+GetMember
+Push 1
+GetMember
+StoreRegister 3
+Pop
+Push register1, 1, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push register2, register5
+GetMember
+Push 1
+GetMember
+CallMethod
+Pop
+loc0a43:Jump loc09bf
+}
+loc0a48:SetMember
+Push register1, "keyEvents", "keyDown", 1, "keyUp", 1, 2
+InitObject
+SetMember
+Push register1, "loadEvents", "load", 1, "unload", 1, 2
+InitObject
+SetMember
+Push register1, "lowLevelEvents", "keyEvents", "removeKeyEvents", "addKeyEvents", 2
+InitArray
+Push "loadEvents", "removeLoadEvents", "addLoadEvents", 2
+InitArray
+Push 2
+InitObject
+SetMember
+Push register1, "_fEventDispatcher", undefined
+SetMember
+Push 1, null, "mx"
+GetVariable
+Push "events"
+GetMember
+Push "UIEventDispatcher"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0adf:Pop

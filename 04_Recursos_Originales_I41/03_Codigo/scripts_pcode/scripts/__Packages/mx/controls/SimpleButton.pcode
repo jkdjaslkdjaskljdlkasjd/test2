@@ -1,0 +1,1514 @@
+ConstantPool "_global", "mx", "Object", "controls", "SimpleButton", "core", "UIComponent", "prototype", "init", "preset", "boundingBox_mc", "_visible", "_width", "_height", "useHandCursor", "createChildren", "idNames", "refNames", "skinName", "falseOverSkin", "length", "rolloverSkin", "fus", "falseOverIcon", "rolloverIcon", "fui", "initializing", "__state", "setStateVar", "setIcon", "setSkin", "changeIcon", "linkLength", "stateNames", "Icon", "getState", "changeSkin", "Skin", "viewIcon", "string", "__emphasized", "Emphasized", "tagMap", "isLivePreview", "ButtonIcon", "iconName", "removeIcons", "destroyObject", "", "refresh", "styleName", "calcSize", "__width", "__height", "viewSkin", "showEmphasized", "__emphatic", "emphasizedStyleDeclaration", "__emphaticStyleName", "enabled", "disabled", "phase", "down", "setView", "btnOffset", "_x", "_y", "trueOverSkin", "tus", "trs", "trueOverIcon", "tui", "tri", "upSkin", "downSkin", "tds", "disabledSkin", "dts", "upIcon", "downIcon", "tdi", "disabledIcon", "dti", "frs", "fri", "fds", "dfs", "fdi", "dfi", "setState", "invalidate", "size", "draw", "visible", "setToggle", "__toggle", "getToggle", "__set__toggle", "__get__toggle", "__set__value", "setSelected", "__get__value", "getSelected", "__set__selected", "__get__selected", "setEnabled", "onPress", "pressFocus", "type", "buttonDown", "dispatchEvent", "autoRepeat", "interval", "repeatDelay", "getStyle", "onPressDelay", "setInterval", "clearInterval", "repeatInterval", "onPressRepeat", "updateAfterEvent", "onRelease", "releaseFocus", "rollover", "click", "onDragOut", "up", "buttonDragOut", "onDragOver", "onReleaseOutside", "onRollOver", "onRollOut", "getLabel", "text", "setLabel", "createLabel", "_getTextFormat", "getTextExtent2", "width", "height", "__get__emphasized", "__set__emphasized", "movieclip", "invalidateStyle", "keyDown", "code", "keyUp", "onKillFocus", "symbolName", "symbolOwner", "version", "2.0.2.127", "className", "style3dInset", "falseUp", "falseDown", "falseOver", "falseDisabled", "trueUp", "trueDown", "trueOver", "trueDisabled", "falseUpSkin", "SimpleButtonUp", "falseDownSkin", "SimpleButtonIn", "falseDisabledSkin", "trueUpSkin", "trueDownSkin", "trueDisabledSkin", "falseUpIcon", "falseDownIcon", "falseDisabledIcon", "trueUpIcon", "trueDownIcon", "trueDisabledIcon", "emphasized", "addProperty", "selected", "toggle", "value", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Not
+Not
+If loc0758
+Push "_global"
+GetVariable
+Push "mx", 0.0, "Object"
+NewObject
+SetMember
+loc0758:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Not
+Not
+If loc0790
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls", 0.0, "Object"
+NewObject
+SetMember
+loc0790:Pop
+Push "_global"
+GetVariable
+Push "mx"
+GetMember
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Not
+Not
+If loc2244
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0.0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "mx"
+GetVariable
+Push "core"
+GetMember
+Push "UIComponent"
+GetMember
+Extends
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "init"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "Void" {
+Push 0.0, register2, "init"
+CallMethod
+Pop
+Push register1, "preset"
+GetMember
+Push undefined
+Equals2
+Not
+If loc088c
+Push register1, "boundingBox_mc"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "boundingBox_mc"
+GetMember
+Push "_width", register1, "boundingBox_mc"
+GetMember
+Push "_height", 0.0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc088c:Push register1, "useHandCursor", false
+SetMember
+}
+SetMember
+Push register2, "createChildren"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "preset"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc096a
+Push register1, register1, "idNames"
+GetMember
+Push register1, "preset"
+GetMember
+GetMember
+GetMember
+StoreRegister 2
+Pop
+Push register1, register1, "refNames"
+GetMember
+Push register1, "preset"
+GetMember
+GetMember
+Push register2
+SetMember
+Push register1, "skinName", register2
+SetMember
+Push register1, "falseOverSkin"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc092d
+Push register1, "rolloverSkin", register1, "fus"
+GetMember
+SetMember
+loc092d:Push register1, "falseOverIcon"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc095b
+Push register1, "rolloverIcon", register1, "fui"
+GetMember
+SetMember
+loc095b:Push register1, "initializing", false
+SetMember
+Jump loc09ef
+loc096a:Push register1, "__state"
+GetMember
+Push true
+Equals2
+Not
+If loc0993
+Push true, 1, register1, "setStateVar"
+CallMethod
+Pop
+Jump loc09ef
+loc0993:Push register1, "falseOverSkin"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc09c1
+Push register1, "rolloverSkin", register1, "fus"
+GetMember
+SetMember
+loc09c1:Push register1, "falseOverIcon"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc09ef
+Push register1, "rolloverIcon", register1, "fui"
+GetMember
+SetMember
+}
+loc09ef:SetMember
+Push register2, "setIcon"
+DefineFunction2 "", 2, 4, false, false, true, false, true, false, false, true, false, 2, "tag", 3, "linkageName" {
+Push register3, register2, 8
+Add2
+Push 2, register1, "setSkin"
+CallMethod
+Return
+}
+SetMember
+Push register2, "changeIcon"
+DefineFunction2 "", 2, 5, false, false, true, false, true, false, false, true, false, 3, "tag", 4, "linkageName" {
+Push register1, "linkLength", register4, "length"
+GetMember
+SetMember
+Push register1, "stateNames"
+GetMember
+Push register3
+GetMember
+Push "Icon"
+Add2
+StoreRegister 2
+Pop
+Push register1, register2, register4
+SetMember
+Push register1, register1, "idNames"
+GetMember
+Push register3, 8
+Add2
+GetMember
+Push register2
+SetMember
+Push 0.0, register1, "getState"
+CallMethod
+Push 1, register1, "setStateVar"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "changeSkin"
+DefineFunction2 "", 2, 5, false, false, true, false, true, false, false, true, false, 3, "tag", 4, "linkageName" {
+Push register1, "stateNames"
+GetMember
+Push register3
+GetMember
+Push "Skin"
+Add2
+StoreRegister 2
+Pop
+Push register1, register2, register4
+SetMember
+Push register1, register1, "idNames"
+GetMember
+Push register3
+GetMember
+Push register2
+SetMember
+Push 0.0, register1, "getState"
+CallMethod
+Push 1, register1, "setStateVar"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "viewIcon"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, true, 6, "varName" {
+Push register6, "Icon"
+Add2
+StoreRegister 4
+Pop
+Push register1, register4
+GetMember
+StoreRegister 3
+Pop
+Push register3
+TypeOf
+Push "string"
+Equals2
+Not
+If loc0c5f
+Push register3
+StoreRegister 5
+Pop
+Push register1, "__emphasized"
+GetMember
+Not
+If loc0bcd
+Push register1, register3, "Emphasized"
+Add2
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc0bcd
+Push register3, "Emphasized"
+Add2
+StoreRegister 3
+Pop
+loc0bcd:Push register1, register3
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0bf3
+Push undefined
+Return
+loc0bf3:Push register1, register3
+GetMember
+Push register1, "tagMap"
+GetMember
+Push register5
+GetMember
+Push 2, register1, "setIcon"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+PushDuplicate
+Not
+If loc0c32
+Pop
+Push register2, "isLivePreview"
+GetMember
+loc0c32:Not
+If loc0c55
+Push "ButtonIcon", 0.0, 2, register1, "setIcon"
+CallMethod
+StoreRegister 3
+Pop
+loc0c55:Push register1, register4, register3
+SetMember
+loc0c5f:Push register1, "iconName"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "iconName", register3
+SetMember
+Push register1, "iconName"
+GetMember
+Push "_visible", true
+SetMember
+}
+SetMember
+Push register2, "removeIcons"
+DefineFunction2 "", 0, 4, false, false, true, false, true, false, false, true, false {
+Push 0.0
+StoreRegister 3
+Pop
+loc0cad:Push register3, 2
+Less2
+Not
+If loc0d3a
+Push 8
+StoreRegister 2
+Pop
+loc0ccb:Push register2, 16
+Less2
+Not
+If loc0d2a
+Push register1, "idNames"
+GetMember
+Push register2
+GetMember
+Push 1, register1, "destroyObject"
+CallMethod
+Pop
+Push register1, register1, "stateNames"
+GetMember
+Push register2, 8
+Subtract
+GetMember
+Push "Icon"
+Add2
+Push ""
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc0ccb
+loc0d2a:Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc0cad
+loc0d3a:Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "setSkin"
+DefineFunction2 "", 3, 8, false, false, false, true, true, false, false, true, false, 4, "tag", 7, "linkageName", 5, "initobj" {
+Push register5, undefined
+Equals2
+Not
+If loc0d99
+Push "styleName", register1, 1
+InitObject
+Jump loc0d9e
+loc0d99:Push register5
+loc0d9e:Push register7, register4, 3, register2, "setSkin"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, register4, 2, register1, "calcSize"
+CallMethod
+Pop
+Push register3
+Return
+}
+SetMember
+Push register2, "calcSize"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "__width", register1, "_width"
+GetMember
+SetMember
+Push register1, "__height", register1, "_height"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "viewSkin"
+DefineFunction2 "", 2, 8, false, false, true, false, true, false, false, true, false, 7, "varName", 5, "initObj" {
+Push register7, "Skin"
+Add2
+StoreRegister 3
+Pop
+Push register1, register3
+GetMember
+StoreRegister 2
+Pop
+Push register2
+TypeOf
+Push "string"
+Equals2
+Not
+If loc0f15
+Push register2
+StoreRegister 4
+Pop
+Push register1, "__emphasized"
+GetMember
+Not
+If loc0e99
+Push register1, register2, "Emphasized"
+Add2
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Greater
+Not
+If loc0e99
+Push register2, "Emphasized"
+Add2
+StoreRegister 2
+Pop
+loc0e99:Push register1, register2
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0ebf
+Push undefined
+Return
+loc0ebf:Push register5, undefined
+Equals2
+Not
+If loc0ede
+Push "styleName", register1, 1
+InitObject
+Jump loc0ee3
+loc0ede:Push register5
+loc0ee3:Push register1, register2
+GetMember
+Push register1, "tagMap"
+GetMember
+Push register4
+GetMember
+Push 3, register1, "setSkin"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, register3, register2
+SetMember
+loc0f15:Push register1, "skinName"
+GetMember
+Push "_visible", false
+SetMember
+Push register1, "skinName", register2
+SetMember
+Push register1, "skinName"
+GetMember
+Push "_visible", true
+SetMember
+}
+SetMember
+Push register2, "showEmphasized"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "e" {
+Push register2
+PushDuplicate
+Not
+If loc0f6b
+Pop
+Push register1, "__emphatic"
+GetMember
+Not
+loc0f6b:Not
+If loc0fce
+Push "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "emphasizedStyleDeclaration"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0fbf
+Push register1, "__emphaticStyleName", register1, "styleName"
+GetMember
+SetMember
+Push register1, "styleName", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "emphasizedStyleDeclaration"
+GetMember
+SetMember
+loc0fbf:Push register1, "__emphatic", true
+SetMember
+Jump loc0ff3
+loc0fce:Push register1, "__emphatic"
+GetMember
+Not
+If loc0fe9
+Push register1, "styleName", register1, "__emphaticStyleName"
+GetMember
+SetMember
+loc0fe9:Push register1, "__emphatic", false
+SetMember
+}
+loc0ff3:SetMember
+Push register2, "refresh"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "getState"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, "enabled"
+GetMember
+Push false
+Equals2
+Not
+If loc105b
+Push "disabled", 1, register1, "viewIcon"
+CallMethod
+Pop
+Push "disabled", 1, register1, "viewSkin"
+CallMethod
+Pop
+Jump loc1087
+loc105b:Push register1, "phase"
+GetMember
+Push 1, register1, "viewSkin"
+CallMethod
+Pop
+Push register1, "phase"
+GetMember
+Push 1, register1, "viewIcon"
+CallMethod
+Pop
+loc1087:Push register1, "phase"
+GetMember
+Push "down"
+Equals2
+Push 1, register1, "setView"
+CallMethod
+Pop
+Push register1, "iconName"
+GetMember
+Push "enabled", register1, "enabled"
+GetMember
+SetMember
+}
+SetMember
+Push register2, "setView"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 3, "offset" {
+Push register1, "iconName"
+GetMember
+Push undefined
+Equals2
+Not
+If loc10e9
+Push undefined
+Return
+loc10e9:Push register3
+If loc1104
+Push 0.0
+Jump loc110c
+loc1104:Push register1, "btnOffset"
+GetMember
+loc110c:StoreRegister 2
+Pop
+Push register1, "iconName"
+GetMember
+Push "_x", register1, "__width"
+GetMember
+Push register1, "iconName"
+GetMember
+Push "_width"
+GetMember
+Subtract
+Push 2
+Divide
+Push register2
+Add2
+SetMember
+Push register1, "iconName"
+GetMember
+Push "_y", register1, "__height"
+GetMember
+Push register1, "iconName"
+GetMember
+Push "_height"
+GetMember
+Subtract
+Push 2
+Divide
+Push register2
+Add2
+SetMember
+}
+SetMember
+Push register2, "setStateVar"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "state" {
+Push register2
+Not
+If loc126b
+Push register1, "trueOverSkin"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc11cb
+Push register1, "rolloverSkin", register1, "tus"
+GetMember
+SetMember
+Jump loc11d8
+loc11cb:Push register1, "rolloverSkin", register1, "trs"
+GetMember
+SetMember
+loc11d8:Push register1, "trueOverIcon"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc120b
+Push register1, "rolloverIcon", register1, "tui"
+GetMember
+SetMember
+Jump loc1218
+loc120b:Push register1, "rolloverIcon", register1, "tri"
+GetMember
+SetMember
+loc1218:Push register1, "upSkin", register1, "tus"
+GetMember
+SetMember
+Push register1, "downSkin", register1, "tds"
+GetMember
+SetMember
+Push register1, "disabledSkin", register1, "dts"
+GetMember
+SetMember
+Push register1, "upIcon", register1, "tui"
+GetMember
+SetMember
+Push register1, "downIcon", register1, "tdi"
+GetMember
+SetMember
+Push register1, "disabledIcon", register1, "dti"
+GetMember
+SetMember
+Jump loc1339
+loc126b:Push register1, "falseOverSkin"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc129e
+Push register1, "rolloverSkin", register1, "fus"
+GetMember
+SetMember
+Jump loc12ab
+loc129e:Push register1, "rolloverSkin", register1, "frs"
+GetMember
+SetMember
+loc12ab:Push register1, "falseOverIcon"
+GetMember
+Push "length"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc12de
+Push register1, "rolloverIcon", register1, "fui"
+GetMember
+SetMember
+Jump loc12eb
+loc12de:Push register1, "rolloverIcon", register1, "fri"
+GetMember
+SetMember
+loc12eb:Push register1, "upSkin", register1, "fus"
+GetMember
+SetMember
+Push register1, "downSkin", register1, "fds"
+GetMember
+SetMember
+Push register1, "disabledSkin", register1, "dfs"
+GetMember
+SetMember
+Push register1, "upIcon", register1, "fui"
+GetMember
+SetMember
+Push register1, "downIcon", register1, "fdi"
+GetMember
+SetMember
+Push register1, "disabledIcon", register1, "dfi"
+GetMember
+SetMember
+loc1339:Push register1, "__state", register2
+SetMember
+}
+SetMember
+Push register2, "setState"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "state" {
+Push register2, register1, "__state"
+GetMember
+Equals2
+Not
+Not
+If loc1391
+Push register2, 1, register1, "setStateVar"
+CallMethod
+Pop
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+}
+loc1391:SetMember
+Push register2, "size"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "draw"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "initializing"
+GetMember
+Not
+If loc140d
+Push register1, "initializing", false
+SetMember
+Push register1, "skinName"
+GetMember
+Push "visible", true
+SetMember
+Push register1, "iconName"
+GetMember
+Push "visible", true
+SetMember
+loc140d:Push 0.0, register1, "size"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getState"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "__state"
+GetMember
+Return
+}
+SetMember
+Push register2, "setToggle"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "val" {
+Push register1, "__toggle", register2
+SetMember
+Push register1, "__toggle"
+GetMember
+Push false
+Equals2
+Not
+If loc1487
+Push false, 1, register1, "setState"
+CallMethod
+Pop
+}
+loc1487:SetMember
+Push register2, "getToggle"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "__toggle"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__toggle"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "val" {
+Push register2, 1, register1, "setToggle"
+CallMethod
+Pop
+Push 0.0, register1, "__get__toggle"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__toggle"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getToggle"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__set__value"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "val" {
+Push register2, 1, register1, "setSelected"
+CallMethod
+Pop
+Push 0.0, register1, "__get__value"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__value"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getSelected"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__set__selected"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "val" {
+Push register2, 1, register1, "setSelected"
+CallMethod
+Pop
+Push 0.0, register1, "__get__selected"
+CallMethod
+Return
+}
+SetMember
+Push register2, "__get__selected"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0.0, register1, "getSelected"
+CallMethod
+Return
+}
+SetMember
+Push register2, "setSelected"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "val" {
+Push register1, "__toggle"
+GetMember
+Not
+If loc1601
+Push register2, 1, register1, "setState"
+CallMethod
+Pop
+Jump loc162e
+loc1601:Push register1, "initializing"
+GetMember
+If loc161b
+Push register1, "__state"
+GetMember
+Jump loc1620
+loc161b:Push register2
+loc1620:Push 1, register1, "setState"
+CallMethod
+Pop
+}
+loc162e:SetMember
+Push register2, "getSelected"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__state"
+GetMember
+Return
+}
+SetMember
+Push register2, "setEnabled"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "val" {
+Push register1, "enabled"
+GetMember
+Push register3
+Equals2
+Not
+Not
+If loc1699
+Push register3, 1, register2, "setEnabled"
+CallMethod
+Pop
+Push 0.0, register1, "invalidate"
+CallMethod
+Pop
+}
+loc1699:SetMember
+Push register2, "onPress"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "pressFocus"
+CallMethod
+Pop
+Push register1, "phase", "down"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+Push "type", "buttonDown", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+Push register1, "autoRepeat"
+GetMember
+Not
+If loc172c
+Push register1, "interval", "repeatDelay", 1, register1, "getStyle"
+CallMethod
+Push "onPressDelay", register1, 3, "setInterval"
+CallFunction
+SetMember
+}
+loc172c:SetMember
+Push register2, "onPressDelay"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "buttonDown", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+Push register1, "autoRepeat"
+GetMember
+Not
+If loc17a5
+Push register1, "interval"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "interval", "repeatInterval", 1, register1, "getStyle"
+CallMethod
+Push "onPressRepeat", register1, 3, "setInterval"
+CallFunction
+SetMember
+}
+loc17a5:SetMember
+Push register2, "onPressRepeat"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push "type", "buttonDown", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+Push 0.0, "updateAfterEvent"
+CallFunction
+Pop
+}
+SetMember
+Push register2, "onRelease"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "releaseFocus"
+CallMethod
+Pop
+Push register1, "phase", "rollover"
+SetMember
+Push register1, "interval"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc184f
+Push register1, "interval"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "interval"
+Delete
+Pop
+loc184f:Push 0.0, register1, "getToggle"
+CallMethod
+Not
+If loc188b
+Push 0.0, register1, "getState"
+CallMethod
+Not
+Push 1, register1, "setState"
+CallMethod
+Pop
+Jump loc189d
+loc188b:Push 0.0, register1, "refresh"
+CallMethod
+Pop
+loc189d:Push "type", "click", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onDragOut"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "phase", "up"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+Push "type", "buttonDragOut", 1
+InitObject
+Push 1, register1, "dispatchEvent"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onDragOver"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "phase"
+GetMember
+Push "up"
+Equals2
+Not
+Not
+If loc194d
+Push 0.0, register1, "onPress"
+CallMethod
+Pop
+Push undefined
+Return
+loc194d:Push register1, "phase", "down"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onReleaseOutside"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push 0.0, register1, "releaseFocus"
+CallMethod
+Pop
+Push register1, "phase", "up"
+SetMember
+Push register1, "interval"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc19cf
+Push register1, "interval"
+GetMember
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push register1, "interval"
+Delete
+Pop
+}
+loc19cf:SetMember
+Push register2, "onRollOver"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "phase", "rollover"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "onRollOut"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "phase", "up"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "getLabel"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "Void" {
+Push register1, "fui"
+GetMember
+Push "text"
+GetMember
+Return
+}
+SetMember
+Push register2, "setLabel"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 3, "val" {
+Push register1, "fui"
+GetMember
+TypeOf
+Push "string"
+Equals2
+Not
+If loc1aba
+Push register3, 8, "fui", 3, register1, "createLabel"
+CallMethod
+Pop
+Push register1, "fui"
+GetMember
+Push "styleName", register1
+SetMember
+Jump loc1aca
+loc1aba:Push register1, "fui"
+GetMember
+Push "text", register3
+SetMember
+loc1aca:Push 0.0, register1, "fui"
+GetMember
+Push "_getTextFormat"
+CallMethod
+StoreRegister 4
+Pop
+Push register3, 1, register4, "getTextExtent2"
+CallMethod
+StoreRegister 2
+Pop
+Push register1, "fui"
+GetMember
+Push "_width", register2, "width"
+GetMember
+Push 5
+Add2
+SetMember
+Push register1, "fui"
+GetMember
+Push "_height", register2, "height"
+GetMember
+Push 5
+Add2
+SetMember
+Push register1, "iconName", register1, "fui"
+GetMember
+SetMember
+Push register1, "__state"
+GetMember
+Push 1, register1, "setView"
+CallMethod
+Pop
+}
+SetMember
+Push register2, "__get__emphasized"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, "__emphasized"
+GetMember
+Return
+}
+SetMember
+Push register2, "__set__emphasized"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 3, "val" {
+Push register1, "__emphasized", register3
+SetMember
+Push 0.0
+StoreRegister 2
+Pop
+loc1ba4:Push register2, 8
+Less2
+Not
+If loc1c39
+Push register1, register1, "idNames"
+GetMember
+Push register2
+GetMember
+Push register1, "stateNames"
+GetMember
+Push register2
+GetMember
+Push "Skin"
+Add2
+SetMember
+Push register1, register1, "idNames"
+GetMember
+Push register2, 8
+Add2
+GetMember
+GetMember
+TypeOf
+Push "movieclip"
+Equals2
+Not
+If loc1c29
+Push register1, register1, "idNames"
+GetMember
+Push register2, 8
+Add2
+GetMember
+Push register1, "stateNames"
+GetMember
+Push register2
+GetMember
+Push "Icon"
+Add2
+SetMember
+loc1c29:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc1ba4
+loc1c39:Push register1, "__emphasized"
+GetMember
+Push 1, register1, "showEmphasized"
+CallMethod
+Pop
+Push register1, "__state"
+GetMember
+Push 1, register1, "setStateVar"
+CallMethod
+Pop
+Push 0.0, register1, "invalidateStyle"
+CallMethod
+Pop
+Push 0.0, register1, "__get__emphasized"
+CallMethod
+Return
+}
+SetMember
+Push register2, "keyDown"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "e" {
+Push register2, "code"
+GetMember
+Push 32
+Equals2
+Not
+If loc1cc8
+Push 0.0, register1, "onPress"
+CallMethod
+Pop
+}
+loc1cc8:SetMember
+Push register2, "keyUp"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "e" {
+Push register2, "code"
+GetMember
+Push 32
+Equals2
+Not
+If loc1d07
+Push 0.0, register1, "onRelease"
+CallMethod
+Pop
+}
+loc1d07:SetMember
+Push register2, "onKillFocus"
+DefineFunction2 "", 1, 3, false, false, false, true, true, false, false, true, false, 0, "newFocus" {
+Push 0.0, register2, "onKillFocus"
+CallMethod
+Pop
+Push register1, "phase"
+GetMember
+Push "up"
+Equals2
+Not
+Not
+If loc1d67
+Push register1, "phase", "up"
+SetMember
+Push 0.0, register1, "refresh"
+CallMethod
+Pop
+}
+loc1d67:SetMember
+Push register1, "symbolName", "SimpleButton"
+SetMember
+Push register1, "symbolOwner", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+SetMember
+Push register1, "version", "2.0.2.127"
+SetMember
+Push register2, "className", "SimpleButton"
+SetMember
+Push register2, "style3dInset", 4
+SetMember
+Push register2, "btnOffset", 1
+SetMember
+Push register2, "__toggle", false
+SetMember
+Push register2, "__state", false
+SetMember
+Push register2, "__emphasized", false
+SetMember
+Push register2, "__emphatic", false
+SetMember
+Push register1, "falseUp", 0.0
+SetMember
+Push register1, "falseDown", 1
+SetMember
+Push register1, "falseOver", 2
+SetMember
+Push register1, "falseDisabled", 3
+SetMember
+Push register1, "trueUp", 4
+SetMember
+Push register1, "trueDown", 5
+SetMember
+Push register1, "trueOver", 6
+SetMember
+Push register1, "trueDisabled", 7
+SetMember
+Push register2, "falseUpSkin", "SimpleButtonUp"
+SetMember
+Push register2, "falseDownSkin", "SimpleButtonIn"
+SetMember
+Push register2, "falseOverSkin", ""
+SetMember
+Push register2, "falseDisabledSkin", "SimpleButtonUp"
+SetMember
+Push register2, "trueUpSkin", "SimpleButtonIn"
+SetMember
+Push register2, "trueDownSkin", ""
+SetMember
+Push register2, "trueOverSkin", ""
+SetMember
+Push register2, "trueDisabledSkin", "SimpleButtonIn"
+SetMember
+Push register2, "falseUpIcon", ""
+SetMember
+Push register2, "falseDownIcon", ""
+SetMember
+Push register2, "falseOverIcon", ""
+SetMember
+Push register2, "falseDisabledIcon", ""
+SetMember
+Push register2, "trueUpIcon", ""
+SetMember
+Push register2, "trueDownIcon", ""
+SetMember
+Push register2, "trueOverIcon", ""
+SetMember
+Push register2, "trueDisabledIcon", ""
+SetMember
+Push register2, "phase", "up"
+SetMember
+Push register2, "fui", "falseUpIcon"
+SetMember
+Push register2, "fus", "falseUpSkin"
+SetMember
+Push register2, "fdi", "falseDownIcon"
+SetMember
+Push register2, "fds", "falseDownSkin"
+SetMember
+Push register2, "frs", "falseOverSkin"
+SetMember
+Push register2, "fri", "falseOverIcon"
+SetMember
+Push register2, "dfi", "falseDisabledIcon"
+SetMember
+Push register2, "dfs", "falseDisabledSkin"
+SetMember
+Push register2, "tui", "trueUpIcon"
+SetMember
+Push register2, "tus", "trueUpSkin"
+SetMember
+Push register2, "tdi", "trueDownIcon"
+SetMember
+Push register2, "tds", "trueDownSkin"
+SetMember
+Push register2, "trs", "trueOverSkin"
+SetMember
+Push register2, "tri", "trueOverIcon"
+SetMember
+Push register2, "dts", "trueDisabledSkin"
+SetMember
+Push register2, "dti", "trueDisabledIcon"
+SetMember
+Push register2, "rolloverSkin", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "frs"
+GetMember
+SetMember
+Push register2, "rolloverIcon", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "fri"
+GetMember
+SetMember
+Push register2, "upSkin", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "fus"
+GetMember
+SetMember
+Push register2, "downSkin", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "fds"
+GetMember
+SetMember
+Push register2, "disabledSkin", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "dfs"
+GetMember
+SetMember
+Push register2, "upIcon", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "fui"
+GetMember
+SetMember
+Push register2, "downIcon", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "fdi"
+GetMember
+SetMember
+Push register2, "disabledIcon", "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push "dfi"
+GetMember
+SetMember
+Push register2, "initializing", true
+SetMember
+Push register2, "idNames", "dti", "tri", "tdi", "tui", "dfi", "fri", "fdi", "fui", "dts", "trs", "tds", "tus", "dfs", "frs", "fds", "fus", 16
+InitArray
+SetMember
+Push register2, "stateNames", "trueDisabled", "trueOver", "trueDown", "trueUp", "falseDisabled", "falseOver", "falseDown", "falseUp", 8
+InitArray
+SetMember
+Push register2, "refNames", "disabledSkin", "rolloverSkin", "downSkin", "upSkin", 4
+InitArray
+SetMember
+Push register2, "tagMap", "falseUpSkin", 0.0, "falseDownSkin", 1, "falseOverSkin", 2, "falseDisabledSkin", 3, "trueUpSkin", 4, "trueDownSkin", 5, "trueOverSkin", 6, "trueDisabledSkin", 7, "falseUpIcon", 0.0, "falseDownIcon", 1, "falseOverIcon", 2, "falseDisabledIcon", 3, "trueUpIcon", 4, "trueDownIcon", 5, "trueOverIcon", 6, "trueDisabledIcon", 7, 16
+InitObject
+SetMember
+Push register2, "__set__emphasized"
+GetMember
+Push register2, "__get__emphasized"
+GetMember
+Push "emphasized", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__selected"
+GetMember
+Push register2, "__get__selected"
+GetMember
+Push "selected", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__toggle"
+GetMember
+Push register2, "__get__toggle"
+GetMember
+Push "toggle", 3, register2, "addProperty"
+CallMethod
+Push register2, "__set__value"
+GetMember
+Push register2, "__get__value"
+GetMember
+Push "value", 3, register2, "addProperty"
+CallMethod
+Push 1, null, "mx"
+GetVariable
+Push "controls"
+GetMember
+Push "SimpleButton"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc2244:Pop

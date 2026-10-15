@@ -1,0 +1,241 @@
+{
+ "linkage": "M_LEG2_ZPCI3",
+ "characterId": 800,
+ "tipo": "DefineSprite",
+ "grupo": "B_C_armadura_ZPCI3_medic",
+ "fuente": "SONNY2.swf I41 (SHA-256 6b26ee6d...8812)",
+ "archivos": {
+  "svg": "pieza.svg",
+  "png": "pieza_x4.png"
+ },
+ "subelementos": [
+  {
+   "characterId": 797,
+   "tipo": "DefineShape",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape_797.svg",
+    "subelementos/DefineShape_797.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 797,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 797,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "characterId": 799,
+   "tipo": "DefineSprite",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineSprite_799.svg",
+    "subelementos/DefineSprite_799.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 799,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -24,
+      -35
+     ],
+     "filters": [
+      {
+       "type": "GLOWFILTER",
+       "blurX": "5.0",
+       "blurY": "5.0",
+       "compositeSource": "true",
+       "id": "2",
+       "innerGlow": "true",
+       "knockout": "false",
+       "passes": "1",
+       "strength": "1.0",
+       "glowColor": "#ffffff/255"
+      },
+      {
+       "type": "GLOWFILTER",
+       "blurX": "7.0",
+       "blurY": "7.0",
+       "compositeSource": "true",
+       "id": "2",
+       "innerGlow": "false",
+       "knockout": "false",
+       "passes": "1",
+       "strength": "2.0",
+       "glowColor": "#ffffff/255"
+      }
+     ]
+    },
+    {
+     "f": 1,
+     "depth": 2,
+     "op": "place",
+     "ch": 799,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -24,
+      -35
+     ],
+     "filters": [
+      {
+       "type": "GLOWFILTER",
+       "blurX": "5.0",
+       "blurY": "5.0",
+       "compositeSource": "true",
+       "id": "2",
+       "innerGlow": "true",
+       "knockout": "false",
+       "passes": "1",
+       "strength": "1.0",
+       "glowColor": "#ffffff/255"
+      },
+      {
+       "type": "GLOWFILTER",
+       "blurX": "7.0",
+       "blurY": "7.0",
+       "compositeSource": "true",
+       "id": "2",
+       "innerGlow": "false",
+       "knockout": "false",
+       "passes": "1",
+       "strength": "2.0",
+       "glowColor": "#ffffff/255"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "characterId": 798,
+   "tipo": "DefineShape",
+   "linkage": [],
+   "archivos": [
+    "subelementos/DefineShape_798.svg",
+    "subelementos/DefineShape_798.png"
+   ],
+   "colocaciones_en_padre": [
+    {
+     "f": 1,
+     "depth": 1,
+     "op": "place",
+     "ch": 798,
+     "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "svg_lienzo_px": [
+  13.2,
+  33.5
+ ],
+ "anclaje_svg_px": [
+  6.05,
+  17.95
+ ],
+ "png_tamano": [
+  149,
+  230
+ ],
+ "png_escala": 4.0,
+ "anclaje_png_px": [
+  72.3,
+  119.8
+ ],
+ "lista_visualizacion": [
+  {
+   "f": 1,
+   "depth": 1,
+   "op": "place",
+   "ch": 797,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0
+   ]
+  },
+  {
+   "f": 1,
+   "depth": 2,
+   "op": "place",
+   "ch": 799,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    -24,
+    -35
+   ],
+   "filters": [
+    {
+     "type": "GLOWFILTER",
+     "blurX": "5.0",
+     "blurY": "5.0",
+     "compositeSource": "true",
+     "id": "2",
+     "innerGlow": "true",
+     "knockout": "false",
+     "passes": "1",
+     "strength": "1.0",
+     "glowColor": "#ffffff/255"
+    },
+    {
+     "type": "GLOWFILTER",
+     "blurX": "7.0",
+     "blurY": "7.0",
+     "compositeSource": "true",
+     "id": "2",
+     "innerGlow": "false",
+     "knockout": "false",
+     "passes": "1",
+     "strength": "2.0",
+     "glowColor": "#ffffff/255"
+    }
+   ]
+  }
+ ]
+}

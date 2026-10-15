@@ -1,0 +1,146 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "trainFight2", "Array", "trainFight", "sectionIn", "i", "questProgress", "push", "BattlePick", "Math", "random", "length", "floor", "progressFight", "finalTrainCap", "trainFightCap", "usedTraining", "LOADBATTLESCENE", "gotoAndPlay", "KrinScreen", "_visible"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc02b3
+Push "trainFight2", 0.0, "Array"
+NewObject
+SetVariable
+Push "_root"
+GetVariable
+Push "trainFight"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Enumerate2
+loc0137:StoreRegister 0
+Push null
+Equals2
+If loc01f2
+Push "i", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "questProgress"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "trainFight"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Greater
+Not
+If loc01ed
+Push "_root"
+GetVariable
+Push "trainFight"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+Push "i"
+GetVariable
+GetMember
+Push 0.0
+GetMember
+Push 1, "trainFight2"
+GetVariable
+Push "push"
+CallMethod
+Pop
+loc01ed:Jump loc0137
+loc01f2:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick", "trainFight2"
+GetVariable
+Push 0.0, "Math"
+GetVariable
+Push "random"
+CallMethod
+Push "trainFight2"
+GetVariable
+Push "length"
+GetMember
+Multiply
+Push 1, "Math"
+GetVariable
+Push "floor"
+CallMethod
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "progressFight", false
+SetMember
+Push "_root"
+GetVariable
+Push "finalTrainCap", "_root"
+GetVariable
+Push "trainFightCap"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn"
+GetMember
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "usedTraining", true
+SetMember
+Push "LOADBATTLESCENE", 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", false
+SetMember
+loc02b3:

@@ -1,0 +1,5 @@
+Push "_root"
+GetVariable
+Push "cutSceneEnd", true
+SetMember
+Stop

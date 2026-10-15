@@ -1,0 +1,68 @@
+ConstantPool "_root", "Krin", "qual", "HIGH", "LOW", "", "tit_11", "KrinLang", "KLangChoosen", "MENU"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual"
+GetMember
+Push "HIGH"
+Equals2
+Not
+If loc0085
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual", "LOW"
+SetMember
+Push "", 19, "LOW"
+SetProperty
+Jump loc00a6
+loc0085:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual", "HIGH"
+SetMember
+Push "", 19, "HIGH"
+SetProperty
+loc00a6:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual"
+GetMember
+Push "HIGH"
+Equals2
+Not
+If loc00f4
+Push "tit_11", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 31
+GetMember
+SetVariable
+Jump loc011f
+loc00f4:Push "tit_11", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 32
+GetMember
+SetVariable
+loc011f:

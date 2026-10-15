@@ -1,0 +1,26 @@
+ConstantPool "", "_root", "Krin", "difficulty", "achGet"
+Push "", 7, false
+SetProperty
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 2
+Equals2
+Not
+If loc0082
+Push "_root"
+GetVariable
+Push "achGet"
+GetMember
+Push 4
+GetMember
+Push 1
+Equals2
+Not
+If loc0082
+Push "", 7, true
+SetProperty
+loc0082:

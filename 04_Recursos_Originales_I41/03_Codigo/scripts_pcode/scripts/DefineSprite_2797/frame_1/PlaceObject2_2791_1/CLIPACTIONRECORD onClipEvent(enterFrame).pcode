@@ -1,0 +1,83 @@
+ConstantPool "_root", "_ymouse", "_xmouse", "this", "hitTest", "GO", "KrinToolTipper", "gotoAndPlay", "tt", "KrinLang", "KLangChoosen", "MENU", "_parent", "pN", " ", "t"
+Push "_root"
+GetVariable
+Push "_ymouse"
+GetMember
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2, "this"
+GetVariable
+Push "hitTest"
+CallMethod
+Not
+If loc016d
+Push "GO", 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 54, "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+Push " "
+Add2
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 64
+GetMember
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 59, "_parent"
+GetVariable
+Push "pN"
+GetMember
+Add2
+GetMember
+SetMember
+loc016d:

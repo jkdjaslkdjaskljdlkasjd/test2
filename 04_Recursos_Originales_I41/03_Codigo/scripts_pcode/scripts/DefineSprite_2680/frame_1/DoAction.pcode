@@ -1,0 +1,55 @@
+ConstantPool "t", "", "tt", "my_txt", "removeTextField", "my_txt2", "my_txt3", "my_txt4", "ttt", "j", "this", "MY_TX", "colorChage"
+Stop
+Push "t", ""
+SetVariable
+Push "tt", ""
+SetVariable
+Push 0.0, "my_txt"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt2"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt3"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt4"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "ttt"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push "j", 0.0
+SetVariable
+loc00e4:Push "j"
+GetVariable
+Push 10
+Less2
+Not
+If loc0128
+Push 0.0, "this"
+GetVariable
+Push "MY_TX", "j"
+GetVariable
+Add2
+GetMember
+Push "removeTextField"
+CallMethod
+Pop
+Push "j", "j"
+GetVariable
+Increment
+SetVariable
+Jump loc00e4
+loc0128:Push "colorChage", 0.0
+SetVariable

@@ -1,0 +1,65 @@
+{
+ "fuente": {"archivo": "SONNY2.swf (I41)", "bytes": 42221005,
+            "sha256": "6b26ee6d5b1005a15824d10864941cee452072ef1942880aeb65fa6917738812",
+            "codigo_decompilado": "03_Codigo/scripts_as/scripts/frame_42/DoAction_2.as (JPEXS)"},
+ "regla_de_ensamblaje": {
+  "funcion": "__nzRawDress (frame_217/DoAction.as), rama STANDARD; identica en la version original de frame_42 l.19635",
+  "pasos": [
+   "player.attachMovie(model[0], 'inner', 0)  -> MODEL1 (hombre) / MODEL4 (mujer)",
+   "por cada hueso h de dollPartsArray: hueso.attachMovie(genero + '_S' + RANURA + '_' + piel, 'innerX', -1)",
+   "si equip[core] != 0: hueso.attachMovie(genero + '_' + RANURA + '_' + equip[core], 'inner', 0)",
+   "si equip[0] == 0 o genero F: head.attachMovie('HAIR_' + pelo, 'hair', 2)",
+   "huesos weapon1/weapon2: attachMovie('M_WEAPON_' + equip[5|6], 'inner', 0)",
+   "el marcador original de cada hueso (piezas NINJA/KATANA) ejecuta onClipEvent(load){unloadMovie(this);} y no se ve en el juego"
+  ],
+  "dollPartsArray": ["head","chest","arm1","arm2","hand1","hand2","leg1","leg2","leg3","leg4","foot1","foot2","weapon1","weapon2","shoulder"],
+  "dollPartsCores": [0,1,1,1,2,2,3,3,4,4,4,4,5,6,1],
+  "dollPartsCores2": ["HEAD","CHEST","ARM","ARM","HAND","HAND","ARM","ARM","LEG2","LEG2","FOOT","FOOT","WEAPON","WEAPON","SHOULDER"],
+  "nota": "leg1/leg2 (muslos) usan las piezas ARM; equip[3] (pantalon) viste los muslos y equip[4] (calzado) viste espinillas y pies."
+ },
+ "variantes": {
+  "A_veradux_equipo_sin_objetos": {
+   "estado": "IDENTIFICADO CON EVIDENCIA DE CODIGO + coincide visualmente con la captura del usuario (menu de equipo, 'Lvl. 14 Combat Medic')",
+   "quien": "Miembro n.1 del equipo del jugador",
+   "evidencia": [
+    "l.13236 Krin.NameSets[1] = \"Veradux\"",
+    "l.13198 Krin.skinArray = [\"ONE\",\"TWO\",\"FEL\",\"FOUR\",\"MANTAT\",\"SIX\"]; l.13240 Krin.SkinSet[1] = 1 -> \"TWO\"",
+    "l.13199 Krin.hairArray = [\"\",\"ONE\",\"TWO\",...]; l.13241 Krin.HairSet[1] = 2 -> \"TWO\"",
+    "Krin.GSet[1] = 0 (bucle l.13205-13227) -> gArray[0] = \"M\" -> MODEL1",
+    "combate: l.2162 shtName.model = [\"MODEL1\", skinArray[SkinSet[i]], hairArray[HairSet[i]], gArray[GSet[i]]]",
+    "menu: DefineSprite_3239/frame_1/DoAction_2.as l.61-71 (mismas reglas con MenuPlayerSelect)"
+   ],
+   "piezas": ["M_SHEAD_TWO(1834)","M_SCHEST_TWO(1840)","M_SARM_TWO(1842)","M_SHAND_TWO(1836)","M_SLEG2_TWO(1832)","M_SFOOT_TWO(1838)","HAIR_TWO(1187)"],
+   "attachMovie_sin_efecto": ["M_SSHOULDER_TWO","M_SWEAPON_TWO","M_WEAPON_0"],
+   "nota": "La ropa interior blanca es parte del dibujo de M_SCHEST_TWO, no un objeto."
+  },
+  "B_veradux_equipo_inicial": {
+   "estado": "IDENTIFICADO CON EVIDENCIA DE CODIGO (equipo con el que empieza; el jugador puede cambiarlo)",
+   "evidencia": [
+    "l.13242 Krin.equipArray1 = [38,34,36,35,37,39,0]",
+    "tabla de objetos (02_Datos/items.json): 38 Medic Head, 34 Medic Chest, 36 Medic Hands, 35 Medic Legs, 37 Medic Feet -> looks \"ZPCI3\"; 39 Gun -> looks \"M4\""
+   ],
+   "piezas": ["piel TWO como A", "M_HEAD_ZPCI3(804)","M_CHEST_ZPCI3(813)","M_SHOULDER_ZPCI3(796)","M_ARM_ZPCI3(814)","M_HAND_ZPCI3(806)","M_LEG2_ZPCI3(800)","M_FOOT_ZPCI3(808)","M_WEAPON_M4(1740)"],
+   "nota": "Con casco (equip[0] != 0) el juego no adjunta el pelo."
+  },
+  "C_unidad_npc_veradux": {
+   "estado": "IDENTIFICADO CON EVIDENCIA DE CODIGO; NO es la apariencia del Veradux del equipo",
+   "quien": "Plantilla de unidad KNU4 = createNewUnitKrin(\"Veradux\") (l.8434). Es tambien la plantilla de CLASE del Veradux del equipo (Krin.ClassStats[1] = 4): de ella salen movimientos y voces, no la apariencia.",
+   "evidencia": [
+    "l.8438 jesivie.model = [\"MODEL1\",\"METABII\",\"\",\"M\"]",
+    "l.8441 jesivie.skinSetter = \"ZPCI3\"; l.2082-2093: si skinSetter != 0, equip[0..4] = skinSetter (solo en la ruta de unidades IA/enemigas)",
+    "l.8442 jesivie.equipment = [0,0,0,0,0,0,0]",
+    "mod: __nzCatalog[4] = {name:\"Veradux\", model:[MODEL1,METABII,\"\",M], equip:[ZPCI3 x5,0,0]}"
+   ],
+   "piezas": ["M_SHEAD_METABII(1941)","M_SCHEST_METABII(1947)","M_SARM_METABII(1949)","M_SHAND_METABII(1943)","M_SLEG2_METABII(1939)","M_SFOOT_METABII(1945)","ZPCI3 x7 como B"]
+  },
+  "D_METABII_sin_armadura": {
+   "estado": "VARIANTE DERIVADA (equip vacio). NO representa a Veradux.",
+   "quien": "Misma apariencia que las unidades 'Metabii' (l.8847) y 'Hydro' (l.8428) sin su arma (ambas llevan KRINITEM12 = STICK)."
+  }
+ },
+ "voces": {
+  "evidencia": "KNU4.voiceHit = [hit_dux1, hit_dux2, hit_dux3], voiceDie = dead_dux (l.8443-8444); miembros del equipo las copian de KNU[ClassStats[i]] (l.2174-2177)",
+  "sonidos": {"hit_dux1": 104, "hit_dux2": 94, "hit_dux3": 84, "dead_dux": 77}
+ }
+}

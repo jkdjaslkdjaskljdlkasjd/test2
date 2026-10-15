@@ -1,0 +1,27 @@
+ConstantPool "this", "_rotation", "_root", "BattleTimeNow", "BattleTimeLimit", ""
+Push "this"
+GetVariable
+Push "_rotation", 180, "_root"
+GetVariable
+Push "BattleTimeNow"
+GetMember
+Push "_root"
+GetVariable
+Push "BattleTimeLimit"
+GetMember
+Push 2
+Divide
+Divide
+Multiply
+Push 180
+Subtract
+SetMember
+Push "", 10
+GetProperty
+Push 0.0
+Less2
+Not
+If loc00a5
+Push "", 10, 0.0
+SetProperty
+loc00a5:

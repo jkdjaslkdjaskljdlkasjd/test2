@@ -1,0 +1,29 @@
+ConstantPool "_root", "thereIsASlotSelected", "STOP", "ui_but1", "gotoAndPlay", "KrinToolTipper", "tt", "", "t", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "thereIsASlotSelected", false
+SetMember
+Push "STOP", 1, "ui_but1"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "tt", ""
+SetMember
+Push "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "t", ""
+SetMember
+Push 1, 1, "_root"
+GetVariable
+Push "KrinToolTipper"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop

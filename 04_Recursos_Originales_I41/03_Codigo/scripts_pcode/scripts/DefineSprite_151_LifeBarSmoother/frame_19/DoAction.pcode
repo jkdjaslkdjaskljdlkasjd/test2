@@ -1,0 +1,7 @@
+Push "stopper"
+GetVariable
+Push 1, "LCC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

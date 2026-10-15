@@ -1,0 +1,46 @@
+ConstantPool "_parent", "_alpha", "dead", "this", "gotoAndPlay", "_visible"
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_alpha"
+GetMember
+Push 0.0
+Greater
+Not
+If loc00ad
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_alpha", "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_alpha"
+GetMember
+Push 5
+Subtract
+SetMember
+Push "dead", 1, "this"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Jump loc00c8
+loc00ad:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_visible", false
+SetMember
+Push "this"
+GetVariable
+RemoveSprite
+loc00c8:

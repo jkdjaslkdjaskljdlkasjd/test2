@@ -1,0 +1,587 @@
+ConstantPool "_root", "Krin", "PauseForScreen", "PauseForScreen2", "dataMode", "save", "itemsthatdropped", "KrinScreen", "_visible", "EnemyXPFinal", "EnemyXP", "EnemyXP3", "itemArray", "w", "KrinLang", "KLangChoosen", "ITEMNAME", "this", "itemSlot", "inner", "gotoAndStop", "id", "slotType", "dropArray", "dropSlot", "drop", "vb99", "MENU", "vb2", "", "VICTORY", "tempGain", "moneyConstGain", "totalEnemyGain", "TEMPGAIN ", "respecValue", "moneyGain", "Math", "round", "Euro", "dumbEuro", "vb1", "vb3", "vb4", "vb5", "€", "vbbc1", "vb7", "vb8", "achProgF", "BattlePick", "awardAch", "difficulty", "AchVal2", "AchVal1", "usedTraining", "AchVal3", "AchVal4"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen", true
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen2", true
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode", "save"
+SetMember
+Push "itemsthatdropped", 0.0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", false
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "EnemyXPFinal", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "EnemyXP"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "EnemyXP3"
+GetMember
+Divide
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Enumerate2
+loc0283:StoreRegister 0
+Push null
+Equals2
+If loc032a
+Push "w", register0
+SetVariable
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "itemArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "itemSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "itemSlot"
+SetMember
+Jump loc0283
+loc032a:Push "w", 0.0
+SetVariable
+loc0339:Push "w"
+GetVariable
+Push 15
+Less2
+Not
+If loc043d
+Push "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "ITEMNAME"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+GetMember
+Push 1, "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "inner"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "id", "w"
+GetVariable
+SetMember
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "slotType", "drop"
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dropArray"
+GetMember
+Push "w"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0423
+Push "this"
+GetVariable
+Push "dropSlot", "w"
+GetVariable
+Add2
+GetMember
+Push "_visible", false
+SetMember
+Jump loc042e
+loc0423:Push "itemsthatdropped", 1
+SetVariable
+loc042e:Push "w", "w"
+GetVariable
+Increment
+SetVariable
+Jump loc0339
+loc043d:Push "itemsthatdropped"
+GetVariable
+Push 0.0
+Equals2
+Not
+If loc048e
+Push "vb99", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 12
+GetMember
+SetVariable
+Push "vb2", ""
+SetVariable
+Jump loc04c1
+loc048e:Push "vb99", ""
+SetVariable
+Push "vb2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "VICTORY"
+GetMember
+Push 1
+GetMember
+SetVariable
+loc04c1:Push "tempGain", "_root"
+GetVariable
+Push "moneyConstGain"
+GetMember
+Push "_root"
+GetVariable
+Push "totalEnemyGain"
+GetMember
+Divide
+SetVariable
+Push "TEMPGAIN ", "tempGain"
+GetVariable
+Add2
+Trace
+Push "TEMPGAIN ", "tempGain"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "respecValue"
+CallMethod
+Add2
+Trace
+Push "moneyGain", 0.7000000000000001, "tempGain"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "respecValue"
+CallMethod
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+Push "moneyGain"
+GetVariable
+Add2
+SetMember
+Push "dumbEuro", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "Euro"
+GetMember
+SetVariable
+Push "vb1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "VICTORY"
+GetMember
+Push 0.0
+GetMember
+SetVariable
+Push "vb3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "VICTORY"
+GetMember
+Push 2
+GetMember
+SetVariable
+Push "vb4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "VICTORY"
+GetMember
+Push 3
+GetMember
+SetVariable
+Push "vb5", "€", "moneyGain"
+GetVariable
+Add2
+SetVariable
+Push "vbbc1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 15
+GetMember
+SetVariable
+Push "vb7", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "VICTORY"
+GetMember
+Push 4
+GetMember
+SetVariable
+Push "vb8", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 13
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "achProgF"
+GetMember
+Not
+If loc0846
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 109
+Equals2
+Not
+If loc06d4
+Push 0.0, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc06d4:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 0.0
+Greater
+Not
+If loc0797
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 308
+Equals2
+Not
+If loc0744
+Push "_root"
+GetVariable
+Push "AchVal2"
+GetMember
+Not
+Not
+If loc0744
+Push 1, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0744:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 408
+Equals2
+Not
+If loc0797
+Push "_root"
+GetVariable
+Push "AchVal1"
+GetMember
+Push 2000
+Less2
+Not
+If loc0797
+Push 2, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0797:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "difficulty"
+GetMember
+Push 2
+Equals2
+Not
+If loc0846
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "usedTraining"
+GetMember
+Push false
+Equals2
+Not
+If loc0846
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 212
+Equals2
+Not
+If loc080e
+Push 3, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc080e:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 513
+Equals2
+Not
+If loc0846
+Push 4, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0846:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 600
+Equals2
+Not
+If loc0899
+Push "_root"
+GetVariable
+Push "AchVal3"
+GetMember
+Push 1
+Equals2
+Not
+If loc0899
+Push 6, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0899:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 601
+Equals2
+Not
+If loc08ed
+Push "_root"
+GetVariable
+Push "AchVal4"
+GetMember
+Push 40
+Greater
+Not
+Not
+If loc08ed
+Push 7, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc08ed:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 602
+Equals2
+Not
+If loc0938
+Push "_root"
+GetVariable
+Push "AchVal2"
+GetMember
+Not
+Not
+If loc0938
+Push 8, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0938:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 703
+Equals2
+Not
+If loc0970
+Push 9, 1, "_root"
+GetVariable
+Push "awardAch"
+CallMethod
+Pop
+loc0970:

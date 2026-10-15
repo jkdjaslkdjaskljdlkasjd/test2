@@ -1,0 +1,1691 @@
+Push 0
+Push "_root"
+GetVariable
+Push "__v8Sync"
+CallMethod
+Pop
+ConstantPool "abilityCoolDown", "shtName", "active", "buffAdderMatrix", "krinyt", "passiveBuffs", "push", "STRENGTHU", "STRENGTH", "SPEEDU", "SPEED", "LIFEU", "LIFE", "vitLifeFactor", "Math", "round", "MAGICU", "MAGIC", "FOCUSU", "FOCUS", "FOCUSN", "LIFEN", "plevel", "LevelStats", "voiceHit", "Array", "hit_sonny1", "hit_sonny2", "hit_sonny3", "voiceDie", "dead_sonny", "model", "Krin", "gArray", "GSet", "hairArray", "HairSet", "skinArray", "SkinSet", "MODEL1", "thte", "equipArray0", "equip", "KRINITEM", "looks", "arenaMode", "u_i_o", "PER", "elementMainArray", "PerSets0", "DEF", "DefSets0", "wefjnew", "PERU", "DEFU", "progressFight", "BattlePick", "numberOfTrainingUsed", "KRS", "r", "KRSC", "difficulty", "turnBasedKrin", "AchVal1", "AchVal2", "AchVal3", "AchVal4", "_root", "moneyConstGain", "totalEnemyGain", "Music", "addSound", "graphics", "KrinSettings", "SFX", "SFX2", "SFX3", "QUALITY", "HIGH", "i", "playerKrin", "Object", "AION", "playerID", "playerName", "John Dead", "phase", "playerKrin0", "Information", "friendlySlotsFFTT", "MenuPlayerSelect", "updateStatus", "StatSets", "KNU", "ClassStats", "getStat", "ceil", "M", "ONE", "SWORD1", "NINJA", "characterColorState", "Normal", "characterFilterState", "KrinFilterNone", "changeArray", "changeArrayEP", "changeArrayEP2", "changeArrayED", "changeArrayED2", "BUFFARRAYK", "e", "maxBuffLimit", "buffId", "None", "CD", "buffValue", "shieldBuffValue", "FILTERSBUFFARRAY", "DOTTICKERARRAY", "John Doe", "SILENCED", "DMG", "DMG2", "IDMG", "IDMG2", "IDMGP", "IDMGP2", "IDOT", "IHOT", "ODOT", "FOCUSCHANGE", "SSWITCH", "HEALMOD_PLUS", "HEALMOD_MINUS", "HEALMOD", "STUN", "STUNP", "REFLECTDMG", "SHIELD", "SHIELDCOUNTER", "pow", "teamSide", "randomGo", "singlePlayer", "playerNumber", "Sonny", "updateStat_Player", "krinAddNewUnit", "arenaPlayer1", "krinNameUser", "arenaPlayer2", "winCondition", "winDate", "KBR", "winDateCondition", "GOTIPPER", "dropArray", "pewPewItemDrop", "ZoneBG", "SkyBG", "absoluteStart", "itemDrops", "krinj", "randomerItemDrop", "CHANCE", "ID", "itemRareDropCheck", "itemRareDropper", "doppelGangerRandom", "itemRare", "length", "floor", "itemRareDropper2", "itemRare2", "itemRareDropper3", "itemRare3", "timeLock", "hit_monster1", "hit_monster2", "hit_monster3", "dead_monster"
+DefineFunction2 "updateStat_Player", 1, 3, false, true, true, false, true, false, true, false, false, 2, "theGuy" {
+Push register1, register2
+GetMember
+Push "abilityCoolDown", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "active", true
+SetMember
+Push register1, register2
+GetMember
+Push "buffAdderMatrix"
+GetMember
+Enumerate2
+loc076f:StoreRegister 0
+Push null
+Equals2
+If loc07e0
+Push "krinyt", register0
+SetVariable
+Push register1, register2
+GetMember
+Push "buffAdderMatrix"
+GetMember
+Push "krinyt"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc07db
+Push register1, register2
+GetMember
+Push "buffAdderMatrix"
+GetMember
+Push "krinyt"
+GetVariable
+GetMember
+Push 1, "shtName"
+GetVariable
+Push "passiveBuffs"
+GetMember
+Push "push"
+CallMethod
+Pop
+loc07db:Jump loc076f
+loc07e0:Push "shtName"
+GetVariable
+Push "STRENGTHU", "shtName"
+GetVariable
+Push "STRENGTH", register1, register2
+GetMember
+Push "STRENGTH"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "shtName"
+GetVariable
+Push "SPEEDU", "shtName"
+GetVariable
+Push "SPEED", register1, register2
+GetMember
+Push "SPEED"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "shtName"
+GetVariable
+Push "LIFEU", "shtName"
+GetVariable
+Push "LIFE", register1, register2
+GetMember
+Push "LIFE"
+GetMember
+Push "vitLifeFactor"
+GetVariable
+Multiply
+StoreRegister 0
+SetMember
+Push register0, 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Push "shtName"
+GetVariable
+Push "MAGICU", "shtName"
+GetVariable
+Push "MAGIC", register1, register2
+GetMember
+Push "MAGIC"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "shtName"
+GetVariable
+Push "FOCUSU", "shtName"
+GetVariable
+Push "FOCUS", register1, register2
+GetMember
+Push "FOCUS"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "shtName"
+GetVariable
+Push "FOCUSN", "shtName"
+GetVariable
+Push "FOCUSU"
+GetMember
+SetMember
+Push "shtName"
+GetVariable
+Push "LIFEN", "shtName"
+GetVariable
+Push "LIFEU"
+GetMember
+SetMember
+Push "shtName"
+GetVariable
+Push "plevel", register1, register2
+GetMember
+Push "LevelStats"
+GetMember
+Push 0.0
+GetMember
+SetMember
+Push "shtName"
+GetVariable
+Push "voiceHit", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "voiceHit"
+GetMember
+Push 0.0, "hit_monster1"
+SetMember
+Push "shtName"
+GetVariable
+Push "voiceHit"
+GetMember
+Push 1, "hit_monster2"
+SetMember
+Push "shtName"
+GetVariable
+Push "voiceHit"
+GetMember
+Push 2, "hit_monster3"
+SetMember
+Push "shtName"
+GetVariable
+Push "voiceDie", "dead_monster"
+SetMember
+Push "shtName"
+GetVariable
+Push "model", "Krin"
+GetVariable
+Push "gArray"
+GetMember
+Push "Krin"
+GetVariable
+Push "GSet"
+GetMember
+Push 0.0
+GetMember
+GetMember
+Push "Krin"
+GetVariable
+Push "hairArray"
+GetMember
+Push "Krin"
+GetVariable
+Push "HairSet"
+GetMember
+Push 0.0
+GetMember
+GetMember
+Push "Krin"
+GetVariable
+Push "skinArray"
+GetMember
+Push "Krin"
+GetVariable
+Push "SkinSet"
+GetMember
+Push 0.0
+GetMember
+GetMember
+Push "MODEL1", 4
+InitArray
+SetMember
+Push "thte", 0.0
+SetVariable
+loc0a14:Push "thte"
+GetVariable
+Push 7
+Less2
+Not
+If loc0ab9
+Push register1, register2
+GetMember
+Push "equipArray0"
+GetMember
+Push "thte"
+GetVariable
+GetMember
+Push 0.0
+Equals2
+Not
+Not
+If loc0a8b
+Push "shtName"
+GetVariable
+Push "equip"
+GetMember
+Push "thte"
+GetVariable
+Push register1, "KRINITEM", register1, register2
+GetMember
+Push "equipArray0"
+GetMember
+Push "thte"
+GetVariable
+GetMember
+Add2
+GetMember
+Push "looks"
+GetMember
+SetMember
+Jump loc0aaa
+loc0a8b:Push "shtName"
+GetVariable
+Push "equip"
+GetMember
+Push "thte"
+GetVariable
+Push 0.0
+SetMember
+loc0aaa:Push "thte", "thte"
+GetVariable
+Increment
+SetVariable
+Jump loc0a14
+loc0ab9:Push register1, "arenaMode"
+GetMember
+Not
+If loc0b92
+Push "u_i_o", 0.0
+SetVariable
+loc0ad6:Push "u_i_o"
+GetVariable
+Push 8
+Less2
+Not
+If loc0b92
+Push register1, register2
+GetMember
+Push "PER"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "u_i_o"
+GetVariable
+GetMember
+Push 100, 15, "shtName"
+GetVariable
+Push "plevel"
+GetMember
+Multiply
+Add2
+Push register1, register2
+GetMember
+Push "PerSets0"
+GetMember
+Push "u_i_o"
+GetVariable
+GetMember
+Add2
+SetMember
+Push register1, register2
+GetMember
+Push "DEF"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "u_i_o"
+GetVariable
+GetMember
+Push 100, 15, "shtName"
+GetVariable
+Push "plevel"
+GetMember
+Multiply
+Add2
+Push register1, register2
+GetMember
+Push "DefSets0"
+GetMember
+Push "u_i_o"
+GetVariable
+GetMember
+Add2
+SetMember
+Push "u_i_o", "u_i_o"
+GetVariable
+Increment
+SetVariable
+Jump loc0ad6
+loc0b92:Push "wefjnew", 0.0
+SetVariable
+loc0ba1:Push "wefjnew"
+GetVariable
+Push 8
+Less2
+Not
+If loc0c83
+Push "shtName"
+GetVariable
+Push "PER"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push "shtName"
+GetVariable
+Push "PERU"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push register1, register2
+GetMember
+Push "PER"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "shtName"
+GetVariable
+Push "DEF"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push "shtName"
+GetVariable
+Push "DEFU"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+Push register1, register2
+GetMember
+Push "DEF"
+GetMember
+Push register1, "elementMainArray"
+GetMember
+Push "wefjnew"
+GetVariable
+GetMember
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "wefjnew", "wefjnew"
+GetVariable
+Increment
+SetVariable
+Jump loc0ba1
+}
+loc0c83:Push "Krin"
+GetVariable
+Push "progressFight"
+GetMember
+Not
+PushDuplicate
+Not
+If loc0cad
+Pop
+Push "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Push 2
+Greater
+loc0cad:Not
+If loc0cc9
+Push "Krin"
+GetVariable
+Push "numberOfTrainingUsed", "Krin"
+GetVariable
+Push "numberOfTrainingUsed"
+GetMember
+Increment
+SetMember
+loc0cc9:Push "KRS", 0.0, "Array"
+NewObject
+SetVariable
+Push "r", 0.0
+SetVariable
+loc0cea:Push "r"
+GetVariable
+Push 100
+Less2
+Not
+If loc0d24
+Push "KRS"
+GetVariable
+Push "r"
+GetVariable
+Push 100
+RandomNumber
+SetMember
+Push "r", "r"
+GetVariable
+Increment
+SetVariable
+Jump loc0cea
+loc0d24:Push "KRSC", 0.0
+SetVariable
+Push "arenaMode"
+GetVariable
+Not
+Not
+If loc0d9c
+Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0d6c
+Push "turnBasedKrin", true
+SetVariable
+Jump loc0d9c
+loc0d6c:Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 1
+Equals2
+Not
+If loc0d94
+Push "turnBasedKrin", true
+SetVariable
+Jump loc0d9c
+loc0d94:Push "turnBasedKrin", false
+SetVariable
+loc0d9c:Push "AchVal1", 0.0
+DefineLocal
+Push "AchVal2", false
+DefineLocal
+Push "AchVal3", 0.0
+DefineLocal
+Push "AchVal4", 0.0
+DefineLocal
+Push "_root"
+GetVariable
+Push "moneyConstGain", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "totalEnemyGain", 0.0
+SetMember
+Push 2, "Music", 2, "addSound"
+CallFunction
+Pop
+Push "Krin"
+GetVariable
+Push "graphics"
+GetMember
+Not
+If loc0e5d
+Push "KrinSettings"
+GetVariable
+Push "SFX", true
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "SFX2", false
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "SFX3", true
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "QUALITY", "HIGH"
+SetMember
+Jump loc0e95
+loc0e5d:Push "KrinSettings"
+GetVariable
+Push "SFX", false
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "SFX2", false
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "SFX3", true
+SetMember
+Push "KrinSettings"
+GetVariable
+Push "QUALITY", "HIGH"
+SetMember
+loc0e95:Push "i", 1
+SetVariable
+loc0ea0:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc0f63
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+Push 0.0, "Object"
+NewObject
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "active", false
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "AION", false
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerID", "i"
+GetVariable
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "playerName", "John Dead"
+SetMember
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+Push "SPEEDU", 0.0
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0ea0
+loc0f63:Push "phase", 1
+SetVariable
+Push "playerKrin0", 0.0, "Object"
+NewObject
+SetVariable
+Push "playerKrin0"
+GetVariable
+Push "active", true
+SetMember
+Push "playerKrin0"
+GetVariable
+Push "playerName", "Information"
+SetMember
+Push "Krin"
+GetVariable
+Push "friendlySlotsFFTT", 0.0, "Array"
+NewObject
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect", 0.0
+SetMember
+Push 0.0, "updateStatus"
+CallFunction
+Pop
+Push "Krin"
+GetVariable
+Push "LIFE", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 0.0
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "STRENGTH", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 1
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "MAGIC", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 2
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "SPEED", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 3
+GetMember
+Push true, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Push "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push 3, "_root"
+GetVariable
+Push "getStat"
+CallMethod
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "FOCUS", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+Add2
+GetMember
+Push 4
+GetMember
+Push true, "_root"
+GetVariable
+Push "KNU", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ClassStats"
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "MenuPlayerSelect"
+GetMember
+GetMember
+Add2
+GetMember
+Push 5
+GetMember
+Push 2, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+Add2
+SetMember
+Push "i", 1
+SetVariable
+loc1346:Push "i"
+GetVariable
+Push 7
+Less2
+Not
+If loc1d7b
+Push "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+Push 0.0, "Object"
+NewObject
+SetMember
+Push "shtName", "_root"
+GetVariable
+Push "playerKrin", "i"
+GetVariable
+Add2
+GetMember
+SetVariable
+Push "shtName"
+GetVariable
+Push "active", false
+SetMember
+Push "shtName"
+GetVariable
+Push "playerID", "i"
+GetVariable
+SetMember
+Push "shtName"
+GetVariable
+Push "plevel", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "model", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "equip", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "model", "M", "ONE", "ONE", "MODEL1", 4
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "equip", "SWORD1", "SWORD1", "NINJA", "NINJA", "NINJA", "NINJA", "NINJA", 7
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "characterColorState", "Normal"
+SetMember
+Push "shtName"
+GetVariable
+Push "characterFilterState", "KrinFilterNone"
+GetVariable
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArray", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayEP", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayEP2", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayED", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayED2", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "BUFFARRAYK", 0.0, "Array"
+NewObject
+SetMember
+Push "e", 0.0
+SetVariable
+loc14e1:Push "e"
+GetVariable
+Push "_root"
+GetVariable
+Push "maxBuffLimit"
+GetMember
+Less2
+Not
+If loc154f
+Push "buffId", "None", "CD", 0.0, "buffValue", 0.0, "shieldBuffValue", 0.0, 4
+InitObject
+Push 1, "shtName"
+GetVariable
+Push "BUFFARRAYK"
+GetMember
+Push "push"
+CallMethod
+Pop
+Push "e", "e"
+GetVariable
+Increment
+SetVariable
+Jump loc14e1
+loc154f:Push "shtName"
+GetVariable
+Push "FILTERSBUFFARRAY", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "FILTERSBUFFARRAY", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 21
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "DOTTICKERARRAY", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "DOTTICKERARRAY", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArray", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayEP", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayEP2", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayED", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArrayED2", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "playerName", "John Doe"
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArray", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "changeArray", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 21
+InitArray
+SetMember
+Push "shtName"
+GetVariable
+Push "passiveBuffs", 0.0, "Array"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "SPEEDU", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "SILENCED", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "DMG", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "DMG2", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "IDMG", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "IDMG2", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "IDMGP", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "IDMGP2", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "IDOT", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "IHOT", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "ODOT", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "FOCUSCHANGE", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "SSWITCH", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "HEALMOD_PLUS", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "HEALMOD_MINUS", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "HEALMOD", 1
+SetMember
+Push "shtName"
+GetVariable
+Push "STUN", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "STUNP", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "REFLECTDMG", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "SHIELD", 0.0
+SetMember
+Push "shtName"
+GetVariable
+Push "SHIELDCOUNTER", 0.0
+SetMember
+Push "i"
+GetVariable
+Push -1, 2, "Math"
+GetVariable
+Push "pow"
+CallMethod
+Push 0.0
+Less2
+Not
+If loc1bb3
+Push "shtName"
+GetVariable
+Push "teamSide", 1
+SetMember
+Jump loc1bc4
+loc1bb3:Push "shtName"
+GetVariable
+Push "teamSide", 2
+SetMember
+loc1bc4:Push "shtName"
+GetVariable
+Push "PER", 0.0, "Object"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "DEF", 0.0, "Object"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "PERU", 0.0, "Object"
+NewObject
+SetMember
+Push "shtName"
+GetVariable
+Push "DEFU", 0.0, "Object"
+NewObject
+SetMember
+Push "randomGo", 1
+SetVariable
+Push "Krin"
+GetVariable
+Push "singlePlayer"
+GetMember
+Push true
+Equals2
+Not
+If loc1c9a
+Push "Krin"
+GetVariable
+Push "playerNumber"
+GetMember
+Push "i"
+GetVariable
+Equals2
+Not
+If loc1c81
+Push "shtName"
+GetVariable
+Push "playerName", "Sonny"
+SetMember
+Push "Krin", 1, "updateStat_Player"
+CallFunction
+Pop
+Jump loc1c95
+loc1c81:Push "Krin", "i"
+GetVariable
+Push 2, "krinAddNewUnit"
+CallFunction
+Pop
+loc1c95:Jump loc1d6c
+loc1c9a:Push "i"
+GetVariable
+Push 1
+Equals2
+Not
+If loc1cd7
+Push "shtName"
+GetVariable
+Push "playerName", "arenaPlayer1"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "arenaPlayer1", 1, "updateStat_Player"
+CallFunction
+Pop
+Jump loc1d6c
+loc1cd7:Push "i"
+GetVariable
+Push 2
+Equals2
+Not
+If loc1d14
+Push "shtName"
+GetVariable
+Push "playerName", "arenaPlayer2"
+GetVariable
+Push "krinNameUser"
+GetMember
+SetMember
+Push "arenaPlayer2", 1, "updateStat_Player"
+CallFunction
+Pop
+Jump loc1d6c
+loc1d14:Push "i"
+GetVariable
+Push 3
+Equals2
+PushDuplicate
+If loc1d39
+Pop
+Push "i"
+GetVariable
+Push 5
+Equals2
+loc1d39:Not
+If loc1d58
+Push "arenaPlayer1", "i"
+GetVariable
+Push 2, "krinAddNewUnit"
+CallFunction
+Pop
+Jump loc1d6c
+loc1d58:Push "arenaPlayer2", "i"
+GetVariable
+Push 2, "krinAddNewUnit"
+CallFunction
+Pop
+loc1d6c:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1346
+loc1d7b:Push "winCondition", -1
+SetVariable
+Push "winDate", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "winDate"
+GetMember
+SetVariable
+Push "winDateCondition", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "winDateCondition"
+GetMember
+SetVariable
+Push "GOTIPPER", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+SetVariable
+Push "Krin"
+GetVariable
+Push "dropArray", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15
+InitArray
+SetMember
+Push "pewPewItemDrop", 0.0
+SetVariable
+Push "Krin"
+GetVariable
+Push "ZoneBG", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "ZoneBG"
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "SkyBG", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "SkyBG"
+GetMember
+SetMember
+Push "absoluteStart", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "absoluteStart"
+GetMember
+SetVariable
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemDrops"
+GetMember
+Enumerate2
+loc1f01:StoreRegister 0
+Push null
+Equals2
+If loc1fb0
+Push "krinj", register0
+SetVariable
+Push "Krin"
+GetVariable
+Push "randomerItemDrop", 100
+RandomNumber
+SetMember
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemDrops"
+GetMember
+Push "krinj"
+GetVariable
+GetMember
+Push "CHANCE"
+GetMember
+Push "Krin"
+GetVariable
+Push "randomerItemDrop"
+GetMember
+Greater
+Not
+If loc1fab
+Push "Krin"
+GetVariable
+Push "dropArray"
+GetMember
+Push "pewPewItemDrop"
+GetVariable
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemDrops"
+GetMember
+Push "krinj"
+GetVariable
+GetMember
+Push "ID"
+GetMember
+SetMember
+Push "pewPewItemDrop", "pewPewItemDrop"
+GetVariable
+Increment
+SetVariable
+loc1fab:Jump loc1f01
+loc1fb0:Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRareDropper"
+GetMember
+SetMember
+loc1fd5:Push "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Push 0.0
+Greater
+Not
+If loc2098
+Push "doppelGangerRandom", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare"
+GetMember
+Push "length"
+GetMember
+Push 100
+Multiply
+RandomNumber
+Push 100
+Divide
+Push 1, "Math"
+GetVariable
+Push "floor"
+CallMethod
+SetVariable
+Push "Krin"
+GetVariable
+Push "dropArray"
+GetMember
+Push "pewPewItemDrop"
+GetVariable
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare"
+GetMember
+Push "doppelGangerRandom"
+GetVariable
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Decrement
+SetMember
+Push "pewPewItemDrop", "pewPewItemDrop"
+GetVariable
+Increment
+SetVariable
+Jump loc1fd5
+loc2098:Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRareDropper2"
+GetMember
+SetMember
+loc20bd:Push "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Push 0.0
+Greater
+Not
+If loc2180
+Push "doppelGangerRandom", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare2"
+GetMember
+Push "length"
+GetMember
+Push 100
+Multiply
+RandomNumber
+Push 100
+Divide
+Push 1, "Math"
+GetVariable
+Push "floor"
+CallMethod
+SetVariable
+Push "Krin"
+GetVariable
+Push "dropArray"
+GetMember
+Push "pewPewItemDrop"
+GetVariable
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare2"
+GetMember
+Push "doppelGangerRandom"
+GetVariable
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Decrement
+SetMember
+Push "pewPewItemDrop", "pewPewItemDrop"
+GetVariable
+Increment
+SetVariable
+Jump loc20bd
+loc2180:Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRareDropper3"
+GetMember
+SetMember
+loc21a5:Push "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Push 0.0
+Greater
+Not
+If loc2268
+Push "doppelGangerRandom", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare3"
+GetMember
+Push "length"
+GetMember
+Push 100
+Multiply
+RandomNumber
+Push 100
+Divide
+Push 1, "Math"
+GetVariable
+Push "floor"
+CallMethod
+SetVariable
+Push "Krin"
+GetVariable
+Push "dropArray"
+GetMember
+Push "pewPewItemDrop"
+GetVariable
+Push "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "itemRare3"
+GetMember
+Push "doppelGangerRandom"
+GetVariable
+GetMember
+SetMember
+Push "Krin"
+GetVariable
+Push "itemRareDropCheck", "Krin"
+GetVariable
+Push "itemRareDropCheck"
+GetMember
+Decrement
+SetMember
+Push "pewPewItemDrop", "pewPewItemDrop"
+GetVariable
+Increment
+SetVariable
+Jump loc21a5
+loc2268:Push "Krin"
+GetVariable
+Push "timeLock", "_root"
+GetVariable
+Push "KBR", "Krin"
+GetVariable
+Push "BattlePick"
+GetMember
+Add2
+GetMember
+Push "timeLock"
+GetMember
+SetMember

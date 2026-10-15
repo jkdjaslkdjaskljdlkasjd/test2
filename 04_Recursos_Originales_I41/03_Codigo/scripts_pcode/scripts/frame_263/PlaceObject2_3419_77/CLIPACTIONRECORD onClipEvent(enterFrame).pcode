@@ -1,0 +1,114 @@
+ConstantPool "_root", "cutSceneEnd", "", "Krin", "qual", "gotoSceneKrin", "endMenu", "soundModeKrin", "soundPlayCounter", "overMap", "Music", "addSound", "Navigation", "cutsceneSequence", "gotoAndPlay"
+Push "_root"
+GetVariable
+Push "cutSceneEnd"
+GetMember
+Push false
+Equals2
+Not
+If loc00ed
+Push "", 6
+GetProperty
+Push 0.0
+Greater
+Not
+If loc00e8
+Push "", 6, "", 6
+GetProperty
+Push 5
+Subtract
+SetProperty
+loc00e8:Jump loc026f
+loc00ed:Push "", 6, "", 6
+GetProperty
+Push 5
+Add2
+SetProperty
+Push "", 6
+GetProperty
+Push 100
+Less2
+Not
+Not
+If loc026f
+Push "", 19, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "qual"
+GetMember
+SetProperty
+Push "_root"
+GetVariable
+Push "gotoSceneKrin"
+GetMember
+Push "endMenu"
+Equals2
+Not
+If loc0180
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "soundPlayCounter", 0.0
+SetMember
+loc0180:Push "_root"
+GetVariable
+Push "gotoSceneKrin"
+GetMember
+Push "overMap"
+Equals2
+Not
+If loc01db
+Push "_root"
+GetVariable
+Push "soundPlayCounter", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+Push 1, "Music", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+loc01db:Push "_root"
+GetVariable
+Push "gotoSceneKrin"
+GetMember
+Push "Navigation"
+Equals2
+Not
+If loc0236
+Push "_root"
+GetVariable
+Push "soundPlayCounter", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "soundModeKrin", 0.0
+SetMember
+Push 1, "Music", 2, "_root"
+GetVariable
+Push "addSound"
+CallMethod
+Pop
+loc0236:Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "cutsceneSequence", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "gotoSceneKrin"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc026f:

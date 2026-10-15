@@ -1,0 +1,9 @@
+Push "isDebugMode"
+GetVariable
+Not
+Not
+If loc0019
+Stop
+loc0019:Push "Sonny 2 Client Connected", 1, "sendWrapperMessage"
+CallFunction
+Pop

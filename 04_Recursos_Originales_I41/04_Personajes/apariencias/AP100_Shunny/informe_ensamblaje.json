@@ -1,0 +1,592 @@
+{
+ "spec": {
+  "model": "MODEL1",
+  "skin": "ONE",
+  "hair": "ONE",
+  "gender": "M",
+  "equip": [
+   0,
+   0,
+   0,
+   "JEANS",
+   "JEANS",
+   "PIPE",
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 53,
+    "nombre": "Shunny",
+    "linea": 8886,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "miembro_equipo_equipo_inicial",
+    "indice": 0,
+    "nombre": "Sonny"
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 44,
+    "nombre": "Shunny",
+    "linea": 13861
+   }
+  ],
+  "name": "AP100_Shunny",
+  "nombres": [
+   "Shunny",
+   "Sonny"
+  ]
+ },
+ "model_id_original": 2462,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP100_Shunny",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_ONE",
+     "characterId": 2208
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_ONE",
+     "characterId": 2210
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_JEANS",
+     "characterId": 1191
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_JEANS",
+     "characterId": 1745
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_ONE",
+     "characterId": 2204
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_JEANS",
+     "characterId": 1747
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_ONE",
+     "characterId": 2210
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_FOOT_JEANS",
+     "characterId": 1191
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_ARM_JEANS",
+     "characterId": 1745
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_ONE",
+     "characterId": 2204
+    },
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_LEG2_JEANS",
+     "characterId": 1747
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_ONE",
+     "characterId": 2212
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_ONE",
+     "characterId": 2206
+    },
+    {
+     "profundidad_as2": 2,
+     "profundidad_timeline": 16386,
+     "nombre": "hair",
+     "linkage": "HAIR_ONE",
+     "characterId": 758
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SARM_ONE",
+     "characterId": 2214
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SSHOULDER_ONE",
+     "characterId": 2202
+    }
+   ]
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": 0,
+     "profundidad_timeline": 16384,
+     "nombre": "inner",
+     "linkage": "M_WEAPON_PIPE",
+     "characterId": 1738
+    }
+   ]
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_ONE",
+     "characterId": 2208
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2206
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2212
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2208
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2208
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_ARM_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1745
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2214
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_ARM_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1745
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2204
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_LEG2_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1747
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2204
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_LEG2_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1747
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2210
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_FOOT_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1191
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2210
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_FOOT_JEANS",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1191
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_PIPE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1738
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_PIPE",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": true,
+   "characterId": 1738
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_ONE",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2202
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_ONE",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 758
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 71,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

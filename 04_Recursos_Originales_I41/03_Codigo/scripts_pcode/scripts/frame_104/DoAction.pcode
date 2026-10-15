@@ -1,0 +1,60 @@
+ConstantPool "whatToSay111", "_root", "KrinLang", "KLangChoosen", "MENU", "whatToSay222", "< ", " >", "tipTextGO", "GOTIP", "", "whatToSay3"
+Push "whatToSay111", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 50
+GetMember
+SetVariable
+Push "whatToSay222", "< ", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 51
+GetMember
+Add2
+Push " >"
+Add2
+SetVariable
+Push "tipTextGO", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "GOTIP"
+GetMember
+Push 0.0
+GetMember
+SetVariable
+Push "tipTextGO"
+GetVariable
+Push undefined
+Equals2
+Not
+If loc00f7
+Push "tipTextGO", ""
+SetVariable
+loc00f7:Push "whatToSay3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 19
+GetMember
+SetVariable

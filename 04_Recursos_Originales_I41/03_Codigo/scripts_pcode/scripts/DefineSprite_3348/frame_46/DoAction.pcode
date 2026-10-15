@@ -1,0 +1,22 @@
+ConstantPool "DFTP", "characterColorState", "hitTarget", "inner", "_root", "krinChangeColor", "filters", "DFTF"
+Push "DFTP"
+GetVariable
+Push "characterColorState"
+GetMember
+Push "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "krinChangeColor"
+CallMethod
+Pop
+Push "hitTarget"
+GetVariable
+Push "inner"
+GetMember
+Push "filters", "DFTF"
+GetVariable
+SetMember
+GoToLabel "none"

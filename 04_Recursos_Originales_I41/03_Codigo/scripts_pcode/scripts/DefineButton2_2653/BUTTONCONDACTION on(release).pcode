@@ -1,0 +1,680 @@
+ConstantPool "arenaMode", "currentArenaPlayer", "_root", "Krin", "dataMode", "load", "arenaPlayer1", "Object", "questProgress", "Array", "PER", "Physical", "Magic", "Ice", "Fire", "Lightning", "Earth", "Shadow", "Poison", "DEF", "agArray0", "agArray1", "agArray2", "agArray3", "agArray4", "agArray5", "agMode", "moveMatrix", "moveMatrix2", "moveMatrix2Limit", "talentMainArray", "skillAdderMatrix", "skillAdderMatrixOld", "buffAdderMatrix", "itemArray", "friendArray", "LevelStats", "equipArray0", "equipArray1", "equipArray2", "equipArray3", "equipArray4", "equipArray5", "PerSets0", "PerSets1", "PerSets2", "PerSets3", "PerSets4", "PerSets5", "DefSets0", "DefSets1", "DefSets2", "DefSets3", "DefSets4", "DefSets5", "StatSets0", "StatSets1", "StatSets2", "StatSets3", "StatSets4", "StatSets5", "friendArrayX", "ExpSets", "ClassStats", "arenaPlayer2"
+Push "arenaMode", true
+SetVariable
+Push "currentArenaPlayer", 1
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "dataMode", "load"
+SetMember
+Push "arenaPlayer1", 0.0, "Object"
+NewObject
+SetVariable
+Push "arenaPlayer1"
+GetVariable
+Push "questProgress", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER", 0.0, "Object"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Physical", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Magic", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Ice", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Fire", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Lightning", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Earth", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Shadow", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PER"
+GetMember
+Push "Poison", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF", 0.0, "Object"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Physical", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Magic", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Ice", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Fire", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Lightning", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Earth", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Shadow", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DEF"
+GetMember
+Push "Poison", 100
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agArray5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "agMode", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "moveMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "moveMatrix2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "moveMatrix2Limit", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "talentMainArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "skillAdderMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "skillAdderMatrixOld", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "buffAdderMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "itemArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "friendArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "LevelStats", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "equipArray5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "PerSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "DefSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "StatSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "friendArrayX", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "ExpSets", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer1"
+GetVariable
+Push "ClassStats", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2", 0.0, "Object"
+NewObject
+SetVariable
+Push "arenaPlayer2"
+GetVariable
+Push "questProgress", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER", 0.0, "Object"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Physical", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Magic", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Ice", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Fire", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Lightning", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Earth", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Shadow", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PER"
+GetMember
+Push "Poison", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF", 0.0, "Object"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Physical", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Magic", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Ice", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Fire", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Lightning", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Earth", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Shadow", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DEF"
+GetMember
+Push "Poison", 100
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agArray5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "agMode", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "moveMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "moveMatrix2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "moveMatrix2Limit", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "talentMainArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "skillAdderMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "skillAdderMatrixOld", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "buffAdderMatrix", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "itemArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "friendArray", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "LevelStats", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "equipArray5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "PerSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "DefSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets0", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets1", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets2", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets3", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets4", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "StatSets5", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "friendArrayX", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "ExpSets", 0.0, "Array"
+NewObject
+SetMember
+Push "arenaPlayer2"
+GetVariable
+Push "ClassStats", 0.0, "Array"
+NewObject
+SetMember
+GoToLabel "dataMenu"

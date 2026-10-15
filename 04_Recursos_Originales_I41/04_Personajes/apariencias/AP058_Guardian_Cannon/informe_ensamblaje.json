@@ -1,0 +1,397 @@
+{
+ "spec": {
+  "model": "MODEL8",
+  "skin": "HYDRA3",
+  "hair": "",
+  "gender": "M",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "unidad_KNU",
+    "KNU": 70,
+    "nombre": "Guardian Cannon",
+    "linea": 9068,
+    "model_por_defecto": false
+   },
+   {
+    "tipo": "catalogo_mod",
+    "indice": 61,
+    "nombre": "Guardian Cannon",
+    "linea": 13878
+   }
+  ],
+  "name": "AP058_Guardian_Cannon",
+  "nombres": [
+   "Guardian Cannon"
+  ]
+ },
+ "model_id_original": 2299,
+ "model_reconstruido_id": 4413,
+ "export_reconstruido": "RECON_AP058_Guardian_Cannon",
+ "huesos": {
+  "hand1": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_HYDRA3",
+     "characterId": 2234
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHAND_HYDRA3",
+     "characterId": 2234
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SLEG2_HYDRA3",
+     "characterId": 2232
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SCHEST_HYDRA3",
+     "characterId": 2230
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SFOOT_HYDRA3",
+     "characterId": 2228
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "M_SHEAD_HYDRA3",
+     "characterId": 2223
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "M_SHEAD_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2223
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "M_SCHEST_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2230
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "M_SARM_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "M_SARM_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "M_SHAND_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2234
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "M_SHAND_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2234
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "M_SARM_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "M_SARM_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "M_SLEG2_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2232
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "M_SLEG2_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2232
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "M_SFOOT_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2228
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "M_SFOOT_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 2228
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_SWEAPON_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_SWEAPON_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "M_SSHOULDER_HYDRA3",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "arm1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "arm2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "leg4",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "foot2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "weapon1",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "weapon2",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  },
+  {
+   "instancia": "shoulder",
+   "aviso": "el MODEL no tiene instancia con este nombre"
+  }
+ ],
+ "placeobject_parcheados": 6,
+ "notas": [],
+ "definiciones_copiadas": 45,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

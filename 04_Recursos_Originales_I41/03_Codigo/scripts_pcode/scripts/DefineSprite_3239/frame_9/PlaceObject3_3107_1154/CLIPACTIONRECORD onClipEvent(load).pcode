@@ -1,0 +1,103 @@
+ConstantPool "prx", "_root", "Krin", "friendlySlotsFFTT", "", "exp", "ExpSets", "exp2", "Math", "round", "LevelStats", "EnemyXPFinal", "expWorkOut", "setLimiter", "adderPer", "totalXP", "namerI", "NameSets", "levelI", "KrinLang", "KLangChoosen", "MENU"
+Push "prx", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "friendlySlotsFFTT"
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "prx"
+GetVariable
+Push undefined
+Equals2
+Not
+If loc00f5
+Push "", 7, false
+SetProperty
+Jump loc01f4
+loc00f5:Push "exp", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "ExpSets"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+SetVariable
+Push "exp2", "exp"
+GetVariable
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "EnemyXPFinal"
+GetMember
+Push 2, "_root"
+GetVariable
+Push "expWorkOut"
+CallMethod
+Pop
+Push "setLimiter", 30
+SetVariable
+Push "adderPer", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "totalXP"
+GetMember
+Push "setLimiter"
+GetVariable
+Divide
+SetVariable
+Push "namerI", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "NameSets"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+SetVariable
+Push "levelI", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 0.0
+GetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "LevelStats"
+GetMember
+Push "prx"
+GetVariable
+GetMember
+Add2
+SetVariable
+loc01f4:

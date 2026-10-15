@@ -1,0 +1,51 @@
+ConstantPool "_root", "slot", "slotSaveGO", "data", "nameUser", "krinHandleData", "Krin", "slotInUse", "flush"
+Push "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "slotSaveGO"
+GetMember
+Add2
+GetMember
+Push "data"
+GetMember
+Push "nameUser"
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc00ed
+Push "_root"
+GetVariable
+Push "slotSaveGO"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "krinHandleData"
+CallMethod
+Pop
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "slotInUse", "_root"
+GetVariable
+Push "slotSaveGO"
+GetMember
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "slot", "_root"
+GetVariable
+Push "slotSaveGO"
+GetMember
+Add2
+GetMember
+Push "flush"
+CallMethod
+Pop
+GoToLabel "Navigation"
+Jump loc00f9
+loc00ed:GoToLabel "mainMenu"
+loc00f9:

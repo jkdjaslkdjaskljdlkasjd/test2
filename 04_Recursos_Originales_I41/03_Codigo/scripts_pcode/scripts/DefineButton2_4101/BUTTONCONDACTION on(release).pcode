@@ -1,0 +1,18 @@
+ConstantPool "canUse", "_root", "Krin", "sectionIn", "sectionID", "Navigation", "gotoAndStop"
+Push "canUse"
+GetVariable
+Not
+If loc0077
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "sectionIn", "sectionID"
+GetVariable
+SetMember
+Push "Navigation", 1, "_root"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0077:

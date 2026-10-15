@@ -1,0 +1,28 @@
+ConstantPool "PvPCodeLode", "_root", "playerToLoadforPvP", "LOAD", "krinNavFadeSpeech", "gotoAndStop", "_visible", "naxTevt2", "selectable"
+Push "PvPCodeLode"
+GetVariable
+Not
+Not
+If loc00c6
+Push "_root"
+GetVariable
+Push "playerToLoadforPvP", 1
+SetMember
+Push "LOAD", 1, "krinNavFadeSpeech"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "krinNavFadeSpeech"
+GetVariable
+Push "_visible", true
+SetMember
+Push "krinNavFadeSpeech"
+GetVariable
+Push "naxTevt2"
+GetMember
+Push "selectable", true
+SetMember
+Push "PvPCodeLode", true
+SetVariable
+loc00c6:

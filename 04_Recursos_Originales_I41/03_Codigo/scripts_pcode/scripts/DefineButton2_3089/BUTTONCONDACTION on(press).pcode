@@ -1,0 +1,13 @@
+ConstantPool "_root", "KrinScreen", "_visible", "krinNavTutSpeech"
+GoToLabel "hide"
+Push "_root"
+GetVariable
+Push "KrinScreen"
+GetMember
+Push "_visible", true
+SetMember
+Push 0.0, "_root"
+GetVariable
+Push "krinNavTutSpeech"
+CallMethod
+Pop

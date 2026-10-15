@@ -1,0 +1,42 @@
+ConstantPool "Krin", "ClassStats", "Class", "BattlePick", "progressFight", "soundPlayCounter", "bangStart", "moveMatrix", "cutsceneSequence", "CS_INTRO2"
+Push "Krin"
+GetVariable
+Push "ClassStats"
+GetMember
+Push 0.0, "Krin"
+GetVariable
+Push "Class"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "BattlePick", 2
+SetMember
+Push "Krin"
+GetVariable
+Push "progressFight", false
+SetMember
+Push "soundPlayCounter", 1
+SetVariable
+Push "bangStart", true
+SetVariable
+Push "Krin"
+GetVariable
+Push "moveMatrix"
+GetMember
+Push 0.0, 21
+SetMember
+Push "Krin"
+GetVariable
+Push "moveMatrix"
+GetMember
+Push 1, 22
+SetMember
+Push "Krin"
+GetVariable
+Push "cutsceneSequence", "CS_INTRO2"
+SetMember
+GoToLabel "LOADBATTLESCENE"
+Play

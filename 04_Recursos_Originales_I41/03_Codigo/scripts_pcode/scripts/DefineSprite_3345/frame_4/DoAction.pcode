@@ -1,0 +1,187 @@
+ConstantPool "_root", "BATTLESCREEN", "zoomPoint", "zoomReverse", "_x", "_y", "KrinSettings", "__hdCamSync", "scaleXGo", "scaleYGo", "zoomTime", "zoomXGo", "zoomYGo", "_xscale", "_yscale", "zoomPauseCounter", "zoomPointX", "zoomPointY", "zoomScaleX", "zoomScaleY", "_quality", "QUALITY", "saverX", "saverY", "SFX3"
+Push "zoomXGo", "zoomPointX"
+GetVariable
+Push "zoomPoint"
+GetVariable
+Multiply
+SetVariable
+Push "zoomYGo", "zoomPointY"
+GetVariable
+Push "zoomPoint"
+GetVariable
+Multiply
+SetVariable
+Push "scaleXGo", "zoomScaleX"
+GetVariable
+Push "zoomPoint"
+GetVariable
+Multiply
+SetVariable
+Push "scaleYGo", "zoomScaleY"
+GetVariable
+Push "zoomPoint"
+GetVariable
+Multiply
+SetVariable
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x"
+GetMember
+Push "zoomXGo"
+GetVariable
+Push "zoomReverse"
+GetVariable
+Multiply
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y"
+GetMember
+Push "zoomYGo"
+GetVariable
+Push "zoomReverse"
+GetVariable
+Multiply
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_xscale", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_xscale"
+GetMember
+Push "scaleXGo"
+GetVariable
+Push "zoomReverse"
+GetVariable
+Multiply
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_yscale", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_yscale"
+GetMember
+Push "scaleYGo"
+GetVariable
+Push "zoomReverse"
+GetVariable
+Multiply
+Add2
+SetMember
+Push "zoomPoint", "zoomPoint"
+GetVariable
+Decrement
+SetVariable
+Push "zoomPoint"
+GetVariable
+Push "zoomTime"
+GetVariable
+Push 1
+Add2
+Equals2
+Not
+If loc0216
+Push "zoomPoint", 0
+SetVariable
+loc0216:Push "zoomPoint"
+GetVariable
+Push 0
+Greater
+Not
+If loc0241
+GoToLabel "KrinZoomPlay"
+Play
+Jump loc0317
+loc0241:Push "zoomReverse"
+GetVariable
+Push 1
+Equals2
+Not
+If loc028c
+Push "zoomReverse", -1
+SetVariable
+Push "zoomPoint", "zoomTime"
+GetVariable
+SetVariable
+Push "zoomPauseCounter", 0
+SetVariable
+GoToLabel "KrinZoomPause"
+Play
+Jump loc0317
+loc028c:Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_x", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "saverX"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "_y", "_root"
+GetVariable
+Push "BATTLESCREEN"
+GetMember
+Push "saverY"
+GetMember
+SetMember
+Push "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "SFX3"
+GetMember
+Push false
+Equals2
+Not
+If loc0307
+Push "_root"
+GetVariable
+Push "_quality", "_root"
+GetVariable
+Push "KrinSettings"
+GetMember
+Push "QUALITY"
+GetMember
+SetMember
+loc0307:GoToLabel "KrinZoomStop"
+loc0317:Push "_root"
+GetVariable
+Push "__hdCamSync"
+GetMember
+Not
+If loc033b
+Push 0, "_root"
+GetVariable
+Push "__hdCamSync"
+CallMethod
+Pop
+loc033b:

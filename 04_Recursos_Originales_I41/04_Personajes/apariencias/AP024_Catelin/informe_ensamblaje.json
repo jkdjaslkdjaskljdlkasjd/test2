@@ -1,0 +1,471 @@
+{
+ "spec": {
+  "model": "MODEL4",
+  "skin": "SIX",
+  "hair": "THURMAN",
+  "gender": "F",
+  "equip": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "fuentes": [
+   {
+    "tipo": "miembro_equipo_sin_objetos",
+    "indice": 5,
+    "nombre": "Catelin"
+   }
+  ],
+  "name": "AP024_Catelin",
+  "nombres": [
+   "Catelin"
+  ]
+ },
+ "model_id_original": 2452,
+ "model_reconstruido_id": 4422,
+ "export_reconstruido": "RECON_AP024_Catelin",
+ "huesos": {
+  "arm2": {
+   "sprite_reconstruido": 4407,
+   "profundidades_en_model": [
+    3
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_SIX",
+     "characterId": 953
+    }
+   ]
+  },
+  "hand2": {
+   "sprite_reconstruido": 4408,
+   "profundidades_en_model": [
+    5
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHAND_SIX",
+     "characterId": 947
+    }
+   ]
+  },
+  "weapon2": {
+   "sprite_reconstruido": 4409,
+   "profundidades_en_model": [
+    7
+   ],
+   "contenido": []
+  },
+  "foot2": {
+   "sprite_reconstruido": 4410,
+   "profundidades_en_model": [
+    9
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SFOOT_SIX",
+     "characterId": 949
+    }
+   ]
+  },
+  "leg2": {
+   "sprite_reconstruido": 4411,
+   "profundidades_en_model": [
+    11
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_SIX",
+     "characterId": 953
+    }
+   ]
+  },
+  "leg4": {
+   "sprite_reconstruido": 4412,
+   "profundidades_en_model": [
+    13
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SLEG2_SIX",
+     "characterId": 941
+    }
+   ]
+  },
+  "foot1": {
+   "sprite_reconstruido": 4413,
+   "profundidades_en_model": [
+    15
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SFOOT_SIX",
+     "characterId": 949
+    }
+   ]
+  },
+  "leg1": {
+   "sprite_reconstruido": 4414,
+   "profundidades_en_model": [
+    17
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_SIX",
+     "characterId": 953
+    }
+   ]
+  },
+  "leg3": {
+   "sprite_reconstruido": 4415,
+   "profundidades_en_model": [
+    19
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SLEG2_SIX",
+     "characterId": 941
+    }
+   ]
+  },
+  "chest": {
+   "sprite_reconstruido": 4416,
+   "profundidades_en_model": [
+    21
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SCHEST_SIX",
+     "characterId": 951
+    }
+   ]
+  },
+  "arm1": {
+   "sprite_reconstruido": 4417,
+   "profundidades_en_model": [
+    23
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SARM_SIX",
+     "characterId": 953
+    }
+   ]
+  },
+  "head": {
+   "sprite_reconstruido": 4418,
+   "profundidades_en_model": [
+    25
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHEAD_SIX",
+     "characterId": 945
+    },
+    {
+     "profundidad_as2": 2,
+     "profundidad_timeline": 16386,
+     "nombre": "hair",
+     "linkage": "HAIR_THURMAN",
+     "characterId": 883
+    }
+   ]
+  },
+  "shoulder": {
+   "sprite_reconstruido": 4419,
+   "profundidades_en_model": [
+    27
+   ],
+   "contenido": []
+  },
+  "weapon1": {
+   "sprite_reconstruido": 4420,
+   "profundidades_en_model": [
+    29
+   ],
+   "contenido": []
+  },
+  "hand1": {
+   "sprite_reconstruido": 4421,
+   "profundidades_en_model": [
+    31
+   ],
+   "contenido": [
+    {
+     "profundidad_as2": -1,
+     "profundidad_timeline": 16383,
+     "nombre": "innerX",
+     "linkage": "F_SHAND_SIX",
+     "characterId": 947
+    }
+   ]
+  }
+ },
+ "attachMovie_log": [
+  {
+   "instancia": "head",
+   "attachMovie": "F_SHEAD_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 945
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "chest",
+   "attachMovie": "F_SCHEST_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 951
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "arm1",
+   "attachMovie": "F_SARM_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 953
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "arm2",
+   "attachMovie": "F_SARM_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 953
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "hand1",
+   "attachMovie": "F_SHAND_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 947
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "hand2",
+   "attachMovie": "F_SHAND_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 947
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "leg1",
+   "attachMovie": "F_SARM_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 953
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "leg2",
+   "attachMovie": "F_SARM_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 953
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "leg3",
+   "attachMovie": "F_SLEG2_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 941
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "leg4",
+   "attachMovie": "F_SLEG2_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 941
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "foot1",
+   "attachMovie": "F_SFOOT_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 949
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "foot2",
+   "attachMovie": "F_SFOOT_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": true,
+   "characterId": 949
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "F_SWEAPON_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "weapon1",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "F_SWEAPON_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  },
+  {
+   "instancia": "weapon2",
+   "attachMovie": "M_WEAPON_0",
+   "profundidad_as2": 0,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "shoulder",
+   "attachMovie": "F_SSHOULDER_SIX",
+   "profundidad_as2": -1,
+   "existe_en_biblioteca": false,
+   "characterId": null
+  },
+  {
+   "instancia": "head",
+   "attachMovie": "HAIR_THURMAN",
+   "profundidad_as2": 2,
+   "existe_en_biblioteca": true,
+   "characterId": 883
+  }
+ ],
+ "placeobject_parcheados": 15,
+ "notas": [],
+ "definiciones_copiadas": 56,
+ "nota": "Bytes de definiciones originales copiados sin cambios; solo se añaden sprites-hueso y una copia del MODEL con characterId de huesos sustituido."
+}

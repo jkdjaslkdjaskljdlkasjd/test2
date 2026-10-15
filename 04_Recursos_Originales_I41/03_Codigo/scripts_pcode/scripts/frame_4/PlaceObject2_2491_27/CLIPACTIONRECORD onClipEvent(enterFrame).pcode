@@ -1,0 +1,18 @@
+ConstantPool "_root", "getBytesLoaded", "getBytesTotal", "nextFrame"
+Push 0.0, "_root"
+GetVariable
+Push "getBytesLoaded"
+CallMethod
+Push 0.0, "_root"
+GetVariable
+Push "getBytesTotal"
+CallMethod
+Equals2
+Not
+If loc0079
+Push 0.0, "_root"
+GetVariable
+Push "nextFrame"
+CallMethod
+Pop
+loc0079:

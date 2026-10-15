@@ -1,0 +1,7 @@
+Push "mx.skins.Border"
+GetVariable
+Push "Border", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop

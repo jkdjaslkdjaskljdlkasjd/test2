@@ -1,0 +1,15 @@
+ConstantPool "this", "__nzZoneReady", "_visible", "_root", "plaza"
+Push "this"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "__nzZoneReady"
+CallMethod
+Pop
+Push "this"
+GetVariable
+Push "plaza"
+GetMember
+Push "_visible", false
+SetMember
+Stop

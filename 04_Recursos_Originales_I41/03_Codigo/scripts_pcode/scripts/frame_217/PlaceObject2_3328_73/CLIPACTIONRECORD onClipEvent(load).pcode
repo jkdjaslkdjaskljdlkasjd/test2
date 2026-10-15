@@ -1,0 +1,11 @@
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "SkyBG"
+GetMember
+Push 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop

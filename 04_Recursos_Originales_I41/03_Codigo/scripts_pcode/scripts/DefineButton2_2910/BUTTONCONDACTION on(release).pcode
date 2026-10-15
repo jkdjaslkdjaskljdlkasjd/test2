@@ -1,0 +1,21 @@
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "PauseForScreen"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc0086
+Push "inventory", 1, "KRINMENU"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "KrinScreen"
+GetVariable
+Push "_visible", false
+SetMember
+loc0086:

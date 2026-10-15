@@ -1,0 +1,27 @@
+DefineFunction "__f_initialize", 1, "eventObj"  {
+Push "icon", ""
+SetVariable
+Push "label", "Button"
+SetVariable
+Push "labelPlacement", "right"
+SetVariable
+Push "selected", false
+SetVariable
+Push "toggle", false
+SetVariable
+Push "enabled", true
+SetVariable
+Push "visible", true
+SetVariable
+Push "minHeight", 0.0
+SetVariable
+Push "minWidth", 0.0
+SetVariable
+}
+Push "__f_initialize"
+GetVariable
+Push "initialize", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop

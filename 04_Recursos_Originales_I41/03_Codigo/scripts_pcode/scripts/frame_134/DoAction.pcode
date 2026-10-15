@@ -1,0 +1,85 @@
+ConstantPool "credit_1", "_root", "KrinLang", "KLangChoosen", "MENU", "credit_2", "credit_3", "credit_4", "credit_5", "credit_6", "credit_7"
+Push "credit_1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 92
+GetMember
+SetVariable
+Push "credit_2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 93
+GetMember
+SetVariable
+Push "credit_3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 94
+GetMember
+SetVariable
+Push "credit_4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 95
+GetMember
+SetVariable
+Push "credit_5", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 96
+GetMember
+SetVariable
+Push "credit_6", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 97
+GetMember
+SetVariable
+Push "credit_7", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MENU"
+GetMember
+Push 98
+GetMember
+SetVariable

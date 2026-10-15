@@ -1,0 +1,24 @@
+ConstantPool "", "gotoAndStop", "BattlePick", "save_x1", "save_x2", "_root", "HIDE", "this", "Krin"
+Push "HIDE", 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "save_x1", "", 0
+GetProperty
+SetVariable
+Push "save_x2", 139.16
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "BattlePick"
+GetMember
+Push 2
+Equals2
+Not
+If loc00a1
+Push "", 7, false
+SetProperty
+loc00a1:

@@ -1,0 +1,7635 @@
+{
+ "0": {
+  "id": 0,
+  "nombre_interno": "None",
+  "ranura_b": 0,
+  "rareza": "Common",
+  "args": [
+   "\"None\"",
+   "0",
+   "\"Common\"",
+   "0",
+   "0",
+   "1"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 10681
+ },
+ "1": {
+  "id": 1,
+  "nombre_interno": "Tool",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Tool\"",
+   "0",
+   "\"Uncommon\"",
+   "-1",
+   "0",
+   "1"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 10682
+ },
+ "2": {
+  "id": 2,
+  "nombre_interno": "Sword",
+  "ranura_b": 2,
+  "rareza": "Rare",
+  "args": [
+   "\"Sword\"",
+   "2",
+   "\"Rare\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10690
+ },
+ "3": {
+  "id": 3,
+  "nombre_interno": "Mace",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Mace\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "SWORD1",
+  "looks_origen": "gghhjjuu.looks l.10698",
+  "linea": 10697
+ },
+ "4": {
+  "id": 4,
+  "nombre_interno": "Jeans",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Jeans\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JEANS",
+  "looks_origen": "gghhjjuu.looks l.10702",
+  "linea": 10701
+ },
+ "5": {
+  "id": 5,
+  "nombre_interno": "A Broken Pipe",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"A Broken Pipe\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "PIPE",
+  "looks_origen": "gghhjjuu.looks l.10706",
+  "linea": 10705
+ },
+ "6": {
+  "id": 6,
+  "nombre_interno": "Fire Axe",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Fire Axe\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FIREAXE",
+  "looks_origen": "gghhjjuu.looks l.10710",
+  "linea": 10709
+ },
+ "7": {
+  "id": 7,
+  "nombre_interno": "Crow Bar",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Crow Bar\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "CROWBAR",
+  "looks_origen": "gghhjjuu.looks l.10714",
+  "linea": 10713
+ },
+ "8": {
+  "id": 8,
+  "nombre_interno": "Converse All Stars",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Converse All Stars\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JEANS",
+  "looks_origen": "gghhjjuu.looks l.10718",
+  "linea": 10717
+ },
+ "9": {
+  "id": 9,
+  "nombre_interno": "Engineering Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Engineering Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "ENGINEERINGGLOVES",
+  "looks_origen": "gghhjjuu.looks l.10723",
+  "linea": 10722
+ },
+ "10": {
+  "id": 10,
+  "nombre_interno": "Navy Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Navy Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NAVY",
+  "looks_origen": "gghhjjuu.looks l.10728",
+  "linea": 10727
+ },
+ "11": {
+  "id": 11,
+  "nombre_interno": "White T-Shirt",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"White T-Shirt\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "SHIRT",
+  "looks_origen": "gghhjjuu.looks l.10732",
+  "linea": 10731
+ },
+ "12": {
+  "id": 12,
+  "nombre_interno": "Stick",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Stick\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "STICK",
+  "looks_origen": "gghhjjuu.looks l.10735",
+  "linea": 10734
+ },
+ "13": {
+  "id": 13,
+  "nombre_interno": "M4",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"M4\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "3",
+   "1"
+  ],
+  "looks": "M4",
+  "looks_origen": "gghhjjuu.looks l.10741",
+  "linea": 10740
+ },
+ "14": {
+  "id": 14,
+  "nombre_interno": "Metal Baton",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Metal Baton\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "BATON",
+  "looks_origen": "gghhjjuu.looks l.10747",
+  "linea": 10746
+ },
+ "15": {
+  "id": 15,
+  "nombre_interno": "Hans the Butcher",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Hans the Butcher\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FRANKEN",
+  "looks_origen": "gghhjjuu.looks l.10753",
+  "linea": 10752
+ },
+ "16": {
+  "id": 16,
+  "nombre_interno": "Surgery Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Surgery Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "DOCKNIFE",
+  "looks_origen": "gghhjjuu.looks l.10759",
+  "linea": 10758
+ },
+ "17": {
+  "id": 17,
+  "nombre_interno": "Scientist Robe",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Scientist Robe\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "MADSCI",
+  "looks_origen": "gghhjjuu.looks l.10765",
+  "linea": 10764
+ },
+ "18": {
+  "id": 18,
+  "nombre_interno": "Scientist Sleeves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Scientist Sleeves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "MADSCI",
+  "looks_origen": "gghhjjuu.looks l.10771",
+  "linea": 10770
+ },
+ "19": {
+  "id": 19,
+  "nombre_interno": "Frankie Body",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Frankie Body\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FRANKEN",
+  "looks_origen": "gghhjjuu.looks l.10776",
+  "linea": 10775
+ },
+ "20": {
+  "id": 20,
+  "nombre_interno": "Frankie Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Frankie Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FRANKEN2",
+  "looks_origen": "gghhjjuu.looks l.10781",
+  "linea": 10780
+ },
+ "21": {
+  "id": 21,
+  "nombre_interno": "Frankie Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Frankie Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FRANKEN",
+  "looks_origen": "gghhjjuu.looks l.10786",
+  "linea": 10785
+ },
+ "22": {
+  "id": 22,
+  "nombre_interno": "Felicity\\'s Knife",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Felicity\\'s Knife\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "FELKNIFE",
+  "looks_origen": "gghhjjuu.looks l.10791",
+  "linea": 10790
+ },
+ "23": {
+  "id": 23,
+  "nombre_interno": "Tank",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Tank\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SHIRT2",
+  "looks_origen": "gghhjjuu.looks l.10798",
+  "linea": 10797
+ },
+ "24": {
+  "id": 24,
+  "nombre_interno": "Physical DPS",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Physical DPS\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SHIRT3",
+  "looks_origen": "gghhjjuu.looks l.10804",
+  "linea": 10803
+ },
+ "25": {
+  "id": 25,
+  "nombre_interno": "Magic DPS",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Magic DPS\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SHIRT4",
+  "looks_origen": "gghhjjuu.looks l.10813",
+  "linea": 10812
+ },
+ "26": {
+  "id": 26,
+  "nombre_interno": "Piercing",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Piercing\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SHIRT5",
+  "looks_origen": "gghhjjuu.looks l.10820",
+  "linea": 10819
+ },
+ "27": {
+  "id": 27,
+  "nombre_interno": "Tat Shirt",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Tat Shirt\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "TAT2",
+  "looks_origen": "gghhjjuu.looks l.10826",
+  "linea": 10825
+ },
+ "28": {
+  "id": 28,
+  "nombre_interno": "Tat Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Tat Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.10832",
+  "linea": 10831
+ },
+ "29": {
+  "id": 29,
+  "nombre_interno": "Tat Glove",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Tat Glove\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.10838",
+  "linea": 10837
+ },
+ "30": {
+  "id": 30,
+  "nombre_interno": "Tat Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Tat Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.10844",
+  "linea": 10843
+ },
+ "31": {
+  "id": 31,
+  "nombre_interno": "Tat Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Tat Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.10850",
+  "linea": 10849
+ },
+ "32": {
+  "id": 32,
+  "nombre_interno": "Gay Pants/Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Gay Pants/Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "GAY",
+  "looks_origen": "gghhjjuu.looks l.10854",
+  "linea": 10853
+ },
+ "33": {
+  "id": 33,
+  "nombre_interno": "Gay Hat",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Gay Hat\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "TUX",
+  "looks_origen": "gghhjjuu.looks l.10858",
+  "linea": 10857
+ },
+ "34": {
+  "id": 34,
+  "nombre_interno": "Medic Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Chest\"",
+   "3",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.10866",
+  "linea": 10865
+ },
+ "35": {
+  "id": 35,
+  "nombre_interno": "Medic Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Legs\"",
+   "5",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.10874",
+  "linea": 10873
+ },
+ "36": {
+  "id": 36,
+  "nombre_interno": "Medic Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Hands\"",
+   "4",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.10881",
+  "linea": 10880
+ },
+ "37": {
+  "id": 37,
+  "nombre_interno": "Medic Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Feet\"",
+   "6",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.10889",
+  "linea": 10888
+ },
+ "38": {
+  "id": 38,
+  "nombre_interno": "Medic Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Head\"",
+   "2",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.10897",
+  "linea": 10896
+ },
+ "39": {
+  "id": 39,
+  "nombre_interno": "Gun",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Gun\"",
+   "9",
+   "\"Common\"",
+   "4",
+   "1",
+   "1"
+  ],
+  "looks": "M4",
+  "looks_origen": "gghhjjuu.looks l.10904",
+  "linea": 10903
+ },
+ "100": {
+  "id": 100,
+  "nombre_interno": "Dull Sword",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Dull Sword\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10909
+ },
+ "101": {
+  "id": 101,
+  "nombre_interno": "Bent Dagger",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Bent Dagger\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10912
+ },
+ "102": {
+  "id": 102,
+  "nombre_interno": "Splintered Staff",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Splintered Staff\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10914
+ },
+ "103": {
+  "id": 103,
+  "nombre_interno": "Hip Vest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Hip Vest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10917
+ },
+ "104": {
+  "id": 104,
+  "nombre_interno": "Trendy Jeans",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Trendy Jeans\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10920
+ },
+ "105": {
+  "id": 105,
+  "nombre_interno": "Voodoo Football Club Hat",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Voodoo Football Club Hat\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10922
+ },
+ "106": {
+  "id": 106,
+  "nombre_interno": "Pumos",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Pumos\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10925
+ },
+ "107": {
+  "id": 107,
+  "nombre_interno": "Guard\\'s Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "3"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10928
+ },
+ "108": {
+  "id": 108,
+  "nombre_interno": "Guard\\'s Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "3"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10931
+ },
+ "109": {
+  "id": 109,
+  "nombre_interno": "Padded Pants",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Padded Pants\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "2",
+   "3"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10934
+ },
+ "110": {
+  "id": 110,
+  "nombre_interno": "Padded Straightjacket",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Padded Straightjacket\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "2",
+   "2"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10937
+ },
+ "111": {
+  "id": 111,
+  "nombre_interno": "Patterned Pants",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Patterned Pants\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "2",
+   "3"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10940
+ },
+ "112": {
+  "id": 112,
+  "nombre_interno": "Headband",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Headband\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "2",
+   "4"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10943
+ },
+ "113": {
+  "id": 113,
+  "nombre_interno": "Bandana",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Bandana\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "2",
+   "4"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10946
+ },
+ "114": {
+  "id": 114,
+  "nombre_interno": "Patterned Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Patterned Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "3",
+   "7"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10949
+ },
+ "115": {
+  "id": 115,
+  "nombre_interno": "Welder\\'s Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Welder\\'s Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "3",
+   "6"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10953
+ },
+ "116": {
+  "id": 116,
+  "nombre_interno": "High Voltage Gloves",
+  "ranura_b": 4,
+  "rareza": "Uncommon",
+  "args": [
+   "\"High Voltage Gloves\"",
+   "4",
+   "\"Uncommon\"",
+   "0",
+   "3",
+   "6"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10957
+ },
+ "117": {
+  "id": 117,
+  "nombre_interno": "High Voltage Boots",
+  "ranura_b": 6,
+  "rareza": "Uncommon",
+  "args": [
+   "\"High Voltage Boots\"",
+   "6",
+   "\"Uncommon\"",
+   "0",
+   "3",
+   "8"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10961
+ },
+ "118": {
+  "id": 118,
+  "nombre_interno": "Executioner\\'s Axe",
+  "ranura_b": 9,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Executioner\\'s Axe\"",
+   "9",
+   "\"Uncommon\"",
+   "0",
+   "3",
+   "10"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10964
+ },
+ "119": {
+  "id": 119,
+  "nombre_interno": "Warden\\'s Grasp",
+  "ranura_b": 4,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Grasp\"",
+   "4",
+   "\"Uncommon\"",
+   "0",
+   "3",
+   "9"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10967
+ },
+ "120": {
+  "id": 120,
+  "nombre_interno": "Sphere of Influence",
+  "ranura_b": 8,
+  "rareza": "Rare",
+  "args": [
+   "\"Sphere of Influence\"",
+   "8",
+   "\"Rare\"",
+   "0",
+   "3",
+   "9"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10970
+ },
+ "121": {
+  "id": 121,
+  "nombre_interno": "Stun Baton",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Stun Baton\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "4",
+   "16"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10972
+ },
+ "122": {
+  "id": 122,
+  "nombre_interno": "Helm of Oversight",
+  "ranura_b": 2,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Helm of Oversight\"",
+   "2",
+   "\"Uncommon\"",
+   "0",
+   "4",
+   "14"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10975
+ },
+ "123": {
+  "id": 123,
+  "nombre_interno": "Overseer\\'s Might",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Overseer\\'s Might\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "4",
+   "17"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10978
+ },
+ "124": {
+  "id": 124,
+  "nombre_interno": "Overseer\\'s Guile",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Overseer\\'s Guile\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "4",
+   "17"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10981
+ },
+ "125": {
+  "id": 125,
+  "nombre_interno": "Frosted Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "4",
+   "15"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10985
+ },
+ "126": {
+  "id": 126,
+  "nombre_interno": "Frosted Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "4",
+   "14"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10987
+ },
+ "127": {
+  "id": 127,
+  "nombre_interno": "Offering of Peace",
+  "ranura_b": 0,
+  "rareza": "Rare",
+  "args": [
+   "\"Offering of Peace\"",
+   "0",
+   "\"Rare\"",
+   "0",
+   "5",
+   "50"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 10988
+ },
+ "128": {
+  "id": 128,
+  "nombre_interno": "Tribal Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Tribal Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "5",
+   "24"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10991
+ },
+ "129": {
+  "id": 129,
+  "nombre_interno": "Tribal Crown",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Tribal Crown\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "5",
+   "22"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 10994
+ },
+ "130": {
+  "id": 130,
+  "nombre_interno": "Zealot\\'s Blade",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Zealot\\'s Blade\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "28"
+  ],
+  "looks": "SWORD1",
+  "looks_origen": "gghhjjuu.looks l.10998",
+  "linea": 10997
+ },
+ "131": {
+  "id": 131,
+  "nombre_interno": "Fanatical Symbol",
+  "ranura_b": 0,
+  "rareza": "Common",
+  "args": [
+   "\"Fanatical Symbol\"",
+   "0",
+   "\"Common\"",
+   "0",
+   "5",
+   "35"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 10999
+ },
+ "132": {
+  "id": 132,
+  "nombre_interno": "Hands of Righteousness",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Hands of Righteousness\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "5",
+   "27"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11002
+ },
+ "133": {
+  "id": 133,
+  "nombre_interno": "Hands of Justice",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Hands of Justice\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "5",
+   "28"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11005
+ },
+ "134": {
+  "id": 134,
+  "nombre_interno": "Sandals of Repentence",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Sandals of Repentence\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "5",
+   "29"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11008
+ },
+ "135": {
+  "id": 135,
+  "nombre_interno": "Bloodied Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Bloodied Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "5",
+   "25"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11011
+ },
+ "136": {
+  "id": 136,
+  "nombre_interno": "Bloodied Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Bloodied Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "5",
+   "25"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11014
+ },
+ "137": {
+  "id": 137,
+  "nombre_interno": "Ice Shard",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Ice Shard\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "6",
+   "36"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11016
+ },
+ "138": {
+  "id": 138,
+  "nombre_interno": "Ice Spear",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Ice Spear\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "6",
+   "52"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11019
+ },
+ "139": {
+  "id": 139,
+  "nombre_interno": "Ardor\\'s Guard",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Ardor\\'s Guard\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "6",
+   "38"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11022
+ },
+ "140": {
+  "id": 140,
+  "nombre_interno": "Visor of Insanity",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Visor of Insanity\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "6",
+   "40"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11026
+ },
+ "141": {
+  "id": 141,
+  "nombre_interno": "Sacrificial Gauntlets",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Sacrificial Gauntlets\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "6",
+   "41"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11029
+ },
+ "142": {
+  "id": 142,
+  "nombre_interno": "Sacrificial Garments",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Sacrificial Garments\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "6",
+   "43"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11032
+ },
+ "143": {
+  "id": 143,
+  "nombre_interno": "Chalice of Divinity",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Chalice of Divinity\"",
+   "0",
+   "\"Uncommon\"",
+   "0",
+   "7",
+   "70"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11033
+ },
+ "144": {
+  "id": 144,
+  "nombre_interno": "Fanatical Sceptre",
+  "ranura_b": 7,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Fanatical Sceptre\"",
+   "7",
+   "\"Uncommon\"",
+   "0",
+   "7",
+   "64"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11036
+ },
+ "145": {
+  "id": 145,
+  "nombre_interno": "Stylin\\' Boots",
+  "ranura_b": 6,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Stylin\\' Boots\"",
+   "6",
+   "\"Uncommon\"",
+   "0",
+   "7",
+   "67"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11039
+ },
+ "146": {
+  "id": 146,
+  "nombre_interno": "Soir Pantaloons",
+  "ranura_b": 5,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Soir Pantaloons\"",
+   "5",
+   "\"Uncommon\"",
+   "0",
+   "7",
+   "73"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11042
+ },
+ "147": {
+  "id": 147,
+  "nombre_interno": "Standard Issue Assault Weapon",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Standard Issue Assault Weapon\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "7",
+   "93"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11045
+ },
+ "148": {
+  "id": 148,
+  "nombre_interno": "Assault Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Assault Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "7",
+   "77"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11048
+ },
+ "149": {
+  "id": 149,
+  "nombre_interno": "ZPCI Body Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"ZPCI Body Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "7",
+   "80"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11051
+ },
+ "150": {
+  "id": 150,
+  "nombre_interno": "Illusionary Headband",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Illusionary Headband\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "7",
+   "81"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11054
+ },
+ "151": {
+  "id": 151,
+  "nombre_interno": "Ghostly Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Ghostly Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "7",
+   "83"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11057
+ },
+ "152": {
+  "id": 152,
+  "nombre_interno": "Ghostly Mace",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Ghostly Mace\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "7",
+   "87"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11060
+ },
+ "153": {
+  "id": 153,
+  "nombre_interno": "ZPCI Stocks",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"ZPCI Stocks\"",
+   "0",
+   "\"Uncommon\"",
+   "0",
+   "8",
+   "103"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11061
+ },
+ "154": {
+  "id": 154,
+  "nombre_interno": "Broken Stick",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Broken Stick\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "8",
+   "12"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11064
+ },
+ "155": {
+  "id": 155,
+  "nombre_interno": "Ragged Pants",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Ragged Pants\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "8",
+   "18"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11067
+ },
+ "156": {
+  "id": 156,
+  "nombre_interno": "Ragged Shirt",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Ragged Shirt\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "8",
+   "17"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11070
+ },
+ "157": {
+  "id": 157,
+  "nombre_interno": "Ghostly Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Ghostly Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "8",
+   "115"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11073
+ },
+ "158": {
+  "id": 158,
+  "nombre_interno": "Ghostly Trousers",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Ghostly Trousers\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "8",
+   "113"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11076
+ },
+ "159": {
+  "id": 159,
+  "nombre_interno": "Cardboard Box",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Cardboard Box\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "8",
+   "4"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11079
+ },
+ "160": {
+  "id": 160,
+  "nombre_interno": "Vodka Bottle",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Vodka Bottle\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "8",
+   "85"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11082
+ },
+ "161": {
+  "id": 161,
+  "nombre_interno": "Nightmare Scythe",
+  "ranura_b": 9,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Nightmare Scythe\"",
+   "9",
+   "\"Uncommon\"",
+   "0",
+   "9",
+   "157"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11085
+ },
+ "162": {
+  "id": 162,
+  "nombre_interno": "Hands of Insanity",
+  "ranura_b": 4,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Hands of Insanity\"",
+   "4",
+   "\"Uncommon\"",
+   "0",
+   "9",
+   "136"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11088
+ },
+ "163": {
+  "id": 163,
+  "nombre_interno": "Doom Treads",
+  "ranura_b": 6,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Doom Treads\"",
+   "6",
+   "\"Uncommon\"",
+   "0",
+   "9",
+   "139"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11092
+ },
+ "164": {
+  "id": 164,
+  "nombre_interno": "Technicolor Goggles",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Technicolor Goggles\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "9",
+   "143"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11097
+ },
+ "165": {
+  "id": 165,
+  "nombre_interno": "Infected Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Infected Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "9",
+   "149"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11100
+ },
+ "166": {
+  "id": 166,
+  "nombre_interno": "Toxic Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Toxic Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "9",
+   "146"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11103
+ },
+ "167": {
+  "id": 167,
+  "nombre_interno": "Toxic Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Toxic Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "9",
+   "142"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11106
+ },
+ "168": {
+  "id": 168,
+  "nombre_interno": "Psychedelic Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Psychedelic Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "9",
+   "140"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11109
+ },
+ "169": {
+  "id": 169,
+  "nombre_interno": "Psychedelic Jeans",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Psychedelic Jeans\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "9",
+   "147"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11112
+ },
+ "170": {
+  "id": 170,
+  "nombre_interno": "Clown Shoes",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Clown Shoes\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "10",
+   "172"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11115
+ },
+ "171": {
+  "id": 171,
+  "nombre_interno": "Clown Mask",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Clown Mask\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "10",
+   "164"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11118
+ },
+ "172": {
+  "id": 172,
+  "nombre_interno": "Clown Nose",
+  "ranura_b": 0,
+  "rareza": "Common",
+  "args": [
+   "\"Clown Nose\"",
+   "0",
+   "\"Common\"",
+   "0",
+   "10",
+   "124"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11119
+ },
+ "173": {
+  "id": 173,
+  "nombre_interno": "Unicorn Horn",
+  "ranura_b": 7,
+  "rareza": "Rare",
+  "args": [
+   "\"Unicorn Horn\"",
+   "7",
+   "\"Rare\"",
+   "0",
+   "10",
+   "199"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11122
+ },
+ "174": {
+  "id": 174,
+  "nombre_interno": "Unicorn Hide",
+  "ranura_b": 3,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Unicorn Hide\"",
+   "3",
+   "\"Uncommon\"",
+   "0",
+   "10",
+   "180"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11125
+ },
+ "175": {
+  "id": 175,
+  "nombre_interno": "Loch Ness Hide ",
+  "ranura_b": 3,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Loch Ness Hide \"",
+   "3",
+   "\"Uncommon\"",
+   "0",
+   "10",
+   "175"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11128
+ },
+ "176": {
+  "id": 176,
+  "nombre_interno": "Loch Ness Scales",
+  "ranura_b": 4,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Loch Ness Scales\"",
+   "4",
+   "\"Uncommon\"",
+   "0",
+   "10",
+   "186"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11131
+ },
+ "177": {
+  "id": 177,
+  "nombre_interno": "Police Pants",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Police Pants\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "11",
+   "205"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11134
+ },
+ "178": {
+  "id": 178,
+  "nombre_interno": "Police Uniform",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Police Uniform\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "11",
+   "213"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11137
+ },
+ "179": {
+  "id": 179,
+  "nombre_interno": "Night Stick",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Night Stick\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "11",
+   "216"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11140
+ },
+ "180": {
+  "id": 180,
+  "nombre_interno": "Uniform Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Uniform Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "11",
+   "209"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11143
+ },
+ "181": {
+  "id": 181,
+  "nombre_interno": "Sniper Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Sniper Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "11",
+   "208"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11146
+ },
+ "182": {
+  "id": 182,
+  "nombre_interno": "Sniper Rifle",
+  "ranura_b": 9,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Sniper Rifle\"",
+   "9",
+   "\"Uncommon\"",
+   "0",
+   "11",
+   "228"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11150
+ },
+ "183": {
+  "id": 183,
+  "nombre_interno": "Infrared Goggles",
+  "ranura_b": 2,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Infrared Goggles\"",
+   "2",
+   "\"Uncommon\"",
+   "0",
+   "11",
+   "235"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11153
+ },
+ "184": {
+  "id": 184,
+  "nombre_interno": "Dog Hide",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Dog Hide\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "12",
+   "253"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11156
+ },
+ "185": {
+  "id": 185,
+  "nombre_interno": "Vicious Tooth",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Vicious Tooth\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "12",
+   "249"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11159
+ },
+ "186": {
+  "id": 186,
+  "nombre_interno": "Handler\\'s Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Handler\\'s Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "12",
+   "252"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11162
+ },
+ "187": {
+  "id": 187,
+  "nombre_interno": "Handler\\'s Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Handler\\'s Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "12",
+   "261"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11165
+ },
+ "188": {
+  "id": 188,
+  "nombre_interno": "Riot Shield",
+  "ranura_b": 8,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Riot Shield\"",
+   "8",
+   "\"Uncommon\"",
+   "0",
+   "12",
+   "270"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11167
+ },
+ "189": {
+  "id": 189,
+  "nombre_interno": "Steel Toe Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Steel Toe Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "12",
+   "247"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11170
+ },
+ "190": {
+  "id": 190,
+  "nombre_interno": "Assault Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Assault Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "12",
+   "282"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11173
+ },
+ "191": {
+  "id": 191,
+  "nombre_interno": "M4B1-Alpha",
+  "ranura_b": 9,
+  "rareza": "Uncommon",
+  "args": [
+   "\"M4B1-Alpha\"",
+   "9",
+   "\"Uncommon\"",
+   "0",
+   "12",
+   "284"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11176
+ },
+ "192": {
+  "id": 192,
+  "nombre_interno": "Commander\\'s Grasp",
+  "ranura_b": 4,
+  "rareza": "Rare",
+  "args": [
+   "\"Commander\\'s Grasp\"",
+   "4",
+   "\"Rare\"",
+   "0",
+   "13",
+   "312"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11179
+ },
+ "193": {
+  "id": 193,
+  "nombre_interno": "Commander\\'s Cap",
+  "ranura_b": 2,
+  "rareza": "Rare",
+  "args": [
+   "\"Commander\\'s Cap\"",
+   "2",
+   "\"Rare\"",
+   "0",
+   "13",
+   "334"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11182
+ },
+ "194": {
+  "id": 194,
+  "nombre_interno": "Colonel\\'s Dog Tags",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Colonel\\'s Dog Tags\"",
+   "0",
+   "\"Uncommon\"",
+   "0",
+   "13",
+   "322"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11183
+ },
+ "195": {
+  "id": 195,
+  "nombre_interno": "Colonel\\'s Seal",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Colonel\\'s Seal\"",
+   "0",
+   "\"Uncommon\"",
+   "0",
+   "13",
+   "315"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11184
+ },
+ "196": {
+  "id": 196,
+  "nombre_interno": "Insignia of the Council",
+  "ranura_b": 0,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Insignia of the Council\"",
+   "0",
+   "\"Uncommon\"",
+   "0",
+   "13",
+   "307"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 11185
+ },
+ "197": {
+  "id": 197,
+  "nombre_interno": "Councillor\\'s Staff",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Councillor\\'s Staff\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "13",
+   "325"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11188
+ },
+ "198": {
+  "id": 198,
+  "nombre_interno": "Councillor\\'s Breaches",
+  "ranura_b": 5,
+  "rareza": "Rare",
+  "args": [
+   "\"Councillor\\'s Breaches\"",
+   "5",
+   "\"Rare\"",
+   "0",
+   "13",
+   "316"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11191
+ },
+ "199": {
+  "id": 199,
+  "nombre_interno": "Gloves of Control",
+  "ranura_b": 4,
+  "rareza": "Rare",
+  "args": [
+   "\"Gloves of Control\"",
+   "4",
+   "\"Rare\"",
+   "0",
+   "13",
+   "328"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11194
+ },
+ "200": {
+  "id": 200,
+  "nombre_interno": "Chamberlain\\'s Mantle",
+  "ranura_b": 3,
+  "rareza": "Rare",
+  "args": [
+   "\"Chamberlain\\'s Mantle\"",
+   "3",
+   "\"Rare\"",
+   "0",
+   "14",
+   "364"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11197
+ },
+ "201": {
+  "id": 201,
+  "nombre_interno": "Slipper of Power",
+  "ranura_b": 6,
+  "rareza": "Rare",
+  "args": [
+   "\"Slipper of Power\"",
+   "6",
+   "\"Rare\"",
+   "0",
+   "14",
+   "375"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11201
+ },
+ "202": {
+  "id": 202,
+  "nombre_interno": "Punishment Rod",
+  "ranura_b": 7,
+  "rareza": "Rare",
+  "args": [
+   "\"Punishment Rod\"",
+   "7",
+   "\"Rare\"",
+   "0",
+   "14",
+   "382"
+  ],
+  "looks": "NINJA",
+  "looks_origen": "defecto createNewItemKrin (b>1)",
+  "linea": 11205
+ },
+ "203": {
+  "id": 203,
+  "nombre_interno": "Metal Shield",
+  "ranura_b": 8,
+  "rareza": "Rare",
+  "args": [
+   "\"Metal Shield\"",
+   "8",
+   "\"Rare\"",
+   "0",
+   "14",
+   "382"
+  ],
+  "looks": "SHIELD2",
+  "looks_origen": "gghhjjuu.looks l.11210",
+  "linea": 11209
+ },
+ "300": {
+  "id": 300,
+  "nombre_interno": "Guard\\'s Trousers",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Trousers\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JASON",
+  "looks_origen": "gghhjjuu.looks l.11217",
+  "linea": 11216
+ },
+ "301": {
+  "id": 301,
+  "nombre_interno": "Guard\\'s Grip",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Grip\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JASON",
+  "looks_origen": "gghhjjuu.looks l.11223",
+  "linea": 11222
+ },
+ "302": {
+  "id": 302,
+  "nombre_interno": "Guard\\'s Runners",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Runners\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JASON",
+  "looks_origen": "gghhjjuu.looks l.11229",
+  "linea": 11228
+ },
+ "303": {
+  "id": 303,
+  "nombre_interno": "Guard\\'s Uniform",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Uniform\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JASON",
+  "looks_origen": "gghhjjuu.looks l.11235",
+  "linea": 11234
+ },
+ "304": {
+  "id": 304,
+  "nombre_interno": "Watcher\\'s Cap",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Watcher\\'s Cap\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "JASON",
+  "looks_origen": "gghhjjuu.looks l.11241",
+  "linea": 11240
+ },
+ "305": {
+  "id": 305,
+  "nombre_interno": "Standard Trousers. XL",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Standard Trousers. XL\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "2",
+   "1"
+  ],
+  "looks": "PRISON",
+  "looks_origen": "gghhjjuu.looks l.11247",
+  "linea": 11246
+ },
+ "306": {
+  "id": 306,
+  "nombre_interno": "Standard Shirt. XL",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Standard Shirt. XL\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "2",
+   "1"
+  ],
+  "looks": "PRISON",
+  "looks_origen": "gghhjjuu.looks l.11253",
+  "linea": 11252
+ },
+ "307": {
+  "id": 307,
+  "nombre_interno": "Doctor\\'s Labcoat",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Doctor\\'s Labcoat\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "3",
+   "1"
+  ],
+  "looks": "MADSCI",
+  "looks_origen": "gghhjjuu.looks l.11259",
+  "linea": 11258
+ },
+ "308": {
+  "id": 308,
+  "nombre_interno": "Doctor\\'s Grasp",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Doctor\\'s Grasp\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "3",
+   "1"
+  ],
+  "looks": "MADSCI",
+  "looks_origen": "gghhjjuu.looks l.11265",
+  "linea": 11264
+ },
+ "309": {
+  "id": 309,
+  "nombre_interno": "Monster\\'s Rags",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Monster\\'s Rags\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "PRISON2",
+  "looks_origen": "gghhjjuu.looks l.11269",
+  "linea": 11268
+ },
+ "310": {
+  "id": 310,
+  "nombre_interno": "Warden\\'s Body Armour",
+  "ranura_b": 3,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Body Armour\"",
+   "3",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "JASON2",
+  "looks_origen": "gghhjjuu.looks l.11275",
+  "linea": 11274
+ },
+ "311": {
+  "id": 311,
+  "nombre_interno": "Warden\\'s Grasp",
+  "ranura_b": 4,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Grasp\"",
+   "4",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "JASON2",
+  "looks_origen": "gghhjjuu.looks l.11281",
+  "linea": 11280
+ },
+ "312": {
+  "id": 312,
+  "nombre_interno": "Warden\\'s Steel Toes",
+  "ranura_b": 6,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Steel Toes\"",
+   "6",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "JASON2",
+  "looks_origen": "gghhjjuu.looks l.11288",
+  "linea": 11287
+ },
+ "313": {
+  "id": 313,
+  "nombre_interno": "Warden\\'s Leggings",
+  "ranura_b": 5,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Leggings\"",
+   "5",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "JASON2",
+  "looks_origen": "gghhjjuu.looks l.11295",
+  "linea": 11294
+ },
+ "314": {
+  "id": 314,
+  "nombre_interno": "Warden\\'s Helm",
+  "ranura_b": 2,
+  "rareza": "Uncommon",
+  "args": [
+   "\"Warden\\'s Helm\"",
+   "2",
+   "\"Uncommon\"",
+   "0",
+   "5",
+   "1"
+  ],
+  "looks": "JASON2",
+  "looks_origen": "gghhjjuu.looks l.11302",
+  "linea": 11301
+ },
+ "315": {
+  "id": 315,
+  "nombre_interno": "Frankie\\'s Protection",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Frankie\\'s Protection\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "6",
+   "1"
+  ],
+  "looks": "FRANKEN",
+  "looks_origen": "gghhjjuu.looks l.11309",
+  "linea": 11308
+ },
+ "316": {
+  "id": 316,
+  "nombre_interno": "Elite Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Elite Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "ZPCI",
+  "looks_origen": "gghhjjuu.looks l.11316",
+  "linea": 11315
+ },
+ "317": {
+  "id": 317,
+  "nombre_interno": "Gilded Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Gilded Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "ZPCI",
+  "looks_origen": "gghhjjuu.looks l.11323",
+  "linea": 11322
+ },
+ "318": {
+  "id": 318,
+  "nombre_interno": "Chosen Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Chosen Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "ZPCI",
+  "looks_origen": "gghhjjuu.looks l.11330",
+  "linea": 11329
+ },
+ "319": {
+  "id": 319,
+  "nombre_interno": "Noble Helm",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Noble Helm\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "ZPCI",
+  "looks_origen": "gghhjjuu.looks l.11336",
+  "linea": 11335
+ },
+ "320": {
+  "id": 320,
+  "nombre_interno": "Elite Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Elite Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "ZPCI",
+  "looks_origen": "gghhjjuu.looks l.11342",
+  "linea": 11341
+ },
+ "321": {
+  "id": 321,
+  "nombre_interno": "Frosted Armor",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Armor\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "FROSTPLATE",
+  "looks_origen": "gghhjjuu.looks l.11349",
+  "linea": 11348
+ },
+ "322": {
+  "id": 322,
+  "nombre_interno": "Frosted Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "FROSTPLATE",
+  "looks_origen": "gghhjjuu.looks l.11356",
+  "linea": 11355
+ },
+ "323": {
+  "id": 323,
+  "nombre_interno": "Icy Runners",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Icy Runners\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "FROSTPLATE",
+  "looks_origen": "gghhjjuu.looks l.11363",
+  "linea": 11362
+ },
+ "324": {
+  "id": 324,
+  "nombre_interno": "Glacial Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Glacial Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "FROSTPLATE",
+  "looks_origen": "gghhjjuu.looks l.11371",
+  "linea": 11370
+ },
+ "325": {
+  "id": 325,
+  "nombre_interno": "Frozen Helm",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Frozen Helm\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "FROSTPLATE",
+  "looks_origen": "gghhjjuu.looks l.11380",
+  "linea": 11378
+ },
+ "326": {
+  "id": 326,
+  "nombre_interno": "Faith Runners",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Faith Runners\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.11387",
+  "linea": 11386
+ },
+ "327": {
+  "id": 327,
+  "nombre_interno": "Rebellious Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Rebellious Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.11394",
+  "linea": 11393
+ },
+ "328": {
+  "id": 328,
+  "nombre_interno": "Dissident\\'s Crest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Dissident\\'s Crest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "TAT2",
+  "looks_origen": "gghhjjuu.looks l.11401",
+  "linea": 11400
+ },
+ "329": {
+  "id": 329,
+  "nombre_interno": "Hope\\'s Strength",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Hope\\'s Strength\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.11407",
+  "linea": 11406
+ },
+ "330": {
+  "id": 330,
+  "nombre_interno": "Justice Helm",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Justice Helm\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11413",
+  "linea": 11412
+ },
+ "331": {
+  "id": 331,
+  "nombre_interno": "Rightful Grasp",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Rightful Grasp\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11419",
+  "linea": 11418
+ },
+ "332": {
+  "id": 332,
+  "nombre_interno": "Righteous Breastplate",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Righteous Breastplate\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11425",
+  "linea": 11424
+ },
+ "333": {
+  "id": 333,
+  "nombre_interno": "Zealot\\'s Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Zealot\\'s Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11432",
+  "linea": 11431
+ },
+ "334": {
+  "id": 334,
+  "nombre_interno": "Zealot\\'s Marchers",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Zealot\\'s Marchers\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11439",
+  "linea": 11438
+ },
+ "335": {
+  "id": 335,
+  "nombre_interno": "Believer\\'s Crown",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Believer\\'s Crown\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST",
+  "looks_origen": "gghhjjuu.looks l.11445",
+  "linea": 11444
+ },
+ "336": {
+  "id": 336,
+  "nombre_interno": "Spirit Slippers",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Spirit Slippers\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST",
+  "looks_origen": "gghhjjuu.looks l.11451",
+  "linea": 11450
+ },
+ "337": {
+  "id": 337,
+  "nombre_interno": "Clairvoyant Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Clairvoyant Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST",
+  "looks_origen": "gghhjjuu.looks l.11457",
+  "linea": 11456
+ },
+ "338": {
+  "id": 338,
+  "nombre_interno": "Healer\\'s Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Healer\\'s Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST",
+  "looks_origen": "gghhjjuu.looks l.11464",
+  "linea": 11463
+ },
+ "339": {
+  "id": 339,
+  "nombre_interno": "Divine Garments",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Divine Garments\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST",
+  "looks_origen": "gghhjjuu.looks l.11471",
+  "linea": 11470
+ },
+ "340": {
+  "id": 340,
+  "nombre_interno": "Enlightened Helm",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Enlightened Helm\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST2",
+  "looks_origen": "gghhjjuu.looks l.11478",
+  "linea": 11477
+ },
+ "341": {
+  "id": 341,
+  "nombre_interno": "Arcane Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Arcane Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST2",
+  "looks_origen": "gghhjjuu.looks l.11485",
+  "linea": 11484
+ },
+ "342": {
+  "id": 342,
+  "nombre_interno": "Ancient Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Ancient Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST2",
+  "looks_origen": "gghhjjuu.looks l.11492",
+  "linea": 11491
+ },
+ "343": {
+  "id": 343,
+  "nombre_interno": "Tomekeeper\\'s Slippers",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Tomekeeper\\'s Slippers\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST2",
+  "looks_origen": "gghhjjuu.looks l.11498",
+  "linea": 11497
+ },
+ "344": {
+  "id": 344,
+  "nombre_interno": "Tomekeeper\\'s Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Tomekeeper\\'s Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "PRIEST2",
+  "looks_origen": "gghhjjuu.looks l.11505",
+  "linea": 11504
+ },
+ "345": {
+  "id": 345,
+  "nombre_interno": "Supreme Grasp",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Supreme Grasp\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11511",
+  "linea": 11510
+ },
+ "346": {
+  "id": 346,
+  "nombre_interno": "Demigod\\'s Visage",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Demigod\\'s Visage\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11517",
+  "linea": 11516
+ },
+ "347": {
+  "id": 347,
+  "nombre_interno": "Usurper\\'s Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Usurper\\'s Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11523",
+  "linea": 11522
+ },
+ "348": {
+  "id": 348,
+  "nombre_interno": "Holy Slippers",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Holy Slippers\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11530",
+  "linea": 11529
+ },
+ "349": {
+  "id": 349,
+  "nombre_interno": "Pretender\\'s Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Pretender\\'s Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11537",
+  "linea": 11536
+ },
+ "350": {
+  "id": 350,
+  "nombre_interno": "X5C8-3",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"X5C8-3\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ARCTIC",
+  "looks_origen": "gghhjjuu.looks l.11543",
+  "linea": 11542
+ },
+ "351": {
+  "id": 351,
+  "nombre_interno": "X5C8-1",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"X5C8-1\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ARCTIC",
+  "looks_origen": "gghhjjuu.looks l.11549",
+  "linea": 11548
+ },
+ "352": {
+  "id": 352,
+  "nombre_interno": "X5C8-2",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"X5C8-2\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ARCTIC",
+  "looks_origen": "gghhjjuu.looks l.11555",
+  "linea": 11554
+ },
+ "353": {
+  "id": 353,
+  "nombre_interno": "X5C8-5",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"X5C8-5\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ARCTIC",
+  "looks_origen": "gghhjjuu.looks l.11562",
+  "linea": 11561
+ },
+ "354": {
+  "id": 354,
+  "nombre_interno": "X5C8-4",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"X5C8-4\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ARCTIC",
+  "looks_origen": "gghhjjuu.looks l.11569",
+  "linea": 11568
+ },
+ "355": {
+  "id": 355,
+  "nombre_interno": "Medical Visor",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Medical Visor\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.11575",
+  "linea": 11574
+ },
+ "356": {
+  "id": 356,
+  "nombre_interno": "Surgeon Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Surgeon Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.11581",
+  "linea": 11580
+ },
+ "357": {
+  "id": 357,
+  "nombre_interno": "MedPak Armor",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"MedPak Armor\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.11587",
+  "linea": 11586
+ },
+ "358": {
+  "id": 358,
+  "nombre_interno": "Medic Treads",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Medic Treads\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.11594",
+  "linea": 11593
+ },
+ "359": {
+  "id": 359,
+  "nombre_interno": "MedPak Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"MedPak Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI3",
+  "looks_origen": "gghhjjuu.looks l.11601",
+  "linea": 11600
+ },
+ "360": {
+  "id": 360,
+  "nombre_interno": "Agile Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Agile Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI2",
+  "looks_origen": "gghhjjuu.looks l.11608",
+  "linea": 11607
+ },
+ "361": {
+  "id": 361,
+  "nombre_interno": "Steadfast Leggings",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Steadfast Leggings\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI2",
+  "looks_origen": "gghhjjuu.looks l.11615",
+  "linea": 11614
+ },
+ "362": {
+  "id": 362,
+  "nombre_interno": "Deft Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Deft Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI2",
+  "looks_origen": "gghhjjuu.looks l.11622",
+  "linea": 11621
+ },
+ "363": {
+  "id": 363,
+  "nombre_interno": "Flexible Armour",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Flexible Armour\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI2",
+  "looks_origen": "gghhjjuu.looks l.11629",
+  "linea": 11628
+ },
+ "364": {
+  "id": 364,
+  "nombre_interno": "Accuracy Display",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Accuracy Display\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "ZPCI2",
+  "looks_origen": "gghhjjuu.looks l.11636",
+  "linea": 11635
+ },
+ "365": {
+  "id": 365,
+  "nombre_interno": "Juggernaut\\'s Panzer",
+  "ranura_b": 3,
+  "rareza": "Rare",
+  "args": [
+   "\"Juggernaut\\'s Panzer\"",
+   "3",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "HUNT",
+  "looks_origen": "gghhjjuu.looks l.11643",
+  "linea": 11642
+ },
+ "366": {
+  "id": 366,
+  "nombre_interno": "Dreadnaught\\'s Panzer",
+  "ranura_b": 5,
+  "rareza": "Rare",
+  "args": [
+   "\"Dreadnaught\\'s Panzer\"",
+   "5",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "HUNT",
+  "looks_origen": "gghhjjuu.looks l.11650",
+  "linea": 11649
+ },
+ "367": {
+  "id": 367,
+  "nombre_interno": "Reinforced Grasp",
+  "ranura_b": 4,
+  "rareza": "Rare",
+  "args": [
+   "\"Reinforced Grasp\"",
+   "4",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "HUNT",
+  "looks_origen": "gghhjjuu.looks l.11657",
+  "linea": 11656
+ },
+ "368": {
+  "id": 368,
+  "nombre_interno": "Combat Boots",
+  "ranura_b": 6,
+  "rareza": "Rare",
+  "args": [
+   "\"Combat Boots\"",
+   "6",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "HUNT",
+  "looks_origen": "gghhjjuu.looks l.11664",
+  "linea": 11663
+ },
+ "369": {
+  "id": 369,
+  "nombre_interno": "Eliminator\\'s Sight",
+  "ranura_b": 2,
+  "rareza": "Rare",
+  "args": [
+   "\"Eliminator\\'s Sight\"",
+   "2",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "HUNT",
+  "looks_origen": "gghhjjuu.looks l.11670",
+  "linea": 11669
+ },
+ "370": {
+  "id": 370,
+  "nombre_interno": "Bugo Hoss Tuxedo",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Bugo Hoss Tuxedo\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "TUX",
+  "looks_origen": "gghhjjuu.looks l.11677",
+  "linea": 11676
+ },
+ "371": {
+  "id": 371,
+  "nombre_interno": "White Top Hat",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"White Top Hat\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "TUX",
+  "looks_origen": "gghhjjuu.looks l.11684",
+  "linea": 11683
+ },
+ "372": {
+  "id": 372,
+  "nombre_interno": "Upper Rags",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Upper Rags\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "HOBO",
+  "looks_origen": "gghhjjuu.looks l.11691",
+  "linea": 11690
+ },
+ "373": {
+  "id": 373,
+  "nombre_interno": "Lower Rags",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Lower Rags\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "HOBO",
+  "looks_origen": "gghhjjuu.looks l.11698",
+  "linea": 11697
+ },
+ "374": {
+  "id": 374,
+  "nombre_interno": "Do Rag",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Do Rag\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "HOBO",
+  "looks_origen": "gghhjjuu.looks l.11705",
+  "linea": 11704
+ },
+ "375": {
+  "id": 375,
+  "nombre_interno": "Hope\\'s Grasp",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Hope\\'s Grasp\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "HOBO",
+  "looks_origen": "gghhjjuu.looks l.11712",
+  "linea": 11711
+ },
+ "376": {
+  "id": 376,
+  "nombre_interno": "Winter Boots",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Winter Boots\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "HOBO",
+  "looks_origen": "gghhjjuu.looks l.11719",
+  "linea": 11718
+ },
+ "377": {
+  "id": 377,
+  "nombre_interno": "Flamboyant Shirt",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Flamboyant Shirt\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "SHIRT5",
+  "looks_origen": "gghhjjuu.looks l.11726",
+  "linea": 11725
+ },
+ "378": {
+  "id": 378,
+  "nombre_interno": "Flamboyant Trousers",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Flamboyant Trousers\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "GAY",
+  "looks_origen": "gghhjjuu.looks l.11732",
+  "linea": 11731
+ },
+ "379": {
+  "id": 379,
+  "nombre_interno": "Flamboyant Shoes",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Flamboyant Shoes\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "GAY",
+  "looks_origen": "gghhjjuu.looks l.11738",
+  "linea": 11737
+ },
+ "380": {
+  "id": 380,
+  "nombre_interno": "Mining Helmet",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Mining Helmet\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "18",
+   "0.2"
+  ],
+  "looks": "WORKER",
+  "looks_origen": "gghhjjuu.looks l.11746",
+  "linea": 11745
+ },
+ "381": {
+  "id": 381,
+  "nombre_interno": "Mining Shirt",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Mining Shirt\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "0.2"
+  ],
+  "looks": "WORKERSHIRT",
+  "looks_origen": "gghhjjuu.looks l.11752",
+  "linea": 11751
+ },
+ "382": {
+  "id": 382,
+  "nombre_interno": "Cloaking Helm",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Cloaking Helm\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "TAT",
+  "looks_origen": "gghhjjuu.looks l.11759",
+  "linea": 11758
+ },
+ "500": {
+  "id": 500,
+  "nombre_interno": "Guard\\'s Baton",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Guard\\'s Baton\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "1",
+   "1"
+  ],
+  "looks": "BATON",
+  "looks_origen": "gghhjjuu.looks l.11765",
+  "linea": 11764
+ },
+ "501": {
+  "id": 501,
+  "nombre_interno": "Surgery Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Surgery Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "3",
+   "1"
+  ],
+  "looks": "DOCKNIFE",
+  "looks_origen": "gghhjjuu.looks l.11772",
+  "linea": 11771
+ },
+ "502": {
+  "id": 502,
+  "nombre_interno": "EMD Blade",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"EMD Blade\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "4",
+   "0.4"
+  ],
+  "looks": "TASER",
+  "looks_origen": "gghhjjuu.looks l.11779",
+  "linea": 11778
+ },
+ "503": {
+  "id": 503,
+  "nombre_interno": "Terror Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Terror Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "4",
+   "1"
+  ],
+  "looks": "UBER2",
+  "looks_origen": "gghhjjuu.looks l.11785",
+  "linea": 11784
+ },
+ "504": {
+  "id": 504,
+  "nombre_interno": "Persecution",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Persecution\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "5",
+   "3"
+  ],
+  "looks": "BATON2",
+  "looks_origen": "gghhjjuu.looks l.11792",
+  "linea": 11791
+ },
+ "505": {
+  "id": 505,
+  "nombre_interno": "Green Terror",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Green Terror\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "6",
+   "1"
+  ],
+  "looks": "FRANKEN",
+  "looks_origen": "gghhjjuu.looks l.11797",
+  "linea": 11796
+ },
+ "506": {
+  "id": 506,
+  "nombre_interno": "Standard Rifle",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Standard Rifle\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "6",
+   "1"
+  ],
+  "looks": "M4",
+  "looks_origen": "gghhjjuu.looks l.11804",
+  "linea": 11803
+ },
+ "507": {
+  "id": 507,
+  "nombre_interno": "Curved Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Curved Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "7",
+   "1"
+  ],
+  "looks": "FELKNIFE",
+  "looks_origen": "gghhjjuu.looks l.11810",
+  "linea": 11809
+ },
+ "508": {
+  "id": 508,
+  "nombre_interno": "Metal Mask",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Metal Mask\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "JASON3",
+  "looks_origen": "gghhjjuu.looks l.11816",
+  "linea": 11815
+ },
+ "509": {
+  "id": 509,
+  "nombre_interno": "Voltage Cage",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Voltage Cage\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "JASON3",
+  "looks_origen": "gghhjjuu.looks l.11821",
+  "linea": 11820
+ },
+ "510": {
+  "id": 510,
+  "nombre_interno": "Frosted Gloves",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Gloves\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "JASON3",
+  "looks_origen": "gghhjjuu.looks l.11826",
+  "linea": 11825
+ },
+ "511": {
+  "id": 511,
+  "nombre_interno": "Toxic Plates",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Toxic Plates\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "JASON3",
+  "looks_origen": "gghhjjuu.looks l.11831",
+  "linea": 11830
+ },
+ "512": {
+  "id": 512,
+  "nombre_interno": "Metal Sprinter",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Metal Sprinter\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "JASON3",
+  "looks_origen": "gghhjjuu.looks l.11836",
+  "linea": 11835
+ },
+ "513": {
+  "id": 513,
+  "nombre_interno": "Dirty 31",
+  "ranura_b": 5,
+  "rareza": "Rare",
+  "args": [
+   "\"Dirty 31\"",
+   "5",
+   "\"Rare\"",
+   "0",
+   "3",
+   "3"
+  ],
+  "looks": "JEANS",
+  "looks_origen": "gghhjjuu.looks l.11840",
+  "linea": 11839
+ },
+ "514": {
+  "id": 514,
+  "nombre_interno": "Prison Shanker",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Prison Shanker\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "3",
+   "0.4"
+  ],
+  "looks": "FELKNIFE",
+  "looks_origen": "gghhjjuu.looks l.11845",
+  "linea": 11844
+ },
+ "515": {
+  "id": 515,
+  "nombre_interno": "Light\\'s Blade",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Light\\'s Blade\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "PALADINSWORD",
+  "looks_origen": "gghhjjuu.looks l.11852",
+  "linea": 11851
+ },
+ "516": {
+  "id": 516,
+  "nombre_interno": "Metal Shield",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Metal Shield\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "SHIELD2",
+  "looks_origen": "gghhjjuu.looks l.11859",
+  "linea": 11858
+ },
+ "517": {
+  "id": 517,
+  "nombre_interno": "Fiery Doom",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Fiery Doom\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "MAGESTAFF",
+  "looks_origen": "gghhjjuu.looks l.11866",
+  "linea": 11865
+ },
+ "518": {
+  "id": 518,
+  "nombre_interno": "Frosted Light",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Frosted Light\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "PRIESTSTAFF",
+  "looks_origen": "gghhjjuu.looks l.11873",
+  "linea": 11872
+ },
+ "519": {
+  "id": 519,
+  "nombre_interno": "Icy Maul",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Icy Maul\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "8",
+   "1"
+  ],
+  "looks": "ICESTICK",
+  "looks_origen": "gghhjjuu.looks l.11878",
+  "linea": 11877
+ },
+ "520": {
+  "id": 520,
+  "nombre_interno": "Frosted Fate",
+  "ranura_b": 7,
+  "rareza": "Rare",
+  "args": [
+   "\"Frosted Fate\"",
+   "7",
+   "\"Rare\"",
+   "0",
+   "10",
+   "3"
+  ],
+  "looks": "FROSTAXE",
+  "looks_origen": "gghhjjuu.looks l.11885",
+  "linea": 11884
+ },
+ "521": {
+  "id": 521,
+  "nombre_interno": "Runeblade",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Runeblade\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.11893",
+  "linea": 11892
+ },
+ "522": {
+  "id": 522,
+  "nombre_interno": "ZPCI Sniper Rifle",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"ZPCI Sniper Rifle\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "UBER4",
+  "looks_origen": "gghhjjuu.looks l.11900",
+  "linea": 11899
+ },
+ "523": {
+  "id": 523,
+  "nombre_interno": "Rebellion Striker",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Rebellion Striker\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "11",
+   "1"
+  ],
+  "looks": "AK",
+  "looks_origen": "gghhjjuu.looks l.11907",
+  "linea": 11906
+ },
+ "524": {
+  "id": 524,
+  "nombre_interno": "Venom Smite",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Venom Smite\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "9",
+   "1"
+  ],
+  "looks": "BROAD",
+  "looks_origen": "gghhjjuu.looks l.11914",
+  "linea": 11913
+ },
+ "525": {
+  "id": 525,
+  "nombre_interno": "Fury",
+  "ranura_b": 7,
+  "rareza": "Rare",
+  "args": [
+   "\"Fury\"",
+   "7",
+   "\"Rare\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "TASER2",
+  "looks_origen": "gghhjjuu.looks l.11920",
+  "linea": 11919
+ },
+ "526": {
+  "id": 526,
+  "nombre_interno": "Wrath",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Wrath\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "10",
+   "1"
+  ],
+  "looks": "TASER2",
+  "looks_origen": "gghhjjuu.looks l.11927",
+  "linea": 11926
+ },
+ "527": {
+  "id": 527,
+  "nombre_interno": "Unholy Runeblade",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Unholy Runeblade\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "XADER2",
+  "looks_origen": "gghhjjuu.looks l.11934",
+  "linea": 11933
+ },
+ "528": {
+  "id": 528,
+  "nombre_interno": "Vendor Shaman Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Shaman Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMAN1",
+  "looks_origen": "gghhjjuu.looks l.11940",
+  "linea": 11939
+ },
+ "529": {
+  "id": 529,
+  "nombre_interno": "Vendor Shaman Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Shaman Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMAN1",
+  "looks_origen": "gghhjjuu.looks l.11946",
+  "linea": 11945
+ },
+ "530": {
+  "id": 530,
+  "nombre_interno": "Vendor Shaman Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Shaman Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMAN1",
+  "looks_origen": "gghhjjuu.looks l.11952",
+  "linea": 11951
+ },
+ "531": {
+  "id": 531,
+  "nombre_interno": "Vendor Shaman Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Shaman Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "SHAMAN1",
+  "looks_origen": "gghhjjuu.looks l.11958",
+  "linea": 11957
+ },
+ "532": {
+  "id": 532,
+  "nombre_interno": "Vendor Shaman Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Shaman Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SHAMAN1",
+  "looks_origen": "gghhjjuu.looks l.11964",
+  "linea": 11963
+ },
+ "533": {
+  "id": 533,
+  "nombre_interno": "Vendor Samurai Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Samurai Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SAMURAI4",
+  "looks_origen": "gghhjjuu.looks l.11970",
+  "linea": 11969
+ },
+ "534": {
+  "id": 534,
+  "nombre_interno": "Vendor Samurai Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Samurai Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SAMURAI4",
+  "looks_origen": "gghhjjuu.looks l.11977",
+  "linea": 11976
+ },
+ "535": {
+  "id": 535,
+  "nombre_interno": "Vendor Samurai Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Samurai Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SAMURAI4",
+  "looks_origen": "gghhjjuu.looks l.11981",
+  "linea": 11980
+ },
+ "536": {
+  "id": 536,
+  "nombre_interno": "Vendor Samurai Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Samurai Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "SAMURAI4",
+  "looks_origen": "gghhjjuu.looks l.11988",
+  "linea": 11987
+ },
+ "537": {
+  "id": 537,
+  "nombre_interno": "Vendor Samurai Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Vendor Samurai Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SAMURAI4",
+  "looks_origen": "gghhjjuu.looks l.11994",
+  "linea": 11993
+ },
+ "538": {
+  "id": 538,
+  "nombre_interno": "Drop Shaman Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Shaman Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SHAMAN2",
+  "looks_origen": "gghhjjuu.looks l.12000",
+  "linea": 11999
+ },
+ "539": {
+  "id": 539,
+  "nombre_interno": "Drop Shaman Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Shaman Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SHAMAN2",
+  "looks_origen": "gghhjjuu.looks l.12007",
+  "linea": 12006
+ },
+ "540": {
+  "id": 540,
+  "nombre_interno": "Drop Shaman Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Shaman Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SHAMAN2",
+  "looks_origen": "gghhjjuu.looks l.12013",
+  "linea": 12012
+ },
+ "541": {
+  "id": 541,
+  "nombre_interno": "Drop Shaman Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Shaman Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMAN2",
+  "looks_origen": "gghhjjuu.looks l.12020",
+  "linea": 12019
+ },
+ "542": {
+  "id": 542,
+  "nombre_interno": "Drop Shaman Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Shaman Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "SHAMAN2",
+  "looks_origen": "gghhjjuu.looks l.12027",
+  "linea": 12026
+ },
+ "543": {
+  "id": 543,
+  "nombre_interno": "Drop Samurai Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Samurai Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SAMURAI2",
+  "looks_origen": "gghhjjuu.looks l.12034",
+  "linea": 12033
+ },
+ "544": {
+  "id": 544,
+  "nombre_interno": "Drop Samurai Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Samurai Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SAMURAI2",
+  "looks_origen": "gghhjjuu.looks l.12040",
+  "linea": 12039
+ },
+ "545": {
+  "id": 545,
+  "nombre_interno": "Drop Samurai Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Samurai Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "SAMURAI2",
+  "looks_origen": "gghhjjuu.looks l.12046",
+  "linea": 12045
+ },
+ "546": {
+  "id": 546,
+  "nombre_interno": "Drop Samurai Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Samurai Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SAMURAI2",
+  "looks_origen": "gghhjjuu.looks l.12052",
+  "linea": 12051
+ },
+ "547": {
+  "id": 547,
+  "nombre_interno": "Drop Samurai Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop Samurai Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "SAMURAI2",
+  "looks_origen": "gghhjjuu.looks l.12059",
+  "linea": 12058
+ },
+ "548": {
+  "id": 548,
+  "nombre_interno": "Drop ZPCI Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ZPCI Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "USA2",
+  "looks_origen": "gghhjjuu.looks l.12065",
+  "linea": 12064
+ },
+ "549": {
+  "id": 549,
+  "nombre_interno": "Drop ZPCI Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ZPCI Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "USA2",
+  "looks_origen": "gghhjjuu.looks l.12071",
+  "linea": 12070
+ },
+ "550": {
+  "id": 550,
+  "nombre_interno": "Drop ZPCI Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ZPCI Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "USA2",
+  "looks_origen": "gghhjjuu.looks l.12078",
+  "linea": 12077
+ },
+ "551": {
+  "id": 551,
+  "nombre_interno": "Drop ZPCI Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ZPCI Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "USA2",
+  "looks_origen": "gghhjjuu.looks l.12085",
+  "linea": 12084
+ },
+ "552": {
+  "id": 552,
+  "nombre_interno": "Drop ZPCI Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ZPCI Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "USA2",
+  "looks_origen": "gghhjjuu.looks l.12091",
+  "linea": 12090
+ },
+ "553": {
+  "id": 553,
+  "nombre_interno": "Tank Sword",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Tank Sword\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMANKNIFE",
+  "looks_origen": "gghhjjuu.looks l.12098",
+  "linea": 12097
+ },
+ "554": {
+  "id": 554,
+  "nombre_interno": "Magic Mace",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Magic Mace\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SPELLMACE",
+  "looks_origen": "gghhjjuu.looks l.12103",
+  "linea": 12102
+ },
+ "555": {
+  "id": 555,
+  "nombre_interno": "Annihilation",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Annihilation\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "13",
+   "1"
+  ],
+  "looks": "UBER1",
+  "looks_origen": "gghhjjuu.looks l.12109",
+  "linea": 12108
+ },
+ "556": {
+  "id": 556,
+  "nombre_interno": "Shield",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Shield\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "UBER7",
+  "looks_origen": "gghhjjuu.looks l.12115",
+  "linea": 12114
+ },
+ "557": {
+  "id": 557,
+  "nombre_interno": "Green 1",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Green 1\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "FELKNIFE2",
+  "looks_origen": "gghhjjuu.looks l.12121",
+  "linea": 12120
+ },
+ "558": {
+  "id": 558,
+  "nombre_interno": "Green 2",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Green 2\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "FELKNIFE2",
+  "looks_origen": "gghhjjuu.looks l.12126",
+  "linea": 12125
+ },
+ "559": {
+  "id": 559,
+  "nombre_interno": "Red 1",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"Red 1\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "FELKNIFE3",
+  "looks_origen": "gghhjjuu.looks l.12131",
+  "linea": 12130
+ },
+ "560": {
+  "id": 560,
+  "nombre_interno": "Red 2",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Red 2\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "FELKNIFE3",
+  "looks_origen": "gghhjjuu.looks l.12136",
+  "linea": 12135
+ },
+ "561": {
+  "id": 561,
+  "nombre_interno": "Blue Axe",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Blue Axe\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMANMED",
+  "looks_origen": "gghhjjuu.looks l.12142",
+  "linea": 12141
+ },
+ "562": {
+  "id": 562,
+  "nombre_interno": "Orange Axe",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Orange Axe\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "12",
+   "1"
+  ],
+  "looks": "SHAMANMAGIC",
+  "looks_origen": "gghhjjuu.looks l.12147",
+  "linea": 12146
+ },
+ "563": {
+  "id": 563,
+  "nombre_interno": "Gold Katana",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Gold Katana\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "KATANA",
+  "looks_origen": "gghhjjuu.looks l.12154",
+  "linea": 12153
+ },
+ "564": {
+  "id": 564,
+  "nombre_interno": "Sun Struck Horrors",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Sun Struck Horrors\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "MOON",
+  "looks_origen": "gghhjjuu.looks l.12162",
+  "linea": 12161
+ },
+ "565": {
+  "id": 565,
+  "nombre_interno": "Devil Blade",
+  "ranura_b": 7,
+  "rareza": "Rare",
+  "args": [
+   "\"Devil Blade\"",
+   "7",
+   "\"Rare\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SHANK",
+  "looks_origen": "gghhjjuu.looks l.12168",
+  "linea": 12167
+ },
+ "566": {
+  "id": 566,
+  "nombre_interno": "Demon Blade",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"Demon Blade\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "14",
+   "1"
+  ],
+  "looks": "SHANK",
+  "looks_origen": "gghhjjuu.looks l.12174",
+  "linea": 12173
+ },
+ "567": {
+  "id": 567,
+  "nombre_interno": "Spell Staff",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"Spell Staff\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "SPELLSTAFF",
+  "looks_origen": "gghhjjuu.looks l.12180",
+  "linea": 12179
+ },
+ "568": {
+  "id": 568,
+  "nombre_interno": "Drop CLEMONS Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CLEMONS Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "CLEMONS",
+  "looks_origen": "gghhjjuu.looks l.12186",
+  "linea": 12185
+ },
+ "569": {
+  "id": 569,
+  "nombre_interno": "Drop CLEMONS Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CLEMONS Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "CLEMONS",
+  "looks_origen": "gghhjjuu.looks l.12191",
+  "linea": 12190
+ },
+ "570": {
+  "id": 570,
+  "nombre_interno": "Drop CLEMONS Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CLEMONS Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "CLEMONS",
+  "looks_origen": "gghhjjuu.looks l.12196",
+  "linea": 12195
+ },
+ "571": {
+  "id": 571,
+  "nombre_interno": "Drop CLEMONS Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CLEMONS Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "CLEMONS",
+  "looks_origen": "gghhjjuu.looks l.12202",
+  "linea": 12201
+ },
+ "572": {
+  "id": 572,
+  "nombre_interno": "Drop CLEMONS Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CLEMONS Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "15",
+   "1"
+  ],
+  "looks": "CLEMONS",
+  "looks_origen": "gghhjjuu.looks l.12208",
+  "linea": 12207
+ },
+ "573": {
+  "id": 573,
+  "nombre_interno": "Drop BLACK OPS Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLACK OPS Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNTAT",
+  "looks_origen": "gghhjjuu.looks l.12214",
+  "linea": 12213
+ },
+ "574": {
+  "id": 574,
+  "nombre_interno": "Drop BLACK OPS Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLACK OPS Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNTAT2",
+  "looks_origen": "gghhjjuu.looks l.12220",
+  "linea": 12219
+ },
+ "575": {
+  "id": 575,
+  "nombre_interno": "Drop BLACK OPS Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLACK OPS Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNTAT",
+  "looks_origen": "gghhjjuu.looks l.12226",
+  "linea": 12225
+ },
+ "576": {
+  "id": 576,
+  "nombre_interno": "Drop BLACK OPS Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLACK OPS Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNTAT",
+  "looks_origen": "gghhjjuu.looks l.12232",
+  "linea": 12231
+ },
+ "577": {
+  "id": 577,
+  "nombre_interno": "Drop BLACK OPS Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLACK OPS Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNTAT",
+  "looks_origen": "gghhjjuu.looks l.12238",
+  "linea": 12237
+ },
+ "578": {
+  "id": 578,
+  "nombre_interno": "Drop VIKING Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop VIKING Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "19",
+   "1"
+  ],
+  "looks": "TUNNELSET2",
+  "looks_origen": "gghhjjuu.looks l.12245",
+  "linea": 12244
+ },
+ "579": {
+  "id": 579,
+  "nombre_interno": "Drop VIKING Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop VIKING Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "19",
+   "1"
+  ],
+  "looks": "TUNNELSET2",
+  "looks_origen": "gghhjjuu.looks l.12252",
+  "linea": 12251
+ },
+ "580": {
+  "id": 580,
+  "nombre_interno": "Drop VIKING Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop VIKING Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "TUNNELSET2",
+  "looks_origen": "gghhjjuu.looks l.12259",
+  "linea": 12258
+ },
+ "581": {
+  "id": 581,
+  "nombre_interno": "Drop VIKING Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop VIKING Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNNELSET2",
+  "looks_origen": "gghhjjuu.looks l.12266",
+  "linea": 12265
+ },
+ "582": {
+  "id": 582,
+  "nombre_interno": "Drop VIKING Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop VIKING Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNNELSET2",
+  "looks_origen": "gghhjjuu.looks l.12273",
+  "linea": 12272
+ },
+ "583": {
+  "id": 583,
+  "nombre_interno": "Drop IRONGUARD Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IRONGUARD Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNNELSET1",
+  "looks_origen": "gghhjjuu.looks l.12279",
+  "linea": 12278
+ },
+ "584": {
+  "id": 584,
+  "nombre_interno": "Drop IRONGUARD Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IRONGUARD Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "TUNNELSET1",
+  "looks_origen": "gghhjjuu.looks l.12286",
+  "linea": 12285
+ },
+ "585": {
+  "id": 585,
+  "nombre_interno": "Drop IRONGUARD Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IRONGUARD Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "TUNNELSET1",
+  "looks_origen": "gghhjjuu.looks l.12293",
+  "linea": 12292
+ },
+ "586": {
+  "id": 586,
+  "nombre_interno": "Drop IRONGUARD Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IRONGUARD Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "TUNNELSET1",
+  "looks_origen": "gghhjjuu.looks l.12300",
+  "linea": 12299
+ },
+ "587": {
+  "id": 587,
+  "nombre_interno": "Drop IRONGUARD Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IRONGUARD Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "TUNNELSET1",
+  "looks_origen": "gghhjjuu.looks l.12307",
+  "linea": 12306
+ },
+ "588": {
+  "id": 588,
+  "nombre_interno": "Drop EMPEROR Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop EMPEROR Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "CLEMONS2",
+  "looks_origen": "gghhjjuu.looks l.12314",
+  "linea": 12313
+ },
+ "589": {
+  "id": 589,
+  "nombre_interno": "Drop EMPEROR Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop EMPEROR Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "CLEMONS2",
+  "looks_origen": "gghhjjuu.looks l.12321",
+  "linea": 12320
+ },
+ "590": {
+  "id": 590,
+  "nombre_interno": "Drop EMPEROR Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop EMPEROR Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "16",
+   "1"
+  ],
+  "looks": "CLEMONS2",
+  "looks_origen": "gghhjjuu.looks l.12327",
+  "linea": 12326
+ },
+ "591": {
+  "id": 591,
+  "nombre_interno": "Drop EMPEROR Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop EMPEROR Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "CLEMONS2",
+  "looks_origen": "gghhjjuu.looks l.12334",
+  "linea": 12333
+ },
+ "592": {
+  "id": 592,
+  "nombre_interno": "Drop EMPEROR Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop EMPEROR Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "CLEMONS2",
+  "looks_origen": "gghhjjuu.looks l.12341",
+  "linea": 12340
+ },
+ "593": {
+  "id": 593,
+  "nombre_interno": "Drop ROCKSTAR Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROCKSTAR Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "ROCKSTAR",
+  "looks_origen": "gghhjjuu.looks l.12348",
+  "linea": 12347
+ },
+ "594": {
+  "id": 594,
+  "nombre_interno": "Drop ROCKSTAR Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROCKSTAR Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "ROCKSTAR",
+  "looks_origen": "gghhjjuu.looks l.12355",
+  "linea": 12354
+ },
+ "595": {
+  "id": 595,
+  "nombre_interno": "Drop ROCKSTAR Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROCKSTAR Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "16",
+   "1"
+  ],
+  "looks": "ROCKSTAR",
+  "looks_origen": "gghhjjuu.looks l.12362",
+  "linea": 12361
+ },
+ "596": {
+  "id": 596,
+  "nombre_interno": "Drop ROCKSTAR Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROCKSTAR Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "ROCKSTAR",
+  "looks_origen": "gghhjjuu.looks l.12369",
+  "linea": 12368
+ },
+ "597": {
+  "id": 597,
+  "nombre_interno": "Drop ROCKSTAR Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROCKSTAR Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "ROCKSTAR",
+  "looks_origen": "gghhjjuu.looks l.12376",
+  "linea": 12375
+ },
+ "598": {
+  "id": 598,
+  "nombre_interno": "SHIELD",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"SHIELD\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "UBER6",
+  "looks_origen": "gghhjjuu.looks l.12382",
+  "linea": 12381
+ },
+ "599": {
+  "id": 599,
+  "nombre_interno": "SWORD",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"SWORD\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "16",
+   "1"
+  ],
+  "looks": "SWORD1",
+  "looks_origen": "gghhjjuu.looks l.12389",
+  "linea": 12388
+ },
+ "600": {
+  "id": 600,
+  "nombre_interno": "FROZEN RUNEBLADE",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"FROZEN RUNEBLADE\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "XADER3",
+  "looks_origen": "gghhjjuu.looks l.12396",
+  "linea": 12395
+ },
+ "601": {
+  "id": 601,
+  "nombre_interno": "GUN",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"GUN\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "18",
+   "1"
+  ],
+  "looks": "AK2",
+  "looks_origen": "gghhjjuu.looks l.12402",
+  "linea": 12401
+ },
+ "602": {
+  "id": 602,
+  "nombre_interno": "TRIDENT",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"TRIDENT\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "19",
+   "1"
+  ],
+  "looks": "TRIDENT",
+  "looks_origen": "gghhjjuu.looks l.12408",
+  "linea": 12407
+ },
+ "603": {
+  "id": 603,
+  "nombre_interno": "OLD SWORD",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"OLD SWORD\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "19",
+   "1"
+  ],
+  "looks": "BROAD2",
+  "looks_origen": "gghhjjuu.looks l.12413",
+  "linea": 12412
+ },
+ "604": {
+  "id": 604,
+  "nombre_interno": "SMALL SWORD",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"SMALL SWORD\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "17",
+   "1"
+  ],
+  "looks": "UBER11",
+  "looks_origen": "gghhjjuu.looks l.12418",
+  "linea": 12417
+ },
+ "605": {
+  "id": 605,
+  "nombre_interno": "SMALL SWORD",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"SMALL SWORD\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "19",
+   "1"
+  ],
+  "looks": "UBER11",
+  "looks_origen": "gghhjjuu.looks l.12423",
+  "linea": 12422
+ },
+ "606": {
+  "id": 606,
+  "nombre_interno": "SHARD",
+  "ranura_b": 0,
+  "rareza": "Common",
+  "args": [
+   "\"SHARD\"",
+   "0",
+   "\"Common\"",
+   "0",
+   "20",
+   "1"
+  ],
+  "looks": null,
+  "looks_origen": null,
+  "linea": 12425
+ },
+ "607": {
+  "id": 607,
+  "nombre_interno": "Drop IMPERIAL Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12431",
+  "linea": 12430
+ },
+ "608": {
+  "id": 608,
+  "nombre_interno": "Drop IMPERIAL Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12437",
+  "linea": 12436
+ },
+ "609": {
+  "id": 609,
+  "nombre_interno": "Drop IMPERIAL Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12443",
+  "linea": 12442
+ },
+ "610": {
+  "id": 610,
+  "nombre_interno": "Drop IMPERIAL Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12449",
+  "linea": 12448
+ },
+ "611": {
+  "id": 611,
+  "nombre_interno": "Drop IMPERIAL Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12455",
+  "linea": 12454
+ },
+ "612": {
+  "id": 612,
+  "nombre_interno": "Drop ROBOT Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "ROBOT",
+  "looks_origen": "gghhjjuu.looks l.12461",
+  "linea": 12460
+ },
+ "613": {
+  "id": 613,
+  "nombre_interno": "Drop ROBOT Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "ROBOT",
+  "looks_origen": "gghhjjuu.looks l.12465",
+  "linea": 12464
+ },
+ "614": {
+  "id": 614,
+  "nombre_interno": "Drop ROBOT Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "ROBOT",
+  "looks_origen": "gghhjjuu.looks l.12471",
+  "linea": 12470
+ },
+ "615": {
+  "id": 615,
+  "nombre_interno": "Drop ROBOT Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "ROBOT",
+  "looks_origen": "gghhjjuu.looks l.12477",
+  "linea": 12476
+ },
+ "616": {
+  "id": 616,
+  "nombre_interno": "Drop ROBOT Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "ROBOT",
+  "looks_origen": "gghhjjuu.looks l.12483",
+  "linea": 12482
+ },
+ "617": {
+  "id": 617,
+  "nombre_interno": "Drop POLICE Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "POLICE",
+  "looks_origen": "gghhjjuu.looks l.12490",
+  "linea": 12489
+ },
+ "618": {
+  "id": 618,
+  "nombre_interno": "Drop POLICE Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "POLICE",
+  "looks_origen": "gghhjjuu.looks l.12497",
+  "linea": 12496
+ },
+ "619": {
+  "id": 619,
+  "nombre_interno": "Drop POLICE Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE",
+  "looks_origen": "gghhjjuu.looks l.12504",
+  "linea": 12503
+ },
+ "620": {
+  "id": 620,
+  "nombre_interno": "Drop POLICE Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE",
+  "looks_origen": "gghhjjuu.looks l.12511",
+  "linea": 12510
+ },
+ "621": {
+  "id": 621,
+  "nombre_interno": "Drop POLICE Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE",
+  "looks_origen": "gghhjjuu.looks l.12518",
+  "linea": 12517
+ },
+ "622": {
+  "id": 622,
+  "nombre_interno": "Drop COUNCIL Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop COUNCIL Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "PRIEST3",
+  "looks_origen": "gghhjjuu.looks l.12525",
+  "linea": 12524
+ },
+ "623": {
+  "id": 623,
+  "nombre_interno": "Drop COUNCIL Chest",
+  "ranura_b": 3,
+  "rareza": "Rare",
+  "args": [
+   "\"Drop COUNCIL Chest\"",
+   "3",
+   "\"Rare\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "PRIEST3",
+  "looks_origen": "gghhjjuu.looks l.12532",
+  "linea": 12531
+ },
+ "624": {
+  "id": 624,
+  "nombre_interno": "Drop COUNCIL Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop COUNCIL Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "PRIEST3",
+  "looks_origen": "gghhjjuu.looks l.12539",
+  "linea": 12538
+ },
+ "625": {
+  "id": 625,
+  "nombre_interno": "Drop COUNCIL Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop COUNCIL Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "PRIEST3",
+  "looks_origen": "gghhjjuu.looks l.12546",
+  "linea": 12545
+ },
+ "626": {
+  "id": 626,
+  "nombre_interno": "Drop COUNCIL Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop COUNCIL Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "PRIEST3",
+  "looks_origen": "gghhjjuu.looks l.12553",
+  "linea": 12552
+ },
+ "627": {
+  "id": 627,
+  "nombre_interno": "Drop SPECIALIST Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop SPECIALIST Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "SINJID",
+  "looks_origen": "gghhjjuu.looks l.12560",
+  "linea": 12559
+ },
+ "628": {
+  "id": 628,
+  "nombre_interno": "Drop SPECIALIST Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop SPECIALIST Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "SINJID",
+  "looks_origen": "gghhjjuu.looks l.12567",
+  "linea": 12566
+ },
+ "629": {
+  "id": 629,
+  "nombre_interno": "Drop SPECIALIST Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop SPECIALIST Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "SINJID",
+  "looks_origen": "gghhjjuu.looks l.12574",
+  "linea": 12573
+ },
+ "630": {
+  "id": 630,
+  "nombre_interno": "Drop SPECIALIST Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop SPECIALIST Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "SINJID",
+  "looks_origen": "gghhjjuu.looks l.12581",
+  "linea": 12580
+ },
+ "631": {
+  "id": 631,
+  "nombre_interno": "Drop SPECIALIST Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop SPECIALIST Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "SINJID",
+  "looks_origen": "gghhjjuu.looks l.12588",
+  "linea": 12587
+ },
+ "632": {
+  "id": 632,
+  "nombre_interno": "Drop POLICE2 Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE2 Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "POLICE2",
+  "looks_origen": "gghhjjuu.looks l.12595",
+  "linea": 12594
+ },
+ "633": {
+  "id": 633,
+  "nombre_interno": "Drop POLICE2 Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE2 Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "POLICE2",
+  "looks_origen": "gghhjjuu.looks l.12602",
+  "linea": 12601
+ },
+ "634": {
+  "id": 634,
+  "nombre_interno": "Drop POLICE2 Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE2 Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE2",
+  "looks_origen": "gghhjjuu.looks l.12609",
+  "linea": 12608
+ },
+ "635": {
+  "id": 635,
+  "nombre_interno": "Drop POLICE2 Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE2 Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE2",
+  "looks_origen": "gghhjjuu.looks l.12615",
+  "linea": 12614
+ },
+ "636": {
+  "id": 636,
+  "nombre_interno": "Drop POLICE2 Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop POLICE2 Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "POLICE2",
+  "looks_origen": "gghhjjuu.looks l.12622",
+  "linea": 12621
+ },
+ "637": {
+  "id": 637,
+  "nombre_interno": "Drop IMPERIAL2 Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL2 Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "IMPERIAL2",
+  "looks_origen": "gghhjjuu.looks l.12629",
+  "linea": 12628
+ },
+ "638": {
+  "id": 638,
+  "nombre_interno": "Drop IMPERIAL2 Chest",
+  "ranura_b": 3,
+  "rareza": "Rare",
+  "args": [
+   "\"Drop IMPERIAL2 Chest\"",
+   "3",
+   "\"Rare\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "IMPERIAL2",
+  "looks_origen": "gghhjjuu.looks l.12636",
+  "linea": 12635
+ },
+ "639": {
+  "id": 639,
+  "nombre_interno": "Drop IMPERIAL2 Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL2 Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "IMPERIAL2",
+  "looks_origen": "gghhjjuu.looks l.12643",
+  "linea": 12642
+ },
+ "640": {
+  "id": 640,
+  "nombre_interno": "Drop IMPERIAL2 Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL2 Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "IMPERIAL2",
+  "looks_origen": "gghhjjuu.looks l.12650",
+  "linea": 12649
+ },
+ "641": {
+  "id": 641,
+  "nombre_interno": "Drop IMPERIAL2 Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop IMPERIAL2 Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "IMPERIAL2",
+  "looks_origen": "gghhjjuu.looks l.12657",
+  "linea": 12656
+ },
+ "642": {
+  "id": 642,
+  "nombre_interno": "Drop MAYOR Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop MAYOR Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "PRIEST4",
+  "looks_origen": "gghhjjuu.looks l.12664",
+  "linea": 12663
+ },
+ "643": {
+  "id": 643,
+  "nombre_interno": "Drop MAYOR Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop MAYOR Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "PRIEST4",
+  "looks_origen": "gghhjjuu.looks l.12671",
+  "linea": 12670
+ },
+ "644": {
+  "id": 644,
+  "nombre_interno": "Drop MAYOR Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop MAYOR Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "PRIEST4",
+  "looks_origen": "gghhjjuu.looks l.12678",
+  "linea": 12677
+ },
+ "645": {
+  "id": 645,
+  "nombre_interno": "Drop MAYOR Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop MAYOR Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "PRIEST4",
+  "looks_origen": "gghhjjuu.looks l.12685",
+  "linea": 12684
+ },
+ "646": {
+  "id": 646,
+  "nombre_interno": "Drop MAYOR Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop MAYOR Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "PRIEST4",
+  "looks_origen": "gghhjjuu.looks l.12692",
+  "linea": 12691
+ },
+ "647": {
+  "id": 647,
+  "nombre_interno": "RIOT GUN",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"RIOT GUN\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "AK4",
+  "looks_origen": "gghhjjuu.looks l.12699",
+  "linea": 12698
+ },
+ "648": {
+  "id": 648,
+  "nombre_interno": "IMPERIAL GUN",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"IMPERIAL GUN\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "IMPERIAL",
+  "looks_origen": "gghhjjuu.looks l.12706",
+  "linea": 12705
+ },
+ "649": {
+  "id": 649,
+  "nombre_interno": "COLONEL GUN",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"COLONEL GUN\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "AK3",
+  "looks_origen": "gghhjjuu.looks l.12712",
+  "linea": 12711
+ },
+ "650": {
+  "id": 650,
+  "nombre_interno": "STAFF",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"STAFF\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "COUNCILSTAFF",
+  "looks_origen": "gghhjjuu.looks l.12718",
+  "linea": 12717
+ },
+ "651": {
+  "id": 651,
+  "nombre_interno": "SMALL BLADE 1",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"SMALL BLADE 1\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "FELKNIFE3",
+  "looks_origen": "gghhjjuu.looks l.12723",
+  "linea": 12722
+ },
+ "652": {
+  "id": 652,
+  "nombre_interno": "SMALL BLADE 2",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"SMALL BLADE 2\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "FELKNIFE3",
+  "looks_origen": "gghhjjuu.looks l.12728",
+  "linea": 12727
+ },
+ "653": {
+  "id": 653,
+  "nombre_interno": "SHIELD",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"SHIELD\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "UBER5",
+  "looks_origen": "gghhjjuu.looks l.12734",
+  "linea": 12733
+ },
+ "654": {
+  "id": 654,
+  "nombre_interno": "SPELL BLADE",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"SPELL BLADE\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "TASER3",
+  "looks_origen": "gghhjjuu.looks l.12741",
+  "linea": 12740
+ },
+ "655": {
+  "id": 655,
+  "nombre_interno": "TRIDENT",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"TRIDENT\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "TRIDENT2",
+  "looks_origen": "gghhjjuu.looks l.12748",
+  "linea": 12747
+ },
+ "656": {
+  "id": 656,
+  "nombre_interno": "BLUE SWORD",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"BLUE SWORD\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "FLATBLADE",
+  "looks_origen": "gghhjjuu.looks l.12755",
+  "linea": 12754
+ },
+ "657": {
+  "id": 657,
+  "nombre_interno": "BLUE SWORD 2",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"BLUE SWORD 2\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "21",
+   "1"
+  ],
+  "looks": "FLATBLADE",
+  "looks_origen": "gghhjjuu.looks l.12762",
+  "linea": 12761
+ },
+ "658": {
+  "id": 658,
+  "nombre_interno": "2H SWORD",
+  "ranura_b": 9,
+  "rareza": "Rare",
+  "args": [
+   "\"2H SWORD\"",
+   "9",
+   "\"Rare\"",
+   "0",
+   "22",
+   "1"
+  ],
+  "looks": "SWORD2",
+  "looks_origen": "gghhjjuu.looks l.12768",
+  "linea": 12767
+ },
+ "659": {
+  "id": 659,
+  "nombre_interno": "Drop WARDEN Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop WARDEN Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "26",
+   "1"
+  ],
+  "looks": "JASON4",
+  "looks_origen": "gghhjjuu.looks l.12775",
+  "linea": 12774
+ },
+ "660": {
+  "id": 660,
+  "nombre_interno": "Drop WARDEN Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop WARDEN Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "27",
+   "1"
+  ],
+  "looks": "JASON4",
+  "looks_origen": "gghhjjuu.looks l.12780",
+  "linea": 12779
+ },
+ "661": {
+  "id": 661,
+  "nombre_interno": "Drop WARDEN Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop WARDEN Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "JASON4",
+  "looks_origen": "gghhjjuu.looks l.12787",
+  "linea": 12786
+ },
+ "662": {
+  "id": 662,
+  "nombre_interno": "Drop WARDEN Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop WARDEN Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "JASON4",
+  "looks_origen": "gghhjjuu.looks l.12794",
+  "linea": 12793
+ },
+ "663": {
+  "id": 663,
+  "nombre_interno": "Drop WARDEN Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop WARDEN Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "JASON4",
+  "looks_origen": "gghhjjuu.looks l.12800",
+  "linea": 12799
+ },
+ "664": {
+  "id": 664,
+  "nombre_interno": "Drop NOS Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop NOS Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "NOS",
+  "looks_origen": "gghhjjuu.looks l.12806",
+  "linea": 12805
+ },
+ "665": {
+  "id": 665,
+  "nombre_interno": "Drop NOS Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop NOS Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "NOS",
+  "looks_origen": "gghhjjuu.looks l.12813",
+  "linea": 12812
+ },
+ "666": {
+  "id": 666,
+  "nombre_interno": "Drop NOS Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop NOS Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "NOS",
+  "looks_origen": "gghhjjuu.looks l.12819",
+  "linea": 12818
+ },
+ "667": {
+  "id": 667,
+  "nombre_interno": "Drop NOS Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop NOS Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "26",
+   "1"
+  ],
+  "looks": "NOS",
+  "looks_origen": "gghhjjuu.looks l.12825",
+  "linea": 12824
+ },
+ "668": {
+  "id": 668,
+  "nombre_interno": "Drop NOS Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop NOS Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "27",
+   "1"
+  ],
+  "looks": "NOS",
+  "looks_origen": "gghhjjuu.looks l.12831",
+  "linea": 12830
+ },
+ "669": {
+  "id": 669,
+  "nombre_interno": "Drop BLUE NINJA Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLUE NINJA Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "27",
+   "1"
+  ],
+  "looks": "BLUENIN",
+  "looks_origen": "gghhjjuu.looks l.12837",
+  "linea": 12836
+ },
+ "670": {
+  "id": 670,
+  "nombre_interno": "Drop BLUE NINJA Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLUE NINJA Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "BLUENIN",
+  "looks_origen": "gghhjjuu.looks l.12843",
+  "linea": 12842
+ },
+ "671": {
+  "id": 671,
+  "nombre_interno": "Drop BLUE NINJA Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLUE NINJA Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "26",
+   "1"
+  ],
+  "looks": "BLUENIN",
+  "looks_origen": "gghhjjuu.looks l.12849",
+  "linea": 12848
+ },
+ "672": {
+  "id": 672,
+  "nombre_interno": "Drop BLUE NINJA Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLUE NINJA Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "BLUENIN",
+  "looks_origen": "gghhjjuu.looks l.12856",
+  "linea": 12855
+ },
+ "673": {
+  "id": 673,
+  "nombre_interno": "Drop BLUE NINJA Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop BLUE NINJA Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "BLUENIN",
+  "looks_origen": "gghhjjuu.looks l.12862",
+  "linea": 12861
+ },
+ "674": {
+  "id": 674,
+  "nombre_interno": "GUN",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"GUN\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "AK2",
+  "looks_origen": "gghhjjuu.looks l.12869",
+  "linea": 12868
+ },
+ "675": {
+  "id": 675,
+  "nombre_interno": "SWORD",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"SWORD\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "26",
+   "1"
+  ],
+  "looks": "XADER",
+  "looks_origen": "gghhjjuu.looks l.12876",
+  "linea": 12875
+ },
+ "676": {
+  "id": 676,
+  "nombre_interno": "KNIFE",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"KNIFE\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "FELKNIFE5",
+  "looks_origen": "gghhjjuu.looks l.12881",
+  "linea": 12880
+ },
+ "677": {
+  "id": 677,
+  "nombre_interno": "KNIFE2",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"KNIFE2\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "23",
+   "1"
+  ],
+  "looks": "FELKNIFE5",
+  "looks_origen": "gghhjjuu.looks l.12886",
+  "linea": 12885
+ },
+ "678": {
+  "id": 678,
+  "nombre_interno": "MACE",
+  "ranura_b": 7,
+  "rareza": "Common",
+  "args": [
+   "\"MACE\"",
+   "7",
+   "\"Common\"",
+   "0",
+   "26",
+   "1"
+  ],
+  "looks": "SPELLMACE",
+  "looks_origen": "gghhjjuu.looks l.12892",
+  "linea": 12891
+ },
+ "679": {
+  "id": 679,
+  "nombre_interno": "BATON",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"BATON\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "25",
+   "1"
+  ],
+  "looks": "BATON2",
+  "looks_origen": "gghhjjuu.looks l.12898",
+  "linea": 12897
+ },
+ "680": {
+  "id": 680,
+  "nombre_interno": "SHIELD",
+  "ranura_b": 8,
+  "rareza": "Common",
+  "args": [
+   "\"SHIELD\"",
+   "8",
+   "\"Common\"",
+   "0",
+   "24",
+   "1"
+  ],
+  "looks": "SHIELD2",
+  "looks_origen": "gghhjjuu.looks l.12903",
+  "linea": 12902
+ },
+ "681": {
+  "id": 681,
+  "nombre_interno": "GOLDEN CROWBAR",
+  "ranura_b": 8,
+  "rareza": "Rare",
+  "args": [
+   "\"GOLDEN CROWBAR\"",
+   "8",
+   "\"Rare\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "CROWBAR2",
+  "looks_origen": "gghhjjuu.looks l.12908",
+  "linea": 12907
+ },
+ "682": {
+  "id": 682,
+  "nombre_interno": "GOLDEN PIPE",
+  "ranura_b": 8,
+  "rareza": "Rare",
+  "args": [
+   "\"GOLDEN PIPE\"",
+   "8",
+   "\"Rare\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PIPE2",
+  "looks_origen": "gghhjjuu.looks l.12913",
+  "linea": 12912
+ },
+ "683": {
+  "id": 683,
+  "nombre_interno": "GOLDEN AXE",
+  "ranura_b": 8,
+  "rareza": "Rare",
+  "args": [
+   "\"GOLDEN AXE\"",
+   "8",
+   "\"Rare\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIREAXE2",
+  "looks_origen": "gghhjjuu.looks l.12918",
+  "linea": 12917
+ },
+ "684": {
+  "id": 684,
+  "nombre_interno": "Drop KLIMA Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop KLIMA Head\"",
+   "2",
+   "\"Common\"",
+   "4",
+   "28",
+   "1"
+  ],
+  "looks": "KLIMA",
+  "looks_origen": "gghhjjuu.looks l.12925",
+  "linea": 12924
+ },
+ "685": {
+  "id": 685,
+  "nombre_interno": "Drop KLIMA Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop KLIMA Chest\"",
+   "3",
+   "\"Common\"",
+   "4",
+   "28",
+   "1"
+  ],
+  "looks": "KLIMA",
+  "looks_origen": "gghhjjuu.looks l.12932",
+  "linea": 12931
+ },
+ "686": {
+  "id": 686,
+  "nombre_interno": "Drop KLIMA Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop KLIMA Hands\"",
+   "4",
+   "\"Common\"",
+   "4",
+   "28",
+   "1"
+  ],
+  "looks": "KLIMA",
+  "looks_origen": "gghhjjuu.looks l.12939",
+  "linea": 12938
+ },
+ "687": {
+  "id": 687,
+  "nombre_interno": "Drop KLIMA Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop KLIMA Legs\"",
+   "5",
+   "\"Common\"",
+   "4",
+   "28",
+   "1"
+  ],
+  "looks": "KLIMA",
+  "looks_origen": "gghhjjuu.looks l.12946",
+  "linea": 12945
+ },
+ "688": {
+  "id": 688,
+  "nombre_interno": "Drop KLIMA Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop KLIMA Feet\"",
+   "6",
+   "\"Common\"",
+   "4",
+   "28",
+   "1"
+  ],
+  "looks": "KLIMA",
+  "looks_origen": "gghhjjuu.looks l.12953",
+  "linea": 12952
+ },
+ "689": {
+  "id": 689,
+  "nombre_interno": "Drop ULTI3 Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI3 Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI3",
+  "looks_origen": "gghhjjuu.looks l.12960",
+  "linea": 12959
+ },
+ "690": {
+  "id": 690,
+  "nombre_interno": "Drop ULTI3 Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI3 Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI3",
+  "looks_origen": "gghhjjuu.looks l.12967",
+  "linea": 12966
+ },
+ "691": {
+  "id": 691,
+  "nombre_interno": "Drop ULTI3 Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI3 Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI3",
+  "looks_origen": "gghhjjuu.looks l.12974",
+  "linea": 12973
+ },
+ "692": {
+  "id": 692,
+  "nombre_interno": "Drop ULTI3 Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI3 Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI3",
+  "looks_origen": "gghhjjuu.looks l.12981",
+  "linea": 12980
+ },
+ "693": {
+  "id": 693,
+  "nombre_interno": "Drop ULTI3 Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI3 Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI3",
+  "looks_origen": "gghhjjuu.looks l.12988",
+  "linea": 12987
+ },
+ "694": {
+  "id": 694,
+  "nombre_interno": "Drop ULTI Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI",
+  "looks_origen": "gghhjjuu.looks l.12995",
+  "linea": 12994
+ },
+ "695": {
+  "id": 695,
+  "nombre_interno": "Drop ULTI Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI",
+  "looks_origen": "gghhjjuu.looks l.13002",
+  "linea": 13001
+ },
+ "696": {
+  "id": 696,
+  "nombre_interno": "Drop ULTI Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI",
+  "looks_origen": "gghhjjuu.looks l.13009",
+  "linea": 13008
+ },
+ "697": {
+  "id": 697,
+  "nombre_interno": "Drop ULTI Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI",
+  "looks_origen": "gghhjjuu.looks l.13016",
+  "linea": 13015
+ },
+ "698": {
+  "id": 698,
+  "nombre_interno": "Drop ULTI Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI",
+  "looks_origen": "gghhjjuu.looks l.13023",
+  "linea": 13022
+ },
+ "699": {
+  "id": 699,
+  "nombre_interno": "Drop ULTI2 Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI2 Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI2",
+  "looks_origen": "gghhjjuu.looks l.13030",
+  "linea": 13029
+ },
+ "700": {
+  "id": 700,
+  "nombre_interno": "Drop ULTI2 Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI2 Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI2",
+  "looks_origen": "gghhjjuu.looks l.13037",
+  "linea": 13036
+ },
+ "701": {
+  "id": 701,
+  "nombre_interno": "Drop ULTI2 Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI2 Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI2",
+  "looks_origen": "gghhjjuu.looks l.13044",
+  "linea": 13043
+ },
+ "702": {
+  "id": 702,
+  "nombre_interno": "Drop ULTI2 Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI2 Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI2",
+  "looks_origen": "gghhjjuu.looks l.13051",
+  "linea": 13050
+ },
+ "703": {
+  "id": 703,
+  "nombre_interno": "Drop ULTI2 Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ULTI2 Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ULTI2",
+  "looks_origen": "gghhjjuu.looks l.13058",
+  "linea": 13057
+ },
+ "704": {
+  "id": 704,
+  "nombre_interno": "Drop ROBOT2 Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT2 Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ROBOT2",
+  "looks_origen": "gghhjjuu.looks l.13064",
+  "linea": 13063
+ },
+ "705": {
+  "id": 705,
+  "nombre_interno": "Drop ROBOT2 Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT2 Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ROBOT2",
+  "looks_origen": "gghhjjuu.looks l.13070",
+  "linea": 13069
+ },
+ "706": {
+  "id": 706,
+  "nombre_interno": "Drop ROBOT2 Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT2 Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ROBOT2",
+  "looks_origen": "gghhjjuu.looks l.13075",
+  "linea": 13074
+ },
+ "707": {
+  "id": 707,
+  "nombre_interno": "Drop ROBOT2 Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT2 Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ROBOT2",
+  "looks_origen": "gghhjjuu.looks l.13080",
+  "linea": 13079
+ },
+ "708": {
+  "id": 708,
+  "nombre_interno": "Drop ROBOT2 Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop ROBOT2 Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "ROBOT2",
+  "looks_origen": "gghhjjuu.looks l.13086",
+  "linea": 13085
+ },
+ "709": {
+  "id": 709,
+  "nombre_interno": "Drop FIRESAM Head",
+  "ranura_b": 2,
+  "rareza": "Rare",
+  "args": [
+   "\"Drop FIRESAM Head\"",
+   "2",
+   "\"Rare\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIRESAM",
+  "looks_origen": "gghhjjuu.looks l.13094",
+  "linea": 13093
+ },
+ "710": {
+  "id": 710,
+  "nombre_interno": "Drop FIRESAM Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop FIRESAM Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIRESAM",
+  "looks_origen": "gghhjjuu.looks l.13102",
+  "linea": 13101
+ },
+ "711": {
+  "id": 711,
+  "nombre_interno": "Drop FIRESAM Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop FIRESAM Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIRESAM",
+  "looks_origen": "gghhjjuu.looks l.13110",
+  "linea": 13109
+ },
+ "712": {
+  "id": 712,
+  "nombre_interno": "Drop FIRESAM Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop FIRESAM Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIRESAM",
+  "looks_origen": "gghhjjuu.looks l.13118",
+  "linea": 13117
+ },
+ "713": {
+  "id": 713,
+  "nombre_interno": "Drop FIRESAM Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop FIRESAM Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FIRESAM",
+  "looks_origen": "gghhjjuu.looks l.13126",
+  "linea": 13125
+ },
+ "714": {
+  "id": 714,
+  "nombre_interno": "Drop CORRUPTOR Head",
+  "ranura_b": 2,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CORRUPTOR Head\"",
+   "2",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PURPLENIN",
+  "looks_origen": "gghhjjuu.looks l.13134",
+  "linea": 13133
+ },
+ "715": {
+  "id": 715,
+  "nombre_interno": "Drop CORRUPTOR Chest",
+  "ranura_b": 3,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CORRUPTOR Chest\"",
+   "3",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PURPLENIN",
+  "looks_origen": "gghhjjuu.looks l.13142",
+  "linea": 13141
+ },
+ "716": {
+  "id": 716,
+  "nombre_interno": "Drop CORRUPTOR Hands",
+  "ranura_b": 4,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CORRUPTOR Hands\"",
+   "4",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PURPLENIN",
+  "looks_origen": "gghhjjuu.looks l.13150",
+  "linea": 13149
+ },
+ "717": {
+  "id": 717,
+  "nombre_interno": "Drop CORRUPTOR Legs",
+  "ranura_b": 5,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CORRUPTOR Legs\"",
+   "5",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PURPLENIN",
+  "looks_origen": "gghhjjuu.looks l.13158",
+  "linea": 13157
+ },
+ "718": {
+  "id": 718,
+  "nombre_interno": "Drop CORRUPTOR Feet",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Drop CORRUPTOR Feet\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "PURPLENIN",
+  "looks_origen": "gghhjjuu.looks l.13166",
+  "linea": 13165
+ },
+ "719": {
+  "id": 719,
+  "nombre_interno": "Guardian Sword",
+  "ranura_b": 6,
+  "rareza": "Common",
+  "args": [
+   "\"Guardian Sword\"",
+   "6",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FLATBLADE2",
+  "looks_origen": "gghhjjuu.looks l.13169",
+  "linea": 13168
+ },
+ "720": {
+  "id": 720,
+  "nombre_interno": "Fire Sword",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Fire Sword\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "KATANA2",
+  "looks_origen": "gghhjjuu.looks l.13176",
+  "linea": 13175
+ },
+ "721": {
+  "id": 721,
+  "nombre_interno": "Fire Sword",
+  "ranura_b": 9,
+  "rareza": "Common",
+  "args": [
+   "\"Fire Sword\"",
+   "9",
+   "\"Common\"",
+   "0",
+   "28",
+   "1"
+  ],
+  "looks": "FELKNIFE4",
+  "looks_origen": "gghhjjuu.looks l.13183",
+  "linea": 13182
+ }
+}

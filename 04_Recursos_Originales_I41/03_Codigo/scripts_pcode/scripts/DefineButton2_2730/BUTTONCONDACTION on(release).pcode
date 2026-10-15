@@ -1,0 +1,84 @@
+ConstantPool "Krin", "difficulty", "t_dif2", "_root", "KrinLang", "KLangChoosen", "MENU"
+Push "Krin"
+GetVariable
+Push "difficulty", "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 1
+Add2
+SetMember
+Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 3
+Less2
+Not
+Not
+If loc008c
+Push "Krin"
+GetVariable
+Push "difficulty", 0.0
+SetMember
+loc008c:Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc00db
+Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 79
+GetMember
+SetVariable
+Jump loc0151
+loc00db:Push "Krin"
+GetVariable
+Push "difficulty"
+GetMember
+Push 1
+Equals2
+Not
+If loc0126
+Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 80
+GetMember
+SetVariable
+Jump loc0151
+loc0126:Push "t_dif2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "_root"
+GetVariable
+Push "KLangChoosen"
+GetMember
+GetMember
+Push "MENU"
+GetMember
+Push 81
+GetMember
+SetVariable
+loc0151:

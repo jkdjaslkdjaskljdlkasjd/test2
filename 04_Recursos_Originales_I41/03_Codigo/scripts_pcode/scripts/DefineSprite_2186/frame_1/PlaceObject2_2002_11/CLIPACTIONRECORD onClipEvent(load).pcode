@@ -1,0 +1,13 @@
+Push "_parent"
+GetVariable
+Push "dontHide"
+GetMember
+Push true
+Equals2
+Not
+Not
+If loc0035
+Push "", 7, false
+SetProperty
+loc0035:Push "hitter", 0.0
+SetVariable

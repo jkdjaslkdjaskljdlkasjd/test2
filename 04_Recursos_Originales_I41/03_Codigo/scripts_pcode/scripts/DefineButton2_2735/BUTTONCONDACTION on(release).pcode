@@ -1,0 +1,21 @@
+ConstantPool "Krin", "tutorOn", "_root", "gotoSceneKrin", "IntroSeq", "IntroSeq2"
+Push "Krin"
+GetVariable
+Push "tutorOn"
+GetMember
+Push true
+Equals2
+Not
+If loc0070
+Push "_root"
+GetVariable
+Push "gotoSceneKrin", "IntroSeq"
+SetMember
+GoToLabel "CS_INTRO"
+Jump loc008b
+loc0070:Push "_root"
+GetVariable
+Push "gotoSceneKrin", "IntroSeq2"
+SetMember
+GoToLabel "CS_INTRO2"
+loc008b:

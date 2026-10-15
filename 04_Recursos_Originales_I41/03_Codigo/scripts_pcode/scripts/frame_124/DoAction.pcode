@@ -1,0 +1,72 @@
+ConstantPool "xRx1", "_root", "KrinLang", "KLangChoosen", "MANUAL", "xRx2", "xRx3", "xRx4", "xRx5", "xRx6", "EXPLAINEXTRA"
+Push "xRx1", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUAL"
+GetMember
+Push 0.0
+GetMember
+SetVariable
+Push "xRx2", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUAL"
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "xRx3", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUAL"
+GetMember
+Push 2
+GetMember
+SetVariable
+Push "xRx4", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUAL"
+GetMember
+Push 3
+GetMember
+SetVariable
+Push "xRx5", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "MANUAL"
+GetMember
+Push 4
+GetMember
+SetVariable
+Push "xRx6", "_root"
+GetVariable
+Push "KrinLang"
+GetMember
+Push "KLangChoosen"
+GetVariable
+GetMember
+Push "EXPLAINEXTRA"
+GetMember
+SetVariable
+Stop

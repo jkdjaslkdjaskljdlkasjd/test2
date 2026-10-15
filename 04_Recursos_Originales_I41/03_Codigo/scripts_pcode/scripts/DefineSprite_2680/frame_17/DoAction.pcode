@@ -1,0 +1,496 @@
+ConstantPool "my_txt", "removeTextField", "my_txt2", "my_txt3", "my_txt4", "ttt", "j", "this", "MY_TX", "", "_root", "_xmouse", "scaffold", "createTextField", "color", "autoSize", "left", "border", "multiline", "text", "t3", "wordWrap", "my_fmt3", "TextFormat", "font", "_sans", "size", "indent", "setTextFormat", "fontBacker3", "_height", "_width", "_x", "_y", "t", "my_fmt", "fontBacker", "tyut", "my_fmt4", "fontBacker4", "tt", "my_fmt2", "bold", "fontBacker2"
+Push 0.0, "my_txt"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt2"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt3"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "my_txt4"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push 0.0, "ttt"
+GetVariable
+Push "removeTextField"
+CallMethod
+Pop
+Push "j", 0.0
+SetVariable
+loc01c2:Push "j"
+GetVariable
+Push 10
+Less2
+Not
+If loc0206
+Push 0.0, "this"
+GetVariable
+Push "MY_TX", "j"
+GetVariable
+Add2
+GetMember
+Push "removeTextField"
+CallMethod
+Pop
+Push "j", "j"
+GetVariable
+Increment
+SetVariable
+Jump loc01c2
+loc0206:Push "", 7, false
+SetProperty
+Push "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 570
+Less2
+Not
+If loc023e
+Push "scaffold", 13
+SetVariable
+Jump loc0249
+loc023e:Push "scaffold", -163
+SetVariable
+loc0249:Push 120, 150, 21, "scaffold"
+GetVariable
+Push 2, "my_txt3", 6, "this"
+GetVariable
+Push "createTextField"
+CallMethod
+Pop
+Push "my_txt3"
+GetVariable
+Push "color", 16777215
+SetMember
+Push "my_txt3"
+GetVariable
+Push "autoSize", "left"
+SetMember
+Push "my_txt3"
+GetVariable
+Push "border", true
+SetMember
+Push "my_txt3"
+GetVariable
+Push "multiline", true
+SetMember
+Push "my_txt3"
+GetVariable
+Push "text", "t3"
+GetVariable
+SetMember
+Push "my_txt3"
+GetVariable
+Push "wordWrap", true
+SetMember
+Push "my_fmt3", 0.0, "TextFormat"
+NewObject
+DefineLocal
+Push "my_fmt3"
+GetVariable
+Push "font", "_sans"
+SetMember
+Push "my_fmt3"
+GetVariable
+Push "color", 51
+SetMember
+Push "my_fmt3"
+GetVariable
+Push "size", 12
+SetMember
+Push "my_fmt3"
+GetVariable
+Push "indent", 2
+SetMember
+Push "my_fmt3"
+GetVariable
+Push 1, "my_txt3"
+GetVariable
+Push "setTextFormat"
+CallMethod
+Pop
+Push "fontBacker3"
+GetVariable
+Push "_height", "my_txt3"
+GetVariable
+Push "_height"
+GetMember
+SetMember
+Push "fontBacker3"
+GetVariable
+Push "_width", "my_txt3"
+GetVariable
+Push "_width"
+GetMember
+SetMember
+Push "fontBacker3"
+GetVariable
+Push "_x", "my_txt3"
+GetVariable
+Push "_x"
+GetMember
+SetMember
+Push "fontBacker3"
+GetVariable
+Push "_y", "my_txt3"
+GetVariable
+Push "_y"
+GetMember
+SetMember
+Push 120, 150, "my_txt3"
+GetVariable
+Push "_y"
+GetMember
+Push "my_txt3"
+GetVariable
+Push "_height"
+GetMember
+Add2
+Push 2
+Add2
+Push "scaffold"
+GetVariable
+Push 0.0, "my_txt", 6, "this"
+GetVariable
+Push "createTextField"
+CallMethod
+Pop
+Push "my_txt"
+GetVariable
+Push "color", 16777215
+SetMember
+Push "my_txt"
+GetVariable
+Push "autoSize", "left"
+SetMember
+Push "my_txt"
+GetVariable
+Push "border", true
+SetMember
+Push "my_txt"
+GetVariable
+Push "multiline", true
+SetMember
+Push "my_txt"
+GetVariable
+Push "text", "t"
+GetVariable
+SetMember
+Push "my_txt"
+GetVariable
+Push "wordWrap", true
+SetMember
+Push "my_fmt", 0.0, "TextFormat"
+NewObject
+DefineLocal
+Push "my_fmt"
+GetVariable
+Push "font", "_sans"
+SetMember
+Push "my_fmt"
+GetVariable
+Push "color", 16777215
+SetMember
+Push "my_fmt"
+GetVariable
+Push "size", 12
+SetMember
+Push "my_fmt"
+GetVariable
+Push "indent", 2
+SetMember
+Push "my_fmt"
+GetVariable
+Push 1, "my_txt"
+GetVariable
+Push "setTextFormat"
+CallMethod
+Pop
+Push "fontBacker"
+GetVariable
+Push "_height", "my_txt"
+GetVariable
+Push "_height"
+GetMember
+SetMember
+Push "fontBacker"
+GetVariable
+Push "_width", "my_txt"
+GetVariable
+Push "_width"
+GetMember
+SetMember
+Push "fontBacker"
+GetVariable
+Push "_x", "my_txt"
+GetVariable
+Push "_x"
+GetMember
+SetMember
+Push "fontBacker"
+GetVariable
+Push "_y", "my_txt"
+GetVariable
+Push "_y"
+GetMember
+SetMember
+Push "my_txt"
+GetVariable
+Push "_height"
+GetMember
+Push 100
+Greater
+Not
+If loc0575
+Push 120, 150, "my_txt3"
+GetVariable
+Push "_y"
+GetMember
+Push "my_txt3"
+GetVariable
+Push "_height"
+GetMember
+Add2
+Push 2
+Add2
+Push "scaffold"
+GetVariable
+Push 2
+Add2
+Push "my_txt"
+GetVariable
+Push "_width"
+GetMember
+Add2
+Push 3, "my_txt4", 6, "this"
+GetVariable
+Push "createTextField"
+CallMethod
+Pop
+Jump loc05c0
+loc0575:Push 120, 150, "my_txt"
+GetVariable
+Push "_y"
+GetMember
+Push "my_txt"
+GetVariable
+Push "_height"
+GetMember
+Add2
+Push 2
+Add2
+Push "scaffold"
+GetVariable
+Push 3, "my_txt4", 6, "this"
+GetVariable
+Push "createTextField"
+CallMethod
+Pop
+loc05c0:Push "my_txt4"
+GetVariable
+Push "color", 16777215
+SetMember
+Push "my_txt4"
+GetVariable
+Push "autoSize", "left"
+SetMember
+Push "my_txt4"
+GetVariable
+Push "border", true
+SetMember
+Push "my_txt4"
+GetVariable
+Push "multiline", true
+SetMember
+Push "my_txt4"
+GetVariable
+Push "text", "tyut"
+GetVariable
+SetMember
+Push "my_txt4"
+GetVariable
+Push "wordWrap", true
+SetMember
+Push "my_fmt4", 0.0, "TextFormat"
+NewObject
+DefineLocal
+Push "my_fmt4"
+GetVariable
+Push "font", "_sans"
+SetMember
+Push "my_fmt4"
+GetVariable
+Push "color", 16763904
+SetMember
+Push "my_fmt4"
+GetVariable
+Push "size", 12
+SetMember
+Push "my_fmt4"
+GetVariable
+Push "indent", 2
+SetMember
+Push "my_fmt4"
+GetVariable
+Push 1, "my_txt4"
+GetVariable
+Push "setTextFormat"
+CallMethod
+Pop
+Push "fontBacker4"
+GetVariable
+Push "_height", "my_txt4"
+GetVariable
+Push "_height"
+GetMember
+SetMember
+Push "fontBacker4"
+GetVariable
+Push "_width", "my_txt"
+GetVariable
+Push "_width"
+GetMember
+SetMember
+Push "fontBacker4"
+GetVariable
+Push "_x", "my_txt4"
+GetVariable
+Push "_x"
+GetMember
+SetMember
+Push "fontBacker4"
+GetVariable
+Push "_y", "my_txt4"
+GetVariable
+Push "_y"
+GetMember
+SetMember
+Push 120, 150, 0.0, "scaffold"
+GetVariable
+Push 1, "my_txt2", 6, "this"
+GetVariable
+Push "createTextField"
+CallMethod
+Pop
+Push "my_txt2"
+GetVariable
+Push "size", 10
+SetMember
+Push "my_txt2"
+GetVariable
+Push "color", 0.0
+SetMember
+Push "my_txt2"
+GetVariable
+Push "autoSize", "left"
+SetMember
+Push "my_txt2"
+GetVariable
+Push "border", true
+SetMember
+Push "my_txt2"
+GetVariable
+Push "multiline", true
+SetMember
+Push "my_txt2"
+GetVariable
+Push "text", "tt"
+GetVariable
+SetMember
+Push "my_txt2"
+GetVariable
+Push "wordWrap", true
+SetMember
+Push "my_fmt2", 0.0, "TextFormat"
+NewObject
+DefineLocal
+Push "my_fmt2"
+GetVariable
+Push "font", "_sans"
+SetMember
+Push "my_fmt2"
+GetVariable
+Push "color", 0.0
+SetMember
+Push "my_fmt2"
+GetVariable
+Push "size", 12
+SetMember
+Push "my_fmt2"
+GetVariable
+Push "bold", true
+SetMember
+Push "my_fmt2"
+GetVariable
+Push "indent", 3
+SetMember
+Push "my_fmt2"
+GetVariable
+Push 1, "my_txt2"
+GetVariable
+Push "setTextFormat"
+CallMethod
+Pop
+Push "fontBacker2"
+GetVariable
+Push "_height", "my_txt2"
+GetVariable
+Push "_height"
+GetMember
+SetMember
+Push "fontBacker2"
+GetVariable
+Push "_width", "my_txt2"
+GetVariable
+Push "_width"
+GetMember
+SetMember
+Push "fontBacker2"
+GetVariable
+Push "_x", "my_txt2"
+GetVariable
+Push "_x"
+GetMember
+SetMember
+Push "fontBacker2"
+GetVariable
+Push "_y", "my_txt2"
+GetVariable
+Push "_y"
+GetMember
+SetMember
+Push "", 7, true
+SetProperty
+Push "_root"
+GetVariable
+Push "__uiOwner"
+GetMember
+Not
+If loc08a7
+Push "this"
+GetVariable
+Push 1
+Push "_root"
+GetVariable
+Push "__uiLayout"
+CallMethod
+Pop
+Jump loc08a7
+loc08a7:Push "this"
+GetVariable
+Push 1
+Push "_root"
+GetVariable
+Push "__nightTitleFit"
+CallMethod
+Pop

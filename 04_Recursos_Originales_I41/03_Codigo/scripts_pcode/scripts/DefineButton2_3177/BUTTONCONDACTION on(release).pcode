@@ -1,0 +1,77 @@
+ConstantPool "_root", "Krin", "statPoints", "StatSets0", "yut_str2", "STRENGTH", "dead", "statColor", "gotoAndStop"
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+Push 0.0
+Greater
+Not
+If loc014c
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets0"
+GetMember
+Push 1, "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "StatSets0"
+GetMember
+Push 1
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+Decrement
+SetMember
+Push "statPoints", "statPoints"
+GetVariable
+Decrement
+SetVariable
+Push "yut_str2", "yut_str2"
+GetVariable
+Increment
+SetVariable
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "STRENGTH", "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "STRENGTH"
+GetMember
+Push 1
+Add2
+SetMember
+Push "_root"
+GetVariable
+Push "Krin"
+GetMember
+Push "statPoints"
+GetMember
+Push 0.0
+Equals2
+Not
+If loc014c
+Push "dead", 1, "statColor"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc014c:
