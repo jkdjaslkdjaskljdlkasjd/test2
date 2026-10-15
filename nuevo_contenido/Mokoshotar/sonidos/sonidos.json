@@ -1,0 +1,52 @@
+{
+ "moko_ataque_mordisco_1": {
+  "descripcion": "Ataque: salto + mordisco + crujido de hielo. Disparar en el fotograma 7; impacto a +0,200 s.",
+  "duracion_s": 0.804,
+  "pico_dBFS": -1.0,
+  "rms_dBFS": -25.35,
+  "archivos": [
+   "moko_ataque_mordisco_1.wav",
+   "moko_ataque_mordisco_1.ogg"
+  ]
+ },
+ "moko_ataque_mordisco_2": {
+  "descripcion": "Ataque: gruñido + zarpazo + esquirlas de hielo. Disparar en el fotograma 7; impacto a +0,200 s.",
+  "duracion_s": 1.106,
+  "pico_dBFS": -1.0,
+  "rms_dBFS": -22.57,
+  "archivos": [
+   "moko_ataque_mordisco_2.wav",
+   "moko_ataque_mordisco_2.ogg"
+  ]
+ },
+ "moko_hechizo_escarcha_1": {
+  "descripcion": "Hechizo: carga de viento helado + cristales (Mi) + estallido. Disparar en el fotograma 9; liberación a +0,233 s.",
+  "duracion_s": 2.853,
+  "pico_dBFS": -1.0,
+  "rms_dBFS": -18.82,
+  "archivos": [
+   "moko_hechizo_escarcha_1.wav",
+   "moko_hechizo_escarcha_1.ogg"
+  ]
+ },
+ "moko_hechizo_escarcha_2": {
+  "descripcion": "Hechizo: retumbe + aire invertido + campanas graves + viento. Disparar en el fotograma 9; liberación a +0,233 s.",
+  "duracion_s": 3.416,
+  "pico_dBFS": -1.0,
+  "rms_dBFS": -16.97,
+  "archivos": [
+   "moko_hechizo_escarcha_2.wav",
+   "moko_hechizo_escarcha_2.ogg"
+  ]
+ },
+ "moko_critico_aullido": {
+  "descripcion": "Golpe crítico: aullido de lobo (síntesis vocal, 2,6 s).",
+  "duracion_s": 4.628,
+  "pico_dBFS": -1.0,
+  "rms_dBFS": -15.48,
+  "archivos": [
+   "moko_critico_aullido.wav",
+   "moko_critico_aullido.ogg"
+  ]
+ }
+}

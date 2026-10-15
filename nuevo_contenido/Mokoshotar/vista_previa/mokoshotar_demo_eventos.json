@@ -1,0 +1,35 @@
+{
+ "eventos_sonido": [
+  {
+   "fotograma": 31,
+   "segundo": 1.033,
+   "sonido": "moko_ataque_mordisco_1"
+  },
+  {
+   "fotograma": 77,
+   "segundo": 2.567,
+   "sonido": "moko_ataque_mordisco_2"
+  },
+  {
+   "fotograma": 125,
+   "segundo": 4.167,
+   "sonido": "moko_hechizo_escarcha_1"
+  },
+  {
+   "fotograma": 191,
+   "segundo": 6.367,
+   "sonido": "moko_hechizo_escarcha_2"
+  },
+  {
+   "fotograma": 255,
+   "segundo": 8.5,
+   "sonido": "moko_ataque_mordisco_1"
+  },
+  {
+   "fotograma": 261,
+   "segundo": 8.7,
+   "sonido": "moko_critico_aullido"
+  }
+ ],
+ "duracion_s": 11.7
+}

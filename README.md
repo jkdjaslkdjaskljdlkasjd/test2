@@ -24,6 +24,7 @@ Repositorio del mod de Sonny 2.
 - `i40/`: la Zona 3 (el tren) en HD, con el parpadeo cálido/azul del original; imágenes en JPEG 97 4:4:4 (SWF de 42 MB).
 - `i41/`: la nueva New Alcatraz HD (v2 del usuario) en la Zona 1. **Versión vigente.**
 - `04_Recursos_Originales_I41/`: extracción y catálogo de todos los recursos originales del SWF I41 con JPEXS (formas, sprites, bitmaps, sonidos, código, animaciones en JSON) y los 145 personajes montados según el código (`__nzRawDress`). Empieza por su `LEEME.md`; la identificación de Veradux está en `00_MUESTRA_VERADUX/`.
+- `nuevo_contenido/Mokoshotar/`: animaciones nuevas de ataque (Mordisco Glacial) y hechizo (Aullido de Escarcha) sobre el rig original del lobo, 2 sonidos aleatorios por habilidad y aullido de golpe crítico; escena Godot 4 lista para probar y vídeo de vista previa. Ver su `LEEME.md`.
 - `planes/`: planes y prompts de arte para la IA de imágenes (`PLAN_NEW_ALCATRAZ_HUMO.md`, `PROMPT_TREN_LUCES.md`).
 - `fondos_hd/`: fondos de referencia organizados en `batallas/` y `world_map/`. Los mapas limpios son `world_map/VILLAGE_Z2.jpg` (Oberursel) y `world_map/ROME_Z6.jpg` (Il Sanctus), ambos de 2560x1440, `world_map/PRISON_Z1.png` (New Alcatraz v2, 1672x941; `PRISON_Z1_2560x1440.png` es la ampliada con Real-ESRGAN; la v1 está en `PRISON_Z1_v1*`) y `world_map/TRAIN_Z3_calido.png` / `TRAIN_Z3_azul.png` (el tren, 1673x941, con sus versiones `_2560x1440`).
 - `instalador/`: `INSTALAR.bat` y `RESTAURAR.bat` (copian `SONNY2.swf` a la carpeta del juego de Steam con respaldo).
