@@ -19,17 +19,29 @@ for an in D['animaciones']:
     for nd, tr in zip(D['nodos'], an['tracks']):
         if not tr['visible'][0]: continue
         a, b, c, dd, ox, oy = tr['transform'][0]
+        kts = {k['hijo']: k for k in tr.get('hijos', [])}
         for sp in sorted(nd['sprites'], key=lambda s: s['z_attach']):
-            im = Image.open(os.path.join(d_, 'texturas', sp['textura'])).convert('RGBA')
+            kt = kts.get(sp['nombre'])
+            if kt and not kt['visible'][0]: continue
+            if sp.get('tipo') == 'anim':
+                fi = kt['frame'][0] if kt else 0
+                im = Image.open(os.path.join(d_, 'texturas', sp['fotogramas'][fi])).convert('RGBA'); zt = D.get('zoom_animados', 4)
+            else:
+                im = Image.open(os.path.join(d_, 'texturas', sp['textura'])).convert('RGBA'); zt = ZT
             ax, ay = sp['anclaje_png']
             # punto en lienzo = ZJ*(M_lin*((u-anc)/ZT) + o + O) + pad
-            k = ZJ / ZT
+            k = ZJ / zt
             A2, B2, C2, D2 = a * k, b * k, c * k, dd * k
             ex = ZJ * (ox + OX) + padx; ey = ZJ * (oy + OY) + pady
             det = A2 * D2 - B2 * C2
             ia, ib, ic, idd = D2 / det, -B2 / det, -C2 / det, A2 / det
             coeffs = (ia, ic, -(ia * ex + ic * ey) + ax, ib, idd, -(ib * ex + idd * ey) + ay)
-            can.alpha_composite(im.transform(A.size, Image.AFFINE, coeffs, resample=Image.BICUBIC))
+            lay = im.transform(A.size, Image.AFFINE, coeffs, resample=Image.BICUBIC)
+            md = tr['modulate'][0] or [1, 1, 1, 1]
+            if md != [1, 1, 1, 1]:
+                r_, g_, b_, a_ = lay.split()
+                lay = Image.merge('RGBA', [ch.point(lambda v, k=k: int(min(255, v * k))) for ch, k in zip((r_, g_, b_, a_), md)])
+            can.alpha_composite(lay)
     can.save(os.path.join(out, 'godot_%03d_%s.png' % (f, an['nombre'])))
     aA = A.getchannel('A').point(lambda v: 255 if v > 127 else 0); aB = can.getchannel('A').point(lambda v: 255 if v > 127 else 0)
     ni = sum(1 for v in ImageChops.multiply(aA, aB).get_flattened_data() if v); nu = sum(1 for v in ImageChops.lighter(aA, aB).get_flattened_data() if v)

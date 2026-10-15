@@ -24,21 +24,48 @@ rep = json.load(open(rep_p))
 mid = rep['model_id_original']
 M = C[str(mid)]
 st = anim.frame_states(M['timeline'], M['frames'])
-os.makedirs(os.path.join(out, 'texturas'), exist_ok=True)
+SHARED = os.environ.get('TEX_SHARED')          # carpeta de texturas comun (opcional)
+RES_TEX = os.environ.get('RES_TEX')            # ruta res:// de esa carpeta
+TEXDIR = SHARED or os.path.join(out, 'texturas')
+os.makedirs(TEXDIR, exist_ok=True)
+os.makedirs(out, exist_ok=True)
 
 
 def find(d, cid):
+    if not d: return None
     g = glob.glob(os.path.join(d, 'DefineSprite_%d' % cid)) + glob.glob(os.path.join(d, 'DefineSprite_%d_*' % cid))
     return g[0] if g else None
 
 
+def canvas(svgtext):
+    H, W = map(float, re.search(r'height="([\d.]+)px" width="([\d.]+)px"', svgtext).groups())
+    tx, ty = map(float, re.search(r'matrix\(1\.0, 0\.0, 0\.0, 1\.0, ([-\d.]+), ([-\d.]+)\)', svgtext).groups())
+    return W, H, tx, ty
+
+
 def anchor(cid):
+    """PNG estático (sprite de 1 fotograma o forma) a zoom Z."""
     p = find(tpng, cid); s = find(tsvg, cid)
-    im = Image.open(os.path.join(p, '1.png'))
-    t = open(os.path.join(s, '1.svg')).read(2000)
-    H, W = map(float, re.search(r'height="([\d.]+)px" width="([\d.]+)px"', t).groups())
-    tx, ty = map(float, re.search(r'matrix\(1\.0, 0\.0, 0\.0, 1\.0, ([-\d.]+), ([-\d.]+)\)', t).groups())
-    return os.path.join(p, '1.png'), ((im.width - W * Z) / 2 + tx * Z, (im.height - H * Z) / 2 + ty * Z), im.size
+    if p and s:
+        png, svg = os.path.join(p, '1.png'), os.path.join(s, '1.svg')
+    else:
+        png = os.path.join(os.environ.get('SHAPES_PNG', ''), '%d.png' % cid); svg = os.path.join(os.environ.get('SHAPES_SVG', ''), '%d.svg' % cid)
+    im = Image.open(png)
+    W, H, tx, ty = canvas(open(svg).read(2000))
+    return png, ((im.width - W * Z) / 2 + tx * Z, (im.height - H * Z) / 2 + ty * Z), im.size
+
+
+ZM = float(os.environ.get('ZM', '4'))
+
+
+def anchor_multi(cid):
+    """Sprite con animación propia: todos sus fotogramas PNG (mismo lienzo) a zoom ZM."""
+    p = find(os.environ.get('MULTI_PNG'), cid); s = find(os.environ.get('MULTI_SVG'), cid)
+    n = C[str(cid)]['frames']
+    files = [os.path.join(p, '%d.png' % k) for k in range(1, n + 1)]
+    im = Image.open(files[0])
+    W, H, tx, ty = canvas(open(os.path.join(s, '1.svg')).read(2000))
+    return files, ((im.width - W * ZM) / 2 + tx * ZM, (im.height - H * ZM) / 2 + ty * ZM)
 
 
 # instancias del MODEL: profundidad -> nombre / carácter
@@ -50,10 +77,17 @@ bones = {}
 for b, v in rep['huesos'].items():
     for d in v['profundidades_en_model']:
         bones[d] = (b, v['contenido'])
-# otros objetos con nombre que no son huesos (sombra)
-extra = {d: n for d, (n, ch) in inst.items() if d not in bones}
-used_depths = sorted(set(bones) | set(extra))
+# todas las demás profundidades del MODEL (sombra, capas sin nombre, efectos)
+chars_at = {}
+names_at = {}
+for ev in M['timeline']:
+    if 'ch' in ev and ev['depth'] not in bones:
+        chars_at.setdefault(ev['depth'], [])
+        if ev['ch'] not in chars_at[ev['depth']]: chars_at[ev['depth']].append(ev['ch'])
+        if ev.get('name'): names_at[ev['depth']] = ev['name']
+used_depths = sorted(set(bones) | set(chars_at))
 tex = {}
+frames_res = {}
 ext_id = 0
 
 
@@ -62,26 +96,48 @@ def texture(cid, link):
     if cid in tex: return tex[cid]
     p, anc, size = anchor(cid)
     fn = '%s_%d_x%d.png' % (link or 'chid', cid, int(Z))
-    shutil.copy(p, os.path.join(out, 'texturas', fn))
+    if not os.path.exists(os.path.join(TEXDIR, fn)):
+        shutil.copy(p, os.path.join(TEXDIR, fn))
     ext_id += 1
     tex[cid] = {"id": "%d_tex" % ext_id, "file": fn, "anclaje_png": anc, "size": size}
     return tex[cid]
 
 
-nodes = []  # (path, depth, [sprites])
+def anim_frames(cid, link):
+    global ext_id
+    if cid in frames_res: return frames_res[cid]
+    files, anc = anchor_multi(cid)
+    lst = []
+    for k, f in enumerate(files, 1):
+        fn = '%s_%d_f%03d_x%d.png' % (link or 'chid', cid, k, int(ZM))
+        if not os.path.exists(os.path.join(TEXDIR, fn)):
+            shutil.copy(f, os.path.join(TEXDIR, fn))
+        ext_id += 1
+        lst.append({"id": "%d_tex" % ext_id, "file": fn})
+    frames_res[cid] = {"frames": lst, "anclaje_png": anc, "sf_id": "SpriteFrames_%d" % cid}
+    return frames_res[cid]
+
+
+nodes = []  # (nombre, depth, [hijos])
 for d in used_depths:
     if d in bones:
         name, cont = bones[d]
         sprites = []
         for it in sorted(cont, key=lambda x: x['profundidad_timeline']):
             t = texture(it['characterId'], it['linkage'])
-            sprites.append({"nombre": '%s_%s' % (it['nombre'], it['linkage']), "tex": t, "z": it['profundidad_as2'], "cid": it['characterId']})
+            sprites.append({"nombre": '%s_%s' % (it['nombre'], it['linkage']), "tex": t, "z": it['profundidad_as2'], "cid": it['characterId'], "tipo": "static", "solo_si_cid": False})
         nodes.append((name, d, sprites))
     else:
-        name = extra[d]
-        cid = inst[d][1]
-        t = texture(cid, '_'.join(C[str(cid)]['exports']) or name)
-        nodes.append((name, d, [{"nombre": name + '_grafico', "tex": t, "z": 0, "cid": cid}]))
+        name = names_at.get(d, 'capa_%d' % d)
+        kids = []
+        for cid in chars_at[d]:
+            c = C[str(cid)]
+            link = '_'.join(c['exports']) or ('%s_%d' % (c['tag'].replace('Define', ''), cid))
+            if c['tag'] == 'DefineSprite' and c['frames'] > 1:
+                kids.append({"nombre": 'anim_%d' % cid, "anim": anim_frames(cid, link), "z": 0, "cid": cid, "tipo": "anim", "n": c['frames'], "solo_si_cid": True})
+            else:
+                kids.append({"nombre": 'grafico_%d' % cid, "tex": texture(cid, link), "z": 0, "cid": cid, "tipo": "static", "solo_si_cid": len(chars_at[d]) > 1})
+        nodes.append((name, d, kids))
 
 # animaciones por etiqueta
 labels = sorted(M['labels'], key=lambda l: l['f'])
@@ -90,14 +146,26 @@ for p in glob.glob(os.path.join(sdir, 'DefineSprite_%d*' % mid, 'frame_*', '*.as
     acts[int(re.search(r'frame_(\d+)', p).group(1))] = open(p, encoding='utf-8', errors='replace').read()
 anims = []
 for i, l in enumerate(labels):
-    a = l['f']; b = (labels[i + 1]['f'] - 1) if i + 1 < len(labels) else M['frames']
+    a = l['f']; nxtf = [x['f'] for x in labels if x['f'] > a]
+    b = (min(nxtf) - 1) if nxtf else M['frames']
     last = acts.get(b, '')
     loop = bool(re.search(r'gotoAndStop\("%s"\)' % re.escape(l['label']), last))
     nxt = re.search(r'gotoAndStop\("([^"]+)"\)', last)
     nxt = nxt.group(1) if nxt and not loop else ('(stop)' if 'stop()' in last else ('(removeMovieClip)' if 'removeMovieClip' in last else None))
     snd = {f - a: re.findall(r'addSound\("Effects","([^"]+)"\)', acts[f]) for f in range(a, b + 1) if f in acts and 'addSound' in acts[f]}
     tracks = []
-    for name, d, _ in nodes:
+    for name, d, kids_ in nodes:
+        kid_tracks = []
+        for kd in kids_:
+            if not kd['solo_si_cid'] and kd['tipo'] != 'anim':
+                continue
+            kv, kf = [], []
+            for f in range(a, b + 1):
+                o = st[f - 1].get(d)
+                on = bool(o) and o.get('ch') == kd['cid']
+                kv.append(on)
+                kf.append(((f - o['placed_f']) % kd['n']) if (on and kd['tipo'] == 'anim') else 0)
+            kid_tracks.append({"hijo": kd['nombre'], "visible": kv, "frame": kf if kd['tipo'] == 'anim' else None})
         tf, vis, mod, add, blur = [], [], [], [], []
         for f in range(a, b + 1):
             o = st[f - 1].get(d)
@@ -119,7 +187,7 @@ for i, l in enumerate(labels):
         tf2 = []
         for x in tf:
             lastv = x or lastv; tf2.append(lastv)
-        tracks.append({"nodo": name, "transform": tf2, "visible": vis, "modulate": mod, "color_aditivo_no_aplicado": add, "desenfoque_swf_px": blur})
+        tracks.append({"nodo": name, "hijos": kid_tracks, "transform": tf2, "visible": vis, "modulate": mod, "color_aditivo_no_aplicado": add, "desenfoque_swf_px": blur})
     efectos = []
     for f in range(a, b + 1):
         for dpt, o in st[f - 1].items():
@@ -163,6 +231,21 @@ for k, an in enumerate(anims):
                    'tracks/%d/loop_wrap = true' % ti,
                    'tracks/%d/keys = {\n"times": PackedFloat32Array(%s),\n"transitions": PackedFloat32Array(%s),\n"update": 1,\n"values": [%s]\n}' % (ti, times, trans, vals)]
             ti += 1
+        for kt in tr['hijos']:
+            if not all(kt['visible']):
+                vals = ', '.join('true' if v else 'false' for v in kt['visible'])
+                tl += ['tracks/%d/type = "value"' % ti, 'tracks/%d/imported = false' % ti, 'tracks/%d/enabled = true' % ti,
+                       'tracks/%d/path = NodePath("Modelo/%s/%s:visible")' % (ti, tr['nodo'], kt['hijo']), 'tracks/%d/interp = 0' % ti,
+                       'tracks/%d/loop_wrap = true' % ti,
+                       'tracks/%d/keys = {\n"times": PackedFloat32Array(%s),\n"transitions": PackedFloat32Array(%s),\n"update": 1,\n"values": [%s]\n}' % (ti, times, trans, vals)]
+                ti += 1
+            if kt['frame'] is not None:
+                vals = ', '.join(str(v) for v in kt['frame'])
+                tl += ['tracks/%d/type = "value"' % ti, 'tracks/%d/imported = false' % ti, 'tracks/%d/enabled = true' % ti,
+                       'tracks/%d/path = NodePath("Modelo/%s/%s:frame")' % (ti, tr['nodo'], kt['hijo']), 'tracks/%d/interp = 0' % ti,
+                       'tracks/%d/loop_wrap = true' % ti,
+                       'tracks/%d/keys = {\n"times": PackedFloat32Array(%s),\n"transitions": PackedFloat32Array(%s),\n"update": 1,\n"values": [%s]\n}' % (ti, times, trans, vals)]
+                ti += 1
         if any(m and m != [1, 1, 1, 1] for m in tr['modulate']):
             vals = ', '.join('Color(%r, %r, %r, %r)' % tuple(m or [1, 1, 1, 1]) for m in tr['modulate'])
             tl += ['tracks/%d/type = "value"' % ti, 'tracks/%d/imported = false' % ti, 'tracks/%d/enabled = true' % ti,
@@ -173,8 +256,15 @@ for k, an in enumerate(anims):
     subs.append('\n'.join(tl))
 lib = '[sub_resource type="AnimationLibrary" id="AnimationLibrary_1"]\n_data = {\n%s\n}' % ',\n'.join(
     '"%s": SubResource("Animation_%d")' % (an['nombre'], k) for k, an in enumerate(anims))
-hdr = '[gd_scene load_steps=%d format=3]' % (len(tex) + len(anims) + 2)
-exts = ['[ext_resource type="Texture2D" path="res://%s/texturas/%s" id="%s"]' % (nombre, t['file'], t['id']) for t in tex.values()]
+RT = RES_TEX or ('res://%s/texturas' % nombre)
+exts = ['[ext_resource type="Texture2D" path="%s/%s" id="%s"]' % (RT, t['file'], t['id']) for t in tex.values()]
+sfs = []
+for cid, fr in frames_res.items():
+    exts += ['[ext_resource type="Texture2D" path="%s/%s" id="%s"]' % (RT, x['file'], x['id']) for x in fr['frames']]
+    sfs.append('[sub_resource type="SpriteFrames" id="%s"]\nanimations = [{\n"frames": [%s],\n"loop": true,\n"name": &"default",\n"speed": 30.0\n}]' % (
+        fr['sf_id'], ', '.join('{\n"duration": 1.0,\n"texture": ExtResource("%s")\n}' % x['id'] for x in fr['frames'])))
+subs = sfs + subs
+hdr = '[gd_scene load_steps=%d format=3]' % (len(exts) + len(subs) + 2)
 body = ['[node name="%s" type="Node2D"]' % nombre,
         '[node name="Modelo" type="Node2D" parent="."]',
         'metadata/fuente = "SONNY2.swf I41 %s (MODEL %d); 1 unidad = 1 px SWF; escalar este nodo para HD"' % (rep['spec']['name'], mid)]
@@ -187,8 +277,21 @@ for name, d, sprites in nodes:
     body.append('metadata/profundidad_swf = %d' % d)
     body.append('metadata/desenfoque_swf = Vector2(0, 0)')
     for sp in sprites:
+        if sp['tipo'] == 'anim':
+            fr = sp['anim']
+            body.append('[node name="%s" type="AnimatedSprite2D" parent="Modelo/%s"]' % (sp['nombre'], name))
+            body.append('scale = Vector2(%r, %r)' % (1 / ZM, 1 / ZM))
+            body.append('sprite_frames = SubResource("%s")' % fr['sf_id'])
+            body.append('centered = false')
+            body.append('offset = Vector2(%r, %r)' % (-fr['anclaje_png'][0], -fr['anclaje_png'][1]))
+            body.append('metadata/characterId = %d' % sp['cid'])
+            o1 = f1.get(d)
+            if not (o1 and o1.get('ch') == sp['cid']): body.append('visible = false')
+            continue
         t = sp['tex']
         body.append('[node name="%s" type="Sprite2D" parent="Modelo/%s"]' % (sp['nombre'], name))
+        o1 = f1.get(d)
+        if sp.get('solo_si_cid') and not (o1 and o1.get('ch') == sp['cid']): body.append('visible = false')
         body.append('scale = Vector2(%r, %r)' % (1 / Z, 1 / Z))
         body.append('texture = ExtResource("%s")' % t['id'])
         body.append('centered = false')
@@ -200,8 +303,13 @@ body.append('libraries = {\n"": SubResource("AnimationLibrary_1")\n}')
 body.append('autoplay = "stand"')
 txt = '\n\n'.join([hdr] + exts + subs + [lib] + body) + '\n'
 open(os.path.join(out, nombre + '.tscn'), 'w').write(txt)
+if os.environ.get('NO_JSON'):
+    sys.exit(print('nodos', len(nodes), 'texturas', len(tex), 'animaciones', len(anims)))
 json.dump({"personaje": rep['spec'], "model": mid, "zoom_texturas": Z, "fps": FPS,
-           "nodos": [{"nodo": n, "profundidad": d, "sprites": [{"nombre": s['nombre'], "characterId": s['cid'], "textura": s['tex']['file'],
-                                                                 "anclaje_png": s['tex']['anclaje_png'], "z_attach": s['z']} for s in sp]} for n, d, sp in nodes],
+           "zoom_animados": ZM,
+           "nodos": [{"nodo": n, "profundidad": d, "sprites": [({"nombre": s['nombre'], "characterId": s['cid'], "tipo": "static", "textura": s['tex']['file'],
+                                                                 "anclaje_png": s['tex']['anclaje_png'], "z_attach": s['z']} if s['tipo'] == 'static' else
+                                                                {"nombre": s['nombre'], "characterId": s['cid'], "tipo": "anim", "fotogramas": [x['file'] for x in s['anim']['frames']],
+                                                                 "anclaje_png": s['anim']['anclaje_png'], "z_attach": 0}) for s in sp]} for n, d, sp in nodes],
            "animaciones": anims}, open(os.path.join(out, 'datos_animacion.json'), 'w'), ensure_ascii=False)
 print('nodos', len(nodes), 'texturas', len(tex), 'animaciones', [(a['nombre'], a['n'], 'loop' if a['loop'] else a['siguiente']) for a in anims])

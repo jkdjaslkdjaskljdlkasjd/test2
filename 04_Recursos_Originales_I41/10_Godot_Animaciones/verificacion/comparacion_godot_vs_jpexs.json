@@ -27,7 +27,7 @@
  {
   "animacion": "attack2",
   "fotograma": 153,
-  "iou_alfa": 0.2198
+  "iou_alfa": 0.9666
  },
  {
   "animacion": "runback",
@@ -47,7 +47,7 @@
  {
   "animacion": "stun2",
   "fotograma": 240,
-  "iou_alfa": 0.8386
+  "iou_alfa": 0.8887
  },
  {
   "animacion": "outofstun",

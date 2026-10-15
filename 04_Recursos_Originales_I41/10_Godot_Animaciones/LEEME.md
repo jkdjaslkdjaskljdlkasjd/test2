@@ -1,37 +1,44 @@
 # Animaciones convertidas a Godot 4 (sin integrar en el proyecto)
 
-Escena independiente por personaje, generada a partir de los datos exactos del SWF I41. **No se ha tocado el proyecto Godot existente.** Para probarla, copia la carpeta del personaje (p. ej. `Veradux_AP129/`) a la raíz de un proyecto Godot 4 y abre su `.tscn`.
+Escenas independientes generadas a partir de los datos exactos del SWF I41. **No se ha tocado el proyecto Godot existente.**
+
+- `sonny_i41/`: los **145 personajes** (`personajes/APxxx_<nombre>/APxxx_<nombre>.tscn`) con texturas compartidas en `texturas/`. Para usarlos, copia la carpeta `sonny_i41/` a la raíz de un proyecto Godot 4 (las rutas son `res://sonny_i41/...`) y abre cualquier `.tscn`.
+- `Veradux_AP129/`: Veradux (miembro del equipo) como escena autónoma, con sus texturas y `datos_animacion.json` (todos los datos en JSON). Va en la raíz del proyecto (`res://Veradux_AP129/...`).
+- `verificacion/`: comprobación de cada animación (ver abajo).
 
 ## Estructura de cada escena
-- `Node2D <personaje>` → `Modelo` → un `Node2D` por instancia de `MODEL1`: los huesos `head`, `chest`, `arm1`… y la sombra `shadower`, en el **orden de profundidad SWF**, que es el orden de dibujo.
-- Dentro de cada hueso, un `Sprite2D` por pieza que adjunta `attachMovie`:
-  - en orden piel (−1) → equipo (0) → pelo (2);
-  - textura PNG ×8 con `centered=false`, `offset = −anclaje` y `scale = 1/8`;
-  - resultado: **1 unidad Godot = 1 px SWF**. Escala el nodo `Modelo` para HD.
-- `AnimationPlayer` con una animación por etiqueta de `MODEL1`: `stand`, `run`, `Attack_Upper`, `Attack_Stab`, `Attack`, `attack2`, `runback`, `cast`, `stun`, `stun2`, `outofstun`, `hit` y `dead`. Funciona a 30 fps con interpolación **NEAREST** (fotograma a fotograma, como Flash). Pistas:
-  - `transform`: `Transform2D` exacto de la matriz SWF, sin descomponer, así que conserva el sesgo;
-  - `visible`: solo si un hueso desaparece;
-  - `modulate`: multiplicadores de color SWF, p. ej. el oscurecimiento 154/256 de las extremidades traseras;
-  - `metadata/desenfoque_swf` (Vector2, en px): el `BlurFilter` de los ataques. Godot no lo aplica solo; necesita un shader si se quiere reproducir.
-- Bucles según el código de `MODEL1`:
-  - `stand` y `stun2` repiten;
-  - `Attack_Upper` y `Attack_Stab` pasan a `runback`; `runback`, `cast`, `outofstun` y `hit` pasan a `stand`;
-  - `run` se detiene (`stop`); `dead` termina con `removeMovieClip`;
-  - `Attack`, `attack2` y `stun` no tienen acción al final: en Flash siguen reproduciendo la etiqueta siguiente.
-
-  Todo está en `datos_animacion.json` (`loop`, `siguiente`).
-- `datos_animacion.json`: los mismos datos en JSON, más:
-  - `sonidos_por_fotograma` (`sfx_swing`…);
-  - `efectos_no_incluidos_en_escena`: los efectos de la profundidad 33 (barrido de ataque 2457/2461/2370, lanzamiento 2295, estrellas de aturdimiento 2298), con fotogramas y posición.
+- **Nodos.** `Node2D <personaje>` → `Modelo` → un `Node2D` por profundidad del `MODEL`, en el **orden de dibujo SWF**:
+  - huesos (`head`, `chest`, `arm1`…);
+  - sombra (`shadower`);
+  - capas sin nombre (`capa_<prof>`), como el cuerpo de los modelos sin huesos (Orb, The Bomb);
+  - efectos (`capa_33`: barridos de ataque, aturdimiento, lanzamiento).
+- **Piezas de los huesos.** Un `Sprite2D` por pieza que adjunta `attachMovie`, en orden piel (−1) → equipo (0) → pelo (2). Usan textura PNG ×8 con `centered=false`, `offset = −anclaje` y `scale = 1/8`, así que **1 unidad Godot = 1 px SWF**. Escala el nodo `Modelo` para HD.
+- **Sprites con animación propia** (efectos, cuerpo de Orb…). Son `AnimatedSprite2D` con sus fotogramas PNG ×4, más una pista `frame` que reproduce su avance como en Flash.
+- **Cambio de carácter.** Si una profundidad cambia de carácter, cada carácter tiene su propio nodo con pista `visible`.
+- **`AnimationPlayer`.** Una animación por etiqueta del `MODEL` (`stand`, `run`, `Attack_Upper`, `Attack_Stab`, `Attack`, `attack2`, `runback`, `cast`, `stun`, `stun2`, `outofstun`, `hit`, `dead`; varía por modelo), a 30 fps con interpolación **NEAREST**. Pistas:
+  - `transform`: `Transform2D` exacto de la matriz SWF, sin descomponer;
+  - `visible`;
+  - `modulate`: multiplicadores de color SWF, incluidas las transparencias del código;
+  - `frame`;
+  - `metadata/desenfoque_swf`: `BlurFilter` en px. Godot no lo aplica solo; hace falta un shader.
+- **Bucles y encadenado, según el código de cada `MODEL`.**
+  - `stand` repite.
+  - Los ataques pasan a `runback`, y `runback`, `cast` y `hit` vuelven a `stand`.
+  - `dead` termina con `removeMovieClip`.
+  - Las etiquetas sin acción final (`siguiente: null`) siguen en Flash con la etiqueta siguiente.
+  - Varias etiquetas que comparten fotograma (`Attack_Stab`/`Attack_Upper`/`Attack` en `MODEL4`/`MODEL5`) son alias de la misma animación.
 
 ## Verificación (sin ejecutable de Godot en el entorno)
-`verificacion/lamina_godot_vs_jpexs.png` muestra el primer fotograma de cada animación recompuesto con la misma semántica que Godot y comparado con el render JPEXS de la reconstrucción.
-- **Coinciden:** 11 de 13 animaciones, con IoU de alfa entre 0,947 y 0,957. La diferencia restante es el grosor de contorno: las texturas ×8 reducidas a ×2 dejan los contornos más finos.
-- **`attack2` (0,22) y `stun2` (0,84):** difieren solo porque faltan los efectos de la profundidad 33 y el desenfoque.
-- **Sin probar en Godot:** la escena no se ha abierto en Godot real. Se comprobó la sintaxis: llaves balanceadas, referencias definidas y pistas que apuntan a nodos existentes.
+Se recompuso el **primer fotograma de las 1.863 animaciones** de los 145 personajes con la misma semántica que Godot (`Transform2D` × `Sprite2D` con offset/escala, `modulate`, `frame`) y se comparó con el render JPEXS del personaje reconstruido. Resultados en `verificacion/verificacion_145_personajes.csv`:
+- **Coinciden:** 1.683 de 1.851 animaciones con contenido tienen IoU de alfa ≥ 0,90 (mediana 0,946). La diferencia restante es antialiasing y grosor de contorno: las texturas ×8 reducidas a ×2 dejan contornos más finos.
+- **Desenfoque:** 162 quedan entre 0,75 y 0,90 y 6 por debajo de 0,75 (carreras y ataques de monstruos: Magical Monkey, Tunnel Beast, Bunny, Gregor). Coinciden con los fotogramas donde el SWF aplica `BlurFilter`, que la escena no aplica.
+- **Transparentes:** 12 animaciones son transparentes en ambos lados (alfa 0 en el SWF, p. ej. el `runback` de los perros).
+- **Sin probar en Godot:** las escenas no se han abierto en Godot real. Se comprobó la sintaxis de las 145: llaves balanceadas, referencias definidas, pistas que apuntan a nodos existentes, `load_steps` correcto y texturas presentes.
+
+`verificacion/lamina_godot_vs_jpexs.png`: Veradux, primer fotograma de cada animación, JPEXS frente a Godot.
 
 ## Pendiente
-- Efectos de la profundidad 33 como escenas propias.
 - Shader de desenfoque.
-- Términos aditivos de color (anotados en el JSON, no aplicados).
+- Términos aditivos de color (anotados en `datos_animacion.json`, no aplicados).
+- Código de los efectos en tiempo de ejecución (p. ej. `setRGB(colortobe)` del efecto de lanzamiento, que el juego colorea según el movimiento).
 - Prueba en el editor de Godot.
