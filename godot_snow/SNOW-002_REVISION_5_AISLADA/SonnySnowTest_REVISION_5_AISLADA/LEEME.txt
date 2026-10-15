@@ -1,0 +1,37 @@
+SNOW-002 REVISION 5 — MODELO ORIGINAL EN REPOSO EN UN SLOT
+ESTADO: PREPARADA, SIN EJECUTAR EN GODOT (en esta sesion no hay ejecutable de Godot).
+Base: revision 4 aislada, sin tocar lo validado (6 slots, 6 barras, 9 piezas, HUD, controles, JSON, camara).
+
+QUE CAMBIA (solo añadidos)
+- Slot player1 (aliado): se carga el personaje original Veradux AP129 (MODEL1, piel TWO, pelo TWO;
+  el Veradux del equipo) desde res://sonny_i41/personajes/AP129_Veradux/AP129_Veradux.tscn,
+  reproduciendo 'stand' (animacion original del SWF, 45 fotogramas a 30 fps).
+- El personaje va en una capa nueva GroundLayer/UnitsLayer (sigue suelo, zoom y temblor; la tecla B
+  oculta solo las guias de SlotsLayer, no al personaje). Espacio pausa tambien su animacion.
+- La caja F1 de player1 queda tenue como referencia; se añaden contorno verde (caja real del cuerpo) y
+  linea verde de APOYO REAL (pies).
+- Constantes nuevas en SnowBattleTest.gd: REAL_MODEL_SLOT, REAL_MODEL_SCENE, REAL_FEET_Y_SWF=39.88,
+  REAL_BODY_BOX_SWF. Si la escena no existe, se mantiene la caja F1 (aviso, sin error).
+- tests/test_snow005.gd: anclaje y escala en reposo, en cada tick de 3 ataques x 2 factores (zoom) y
+  en 60 ticks de temblor; B oculta guias pero no al personaje.
+
+DATOS (comprobados, ver assets/medidas_reposo_modelos.json)
+- Colocacion en el juego: BATTLESCREEN["player"+id].attachMovie(model,"inner",0) -> origen del MODEL =
+  origen del slot, matriz identidad (frame_217/DoAction.as). Enemigos: el slot tiene matriz espejo a=-1.
+- La caja F1 (65.05 x 99.756) es el MODEL1 crudo 'inner2' del marcador 2503 colocado en (-9,-4), que en
+  el juego se autodescarga (onClipEvent(load){unloadMovie(this);}). No es el personaje real.
+- Veradux/Sonny (MODEL1) en reposo, unidades SWF del slot: cuerpo x -16.88..16.25, y -43.12..39.88;
+  APOYO (pies) y = +39.88 constante en los 45 fotogramas de stand; sombra centrada en y ~ +35.9.
+  La linea F1 (+45.75) queda 5.87 u SWF (14.7 px a 1440p) por debajo de los pies reales.
+- Otros: Felicity (MODEL4) apoyo +42.6; Mokoshotar (MODEL5, el juego lo reduce al 80% y lo baja 10) +45.9.
+- Escala: 1 u SWF = PX_PER_UNIT = 1440/575 px; Veradux mide ~83 u = ~208 px de alto a 1440p.
+- Medicion: rig extraido de I41 (misma semantica que la escena Godot), contrastado con render JPEXS del
+  fotograma 1: +-0.3 u en lados/cabeza.
+
+PENDIENTE / A VALIDAR
+- Ejecutar en Godot 4.7.2: test_snow002.gd (debe seguir 72/0) y test_snow005.gd (nuevo).
+  godot --headless --path . -s res://tests/test_snow005.gd
+- Prueba visual en Windows: el personaje debe apoyar sobre la linea verde y seguir el suelo en zoom (1/2/3)
+  y temblor (S), con el HUD fijo.
+- No certificado: fidelidad pixel a pixel con Flash; borde duplicado sutil de SNOW (sin tocar).
+- No hecho a proposito: combate, otros slots/personajes, otros fondos.
