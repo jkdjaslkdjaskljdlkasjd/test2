@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="frame" height="763.05px" width="843.3px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 406.45, 288.05)">
+    <use ffdec:characterId="3285" height="576.2" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="812.95" xlink:href="#shape0"/>
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter1" width="300%" x="-100%" y="-100%">
+      <feOffset dx="3.5355799791601" dy="3.535487832104965" in="SourceGraphic" result="filterResult10"/>
+      <feColorMatrix in="filterResult10" result="filterResult11" type="matrix" values="0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 1.0 0"/>
+      <feGaussianBlur in="filterResult11" result="filterResult12" stdDeviation="1.4142135623730951 1.4142135623730951"/>
+      <feComposite in="SourceGraphic" in2="filterResult12" operator="over" result="filterResult13"/>
+    </filter>
+    <use ffdec:characterId="3287" filter="url(#filter1)" height="412.1" id="InstanceName_0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 1.85)" width="474.5" xlink:href="#sprite0"/>
+    <use ffdec:characterId="3288" height="19.05" transform="matrix(1.0, 0.0, 0.0, 1.0, -194.95, -168.35)" width="379.95" xlink:href="#text0"/>
+    <use ffdec:characterId="3289" height="19.05" transform="matrix(1.0, 0.0, 0.0, 1.0, -102.5, -5.55)" width="222.0" xlink:href="#text1"/>
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter2" width="300%" x="-100%" y="-100%">
+      <feOffset dx="0.0" dy="0.0" in="SourceGraphic" result="filterResult14"/>
+      <feColorMatrix in="filterResult14" result="filterResult15" type="matrix" values="0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 1.0 0"/>
+      <feGaussianBlur in="filterResult15" result="filterResult16" stdDeviation="0.5 0.5"/>
+      <feColorMatrix in="filterResult16" result="filterResult17" type="matrix" values="1 0 0 0 0,0 1 0 0 0,0 0 1 0 0,0 0 0 10.0 0"/>
+      <feComposite in="SourceGraphic" in2="filterResult17" operator="over" result="filterResult18"/>
+      <feOffset dx="1.41423199166404" dy="1.4141951328419862" in="filterResult18" result="filterResult19"/>
+      <feColorMatrix in="filterResult19" result="filterResult20" type="matrix" values="0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 1.0 0"/>
+      <feGaussianBlur in="filterResult20" result="filterResult21" stdDeviation="1.4142135623730951 1.4142135623730951"/>
+      <feColorMatrix in="filterResult21" result="filterResult22" type="matrix" values="1 0 0 0 0,0 1 0 0 0,0 0 1 0 0,0 0 0 0.73828125 0"/>
+      <feComposite in="filterResult18" in2="filterResult22" operator="over" result="filterResult23"/>
+    </filter>
+    <use ffdec:characterId="3290" filter="url(#filter2)" height="20.2" transform="matrix(1.0, 0.0, 0.0, 1.0, -109.0, 161.45)" width="222.0" xlink:href="#text2"/>
+    <use ffdec:characterId="3291" height="30.0" transform="matrix(8.0433, 0.0, 0.0, 0.7333, 0.0, 169.2)" width="30.0" xlink:href="#button0"/>
+    <use ffdec:characterId="295" height="238.55" transform="matrix(1.0, 0.0, 0.0, 2.589, 189.15, -139.2)" width="338.85" xlink:href="#sprite2"/>
+    <use ffdec:characterId="3292" height="259.5" transform="matrix(1.0, 0.0, 0.0, 1.0, -9.5, 0.0)" width="381.3" xlink:href="#shape5"/>
+    <use ffdec:characterId="3293" height="342.8" id="naxTevt" transform="matrix(1.0, 0.0, 0.0, 1.0, -192.1, -137.2)" width="374.05" xlink:href="#text3"/>
+  </g>
+  <defs>
+    <g id="shape0">
+      <path d="M-387.85 -73.0 L-403.85 -73.0 -403.85 -69.0 -387.85 -69.0 -387.85 -73.0 -387.85 -69.0 -403.85 -69.0 -403.85 -73.0 -387.85 -73.0 M-406.45 -288.05 L406.5 -288.05 406.5 288.15 -406.45 288.15 -406.45 -288.05" fill="#000000" fill-opacity="0.7019608" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="sprite0">
+      <use ffdec:characterId="3286" height="412.1" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="474.5" xlink:href="#shape1"/>
+      <filter color-interpolation-filters="sRGB" height="300%" id="filter0" width="300%" x="-100%" y="-100%">
+        <feOffset dx="3.5355799791601" dy="3.535487832104965" in="SourceGraphic" result="filterResult0"/>
+        <feFlood flood-color="#000000" flood-opacity="1.0" result="filterResult1"/>
+        <feComposite in="filterResult1" in2="filterResult0" operator="out" result="filterResult2"/>
+        <feGaussianBlur in="filterResult2" result="filterResult3" stdDeviation="3.7416573867739413 3.7416573867739413"/>
+        <feComposite in="filterResult3" in2="SourceGraphic" operator="atop" result="filterResult4"/>
+        <feOffset dx="0.0" dy="0.0" in="filterResult4" result="filterResult5"/>
+        <feColorMatrix in="filterResult5" result="filterResult6" type="matrix" values="0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 0 0.0,0 0 0 1.0 0"/>
+        <feGaussianBlur in="filterResult6" result="filterResult7" stdDeviation="0.816496580927726 0.816496580927726"/>
+        <feColorMatrix in="filterResult7" result="filterResult8" type="matrix" values="1 0 0 0 0,0 1 0 0 0,0 0 1 0 0,0 0 0 10.0 0"/>
+        <feComposite in="filterResult4" in2="filterResult8" operator="over" result="filterResult9"/>
+      </filter>
+      <use ffdec:characterId="3247" filter="url(#filter0)" height="223.25" transform="matrix(1.0, 0.0, 0.0, 1.6874, 0.0, 0.0)" width="448.5" xlink:href="#sprite1"/>
+    </g>
+    <g id="shape1">
+      <path d="M236.75 205.55 L-236.75 205.55 -236.75 -205.55 236.75 -205.55 236.75 205.55" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+      <path d="M236.75 205.55 L-236.75 205.55 -236.75 -205.55 236.75 -205.55 236.75 205.55 Z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    </g>
+    <linearGradient gradientTransform="matrix(0.0, -0.2509, 0.289, 0.0, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#32333d"/>
+      <stop offset="1.0" stop-color="#5e7377"/>
+    </linearGradient>
+    <g id="sprite1">
+      <use ffdec:characterId="3246" height="223.25" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="448.5" xlink:href="#shape2"/>
+    </g>
+    <g id="shape2">
+      <path d="M-224.25 -111.6 L224.25 -111.6 224.25 111.65 -224.25 111.65 -224.25 -111.6" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.527, 0.0, 0.0, 0.2868, -69.5, -60.55)" gradientUnits="userSpaceOnUse" id="gradient1" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#e1e1e1"/>
+      <stop offset="1.0" stop-color="#777777"/>
+    </radialGradient>
+    <g id="button0">
+      <g class="button" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+        <g class="button-frame button-frame-hittest" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+          <use ffdec:characterId="2493" height="30.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="30.0" xlink:href="#shape3"/>
+        </g>
+      </g>
+    </g>
+    <style><![CDATA[
+    .button-frame {
+      pointer-events: none;
+    }
+
+    .button-frame-up,
+    .button-frame-over,
+    .button-frame-down {
+      opacity: 0;
+    }
+
+    .button .button-frame-up {
+      opacity: 1;
+    }
+
+    .button:hover .button-frame-up {
+      opacity: 0;
+    }
+    .button:hover .button-frame-over {
+      opacity: 1;
+    }
+
+    .button:active .button-frame-over {
+      opacity: 0;
+    }
+    .button:active .button-frame-down {
+      opacity: 1;
+    }
+
+    .button-frame-hittest {
+      opacity: 0;
+      pointer-events: all;
+      cursor: pointer;
+    }
+]]></style>
+    <g id="shape3">
+      <path d="M-15.0 15.0 L-15.0 -15.0 15.0 -15.0 15.0 15.0 -15.0 15.0" fill="#5e5e5e" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <g id="sprite2">
+      <use ffdec:characterId="207" height="100.0" id="boundingBox_mc" transform="matrix(0.16, 0.0, 0.0, 1.0, 0.0, 0.0)" width="100.0" xlink:href="#sprite3"/>
+    </g>
+    <g id="sprite3">
+      <use ffdec:characterId="206" height="100.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="100.0" xlink:href="#shape4"/>
+    </g>
+    <g id="shape4">
+      <path d="M100.0 100.0 L0.0 100.0 0.0 0.0 100.0 0.0 100.0 100.0" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+      <path d="M100.0 100.0 L0.0 100.0 0.0 0.0 100.0 0.0 100.0 100.0 Z" ffdec:has-small-stroke="true" ffdec:original-stroke-width="0.05" fill="none" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5537052548490942"/>
+    </g>
+    <g id="shape5">
+      <path d="M-187.45 -139.6 L193.85 -139.6 193.85 119.9 -187.45 119.9 -187.45 -139.6" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+      <path d="M-187.45 -139.6 L193.85 -139.6 193.85 119.9 -187.45 119.9 -187.45 -139.6 Z" ffdec:has-small-stroke="true" ffdec:original-stroke-width="0.05" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+    </g>
+  </defs>
+</svg>

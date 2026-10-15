@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="frame" height="82.2px" width="81.4px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 40.2, 37.65)">
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter0" width="300%" x="-100%" y="-100%">
+      <feOffset dx="0.0" dy="0.0" in="SourceGraphic" result="filterResult0"/>
+      <feFlood flood-color="#ccffff" flood-opacity="1.0" result="filterResult1"/>
+      <feComposite in="filterResult1" in2="filterResult0" operator="out" result="filterResult2"/>
+      <feGaussianBlur in="filterResult2" result="filterResult3" stdDeviation="1.4142135623730951 1.4142135623730951"/>
+      <feComposite in="filterResult3" in2="SourceGraphic" operator="atop" result="filterResult4"/>
+      <feOffset dx="0.0" dy="0.0" in="filterResult4" result="filterResult5"/>
+      <feColorMatrix in="filterResult5" result="filterResult6" type="matrix" values="0 0 0 0 0.0,0 0 0 0 0.8,0 0 0 0 1.0,0 0 0 1.0 0"/>
+      <feGaussianBlur in="filterResult6" result="filterResult7" stdDeviation="2.8722813232690143 2.8722813232690143"/>
+      <feColorMatrix in="filterResult7" result="filterResult8" type="matrix" values="1 0 0 0 0,0 1 0 0 0,0 0 1 0 0,0 0 0 2.69921875 0"/>
+      <feComposite in="filterResult4" in2="filterResult8" operator="over" result="filterResult9"/>
+    </filter>
+    <use ffdec:characterId="733" filter="url(#filter0)" height="82.2" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="81.4" xlink:href="#sprite0"/>
+  </g>
+  <defs>
+    <g id="sprite0">
+      <use ffdec:characterId="709" height="74.95" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="71.1" xlink:href="#shape0"/>
+    </g>
+    <g id="shape0">
+      <path d="M5.45 -29.25 Q5.4 -30.35 6.5 -30.35 L6.75 -30.4 Q6.95 -29.75 6.4 -29.05 5.55 -27.9 5.45 -29.25 M22.65 -16.85 L22.75 -16.5 22.55 -16.2 Q21.6 -15.3 20.35 -16.05 19.5 -16.55 20.0 -17.25 L20.45 -17.7 20.5 -17.75 22.15 -17.4 22.65 -16.85 M32.45 -3.4 Q32.0 -4.65 33.25 -4.65 34.7 -4.1 33.8 -3.15 32.9 -2.15 32.45 -3.4 M26.1 29.0 Q26.55 29.5 26.1 30.1 L24.25 30.15 23.2 29.3 23.1 29.0 Q23.15 28.3 23.9 28.0 24.75 27.65 25.15 26.9 25.3 26.65 25.6 26.75 25.9 27.25 25.75 27.9 25.6 28.5 26.1 29.0 M-23.4 -20.35 L-23.8 -20.15 -26.8 -20.35 -27.15 -20.75 -26.6 -21.05 -25.5 -21.25 -24.05 -21.55 -24.0 -21.65 Q-22.2 -21.4 -23.4 -20.35 M-34.9 8.75 Q-34.4 9.05 -34.2 9.5 -34.0 10.0 -34.4 10.5 -34.75 11.15 -35.25 11.15 -36.75 11.1 -36.9 9.85 -37.05 9.05 -36.55 8.45 L-36.0 8.1 -34.9 8.75 M-31.5 23.05 L-30.6 22.45 -30.05 22.2 -30.0 22.1 Q-28.9 22.4 -28.85 23.5 L-28.45 25.4 Q-28.1 26.3 -27.4 27.0 L-27.4 27.25 Q-28.1 28.0 -29.05 27.45 -30.5 26.75 -31.45 25.45 -32.0 24.75 -31.75 23.75 L-31.7 23.4 -31.5 23.05 M-10.2 43.4 L-10.0 43.0 -9.4 42.25 -9.15 41.85 -6.3 41.3 -5.5 41.1 Q-3.4 41.35 -4.85 42.8 -5.9 43.85 -7.3 44.35 -9.0 44.95 -10.25 43.75 L-10.2 43.4" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+    </g>
+  </defs>
+</svg>
