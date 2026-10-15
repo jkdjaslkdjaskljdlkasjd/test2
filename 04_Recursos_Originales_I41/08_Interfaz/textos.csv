@@ -1,0 +1,227 @@
+characterId,tipo,variable,texto_inicial,pantallas,instancias,contenedores,archivo
+1988,DefineEditText,buffCounter,00,resetHere,,1989,01_Recursos/textos/plano/1988.txt
+2010,DefineEditText,ACD,00,KRINBATTLESCENE|Navigation|dataMenu|overMap|resetHere,,2186,01_Recursos/textos/plano/2010.txt
+2468,DefineEditText,,"<p align=""right""><font face=""_sans"" size=""10"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">legacy-1.0.4-rc</font></p><p align=""right""></p>",(antes de etiquetas),,0,01_Recursos/textos/plano/2468.txt
+2471,DefineText,,,URLLOCK,,2472,01_Recursos/textos/plano/2471.txt
+2482,DefineEditText,whatToSay,rhttner,playFromHere,,0,01_Recursos/textos/plano/2482.txt
+2492,DefineEditText,whatToSay,rhttner,playFromHere,,0,01_Recursos/textos/plano/2492.txt
+2505,DefineEditText,stance,,resetHere,,0,01_Recursos/textos/plano/2505.txt
+2628,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""14"" color=""#9966cc"" letterSpacing=""0.000000"" kerning=""0"">enter function to connect to server here</font></p><p align=""l",resetHere,,0,01_Recursos/textos/plano/2628.txt
+2629,DefineEditText,,"<p align=""right""></p>",resetHere,,0,01_Recursos/textos/plano/2629.txt
+2639,DefineEditText,whatToSay1,PLAY,mainMenu,,0,01_Recursos/textos/plano/2639.txt
+2640,DefineEditText,whatToSay2,Game Manual,mainMenu,,0,01_Recursos/textos/plano/2640.txt
+2641,DefineEditText,whatToSay1,PLAY,mainMenu,,0,01_Recursos/textos/plano/2641.txt
+2642,DefineEditText,whatToSay5,Credits,mainMenu,,0,01_Recursos/textos/plano/2642.txt
+2647,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""12"" color=""#99ffff"" letterSpacing=""0.000000"" kerning=""0"">Copyright 2007-2024 ArmorGames Inc.</font></p>",mainMenu,,0,01_Recursos/textos/plano/2647.txt
+2648,DefineEditText,whatToSay1,PLAY,subMenu,,0,01_Recursos/textos/plano/2648.txt
+2649,DefineEditText,whatToSay2,PLAY,subMenu,,0,01_Recursos/textos/plano/2649.txt
+2652,DefineEditText,whatToSay3,PLAY,subMenu,,0,01_Recursos/textos/plano/2652.txt
+2654,DefineEditText,whatToSayX,Back,subMenu,,0,01_Recursos/textos/plano/2654.txt
+2657,DefineEditText,krinNameUser,enter Name Here,nameMenu,,0,01_Recursos/textos/plano/2657.txt
+2658,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""36"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">OK!</font></p><p align=""center""></p>",nameMenu,,0,01_Recursos/textos/plano/2658.txt
+2660,DefineEditText,slotNamerText,slot1,dataMenu,,0,01_Recursos/textos/plano/2660.txt
+2661,DefineEditText,nameSlot1,slot1,dataMenu,,0,01_Recursos/textos/plano/2661.txt
+2662,DefineEditText,nameSlot2,slot1,dataMenu,,0,01_Recursos/textos/plano/2662.txt
+2663,DefineEditText,nameSlot3,slot1,dataMenu,,0,01_Recursos/textos/plano/2663.txt
+2664,DefineEditText,nameSlot4,slot1,dataMenu,,0,01_Recursos/textos/plano/2664.txt
+2665,DefineEditText,slotNamerText,slot2,dataMenu,,0,01_Recursos/textos/plano/2665.txt
+2666,DefineEditText,slotNamerText,slot3,dataMenu,,0,01_Recursos/textos/plano/2666.txt
+2667,DefineEditText,slotNamerText,slot4,dataMenu,,0,01_Recursos/textos/plano/2667.txt
+2668,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""26"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">1</font></p><p align=""left""></p>",dataMenu,,0,01_Recursos/textos/plano/2668.txt
+2669,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""26"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">2</font></p><p align=""left""></p>",dataMenu,,0,01_Recursos/textos/plano/2669.txt
+2670,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""26"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">3</font></p><p align=""left""></p>",dataMenu,,0,01_Recursos/textos/plano/2670.txt
+2671,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""26"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">4</font></p><p align=""left""></p>",dataMenu,,0,01_Recursos/textos/plano/2671.txt
+2676,DefineEditText,pickText,[ Player 1 ] Select your character:,dataMenu,,0,01_Recursos/textos/plano/2676.txt
+2681,DefineEditText,whatToSay1,pleeze choose your class,classMenu,,0,01_Recursos/textos/plano/2681.txt
+2695,DefineEditText,whatToSay2, Bio,classMenu,,0,01_Recursos/textos/plano/2695.txt
+2704,DefineEditText,whatToSay4,Hydro,classMenu,,0,01_Recursos/textos/plano/2704.txt
+2711,DefineEditText,whatToSay3,Psycho,classMenu,,0,01_Recursos/textos/plano/2711.txt
+2715,DefineEditText,tit_1,SOUNDS:,optionsMenu,,0,01_Recursos/textos/plano/2715.txt
+2716,DefineEditText,tit_2,GRAPHICS:,optionsMenu,,0,01_Recursos/textos/plano/2716.txt
+2717,DefineEditText,tit_3,ON,optionsMenu,,0,01_Recursos/textos/plano/2717.txt
+2718,DefineEditText,tit_4,HIGH,optionsMenu,,0,01_Recursos/textos/plano/2718.txt
+2719,DefineEditText,TitLOL1,Please configure your settings:,optionsMenu,,0,01_Recursos/textos/plano/2719.txt
+2720,DefineEditText,tit_8,GRAPHICS:,optionsMenu,,0,01_Recursos/textos/plano/2720.txt
+2721,DefineEditText,tit_7,HIGH,optionsMenu,,0,01_Recursos/textos/plano/2721.txt
+2722,DefineEditText,TitLOL2,Please configure your settings:,optionsMenu,,0,01_Recursos/textos/plano/2722.txt
+2723,DefineEditText,whatToSayY,PLAY,optionsMenu,,0,01_Recursos/textos/plano/2723.txt
+2724,DefineEditText,tit_9,GRAPHICS:,optionsMenu,,0,01_Recursos/textos/plano/2724.txt
+2725,DefineEditText,tit_11,HIGH,optionsMenu,,0,01_Recursos/textos/plano/2725.txt
+2726,DefineEditText,t_dif,DIFFICULTY:,optionsMenu,,0,01_Recursos/textos/plano/2726.txt
+2727,DefineEditText,t_dif2,ON,optionsMenu,,0,01_Recursos/textos/plano/2727.txt
+2728,DefineEditText,t_tut,Know How To Play?,optionsMenu,,0,01_Recursos/textos/plano/2728.txt
+2729,DefineEditText,t_tut2,ON,optionsMenu,,0,01_Recursos/textos/plano/2729.txt
+2737,DefineEditText,whatToSay111,"You're dead, Sonny.",gameOverMenu,,0,01_Recursos/textos/plano/2737.txt
+2738,DefineEditText,whatToSay222,load load load,gameOverMenu,,0,01_Recursos/textos/plano/2738.txt
+2739,DefineEditText,tipTextGO,"Having problems winning a fight? Observe your enemies carefully and try to find a weakness. Being victorious in Sonny is about having a successful strategy, so ",gameOverMenu,,0,01_Recursos/textos/plano/2739.txt
+2741,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""36"" color=""#ffcc00"" letterSpacing=""0.000000"" kerning=""0"">OK!</font></p><p align=""center""></p>",endMenu,,0,01_Recursos/textos/plano/2741.txt
+2743,DefineEditText,enderText,"Congratulations! You've beaten the game. So what now? If you haven't already, I recommend you to try the game on 'Heroic' difficulty, the way that it was design",endMenu,,0,01_Recursos/textos/plano/2743.txt
+2745,DefineEditText,xRx6,Please select a subject to read about.,designMenu,,0,01_Recursos/textos/plano/2745.txt
+2746,DefineEditText,xRx1,eberberberber,designMenu,,0,01_Recursos/textos/plano/2746.txt
+2747,DefineEditText,xRx2,eberberberber,designMenu,,0,01_Recursos/textos/plano/2747.txt
+2748,DefineEditText,xRx3,eberberberber,designMenu,,0,01_Recursos/textos/plano/2748.txt
+2749,DefineEditText,xRx4,eberberberber,designMenu,,0,01_Recursos/textos/plano/2749.txt
+2750,DefineEditText,xRx5,eberberberber,designMenu,,0,01_Recursos/textos/plano/2750.txt
+2751,DefineEditText,whatToSayX,PLAY,designMenu,,0,01_Recursos/textos/plano/2751.txt
+2757,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">Jakrin Juangbhanich</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2757.txt
+2758,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">Philipp Knothe</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2758.txt
+2759,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">David Orr</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2759.txt
+2760,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">William Arbuckle</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2760.txt
+2761,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">Joan C.G.</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2761.txt
+2762,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">Andy Dennis</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2762.txt
+2763,DefineEditText,credit_1,Producer,creditMenu,,0,01_Recursos/textos/plano/2763.txt
+2764,DefineEditText,credit_2,Production Assistant,creditMenu,,0,01_Recursos/textos/plano/2764.txt
+2765,DefineEditText,credit_3,Sound and Music,creditMenu,,0,01_Recursos/textos/plano/2765.txt
+2766,DefineEditText,credit_4,Animation,creditMenu,,0,01_Recursos/textos/plano/2766.txt
+2767,DefineEditText,credit_5,Graphics and Artwork,creditMenu,,0,01_Recursos/textos/plano/2767.txt
+2768,DefineEditText,credit_6,Male Cast,creditMenu,,0,01_Recursos/textos/plano/2768.txt
+2769,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""18"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">Mandi N.</font></p><p align=""left""></p>",creditMenu,,0,01_Recursos/textos/plano/2769.txt
+2770,DefineEditText,credit_7,Female Cast,creditMenu,,0,01_Recursos/textos/plano/2770.txt
+2771,DefineEditText,whatToSayX,PLAY,creditMenu,,0,01_Recursos/textos/plano/2771.txt
+2779,DefineEditText,nameText,Thurman McPown,KRINBATTLESCENE|Navigation,,2799,01_Recursos/textos/plano/2779.txt
+2798,DefineEditText,say,< Team Member Inactive >,KRINBATTLESCENE|Navigation,,2799,01_Recursos/textos/plano/2798.txt
+2896,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Warden</font></p><p align=""center""></p>",Navigation,,2908,01_Recursos/textos/plano/2896.txt
+2897,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Frost Lord</font></p><p align=""center""></p>",Navigation,,2908,01_Recursos/textos/plano/2897.txt
+2898,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Knight <sbr />\nPriest <sbr />\nMage</font></p><p align=""cen",Navigation,,2908,01_Recursos/textos/plano/2898.txt
+2899,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Frost Zombie</font></p><p align=""center""><font face=""_sans"" ",Navigation,,2908,01_Recursos/textos/plano/2899.txt
+2900,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Frankie</font></p><p align=""center""></p>",Navigation,,2908,01_Recursos/textos/plano/2900.txt
+2901,DefineEditText,,"<p align=""center""><font face=""_sans"" size=""18"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">Twisted <sbr />\nExperiment</font></p><p align=""center""></p>",Navigation,,2908,01_Recursos/textos/plano/2901.txt
+2946,DefineEditText,klt3,LEVEL,Navigation,,0,01_Recursos/textos/plano/2946.txt
+2947,DefineEditText,klt1,LEVEL PROGRESS,Navigation,,0,01_Recursos/textos/plano/2947.txt
+2948,DefineEditText,klt2,LEVEL PROGRESS,Navigation,,0,01_Recursos/textos/plano/2948.txt
+3054,DefineEditText,yut_name,Player name here,Navigation,,3239,01_Recursos/textos/plano/3054.txt
+3055,DefineEditText,yut_info,Player name here,Navigation,,3239,01_Recursos/textos/plano/3055.txt
+3056,DefineEditText,yut_lif,strength,Navigation,,3239,01_Recursos/textos/plano/3056.txt
+3057,DefineEditText,yut_str,strength,Navigation,,3239,01_Recursos/textos/plano/3057.txt
+3058,DefineEditText,yut_mag,strength,Navigation,,3239,01_Recursos/textos/plano/3058.txt
+3059,DefineEditText,yut_spd,strength,Navigation,,3239,01_Recursos/textos/plano/3059.txt
+3060,DefineEditText,yut_foc,strength,Navigation,,3239,01_Recursos/textos/plano/3060.txt
+3061,DefineEditText,yut_lif2,0000,Navigation,,3239,01_Recursos/textos/plano/3061.txt
+3062,DefineEditText,yut_str2,0000,Navigation,,3239,01_Recursos/textos/plano/3062.txt
+3063,DefineEditText,yut_mag2,0000,Navigation,,3239,01_Recursos/textos/plano/3063.txt
+3064,DefineEditText,yut_spd2,0000,Navigation,,3239,01_Recursos/textos/plano/3064.txt
+3065,DefineEditText,yut_foc2,0000,Navigation,,3239,01_Recursos/textos/plano/3065.txt
+3066,DefineEditText,yut_per,strength,Navigation,,3239,01_Recursos/textos/plano/3066.txt
+3067,DefineEditText,yut_def,strength,Navigation,,3239,01_Recursos/textos/plano/3067.txt
+3075,DefineEditText,yut_info51,Experinece:,Navigation,,3239,01_Recursos/textos/plano/3075.txt
+3080,DefineEditText,exp2,100%,Navigation,,3239,01_Recursos/textos/plano/3080.txt
+3081,DefineEditText,dumbEuro,99999,Navigation,,3239,01_Recursos/textos/plano/3081.txt
+3082,DefineEditText,,"<p align=""right""><font face=""_sans"" size=""31"" color=""#fad95a"" letterSpacing=""0.000000"" kerning=""0"">€</font></p><p align=""right""></p>",Navigation,,3239,01_Recursos/textos/plano/3082.txt
+3086,DefineEditText,vbbc0,titlehere,Navigation,,3239,01_Recursos/textos/plano/3086.txt
+3090,DefineEditText,vb8,proceed me!,Navigation,,3239,01_Recursos/textos/plano/3090.txt
+3093,DefineEditText,vb3,skill points,Navigation,,3239,01_Recursos/textos/plano/3093.txt
+3094,DefineEditText,vb5,€00,Navigation,,3239,01_Recursos/textos/plano/3094.txt
+3095,DefineEditText,vb4,skill points,Navigation,,3239,01_Recursos/textos/plano/3095.txt
+3096,DefineEditText,vb6,€00,Navigation,,3239,01_Recursos/textos/plano/3096.txt
+3097,DefineEditText,vb2,CLICK on the items that you wish to keep!,Navigation,,3239,01_Recursos/textos/plano/3097.txt
+3098,DefineEditText,vb7,,Navigation,,3239,01_Recursos/textos/plano/3098.txt
+3099,DefineEditText,vb1,,Navigation,,3239,01_Recursos/textos/plano/3099.txt
+3101,DefineEditText,vb99,No Items Found ewhfewhewoew,Navigation,,3239,01_Recursos/textos/plano/3101.txt
+3103,DefineEditText,namerI,Name Text,Navigation,,3107,01_Recursos/textos/plano/3103.txt
+3104,DefineEditText,levelI,Name Text,Navigation,,3107,01_Recursos/textos/plano/3104.txt
+3106,DefineEditText,exp2,100%,Navigation,,3107,01_Recursos/textos/plano/3106.txt
+3108,DefineEditText,vbbc1,titlehere,Navigation,,3239,01_Recursos/textos/plano/3108.txt
+3121,DefineEditText,vb2,,Navigation,,3239,01_Recursos/textos/plano/3121.txt
+3122,DefineEditText,vb1,,Navigation,,3239,01_Recursos/textos/plano/3122.txt
+3148,DefineEditText,numShow,90,Navigation,,3153,01_Recursos/textos/plano/3148.txt
+3149,DefineEditText,numShow2,90,Navigation,,3153,01_Recursos/textos/plano/3149.txt
+3150,DefineEditText,numShow,90,Navigation,,3153,01_Recursos/textos/plano/3150.txt
+3151,DefineEditText,numShow2,90,Navigation,,3153,01_Recursos/textos/plano/3151.txt
+3156,DefineEditText,yut_lif,strength,Navigation,,3239,01_Recursos/textos/plano/3156.txt
+3157,DefineEditText,yut_str,strength,Navigation,,3239,01_Recursos/textos/plano/3157.txt
+3158,DefineEditText,yut_mag,strength,Navigation,,3239,01_Recursos/textos/plano/3158.txt
+3159,DefineEditText,yut_spd,strength,Navigation,,3239,01_Recursos/textos/plano/3159.txt
+3160,DefineEditText,yut_lif2,0000,Navigation,,3239,01_Recursos/textos/plano/3160.txt
+3161,DefineEditText,yut_str2,0000,Navigation,,3239,01_Recursos/textos/plano/3161.txt
+3162,DefineEditText,yut_mag2,0000,Navigation,,3239,01_Recursos/textos/plano/3162.txt
+3163,DefineEditText,yut_spd2,0000,Navigation,,3239,01_Recursos/textos/plano/3163.txt
+3164,DefineEditText,skLoadKrin,skill points,Navigation,,3239,01_Recursos/textos/plano/3164.txt
+3165,DefineEditText,spLoadKrin,stat points,Navigation,,3239,01_Recursos/textos/plano/3165.txt
+3166,DefineEditText,yut_name,Player name here,Navigation,,3239,01_Recursos/textos/plano/3166.txt
+3167,DefineEditText,yut_info,Player name here,Navigation,,3239,01_Recursos/textos/plano/3167.txt
+3168,DefineEditText,skillPoints,00,Navigation,,3239,01_Recursos/textos/plano/3168.txt
+3169,DefineEditText,statPoints,00,Navigation,,3239,01_Recursos/textos/plano/3169.txt
+3181,DefineEditText,k_title2,titlehere,Navigation,,3239,01_Recursos/textos/plano/3181.txt
+3182,DefineEditText,k_title3,titlehere,Navigation,,3239,01_Recursos/textos/plano/3182.txt
+3183,DefineEditText,k_title1,titlehere,Navigation,,3239,01_Recursos/textos/plano/3183.txt
+3184,DefineEditText,k_title4,titlehere,Navigation,,3239,01_Recursos/textos/plano/3184.txt
+3185,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3185.txt
+3186,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3186.txt
+3187,DefineEditText,clicker,rthtrhtrhtrhst,Navigation,,3205,01_Recursos/textos/plano/3187.txt
+3192,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3192.txt
+3193,DefineEditText,clicker,rthtrhtrhtrhst,Navigation,,3205,01_Recursos/textos/plano/3193.txt
+3198,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3198.txt
+3200,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3200.txt
+3202,DefineEditText,reader,conwofnewo fewoi fewf efew fiwehfiowe fiewhoifewhiof ewiofhewoifhiewhfoiewhfiowehfi ehifwephfipwehfipehfipwe,Navigation,,3205,01_Recursos/textos/plano/3202.txt
+3203,DefineEditText,clicker,rthtrhtrhtrhst,Navigation,,3205,01_Recursos/textos/plano/3203.txt
+3207,DefineEditText,tit_1,SOUNDS:,Navigation,,3239,01_Recursos/textos/plano/3207.txt
+3208,DefineEditText,tit_2,GRAPHICS:,Navigation,,3239,01_Recursos/textos/plano/3208.txt
+3209,DefineEditText,tit_3,ON,Navigation,,3239,01_Recursos/textos/plano/3209.txt
+3210,DefineEditText,tit_4,HIGH,Navigation,,3239,01_Recursos/textos/plano/3210.txt
+3213,DefineEditText,,"<p align=""center""><font face=""Tahoma"" size=""16"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0""><b>Gameplay Settings</b></font></p>",Navigation,,3239,01_Recursos/textos/plano/3213.txt
+3214,DefineEditText,,"<p align=""center""><font face=""Tahoma"" size=""16"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0""><b>Gameplay Stats</b></font></p>",Navigation,,3239,01_Recursos/textos/plano/3214.txt
+3215,DefineEditText,tit_8,GRAPHICS:,Navigation,,3239,01_Recursos/textos/plano/3215.txt
+3216,DefineEditText,tit_7,HIGH,Navigation,,3239,01_Recursos/textos/plano/3216.txt
+3217,DefineEditText,tit_9,GRAPHICS:,Navigation,,3239,01_Recursos/textos/plano/3217.txt
+3218,DefineEditText,tit_11,HIGH,Navigation,,3239,01_Recursos/textos/plano/3218.txt
+3220,DefineEditText,t_dif,GRAPHICS:,Navigation,,3239,01_Recursos/textos/plano/3220.txt
+3221,DefineEditText,t_dif2,HIGH,Navigation,,3239,01_Recursos/textos/plano/3221.txt
+3223,DefineEditText,,"<p align=""right""><font face=""Tahoma"" size=""12"" color=""#cccccc"" letterSpacing=""0.000000"" kerning=""0"">Zones Cleared</font></p>",Navigation,,3239,01_Recursos/textos/plano/3223.txt
+3224,DefineEditText,gs_zone_cleared,123456,Navigation,,3239,01_Recursos/textos/plano/3224.txt
+3225,DefineEditText,,"<p align=""right""><font face=""Tahoma"" size=""12"" color=""#cccccc"" letterSpacing=""0.000000"" kerning=""0"">Respecs Used</font></p>",Navigation,,3239,01_Recursos/textos/plano/3225.txt
+3226,DefineEditText,gs_respec_used,123456,Navigation,,3239,01_Recursos/textos/plano/3226.txt
+3227,DefineEditText,,"<p align=""right""><font face=""Tahoma"" size=""12"" color=""#cccccc"" letterSpacing=""0.000000"" kerning=""0"">Training Fights Used</font></p>",Navigation,,3239,01_Recursos/textos/plano/3227.txt
+3228,DefineEditText,gs_training_used,123456,Navigation,,3239,01_Recursos/textos/plano/3228.txt
+3229,DefineEditText,,"<p align=""right""><font face=""Tahoma"" size=""12"" color=""#cccccc"" letterSpacing=""0.000000"" kerning=""0"">Top Damage (Physical)</font></p>",Navigation,,3239,01_Recursos/textos/plano/3229.txt
+3230,DefineEditText,gs_top_dmg_physical,123456,Navigation,,3239,01_Recursos/textos/plano/3230.txt
+3231,DefineEditText,,"<p align=""right""><font face=""Tahoma"" size=""12"" color=""#cccccc"" letterSpacing=""0.000000"" kerning=""0"">Top Damage (Elemental)</font></p>",Navigation,,3239,01_Recursos/textos/plano/3231.txt
+3232,DefineEditText,gs_top_dmg_elemental,123456,Navigation,,3239,01_Recursos/textos/plano/3232.txt
+3234,DefineEditText,achTit,Legend,Navigation,,3237,01_Recursos/textos/plano/3234.txt
+3238,DefineEditText,achTit,Achievements,Navigation,,3239,01_Recursos/textos/plano/3238.txt
+3241,DefineEditText,combatText,combat text goes here,KRINBATTLESCENE|Navigation,,3242,01_Recursos/textos/plano/3241.txt
+3249,DefineEditText,texter,< EWOINENJFEONVFOENV >,Navigation,,3251,01_Recursos/textos/plano/3249.txt
+3252,DefineEditText,navText,text,Navigation,,0,01_Recursos/textos/plano/3252.txt
+3253,DefineEditText,navTitle,TITLE:,Navigation,,0,01_Recursos/textos/plano/3253.txt
+3257,DefineEditText,ach_Say2,Legend,Navigation,,3261,01_Recursos/textos/plano/3257.txt
+3259,DefineEditText,ach_Say,New Achievement !,Navigation,,3261,01_Recursos/textos/plano/3259.txt
+3268,DefineEditText,t_export,Export Character,arenaNav,,0,01_Recursos/textos/plano/3268.txt
+3269,DefineEditText,t_import,Import Character,arenaNav,,0,01_Recursos/textos/plano/3269.txt
+3270,DefineEditText,title1_1,Character Name,arenaNav,,0,01_Recursos/textos/plano/3270.txt
+3271,DefineEditText,title1_2,Level 1,arenaNav,,0,01_Recursos/textos/plano/3271.txt
+3272,DefineEditText,title2_1,Character Name,arenaNav,,0,01_Recursos/textos/plano/3272.txt
+3273,DefineEditText,title2_2,Level 2,arenaNav,,0,01_Recursos/textos/plano/3273.txt
+3275,DefineEditText,t_export,Export Character,arenaNav,,0,01_Recursos/textos/plano/3275.txt
+3276,DefineEditText,t_import,Import Character,arenaNav,,0,01_Recursos/textos/plano/3276.txt
+3277,DefineEditText,t_fight,Fight!,arenaNav,,0,01_Recursos/textos/plano/3277.txt
+3279,DefineEditText,t_exit,Fight!,arenaNav,,0,01_Recursos/textos/plano/3279.txt
+3288,DefineEditText,texter3,< EWOINENJFEONVFOENV >,arenaNav,,3298,01_Recursos/textos/plano/3288.txt
+3289,DefineEditText,texter,< EWOINENJFEONVFOENV >,arenaNav,,3298,01_Recursos/textos/plano/3289.txt
+3290,DefineEditText,texter,< EWOINENJFEONVFOENV >,arenaNav,,3298,01_Recursos/textos/plano/3290.txt
+3293,DefineEditText,navText,"textewfewvew\r\rwgvwe\r\rwebvweb\rwe\rb\rrewb\r60,28,100,32,40,0,159,19,15,2,10,2,1,fvb fnb,true,true,true,HIGH,undefined,4,4,0.276624999999967,*£*,4,2,1,32,4,3",arenaNav,naxTevt,3298,01_Recursos/textos/plano/3293.txt
+3294,DefineEditText,texter3,< EWOINENJFEONVFOENV >,arenaNav,,3298,01_Recursos/textos/plano/3294.txt
+3295,DefineEditText,texter2,< EWOINENJFEONVFOENV >,arenaNav,,3298,01_Recursos/textos/plano/3295.txt
+3297,DefineEditText,navText2,,arenaNav,naxTevt2,3298,01_Recursos/textos/plano/3297.txt
+3357,DefineEditText,lifeMax,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3357.txt
+3358,DefineEditText,lifeNow,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3358.txt
+3359,DefineEditText,focusMax,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3359.txt
+3360,DefineEditText,focusNow,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3360.txt
+3361,DefineEditText,playerName,Player Name,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3361.txt
+3363,DefineEditText,playerName,Player Name,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3363.txt
+3364,DefineEditText,lifeMax,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3364.txt
+3365,DefineEditText,focusMax,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3365.txt
+3366,DefineEditText,lifeNow,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3366.txt
+3367,DefineEditText,focusNow,9999999,KRINBATTLESCENE,,3368,01_Recursos/textos/plano/3367.txt
+3372,DefineEditText,TargetName,T,KRINBATTLESCENE,,3374,01_Recursos/textos/plano/3372.txt
+3373,DefineEditText,TargetLevel,T,KRINBATTLESCENE,,3374,01_Recursos/textos/plano/3373.txt
+3395,DefineEditText,,"<p align=""left""><font face=""_sans"" size=""9"" color=""#000000"" letterSpacing=""0.000000"" kerning=""0"">FPS:</font></p><p align=""left""></p>",KRINBATTLESCENE,,0,01_Recursos/textos/plano/3395.txt
+3396,DefineEditText,frameRateNowKrin,FPS:,KRINBATTLESCENE,,0,01_Recursos/textos/plano/3396.txt
+3401,DefineEditText,combatText,"To make a move, select your target first, then click him. You will see the abilities that you may use on that target.",KRINBATTLESCENE,,3403,01_Recursos/textos/plano/3401.txt
+3402,DefineEditText,combatTextName,Name says:,KRINBATTLESCENE,,3403,01_Recursos/textos/plano/3402.txt
+3404,DefineEditText,say,"<p align=""center""><font face=""copy 10_65"" size=""9"" color=""#99ff00"" letterSpacing=""2.000000"" kerning=""0"">&lt; Press SPACEBAR to Skip &gt;</font></p>",KRINBATTLESCENE,,3405,01_Recursos/textos/plano/3404.txt
+3411,DefineEditText,introText1,"One month ago, Sonny wakes up on the ship...",CS_INTRO,,0,01_Recursos/textos/plano/3411.txt
+3412,DefineEditText,introText2,He remembers nothing.,CS_INTRO,,0,01_Recursos/textos/plano/3412.txt
+3413,DefineEditText,introText3,The blind man gives him a tape...,CS_INTRO,,0,01_Recursos/textos/plano/3413.txt
+3414,DefineEditText,introText4,...then the blind man dies.,CS_INTRO,,0,01_Recursos/textos/plano/3414.txt
+3416,DefineEditText,,"<p align=""right""><font face=""_sans"" size=""12"" color=""#ffffff"" letterSpacing=""0.000000"" kerning=""0"">SKIP</font></p><p align=""right""></p>",CS_INTRO,,0,01_Recursos/textos/plano/3416.txt
+3418,DefineEditText,subText,,CS_INTRO,,0,01_Recursos/textos/plano/3418.txt
+3720,DefineText,,,CS_CUT2,,3721,01_Recursos/textos/plano/3720.txt
