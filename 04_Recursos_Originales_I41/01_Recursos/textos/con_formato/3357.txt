@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 818
+ymax 280
+readonly 1
+noselect 1
+font 1987
+height 180
+color #ff9d9d9d
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "lifeMax"
+]9999999

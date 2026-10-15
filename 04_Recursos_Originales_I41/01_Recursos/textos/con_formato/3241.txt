@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 14939
+ymax 352
+readonly 1
+noselect 1
+font 1987
+height 240
+color #ff000000
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "combatText"
+]combat text goes here

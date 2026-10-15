@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 7441
+ymax 5138
+wordwrap 1
+multiline 1
+font 1987
+height 220
+color #ff000000
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "navText2"
+]

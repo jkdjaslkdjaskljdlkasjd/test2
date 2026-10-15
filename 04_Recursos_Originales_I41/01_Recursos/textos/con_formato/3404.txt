@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 5964
+ymax 400
+readonly 1
+noselect 1
+html 1
+useoutlines 1
+font 2778
+height 180
+color #ff99ff00
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "say"
+]<p align="center"><font face="copy 10_65" size="9" color="#99ff00" letterSpacing="2.000000" kerning="0">&lt; Press SPACEBAR to Skip &gt;</font></p>

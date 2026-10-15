@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 1635
+ymax 371
+wordwrap 1
+multiline 1
+font 2504
+height 240
+color #ff000000
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "stance"
+]

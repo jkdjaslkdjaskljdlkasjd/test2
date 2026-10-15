@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 8134
+ymax 391
+readonly 1
+noselect 1
+font 1987
+height 280
+color #ff666666
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "navTitle"
+]TITLE:

@@ -1,0 +1,16 @@
+[
+xmin -40
+ymin -40
+xmax 3436
+ymax 442
+readonly 1
+font 1987
+height 360
+color #ff66ff00
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "vb8"
+]proceed me!

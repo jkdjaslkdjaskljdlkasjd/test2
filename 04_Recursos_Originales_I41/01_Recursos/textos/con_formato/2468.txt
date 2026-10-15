@@ -1,0 +1,19 @@
+[
+xmin -433
+ymin -40
+xmax 3110
+ymax 596
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 1987
+height 200
+color #ffffffff
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="right"><font face="_sans" size="10" color="#ffffff" letterSpacing="0.000000" kerning="0">legacy-1.0.4-rc</font></p><p align="right"></p>

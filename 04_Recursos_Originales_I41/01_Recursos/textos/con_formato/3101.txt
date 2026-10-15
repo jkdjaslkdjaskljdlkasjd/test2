@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 3566
+ymax 1372
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+font 1987
+height 380
+color #ffa53030
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "vb99"
+]No Items Found ewhfewhewoew

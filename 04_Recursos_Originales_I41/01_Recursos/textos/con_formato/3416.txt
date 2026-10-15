@@ -1,0 +1,19 @@
+[
+xmin -341
+ymin -40
+xmax 2373
+ymax 695
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 1987
+height 240
+color #ffffffff
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="right"><font face="_sans" size="12" color="#ffffff" letterSpacing="0.000000" kerning="0">SKIP</font></p><p align="right"></p>

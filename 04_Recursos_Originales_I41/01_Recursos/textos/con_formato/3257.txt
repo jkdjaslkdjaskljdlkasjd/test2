@@ -1,0 +1,18 @@
+[
+xmin -40
+ymin -40
+xmax 3940
+ymax 628
+wordwrap 1
+multiline 1
+readonly 1
+font 3256
+height 460
+color #ff141b27
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "ach_Say2"
+]Legend

@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 11376
+ymax 2267
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+font 1987
+height 280
+color #ffffffff
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 120
+variablename "tipTextGO"
+]Having problems winning a fight? Observe your enemies carefully and try to find a weakness. Being victorious in Sonny is about having a successful strategy, so you may need to re-evaluate your ability configuration and execution. If you want guides on how to beat a specific stage, I recommend you to check out the ArmorGames or KrinLabs forums for some help.

@@ -1,0 +1,86 @@
+[
+ {
+  "spriteId": 2636,
+  "frames_sprite": 105,
+  "bloques": 104,
+  "archivo": "2636_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 2
+ },
+ {
+  "spriteId": 3580,
+  "frames_sprite": 2084,
+  "bloques": 2084,
+  "archivo": "3580_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 1
+ },
+ {
+  "spriteId": 3745,
+  "frames_sprite": 1795,
+  "bloques": 1795,
+  "archivo": "3745_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 1
+ },
+ {
+  "spriteId": 3860,
+  "frames_sprite": 621,
+  "bloques": 621,
+  "archivo": "3860_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 1
+ },
+ {
+  "spriteId": 3892,
+  "frames_sprite": 501,
+  "bloques": 501,
+  "archivo": "3892_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 1
+ },
+ {
+  "spriteId": 3970,
+  "frames_sprite": 1237,
+  "bloques": 1226,
+  "archivo": "3970_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 12
+ },
+ {
+  "spriteId": 4083,
+  "frames_sprite": 2424,
+  "bloques": 2424,
+  "archivo": "4083_stream.mp3",
+  "formato": "MP3",
+  "rate_hz": 44100,
+  "estereo": false,
+  "muestras_por_bloque_cabecera": 1470,
+  "fps_swf": 30,
+  "primer_fotograma_con_audio": 1
+ }
+]

@@ -1,0 +1,15 @@
+[
+xmin 1040
+ymin 98
+xmax 7800
+ymax 1340
+][
+font 2694
+height 540
+color #000000
+x 1040
+y 520
+]www.ArmorGames.com[
+x 3140
+y 1200
+]presents

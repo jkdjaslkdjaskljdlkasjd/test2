@@ -1,0 +1,742 @@
+{
+"spriteId": 2636,
+"frames_sprite": 105,
+"bloques": 104,
+"archivo": "2636_stream.mp3",
+"formato": "MP3",
+"rate_hz": 44100,
+"estereo": false,
+"muestras_por_bloque_cabecera": 1470,
+"fps_swf": 30,
+"primer_fotograma_con_audio": 2,
+"sync": [
+{
+"fotograma": 2,
+"muestras": 2304,
+"seek": 1695,
+"offset_bytes": 0,
+"bytes": 416
+},
+{
+"fotograma": 3,
+"muestras": 2304,
+"seek": 861,
+"offset_bytes": 416,
+"bytes": 416
+},
+{
+"fotograma": 4,
+"muestras": 1152,
+"seek": 27,
+"offset_bytes": 832,
+"bytes": 208
+},
+{
+"fotograma": 5,
+"muestras": 1152,
+"seek": 345,
+"offset_bytes": 1040,
+"bytes": 208
+},
+{
+"fotograma": 6,
+"muestras": 1152,
+"seek": 663,
+"offset_bytes": 1248,
+"bytes": 208
+},
+{
+"fotograma": 7,
+"muestras": 2304,
+"seek": 981,
+"offset_bytes": 1456,
+"bytes": 416
+},
+{
+"fotograma": 8,
+"muestras": 1152,
+"seek": 147,
+"offset_bytes": 1872,
+"bytes": 208
+},
+{
+"fotograma": 9,
+"muestras": 1152,
+"seek": 465,
+"offset_bytes": 2080,
+"bytes": 208
+},
+{
+"fotograma": 10,
+"muestras": 1152,
+"seek": 783,
+"offset_bytes": 2288,
+"bytes": 208
+},
+{
+"fotograma": 11,
+"muestras": 2304,
+"seek": 1101,
+"offset_bytes": 2496,
+"bytes": 416
+},
+{
+"fotograma": 12,
+"muestras": 1152,
+"seek": 267,
+"offset_bytes": 2912,
+"bytes": 208
+},
+{
+"fotograma": 13,
+"muestras": 1152,
+"seek": 585,
+"offset_bytes": 3120,
+"bytes": 208
+},
+{
+"fotograma": 14,
+"muestras": 2304,
+"seek": 903,
+"offset_bytes": 3328,
+"bytes": 416
+},
+{
+"fotograma": 15,
+"muestras": 1152,
+"seek": 69,
+"offset_bytes": 3744,
+"bytes": 208
+},
+{
+"fotograma": 16,
+"muestras": 1152,
+"seek": 387,
+"offset_bytes": 3952,
+"bytes": 208
+},
+{
+"fotograma": 17,
+"muestras": 1152,
+"seek": 705,
+"offset_bytes": 4160,
+"bytes": 208
+},
+{
+"fotograma": 18,
+"muestras": 2304,
+"seek": 1023,
+"offset_bytes": 4368,
+"bytes": 416
+},
+{
+"fotograma": 19,
+"muestras": 1152,
+"seek": 189,
+"offset_bytes": 4784,
+"bytes": 208
+},
+{
+"fotograma": 20,
+"muestras": 1152,
+"seek": 507,
+"offset_bytes": 4992,
+"bytes": 208
+},
+{
+"fotograma": 21,
+"muestras": 1152,
+"seek": 825,
+"offset_bytes": 5200,
+"bytes": 208
+},
+{
+"fotograma": 22,
+"muestras": 2304,
+"seek": 1143,
+"offset_bytes": 5408,
+"bytes": 416
+},
+{
+"fotograma": 23,
+"muestras": 1152,
+"seek": 309,
+"offset_bytes": 5824,
+"bytes": 208
+},
+{
+"fotograma": 24,
+"muestras": 1152,
+"seek": 627,
+"offset_bytes": 6032,
+"bytes": 208
+},
+{
+"fotograma": 25,
+"muestras": 2304,
+"seek": 945,
+"offset_bytes": 6240,
+"bytes": 416
+},
+{
+"fotograma": 26,
+"muestras": 1152,
+"seek": 111,
+"offset_bytes": 6656,
+"bytes": 208
+},
+{
+"fotograma": 27,
+"muestras": 1152,
+"seek": 429,
+"offset_bytes": 6864,
+"bytes": 208
+},
+{
+"fotograma": 28,
+"muestras": 1152,
+"seek": 747,
+"offset_bytes": 7072,
+"bytes": 208
+},
+{
+"fotograma": 29,
+"muestras": 2304,
+"seek": 1065,
+"offset_bytes": 7280,
+"bytes": 416
+},
+{
+"fotograma": 30,
+"muestras": 1152,
+"seek": 231,
+"offset_bytes": 7696,
+"bytes": 208
+},
+{
+"fotograma": 31,
+"muestras": 1152,
+"seek": 549,
+"offset_bytes": 7904,
+"bytes": 208
+},
+{
+"fotograma": 32,
+"muestras": 2304,
+"seek": 867,
+"offset_bytes": 8112,
+"bytes": 416
+},
+{
+"fotograma": 33,
+"muestras": 1152,
+"seek": 33,
+"offset_bytes": 8528,
+"bytes": 208
+},
+{
+"fotograma": 34,
+"muestras": 1152,
+"seek": 351,
+"offset_bytes": 8736,
+"bytes": 208
+},
+{
+"fotograma": 35,
+"muestras": 1152,
+"seek": 669,
+"offset_bytes": 8944,
+"bytes": 208
+},
+{
+"fotograma": 36,
+"muestras": 2304,
+"seek": 987,
+"offset_bytes": 9152,
+"bytes": 416
+},
+{
+"fotograma": 37,
+"muestras": 1152,
+"seek": 153,
+"offset_bytes": 9568,
+"bytes": 208
+},
+{
+"fotograma": 38,
+"muestras": 1152,
+"seek": 471,
+"offset_bytes": 9776,
+"bytes": 208
+},
+{
+"fotograma": 39,
+"muestras": 1152,
+"seek": 789,
+"offset_bytes": 9984,
+"bytes": 208
+},
+{
+"fotograma": 40,
+"muestras": 2304,
+"seek": 1107,
+"offset_bytes": 10192,
+"bytes": 416
+},
+{
+"fotograma": 41,
+"muestras": 1152,
+"seek": 273,
+"offset_bytes": 10608,
+"bytes": 208
+},
+{
+"fotograma": 42,
+"muestras": 1152,
+"seek": 591,
+"offset_bytes": 10816,
+"bytes": 208
+},
+{
+"fotograma": 43,
+"muestras": 2304,
+"seek": 909,
+"offset_bytes": 11024,
+"bytes": 416
+},
+{
+"fotograma": 44,
+"muestras": 1152,
+"seek": 75,
+"offset_bytes": 11440,
+"bytes": 208
+},
+{
+"fotograma": 45,
+"muestras": 1152,
+"seek": 393,
+"offset_bytes": 11648,
+"bytes": 208
+},
+{
+"fotograma": 46,
+"muestras": 1152,
+"seek": 711,
+"offset_bytes": 11856,
+"bytes": 208
+},
+{
+"fotograma": 47,
+"muestras": 2304,
+"seek": 1029,
+"offset_bytes": 12064,
+"bytes": 416
+},
+{
+"fotograma": 48,
+"muestras": 1152,
+"seek": 195,
+"offset_bytes": 12480,
+"bytes": 208
+},
+{
+"fotograma": 49,
+"muestras": 1152,
+"seek": 513,
+"offset_bytes": 12688,
+"bytes": 208
+},
+{
+"fotograma": 50,
+"muestras": 1152,
+"seek": 831,
+"offset_bytes": 12896,
+"bytes": 208
+},
+{
+"fotograma": 51,
+"muestras": 2304,
+"seek": 1149,
+"offset_bytes": 13104,
+"bytes": 416
+},
+{
+"fotograma": 52,
+"muestras": 1152,
+"seek": 315,
+"offset_bytes": 13520,
+"bytes": 208
+},
+{
+"fotograma": 53,
+"muestras": 1152,
+"seek": 633,
+"offset_bytes": 13728,
+"bytes": 208
+},
+{
+"fotograma": 54,
+"muestras": 2304,
+"seek": 951,
+"offset_bytes": 13936,
+"bytes": 416
+},
+{
+"fotograma": 55,
+"muestras": 1152,
+"seek": 117,
+"offset_bytes": 14352,
+"bytes": 208
+},
+{
+"fotograma": 56,
+"muestras": 1152,
+"seek": 435,
+"offset_bytes": 14560,
+"bytes": 208
+},
+{
+"fotograma": 57,
+"muestras": 1152,
+"seek": 753,
+"offset_bytes": 14768,
+"bytes": 208
+},
+{
+"fotograma": 58,
+"muestras": 2304,
+"seek": 1071,
+"offset_bytes": 14976,
+"bytes": 416
+},
+{
+"fotograma": 59,
+"muestras": 1152,
+"seek": 237,
+"offset_bytes": 15392,
+"bytes": 208
+},
+{
+"fotograma": 60,
+"muestras": 1152,
+"seek": 555,
+"offset_bytes": 15600,
+"bytes": 208
+},
+{
+"fotograma": 61,
+"muestras": 2304,
+"seek": 873,
+"offset_bytes": 15808,
+"bytes": 416
+},
+{
+"fotograma": 62,
+"muestras": 1152,
+"seek": 39,
+"offset_bytes": 16224,
+"bytes": 208
+},
+{
+"fotograma": 63,
+"muestras": 1152,
+"seek": 357,
+"offset_bytes": 16432,
+"bytes": 208
+},
+{
+"fotograma": 64,
+"muestras": 1152,
+"seek": 675,
+"offset_bytes": 16640,
+"bytes": 208
+},
+{
+"fotograma": 65,
+"muestras": 2304,
+"seek": 993,
+"offset_bytes": 16848,
+"bytes": 416
+},
+{
+"fotograma": 66,
+"muestras": 1152,
+"seek": 159,
+"offset_bytes": 17264,
+"bytes": 208
+},
+{
+"fotograma": 67,
+"muestras": 1152,
+"seek": 477,
+"offset_bytes": 17472,
+"bytes": 208
+},
+{
+"fotograma": 68,
+"muestras": 1152,
+"seek": 795,
+"offset_bytes": 17680,
+"bytes": 208
+},
+{
+"fotograma": 69,
+"muestras": 2304,
+"seek": 1113,
+"offset_bytes": 17888,
+"bytes": 416
+},
+{
+"fotograma": 70,
+"muestras": 1152,
+"seek": 279,
+"offset_bytes": 18304,
+"bytes": 208
+},
+{
+"fotograma": 71,
+"muestras": 1152,
+"seek": 597,
+"offset_bytes": 18512,
+"bytes": 208
+},
+{
+"fotograma": 72,
+"muestras": 2304,
+"seek": 915,
+"offset_bytes": 18720,
+"bytes": 416
+},
+{
+"fotograma": 73,
+"muestras": 1152,
+"seek": 81,
+"offset_bytes": 19136,
+"bytes": 208
+},
+{
+"fotograma": 74,
+"muestras": 1152,
+"seek": 399,
+"offset_bytes": 19344,
+"bytes": 208
+},
+{
+"fotograma": 75,
+"muestras": 1152,
+"seek": 717,
+"offset_bytes": 19552,
+"bytes": 208
+},
+{
+"fotograma": 76,
+"muestras": 2304,
+"seek": 1035,
+"offset_bytes": 19760,
+"bytes": 416
+},
+{
+"fotograma": 77,
+"muestras": 1152,
+"seek": 201,
+"offset_bytes": 20176,
+"bytes": 208
+},
+{
+"fotograma": 78,
+"muestras": 1152,
+"seek": 519,
+"offset_bytes": 20384,
+"bytes": 208
+},
+{
+"fotograma": 79,
+"muestras": 2304,
+"seek": 837,
+"offset_bytes": 20592,
+"bytes": 416
+},
+{
+"fotograma": 80,
+"muestras": 1152,
+"seek": 3,
+"offset_bytes": 21008,
+"bytes": 208
+},
+{
+"fotograma": 81,
+"muestras": 1152,
+"seek": 321,
+"offset_bytes": 21216,
+"bytes": 208
+},
+{
+"fotograma": 82,
+"muestras": 1152,
+"seek": 639,
+"offset_bytes": 21424,
+"bytes": 208
+},
+{
+"fotograma": 83,
+"muestras": 2304,
+"seek": 957,
+"offset_bytes": 21632,
+"bytes": 416
+},
+{
+"fotograma": 84,
+"muestras": 1152,
+"seek": 123,
+"offset_bytes": 22048,
+"bytes": 208
+},
+{
+"fotograma": 85,
+"muestras": 1152,
+"seek": 441,
+"offset_bytes": 22256,
+"bytes": 208
+},
+{
+"fotograma": 86,
+"muestras": 1152,
+"seek": 759,
+"offset_bytes": 22464,
+"bytes": 208
+},
+{
+"fotograma": 87,
+"muestras": 2304,
+"seek": 1077,
+"offset_bytes": 22672,
+"bytes": 416
+},
+{
+"fotograma": 88,
+"muestras": 1152,
+"seek": 243,
+"offset_bytes": 23088,
+"bytes": 208
+},
+{
+"fotograma": 89,
+"muestras": 1152,
+"seek": 561,
+"offset_bytes": 23296,
+"bytes": 208
+},
+{
+"fotograma": 90,
+"muestras": 2304,
+"seek": 879,
+"offset_bytes": 23504,
+"bytes": 416
+},
+{
+"fotograma": 91,
+"muestras": 1152,
+"seek": 45,
+"offset_bytes": 23920,
+"bytes": 208
+},
+{
+"fotograma": 92,
+"muestras": 1152,
+"seek": 363,
+"offset_bytes": 24128,
+"bytes": 208
+},
+{
+"fotograma": 93,
+"muestras": 1152,
+"seek": 681,
+"offset_bytes": 24336,
+"bytes": 208
+},
+{
+"fotograma": 94,
+"muestras": 2304,
+"seek": 999,
+"offset_bytes": 24544,
+"bytes": 416
+},
+{
+"fotograma": 95,
+"muestras": 1152,
+"seek": 165,
+"offset_bytes": 24960,
+"bytes": 208
+},
+{
+"fotograma": 96,
+"muestras": 1152,
+"seek": 483,
+"offset_bytes": 25168,
+"bytes": 208
+},
+{
+"fotograma": 97,
+"muestras": 1152,
+"seek": 801,
+"offset_bytes": 25376,
+"bytes": 208
+},
+{
+"fotograma": 98,
+"muestras": 2304,
+"seek": 1119,
+"offset_bytes": 25584,
+"bytes": 416
+},
+{
+"fotograma": 99,
+"muestras": 1152,
+"seek": 285,
+"offset_bytes": 26000,
+"bytes": 208
+},
+{
+"fotograma": 100,
+"muestras": 1152,
+"seek": 603,
+"offset_bytes": 26208,
+"bytes": 208
+},
+{
+"fotograma": 101,
+"muestras": 2304,
+"seek": 921,
+"offset_bytes": 26416,
+"bytes": 416
+},
+{
+"fotograma": 102,
+"muestras": 1152,
+"seek": 87,
+"offset_bytes": 26832,
+"bytes": 208
+},
+{
+"fotograma": 103,
+"muestras": 1152,
+"seek": 405,
+"offset_bytes": 27040,
+"bytes": 208
+},
+{
+"fotograma": 104,
+"muestras": 1152,
+"seek": 723,
+"offset_bytes": 27248,
+"bytes": 208
+},
+{
+"fotograma": 105,
+"muestras": 2304,
+"seek": 1041,
+"offset_bytes": 27456,
+"bytes": 416
+}
+]
+}

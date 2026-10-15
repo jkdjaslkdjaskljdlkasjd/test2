@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 16852
+ymax 554
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+font 1987
+height 460
+color #ffffffff
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 160
+variablename "introText1"
+]One month ago, Sonny wakes up on the ship...

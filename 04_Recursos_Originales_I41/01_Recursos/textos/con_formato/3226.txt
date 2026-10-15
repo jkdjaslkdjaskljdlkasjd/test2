@@ -1,0 +1,17 @@
+[
+xmin 396
+ymin -40
+xmax 2000
+ymax 378
+readonly 1
+noselect 1
+font 3212
+height 240
+color #ffffffff
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "gs_respec_used"
+]123456

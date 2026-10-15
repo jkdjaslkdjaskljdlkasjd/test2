@@ -1,0 +1,19 @@
+[
+xmin -116
+ymin -40
+xmax 568
+ymax 1652
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 1987
+height 620
+color #fffad95a
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="right"><font face="_sans" size="31" color="#fad95a" letterSpacing="0.000000" kerning="0">€</font></p><p align="right"></p>

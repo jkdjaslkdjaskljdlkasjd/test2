@@ -1,0 +1,18 @@
+[
+xmin -40
+ymin -40
+xmax 4321
+ymax 486
+readonly 1
+noselect 1
+useoutlines 1
+font 2694
+height 380
+color #ffffffff
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "whatToSay2"
+] Bio

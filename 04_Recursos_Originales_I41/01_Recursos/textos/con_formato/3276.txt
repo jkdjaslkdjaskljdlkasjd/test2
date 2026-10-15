@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 4998
+ymax 531
+readonly 1
+noselect 1
+font 1987
+height 440
+color #ff99cc33
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "t_import"
+]Import Character

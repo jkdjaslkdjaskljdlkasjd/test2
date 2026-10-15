@@ -1,0 +1,19 @@
+[
+xmin -2
+ymin -40
+xmax 3581
+ymax 376
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 3222
+height 240
+color #ffcccccc
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="right"><font face="Tahoma" size="12" color="#cccccc" letterSpacing="0.000000" kerning="0">Respecs Used</font></p>

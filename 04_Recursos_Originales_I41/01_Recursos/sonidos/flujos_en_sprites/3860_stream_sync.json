@@ -1,0 +1,4361 @@
+{
+"spriteId": 3860,
+"frames_sprite": 621,
+"bloques": 621,
+"archivo": "3860_stream.mp3",
+"formato": "MP3",
+"rate_hz": 44100,
+"estereo": false,
+"muestras_por_bloque_cabecera": 1470,
+"fps_swf": 30,
+"primer_fotograma_con_audio": 1,
+"sync": [
+{
+"fotograma": 1,
+"muestras": 2304,
+"seek": 1695,
+"offset_bytes": 0,
+"bytes": 416
+},
+{
+"fotograma": 2,
+"muestras": 2304,
+"seek": 861,
+"offset_bytes": 416,
+"bytes": 416
+},
+{
+"fotograma": 3,
+"muestras": 1152,
+"seek": 27,
+"offset_bytes": 832,
+"bytes": 208
+},
+{
+"fotograma": 4,
+"muestras": 1152,
+"seek": 345,
+"offset_bytes": 1040,
+"bytes": 208
+},
+{
+"fotograma": 5,
+"muestras": 1152,
+"seek": 663,
+"offset_bytes": 1248,
+"bytes": 208
+},
+{
+"fotograma": 6,
+"muestras": 2304,
+"seek": 981,
+"offset_bytes": 1456,
+"bytes": 416
+},
+{
+"fotograma": 7,
+"muestras": 1152,
+"seek": 147,
+"offset_bytes": 1872,
+"bytes": 208
+},
+{
+"fotograma": 8,
+"muestras": 1152,
+"seek": 465,
+"offset_bytes": 2080,
+"bytes": 208
+},
+{
+"fotograma": 9,
+"muestras": 1152,
+"seek": 783,
+"offset_bytes": 2288,
+"bytes": 208
+},
+{
+"fotograma": 10,
+"muestras": 2304,
+"seek": 1101,
+"offset_bytes": 2496,
+"bytes": 416
+},
+{
+"fotograma": 11,
+"muestras": 1152,
+"seek": 267,
+"offset_bytes": 2912,
+"bytes": 208
+},
+{
+"fotograma": 12,
+"muestras": 1152,
+"seek": 585,
+"offset_bytes": 3120,
+"bytes": 208
+},
+{
+"fotograma": 13,
+"muestras": 2304,
+"seek": 903,
+"offset_bytes": 3328,
+"bytes": 416
+},
+{
+"fotograma": 14,
+"muestras": 1152,
+"seek": 69,
+"offset_bytes": 3744,
+"bytes": 208
+},
+{
+"fotograma": 15,
+"muestras": 1152,
+"seek": 387,
+"offset_bytes": 3952,
+"bytes": 208
+},
+{
+"fotograma": 16,
+"muestras": 1152,
+"seek": 705,
+"offset_bytes": 4160,
+"bytes": 208
+},
+{
+"fotograma": 17,
+"muestras": 2304,
+"seek": 1023,
+"offset_bytes": 4368,
+"bytes": 416
+},
+{
+"fotograma": 18,
+"muestras": 1152,
+"seek": 189,
+"offset_bytes": 4784,
+"bytes": 208
+},
+{
+"fotograma": 19,
+"muestras": 1152,
+"seek": 507,
+"offset_bytes": 4992,
+"bytes": 208
+},
+{
+"fotograma": 20,
+"muestras": 1152,
+"seek": 825,
+"offset_bytes": 5200,
+"bytes": 208
+},
+{
+"fotograma": 21,
+"muestras": 2304,
+"seek": 1143,
+"offset_bytes": 5408,
+"bytes": 416
+},
+{
+"fotograma": 22,
+"muestras": 1152,
+"seek": 309,
+"offset_bytes": 5824,
+"bytes": 208
+},
+{
+"fotograma": 23,
+"muestras": 1152,
+"seek": 627,
+"offset_bytes": 6032,
+"bytes": 208
+},
+{
+"fotograma": 24,
+"muestras": 2304,
+"seek": 945,
+"offset_bytes": 6240,
+"bytes": 416
+},
+{
+"fotograma": 25,
+"muestras": 1152,
+"seek": 111,
+"offset_bytes": 6656,
+"bytes": 208
+},
+{
+"fotograma": 26,
+"muestras": 1152,
+"seek": 429,
+"offset_bytes": 6864,
+"bytes": 208
+},
+{
+"fotograma": 27,
+"muestras": 1152,
+"seek": 747,
+"offset_bytes": 7072,
+"bytes": 208
+},
+{
+"fotograma": 28,
+"muestras": 2304,
+"seek": 1065,
+"offset_bytes": 7280,
+"bytes": 416
+},
+{
+"fotograma": 29,
+"muestras": 1152,
+"seek": 231,
+"offset_bytes": 7696,
+"bytes": 208
+},
+{
+"fotograma": 30,
+"muestras": 1152,
+"seek": 549,
+"offset_bytes": 7904,
+"bytes": 208
+},
+{
+"fotograma": 31,
+"muestras": 2304,
+"seek": 867,
+"offset_bytes": 8112,
+"bytes": 416
+},
+{
+"fotograma": 32,
+"muestras": 1152,
+"seek": 33,
+"offset_bytes": 8528,
+"bytes": 208
+},
+{
+"fotograma": 33,
+"muestras": 1152,
+"seek": 351,
+"offset_bytes": 8736,
+"bytes": 208
+},
+{
+"fotograma": 34,
+"muestras": 1152,
+"seek": 669,
+"offset_bytes": 8944,
+"bytes": 208
+},
+{
+"fotograma": 35,
+"muestras": 2304,
+"seek": 987,
+"offset_bytes": 9152,
+"bytes": 416
+},
+{
+"fotograma": 36,
+"muestras": 1152,
+"seek": 153,
+"offset_bytes": 9568,
+"bytes": 208
+},
+{
+"fotograma": 37,
+"muestras": 1152,
+"seek": 471,
+"offset_bytes": 9776,
+"bytes": 208
+},
+{
+"fotograma": 38,
+"muestras": 1152,
+"seek": 789,
+"offset_bytes": 9984,
+"bytes": 208
+},
+{
+"fotograma": 39,
+"muestras": 2304,
+"seek": 1107,
+"offset_bytes": 10192,
+"bytes": 416
+},
+{
+"fotograma": 40,
+"muestras": 1152,
+"seek": 273,
+"offset_bytes": 10608,
+"bytes": 208
+},
+{
+"fotograma": 41,
+"muestras": 1152,
+"seek": 591,
+"offset_bytes": 10816,
+"bytes": 208
+},
+{
+"fotograma": 42,
+"muestras": 2304,
+"seek": 909,
+"offset_bytes": 11024,
+"bytes": 416
+},
+{
+"fotograma": 43,
+"muestras": 1152,
+"seek": 75,
+"offset_bytes": 11440,
+"bytes": 208
+},
+{
+"fotograma": 44,
+"muestras": 1152,
+"seek": 393,
+"offset_bytes": 11648,
+"bytes": 208
+},
+{
+"fotograma": 45,
+"muestras": 1152,
+"seek": 711,
+"offset_bytes": 11856,
+"bytes": 208
+},
+{
+"fotograma": 46,
+"muestras": 2304,
+"seek": 1029,
+"offset_bytes": 12064,
+"bytes": 416
+},
+{
+"fotograma": 47,
+"muestras": 1152,
+"seek": 195,
+"offset_bytes": 12480,
+"bytes": 208
+},
+{
+"fotograma": 48,
+"muestras": 1152,
+"seek": 513,
+"offset_bytes": 12688,
+"bytes": 208
+},
+{
+"fotograma": 49,
+"muestras": 1152,
+"seek": 831,
+"offset_bytes": 12896,
+"bytes": 208
+},
+{
+"fotograma": 50,
+"muestras": 2304,
+"seek": 1149,
+"offset_bytes": 13104,
+"bytes": 416
+},
+{
+"fotograma": 51,
+"muestras": 1152,
+"seek": 315,
+"offset_bytes": 13520,
+"bytes": 208
+},
+{
+"fotograma": 52,
+"muestras": 1152,
+"seek": 633,
+"offset_bytes": 13728,
+"bytes": 208
+},
+{
+"fotograma": 53,
+"muestras": 2304,
+"seek": 951,
+"offset_bytes": 13936,
+"bytes": 416
+},
+{
+"fotograma": 54,
+"muestras": 1152,
+"seek": 117,
+"offset_bytes": 14352,
+"bytes": 208
+},
+{
+"fotograma": 55,
+"muestras": 1152,
+"seek": 435,
+"offset_bytes": 14560,
+"bytes": 208
+},
+{
+"fotograma": 56,
+"muestras": 1152,
+"seek": 753,
+"offset_bytes": 14768,
+"bytes": 208
+},
+{
+"fotograma": 57,
+"muestras": 2304,
+"seek": 1071,
+"offset_bytes": 14976,
+"bytes": 416
+},
+{
+"fotograma": 58,
+"muestras": 1152,
+"seek": 237,
+"offset_bytes": 15392,
+"bytes": 208
+},
+{
+"fotograma": 59,
+"muestras": 1152,
+"seek": 555,
+"offset_bytes": 15600,
+"bytes": 208
+},
+{
+"fotograma": 60,
+"muestras": 2304,
+"seek": 873,
+"offset_bytes": 15808,
+"bytes": 416
+},
+{
+"fotograma": 61,
+"muestras": 1152,
+"seek": 39,
+"offset_bytes": 16224,
+"bytes": 208
+},
+{
+"fotograma": 62,
+"muestras": 1152,
+"seek": 357,
+"offset_bytes": 16432,
+"bytes": 208
+},
+{
+"fotograma": 63,
+"muestras": 1152,
+"seek": 675,
+"offset_bytes": 16640,
+"bytes": 208
+},
+{
+"fotograma": 64,
+"muestras": 2304,
+"seek": 993,
+"offset_bytes": 16848,
+"bytes": 416
+},
+{
+"fotograma": 65,
+"muestras": 1152,
+"seek": 159,
+"offset_bytes": 17264,
+"bytes": 208
+},
+{
+"fotograma": 66,
+"muestras": 1152,
+"seek": 477,
+"offset_bytes": 17472,
+"bytes": 208
+},
+{
+"fotograma": 67,
+"muestras": 1152,
+"seek": 795,
+"offset_bytes": 17680,
+"bytes": 208
+},
+{
+"fotograma": 68,
+"muestras": 2304,
+"seek": 1113,
+"offset_bytes": 17888,
+"bytes": 416
+},
+{
+"fotograma": 69,
+"muestras": 1152,
+"seek": 279,
+"offset_bytes": 18304,
+"bytes": 208
+},
+{
+"fotograma": 70,
+"muestras": 1152,
+"seek": 597,
+"offset_bytes": 18512,
+"bytes": 208
+},
+{
+"fotograma": 71,
+"muestras": 2304,
+"seek": 915,
+"offset_bytes": 18720,
+"bytes": 416
+},
+{
+"fotograma": 72,
+"muestras": 1152,
+"seek": 81,
+"offset_bytes": 19136,
+"bytes": 208
+},
+{
+"fotograma": 73,
+"muestras": 1152,
+"seek": 399,
+"offset_bytes": 19344,
+"bytes": 208
+},
+{
+"fotograma": 74,
+"muestras": 1152,
+"seek": 717,
+"offset_bytes": 19552,
+"bytes": 208
+},
+{
+"fotograma": 75,
+"muestras": 2304,
+"seek": 1035,
+"offset_bytes": 19760,
+"bytes": 416
+},
+{
+"fotograma": 76,
+"muestras": 1152,
+"seek": 201,
+"offset_bytes": 20176,
+"bytes": 208
+},
+{
+"fotograma": 77,
+"muestras": 1152,
+"seek": 519,
+"offset_bytes": 20384,
+"bytes": 208
+},
+{
+"fotograma": 78,
+"muestras": 2304,
+"seek": 837,
+"offset_bytes": 20592,
+"bytes": 416
+},
+{
+"fotograma": 79,
+"muestras": 1152,
+"seek": 3,
+"offset_bytes": 21008,
+"bytes": 208
+},
+{
+"fotograma": 80,
+"muestras": 1152,
+"seek": 321,
+"offset_bytes": 21216,
+"bytes": 208
+},
+{
+"fotograma": 81,
+"muestras": 1152,
+"seek": 639,
+"offset_bytes": 21424,
+"bytes": 208
+},
+{
+"fotograma": 82,
+"muestras": 2304,
+"seek": 957,
+"offset_bytes": 21632,
+"bytes": 416
+},
+{
+"fotograma": 83,
+"muestras": 1152,
+"seek": 123,
+"offset_bytes": 22048,
+"bytes": 208
+},
+{
+"fotograma": 84,
+"muestras": 1152,
+"seek": 441,
+"offset_bytes": 22256,
+"bytes": 208
+},
+{
+"fotograma": 85,
+"muestras": 1152,
+"seek": 759,
+"offset_bytes": 22464,
+"bytes": 208
+},
+{
+"fotograma": 86,
+"muestras": 2304,
+"seek": 1077,
+"offset_bytes": 22672,
+"bytes": 416
+},
+{
+"fotograma": 87,
+"muestras": 1152,
+"seek": 243,
+"offset_bytes": 23088,
+"bytes": 208
+},
+{
+"fotograma": 88,
+"muestras": 1152,
+"seek": 561,
+"offset_bytes": 23296,
+"bytes": 208
+},
+{
+"fotograma": 89,
+"muestras": 2304,
+"seek": 879,
+"offset_bytes": 23504,
+"bytes": 416
+},
+{
+"fotograma": 90,
+"muestras": 1152,
+"seek": 45,
+"offset_bytes": 23920,
+"bytes": 208
+},
+{
+"fotograma": 91,
+"muestras": 1152,
+"seek": 363,
+"offset_bytes": 24128,
+"bytes": 208
+},
+{
+"fotograma": 92,
+"muestras": 1152,
+"seek": 681,
+"offset_bytes": 24336,
+"bytes": 208
+},
+{
+"fotograma": 93,
+"muestras": 2304,
+"seek": 999,
+"offset_bytes": 24544,
+"bytes": 416
+},
+{
+"fotograma": 94,
+"muestras": 1152,
+"seek": 165,
+"offset_bytes": 24960,
+"bytes": 208
+},
+{
+"fotograma": 95,
+"muestras": 1152,
+"seek": 483,
+"offset_bytes": 25168,
+"bytes": 208
+},
+{
+"fotograma": 96,
+"muestras": 1152,
+"seek": 801,
+"offset_bytes": 25376,
+"bytes": 208
+},
+{
+"fotograma": 97,
+"muestras": 2304,
+"seek": 1119,
+"offset_bytes": 25584,
+"bytes": 416
+},
+{
+"fotograma": 98,
+"muestras": 1152,
+"seek": 285,
+"offset_bytes": 26000,
+"bytes": 208
+},
+{
+"fotograma": 99,
+"muestras": 1152,
+"seek": 603,
+"offset_bytes": 26208,
+"bytes": 208
+},
+{
+"fotograma": 100,
+"muestras": 2304,
+"seek": 921,
+"offset_bytes": 26416,
+"bytes": 416
+},
+{
+"fotograma": 101,
+"muestras": 1152,
+"seek": 87,
+"offset_bytes": 26832,
+"bytes": 208
+},
+{
+"fotograma": 102,
+"muestras": 1152,
+"seek": 405,
+"offset_bytes": 27040,
+"bytes": 208
+},
+{
+"fotograma": 103,
+"muestras": 1152,
+"seek": 723,
+"offset_bytes": 27248,
+"bytes": 208
+},
+{
+"fotograma": 104,
+"muestras": 2304,
+"seek": 1041,
+"offset_bytes": 27456,
+"bytes": 416
+},
+{
+"fotograma": 105,
+"muestras": 1152,
+"seek": 207,
+"offset_bytes": 27872,
+"bytes": 208
+},
+{
+"fotograma": 106,
+"muestras": 1152,
+"seek": 525,
+"offset_bytes": 28080,
+"bytes": 208
+},
+{
+"fotograma": 107,
+"muestras": 2304,
+"seek": 843,
+"offset_bytes": 28288,
+"bytes": 416
+},
+{
+"fotograma": 108,
+"muestras": 1152,
+"seek": 9,
+"offset_bytes": 28704,
+"bytes": 208
+},
+{
+"fotograma": 109,
+"muestras": 1152,
+"seek": 327,
+"offset_bytes": 28912,
+"bytes": 208
+},
+{
+"fotograma": 110,
+"muestras": 1152,
+"seek": 645,
+"offset_bytes": 29120,
+"bytes": 208
+},
+{
+"fotograma": 111,
+"muestras": 2304,
+"seek": 963,
+"offset_bytes": 29328,
+"bytes": 416
+},
+{
+"fotograma": 112,
+"muestras": 1152,
+"seek": 129,
+"offset_bytes": 29744,
+"bytes": 208
+},
+{
+"fotograma": 113,
+"muestras": 1152,
+"seek": 447,
+"offset_bytes": 29952,
+"bytes": 208
+},
+{
+"fotograma": 114,
+"muestras": 1152,
+"seek": 765,
+"offset_bytes": 30160,
+"bytes": 208
+},
+{
+"fotograma": 115,
+"muestras": 2304,
+"seek": 1083,
+"offset_bytes": 30368,
+"bytes": 416
+},
+{
+"fotograma": 116,
+"muestras": 1152,
+"seek": 249,
+"offset_bytes": 30784,
+"bytes": 208
+},
+{
+"fotograma": 117,
+"muestras": 1152,
+"seek": 567,
+"offset_bytes": 30992,
+"bytes": 208
+},
+{
+"fotograma": 118,
+"muestras": 2304,
+"seek": 885,
+"offset_bytes": 31200,
+"bytes": 416
+},
+{
+"fotograma": 119,
+"muestras": 1152,
+"seek": 51,
+"offset_bytes": 31616,
+"bytes": 208
+},
+{
+"fotograma": 120,
+"muestras": 1152,
+"seek": 369,
+"offset_bytes": 31824,
+"bytes": 208
+},
+{
+"fotograma": 121,
+"muestras": 1152,
+"seek": 687,
+"offset_bytes": 32032,
+"bytes": 208
+},
+{
+"fotograma": 122,
+"muestras": 2304,
+"seek": 1005,
+"offset_bytes": 32240,
+"bytes": 416
+},
+{
+"fotograma": 123,
+"muestras": 1152,
+"seek": 171,
+"offset_bytes": 32656,
+"bytes": 208
+},
+{
+"fotograma": 124,
+"muestras": 1152,
+"seek": 489,
+"offset_bytes": 32864,
+"bytes": 208
+},
+{
+"fotograma": 125,
+"muestras": 1152,
+"seek": 807,
+"offset_bytes": 33072,
+"bytes": 208
+},
+{
+"fotograma": 126,
+"muestras": 2304,
+"seek": 1125,
+"offset_bytes": 33280,
+"bytes": 416
+},
+{
+"fotograma": 127,
+"muestras": 1152,
+"seek": 291,
+"offset_bytes": 33696,
+"bytes": 208
+},
+{
+"fotograma": 128,
+"muestras": 1152,
+"seek": 609,
+"offset_bytes": 33904,
+"bytes": 208
+},
+{
+"fotograma": 129,
+"muestras": 2304,
+"seek": 927,
+"offset_bytes": 34112,
+"bytes": 416
+},
+{
+"fotograma": 130,
+"muestras": 1152,
+"seek": 93,
+"offset_bytes": 34528,
+"bytes": 208
+},
+{
+"fotograma": 131,
+"muestras": 1152,
+"seek": 411,
+"offset_bytes": 34736,
+"bytes": 208
+},
+{
+"fotograma": 132,
+"muestras": 1152,
+"seek": 729,
+"offset_bytes": 34944,
+"bytes": 208
+},
+{
+"fotograma": 133,
+"muestras": 2304,
+"seek": 1047,
+"offset_bytes": 35152,
+"bytes": 416
+},
+{
+"fotograma": 134,
+"muestras": 1152,
+"seek": 213,
+"offset_bytes": 35568,
+"bytes": 208
+},
+{
+"fotograma": 135,
+"muestras": 1152,
+"seek": 531,
+"offset_bytes": 35776,
+"bytes": 208
+},
+{
+"fotograma": 136,
+"muestras": 2304,
+"seek": 849,
+"offset_bytes": 35984,
+"bytes": 416
+},
+{
+"fotograma": 137,
+"muestras": 1152,
+"seek": 15,
+"offset_bytes": 36400,
+"bytes": 208
+},
+{
+"fotograma": 138,
+"muestras": 1152,
+"seek": 333,
+"offset_bytes": 36608,
+"bytes": 208
+},
+{
+"fotograma": 139,
+"muestras": 1152,
+"seek": 651,
+"offset_bytes": 36816,
+"bytes": 208
+},
+{
+"fotograma": 140,
+"muestras": 2304,
+"seek": 969,
+"offset_bytes": 37024,
+"bytes": 416
+},
+{
+"fotograma": 141,
+"muestras": 1152,
+"seek": 135,
+"offset_bytes": 37440,
+"bytes": 208
+},
+{
+"fotograma": 142,
+"muestras": 1152,
+"seek": 453,
+"offset_bytes": 37648,
+"bytes": 208
+},
+{
+"fotograma": 143,
+"muestras": 1152,
+"seek": 771,
+"offset_bytes": 37856,
+"bytes": 208
+},
+{
+"fotograma": 144,
+"muestras": 2304,
+"seek": 1089,
+"offset_bytes": 38064,
+"bytes": 416
+},
+{
+"fotograma": 145,
+"muestras": 1152,
+"seek": 255,
+"offset_bytes": 38480,
+"bytes": 208
+},
+{
+"fotograma": 146,
+"muestras": 1152,
+"seek": 573,
+"offset_bytes": 38688,
+"bytes": 208
+},
+{
+"fotograma": 147,
+"muestras": 2304,
+"seek": 891,
+"offset_bytes": 38896,
+"bytes": 416
+},
+{
+"fotograma": 148,
+"muestras": 1152,
+"seek": 57,
+"offset_bytes": 39312,
+"bytes": 208
+},
+{
+"fotograma": 149,
+"muestras": 1152,
+"seek": 375,
+"offset_bytes": 39520,
+"bytes": 208
+},
+{
+"fotograma": 150,
+"muestras": 1152,
+"seek": 693,
+"offset_bytes": 39728,
+"bytes": 208
+},
+{
+"fotograma": 151,
+"muestras": 2304,
+"seek": 1011,
+"offset_bytes": 39936,
+"bytes": 416
+},
+{
+"fotograma": 152,
+"muestras": 1152,
+"seek": 177,
+"offset_bytes": 40352,
+"bytes": 208
+},
+{
+"fotograma": 153,
+"muestras": 1152,
+"seek": 495,
+"offset_bytes": 40560,
+"bytes": 208
+},
+{
+"fotograma": 154,
+"muestras": 1152,
+"seek": 813,
+"offset_bytes": 40768,
+"bytes": 208
+},
+{
+"fotograma": 155,
+"muestras": 2304,
+"seek": 1131,
+"offset_bytes": 40976,
+"bytes": 416
+},
+{
+"fotograma": 156,
+"muestras": 1152,
+"seek": 297,
+"offset_bytes": 41392,
+"bytes": 208
+},
+{
+"fotograma": 157,
+"muestras": 1152,
+"seek": 615,
+"offset_bytes": 41600,
+"bytes": 208
+},
+{
+"fotograma": 158,
+"muestras": 2304,
+"seek": 933,
+"offset_bytes": 41808,
+"bytes": 416
+},
+{
+"fotograma": 159,
+"muestras": 1152,
+"seek": 99,
+"offset_bytes": 42224,
+"bytes": 208
+},
+{
+"fotograma": 160,
+"muestras": 1152,
+"seek": 417,
+"offset_bytes": 42432,
+"bytes": 208
+},
+{
+"fotograma": 161,
+"muestras": 1152,
+"seek": 735,
+"offset_bytes": 42640,
+"bytes": 208
+},
+{
+"fotograma": 162,
+"muestras": 2304,
+"seek": 1053,
+"offset_bytes": 42848,
+"bytes": 416
+},
+{
+"fotograma": 163,
+"muestras": 1152,
+"seek": 219,
+"offset_bytes": 43264,
+"bytes": 208
+},
+{
+"fotograma": 164,
+"muestras": 1152,
+"seek": 537,
+"offset_bytes": 43472,
+"bytes": 208
+},
+{
+"fotograma": 165,
+"muestras": 2304,
+"seek": 855,
+"offset_bytes": 43680,
+"bytes": 416
+},
+{
+"fotograma": 166,
+"muestras": 1152,
+"seek": 21,
+"offset_bytes": 44096,
+"bytes": 208
+},
+{
+"fotograma": 167,
+"muestras": 1152,
+"seek": 339,
+"offset_bytes": 44304,
+"bytes": 208
+},
+{
+"fotograma": 168,
+"muestras": 1152,
+"seek": 657,
+"offset_bytes": 44512,
+"bytes": 208
+},
+{
+"fotograma": 169,
+"muestras": 2304,
+"seek": 975,
+"offset_bytes": 44720,
+"bytes": 416
+},
+{
+"fotograma": 170,
+"muestras": 1152,
+"seek": 141,
+"offset_bytes": 45136,
+"bytes": 208
+},
+{
+"fotograma": 171,
+"muestras": 1152,
+"seek": 459,
+"offset_bytes": 45344,
+"bytes": 208
+},
+{
+"fotograma": 172,
+"muestras": 1152,
+"seek": 777,
+"offset_bytes": 45552,
+"bytes": 208
+},
+{
+"fotograma": 173,
+"muestras": 2304,
+"seek": 1095,
+"offset_bytes": 45760,
+"bytes": 416
+},
+{
+"fotograma": 174,
+"muestras": 1152,
+"seek": 261,
+"offset_bytes": 46176,
+"bytes": 208
+},
+{
+"fotograma": 175,
+"muestras": 1152,
+"seek": 579,
+"offset_bytes": 46384,
+"bytes": 208
+},
+{
+"fotograma": 176,
+"muestras": 2304,
+"seek": 897,
+"offset_bytes": 46592,
+"bytes": 416
+},
+{
+"fotograma": 177,
+"muestras": 1152,
+"seek": 63,
+"offset_bytes": 47008,
+"bytes": 208
+},
+{
+"fotograma": 178,
+"muestras": 1152,
+"seek": 381,
+"offset_bytes": 47216,
+"bytes": 208
+},
+{
+"fotograma": 179,
+"muestras": 1152,
+"seek": 699,
+"offset_bytes": 47424,
+"bytes": 208
+},
+{
+"fotograma": 180,
+"muestras": 2304,
+"seek": 1017,
+"offset_bytes": 47632,
+"bytes": 416
+},
+{
+"fotograma": 181,
+"muestras": 1152,
+"seek": 183,
+"offset_bytes": 48048,
+"bytes": 208
+},
+{
+"fotograma": 182,
+"muestras": 1152,
+"seek": 501,
+"offset_bytes": 48256,
+"bytes": 208
+},
+{
+"fotograma": 183,
+"muestras": 1152,
+"seek": 819,
+"offset_bytes": 48464,
+"bytes": 208
+},
+{
+"fotograma": 184,
+"muestras": 2304,
+"seek": 1137,
+"offset_bytes": 48672,
+"bytes": 416
+},
+{
+"fotograma": 185,
+"muestras": 1152,
+"seek": 303,
+"offset_bytes": 49088,
+"bytes": 208
+},
+{
+"fotograma": 186,
+"muestras": 1152,
+"seek": 621,
+"offset_bytes": 49296,
+"bytes": 208
+},
+{
+"fotograma": 187,
+"muestras": 2304,
+"seek": 939,
+"offset_bytes": 49504,
+"bytes": 416
+},
+{
+"fotograma": 188,
+"muestras": 1152,
+"seek": 105,
+"offset_bytes": 49920,
+"bytes": 208
+},
+{
+"fotograma": 189,
+"muestras": 1152,
+"seek": 423,
+"offset_bytes": 50128,
+"bytes": 208
+},
+{
+"fotograma": 190,
+"muestras": 1152,
+"seek": 741,
+"offset_bytes": 50336,
+"bytes": 208
+},
+{
+"fotograma": 191,
+"muestras": 2304,
+"seek": 1059,
+"offset_bytes": 50544,
+"bytes": 416
+},
+{
+"fotograma": 192,
+"muestras": 1152,
+"seek": 225,
+"offset_bytes": 50960,
+"bytes": 208
+},
+{
+"fotograma": 193,
+"muestras": 1152,
+"seek": 543,
+"offset_bytes": 51168,
+"bytes": 208
+},
+{
+"fotograma": 194,
+"muestras": 2304,
+"seek": 861,
+"offset_bytes": 51376,
+"bytes": 416
+},
+{
+"fotograma": 195,
+"muestras": 1152,
+"seek": 27,
+"offset_bytes": 51792,
+"bytes": 208
+},
+{
+"fotograma": 196,
+"muestras": 1152,
+"seek": 345,
+"offset_bytes": 52000,
+"bytes": 208
+},
+{
+"fotograma": 197,
+"muestras": 1152,
+"seek": 663,
+"offset_bytes": 52208,
+"bytes": 208
+},
+{
+"fotograma": 198,
+"muestras": 2304,
+"seek": 981,
+"offset_bytes": 52416,
+"bytes": 416
+},
+{
+"fotograma": 199,
+"muestras": 1152,
+"seek": 147,
+"offset_bytes": 52832,
+"bytes": 208
+},
+{
+"fotograma": 200,
+"muestras": 1152,
+"seek": 465,
+"offset_bytes": 53040,
+"bytes": 208
+},
+{
+"fotograma": 201,
+"muestras": 1152,
+"seek": 783,
+"offset_bytes": 53248,
+"bytes": 208
+},
+{
+"fotograma": 202,
+"muestras": 2304,
+"seek": 1101,
+"offset_bytes": 53456,
+"bytes": 416
+},
+{
+"fotograma": 203,
+"muestras": 1152,
+"seek": 267,
+"offset_bytes": 53872,
+"bytes": 208
+},
+{
+"fotograma": 204,
+"muestras": 1152,
+"seek": 585,
+"offset_bytes": 54080,
+"bytes": 208
+},
+{
+"fotograma": 205,
+"muestras": 2304,
+"seek": 903,
+"offset_bytes": 54288,
+"bytes": 416
+},
+{
+"fotograma": 206,
+"muestras": 1152,
+"seek": 69,
+"offset_bytes": 54704,
+"bytes": 208
+},
+{
+"fotograma": 207,
+"muestras": 1152,
+"seek": 387,
+"offset_bytes": 54912,
+"bytes": 208
+},
+{
+"fotograma": 208,
+"muestras": 1152,
+"seek": 705,
+"offset_bytes": 55120,
+"bytes": 208
+},
+{
+"fotograma": 209,
+"muestras": 2304,
+"seek": 1023,
+"offset_bytes": 55328,
+"bytes": 416
+},
+{
+"fotograma": 210,
+"muestras": 1152,
+"seek": 189,
+"offset_bytes": 55744,
+"bytes": 208
+},
+{
+"fotograma": 211,
+"muestras": 1152,
+"seek": 507,
+"offset_bytes": 55952,
+"bytes": 208
+},
+{
+"fotograma": 212,
+"muestras": 1152,
+"seek": 825,
+"offset_bytes": 56160,
+"bytes": 208
+},
+{
+"fotograma": 213,
+"muestras": 2304,
+"seek": 1143,
+"offset_bytes": 56368,
+"bytes": 416
+},
+{
+"fotograma": 214,
+"muestras": 1152,
+"seek": 309,
+"offset_bytes": 56784,
+"bytes": 208
+},
+{
+"fotograma": 215,
+"muestras": 1152,
+"seek": 627,
+"offset_bytes": 56992,
+"bytes": 208
+},
+{
+"fotograma": 216,
+"muestras": 2304,
+"seek": 945,
+"offset_bytes": 57200,
+"bytes": 416
+},
+{
+"fotograma": 217,
+"muestras": 1152,
+"seek": 111,
+"offset_bytes": 57616,
+"bytes": 208
+},
+{
+"fotograma": 218,
+"muestras": 1152,
+"seek": 429,
+"offset_bytes": 57824,
+"bytes": 208
+},
+{
+"fotograma": 219,
+"muestras": 1152,
+"seek": 747,
+"offset_bytes": 58032,
+"bytes": 208
+},
+{
+"fotograma": 220,
+"muestras": 2304,
+"seek": 1065,
+"offset_bytes": 58240,
+"bytes": 416
+},
+{
+"fotograma": 221,
+"muestras": 1152,
+"seek": 231,
+"offset_bytes": 58656,
+"bytes": 208
+},
+{
+"fotograma": 222,
+"muestras": 1152,
+"seek": 549,
+"offset_bytes": 58864,
+"bytes": 208
+},
+{
+"fotograma": 223,
+"muestras": 2304,
+"seek": 867,
+"offset_bytes": 59072,
+"bytes": 416
+},
+{
+"fotograma": 224,
+"muestras": 1152,
+"seek": 33,
+"offset_bytes": 59488,
+"bytes": 208
+},
+{
+"fotograma": 225,
+"muestras": 1152,
+"seek": 351,
+"offset_bytes": 59696,
+"bytes": 208
+},
+{
+"fotograma": 226,
+"muestras": 1152,
+"seek": 669,
+"offset_bytes": 59904,
+"bytes": 208
+},
+{
+"fotograma": 227,
+"muestras": 2304,
+"seek": 987,
+"offset_bytes": 60112,
+"bytes": 416
+},
+{
+"fotograma": 228,
+"muestras": 1152,
+"seek": 153,
+"offset_bytes": 60528,
+"bytes": 208
+},
+{
+"fotograma": 229,
+"muestras": 1152,
+"seek": 471,
+"offset_bytes": 60736,
+"bytes": 208
+},
+{
+"fotograma": 230,
+"muestras": 1152,
+"seek": 789,
+"offset_bytes": 60944,
+"bytes": 208
+},
+{
+"fotograma": 231,
+"muestras": 2304,
+"seek": 1107,
+"offset_bytes": 61152,
+"bytes": 416
+},
+{
+"fotograma": 232,
+"muestras": 1152,
+"seek": 273,
+"offset_bytes": 61568,
+"bytes": 208
+},
+{
+"fotograma": 233,
+"muestras": 1152,
+"seek": 591,
+"offset_bytes": 61776,
+"bytes": 208
+},
+{
+"fotograma": 234,
+"muestras": 2304,
+"seek": 909,
+"offset_bytes": 61984,
+"bytes": 416
+},
+{
+"fotograma": 235,
+"muestras": 1152,
+"seek": 75,
+"offset_bytes": 62400,
+"bytes": 208
+},
+{
+"fotograma": 236,
+"muestras": 1152,
+"seek": 393,
+"offset_bytes": 62608,
+"bytes": 208
+},
+{
+"fotograma": 237,
+"muestras": 1152,
+"seek": 711,
+"offset_bytes": 62816,
+"bytes": 208
+},
+{
+"fotograma": 238,
+"muestras": 2304,
+"seek": 1029,
+"offset_bytes": 63024,
+"bytes": 416
+},
+{
+"fotograma": 239,
+"muestras": 1152,
+"seek": 195,
+"offset_bytes": 63440,
+"bytes": 208
+},
+{
+"fotograma": 240,
+"muestras": 1152,
+"seek": 513,
+"offset_bytes": 63648,
+"bytes": 208
+},
+{
+"fotograma": 241,
+"muestras": 1152,
+"seek": 831,
+"offset_bytes": 63856,
+"bytes": 208
+},
+{
+"fotograma": 242,
+"muestras": 2304,
+"seek": 1149,
+"offset_bytes": 64064,
+"bytes": 416
+},
+{
+"fotograma": 243,
+"muestras": 1152,
+"seek": 315,
+"offset_bytes": 64480,
+"bytes": 208
+},
+{
+"fotograma": 244,
+"muestras": 1152,
+"seek": 633,
+"offset_bytes": 64688,
+"bytes": 208
+},
+{
+"fotograma": 245,
+"muestras": 2304,
+"seek": 951,
+"offset_bytes": 64896,
+"bytes": 416
+},
+{
+"fotograma": 246,
+"muestras": 1152,
+"seek": 117,
+"offset_bytes": 65312,
+"bytes": 208
+},
+{
+"fotograma": 247,
+"muestras": 1152,
+"seek": 435,
+"offset_bytes": 65520,
+"bytes": 208
+},
+{
+"fotograma": 248,
+"muestras": 1152,
+"seek": 753,
+"offset_bytes": 65728,
+"bytes": 208
+},
+{
+"fotograma": 249,
+"muestras": 2304,
+"seek": 1071,
+"offset_bytes": 65936,
+"bytes": 416
+},
+{
+"fotograma": 250,
+"muestras": 1152,
+"seek": 237,
+"offset_bytes": 66352,
+"bytes": 208
+},
+{
+"fotograma": 251,
+"muestras": 1152,
+"seek": 555,
+"offset_bytes": 66560,
+"bytes": 208
+},
+{
+"fotograma": 252,
+"muestras": 2304,
+"seek": 873,
+"offset_bytes": 66768,
+"bytes": 416
+},
+{
+"fotograma": 253,
+"muestras": 1152,
+"seek": 39,
+"offset_bytes": 67184,
+"bytes": 208
+},
+{
+"fotograma": 254,
+"muestras": 1152,
+"seek": 357,
+"offset_bytes": 67392,
+"bytes": 208
+},
+{
+"fotograma": 255,
+"muestras": 1152,
+"seek": 675,
+"offset_bytes": 67600,
+"bytes": 208
+},
+{
+"fotograma": 256,
+"muestras": 2304,
+"seek": 993,
+"offset_bytes": 67808,
+"bytes": 416
+},
+{
+"fotograma": 257,
+"muestras": 1152,
+"seek": 159,
+"offset_bytes": 68224,
+"bytes": 208
+},
+{
+"fotograma": 258,
+"muestras": 1152,
+"seek": 477,
+"offset_bytes": 68432,
+"bytes": 208
+},
+{
+"fotograma": 259,
+"muestras": 1152,
+"seek": 795,
+"offset_bytes": 68640,
+"bytes": 208
+},
+{
+"fotograma": 260,
+"muestras": 2304,
+"seek": 1113,
+"offset_bytes": 68848,
+"bytes": 416
+},
+{
+"fotograma": 261,
+"muestras": 1152,
+"seek": 279,
+"offset_bytes": 69264,
+"bytes": 208
+},
+{
+"fotograma": 262,
+"muestras": 1152,
+"seek": 597,
+"offset_bytes": 69472,
+"bytes": 208
+},
+{
+"fotograma": 263,
+"muestras": 2304,
+"seek": 915,
+"offset_bytes": 69680,
+"bytes": 416
+},
+{
+"fotograma": 264,
+"muestras": 1152,
+"seek": 81,
+"offset_bytes": 70096,
+"bytes": 208
+},
+{
+"fotograma": 265,
+"muestras": 1152,
+"seek": 399,
+"offset_bytes": 70304,
+"bytes": 208
+},
+{
+"fotograma": 266,
+"muestras": 1152,
+"seek": 717,
+"offset_bytes": 70512,
+"bytes": 208
+},
+{
+"fotograma": 267,
+"muestras": 2304,
+"seek": 1035,
+"offset_bytes": 70720,
+"bytes": 416
+},
+{
+"fotograma": 268,
+"muestras": 1152,
+"seek": 201,
+"offset_bytes": 71136,
+"bytes": 208
+},
+{
+"fotograma": 269,
+"muestras": 1152,
+"seek": 519,
+"offset_bytes": 71344,
+"bytes": 208
+},
+{
+"fotograma": 270,
+"muestras": 2304,
+"seek": 837,
+"offset_bytes": 71552,
+"bytes": 416
+},
+{
+"fotograma": 271,
+"muestras": 1152,
+"seek": 3,
+"offset_bytes": 71968,
+"bytes": 208
+},
+{
+"fotograma": 272,
+"muestras": 1152,
+"seek": 321,
+"offset_bytes": 72176,
+"bytes": 208
+},
+{
+"fotograma": 273,
+"muestras": 1152,
+"seek": 639,
+"offset_bytes": 72384,
+"bytes": 208
+},
+{
+"fotograma": 274,
+"muestras": 2304,
+"seek": 957,
+"offset_bytes": 72592,
+"bytes": 416
+},
+{
+"fotograma": 275,
+"muestras": 1152,
+"seek": 123,
+"offset_bytes": 73008,
+"bytes": 208
+},
+{
+"fotograma": 276,
+"muestras": 1152,
+"seek": 441,
+"offset_bytes": 73216,
+"bytes": 208
+},
+{
+"fotograma": 277,
+"muestras": 1152,
+"seek": 759,
+"offset_bytes": 73424,
+"bytes": 208
+},
+{
+"fotograma": 278,
+"muestras": 2304,
+"seek": 1077,
+"offset_bytes": 73632,
+"bytes": 416
+},
+{
+"fotograma": 279,
+"muestras": 1152,
+"seek": 243,
+"offset_bytes": 74048,
+"bytes": 208
+},
+{
+"fotograma": 280,
+"muestras": 1152,
+"seek": 561,
+"offset_bytes": 74256,
+"bytes": 208
+},
+{
+"fotograma": 281,
+"muestras": 2304,
+"seek": 879,
+"offset_bytes": 74464,
+"bytes": 416
+},
+{
+"fotograma": 282,
+"muestras": 1152,
+"seek": 45,
+"offset_bytes": 74880,
+"bytes": 208
+},
+{
+"fotograma": 283,
+"muestras": 1152,
+"seek": 363,
+"offset_bytes": 75088,
+"bytes": 208
+},
+{
+"fotograma": 284,
+"muestras": 1152,
+"seek": 681,
+"offset_bytes": 75296,
+"bytes": 208
+},
+{
+"fotograma": 285,
+"muestras": 2304,
+"seek": 999,
+"offset_bytes": 75504,
+"bytes": 416
+},
+{
+"fotograma": 286,
+"muestras": 1152,
+"seek": 165,
+"offset_bytes": 75920,
+"bytes": 208
+},
+{
+"fotograma": 287,
+"muestras": 1152,
+"seek": 483,
+"offset_bytes": 76128,
+"bytes": 208
+},
+{
+"fotograma": 288,
+"muestras": 1152,
+"seek": 801,
+"offset_bytes": 76336,
+"bytes": 208
+},
+{
+"fotograma": 289,
+"muestras": 2304,
+"seek": 1119,
+"offset_bytes": 76544,
+"bytes": 416
+},
+{
+"fotograma": 290,
+"muestras": 1152,
+"seek": 285,
+"offset_bytes": 76960,
+"bytes": 208
+},
+{
+"fotograma": 291,
+"muestras": 1152,
+"seek": 603,
+"offset_bytes": 77168,
+"bytes": 208
+},
+{
+"fotograma": 292,
+"muestras": 2304,
+"seek": 921,
+"offset_bytes": 77376,
+"bytes": 416
+},
+{
+"fotograma": 293,
+"muestras": 1152,
+"seek": 87,
+"offset_bytes": 77792,
+"bytes": 208
+},
+{
+"fotograma": 294,
+"muestras": 1152,
+"seek": 405,
+"offset_bytes": 78000,
+"bytes": 208
+},
+{
+"fotograma": 295,
+"muestras": 1152,
+"seek": 723,
+"offset_bytes": 78208,
+"bytes": 208
+},
+{
+"fotograma": 296,
+"muestras": 2304,
+"seek": 1041,
+"offset_bytes": 78416,
+"bytes": 416
+},
+{
+"fotograma": 297,
+"muestras": 1152,
+"seek": 207,
+"offset_bytes": 78832,
+"bytes": 208
+},
+{
+"fotograma": 298,
+"muestras": 1152,
+"seek": 525,
+"offset_bytes": 79040,
+"bytes": 208
+},
+{
+"fotograma": 299,
+"muestras": 2304,
+"seek": 843,
+"offset_bytes": 79248,
+"bytes": 416
+},
+{
+"fotograma": 300,
+"muestras": 1152,
+"seek": 9,
+"offset_bytes": 79664,
+"bytes": 208
+},
+{
+"fotograma": 301,
+"muestras": 1152,
+"seek": 327,
+"offset_bytes": 79872,
+"bytes": 208
+},
+{
+"fotograma": 302,
+"muestras": 1152,
+"seek": 645,
+"offset_bytes": 80080,
+"bytes": 208
+},
+{
+"fotograma": 303,
+"muestras": 2304,
+"seek": 963,
+"offset_bytes": 80288,
+"bytes": 416
+},
+{
+"fotograma": 304,
+"muestras": 1152,
+"seek": 129,
+"offset_bytes": 80704,
+"bytes": 208
+},
+{
+"fotograma": 305,
+"muestras": 1152,
+"seek": 447,
+"offset_bytes": 80912,
+"bytes": 208
+},
+{
+"fotograma": 306,
+"muestras": 1152,
+"seek": 765,
+"offset_bytes": 81120,
+"bytes": 208
+},
+{
+"fotograma": 307,
+"muestras": 2304,
+"seek": 1083,
+"offset_bytes": 81328,
+"bytes": 416
+},
+{
+"fotograma": 308,
+"muestras": 1152,
+"seek": 249,
+"offset_bytes": 81744,
+"bytes": 208
+},
+{
+"fotograma": 309,
+"muestras": 1152,
+"seek": 567,
+"offset_bytes": 81952,
+"bytes": 208
+},
+{
+"fotograma": 310,
+"muestras": 2304,
+"seek": 885,
+"offset_bytes": 82160,
+"bytes": 416
+},
+{
+"fotograma": 311,
+"muestras": 1152,
+"seek": 51,
+"offset_bytes": 82576,
+"bytes": 208
+},
+{
+"fotograma": 312,
+"muestras": 1152,
+"seek": 369,
+"offset_bytes": 82784,
+"bytes": 208
+},
+{
+"fotograma": 313,
+"muestras": 1152,
+"seek": 687,
+"offset_bytes": 82992,
+"bytes": 208
+},
+{
+"fotograma": 314,
+"muestras": 2304,
+"seek": 1005,
+"offset_bytes": 83200,
+"bytes": 416
+},
+{
+"fotograma": 315,
+"muestras": 1152,
+"seek": 171,
+"offset_bytes": 83616,
+"bytes": 208
+},
+{
+"fotograma": 316,
+"muestras": 1152,
+"seek": 489,
+"offset_bytes": 83824,
+"bytes": 208
+},
+{
+"fotograma": 317,
+"muestras": 1152,
+"seek": 807,
+"offset_bytes": 84032,
+"bytes": 208
+},
+{
+"fotograma": 318,
+"muestras": 2304,
+"seek": 1125,
+"offset_bytes": 84240,
+"bytes": 416
+},
+{
+"fotograma": 319,
+"muestras": 1152,
+"seek": 291,
+"offset_bytes": 84656,
+"bytes": 208
+},
+{
+"fotograma": 320,
+"muestras": 1152,
+"seek": 609,
+"offset_bytes": 84864,
+"bytes": 208
+},
+{
+"fotograma": 321,
+"muestras": 2304,
+"seek": 927,
+"offset_bytes": 85072,
+"bytes": 416
+},
+{
+"fotograma": 322,
+"muestras": 1152,
+"seek": 93,
+"offset_bytes": 85488,
+"bytes": 208
+},
+{
+"fotograma": 323,
+"muestras": 1152,
+"seek": 411,
+"offset_bytes": 85696,
+"bytes": 208
+},
+{
+"fotograma": 324,
+"muestras": 1152,
+"seek": 729,
+"offset_bytes": 85904,
+"bytes": 208
+},
+{
+"fotograma": 325,
+"muestras": 2304,
+"seek": 1047,
+"offset_bytes": 86112,
+"bytes": 416
+},
+{
+"fotograma": 326,
+"muestras": 1152,
+"seek": 213,
+"offset_bytes": 86528,
+"bytes": 208
+},
+{
+"fotograma": 327,
+"muestras": 1152,
+"seek": 531,
+"offset_bytes": 86736,
+"bytes": 208
+},
+{
+"fotograma": 328,
+"muestras": 2304,
+"seek": 849,
+"offset_bytes": 86944,
+"bytes": 416
+},
+{
+"fotograma": 329,
+"muestras": 1152,
+"seek": 15,
+"offset_bytes": 87360,
+"bytes": 208
+},
+{
+"fotograma": 330,
+"muestras": 1152,
+"seek": 333,
+"offset_bytes": 87568,
+"bytes": 208
+},
+{
+"fotograma": 331,
+"muestras": 1152,
+"seek": 651,
+"offset_bytes": 87776,
+"bytes": 208
+},
+{
+"fotograma": 332,
+"muestras": 2304,
+"seek": 969,
+"offset_bytes": 87984,
+"bytes": 416
+},
+{
+"fotograma": 333,
+"muestras": 1152,
+"seek": 135,
+"offset_bytes": 88400,
+"bytes": 208
+},
+{
+"fotograma": 334,
+"muestras": 1152,
+"seek": 453,
+"offset_bytes": 88608,
+"bytes": 208
+},
+{
+"fotograma": 335,
+"muestras": 1152,
+"seek": 771,
+"offset_bytes": 88816,
+"bytes": 208
+},
+{
+"fotograma": 336,
+"muestras": 2304,
+"seek": 1089,
+"offset_bytes": 89024,
+"bytes": 416
+},
+{
+"fotograma": 337,
+"muestras": 1152,
+"seek": 255,
+"offset_bytes": 89440,
+"bytes": 208
+},
+{
+"fotograma": 338,
+"muestras": 1152,
+"seek": 573,
+"offset_bytes": 89648,
+"bytes": 208
+},
+{
+"fotograma": 339,
+"muestras": 2304,
+"seek": 891,
+"offset_bytes": 89856,
+"bytes": 416
+},
+{
+"fotograma": 340,
+"muestras": 1152,
+"seek": 57,
+"offset_bytes": 90272,
+"bytes": 208
+},
+{
+"fotograma": 341,
+"muestras": 1152,
+"seek": 375,
+"offset_bytes": 90480,
+"bytes": 208
+},
+{
+"fotograma": 342,
+"muestras": 1152,
+"seek": 693,
+"offset_bytes": 90688,
+"bytes": 208
+},
+{
+"fotograma": 343,
+"muestras": 2304,
+"seek": 1011,
+"offset_bytes": 90896,
+"bytes": 416
+},
+{
+"fotograma": 344,
+"muestras": 1152,
+"seek": 177,
+"offset_bytes": 91312,
+"bytes": 208
+},
+{
+"fotograma": 345,
+"muestras": 1152,
+"seek": 495,
+"offset_bytes": 91520,
+"bytes": 208
+},
+{
+"fotograma": 346,
+"muestras": 1152,
+"seek": 813,
+"offset_bytes": 91728,
+"bytes": 208
+},
+{
+"fotograma": 347,
+"muestras": 2304,
+"seek": 1131,
+"offset_bytes": 91936,
+"bytes": 416
+},
+{
+"fotograma": 348,
+"muestras": 1152,
+"seek": 297,
+"offset_bytes": 92352,
+"bytes": 208
+},
+{
+"fotograma": 349,
+"muestras": 1152,
+"seek": 615,
+"offset_bytes": 92560,
+"bytes": 208
+},
+{
+"fotograma": 350,
+"muestras": 2304,
+"seek": 933,
+"offset_bytes": 92768,
+"bytes": 416
+},
+{
+"fotograma": 351,
+"muestras": 1152,
+"seek": 99,
+"offset_bytes": 93184,
+"bytes": 208
+},
+{
+"fotograma": 352,
+"muestras": 1152,
+"seek": 417,
+"offset_bytes": 93392,
+"bytes": 208
+},
+{
+"fotograma": 353,
+"muestras": 1152,
+"seek": 735,
+"offset_bytes": 93600,
+"bytes": 208
+},
+{
+"fotograma": 354,
+"muestras": 2304,
+"seek": 1053,
+"offset_bytes": 93808,
+"bytes": 416
+},
+{
+"fotograma": 355,
+"muestras": 1152,
+"seek": 219,
+"offset_bytes": 94224,
+"bytes": 208
+},
+{
+"fotograma": 356,
+"muestras": 1152,
+"seek": 537,
+"offset_bytes": 94432,
+"bytes": 208
+},
+{
+"fotograma": 357,
+"muestras": 2304,
+"seek": 855,
+"offset_bytes": 94640,
+"bytes": 416
+},
+{
+"fotograma": 358,
+"muestras": 1152,
+"seek": 21,
+"offset_bytes": 95056,
+"bytes": 208
+},
+{
+"fotograma": 359,
+"muestras": 1152,
+"seek": 339,
+"offset_bytes": 95264,
+"bytes": 208
+},
+{
+"fotograma": 360,
+"muestras": 1152,
+"seek": 657,
+"offset_bytes": 95472,
+"bytes": 208
+},
+{
+"fotograma": 361,
+"muestras": 2304,
+"seek": 975,
+"offset_bytes": 95680,
+"bytes": 416
+},
+{
+"fotograma": 362,
+"muestras": 1152,
+"seek": 141,
+"offset_bytes": 96096,
+"bytes": 208
+},
+{
+"fotograma": 363,
+"muestras": 1152,
+"seek": 459,
+"offset_bytes": 96304,
+"bytes": 208
+},
+{
+"fotograma": 364,
+"muestras": 1152,
+"seek": 777,
+"offset_bytes": 96512,
+"bytes": 208
+},
+{
+"fotograma": 365,
+"muestras": 2304,
+"seek": 1095,
+"offset_bytes": 96720,
+"bytes": 416
+},
+{
+"fotograma": 366,
+"muestras": 1152,
+"seek": 261,
+"offset_bytes": 97136,
+"bytes": 208
+},
+{
+"fotograma": 367,
+"muestras": 1152,
+"seek": 579,
+"offset_bytes": 97344,
+"bytes": 208
+},
+{
+"fotograma": 368,
+"muestras": 2304,
+"seek": 897,
+"offset_bytes": 97552,
+"bytes": 416
+},
+{
+"fotograma": 369,
+"muestras": 1152,
+"seek": 63,
+"offset_bytes": 97968,
+"bytes": 208
+},
+{
+"fotograma": 370,
+"muestras": 1152,
+"seek": 381,
+"offset_bytes": 98176,
+"bytes": 208
+},
+{
+"fotograma": 371,
+"muestras": 1152,
+"seek": 699,
+"offset_bytes": 98384,
+"bytes": 208
+},
+{
+"fotograma": 372,
+"muestras": 2304,
+"seek": 1017,
+"offset_bytes": 98592,
+"bytes": 416
+},
+{
+"fotograma": 373,
+"muestras": 1152,
+"seek": 183,
+"offset_bytes": 99008,
+"bytes": 208
+},
+{
+"fotograma": 374,
+"muestras": 1152,
+"seek": 501,
+"offset_bytes": 99216,
+"bytes": 208
+},
+{
+"fotograma": 375,
+"muestras": 1152,
+"seek": 819,
+"offset_bytes": 99424,
+"bytes": 208
+},
+{
+"fotograma": 376,
+"muestras": 2304,
+"seek": 1137,
+"offset_bytes": 99632,
+"bytes": 416
+},
+{
+"fotograma": 377,
+"muestras": 1152,
+"seek": 303,
+"offset_bytes": 100048,
+"bytes": 208
+},
+{
+"fotograma": 378,
+"muestras": 1152,
+"seek": 621,
+"offset_bytes": 100256,
+"bytes": 208
+},
+{
+"fotograma": 379,
+"muestras": 2304,
+"seek": 939,
+"offset_bytes": 100464,
+"bytes": 416
+},
+{
+"fotograma": 380,
+"muestras": 1152,
+"seek": 105,
+"offset_bytes": 100880,
+"bytes": 208
+},
+{
+"fotograma": 381,
+"muestras": 1152,
+"seek": 423,
+"offset_bytes": 101088,
+"bytes": 208
+},
+{
+"fotograma": 382,
+"muestras": 1152,
+"seek": 741,
+"offset_bytes": 101296,
+"bytes": 208
+},
+{
+"fotograma": 383,
+"muestras": 2304,
+"seek": 1059,
+"offset_bytes": 101504,
+"bytes": 416
+},
+{
+"fotograma": 384,
+"muestras": 1152,
+"seek": 225,
+"offset_bytes": 101920,
+"bytes": 208
+},
+{
+"fotograma": 385,
+"muestras": 1152,
+"seek": 543,
+"offset_bytes": 102128,
+"bytes": 208
+},
+{
+"fotograma": 386,
+"muestras": 2304,
+"seek": 861,
+"offset_bytes": 102336,
+"bytes": 416
+},
+{
+"fotograma": 387,
+"muestras": 1152,
+"seek": 27,
+"offset_bytes": 102752,
+"bytes": 208
+},
+{
+"fotograma": 388,
+"muestras": 1152,
+"seek": 345,
+"offset_bytes": 102960,
+"bytes": 208
+},
+{
+"fotograma": 389,
+"muestras": 1152,
+"seek": 663,
+"offset_bytes": 103168,
+"bytes": 208
+},
+{
+"fotograma": 390,
+"muestras": 2304,
+"seek": 981,
+"offset_bytes": 103376,
+"bytes": 416
+},
+{
+"fotograma": 391,
+"muestras": 1152,
+"seek": 147,
+"offset_bytes": 103792,
+"bytes": 208
+},
+{
+"fotograma": 392,
+"muestras": 1152,
+"seek": 465,
+"offset_bytes": 104000,
+"bytes": 208
+},
+{
+"fotograma": 393,
+"muestras": 1152,
+"seek": 783,
+"offset_bytes": 104208,
+"bytes": 208
+},
+{
+"fotograma": 394,
+"muestras": 2304,
+"seek": 1101,
+"offset_bytes": 104416,
+"bytes": 416
+},
+{
+"fotograma": 395,
+"muestras": 1152,
+"seek": 267,
+"offset_bytes": 104832,
+"bytes": 208
+},
+{
+"fotograma": 396,
+"muestras": 1152,
+"seek": 585,
+"offset_bytes": 105040,
+"bytes": 208
+},
+{
+"fotograma": 397,
+"muestras": 2304,
+"seek": 903,
+"offset_bytes": 105248,
+"bytes": 416
+},
+{
+"fotograma": 398,
+"muestras": 1152,
+"seek": 69,
+"offset_bytes": 105664,
+"bytes": 208
+},
+{
+"fotograma": 399,
+"muestras": 1152,
+"seek": 387,
+"offset_bytes": 105872,
+"bytes": 208
+},
+{
+"fotograma": 400,
+"muestras": 1152,
+"seek": 705,
+"offset_bytes": 106080,
+"bytes": 208
+},
+{
+"fotograma": 401,
+"muestras": 2304,
+"seek": 1023,
+"offset_bytes": 106288,
+"bytes": 416
+},
+{
+"fotograma": 402,
+"muestras": 1152,
+"seek": 189,
+"offset_bytes": 106704,
+"bytes": 208
+},
+{
+"fotograma": 403,
+"muestras": 1152,
+"seek": 507,
+"offset_bytes": 106912,
+"bytes": 208
+},
+{
+"fotograma": 404,
+"muestras": 1152,
+"seek": 825,
+"offset_bytes": 107120,
+"bytes": 208
+},
+{
+"fotograma": 405,
+"muestras": 2304,
+"seek": 1143,
+"offset_bytes": 107328,
+"bytes": 416
+},
+{
+"fotograma": 406,
+"muestras": 1152,
+"seek": 309,
+"offset_bytes": 107744,
+"bytes": 208
+},
+{
+"fotograma": 407,
+"muestras": 1152,
+"seek": 627,
+"offset_bytes": 107952,
+"bytes": 208
+},
+{
+"fotograma": 408,
+"muestras": 2304,
+"seek": 945,
+"offset_bytes": 108160,
+"bytes": 416
+},
+{
+"fotograma": 409,
+"muestras": 1152,
+"seek": 111,
+"offset_bytes": 108576,
+"bytes": 208
+},
+{
+"fotograma": 410,
+"muestras": 1152,
+"seek": 429,
+"offset_bytes": 108784,
+"bytes": 208
+},
+{
+"fotograma": 411,
+"muestras": 1152,
+"seek": 747,
+"offset_bytes": 108992,
+"bytes": 208
+},
+{
+"fotograma": 412,
+"muestras": 2304,
+"seek": 1065,
+"offset_bytes": 109200,
+"bytes": 416
+},
+{
+"fotograma": 413,
+"muestras": 1152,
+"seek": 231,
+"offset_bytes": 109616,
+"bytes": 208
+},
+{
+"fotograma": 414,
+"muestras": 1152,
+"seek": 549,
+"offset_bytes": 109824,
+"bytes": 208
+},
+{
+"fotograma": 415,
+"muestras": 2304,
+"seek": 867,
+"offset_bytes": 110032,
+"bytes": 416
+},
+{
+"fotograma": 416,
+"muestras": 1152,
+"seek": 33,
+"offset_bytes": 110448,
+"bytes": 208
+},
+{
+"fotograma": 417,
+"muestras": 1152,
+"seek": 351,
+"offset_bytes": 110656,
+"bytes": 208
+},
+{
+"fotograma": 418,
+"muestras": 1152,
+"seek": 669,
+"offset_bytes": 110864,
+"bytes": 208
+},
+{
+"fotograma": 419,
+"muestras": 2304,
+"seek": 987,
+"offset_bytes": 111072,
+"bytes": 416
+},
+{
+"fotograma": 420,
+"muestras": 1152,
+"seek": 153,
+"offset_bytes": 111488,
+"bytes": 208
+},
+{
+"fotograma": 421,
+"muestras": 1152,
+"seek": 471,
+"offset_bytes": 111696,
+"bytes": 208
+},
+{
+"fotograma": 422,
+"muestras": 1152,
+"seek": 789,
+"offset_bytes": 111904,
+"bytes": 208
+},
+{
+"fotograma": 423,
+"muestras": 2304,
+"seek": 1107,
+"offset_bytes": 112112,
+"bytes": 416
+},
+{
+"fotograma": 424,
+"muestras": 1152,
+"seek": 273,
+"offset_bytes": 112528,
+"bytes": 208
+},
+{
+"fotograma": 425,
+"muestras": 1152,
+"seek": 591,
+"offset_bytes": 112736,
+"bytes": 208
+},
+{
+"fotograma": 426,
+"muestras": 2304,
+"seek": 909,
+"offset_bytes": 112944,
+"bytes": 416
+},
+{
+"fotograma": 427,
+"muestras": 1152,
+"seek": 75,
+"offset_bytes": 113360,
+"bytes": 208
+},
+{
+"fotograma": 428,
+"muestras": 1152,
+"seek": 393,
+"offset_bytes": 113568,
+"bytes": 208
+},
+{
+"fotograma": 429,
+"muestras": 1152,
+"seek": 711,
+"offset_bytes": 113776,
+"bytes": 208
+},
+{
+"fotograma": 430,
+"muestras": 2304,
+"seek": 1029,
+"offset_bytes": 113984,
+"bytes": 416
+},
+{
+"fotograma": 431,
+"muestras": 1152,
+"seek": 195,
+"offset_bytes": 114400,
+"bytes": 208
+},
+{
+"fotograma": 432,
+"muestras": 1152,
+"seek": 513,
+"offset_bytes": 114608,
+"bytes": 208
+},
+{
+"fotograma": 433,
+"muestras": 1152,
+"seek": 831,
+"offset_bytes": 114816,
+"bytes": 208
+},
+{
+"fotograma": 434,
+"muestras": 2304,
+"seek": 1149,
+"offset_bytes": 115024,
+"bytes": 416
+},
+{
+"fotograma": 435,
+"muestras": 1152,
+"seek": 315,
+"offset_bytes": 115440,
+"bytes": 208
+},
+{
+"fotograma": 436,
+"muestras": 1152,
+"seek": 633,
+"offset_bytes": 115648,
+"bytes": 208
+},
+{
+"fotograma": 437,
+"muestras": 2304,
+"seek": 951,
+"offset_bytes": 115856,
+"bytes": 416
+},
+{
+"fotograma": 438,
+"muestras": 1152,
+"seek": 117,
+"offset_bytes": 116272,
+"bytes": 208
+},
+{
+"fotograma": 439,
+"muestras": 1152,
+"seek": 435,
+"offset_bytes": 116480,
+"bytes": 208
+},
+{
+"fotograma": 440,
+"muestras": 1152,
+"seek": 753,
+"offset_bytes": 116688,
+"bytes": 208
+},
+{
+"fotograma": 441,
+"muestras": 2304,
+"seek": 1071,
+"offset_bytes": 116896,
+"bytes": 416
+},
+{
+"fotograma": 442,
+"muestras": 1152,
+"seek": 237,
+"offset_bytes": 117312,
+"bytes": 208
+},
+{
+"fotograma": 443,
+"muestras": 1152,
+"seek": 555,
+"offset_bytes": 117520,
+"bytes": 208
+},
+{
+"fotograma": 444,
+"muestras": 2304,
+"seek": 873,
+"offset_bytes": 117728,
+"bytes": 416
+},
+{
+"fotograma": 445,
+"muestras": 1152,
+"seek": 39,
+"offset_bytes": 118144,
+"bytes": 208
+},
+{
+"fotograma": 446,
+"muestras": 1152,
+"seek": 357,
+"offset_bytes": 118352,
+"bytes": 208
+},
+{
+"fotograma": 447,
+"muestras": 1152,
+"seek": 675,
+"offset_bytes": 118560,
+"bytes": 208
+},
+{
+"fotograma": 448,
+"muestras": 2304,
+"seek": 993,
+"offset_bytes": 118768,
+"bytes": 416
+},
+{
+"fotograma": 449,
+"muestras": 1152,
+"seek": 159,
+"offset_bytes": 119184,
+"bytes": 208
+},
+{
+"fotograma": 450,
+"muestras": 1152,
+"seek": 477,
+"offset_bytes": 119392,
+"bytes": 208
+},
+{
+"fotograma": 451,
+"muestras": 1152,
+"seek": 795,
+"offset_bytes": 119600,
+"bytes": 208
+},
+{
+"fotograma": 452,
+"muestras": 2304,
+"seek": 1113,
+"offset_bytes": 119808,
+"bytes": 416
+},
+{
+"fotograma": 453,
+"muestras": 1152,
+"seek": 279,
+"offset_bytes": 120224,
+"bytes": 208
+},
+{
+"fotograma": 454,
+"muestras": 1152,
+"seek": 597,
+"offset_bytes": 120432,
+"bytes": 208
+},
+{
+"fotograma": 455,
+"muestras": 2304,
+"seek": 915,
+"offset_bytes": 120640,
+"bytes": 416
+},
+{
+"fotograma": 456,
+"muestras": 1152,
+"seek": 81,
+"offset_bytes": 121056,
+"bytes": 208
+},
+{
+"fotograma": 457,
+"muestras": 1152,
+"seek": 399,
+"offset_bytes": 121264,
+"bytes": 208
+},
+{
+"fotograma": 458,
+"muestras": 1152,
+"seek": 717,
+"offset_bytes": 121472,
+"bytes": 208
+},
+{
+"fotograma": 459,
+"muestras": 2304,
+"seek": 1035,
+"offset_bytes": 121680,
+"bytes": 416
+},
+{
+"fotograma": 460,
+"muestras": 1152,
+"seek": 201,
+"offset_bytes": 122096,
+"bytes": 208
+},
+{
+"fotograma": 461,
+"muestras": 1152,
+"seek": 519,
+"offset_bytes": 122304,
+"bytes": 208
+},
+{
+"fotograma": 462,
+"muestras": 2304,
+"seek": 837,
+"offset_bytes": 122512,
+"bytes": 416
+},
+{
+"fotograma": 463,
+"muestras": 1152,
+"seek": 3,
+"offset_bytes": 122928,
+"bytes": 208
+},
+{
+"fotograma": 464,
+"muestras": 1152,
+"seek": 321,
+"offset_bytes": 123136,
+"bytes": 208
+},
+{
+"fotograma": 465,
+"muestras": 1152,
+"seek": 639,
+"offset_bytes": 123344,
+"bytes": 208
+},
+{
+"fotograma": 466,
+"muestras": 2304,
+"seek": 957,
+"offset_bytes": 123552,
+"bytes": 416
+},
+{
+"fotograma": 467,
+"muestras": 1152,
+"seek": 123,
+"offset_bytes": 123968,
+"bytes": 208
+},
+{
+"fotograma": 468,
+"muestras": 1152,
+"seek": 441,
+"offset_bytes": 124176,
+"bytes": 208
+},
+{
+"fotograma": 469,
+"muestras": 1152,
+"seek": 759,
+"offset_bytes": 124384,
+"bytes": 208
+},
+{
+"fotograma": 470,
+"muestras": 2304,
+"seek": 1077,
+"offset_bytes": 124592,
+"bytes": 416
+},
+{
+"fotograma": 471,
+"muestras": 1152,
+"seek": 243,
+"offset_bytes": 125008,
+"bytes": 208
+},
+{
+"fotograma": 472,
+"muestras": 1152,
+"seek": 561,
+"offset_bytes": 125216,
+"bytes": 208
+},
+{
+"fotograma": 473,
+"muestras": 2304,
+"seek": 879,
+"offset_bytes": 125424,
+"bytes": 416
+},
+{
+"fotograma": 474,
+"muestras": 1152,
+"seek": 45,
+"offset_bytes": 125840,
+"bytes": 208
+},
+{
+"fotograma": 475,
+"muestras": 1152,
+"seek": 363,
+"offset_bytes": 126048,
+"bytes": 208
+},
+{
+"fotograma": 476,
+"muestras": 1152,
+"seek": 681,
+"offset_bytes": 126256,
+"bytes": 208
+},
+{
+"fotograma": 477,
+"muestras": 2304,
+"seek": 999,
+"offset_bytes": 126464,
+"bytes": 416
+},
+{
+"fotograma": 478,
+"muestras": 1152,
+"seek": 165,
+"offset_bytes": 126880,
+"bytes": 208
+},
+{
+"fotograma": 479,
+"muestras": 1152,
+"seek": 483,
+"offset_bytes": 127088,
+"bytes": 208
+},
+{
+"fotograma": 480,
+"muestras": 1152,
+"seek": 801,
+"offset_bytes": 127296,
+"bytes": 208
+},
+{
+"fotograma": 481,
+"muestras": 2304,
+"seek": 1119,
+"offset_bytes": 127504,
+"bytes": 416
+},
+{
+"fotograma": 482,
+"muestras": 1152,
+"seek": 285,
+"offset_bytes": 127920,
+"bytes": 208
+},
+{
+"fotograma": 483,
+"muestras": 1152,
+"seek": 603,
+"offset_bytes": 128128,
+"bytes": 208
+},
+{
+"fotograma": 484,
+"muestras": 2304,
+"seek": 921,
+"offset_bytes": 128336,
+"bytes": 416
+},
+{
+"fotograma": 485,
+"muestras": 1152,
+"seek": 87,
+"offset_bytes": 128752,
+"bytes": 208
+},
+{
+"fotograma": 486,
+"muestras": 1152,
+"seek": 405,
+"offset_bytes": 128960,
+"bytes": 208
+},
+{
+"fotograma": 487,
+"muestras": 1152,
+"seek": 723,
+"offset_bytes": 129168,
+"bytes": 208
+},
+{
+"fotograma": 488,
+"muestras": 2304,
+"seek": 1041,
+"offset_bytes": 129376,
+"bytes": 416
+},
+{
+"fotograma": 489,
+"muestras": 1152,
+"seek": 207,
+"offset_bytes": 129792,
+"bytes": 208
+},
+{
+"fotograma": 490,
+"muestras": 1152,
+"seek": 525,
+"offset_bytes": 130000,
+"bytes": 208
+},
+{
+"fotograma": 491,
+"muestras": 2304,
+"seek": 843,
+"offset_bytes": 130208,
+"bytes": 416
+},
+{
+"fotograma": 492,
+"muestras": 1152,
+"seek": 9,
+"offset_bytes": 130624,
+"bytes": 208
+},
+{
+"fotograma": 493,
+"muestras": 1152,
+"seek": 327,
+"offset_bytes": 130832,
+"bytes": 208
+},
+{
+"fotograma": 494,
+"muestras": 1152,
+"seek": 645,
+"offset_bytes": 131040,
+"bytes": 208
+},
+{
+"fotograma": 495,
+"muestras": 2304,
+"seek": 963,
+"offset_bytes": 131248,
+"bytes": 416
+},
+{
+"fotograma": 496,
+"muestras": 1152,
+"seek": 129,
+"offset_bytes": 131664,
+"bytes": 208
+},
+{
+"fotograma": 497,
+"muestras": 1152,
+"seek": 447,
+"offset_bytes": 131872,
+"bytes": 208
+},
+{
+"fotograma": 498,
+"muestras": 1152,
+"seek": 765,
+"offset_bytes": 132080,
+"bytes": 208
+},
+{
+"fotograma": 499,
+"muestras": 2304,
+"seek": 1083,
+"offset_bytes": 132288,
+"bytes": 416
+},
+{
+"fotograma": 500,
+"muestras": 1152,
+"seek": 249,
+"offset_bytes": 132704,
+"bytes": 208
+},
+{
+"fotograma": 501,
+"muestras": 1152,
+"seek": 567,
+"offset_bytes": 132912,
+"bytes": 208
+},
+{
+"fotograma": 502,
+"muestras": 2304,
+"seek": 885,
+"offset_bytes": 133120,
+"bytes": 416
+},
+{
+"fotograma": 503,
+"muestras": 1152,
+"seek": 51,
+"offset_bytes": 133536,
+"bytes": 208
+},
+{
+"fotograma": 504,
+"muestras": 1152,
+"seek": 369,
+"offset_bytes": 133744,
+"bytes": 208
+},
+{
+"fotograma": 505,
+"muestras": 1152,
+"seek": 687,
+"offset_bytes": 133952,
+"bytes": 208
+},
+{
+"fotograma": 506,
+"muestras": 2304,
+"seek": 1005,
+"offset_bytes": 134160,
+"bytes": 416
+},
+{
+"fotograma": 507,
+"muestras": 1152,
+"seek": 171,
+"offset_bytes": 134576,
+"bytes": 208
+},
+{
+"fotograma": 508,
+"muestras": 1152,
+"seek": 489,
+"offset_bytes": 134784,
+"bytes": 208
+},
+{
+"fotograma": 509,
+"muestras": 1152,
+"seek": 807,
+"offset_bytes": 134992,
+"bytes": 208
+},
+{
+"fotograma": 510,
+"muestras": 2304,
+"seek": 1125,
+"offset_bytes": 135200,
+"bytes": 416
+},
+{
+"fotograma": 511,
+"muestras": 1152,
+"seek": 291,
+"offset_bytes": 135616,
+"bytes": 208
+},
+{
+"fotograma": 512,
+"muestras": 1152,
+"seek": 609,
+"offset_bytes": 135824,
+"bytes": 208
+},
+{
+"fotograma": 513,
+"muestras": 2304,
+"seek": 927,
+"offset_bytes": 136032,
+"bytes": 416
+},
+{
+"fotograma": 514,
+"muestras": 1152,
+"seek": 93,
+"offset_bytes": 136448,
+"bytes": 208
+},
+{
+"fotograma": 515,
+"muestras": 1152,
+"seek": 411,
+"offset_bytes": 136656,
+"bytes": 208
+},
+{
+"fotograma": 516,
+"muestras": 1152,
+"seek": 729,
+"offset_bytes": 136864,
+"bytes": 208
+},
+{
+"fotograma": 517,
+"muestras": 2304,
+"seek": 1047,
+"offset_bytes": 137072,
+"bytes": 416
+},
+{
+"fotograma": 518,
+"muestras": 1152,
+"seek": 213,
+"offset_bytes": 137488,
+"bytes": 208
+},
+{
+"fotograma": 519,
+"muestras": 1152,
+"seek": 531,
+"offset_bytes": 137696,
+"bytes": 208
+},
+{
+"fotograma": 520,
+"muestras": 2304,
+"seek": 849,
+"offset_bytes": 137904,
+"bytes": 416
+},
+{
+"fotograma": 521,
+"muestras": 1152,
+"seek": 15,
+"offset_bytes": 138320,
+"bytes": 208
+},
+{
+"fotograma": 522,
+"muestras": 1152,
+"seek": 333,
+"offset_bytes": 138528,
+"bytes": 208
+},
+{
+"fotograma": 523,
+"muestras": 1152,
+"seek": 651,
+"offset_bytes": 138736,
+"bytes": 208
+},
+{
+"fotograma": 524,
+"muestras": 2304,
+"seek": 969,
+"offset_bytes": 138944,
+"bytes": 416
+},
+{
+"fotograma": 525,
+"muestras": 1152,
+"seek": 135,
+"offset_bytes": 139360,
+"bytes": 208
+},
+{
+"fotograma": 526,
+"muestras": 1152,
+"seek": 453,
+"offset_bytes": 139568,
+"bytes": 208
+},
+{
+"fotograma": 527,
+"muestras": 1152,
+"seek": 771,
+"offset_bytes": 139776,
+"bytes": 208
+},
+{
+"fotograma": 528,
+"muestras": 2304,
+"seek": 1089,
+"offset_bytes": 139984,
+"bytes": 416
+},
+{
+"fotograma": 529,
+"muestras": 1152,
+"seek": 255,
+"offset_bytes": 140400,
+"bytes": 208
+},
+{
+"fotograma": 530,
+"muestras": 1152,
+"seek": 573,
+"offset_bytes": 140608,
+"bytes": 208
+},
+{
+"fotograma": 531,
+"muestras": 2304,
+"seek": 891,
+"offset_bytes": 140816,
+"bytes": 416
+},
+{
+"fotograma": 532,
+"muestras": 1152,
+"seek": 57,
+"offset_bytes": 141232,
+"bytes": 208
+},
+{
+"fotograma": 533,
+"muestras": 1152,
+"seek": 375,
+"offset_bytes": 141440,
+"bytes": 208
+},
+{
+"fotograma": 534,
+"muestras": 1152,
+"seek": 693,
+"offset_bytes": 141648,
+"bytes": 208
+},
+{
+"fotograma": 535,
+"muestras": 2304,
+"seek": 1011,
+"offset_bytes": 141856,
+"bytes": 416
+},
+{
+"fotograma": 536,
+"muestras": 1152,
+"seek": 177,
+"offset_bytes": 142272,
+"bytes": 208
+},
+{
+"fotograma": 537,
+"muestras": 1152,
+"seek": 495,
+"offset_bytes": 142480,
+"bytes": 208
+},
+{
+"fotograma": 538,
+"muestras": 1152,
+"seek": 813,
+"offset_bytes": 142688,
+"bytes": 208
+},
+{
+"fotograma": 539,
+"muestras": 2304,
+"seek": 1131,
+"offset_bytes": 142896,
+"bytes": 416
+},
+{
+"fotograma": 540,
+"muestras": 1152,
+"seek": 297,
+"offset_bytes": 143312,
+"bytes": 208
+},
+{
+"fotograma": 541,
+"muestras": 1152,
+"seek": 615,
+"offset_bytes": 143520,
+"bytes": 208
+},
+{
+"fotograma": 542,
+"muestras": 2304,
+"seek": 933,
+"offset_bytes": 143728,
+"bytes": 416
+},
+{
+"fotograma": 543,
+"muestras": 1152,
+"seek": 99,
+"offset_bytes": 144144,
+"bytes": 208
+},
+{
+"fotograma": 544,
+"muestras": 1152,
+"seek": 417,
+"offset_bytes": 144352,
+"bytes": 208
+},
+{
+"fotograma": 545,
+"muestras": 1152,
+"seek": 735,
+"offset_bytes": 144560,
+"bytes": 208
+},
+{
+"fotograma": 546,
+"muestras": 2304,
+"seek": 1053,
+"offset_bytes": 144768,
+"bytes": 416
+},
+{
+"fotograma": 547,
+"muestras": 1152,
+"seek": 219,
+"offset_bytes": 145184,
+"bytes": 208
+},
+{
+"fotograma": 548,
+"muestras": 1152,
+"seek": 537,
+"offset_bytes": 145392,
+"bytes": 208
+},
+{
+"fotograma": 549,
+"muestras": 2304,
+"seek": 855,
+"offset_bytes": 145600,
+"bytes": 416
+},
+{
+"fotograma": 550,
+"muestras": 1152,
+"seek": 21,
+"offset_bytes": 146016,
+"bytes": 208
+},
+{
+"fotograma": 551,
+"muestras": 1152,
+"seek": 339,
+"offset_bytes": 146224,
+"bytes": 208
+},
+{
+"fotograma": 552,
+"muestras": 1152,
+"seek": 657,
+"offset_bytes": 146432,
+"bytes": 208
+},
+{
+"fotograma": 553,
+"muestras": 2304,
+"seek": 975,
+"offset_bytes": 146640,
+"bytes": 416
+},
+{
+"fotograma": 554,
+"muestras": 1152,
+"seek": 141,
+"offset_bytes": 147056,
+"bytes": 208
+},
+{
+"fotograma": 555,
+"muestras": 1152,
+"seek": 459,
+"offset_bytes": 147264,
+"bytes": 208
+},
+{
+"fotograma": 556,
+"muestras": 1152,
+"seek": 777,
+"offset_bytes": 147472,
+"bytes": 208
+},
+{
+"fotograma": 557,
+"muestras": 2304,
+"seek": 1095,
+"offset_bytes": 147680,
+"bytes": 416
+},
+{
+"fotograma": 558,
+"muestras": 1152,
+"seek": 261,
+"offset_bytes": 148096,
+"bytes": 208
+},
+{
+"fotograma": 559,
+"muestras": 1152,
+"seek": 579,
+"offset_bytes": 148304,
+"bytes": 208
+},
+{
+"fotograma": 560,
+"muestras": 2304,
+"seek": 897,
+"offset_bytes": 148512,
+"bytes": 416
+},
+{
+"fotograma": 561,
+"muestras": 1152,
+"seek": 63,
+"offset_bytes": 148928,
+"bytes": 208
+},
+{
+"fotograma": 562,
+"muestras": 1152,
+"seek": 381,
+"offset_bytes": 149136,
+"bytes": 208
+},
+{
+"fotograma": 563,
+"muestras": 1152,
+"seek": 699,
+"offset_bytes": 149344,
+"bytes": 208
+},
+{
+"fotograma": 564,
+"muestras": 2304,
+"seek": 1017,
+"offset_bytes": 149552,
+"bytes": 416
+},
+{
+"fotograma": 565,
+"muestras": 1152,
+"seek": 183,
+"offset_bytes": 149968,
+"bytes": 208
+},
+{
+"fotograma": 566,
+"muestras": 1152,
+"seek": 501,
+"offset_bytes": 150176,
+"bytes": 208
+},
+{
+"fotograma": 567,
+"muestras": 1152,
+"seek": 819,
+"offset_bytes": 150384,
+"bytes": 208
+},
+{
+"fotograma": 568,
+"muestras": 2304,
+"seek": 1137,
+"offset_bytes": 150592,
+"bytes": 416
+},
+{
+"fotograma": 569,
+"muestras": 1152,
+"seek": 303,
+"offset_bytes": 151008,
+"bytes": 208
+},
+{
+"fotograma": 570,
+"muestras": 1152,
+"seek": 621,
+"offset_bytes": 151216,
+"bytes": 208
+},
+{
+"fotograma": 571,
+"muestras": 2304,
+"seek": 939,
+"offset_bytes": 151424,
+"bytes": 416
+},
+{
+"fotograma": 572,
+"muestras": 1152,
+"seek": 105,
+"offset_bytes": 151840,
+"bytes": 208
+},
+{
+"fotograma": 573,
+"muestras": 1152,
+"seek": 423,
+"offset_bytes": 152048,
+"bytes": 208
+},
+{
+"fotograma": 574,
+"muestras": 1152,
+"seek": 741,
+"offset_bytes": 152256,
+"bytes": 208
+},
+{
+"fotograma": 575,
+"muestras": 2304,
+"seek": 1059,
+"offset_bytes": 152464,
+"bytes": 416
+},
+{
+"fotograma": 576,
+"muestras": 1152,
+"seek": 225,
+"offset_bytes": 152880,
+"bytes": 208
+},
+{
+"fotograma": 577,
+"muestras": 1152,
+"seek": 543,
+"offset_bytes": 153088,
+"bytes": 208
+},
+{
+"fotograma": 578,
+"muestras": 2304,
+"seek": 861,
+"offset_bytes": 153296,
+"bytes": 416
+},
+{
+"fotograma": 579,
+"muestras": 1152,
+"seek": 27,
+"offset_bytes": 153712,
+"bytes": 208
+},
+{
+"fotograma": 580,
+"muestras": 1152,
+"seek": 345,
+"offset_bytes": 153920,
+"bytes": 208
+},
+{
+"fotograma": 581,
+"muestras": 1152,
+"seek": 663,
+"offset_bytes": 154128,
+"bytes": 208
+},
+{
+"fotograma": 582,
+"muestras": 2304,
+"seek": 981,
+"offset_bytes": 154336,
+"bytes": 416
+},
+{
+"fotograma": 583,
+"muestras": 1152,
+"seek": 147,
+"offset_bytes": 154752,
+"bytes": 208
+},
+{
+"fotograma": 584,
+"muestras": 1152,
+"seek": 465,
+"offset_bytes": 154960,
+"bytes": 208
+},
+{
+"fotograma": 585,
+"muestras": 1152,
+"seek": 783,
+"offset_bytes": 155168,
+"bytes": 208
+},
+{
+"fotograma": 586,
+"muestras": 2304,
+"seek": 1101,
+"offset_bytes": 155376,
+"bytes": 416
+},
+{
+"fotograma": 587,
+"muestras": 1152,
+"seek": 267,
+"offset_bytes": 155792,
+"bytes": 208
+},
+{
+"fotograma": 588,
+"muestras": 1152,
+"seek": 585,
+"offset_bytes": 156000,
+"bytes": 208
+},
+{
+"fotograma": 589,
+"muestras": 2304,
+"seek": 903,
+"offset_bytes": 156208,
+"bytes": 416
+},
+{
+"fotograma": 590,
+"muestras": 1152,
+"seek": 69,
+"offset_bytes": 156624,
+"bytes": 208
+},
+{
+"fotograma": 591,
+"muestras": 1152,
+"seek": 387,
+"offset_bytes": 156832,
+"bytes": 208
+},
+{
+"fotograma": 592,
+"muestras": 1152,
+"seek": 705,
+"offset_bytes": 157040,
+"bytes": 208
+},
+{
+"fotograma": 593,
+"muestras": 2304,
+"seek": 1023,
+"offset_bytes": 157248,
+"bytes": 416
+},
+{
+"fotograma": 594,
+"muestras": 1152,
+"seek": 189,
+"offset_bytes": 157664,
+"bytes": 208
+},
+{
+"fotograma": 595,
+"muestras": 1152,
+"seek": 507,
+"offset_bytes": 157872,
+"bytes": 208
+},
+{
+"fotograma": 596,
+"muestras": 1152,
+"seek": 825,
+"offset_bytes": 158080,
+"bytes": 208
+},
+{
+"fotograma": 597,
+"muestras": 2304,
+"seek": 1143,
+"offset_bytes": 158288,
+"bytes": 416
+},
+{
+"fotograma": 598,
+"muestras": 1152,
+"seek": 309,
+"offset_bytes": 158704,
+"bytes": 208
+},
+{
+"fotograma": 599,
+"muestras": 1152,
+"seek": 627,
+"offset_bytes": 158912,
+"bytes": 208
+},
+{
+"fotograma": 600,
+"muestras": 2304,
+"seek": 945,
+"offset_bytes": 159120,
+"bytes": 416
+},
+{
+"fotograma": 601,
+"muestras": 1152,
+"seek": 111,
+"offset_bytes": 159536,
+"bytes": 208
+},
+{
+"fotograma": 602,
+"muestras": 1152,
+"seek": 429,
+"offset_bytes": 159744,
+"bytes": 208
+},
+{
+"fotograma": 603,
+"muestras": 1152,
+"seek": 747,
+"offset_bytes": 159952,
+"bytes": 208
+},
+{
+"fotograma": 604,
+"muestras": 2304,
+"seek": 1065,
+"offset_bytes": 160160,
+"bytes": 416
+},
+{
+"fotograma": 605,
+"muestras": 1152,
+"seek": 231,
+"offset_bytes": 160576,
+"bytes": 208
+},
+{
+"fotograma": 606,
+"muestras": 1152,
+"seek": 549,
+"offset_bytes": 160784,
+"bytes": 208
+},
+{
+"fotograma": 607,
+"muestras": 2304,
+"seek": 867,
+"offset_bytes": 160992,
+"bytes": 416
+},
+{
+"fotograma": 608,
+"muestras": 1152,
+"seek": 33,
+"offset_bytes": 161408,
+"bytes": 208
+},
+{
+"fotograma": 609,
+"muestras": 1152,
+"seek": 351,
+"offset_bytes": 161616,
+"bytes": 208
+},
+{
+"fotograma": 610,
+"muestras": 1152,
+"seek": 669,
+"offset_bytes": 161824,
+"bytes": 208
+},
+{
+"fotograma": 611,
+"muestras": 2304,
+"seek": 987,
+"offset_bytes": 162032,
+"bytes": 416
+},
+{
+"fotograma": 612,
+"muestras": 1152,
+"seek": 153,
+"offset_bytes": 162448,
+"bytes": 208
+},
+{
+"fotograma": 613,
+"muestras": 1152,
+"seek": 471,
+"offset_bytes": 162656,
+"bytes": 208
+},
+{
+"fotograma": 614,
+"muestras": 1152,
+"seek": 789,
+"offset_bytes": 162864,
+"bytes": 208
+},
+{
+"fotograma": 615,
+"muestras": 2304,
+"seek": 1107,
+"offset_bytes": 163072,
+"bytes": 416
+},
+{
+"fotograma": 616,
+"muestras": 1152,
+"seek": 273,
+"offset_bytes": 163488,
+"bytes": 208
+},
+{
+"fotograma": 617,
+"muestras": 1152,
+"seek": 591,
+"offset_bytes": 163696,
+"bytes": 208
+},
+{
+"fotograma": 618,
+"muestras": 2304,
+"seek": 909,
+"offset_bytes": 163904,
+"bytes": 416
+},
+{
+"fotograma": 619,
+"muestras": 1152,
+"seek": 75,
+"offset_bytes": 164320,
+"bytes": 208
+},
+{
+"fotograma": 620,
+"muestras": 1152,
+"seek": 393,
+"offset_bytes": 164528,
+"bytes": 208
+},
+{
+"fotograma": 621,
+"muestras": 1152,
+"seek": 711,
+"offset_bytes": 164736,
+"bytes": 208
+}
+]
+}

@@ -1,0 +1,21 @@
+[
+xmin 760
+ymin 40
+xmax 2260
+ymax 260
+translatex 760
+][
+font 2470
+height 240
+letterspacing -32
+color #000000
+y 220
+spacing "r" 3
+spacingpair "A" "r" 21
+spacingpair "o" "r" 30
+spacingpair " " "G" 30
+spacingpair "G" "a" 35
+spacingpair "a" "m" 40
+spacingpair "e" "s" 42
+spacingpair "s" "" 40
+]Armor Games

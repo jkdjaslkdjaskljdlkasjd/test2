@@ -1,0 +1,18 @@
+[
+xmin -40
+ymin -40
+xmax 5430
+ymax 400
+readonly 1
+noselect 1
+useoutlines 1
+font 2778
+height 180
+color #ff999999
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "say"
+]< Team Member Inactive >

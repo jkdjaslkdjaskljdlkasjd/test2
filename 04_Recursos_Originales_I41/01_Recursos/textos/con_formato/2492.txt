@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 12972
+ymax 671
+readonly 1
+noselect 1
+font 1987
+height 360
+color #ff99ffff
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "whatToSay"
+]rhttner

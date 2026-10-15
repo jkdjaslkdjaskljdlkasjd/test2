@@ -1,0 +1,19 @@
+[
+xmin -191
+ymin -40
+xmax 2536
+ymax 1906
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 1987
+height 720
+color #ffffffff
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="center"><font face="_sans" size="36" color="#ffffff" letterSpacing="0.000000" kerning="0">OK!</font></p><p align="center"></p>

@@ -1,0 +1,17 @@
+[
+xmin -40
+ymin -40
+xmax 3242
+ymax 577
+readonly 1
+noselect 1
+font 1987
+height 320
+color #ff9dee66
+align right
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "tit_9"
+]GRAPHICS:

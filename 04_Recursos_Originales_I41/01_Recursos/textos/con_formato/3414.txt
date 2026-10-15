@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 11955
+ymax 420
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+font 1987
+height 340
+color #ff6c7dbd
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 160
+variablename "introText4"
+]...then the blind man dies.

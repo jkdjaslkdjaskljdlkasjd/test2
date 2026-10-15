@@ -1,0 +1,19 @@
+[
+xmin -40
+ymin -40
+xmax 5547
+ymax 350
+multiline 1
+readonly 1
+noselect 1
+wasstatic 1
+html 1
+font 1987
+height 240
+color #ff99ffff
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+]<p align="left"><font face="_sans" size="12" color="#99ffff" letterSpacing="0.000000" kerning="0">Copyright 2007-2024 ArmorGames Inc.</font></p>

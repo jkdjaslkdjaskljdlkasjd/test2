@@ -1,0 +1,15 @@
+[
+xmin -40
+ymin -40
+xmax 8452
+ymax 671
+font 1987
+height 520
+color #ffffcc00
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 40
+variablename "krinNameUser"
+]enter Name Here
