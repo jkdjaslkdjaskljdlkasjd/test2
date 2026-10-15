@@ -1,0 +1,57 @@
+SNOW-002 REVISION 4 — PRUEBA DE GUIAS
+ESTADO: PARCIAL. Prueba tecnica de marcadores y HUD aprobada;
+altura/planta del personaje vestido no certificadas.
+
+RECIBIDO
+Se extrajeron sin cambios los dos bloques del Markdown de Gemini:
+SnowBattleTest.gd y SnowBattleTest.tscn. Se utilizaron el extractor,
+JSON, SnowCamera.gd y cuatro texturas intactos de la revision 3.
+No se reemplazo el proyecto principal SNOW-001.
+
+PRUEBAS
+Godot 4.7.2: importacion correcta.
+36 casos con JSON y 36 sin JSON: 72 casos, 0 fallos.
+Se conservan 6 slots, 6 barras superiores y 9 piezas inferiores.
+Se comprobo seleccion F1-F6, ataques/zoom en 0.5 y 1.0, fin de
+efectos, sincronizacion de marcadores con suelo, cielo/HUD fijos,
+B para guias y procedencia de datos con y sin JSON.
+Render real OpenGL/llvmpipe: 4 capturas 2560x1440.
+Las seis barras no intersectan Panel, Help ni Status. El texto de
+ayuda tiene ancho minimo 1027px y cabe en su control de 1248px.
+Las seis lineas inferiores coinciden con yMin+h de su caja F1.
+Extractor, JSON, camera y capas cotejados por hash contra revision 3.
+
+ALCANCE Y LIMITACIONES
+Cruz amarilla: origen del slot. Linea azul/roja: base de la caja F1.
+Ninguna de ellas acredita la planta real de un personaje vestido.
+Gemini propone usar geometria F1 como guia y medir modelos despues.
+Eso es una propuesta de alcance; no certifica el requisito previo de
+altura real. La fase de unidades sigue sin implementar.
+H oculta todo el CanvasLayer HUD (guia incluida), aunque el texto
+lo llama Ayuda. B controla guias separadamente. No se cambio esto.
+Etiquetas inferiores ahora escalonadas; algunas se ven con poco
+contraste por la superposicion de paneles. Limitacion de diagnostico.
+El borde duplicado sutil heredado de SNOW-001 no fue corregido.
+Las capturas realizadas no certifican ausencia de halos en cada frame.
+No se avanzo a otras zonas ni se implemento combate.
+
+ARCHIVOS Y DEPENDENCIAS
+SnowBattleTest.gd/.tscn: nuevos archivos recibidos en carpeta aislada;
+requieren SnowCamera.gd, project.godot y las texturas originales.
+Copias .txt: identicas, para lectura de Gemini.
+SonnySnowTest_REVISION_4_AISLADA.zip: proyecto completo con JSON,
+extractor de revision 3, camera, assets y tests, sin cache de Godot.
+EVIDENCIAS_REVISION_4.zip: logs, capturas y bancos de prueba.
+
+WINDOWS
+Extraer el ZIP en una carpeta nueva. Godot 4.7.2 > Importar >
+seleccionar project.godot > F5. Python no es necesario para esta prueba.
+F1-F6 seleccionan slots; 1/2/3 zoom; C 0.5/1.0; S temblor;
+R reinicia; B oculta/muestra guias; Espacio pausa y N avanza un frame.
+Confirmar legibilidad, barras despejadas y guias pegadas al suelo
+mientras el HUD queda fijo. No comprobar pies reales con rectangulos.
+
+SIGUIENTE ACCION
+Prueba visual opcional en Windows antes de integrar. Mantener esta
+revision aislada hasta aceptar el alcance de guias y definir la
+medicion de altura/modelos como trabajo pendiente.

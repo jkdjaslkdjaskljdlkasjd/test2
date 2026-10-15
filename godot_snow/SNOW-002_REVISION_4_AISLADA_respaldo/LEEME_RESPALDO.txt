@@ -1,0 +1,4 @@
+Respaldo SIN MODIFICAR de SNOW-002 Revisión 4 (aislada), tomado del ZIP Sonny_Godot_HD
+recibido el 15-10-2026 (SonnySnowTest_REVISION_4_AISLADA.zip). SnowBattleTest.gd tiene el
+mismo SHA-256 que la copia suelta de la carpeta (19a41bd6...). No se pudo comprobar contra Drive
+(sin conector de Google Drive en esta sesión). Hashes de todos los archivos en SHA256_RESPALDO.txt.

@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://SnowBattleTest.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/SNOW_sky.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/SNOW_ground.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/SNOW_Z2_2.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/VILLAGE_Z2.jpg" id="5"]
+
+[node name="SnowBattleTest" type="Node2D"]
+texture_filter = 2
+script = ExtResource("1")
+
+[node name="SkyLayer" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+
+[node name="GroundLayer" type="Sprite2D" parent="."]
+texture = ExtResource("3")
+centered = false
+
+[node name="SlotsLayer" type="Node2D" parent="GroundLayer"]
+
+[node name="Original" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("4")
+centered = false
+
+[node name="Village" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("5")
+centered = false
+
+[node name="HUD" type="CanvasLayer" parent="." ]
+
+[node name="BattleHudGuide" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Panel" type="Panel" parent="HUD"]
+offset_left = 640.0
+offset_top = 16.0
+offset_right = 1920.0
+offset_bottom = 152.0
+mouse_filter = 2
+
+[node name="Help" type="Label" parent="HUD/Panel"]
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 1264.0
+offset_bottom = 128.0
+theme_override_font_sizes/font_size = 21
+text = "SNOW-002 | 1 Melee · 2 Missile · 3 Shock · S Temblor · R Reiniciar · F1..F6 Slots\nC HD/Clásico · O Original · V Mapa · G Solo suelo · Espacio Pausa · N Paso · H Ayuda · B Guías Slots/HUD\nClic izquierdo: objetivo de prueba (coordenadas locales SWF)"
+
+[node name="Status" type="Label" parent="HUD"]
+offset_left = 640.0
+offset_top = 158.0
+offset_right = 1920.0
+offset_bottom = 240.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1
+
