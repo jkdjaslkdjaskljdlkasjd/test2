@@ -1,0 +1,5006 @@
+{
+ "regla_slots": "players[k] -> slot player(k+2); >0 = KNU<n>; -2 = compañero 1 (friendArrayX[0]); -1 = compañero 2; 0 = vacío; player1 = Sonny. Impares = equipo del jugador, pares = enemigos (frame_42 l.1964-2135, l.13190-13202).",
+ "slots": {
+  "player5": {
+   "x_local": -179.1,
+   "y_local": -76.0,
+   "x_stage": 220.9,
+   "y_stage": 218.5,
+   "xscale": 1.0,
+   "equipo": "jugador"
+  },
+  "player6": {
+   "x_local": 177.9,
+   "y_local": -76.0,
+   "x_stage": 577.9,
+   "y_stage": 218.5,
+   "xscale": -1.0,
+   "equipo": "enemigo"
+  },
+  "player1": {
+   "x_local": -239.1,
+   "y_local": 2.9,
+   "x_stage": 160.9,
+   "y_stage": 297.4,
+   "xscale": 1.0,
+   "equipo": "jugador"
+  },
+  "player2": {
+   "x_local": 237.9,
+   "y_local": 2.9,
+   "x_stage": 637.9,
+   "y_stage": 297.4,
+   "xscale": -1.0,
+   "equipo": "enemigo"
+  },
+  "player3": {
+   "x_local": -179.1,
+   "y_local": 76.5,
+   "x_stage": 220.9,
+   "y_stage": 371.0,
+   "xscale": 1.0,
+   "equipo": "jugador"
+  },
+  "player4": {
+   "x_local": 177.9,
+   "y_local": 76.5,
+   "x_stage": 577.9,
+   "y_stage": 371.0,
+   "xscale": -1.0,
+   "equipo": "enemigo"
+  }
+ },
+ "combates": [
+  {
+   "combate": "KBR1",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR2",
+   "zona_hd": "SEA",
+   "ZoneBG": "WHITE NOVEMBER",
+   "SkyBG": "SEA",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Metabii",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP062_Hydro",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP062_Hydro/AP062_Hydro.tscn"
+    },
+    "player3": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "Louis the Blind",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP067_Louis_the_Blind",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP067_Louis_the_Blind/AP067_Louis_the_Blind.tscn"
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR50",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Warden",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP117_The_Warden",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP117_The_Warden/AP117_The_Warden.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR51",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Priest",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP086_Priest",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP086_Priest/AP086_Priest.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR52",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Terror",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP045_Frost_Terror",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP045_Frost_Terror/AP045_Frost_Terror.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR53",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Lord",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP044_Frost_Lord",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP044_Frost_Lord/AP044_Frost_Lord.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR54",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frankie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP043_Frankie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP043_Frankie/AP043_Frankie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Doctor Hedger",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP030_Doctor_Leath",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP030_Doctor_Leath/AP030_Doctor_Leath.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR55",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Twisted Experiment",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP120_Twisted_Experiment",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP120_Twisted_Experiment/AP120_Twisted_Experiment.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR100",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR101",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR102",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Brutal Convict",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP019_Brutal_Convict",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP019_Brutal_Convict/AP019_Brutal_Convict.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Agile Convict",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP005_Agile_Convict",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP005_Agile_Convict/AP005_Agile_Convict.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR103",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Cunning Convict",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP028_Cunning_Convict",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP028_Cunning_Convict/AP028_Cunning_Convict.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Agile Convict",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP005_Agile_Convict",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP005_Agile_Convict/AP005_Agile_Convict.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Brutal Convict",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP019_Brutal_Convict",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP019_Brutal_Convict/AP019_Brutal_Convict.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR104",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Doctor Leath",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP030_Doctor_Leath",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP030_Doctor_Leath/AP030_Doctor_Leath.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR105",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Twisted Experiment",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP120_Twisted_Experiment",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP120_Twisted_Experiment/AP120_Twisted_Experiment.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR106",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Warden",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP117_The_Warden",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP117_The_Warden/AP117_The_Warden.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR107",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frankie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP043_Frankie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP043_Frankie/AP043_Frankie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Doctor Hedger",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP030_Doctor_Leath",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP030_Doctor_Leath/AP030_Doctor_Leath.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR108",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR109",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Felicity",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP038_Felicity",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP038_Felicity/AP038_Felicity.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR200",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR201",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Roald",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP091_Roald",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP091_Roald/AP091_Roald.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Insurgent",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP063_Insurgent",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP063_Insurgent/AP063_Insurgent.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR202",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Terror",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP045_Frost_Terror",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP045_Frost_Terror/AP045_Frost_Terror.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR203",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR204",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Priest",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP086_Priest",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP086_Priest/AP086_Priest.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR205",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Lord",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP044_Frost_Lord",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP044_Frost_Lord/AP044_Frost_Lord.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR206",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Priest",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP086_Priest",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP086_Priest/AP086_Priest.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR207",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR208",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Cult Leader",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP027_Cult_Leader",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP027_Cult_Leader/AP027_Cult_Leader.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR209",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Baron Brixius",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP013_Baron_Brixius",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP013_Baron_Brixius/AP013_Baron_Brixius.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR210",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH2",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Priest",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP086_Priest",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP086_Priest/AP086_Priest.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR211",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Armored Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP008_Armored_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP008_Armored_Hound/AP008_Armored_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Armored Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP008_Armored_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP008_Armored_Hound/AP008_Armored_Hound.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR212",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Captain Hunt",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP022_Captain_Hunt",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP022_Captain_Hunt/AP022_Captain_Hunt.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "ZPCI Medic",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP144_ZPCI_Medic",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP144_ZPCI_Medic/AP144_ZPCI_Medic.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "ZPCI Sniper",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP145_ZPCI_Sniper",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP145_ZPCI_Sniper/AP145_ZPCI_Sniper.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR300",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR301",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR302",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR303",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Phantom",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP083_Phantom",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP083_Phantom/AP083_Phantom.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Beast",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP015_Beast",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP015_Beast/AP015_Beast.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Antagonist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP007_Antagonist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP007_Antagonist/AP007_Antagonist.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR304",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Hobo",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP112_The_Hobo",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP112_The_Hobo/AP112_The_Hobo.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR305",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Real Hobo",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP112_The_Hobo",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP112_The_Hobo/AP112_The_Hobo.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR306",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Host",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP113_The_Host",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP113_The_Host/AP113_The_Host.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR307",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR308",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Clemons The Deceiver",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP026_Clemons_The_Deceiver",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP026_Clemons_The_Deceiver/AP026_Clemons_The_Deceiver.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR400",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Tunnel Beast",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP118_Tunnel_Beast",
+     "model": "MODEL6",
+     "escena": "res://sonny_i41/personajes/AP118_Tunnel_Beast/AP118_Tunnel_Beast.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR401",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Vivian Vixen",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP132_Vivian_Vixen",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP132_Vivian_Vixen/AP132_Vivian_Vixen.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR402",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Gregor",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP057_Gregor",
+     "model": "MODEL7",
+     "escena": "res://sonny_i41/personajes/AP057_Gregor/AP057_Gregor.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR403",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Shunny",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR404",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Magical Monkey",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP116_The_Magical_Monkey",
+     "model": "MODEL6",
+     "escena": "res://sonny_i41/personajes/AP116_The_Magical_Monkey/AP116_The_Magical_Monkey.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR405",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Mokoshotar",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP073_Mokoshotar",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP073_Mokoshotar/AP073_Mokoshotar.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR406",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Bunny",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP020_Bunny",
+     "model": "MODEL7",
+     "escena": "res://sonny_i41/personajes/AP020_Bunny/AP020_Bunny.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR407",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Flower Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP042_Flower_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP042_Flower_Zombie/AP042_Flower_Zombie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR408",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Hydra",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP114_The_Hydra",
+     "model": "MODEL8",
+     "escena": "res://sonny_i41/personajes/AP114_The_Hydra/AP114_The_Hydra.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Fire Claw",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP041_Fire_Claw",
+     "model": "MODEL8",
+     "escena": "res://sonny_i41/personajes/AP041_Fire_Claw/AP041_Fire_Claw.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Fire Claw",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP041_Fire_Claw",
+     "model": "MODEL8",
+     "escena": "res://sonny_i41/personajes/AP041_Fire_Claw/AP041_Fire_Claw.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR409",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Tunnel Worker",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP119_Tunnel_Worker",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP119_Tunnel_Worker/AP119_Tunnel_Worker.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Tunnel Worker",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP119_Tunnel_Worker",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP119_Tunnel_Worker/AP119_Tunnel_Worker.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Tunnel Worker",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP119_Tunnel_Worker",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP119_Tunnel_Worker/AP119_Tunnel_Worker.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR500",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Riot Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR501",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Riot Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR502",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Secret Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP099_Secret_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP099_Secret_Police/AP099_Secret_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Secret Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP099_Secret_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP099_Secret_Police/AP099_Secret_Police.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR503",
+   "zona_hd": "STREETS2",
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Police Colonel",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP085_Police_Colonel",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP085_Police_Colonel/AP085_Police_Colonel.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR504",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Felicity",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP038_Felicity",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP038_Felicity/AP038_Felicity.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR505",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Care Taker",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP023_Care_Taker",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP023_Care_Taker/AP023_Care_Taker.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR506",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Riot Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Riot Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR507",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Specialist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP101_Specialist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP101_Specialist/AP101_Specialist.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR508",
+   "zona_hd": "STREETS3",
+   "ZoneBG": "STREETS3",
+   "SkyBG": "STREETS3",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Mayor",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP071_Mayor",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP071_Mayor/AP071_Mayor.tscn"
+    },
+    "player3": {
+     "nombre": "Felicity",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP038_Felicity",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP038_Felicity/AP038_Felicity.tscn"
+    },
+    "player4": {
+     "nombre": "ZPCI Ambassador",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player5": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR509",
+   "zona_hd": "STREETS2",
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "City Council",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP025_City_Council",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP025_City_Council/AP025_City_Council.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "City Council",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP025_City_Council",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP025_City_Council/AP025_City_Council.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR510",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Specialist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP101_Specialist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP101_Specialist/AP101_Specialist.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Secret Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP099_Secret_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP099_Secret_Police/AP099_Secret_Police.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR511",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Specialist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP101_Specialist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP101_Specialist/AP101_Specialist.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR512",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Secret Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP099_Secret_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP099_Secret_Police/AP099_Secret_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR513",
+   "zona_hd": "STREETS2",
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Mayor",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP071_Mayor",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP071_Mayor/AP071_Mayor.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Guardian Cannon",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP058_Guardian_Cannon",
+     "model": "MODEL8",
+     "escena": "res://sonny_i41/personajes/AP058_Guardian_Cannon/AP058_Guardian_Cannon.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR600",
+   "zona_hd": "ROME",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Metal Warden",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP072_Metal_Warden",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP072_Metal_Warden/AP072_Metal_Warden.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR601",
+   "zona_hd": "ROME",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Bomb",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP111_The_Bomb",
+     "model": "MODEL9",
+     "escena": "res://sonny_i41/personajes/AP111_The_Bomb/AP111_The_Bomb.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR602",
+   "zona_hd": "ROME",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Nostalgia",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP076_Nostalgia",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP076_Nostalgia/AP076_Nostalgia.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR603",
+   "zona_hd": "ROME",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Judge",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP115_The_Judge",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP115_The_Judge/AP115_The_Judge.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR700",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Doctor Klima",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP029_Doctor_Klima",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP029_Doctor_Klima/AP029_Doctor_Klima.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR701",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "South Guardian",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP075_North_Guardian",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP075_North_Guardian/AP075_North_Guardian.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "North Guardian",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP075_North_Guardian",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP075_North_Guardian/AP075_North_Guardian.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR702",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Yosuke",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP141_Yosuke",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP141_Yosuke/AP141_Yosuke.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR703",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Versu the Corruptor",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP131_Versu_the_Corruptor",
+     "model": "MODEL4",
+     "escena": "res://sonny_i41/personajes/AP131_Versu_the_Corruptor/AP131_Versu_the_Corruptor.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Orb of Restraint",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP077_Orb_of_Restraint",
+     "model": "MODEL2",
+     "escena": "res://sonny_i41/personajes/AP077_Orb_of_Restraint/AP077_Orb_of_Restraint.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Orb of Sanctuary",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP077_Orb_of_Restraint",
+     "model": "MODEL2",
+     "escena": "res://sonny_i41/personajes/AP077_Orb_of_Restraint/AP077_Orb_of_Restraint.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1000",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Prison Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP087_Prison_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP087_Prison_Guard/AP087_Prison_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1001",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Twisted Experiment",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP120_Twisted_Experiment",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP120_Twisted_Experiment/AP120_Twisted_Experiment.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1002",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Warden",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP117_The_Warden",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP117_The_Warden/AP117_The_Warden.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1003",
+   "zona_hd": "JAIL",
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1004",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1005",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Terror",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP045_Frost_Terror",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP045_Frost_Terror/AP045_Frost_Terror.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Frost Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP046_Frost_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP046_Frost_Zombie/AP046_Frost_Zombie.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1006",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1007",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Frost Lord",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP044_Frost_Lord",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP044_Frost_Lord/AP044_Frost_Lord.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1008",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Knight",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP066_Knight",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP066_Knight/AP066_Knight.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Priest",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP086_Priest",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP086_Priest/AP086_Priest.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Mage",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP070_Mage",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP070_Mage/AP070_Mage.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1009",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Cult Leader",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP027_Cult_Leader",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP027_Cult_Leader/AP027_Cult_Leader.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1010",
+   "zona_hd": "CHURCH",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Baron Brixius",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP013_Baron_Brixius",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP013_Baron_Brixius/AP013_Baron_Brixius.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1011",
+   "zona_hd": "SNOW",
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Armored Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP008_Armored_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP008_Armored_Hound/AP008_Armored_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Armored Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP008_Armored_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP008_Armored_Hound/AP008_Armored_Hound.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1012",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "ZPCI Elite",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP143_ZPCI_Elite",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP143_ZPCI_Elite/AP143_ZPCI_Elite.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1013",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1014",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Phantom",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP083_Phantom",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP083_Phantom/AP083_Phantom.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Beast",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP015_Beast",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP015_Beast/AP015_Beast.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Antagonist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP007_Antagonist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP007_Antagonist/AP007_Antagonist.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1015",
+   "zona_hd": "TRAIN",
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Spectre",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP102_Spectre",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP102_Spectre/AP102_Spectre.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1016",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Tunnel Beast",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP118_Tunnel_Beast",
+     "model": "MODEL6",
+     "escena": "res://sonny_i41/personajes/AP118_Tunnel_Beast/AP118_Tunnel_Beast.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1017",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Shunny",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1018",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "The Magical Monkey",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP116_The_Magical_Monkey",
+     "model": "MODEL6",
+     "escena": "res://sonny_i41/personajes/AP116_The_Magical_Monkey/AP116_The_Magical_Monkey.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1019",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Mokoshotar",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP073_Mokoshotar",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP073_Mokoshotar/AP073_Mokoshotar.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1020",
+   "zona_hd": "TUNNEL",
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Flower Zombie",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP042_Flower_Zombie",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP042_Flower_Zombie/AP042_Flower_Zombie.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1021",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Care Taker",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP023_Care_Taker",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP023_Care_Taker/AP023_Care_Taker.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "Blood Hound",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP018_Blood_Hound",
+     "model": "MODEL5",
+     "escena": "res://sonny_i41/personajes/AP018_Blood_Hound/AP018_Blood_Hound.tscn"
+    }
+   }
+  },
+  {
+   "combate": "KBR1022",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Riot Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Secret Police",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP099_Secret_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP099_Secret_Police/AP099_Secret_Police.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1023",
+   "zona_hd": "STREETS",
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Specialist",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP101_Specialist",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP101_Specialist/AP101_Specialist.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Android Guard",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP006_Android_Guard",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP006_Android_Guard/AP006_Android_Guard.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1024",
+   "zona_hd": "STREETS2",
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Police Colonel",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP085_Police_Colonel",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP085_Police_Colonel/AP085_Police_Colonel.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1025",
+   "zona_hd": "STREETS2",
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "City Council",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP025_City_Council",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP025_City_Council/AP025_City_Council.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "City Council",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP025_City_Council",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP025_City_Council/AP025_City_Council.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  },
+  {
+   "combate": "KBR1026",
+   "zona_hd": "ROME",
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "slots": {
+    "player1": {
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "tipo": "jugador",
+     "apariencia": "AP100_Shunny",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP100_Shunny/AP100_Shunny.tscn"
+    },
+    "player2": {
+     "nombre": "Peace Keeper",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player3": {
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "tipo": "companero_1",
+     "apariencia": "AP130_Veradux",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP130_Veradux/AP130_Veradux.tscn"
+    },
+    "player4": {
+     "nombre": "Peace Keeper",
+     "tipo": "unidad_KNU",
+     "apariencia": "AP090_Riot_Police",
+     "model": "MODEL1",
+     "escena": "res://sonny_i41/personajes/AP090_Riot_Police/AP090_Riot_Police.tscn"
+    },
+    "player5": {
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "tipo": "companero_2",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    },
+    "player6": {
+     "nombre": "",
+     "tipo": "vacio",
+     "apariencia": "",
+     "model": "",
+     "escena": ""
+    }
+   }
+  }
+ ],
+ "regla_modelo": "attachMovie(model,'inner',0) en el origen del slot; MODEL5: escala 0.8 y +10 en y (frame_217/DoAction.as l.19-24)"
+}

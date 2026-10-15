@@ -1,0 +1,46 @@
+BATALLAS-001 (AISLADO) — Visor de las 99 alineaciones de combate de Sonny 2 (I41) en Godot 4
+==========================================================================================
+ESTADO: PREPARADO, NO EJECUTADO EN GODOT (no hubo Godot en la sesión de Claude). Las vistas previas
+de previews/ son renders en Python con la misma semántica, NO capturas de Godot.
+
+Qué es
+- Proyecto aparte (no toca SNOW-001 ni las revisiones 4/5). Escena principal: BattleViewer.tscn.
+- Para cada combate KBR<n>: fondo HD de dos capas (cielo quieto + suelo con la cámara) y los personajes
+  originales (escenas extraídas de I41, 1 unidad = 1 px SWF) en sus slots, reproduciendo 'stand'.
+- SIN lógica de combate (no hay turnos, daño ni IA). Solo fondo, unidades, animaciones y cámara.
+
+Controles
+  ←/→ combate anterior/siguiente · Inicio/Fin · F1..F6 seleccionar slot
+  A ataque · Q hechizo (cast) · W golpe (hit) · E muerte · T reposo · Y recorrer todas las animaciones
+  1 Melee · 2 Missile · 3 Shock (+temblor) · S temblor · R reiniciar cámara · C factor HD 0.5/1.0
+  Espacio pausa · H ayuda · Esc salir
+  Variable de entorno BATALLA=KBR51 para abrir en un combate concreto.
+
+Comprobado (código/datos I41)
+- Fondo HD por combate: _root.__hdBattleMap[ZoneBG|SkyBG], frame_42/DoAction_2.as l.39048-39059.
+  Reparto: JAIL 18, SNOW 17, STREETS 17, TUNNEL 15, TRAIN 13, CHURCH 7, STREETS2 5, ROME 5, SEA 1, STREETS3 1.
+- Capas: assets/zonas/<ZONA>_sky.png y _ground.png, generadas con las funciones SIN CAMBIOS de
+  i40/fuente/capas.py (borde, alfa, fundido, relleno_cielo). SNOW es idéntico píxel a píxel a SNOW-001.
+- Alineaciones: KBR<n>.players[k] -> slot player(k+2): >0 KNU<n>, -2 compañero 1 (friendArrayX[0]),
+  -1 compañero 2, 0 vacío. player1 = Sonny. Impares = equipo del jugador, pares = enemigo.
+- Colocación: attachMovie(model,"inner",0) en el origen del slot con identidad; enemigos con espejo
+  (a=-1); MODEL5 escala 0.8 y +10 en y (frame_217/DoAction.as l.19-24).
+- Orden de dibujo: profundidades del frame 217: player5 40 < player6 80 < player1 120 < player2 160 <
+  player3 200 < player4 240 (z_index).
+- Cámara: SnowCamera.gd copiado SIN CAMBIOS de la revisión 4 (GridZoomer 3345 / GridShaker 3344).
+
+Propuesto / no original (PROV)
+- Sonny y compañeros salen con su apariencia por defecto (en el juego dependen de la partida y el equipo).
+- Objetivo del zoom = origen del slot seleccionado (en el juego es el atacante/objetivo del momento).
+- Teclas A/Q/W/E eligen la primera animación que exista ("Attack", "cast", "hit", "dead"); cada modelo
+  tiene nombres propios (Y las recorre todas).
+- Los cambios de profundidad del juego durante un ataque (swapDepths) no se reproducen.
+
+Cómo probar
+  godot --path .                                   (visor)
+  godot --headless --path . -s res://tests/test_batallas001.gd   (debe acabar con 0 fallos)
+
+Pendiente
+- Ejecutar en Godot 4.x y el test; prueba visual en Windows.
+- Borde duplicado sutil de SNOW (heredado); parpadeo del tren (TRAIN) no incluido en las capas.
+- Desenfoque (blur) de algunas piezas no aplicado.

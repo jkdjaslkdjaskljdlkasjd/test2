@@ -1,0 +1,4605 @@
+{
+ "regla": "players[k] -> slot player(k+2); >0 = KNU<n>; -2 = compañero 1 (friendArrayX[0]); -1 = compañero 2; 0 = vacío; player1 = Sonny. Impares = equipo del jugador, pares = enemigos (frame_42 l.1964-2135, l.13190-13202).",
+ "combates": [
+  {
+   "combate": "KBR1",
+   "linea": 9242,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    0,
+    -2,
+    -2,
+    -1,
+    -1
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR2",
+   "linea": 9247,
+   "ZoneBG": "WHITE NOVEMBER",
+   "SkyBG": "SEA",
+   "fondo_hd": "SEA",
+   "players_codigo": [
+    49,
+    0,
+    0,
+    48,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 49,
+     "nombre": "Metabii",
+     "apariencia": "AP062_Hydro"
+    },
+    "player3": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "unidad_KNU",
+     "KNU": 48,
+     "nombre": "Louis the Blind",
+     "apariencia": "AP067_Louis_the_Blind"
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR50",
+   "linea": 9263,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    9,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 9,
+     "nombre": "The Warden",
+     "apariencia": "AP117_The_Warden"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR51",
+   "linea": 9271,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    20,
+    -2,
+    21,
+    -1,
+    22
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 21,
+     "nombre": "Priest",
+     "apariencia": "AP086_Priest"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    }
+   }
+  },
+  {
+   "combate": "KBR52",
+   "linea": 9276,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    25,
+    -2,
+    23,
+    -1,
+    23
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 25,
+     "nombre": "Frost Terror",
+     "apariencia": "AP045_Frost_Terror"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    }
+   }
+  },
+  {
+   "combate": "KBR53",
+   "linea": 9281,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    33,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 33,
+     "nombre": "Frost Lord",
+     "apariencia": "AP044_Frost_Lord"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR54",
+   "linea": 9288,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    7,
+    -2,
+    15,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 7,
+     "nombre": "Frankie",
+     "apariencia": "AP043_Frankie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 15,
+     "nombre": "Doctor Hedger",
+     "apariencia": "AP030_Doctor_Leath"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR55",
+   "linea": 9296,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    12,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 12,
+     "nombre": "Twisted Experiment",
+     "apariencia": "AP120_Twisted_Experiment"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR100",
+   "linea": 9303,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    5,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR101",
+   "linea": 9313,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    5,
+    -2,
+    5,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR102",
+   "linea": 9325,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    10,
+    -2,
+    13,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 10,
+     "nombre": "Brutal Convict",
+     "apariencia": "AP019_Brutal_Convict"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 13,
+     "nombre": "Agile Convict",
+     "apariencia": "AP005_Agile_Convict"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR103",
+   "linea": 9344,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    14,
+    -2,
+    13,
+    -1,
+    10
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 14,
+     "nombre": "Cunning Convict",
+     "apariencia": "AP028_Cunning_Convict"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 13,
+     "nombre": "Agile Convict",
+     "apariencia": "AP005_Agile_Convict"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 10,
+     "nombre": "Brutal Convict",
+     "apariencia": "AP019_Brutal_Convict"
+    }
+   }
+  },
+  {
+   "combate": "KBR104",
+   "linea": 9357,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    6,
+    -2,
+    5,
+    -1,
+    5
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 6,
+     "nombre": "Doctor Leath",
+     "apariencia": "AP030_Doctor_Leath"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    }
+   }
+  },
+  {
+   "combate": "KBR105",
+   "linea": 9376,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    12,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 12,
+     "nombre": "Twisted Experiment",
+     "apariencia": "AP120_Twisted_Experiment"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR106",
+   "linea": 9383,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    9,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 9,
+     "nombre": "The Warden",
+     "apariencia": "AP117_The_Warden"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR107",
+   "linea": 9401,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    7,
+    -2,
+    15,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 7,
+     "nombre": "Frankie",
+     "apariencia": "AP043_Frankie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 15,
+     "nombre": "Doctor Hedger",
+     "apariencia": "AP030_Doctor_Leath"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR108",
+   "linea": 9411,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    8,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR109",
+   "linea": 9426,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    11,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 11,
+     "nombre": "Felicity",
+     "apariencia": "AP038_Felicity"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR200",
+   "linea": 9441,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    23,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR201",
+   "linea": 9453,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    32,
+    -2,
+    29,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 32,
+     "nombre": "Roald",
+     "apariencia": "AP091_Roald"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 29,
+     "nombre": "Insurgent",
+     "apariencia": "AP063_Insurgent"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR202",
+   "linea": 9472,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    25,
+    -2,
+    23,
+    -1,
+    23
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 25,
+     "nombre": "Frost Terror",
+     "apariencia": "AP045_Frost_Terror"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    }
+   }
+  },
+  {
+   "combate": "KBR203",
+   "linea": 9491,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    20,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR204",
+   "linea": 9510,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    21,
+    -2,
+    20,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 21,
+     "nombre": "Priest",
+     "apariencia": "AP086_Priest"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR205",
+   "linea": 9532,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    33,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 33,
+     "nombre": "Frost Lord",
+     "apariencia": "AP044_Frost_Lord"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR206",
+   "linea": 9549,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    20,
+    -2,
+    21,
+    -1,
+    22
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 21,
+     "nombre": "Priest",
+     "apariencia": "AP086_Priest"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    }
+   }
+  },
+  {
+   "combate": "KBR207",
+   "linea": 9578,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    20,
+    -2,
+    22,
+    -1,
+    22
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    }
+   }
+  },
+  {
+   "combate": "KBR208",
+   "linea": 9600,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    30,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 30,
+     "nombre": "Cult Leader",
+     "apariencia": "AP027_Cult_Leader"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR209",
+   "linea": 9616,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    31,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 31,
+     "nombre": "Baron Brixius",
+     "apariencia": "AP013_Baron_Brixius"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR210",
+   "linea": 9635,
+   "ZoneBG": "CHURCH2",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    20,
+    -2,
+    21,
+    -1,
+    22
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 21,
+     "nombre": "Priest",
+     "apariencia": "AP086_Priest"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    }
+   }
+  },
+  {
+   "combate": "KBR211",
+   "linea": 9645,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    8,
+    -2,
+    27,
+    -1,
+    27
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 27,
+     "nombre": "Armored Hound",
+     "apariencia": "AP008_Armored_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 27,
+     "nombre": "Armored Hound",
+     "apariencia": "AP008_Armored_Hound"
+    }
+   }
+  },
+  {
+   "combate": "KBR212",
+   "linea": 9653,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    28,
+    -2,
+    26,
+    -1,
+    34
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 28,
+     "nombre": "Captain Hunt",
+     "apariencia": "AP022_Captain_Hunt"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 26,
+     "nombre": "ZPCI Medic",
+     "apariencia": "AP144_ZPCI_Medic"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 34,
+     "nombre": "ZPCI Sniper",
+     "apariencia": "AP145_ZPCI_Sniper"
+    }
+   }
+  },
+  {
+   "combate": "KBR300",
+   "linea": 9688,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    40,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR301",
+   "linea": 9701,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    8,
+    -2,
+    8,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR302",
+   "linea": 9714,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    40,
+    -2,
+    40,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR303",
+   "linea": 9732,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    41,
+    -2,
+    42,
+    -1,
+    43
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 41,
+     "nombre": "Phantom",
+     "apariencia": "AP083_Phantom"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 42,
+     "nombre": "Beast",
+     "apariencia": "AP015_Beast"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 43,
+     "nombre": "Antagonist",
+     "apariencia": "AP007_Antagonist"
+    }
+   }
+  },
+  {
+   "combate": "KBR304",
+   "linea": 9746,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    44,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 44,
+     "nombre": "The Hobo",
+     "apariencia": "AP112_The_Hobo"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR305",
+   "linea": 9754,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    45,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 45,
+     "nombre": "The Real Hobo",
+     "apariencia": "AP112_The_Hobo"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR306",
+   "linea": 9767,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    46,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 46,
+     "nombre": "The Host",
+     "apariencia": "AP113_The_Host"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR307",
+   "linea": 9775,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    40,
+    -2,
+    40,
+    -1,
+    40
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    }
+   }
+  },
+  {
+   "combate": "KBR308",
+   "linea": 9798,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    47,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 47,
+     "nombre": "Clemons The Deceiver",
+     "apariencia": "AP026_Clemons_The_Deceiver"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR400",
+   "linea": 9822,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    50,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 50,
+     "nombre": "Tunnel Beast",
+     "apariencia": "AP118_Tunnel_Beast"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR401",
+   "linea": 9835,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    51,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 51,
+     "nombre": "Vivian Vixen",
+     "apariencia": "AP132_Vivian_Vixen"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR402",
+   "linea": 9850,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    52,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 52,
+     "nombre": "Gregor",
+     "apariencia": "AP057_Gregor"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR403",
+   "linea": 9862,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    53,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 53,
+     "nombre": "Shunny",
+     "apariencia": "AP100_Shunny"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR404",
+   "linea": 9881,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    54,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 54,
+     "nombre": "The Magical Monkey",
+     "apariencia": "AP116_The_Magical_Monkey"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR405",
+   "linea": 9897,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    55,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 55,
+     "nombre": "Mokoshotar",
+     "apariencia": "AP073_Mokoshotar"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR406",
+   "linea": 9913,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    56,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 56,
+     "nombre": "Bunny",
+     "apariencia": "AP020_Bunny"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR407",
+   "linea": 9931,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    57,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 57,
+     "nombre": "Flower Zombie",
+     "apariencia": "AP042_Flower_Zombie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR408",
+   "linea": 9947,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    58,
+    -2,
+    59,
+    -1,
+    59
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 58,
+     "nombre": "The Hydra",
+     "apariencia": "AP114_The_Hydra"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 59,
+     "nombre": "Fire Claw",
+     "apariencia": "AP041_Fire_Claw"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 59,
+     "nombre": "Fire Claw",
+     "apariencia": "AP041_Fire_Claw"
+    }
+   }
+  },
+  {
+   "combate": "KBR409",
+   "linea": 9958,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    60,
+    -2,
+    60,
+    -1,
+    60
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 60,
+     "nombre": "Tunnel Worker",
+     "apariencia": "AP119_Tunnel_Worker"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 60,
+     "nombre": "Tunnel Worker",
+     "apariencia": "AP119_Tunnel_Worker"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 60,
+     "nombre": "Tunnel Worker",
+     "apariencia": "AP119_Tunnel_Worker"
+    }
+   }
+  },
+  {
+   "combate": "KBR500",
+   "linea": 9973,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    63,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 63,
+     "nombre": "Riot Police",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR501",
+   "linea": 9985,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    63,
+    -2,
+    65,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 63,
+     "nombre": "Riot Police",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR502",
+   "linea": 9995,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    62,
+    -2,
+    62,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 62,
+     "nombre": "Secret Police",
+     "apariencia": "AP099_Secret_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 62,
+     "nombre": "Secret Police",
+     "apariencia": "AP099_Secret_Police"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR503",
+   "linea": 10007,
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS2",
+   "players_codigo": [
+    61,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 61,
+     "nombre": "Police Colonel",
+     "apariencia": "AP085_Police_Colonel"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR504",
+   "linea": 10025,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    71,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 71,
+     "nombre": "Felicity",
+     "apariencia": "AP038_Felicity"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR505",
+   "linea": 10033,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    66,
+    -2,
+    65,
+    -1,
+    65
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 66,
+     "nombre": "Care Taker",
+     "apariencia": "AP023_Care_Taker"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    }
+   }
+  },
+  {
+   "combate": "KBR506",
+   "linea": 10043,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    67,
+    -2,
+    63,
+    -1,
+    63
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 63,
+     "nombre": "Riot Police",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 63,
+     "nombre": "Riot Police",
+     "apariencia": "AP090_Riot_Police"
+    }
+   }
+  },
+  {
+   "combate": "KBR507",
+   "linea": 10058,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    64,
+    -2,
+    67,
+    -1,
+    67
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 64,
+     "nombre": "Specialist",
+     "apariencia": "AP101_Specialist"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    }
+   }
+  },
+  {
+   "combate": "KBR508",
+   "linea": 10073,
+   "ZoneBG": "STREETS3",
+   "SkyBG": "STREETS3",
+   "fondo_hd": "STREETS3",
+   "players_codigo": [
+    69,
+    71,
+    72,
+    0,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 69,
+     "nombre": "Mayor",
+     "apariencia": "AP071_Mayor"
+    },
+    "player3": {
+     "tipo": "unidad_KNU",
+     "KNU": 71,
+     "nombre": "Felicity",
+     "apariencia": "AP038_Felicity"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 72,
+     "nombre": "ZPCI Ambassador",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player5": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR509",
+   "linea": 10083,
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS2",
+   "players_codigo": [
+    68,
+    -2,
+    68,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 68,
+     "nombre": "City Council",
+     "apariencia": "AP025_City_Council"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 68,
+     "nombre": "City Council",
+     "apariencia": "AP025_City_Council"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR510",
+   "linea": 10099,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    67,
+    -2,
+    64,
+    -1,
+    62
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 64,
+     "nombre": "Specialist",
+     "apariencia": "AP101_Specialist"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 62,
+     "nombre": "Secret Police",
+     "apariencia": "AP099_Secret_Police"
+    }
+   }
+  },
+  {
+   "combate": "KBR511",
+   "linea": 10120,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    64,
+    -2,
+    65,
+    -1,
+    65
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 64,
+     "nombre": "Specialist",
+     "apariencia": "AP101_Specialist"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    }
+   }
+  },
+  {
+   "combate": "KBR512",
+   "linea": 10130,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    62,
+    -2,
+    67,
+    -1,
+    67
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 62,
+     "nombre": "Secret Police",
+     "apariencia": "AP099_Secret_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    }
+   }
+  },
+  {
+   "combate": "KBR513",
+   "linea": 10145,
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS2",
+   "players_codigo": [
+    69,
+    -2,
+    0,
+    -1,
+    70
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 69,
+     "nombre": "Mayor",
+     "apariencia": "AP071_Mayor"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 70,
+     "nombre": "Guardian Cannon",
+     "apariencia": "AP058_Guardian_Cannon"
+    }
+   }
+  },
+  {
+   "combate": "KBR600",
+   "linea": 10168,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "fondo_hd": "ROME",
+   "players_codigo": [
+    73,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 73,
+     "nombre": "Metal Warden",
+     "apariencia": "AP072_Metal_Warden"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR601",
+   "linea": 10190,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "fondo_hd": "ROME",
+   "players_codigo": [
+    74,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 74,
+     "nombre": "The Bomb",
+     "apariencia": "AP111_The_Bomb"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR602",
+   "linea": 10206,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "fondo_hd": "ROME",
+   "players_codigo": [
+    75,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 75,
+     "nombre": "Nostalgia",
+     "apariencia": "AP076_Nostalgia"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR603",
+   "linea": 10224,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "fondo_hd": "ROME",
+   "players_codigo": [
+    76,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 76,
+     "nombre": "The Judge",
+     "apariencia": "AP115_The_Judge"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR700",
+   "linea": 10239,
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    78,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 78,
+     "nombre": "Doctor Klima",
+     "apariencia": "AP029_Doctor_Klima"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR701",
+   "linea": 10253,
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    80,
+    -2,
+    0,
+    -1,
+    79
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 80,
+     "nombre": "South Guardian",
+     "apariencia": "AP075_North_Guardian"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 79,
+     "nombre": "North Guardian",
+     "apariencia": "AP075_North_Guardian"
+    }
+   }
+  },
+  {
+   "combate": "KBR702",
+   "linea": 10274,
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    81,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 81,
+     "nombre": "Yosuke",
+     "apariencia": "AP141_Yosuke"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR703",
+   "linea": 10290,
+   "ZoneBG": "STREETS",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    84,
+    -2,
+    82,
+    -1,
+    83
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 84,
+     "nombre": "Versu the Corruptor",
+     "apariencia": "AP131_Versu_the_Corruptor"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 82,
+     "nombre": "Orb of Restraint",
+     "apariencia": "AP077_Orb_of_Restraint"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 83,
+     "nombre": "Orb of Sanctuary",
+     "apariencia": "AP077_Orb_of_Restraint"
+    }
+   }
+  },
+  {
+   "combate": "KBR1000",
+   "linea": 10306,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    5,
+    -2,
+    5,
+    0,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 5,
+     "nombre": "Prison Guard",
+     "apariencia": "AP087_Prison_Guard"
+    },
+    "player5": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1001",
+   "linea": 10318,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    12,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 12,
+     "nombre": "Twisted Experiment",
+     "apariencia": "AP120_Twisted_Experiment"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1002",
+   "linea": 10324,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    9,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 9,
+     "nombre": "The Warden",
+     "apariencia": "AP117_The_Warden"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1003",
+   "linea": 10341,
+   "ZoneBG": "JAIL",
+   "SkyBG": "JAIL",
+   "fondo_hd": "JAIL",
+   "players_codigo": [
+    8,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1004",
+   "linea": 10353,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    23,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1005",
+   "linea": 10362,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    25,
+    -2,
+    23,
+    -1,
+    23
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 25,
+     "nombre": "Frost Terror",
+     "apariencia": "AP045_Frost_Terror"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 23,
+     "nombre": "Frost Zombie",
+     "apariencia": "AP046_Frost_Zombie"
+    }
+   }
+  },
+  {
+   "combate": "KBR1006",
+   "linea": 10375,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    20,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1007",
+   "linea": 10390,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    33,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 33,
+     "nombre": "Frost Lord",
+     "apariencia": "AP044_Frost_Lord"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1008",
+   "linea": 10404,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    20,
+    -2,
+    21,
+    -1,
+    22
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 20,
+     "nombre": "Knight",
+     "apariencia": "AP066_Knight"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 21,
+     "nombre": "Priest",
+     "apariencia": "AP086_Priest"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 22,
+     "nombre": "Mage",
+     "apariencia": "AP070_Mage"
+    }
+   }
+  },
+  {
+   "combate": "KBR1009",
+   "linea": 10431,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    30,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 30,
+     "nombre": "Cult Leader",
+     "apariencia": "AP027_Cult_Leader"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1010",
+   "linea": 10440,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "CHURCH",
+   "fondo_hd": "CHURCH",
+   "players_codigo": [
+    31,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 31,
+     "nombre": "Baron Brixius",
+     "apariencia": "AP013_Baron_Brixius"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1011",
+   "linea": 10454,
+   "ZoneBG": "SNOW",
+   "SkyBG": "SNOW",
+   "fondo_hd": "SNOW",
+   "players_codigo": [
+    8,
+    -2,
+    27,
+    -1,
+    27
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 27,
+     "nombre": "Armored Hound",
+     "apariencia": "AP008_Armored_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 27,
+     "nombre": "Armored Hound",
+     "apariencia": "AP008_Armored_Hound"
+    }
+   }
+  },
+  {
+   "combate": "KBR1012",
+   "linea": 10462,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    8,
+    -2,
+    8,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 8,
+     "nombre": "ZPCI Elite",
+     "apariencia": "AP143_ZPCI_Elite"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1013",
+   "linea": 10474,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    40,
+    -2,
+    40,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1014",
+   "linea": 10492,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    41,
+    -2,
+    42,
+    -1,
+    43
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 41,
+     "nombre": "Phantom",
+     "apariencia": "AP083_Phantom"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 42,
+     "nombre": "Beast",
+     "apariencia": "AP015_Beast"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 43,
+     "nombre": "Antagonist",
+     "apariencia": "AP007_Antagonist"
+    }
+   }
+  },
+  {
+   "combate": "KBR1015",
+   "linea": 10506,
+   "ZoneBG": "TRAIN",
+   "SkyBG": "TRAIN",
+   "fondo_hd": "TRAIN",
+   "players_codigo": [
+    40,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 40,
+     "nombre": "Spectre",
+     "apariencia": "AP102_Spectre"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1016",
+   "linea": 10518,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    50,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 50,
+     "nombre": "Tunnel Beast",
+     "apariencia": "AP118_Tunnel_Beast"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1017",
+   "linea": 10529,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    53,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 53,
+     "nombre": "Shunny",
+     "apariencia": "AP100_Shunny"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1018",
+   "linea": 10545,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    54,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 54,
+     "nombre": "The Magical Monkey",
+     "apariencia": "AP116_The_Magical_Monkey"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1019",
+   "linea": 10561,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    55,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 55,
+     "nombre": "Mokoshotar",
+     "apariencia": "AP073_Mokoshotar"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1020",
+   "linea": 10577,
+   "ZoneBG": "TUNNEL",
+   "SkyBG": "TUNNEL",
+   "fondo_hd": "TUNNEL",
+   "players_codigo": [
+    57,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 57,
+     "nombre": "Flower Zombie",
+     "apariencia": "AP042_Flower_Zombie"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1021",
+   "linea": 10592,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    66,
+    -2,
+    65,
+    -1,
+    65
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 66,
+     "nombre": "Care Taker",
+     "apariencia": "AP023_Care_Taker"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "unidad_KNU",
+     "KNU": 65,
+     "nombre": "Blood Hound",
+     "apariencia": "AP018_Blood_Hound"
+    }
+   }
+  },
+  {
+   "combate": "KBR1022",
+   "linea": 10602,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    63,
+    -2,
+    62,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 63,
+     "nombre": "Riot Police",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 62,
+     "nombre": "Secret Police",
+     "apariencia": "AP099_Secret_Police"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1023",
+   "linea": 10617,
+   "ZoneBG": "STREETS",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS",
+   "players_codigo": [
+    64,
+    -2,
+    67,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 64,
+     "nombre": "Specialist",
+     "apariencia": "AP101_Specialist"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 67,
+     "nombre": "Android Guard",
+     "apariencia": "AP006_Android_Guard"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1024",
+   "linea": 10632,
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS2",
+   "players_codigo": [
+    61,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 61,
+     "nombre": "Police Colonel",
+     "apariencia": "AP085_Police_Colonel"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "vacio",
+     "apariencia": null
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1025",
+   "linea": 10650,
+   "ZoneBG": "STREETS2",
+   "SkyBG": "STREETS",
+   "fondo_hd": "STREETS2",
+   "players_codigo": [
+    68,
+    -2,
+    68,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 68,
+     "nombre": "City Council",
+     "apariencia": "AP025_City_Council"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 68,
+     "nombre": "City Council",
+     "apariencia": "AP025_City_Council"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  },
+  {
+   "combate": "KBR1026",
+   "linea": 10666,
+   "ZoneBG": "CHURCH",
+   "SkyBG": "ROME",
+   "fondo_hd": "ROME",
+   "players_codigo": [
+    77,
+    -2,
+    77,
+    -1,
+    0
+   ],
+   "slots": {
+    "player1": {
+     "tipo": "jugador",
+     "nombre": "Sonny (equipo inicial; depende de la partida)",
+     "apariencia": "AP100_Shunny"
+    },
+    "player2": {
+     "tipo": "unidad_KNU",
+     "KNU": 77,
+     "nombre": "Peace Keeper",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player3": {
+     "tipo": "companero_1",
+     "nombre": "compañero 1 (por defecto Veradux; depende de la partida)",
+     "apariencia": "AP130_Veradux"
+    },
+    "player4": {
+     "tipo": "unidad_KNU",
+     "KNU": 77,
+     "nombre": "Peace Keeper",
+     "apariencia": "AP090_Riot_Police"
+    },
+    "player5": {
+     "tipo": "companero_2",
+     "nombre": "compañero 2 (vacío por defecto; depende de la partida)",
+     "apariencia": null
+    },
+    "player6": {
+     "tipo": "vacio",
+     "apariencia": null
+    }
+   }
+  }
+ ]
+}

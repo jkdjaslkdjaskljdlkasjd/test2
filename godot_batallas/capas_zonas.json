@@ -1,0 +1,150 @@
+{
+ "mapa_hd_del_mod": {
+  "JAIL|JAIL": "JAIL",
+  "SNOW|SNOW": "SNOW",
+  "CHURCH|CHURCH": "CHURCH",
+  "CHURCH2|CHURCH": "CHURCH",
+  "CHURCH|ROME": "ROME",
+  "STREETS|STREETS": "STREETS",
+  "STREETS|TUNNEL": "STREETS",
+  "STREETS2|STREETS": "STREETS2",
+  "STREETS3|STREETS3": "STREETS3",
+  "TRAIN|TRAIN": "TRAIN",
+  "TUNNEL|TUNNEL": "TUNNEL",
+  "WHITE NOVEMBER|SEA": "SEA"
+ },
+ "fuente_mapa": "frame_42/DoAction_2.as l.39048-39059 (_root.__hdBattleMap[ZoneBG|SkyBG])",
+ "zonas": {
+  "JAIL": {
+   "fuente": "JAIL_Z1.png",
+   "regla": [
+    "poligono",
+    "poligono(35 puntos)",
+    -3,
+    4,
+    true
+   ],
+   "borde_y_min": 183.0,
+   "borde_y_max": 609.0,
+   "cielo_con_relleno": true,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "SNOW": {
+   "fuente": "SNOW_Z2_2.png",
+   "regla": [
+    "oscuro",
+    70,
+    330,
+    640
+   ],
+   "borde_y_min": 438.0,
+   "borde_y_max": 528.41,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "TRAIN": {
+   "fuente": "TRAIN_Z3.png",
+   "regla": [
+    "linea",
+    470
+   ],
+   "borde_y_min": 470.0,
+   "borde_y_max": 470.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "TUNNEL": {
+   "fuente": "TUNNEL_Z4.png",
+   "regla": [
+    "linea",
+    480
+   ],
+   "borde_y_min": 480.0,
+   "borde_y_max": 480.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "STREETS": {
+   "fuente": "STREETS_Z5_1.png",
+   "regla": [
+    "claro",
+    60,
+    380,
+    700
+   ],
+   "borde_y_min": 514.0,
+   "borde_y_max": 644.44,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "STREETS2": {
+   "fuente": "STREETS2_Z5_3.png",
+   "regla": [
+    "linea",
+    600
+   ],
+   "borde_y_min": 600.0,
+   "borde_y_max": 600.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "STREETS3": {
+   "fuente": "STREETS3_Z5_2.png",
+   "regla": [
+    "claro",
+    60,
+    380,
+    700
+   ],
+   "borde_y_min": 474.0,
+   "borde_y_max": 653.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "CHURCH": {
+   "fuente": "CHURCH_Z2_1.png",
+   "regla": [
+    "linea",
+    605
+   ],
+   "borde_y_min": 605.0,
+   "borde_y_max": 605.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "ROME": {
+   "fuente": "ROME_Z6.png",
+   "regla": [
+    "linea",
+    605
+   ],
+   "borde_y_min": 605.0,
+   "borde_y_max": 605.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  },
+  "SEA": {
+   "fuente": "SEA_Z0.png",
+   "regla": [
+    "linea",
+    455
+   ],
+   "borde_y_min": 455.0,
+   "borde_y_max": 455.0,
+   "cielo_con_relleno": false,
+   "alfa_min": 0,
+   "alfa_max": 255
+  }
+ },
+ "SUBIR": 4,
+ "FUNDIDO": 14
+}
