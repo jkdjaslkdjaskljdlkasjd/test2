@@ -1,0 +1,377 @@
+pantalla,fotograma,profundidad,instancia,characterId,tipo,linkage,x_px,y_px,a,b,c,d,color,filtros,mascara_hasta,tiene_codigo,origen,fotogramas_propios
+URLLOCK,2,1,,2463,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+URLLOCK,2,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+URLLOCK,2,4,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+URLLOCK,2,7,,2472,DefineSprite,[],-3.0,-37.0,1.0,0.0,0.0,1.0,,[],,False,original,1
+URLLOCK,2,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+playFromHere,3,1,,2463,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+playFromHere,3,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+playFromHere,3,4,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+playFromHere,3,7,,2472,DefineSprite,[],-2.5,-37.4,1.0,0.0,0.0,1.0,,[],,False,original,1
+playFromHere,3,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+YES_LOCK,7,1,,213,DefineShape,[],-130.9,-4.0,1060.0,0.0,0.0,578.10205,,[],,False,original,
+YES_LOCK,7,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+NO_LOCK,20,1,,213,DefineShape,[],-130.9,-4.0,1060.0,0.0,0.0,578.10205,,[],,False,original,
+NO_LOCK,20,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+soundExport,40,1,,213,DefineShape,[],-127.95,-4.0,1060.0,0.0,0.0,582.1425,,[],,False,original,
+soundExport,40,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+resetHere,41,1,,213,DefineShape,[],-135.9,-10.0,1060.0,0.0,0.0,592.1526,,[],,False,original,
+resetHere,41,34,,2468,DefineEditText,[],636.0,553.7,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+mainMenu,46,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,6,,2484,DefineSprite,[],403.5,180.2,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+mainMenu,46,8,,2639,DefineEditText,[],243.95,306.5,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,9,,2640,DefineEditText,[],315.15,367.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+mainMenu,46,10,,2641,DefineEditText,[],243.95,306.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+mainMenu,46,11,,2642,DefineEditText,[],315.15,397.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+mainMenu,46,12,,2643,DefineButton2,[],429.1,377.75,7.677704,0.0,0.0,0.6927948,,[],,False,original,
+mainMenu,46,14,,2644,DefineButton2,[],393.15,325.1,10.075806,0.0,0.0,1.333313,,[],,False,original,
+mainMenu,46,16,,2645,DefineButton2,[],429.1,408.2,7.677704,0.0,0.0,0.6927948,,[],,False,original,
+mainMenu,46,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+mainMenu,46,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+mainMenu,46,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+subMenu,56,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+subMenu,56,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+subMenu,56,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+subMenu,56,6,,2484,DefineSprite,[],403.5,180.2,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+subMenu,56,8,,2648,DefineEditText,[],243.0,292.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+subMenu,56,9,,2649,DefineEditText,[],243.0,352.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+subMenu,56,10,,2650,DefineButton2,[],392.2,310.7,10.075806,0.0,0.0,1.333313,,[],,False,original,
+subMenu,56,12,,2651,DefineButton2,[],392.2,370.7,10.075806,0.0,0.0,1.333313,,[],,False,original,
+subMenu,56,14,,2652,DefineEditText,[],243.0,412.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+subMenu,56,15,,2653,DefineButton2,[],392.2,430.7,10.075806,0.0,0.0,1.333313,,[],,False,original,
+subMenu,56,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+subMenu,56,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+subMenu,56,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+subMenu,56,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+subMenu,56,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+subMenu,56,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+nameMenu,64,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,6,,2656,DefineShape4,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,7,,2657,DefineEditText,[],189.7,260.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+nameMenu,64,8,,2658,DefineEditText,[],341.4,332.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+nameMenu,64,9,,2659,DefineButton2,[],399.25,351.6,2.0610352,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+nameMenu,64,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+nameMenu,64,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+nameMenu,64,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+nameMenu,64,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+dataMenu,74,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,6,,2660,DefineEditText,[],197.0,194.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,7,,2661,DefineEditText,[],358.5,194.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,8,,2662,DefineEditText,[],358.5,248.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,9,,2663,DefineEditText,[],358.5,305.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,10,,2664,DefineEditText,[],358.5,359.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,11,,2665,DefineEditText,[],197.0,248.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,12,,2666,DefineEditText,[],197.0,305.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,13,,2667,DefineEditText,[],197.0,359.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,14,,2668,DefineEditText,[],310.0,194.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,15,,2669,DefineEditText,[],310.0,248.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,16,,2670,DefineEditText,[],310.0,305.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,17,,2671,DefineEditText,[],310.0,359.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,18,,2672,DefineButton2,[],269.9,208.2,3.793335,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,20,,2673,DefineButton2,[],269.9,263.7,3.793335,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,22,,2674,DefineButton2,[],269.9,319.2,3.793335,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,24,,2675,DefineButton2,[],269.9,374.7,3.793335,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,26,,2676,DefineEditText,[],92.25,104.95,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+dataMenu,74,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+dataMenu,74,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+dataMenu,74,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+dataMenu,74,43,KrinToolTipper,2680,DefineSprite,[],800.0,600.0,1.0,0.0,0.0,1.0,,[],,True,original,19
+dataMenu,74,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+classMenu,84,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,6,,2681,DefineEditText,[],177.2,109.9,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+classMenu,84,7,,2682,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,8,bioDis,2693,DefineSprite,[],402.0,309.55,1.0,0.0,0.0,1.0,,[],,False,original,26
+classMenu,84,10,,2695,DefineEditText,[],298.05,422.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'GLOWFILTER']",,False,original,
+classMenu,84,11,psychoDis,2703,DefineSprite,[],642.0,309.55,1.0,0.0,0.0,1.0,,[],,False,original,26
+classMenu,84,13,,2704,DefineEditText,[],538.05,422.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'GLOWFILTER']",,False,original,
+classMenu,84,14,hydroDis,2710,DefineSprite,[],162.0,309.55,1.0,0.0,0.0,1.0,,[],,False,original,26
+classMenu,84,16,,2711,DefineEditText,[],58.05,422.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'GLOWFILTER']",,False,original,
+classMenu,84,17,,2712,DefineButton2,[],161.2,309.2,6.146286,0.0,0.0,10.006653,,[],,False,original,
+classMenu,84,19,,2713,DefineButton2,[],641.2,310.15,6.146286,0.0,0.0,10.006653,,[],,False,original,
+classMenu,84,21,,2714,DefineButton2,[],400.8,308.5,6.146057,0.0,0.0,10.006653,,[],,False,original,
+classMenu,84,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+classMenu,84,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+classMenu,84,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+classMenu,84,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+classMenu,84,43,KrinToolTipper,2680,DefineSprite,[],800.0,600.0,1.0,0.0,0.0,1.0,,[],,True,original,19
+classMenu,84,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+optionsMenu,93,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,6,,2715,DefineEditText,[],238.9,189.8,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,7,,2716,DefineEditText,[],238.9,222.35,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,8,,2717,DefineEditText,[],410.0,189.8,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,9,,2718,DefineEditText,[],410.0,222.35,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,10,,2719,DefineEditText,[],197.05,72.2,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,11,,2720,DefineEditText,[],238.9,254.9,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,12,,2721,DefineEditText,[],410.0,254.9,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,13,,2722,DefineEditText,[],121.45,325.05,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,14,,2723,DefineEditText,[],161.55,456.6,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,15,,2724,DefineEditText,[],238.9,287.45,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,16,,2725,DefineEditText,[],410.0,287.45,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,17,,2726,DefineEditText,[],90.65,116.95,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,18,,2727,DefineEditText,[],410.0,116.95,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,19,,2728,DefineEditText,[],98.85,152.6,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,20,,2729,DefineEditText,[],410.0,152.6,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,21,,2730,DefineButton2,[],382.45,129.95,14.6532135,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,23,,2731,DefineButton2,[],390.45,202.8,7.639282,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,25,,2732,DefineButton2,[],388.2,236.35,7.639282,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,27,,2733,DefineButton2,[],388.2,268.9,7.639282,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,29,,2734,DefineButton2,[],388.2,301.45,7.639282,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,31,,2735,DefineButton2,[],399.3,470.2,13.040909,0.0,0.0,0.8933258,,[],,False,original,
+optionsMenu,93,33,,2736,DefineButton2,[],382.45,165.6,14.6532135,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+optionsMenu,93,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+optionsMenu,93,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+optionsMenu,93,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+optionsMenu,93,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+gameOverMenu,104,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,6,,2737,DefineEditText,[],195.1,95.75,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+gameOverMenu,104,7,,2738,DefineEditText,[],252.9,174.4,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+gameOverMenu,104,8,,2739,DefineEditText,[],116.15,233.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+gameOverMenu,104,9,,2740,DefineButton2,[],400.0,188.0,9.630905,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,35,,2654,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+gameOverMenu,104,36,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+gameOverMenu,104,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+gameOverMenu,104,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+gameOverMenu,104,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+endMenu,116,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+endMenu,116,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+endMenu,116,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+endMenu,116,6,,2741,DefineEditText,[],223.0,412.1,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+endMenu,116,7,,2742,DefineButton2,[],392.45,432.4,3.4678955,0.0,0.0,1.333313,,[],,False,original,
+endMenu,116,9,,2743,DefineEditText,[],197.3,111.45,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+endMenu,116,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+endMenu,116,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+endMenu,116,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+endMenu,116,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+designMenu,124,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,6,,2744,DefineShape4,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,7,,2745,DefineEditText,[],427.2,107.45,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,8,,2746,DefineEditText,[],121.4,155.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,9,,2747,DefineEditText,[],121.4,208.0,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,10,,2748,DefineEditText,[],121.4,260.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,11,,2749,DefineEditText,[],121.4,313.0,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,12,,2750,DefineEditText,[],121.4,365.5,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,13,,2751,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+designMenu,124,23,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+designMenu,124,25,,2752,DefineButton2,[],235.5,221.2,7.629608,0.0,0.0,0.86665344,,[],,False,original,
+designMenu,124,27,,2753,DefineButton2,[],235.5,273.7,7.629608,0.0,0.0,0.86665344,,[],,False,original,
+designMenu,124,29,,2754,DefineButton2,[],235.5,326.2,7.629608,0.0,0.0,0.86665344,,[],,False,original,
+designMenu,124,31,,2755,DefineButton2,[],235.5,378.7,7.629608,0.0,0.0,0.86665344,,[],,False,original,
+designMenu,124,33,,2756,DefineButton2,[],235.5,168.7,7.629608,0.0,0.0,0.86665344,,[],,False,original,
+designMenu,124,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+designMenu,124,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+designMenu,124,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+creditMenu,134,1,,2637,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+creditMenu,134,2,,2465,DefineSprite,[],392.95,286.8,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+creditMenu,134,5,,2638,DefineShape3,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+creditMenu,134,6,,2484,DefineSprite,[],403.5,180.2,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,1
+creditMenu,134,8,,2757,DefineEditText,[],401.1,273.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,9,,2758,DefineEditText,[],401.1,303.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,10,,2759,DefineEditText,[],401.1,333.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,11,,2760,DefineEditText,[],401.1,363.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,12,,2761,DefineEditText,[],401.1,393.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,13,,2762,DefineEditText,[],401.1,423.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,14,,2763,DefineEditText,[],81.1,273.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,15,,2764,DefineEditText,[],81.1,303.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,16,,2765,DefineEditText,[],81.1,333.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,17,,2766,DefineEditText,[],81.1,363.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,18,,2767,DefineEditText,[],81.1,393.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,19,,2768,DefineEditText,[],81.1,423.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,20,,2769,DefineEditText,[],401.1,453.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,21,,2770,DefineEditText,[],81.1,453.65,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,22,,2771,DefineEditText,[],490.15,534.15,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+creditMenu,134,23,,2655,DefineButton2,[],698.5,547.85,6.2707214,0.0,0.0,0.8933258,,[],,False,original,
+creditMenu,134,38,,2646,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+creditMenu,134,39,,2647,DefineEditText,[],6.9,549.9,1.0,0.0,0.0,1.0,,[],,False,original,
+creditMenu,134,40,,2467,DefineSprite,[],120.25,38.15,1.0,0.0,0.0,1.0,,[],,False,original,1
+creditMenu,134,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+IntroSeq,151,1,,213,DefineShape,[],-130.9,-8.0,1060.0,0.0,0.0,590.1494,,[],,False,original,
+IntroSeq,151,2,,2484,DefineSprite,[],414.9,294.65,1.0,0.0,0.0,1.0,"[256, 256, 256, 0, 0, 0, 0, 0]",['GLOWFILTER'],,False,original,1
+IntroSeq,151,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+IntroSeq2,166,1,,213,DefineShape,[],-130.9,-8.0,1060.0,0.0,0.0,590.1494,,[],,False,original,
+IntroSeq2,166,2,,2484,DefineSprite,[],414.9,294.65,1.0,0.0,0.0,1.0,"[256, 256, 256, 0, 0, 0, 0, 0]",['GLOWFILTER'],,False,original,1
+IntroSeq2,166,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+Navigation,181,59,KrinScreen,2908,DefineSprite,[],400.0,222.9,1.0,0.0,0.0,1.0,,['DROPSHADOWFILTER'],,True,original,191
+Navigation,181,60,,2801,DefineSprite,[],400.0,521.45,0.6199951,0.0,0.0,0.6199951,,['DROPSHADOWFILTER'],,False,original,1
+Navigation,181,126,,2910,DefineButton2,[],149.6,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,128,,2911,DefineButton2,[],179.45,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,130,,2912,DefineButton2,[],210.05,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,132,,2913,DefineButton2,[],-1708.0,521.85,0.43606567,0.0,0.0,0.43606567,,[],,False,original,
+Navigation,181,134,,2914,DefineButton2,[],-1708.0,584.45,0.43606567,0.0,0.0,0.43606567,,[],,False,original,
+Navigation,181,136,,2915,DefineButton2,[],240.1,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,138,,2916,DefineButton2,[],270.3,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,140,,2917,DefineButton2,[],427.95,500.3,0.18623352,0.0,0.0,0.18600464,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,142,,2918,DefineButton2,[],400.45,521.85,0.5035553,0.0,0.0,0.5035553,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,144,,2919,DefineShape3,[],152.15,206.95,0.6199951,0.0,0.0,0.6199951,,[],,False,original,
+Navigation,181,145,ui_but1,2922,DefineSprite,[],149.25,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,147,ui_but2,2925,DefineSprite,[],179.2,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,149,ui_but3,2928,DefineSprite,[],210.1,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,151,ui_but4,2931,DefineSprite,[],239.7,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,153,ui_but5,2934,DefineSprite,[],270.15,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,155,ui_but6,2937,DefineSprite,[],400.2,521.85,0.6199951,0.0,0.0,0.6199951,,[],,False,original,27
+Navigation,181,157,,2938,DefineButton2,[],300.75,520.8,0.41589355,0.0,0.0,0.41589355,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,original,
+Navigation,181,159,ui_but7,2941,DefineSprite,[],300.6,520.55,0.5120697,0.0,0.0,0.5120697,,[],,False,original,27
+Navigation,181,161,krinXbarPro,2945,DefineSprite,[],577.5,530.3,0.6199951,0.0,0.0,0.6199951,,['DROPSHADOWFILTER'],,False,original,1
+Navigation,181,164,,2946,DefineEditText,[],586.5,537.75,0.6199951,0.0,0.0,0.6199951,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+Navigation,181,165,,2947,DefineEditText,[],520.45,497.2,0.6199951,0.0,0.0,0.6199951,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+Navigation,181,166,,2948,DefineEditText,[],485.3,511.0,0.6199951,0.0,0.0,0.6199951,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+Navigation,181,167,KRINMENU,3239,DefineSprite,[],400.5,222.4,1.0,0.0,0.0,1.0,,"['BEVELFILTER', 'GLOWFILTER', 'DROPSHADOWFILTER']",,True,original,57
+Navigation,181,1602,KrinCombatText,3243,DefineSprite,[],400.0,48.95,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,136
+Navigation,181,1604,KrinToolTipper,2680,DefineSprite,[],800.0,600.0,1.0,0.0,0.0,1.0,,[],,True,original,19
+Navigation,181,1643,krinNavFadeSpeech,3251,DefineSprite,[],393.85,286.0,1.0,0.0,0.0,1.0,,[],,True,original,1
+Navigation,181,1650,,3252,DefineEditText,[],232.75,183.15,0.80000305,0.0,0.0,0.80000305,,[],,False,original,
+Navigation,181,1651,,3253,DefineEditText,[],232.8,163.9,0.80000305,0.0,0.0,0.80000305,,[],,False,original,
+Navigation,181,1652,,3254,DefineSprite,[],399.05,284.75,1.0,0.0,0.0,1.0,,[],,True,original,1
+Navigation,181,1654,ach_Display,3262,DefineSprite,[],400.0,97.5,1.0,0.0,0.0,1.0,,[],,False,original,70
+Navigation,181,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,1,,3266,DefineSprite,[],349.0,373.0,1.0146484,0.0,0.0,1.3815308,,['COLORMATRIXFILTER'],,False,original,1
+arenaNav,200,10,,3267,DefineShape4,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,11,,3268,DefineEditText,[],34.05,470.05,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,12,,3269,DefineEditText,[],34.05,510.05,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,13,,3270,DefineEditText,[],34.05,32.55,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,14,,3271,DefineEditText,[],34.05,82.55,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,15,,3272,DefineEditText,[],484.05,32.55,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,16,,3273,DefineEditText,[],484.05,82.55,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,17,pvpIcon1,3274,DefineSprite,[],125.05,299.95,1.0,0.0,0.0,1.0,,[],,False,original,3
+arenaNav,200,19,pvpIcon2,3274,DefineSprite,[],668.0,299.95,1.0,0.0,0.0,1.0,,[],,False,original,3
+arenaNav,200,21,,3275,DefineEditText,[],512.05,470.05,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,22,,3276,DefineEditText,[],512.05,510.05,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,
+arenaNav,200,23,,3277,DefineEditText,[],262.5,462.55,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+arenaNav,200,24,,3278,DefineButton2,[],400.0,480.4,6.600006,0.0,0.0,1.3266602,,[],,False,original,
+arenaNav,200,26,,3279,DefineEditText,[],262.5,509.55,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+arenaNav,200,27,,3280,DefineButton2,[],400.0,527.4,6.600006,0.0,0.0,1.3266602,,[],,False,original,
+arenaNav,200,29,,3281,DefineButton2,[],126.65,482.4,6.6987305,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,31,,3282,DefineButton2,[],126.65,522.4,6.6987305,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,33,,3283,DefineButton2,[],664.65,482.4,6.6987305,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,35,,3284,DefineButton2,[],664.65,522.4,6.6987305,0.0,0.0,1.0,,[],,False,original,
+arenaNav,200,37,krinNavFadeSpeech,3298,DefineSprite,[],393.85,286.0,1.0,0.0,0.0,1.0,,[],,True,original,10
+arenaNav,200,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+LOADBATTLESCENE,201,1,,213,DefineShape,[],-129.55,-5.65,1060.0,0.0,0.0,584.6465,,[],,False,original,
+LOADBATTLESCENE,201,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+KRINBATTLESCENE,217,58,__hdBattleBG,4325,DefineSprite,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,MOD_HD,11
+KRINBATTLESCENE,217,59,,3303,DefineSprite,[],400.0,73.3,1.0,0.0,0.0,1.0,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,60,UI_BAR,2801,DefineSprite,[],400.0,508.0,1.0,0.0,0.0,1.0,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,65,,3308,DefineSprite,[],400.0,507.9,1.0,0.0,0.0,1.0,,[],,False,original,48
+KRINBATTLESCENE,217,70,,3309,DefineSprite,[],400.0,287.0,1.0,0.0,0.0,1.0,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,72,__hdMask,4326,DefineSprite,[],15.0,130.4,770.001,0.0,0.0,314.0506,,[],340,False,MOD_HD,1
+KRINBATTLESCENE,217,73,,3328,DefineSprite,[],399.5,287.1,1.0,0.0,0.0,1.0,,[],,True,original,92
+KRINBATTLESCENE,217,89,BATTLESCREEN,3343,DefineSprite,[],400.0,294.5,1.0,0.0,0.0,1.0,,[],,True,original,145
+KRINBATTLESCENE,217,330,GridShaker,3344,DefineSprite,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,True,original,5
+KRINBATTLESCENE,217,332,GridZoomer,3345,DefineSprite,[],0.0,18.0,1.0,0.0,0.0,1.0,,[],,True,original,6
+KRINBATTLESCENE,217,334,,3346,DefineSprite,[],800.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,1
+KRINBATTLESCENE,217,336,BATTLEBLUR,3347,DefineSprite,[],0.0,34.25,1.0,0.0,0.0,1.0,,[],,False,original,20
+KRINBATTLESCENE,217,338,BATTLEFLASH,3348,DefineSprite,[],0.0,52.95,1.0,0.0,0.0,1.0,,[],,True,original,46
+KRINBATTLESCENE,217,341,__hdMarco,4328,DefineSprite,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,MOD_HD,1
+KRINBATTLESCENE,217,342,p5BAR,3369,DefineSprite,[],25.05,28.55,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,360,p1BAR,3369,DefineSprite,[],25.05,63.6,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,378,p3BAR,3369,DefineSprite,[],25.05,98.4,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,False,original,1
+KRINBATTLESCENE,217,396,p6BAR,3369,DefineSprite,[],776.0,28.55,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,414,p2BAR,3369,DefineSprite,[],776.0,63.6,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,432,p4BAR,3369,DefineSprite,[],776.0,98.4,1.0853271,0.0,0.0,1.160553,,['DROPSHADOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,450,KrinSelector3,3374,DefineSprite,[],-64.9,192.15,0.8999939,0.0,0.0,0.8999939,"[256, 256, 256, 256, -102, 0, -189, 0]",['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,455,KrinSelector5,3374,DefineSprite,[],-64.9,621.75,0.8999939,0.0,0.0,0.8999939,"[256, 256, 256, 256, -102, 0, -189, 0]",['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,460,KrinSelector6,3374,DefineSprite,[],-64.9,82.05,0.8999939,0.0,0.0,0.8999939,"[256, 256, 256, 256, 0, -138, -159, 0]",['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,465,KrinSelector4,3374,DefineSprite,[],-64.9,406.95,0.8999939,0.0,0.0,0.8999939,"[256, 256, 256, 256, 0, -138, -159, 0]",['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,470,KrinSelector2,3374,DefineSprite,[],-64.9,299.55,0.8999939,0.0,0.0,0.8999939,"[256, 256, 256, 256, 0, -138, -159, 0]",['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,475,KrinSelector1,3374,DefineSprite,[],-64.9,514.35,0.8999939,0.0,0.0,0.8999939,,['GLOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,480,battleClocker,3380,DefineSprite,[],400.0,507.25,1.0,0.0,0.0,1.0,,[],,True,original,1
+KRINBATTLESCENE,217,484,krinToMove,2186,DefineSprite,[],400.0,507.5,1.2294769,0.0,0.0,1.2294769,,[],,True,original,1034
+KRINBATTLESCENE,217,498,krinToMove2,3381,DefineButton2,[],400.0,507.75,1.4296265,0.0,0.0,1.4296265,,[],,False,original,
+KRINBATTLESCENE,217,500,selector,3390,DefineSprite,[],400.65,300.15,1.0383148,0.0,0.0,1.0383148,,['DROPSHADOWFILTER'],,True,original,1
+KRINBATTLESCENE,217,628,moveSelectBoomer,3394,DefineSprite,[],400.0,508.1,1.0,0.0,0.0,1.0,,[],,False,original,25
+KRINBATTLESCENE,217,630,KrinCombatText,3243,DefineSprite,[],400.0,148.5,1.0,0.0,0.0,1.0,,['GLOWFILTER'],,False,original,136
+KRINBATTLESCENE,217,632,,3395,DefineEditText,[],20.3,134.6,1.0,0.0,0.0,1.0,,[],,False,original,
+KRINBATTLESCENE,217,633,,3396,DefineEditText,[],42.3,134.6,1.0,0.0,0.0,1.0,,[],,False,original,
+KRINBATTLESCENE,217,634,combatScript,3407,DefineSprite,[],473.05,460.55,1.0,0.0,0.0,1.0,,[],,True,original,1
+KRINBATTLESCENE,217,644,__hdSkipX,3408,DefineButton2,[],445.1,473.3,0.30038452,0.0,0.0,0.3000183,,"['BEVELFILTER', 'GLOWFILTER', 'GLOWFILTER']",,False,MOD_HD,
+KRINBATTLESCENE,217,646,__hdSkipXbg,4327,DefineSprite,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,MOD_HD,1
+KRINBATTLESCENE,217,647,KrinToolTipper,2680,DefineSprite,[],800.0,600.0,1.0,0.0,0.0,1.0,,[],,True,original,19
+KRINBATTLESCENE,217,686,blacker5,3409,DefineSprite,[],398.1,287.05,1.0,0.0,0.0,1.0,,[],,False,original,85
+KRINBATTLESCENE,217,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+winCombat,218,1,,213,DefineShape,[],-130.95,0.0,1060.0,0.0,0.0,577.0436,,[],,False,original,
+winCombat,218,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+loseCombat,229,1,,213,DefineShape,[],-130.95,0.0,1060.0,0.0,0.0,577.0436,,[],,False,original,
+loseCombat,229,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+drawCombat,240,1,,213,DefineShape,[],-130.95,0.0,1060.0,0.0,0.0,577.0436,,[],,False,original,
+drawCombat,240,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+arenaEnd,252,1,,213,DefineShape,[],-130.95,0.0,1060.0,0.0,0.0,577.0436,,[],,False,original,
+arenaEnd,252,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO,263,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO,263,2,,3411,DefineEditText,[],-20.3,216.8,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+CS_INTRO,263,3,,3412,DefineEditText,[],4.5,250.95,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+CS_INTRO,263,4,,3413,DefineEditText,[],47.0,277.2,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+CS_INTRO,263,5,,3414,DefineEditText,[],149.85,313.95,1.0,0.0,0.0,1.0,,"['GLOWFILTER', 'DROPSHADOWFILTER']",,False,original,
+CS_INTRO,263,6,,3415,DefineSprite,[],-39.75,-37.25,1.0,0.0,0.0,1.0,,[],,False,original,401
+CS_INTRO,263,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO,263,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_INTRO,263,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO,263,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_INTRO,263,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO2,293,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO2,293,2,,3582,DefineSprite,[],133.5,137.5,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_INTRO2,293,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO2,293,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_INTRO2,293,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_INTRO2,293,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_INTRO2,293,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT2,320,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT2,320,2,,3746,DefineSprite,[],133.5,137.5,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_CUT2,320,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT2,320,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_CUT2,320,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT2,320,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_CUT2,320,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT1,346,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT1,346,2,,3861,DefineSprite,[],133.5,137.5,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_CUT1,346,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT1,346,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_CUT1,346,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT1,346,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_CUT1,346,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT3,372,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT3,372,2,,3893,DefineSprite,[],133.5,137.5,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_CUT3,372,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT3,372,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_CUT3,372,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT3,372,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_CUT3,372,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT4,396,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT4,396,2,,3971,DefineSprite,[],133.5,137.5,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_CUT4,396,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT4,396,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_CUT4,396,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT4,396,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_CUT4,396,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT5,421,1,,3410,DefineShape,[],0.0,0.0,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT5,421,2,,4084,DefineSprite,[],140.55,141.55,1.0,0.0,0.0,1.0,,[],,False,original,1
+CS_CUT5,421,73,,3416,DefineEditText,[],662.15,545.75,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT5,421,74,,3417,DefineButton2,[],759.55,554.95,2.6336975,0.0,0.0,0.8933258,,[],,False,original,
+CS_CUT5,421,76,,3418,DefineEditText,[],204.8,382.7,1.0,0.0,0.0,1.0,,[],,False,original,
+CS_CUT5,421,77,,3419,DefineSprite,[],397.8,287.4,1.0,0.0,0.0,1.0,,[],,True,original,1
+CS_CUT5,421,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
+overMap,449,1,krinMapper,4103,DefineSprite,[],400.45,275.45,1.0,0.0,0.0,1.0,,[],,False,original,1
+overMap,449,93,KrinToolTipper,2680,DefineSprite,[],800.0,600.0,1.0,0.0,0.0,1.0,,[],,True,original,19
+overMap,449,1656,,2629,DefineEditText,[],348.15,336.05,1.0,0.0,0.0,1.0,,[],,False,original,
